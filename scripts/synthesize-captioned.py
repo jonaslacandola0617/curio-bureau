@@ -17,7 +17,8 @@ LINES=[
 "Time zones aren't laws of nature. They're agreements. And Samoa decided to rewrite one."
 ]
 def run(args):
- p=subprocess.run(args,check=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+ p=subprocess.run(args,check=False,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+ if p.returncode!=0: raise RuntimeError('FFmpeg failure: '+str(args)+'\n'+p.stderr.decode(errors='replace'))
  return p.stdout.decode(errors='replace').strip()
 def srt_time(s):
  n=round(max(0,s)*1000);return f"{n//3600000:02d}:{n//60000%60:02d}:{n//1000%60:02d},{n%1000:03d}"
