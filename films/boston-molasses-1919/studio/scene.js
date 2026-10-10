@@ -51,7 +51,7 @@ function city(ctx,t,shift=0){
     [-100,312,280,775,"#35414A"],[180,210,190,850,"#687078"],[370,360,210,675,"#3A4850"],
     [575,270,245,760,"#515F64"],[820,365,300,740,"#39454E"]];
   blocks.forEach((b,i)=>{
-    fill(ctx,b[5],b[0],b[1],b[2],b[3]);windowGrid(ctx,b[0],b[1],b[2],b[3],i);
+    fill(ctx,b[4],b[0],b[1],b[2],b[3]);windowGrid(ctx,b[0],b[1],b[2],b[3],i);
     line(ctx,"#A0A7A0",3,[[b[0],b[1]],[b[0]+b[2],b[1]]]);
     for(let z=0;z<4;z++)line(ctx,"rgba(245,240,231,.13)",2,[[b[0],b[1]+190*z],[b[0]+b[2],b[1]+190*z]]);
   });
@@ -187,7 +187,7 @@ function sceneTank(ctx,t){
  // map line morphing to site location
  line(ctx,"rgba(200,162,107,.75)",4,[[60,1160],[160,1070],[210,1110],[290,1025],[440,1080]]);
  circle(ctx,440,1080,7,P.coral);
- if(t>12){txt(ctx,"PURlTY DISTILLING  /  TANK",88,1590,22,P.dim,"Manrope","left",700);}
+ if(t>12){txt(ctx,"PURITY DISTILLING  /  TANK",88,1590,22,P.dim,"Manrope","left",700);}
 }
 function sceneWarnings(ctx,t){
  background(ctx,t,1);
