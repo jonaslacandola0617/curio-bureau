@@ -1,0 +1,45 @@
+name: Samoa preview render
+
+on:
+  push:
+    branches:
+      - film/samoa-day-disappeared
+    paths:
+      - 'films/samoa-2011/**'
+      - 'scripts/render-html.mjs'
+      - 'package.json'
+      - '.github/workflows/samoa-preview.yml'
+  workflow_dispatch:
+
+jobs:
+  render-preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+      - name: Configure Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Render legacy motion studio preview
+        run: npm run render
+      - name: Inspect video/audio streams
+        run: |
+          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name,codec_type,width,height -of json dist/samoa-2011/preview-no-narration.webm > dist/samoa-2011/preview-probe.json
+          cat dist/samoa-2011/preview-probe.json
+          ffprobe -v error -select_streams v:0 -show_entries stream=codec_name -of csv=p=0 dist/samoa-2011/preview-no-narration.webm | grep -E '(vp8|vp9|av1)'
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of csv=p=0 dist/samoa-2011/preview-no-narration.webm | grep -E '(opus|vorbis)'
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: samoa-2011-legacy-preview-no-narration
+          path: dist/samoa-2011/
+          if-no-files-found: error
+          retention-days: 30
