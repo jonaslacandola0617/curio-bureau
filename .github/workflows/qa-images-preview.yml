@@ -34,6 +34,7 @@ jobs:
         run: |
           mkdir -p /tmp/curio-film
           gh run download 38015451074 --repo "$GH_REPO" --name curio-bureau-samoa-v2-qa --dir /tmp/curio-film
+          cp /tmp/curio-film/captions.srt films/samoa-2011/review/inspect/captions.srt
           for k in 002000 005400 006000 006200; do
             SRC=$(find /tmp/curio-film -name "frame-$k.png" -print -quit)
             test -n "$SRC"
