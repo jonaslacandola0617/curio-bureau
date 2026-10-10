@@ -1,0 +1,133 @@
+name: Curio Bureau 003 — Niagara editorial film
+on:
+  push:
+    branches: [film/niagara-1969-dewatering]
+    paths:
+      - 'films/niagara-1969/studio/**'
+      - 'films/niagara-1969/assets/**'
+      - 'scripts/build-niagara.mjs'
+      - 'scripts/prepare-niagara-map.mjs'
+      - 'scripts/fetch-niagara-photo.mjs'
+      - 'scripts/synthesize-niagara.py'
+      - 'scripts/render-niagara-webm.mjs'
+      - 'scripts/render-niagara-master.mjs'
+      - '.github/workflows/niagara-film.yml'
+  workflow_dispatch:
+concurrency:
+  group: curio-niagara-production
+  cancel-in-progress: true
+jobs:
+  production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 44
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - name: Checkout researched project branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Prepare Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prepare Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser, FFmpeg and narration services
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          pip install edge-tts==7.2.3
+      - name: Record natural-rate scene narration, word captions, subtitle SRT
+        run: python scripts/synthesize-niagara.py
+      - name: Fetch real US regional map geometry
+        run: node scripts/prepare-niagara-map.mjs
+      - name: Retrieve Wikimedia Commons CC-BY photo with recorded attribution
+        run: node scripts/fetch-niagara-photo.mjs
+      - name: Assemble self-contained original Niagara HTML studio
+        run: node scripts/build-niagara.mjs
+      - name: Render entire Niagara film with mixed narration, music, licensed effects
+        env:
+          CURIO_HTML: dist/niagara-1969/Curio_Bureau_Niagara_1969_Editorial.html
+          CURIO_VOICE: dist/niagara-1969/narration.wav
+          CURIO_OUTPUT: dist/niagara-1969/Curio_Bureau_Niagara_1969_Editorial.webm
+        run: node scripts/render-niagara-webm.mjs
+      - name: Deterministic 1080x1920 PNG-frame MP4 encode and safe-title audit
+        env:
+          CURIO_HTML: dist/niagara-1969/Curio_Bureau_Niagara_1969_Editorial.html
+          CURIO_WEBM: dist/niagara-1969/Curio_Bureau_Niagara_1969_Editorial.webm
+          CURIO_MP4: dist/niagara-1969/Curio_Bureau_Niagara_1969_Editorial.mp4
+        run: node scripts/render-niagara-master.mjs
+      - name: Verify 64-second media codec, burned word captions and separate SRT
+        run: |
+          set -euo pipefail
+          FILE=dist/niagara-1969/Curio_Bureau_Niagara_1969_Editorial.mp4
+          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_type,codec_name,width,height,r_frame_rate,sample_rate,channels -of json "$FILE" | tee dist/niagara-1969/master-probe.json
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0 "$FILE" | grep -Fx '1080,1920'
+          ffprobe -v error -select_streams v:0 -show_entries stream=codec_name -of csv=p=0 "$FILE" | grep -Fx h264
+          ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "$FILE" | grep -Fx '30/1'
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of csv=p=0 "$FILE" | grep -Fx aac
+          ffprobe -v error -select_streams a:0 -show_entries stream=sample_rate,channels -of csv=p=0 "$FILE" | grep -Fx '48000,2'
+          test "$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$FILE" | cut -d. -f1)" -ge 63
+          test "$(grep -c ' --> ' dist/niagara-1969/captions.srt)" -ge 32
+          grep -Fqi 'Horseshoe' dist/niagara-1969/captions.srt
+          grep -Fqi 'American' dist/niagara-1969/captions.srt
+      - name: Measure mastered documentary audio integrated loudness and true peak
+        run: |
+          ffmpeg -hide_banner -i dist/niagara-1969/Curio_Bureau_Niagara_1969_Editorial.mp4 -af ebur128=peak=true -f null - 2> dist/niagara-1969/loudness.log
+          tail -n 19 dist/niagara-1969/loudness.log
+          grep -q 'Integrated loudness' dist/niagara-1969/loudness.log
+      - name: Generate and commit independent visual QA evidence
+        run: |
+          set -euo pipefail
+          ffmpeg -hide_banner -loglevel error -y -pattern_type glob -framerate 1 -i 'dist/niagara-1969/qa-frames/frame-*.png' -vf 'scale=216:384,tile=5x8' -frames:v 1 dist/niagara-1969/frame-review.jpg
+          mkdir -p films/niagara-1969/review
+          for entry in "000000 opening" "000300 dewatering" "000703 geography" "001503 cofferdam" "002303 dry-cliff" "003203 geology" "004203 restoration" "005103 ijc-report" "006396 final-frame"; do
+            set -- $entry
+            f=dist/niagara-1969/qa-frames/frame-$1.png
+            if test -s "$f"; then
+              ffmpeg -hide_banner -loglevel error -y -i "$f" -vf 'scale=560:-2' -q:v 6 -frames:v 1 "/tmp/niagara-$2.jpg"
+              base64 -w0 "/tmp/niagara-$2.jpg" > "films/niagara-1969/review/$2.base64.txt"
+            fi
+          done
+          ffmpeg -hide_banner -loglevel error -y -i dist/niagara-1969/frame-review.jpg -vf 'scale=680:-2' -q:v 6 -frames:v 1 /tmp/niagara-contact.jpg
+          base64 -w0 /tmp/niagara-contact.jpg > films/niagara-1969/review/contact-sheet.base64.txt
+          cp dist/niagara-1969/captions.srt films/niagara-1969/review/captions.srt
+          cp dist/niagara-1969/speech-audit.json films/niagara-1969/review/speech-audit.json
+          git config user.name "Curio Bureau QA"
+          git config user.email "actions@users.noreply.github.com"
+          git add films/niagara-1969/review
+          git commit -m "Niagara 003 — rendered visual contact sheet, captions, natural voice QA" || exit 0
+          for attempt in 1 2 3 4; do
+            git fetch origin film/niagara-1969-dewatering
+            git rebase FETCH_HEAD
+            if git push origin HEAD:film/niagara-1969-dewatering; then exit 0; fi
+            sleep 3
+          done
+          exit 1
+      - name: Clear narration intermediate files from user artifact
+        run: |
+          rm -f dist/niagara-1969/part-*.wav dist/niagara-1969/voice-*.mp3 dist/niagara-1969/parts.txt
+          rm -f dist/niagara-1969/narration.wav dist/niagara-1969/narration-embedded.mp3 dist/niagara-1969/geography.json
+      - name: Upload full film, HTML studio, subtitles and QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: curio-bureau-niagara-003-editorial
+          path: |
+            dist/niagara-1969/Curio_Bureau_Niagara_1969_Editorial.mp4
+            dist/niagara-1969/Curio_Bureau_Niagara_1969_Editorial.webm
+            dist/niagara-1969/Curio_Bureau_Niagara_1969_Editorial.html
+            dist/niagara-1969/captions.srt
+            dist/niagara-1969/speech-audit.json
+            dist/niagara-1969/frame-review.jpg
+            dist/niagara-1969/master-probe.json
+            dist/niagara-1969/loudness.log
+            dist/niagara-1969/qa-frames/*.png
+          if-no-files-found: warn
+          retention-days: 45
