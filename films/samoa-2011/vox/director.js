@@ -15,6 +15,7 @@ function typeface(size=28,colorName=color.ink,weight=600){g.font=weight+' '+size
 function label(t,x,y,size=26,clr=color.ink,weight=700,spacing=0){
  typeface(size,clr,weight);const tr=g.getTransform();const pure=Math.abs(tr.a-1)<.001&&Math.abs(tr.d-1)<.001&&Math.abs(tr.b)<.001&&Math.abs(tr.c)<.001&&Math.abs(tr.e)<.001&&Math.abs(tr.f)<.001;
  if(pure&&x>=SAFE.left&&y<1685){while(g.measureText(t).width+x>SAFE.right&&size>15){size--;typeface(size,clr,weight)}}
+ if(pure&&y>1440&&y<1636)qa.issues.push({captionOverlap:t,y});
  if(!spacing){g.fillText(t,x,y);return}
  let xx=x;for(const ch of t){g.fillText(ch,xx,y);xx+=g.measureText(ch).width+spacing}
 }
@@ -150,8 +151,8 @@ function frame1(t){
  g.save();g.globalAlpha=q;g.translate(0,50*(1-q));
  paintRect(324,1133,428,120,color.paper);label('FRIDAY, DEC 30',359,1202,41,color.ink,800);
  for(let k=0;k<4;k++)stroke(332,1124+k*35,752,1124+k*35,color.coral,8);g.restore();
- const s=out((t-3.7)/.75);g.save();g.globalAlpha=s;stamp2('SKIPPED',553,1392,-.09);g.restore();
- label('29 DECEMBER → 31 DECEMBER',100,1640,29,color.white,800);
+ const s=out((t-3.7)/.75);g.save();g.globalAlpha=s;stamp2('SKIPPED',553,1283,-.09);g.restore();
+ label('29 DECEMBER → 31 DECEMBER',100,1408,29,color.white,800);
 }
 function frame2(t){
  deco('#132B3D');mast(2,'Samoa and the International Date Line');
@@ -168,8 +169,8 @@ function frame2(t){
  g.restore();
  const k=out((t-4.2)/1.0);
  g.save();g.globalAlpha=k;
- dataStripe('INTERNATIONAL DATE LINE',106,1464,865);
- label('Boundary shown schematically',110,1593,25,color.mist,700);
+ dataStripe('INTERNATIONAL DATE LINE',106,1273,865);
+ label('Boundary shown schematically',110,1415,25,color.mist,700);
  g.restore();
 }
 function frame3(t){
@@ -203,9 +204,9 @@ function frame4(t){
  const [sx,sy]=marks.sam;
  g.strokeStyle=color.coral;g.lineWidth=8;g.beginPath();g.arc(sx,sy,47,Math.PI*.2,Math.PI*(.2+1.9*q));g.stroke();
  if(t>3.7){let a=out((t-3.7)/1.1);g.save();g.globalAlpha=a;
- paintRect(101,1448,880,175,color.paper);
- dataTitle('SAME ISLAND.',135,1520,47,color.ink,805);
- dataTitle('NEW DAY.',135,1584,51,color.coral,805);
+ paintRect(101,1235,880,175,color.paper);
+ dataTitle('SAME ISLAND.',135,1311,47,color.ink,805);
+ dataTitle('NEW DAY.',135,1384,51,color.coral,805);
  g.restore()}
  label('SCHEMATIC SHIFT / LOCAL CALENDAR',105,1665,20,color.mist,700,1);
 }
@@ -217,9 +218,9 @@ function frame5(t){
  g.restore();
  const z=out((t-3.4)/.9);
  g.save();g.globalAlpha=z;
- paintRect(110,1380,859,174,color.paper);
- dataTitle('THU 29   →   SAT 31',149,1475,57,color.ink,808);
- label('The hands moved. The date jumped.',124,1624,25,color.white,700);
+ paintRect(110,1210,859,174,color.paper);
+ dataTitle('THU 29   →   SAT 31',149,1314,57,color.ink,808);
+ label('The hands moved. The date jumped.',124,1413,25,color.white,700);
  g.restore();
 }
 function frame6(t){
