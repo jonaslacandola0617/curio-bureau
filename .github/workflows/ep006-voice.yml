@@ -1,0 +1,105 @@
+name: EP006 Natural Voice and Word Timing
+on:
+  push:
+    branches: [film/sweden-dagen-h-1967]
+    paths: [.github/workflows/ep006-voice.yml]
+  workflow_dispatch:
+jobs:
+  narration:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Install FFmpeg and neural voice service
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install --user edge-tts numpy scipy soundfile
+      - name: Produce and trim each voice clip; assemble without dead zones
+        shell: bash
+        run: |
+          cat > /tmp/voice006.py <<'PY'
+          import asyncio,os,subprocess,json,re,pathlib,math
+          import numpy as np,soundfile as sf,edge_tts
+          ROOT=pathlib.Path('voice006');ROOT.mkdir(exist_ok=True)
+          RATE=48000
+          text=[
+          "At five in the morning, Sweden changed which side of the road people drove on. But this was not a free-for-all.",
+          "Before nineteen sixty-seven, Sweden drove on the left. Most of its neighbors drove on the right. And many Swedish cars already had their steering wheels on the left.",
+          "In nineteen fifty-five, nearly eighty-three percent voted against switching. The vote was advisory. Eight years later, parliament decided to go ahead.",
+          "Now came the hard part. Hundreds of thousands of road signs needed changing. Intersections and bus stops had to be rebuilt. Drivers had to relearn a lifelong habit.",
+          "On September third, the roads went quiet. Most traffic was banned overnight. At four fifty, vehicles still permitted on the road stopped, then carefully moved across to the right.",
+          "They waited. At exactly five a.m., the new rule took effect.",
+          "Most other drivers waited until six, or later where local restrictions remained. Traffic was brought back in stages, not all at once.",
+          "The changeover was largely orderly. Early crash numbers fell, but that did not mean the risk had vanished forever.",
+          "Sweden did not simply tell drivers to switch sides. It rebuilt the roads, rehearsed the timing, and prepared an entire country to drive differently."
+          ]
+          def cmd(args):
+            return subprocess.run(args,stdout=subprocess.PIPE,stderr=subprocess.PIPE,check=True).stdout
+          async def main():
+            frames=[];metadata=[];word_events=[]
+            for i,s in enumerate(text):
+              src=ROOT/f'raw_{i:02d}.mp3'
+              chunks=[];bound=[]
+              com=edge_tts.Communicate(text=s,voice="en-US-AndrewNeural",rate="-2%",pitch="-1Hz")
+              async for c in com.stream():
+                if c["type"]=="audio": chunks.append(c["data"])
+                if c["type"]=="WordBoundary":bound.append(c)
+              src.write_bytes(b''.join(chunks))
+              raw=np.frombuffer(cmd(["ffmpeg","-loglevel","error","-i",str(src),"-ar","48000","-ac","2","-f","f32le","pipe:1"]),dtype=np.float32).reshape(-1,2)
+              mag=np.max(abs(raw),axis=1)
+              smooth=np.sqrt(np.convolve(mag[::240]**2,np.ones(8)/8,mode='same'))
+              hi=np.where(smooth>max(.002,float(smooth.max())*.022))[0]
+              if len(hi)==0:raise RuntimeError("EMPTY VOICE "+str(i))
+              a=max(0,int(hi[0]*240-4800))
+              b=min(len(raw),int((hi[-1]+1)*240+8000))
+              seg=raw[a:b].copy()
+              f=min(1000,len(seg)//3);seg[:f]*=np.linspace(0,1,f)[:,None];seg[-f:]*=np.linspace(1,0,f)[:,None]
+              start=sum(len(q) for q in frames)/RATE
+              if i:
+                # strict short conversational breath, measured and reported
+                gap=.26 if i%3 else .38
+                frames.append(np.zeros((int(gap*RATE),2),np.float32))
+                start+=gap
+              duration=len(seg)/RATE
+              frames.append(seg)
+              sf.write(ROOT/f'clean_{i:02d}.wav',seg,RATE,subtype="PCM_24")
+              md=dict(scene=i,start=round(start,3),end=round(start+duration,3),duration=round(duration,3),text=s,word_boundary_count=len(bound))
+              metadata.append(md)
+              if bound:
+                for w in bound:
+                  st=start+(w["offset"]/1e7)-a/RATE
+                  en=st+w["duration"]/1e7
+                  if en>start and st<start+duration:word_events.append(dict(start=max(start,st),end=min(start+duration,en),text=w["text"]))
+            audio=np.concatenate(frames)
+            out=ROOT/'final_voice.wav';sf.write(out,audio,RATE,subtype="PCM_24")
+            cmd(["ffmpeg","-loglevel","error","-y","-i",str(out),"-c:a","libmp3lame","-b:a","192k",str(ROOT/"final_voice.mp3")])
+            # Browser and video SRT for early visual development:
+            cues=[]
+            for m in metadata:
+              words=m["text"].split();weights=[]
+              for w in words:
+                clean=re.sub('[^a-z]','',w.lower())
+                weights.append(.65+.45*max(1,len(re.findall('[aeiouy]+',clean)))+(.3 if w[-1] in '.,!?' else 0))
+              total=sum(weights);pos=0
+              while pos<len(words):
+                upto=min(pos+4,len(words));piece=" ".join(words[pos:upto])
+                st=m["start"]+m["duration"]*sum(weights[:pos])/total
+                en=m["start"]+m["duration"]*sum(weights[:upto])/total
+                cues.append(dict(start=round(st,3),end=round(en,3),text=piece,alignment="estimated; verify against audible word locations"))
+                pos=upto
+            def fmt(t):
+              ms=round(t*1000);return f"{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}"
+            (ROOT/"captions.srt").write_text("".join(f'{i+1}\n{fmt(c["start"])} --> {fmt(c["end"])}\n{c["text"]}\n\n' for i,c in enumerate(cues)))
+            (ROOT/"timeline.json").write_text(json.dumps(dict(scenes=metadata,cues=cues,duration=round(len(audio)/RATE,3),true_word_events=word_events),indent=2))
+            (ROOT/"voice_gap_QA.json").write_text(json.dumps(dict(between_scenes=[round(metadata[i+1]["start"]-metadata[i]["end"],3) for i in range(len(metadata)-1)],maximum_gap=round(max(metadata[i+1]["start"]-metadata[i]["end"] for i in range(len(metadata)-1)),3),method="speech-trim + actual measured WAV assembly",hard_fail_threshold=1.20),indent=2))
+            assert all(.12<=metadata[i+1]["start"]-metadata[i]["end"]<=.55 for i in range(len(metadata)-1))
+            print("FINISHED VOICE TOTAL",len(audio)/RATE,"GAPS",json.dumps(json.loads((ROOT/"voice_gap_QA.json").read_text())))
+          asyncio.run(main())
+          PY
+          python /tmp/voice006.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: episode006-continuous-voice
+          path: voice006/
+          if-no-files-found: error
