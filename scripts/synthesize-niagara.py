@@ -6,14 +6,14 @@ OUT=pathlib.Path('dist/niagara-1969');OUT.mkdir(parents=True,exist_ok=True)
 VOICE='en-US-AndrewNeural'
 STARTS=[0,7,15,23,32,42,51,58,64]
 LINES=[
-"In nineteen sixty nine, engineers did something extraordinary. They nearly stopped the American Falls at Niagara.",
-"They weren't stopping all of Niagara. Only the American Falls. Nearby Horseshoe Falls kept roaring.",
-"They built a temporary rock dam upstream, directing water around the island toward Horseshoe Falls.",
-"With the water gone, the cliff stood exposed. Cracks, unstable rock, and a mountain of fallen stone.",
-"Engineers drilled into the rock, mapped fractures, and measured water pressure. They needed to understand erosion.",
-"More than five months later, they removed the dam. On November twenty fifth, the American Falls began flowing again.",
-"In nineteen seventy five, the commission advised leaving the natural rock and erosion processes alone.",
-"Sometimes saving a natural wonder means letting nature change it."
+"In nineteen sixty nine, engineers nearly turned off the American Falls at Niagara.",
+"They didn't stop all of Niagara. Only the American Falls. Nearby Horseshoe Falls kept roaring.",
+"A temporary rock dam sent water around Goat Island toward Horseshoe Falls.",
+"With the water gone, a fractured cliff emerged. Broken rock lay piled beneath it.",
+"Engineers drilled into the cliff, mapped fractures, and measured water pressure. The goal: understand erosion.",
+"After five months, crews removed the dam. On November twenty fifth, water began flowing over American Falls again.",
+"In nineteen seventy five, a commission recommended leaving the rock and natural erosion alone.",
+"Sometimes saving nature means letting it change."
 ]
 def run(args):
  p=subprocess.run(args,check=False,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
