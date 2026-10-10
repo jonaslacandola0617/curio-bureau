@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 37
     permissions:
-      contents: read
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -68,6 +68,19 @@ jobs:
       - name: Produce editorial frame review contact sheet
         run: |
           ffmpeg -y -v error -pattern_type glob -framerate 1 -i 'dist/samoa-2011/qa-frames/frame-*.png' -vf "scale=216:384,tile=5x8" -frames:v 1 dist/samoa-2011/frame-review.jpg
+      - name: Commit visual QA evidence to project branch
+        run: |
+          mkdir -p films/samoa-2011/review
+          cp dist/samoa-2011/frame-review.jpg films/samoa-2011/review/contact-sheet.jpg
+          cp dist/samoa-2011/qa-frames/frame-000000.png films/samoa-2011/review/opening.png
+          cp dist/samoa-2011/qa-frames/frame-001603.png films/samoa-2011/review/geography.png
+          cp dist/samoa-2011/qa-frames/frame-005103.png films/samoa-2011/review/statute.png
+          cp dist/samoa-2011/qa-frames/frame-006396.png films/samoa-2011/review/final-frame.png
+          git config user.name "Curio Bureau QA"
+          git config user.email "actions@users.noreply.github.com"
+          git add films/samoa-2011/review
+          git commit -m "QA frames: inspect actual opener, cartography, statute, end card and full contact sheet"
+          git push origin HEAD:film/samoa-day-disappeared
       - name: Remove intermediates from public artifact
         run: |
           rm -f dist/samoa-2011/part-*.wav dist/samoa-2011/voice-*.mp3 dist/samoa-2011/parts.txt
