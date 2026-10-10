@@ -1,0 +1,14 @@
+{
+  "name": "curio-bureau-centralia",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-centralia.mjs",
+    "render": "node scripts/render-centralia-webm.mjs",
+    "master": "node scripts/render-centralia-master.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}
