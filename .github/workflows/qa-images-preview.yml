@@ -20,7 +20,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p films/samoa-2011/review/inspect
-          SRC="films/samoa-2011/review/sha-23c1b58372d2"
+          SRC="films/samoa-2011/review/sha-2b560f91de76"
           for k in contact-sheet opening geography statute final-frame; do
             case "$k" in contact-sheet) ext=jpg; width=630 ;; *) ext=png; width=520 ;; esac
             ffmpeg -hide_banner -loglevel error -y -i "$SRC/$k.$ext" -vf "scale=$width:-2" -q:v 6 -frames:v 1 "/tmp/$k.jpg"
@@ -33,9 +33,9 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           mkdir -p /tmp/curio-film
-          gh run download 38015451074 --repo "$GH_REPO" --name curio-bureau-samoa-v2-qa --dir /tmp/curio-film
+          gh run download 38018553197 --repo "$GH_REPO" --name curio-bureau-samoa-v2-qa --dir /tmp/curio-film
           cp /tmp/curio-film/captions.srt films/samoa-2011/review/inspect/captions.srt
-          for k in 002000 005400 006000 006200; do
+          for k in 002000 002600 003000 005400 006000 006200; do
             SRC=$(find /tmp/curio-film -name "frame-$k.png" -print -quit)
             test -n "$SRC"
             ffmpeg -hide_banner -loglevel error -y -i "$SRC" -vf "scale=520:-2" -q:v 6 -frames:v 1 "/tmp/scene-$k.jpg"
