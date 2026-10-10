@@ -10,7 +10,7 @@ LINES=[
 "This is Centralia. In nineteen sixty two, a fire likely spread from a trash dump into abandoned coal mines.",
 "Old mine tunnels linked coal seams. Heat moved underground, while fresh air kept feeding the flames.",
 "Crews drilled, dug, and tried to stop it. But the fire kept moving through hidden passages.",
-"In nineteen eighty three, Route sixty one cracked. Stopping the fire was estimated to cost over six hundred million dollars.",
+"In nineteen eighty three, Route sixty one cracked. Stopping the fire could cost over six hundred million dollars.",
 "Then, forty two million dollars funded relocation. Families moved away, and entire streets began disappearing.",
 "Now Centralia is nearly empty. The fire still burns beneath dangerous, unstable ground.",
 "The town emptied, one home at a time. The fire didn't."
