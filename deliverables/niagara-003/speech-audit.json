@@ -1,0 +1,35 @@
+{
+  "scene_starts": [
+    0,
+    7,
+    15,
+    23,
+    32,
+    42,
+    51,
+    58,
+    64
+  ],
+  "recorded_speed_ratios": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "caption_groups": 33,
+  "word_events": 108,
+  "text": [
+    "In nineteen sixty nine, engineers nearly turned off the American Falls at Niagara.",
+    "They didn't stop all of Niagara. Only the American Falls. Nearby Horseshoe Falls kept roaring.",
+    "A temporary rock dam sent water around Goat Island toward Horseshoe Falls.",
+    "With the water gone, a fractured cliff emerged. Broken rock lay piled beneath it.",
+    "Engineers drilled into the cliff, mapped fractures, and measured water pressure. The goal: understand erosion.",
+    "After five months, crews removed the dam. On November twenty fifth, water began flowing over American Falls again.",
+    "In nineteen seventy five, a commission recommended leaving the rock and natural erosion alone.",
+    "Sometimes saving nature means letting it change."
+  ]
+}
