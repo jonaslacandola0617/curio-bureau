@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "curio-bureau",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "render": "node scripts/render-html.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}
