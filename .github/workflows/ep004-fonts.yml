@@ -1,0 +1,22 @@
+name: EP004 Brand Typeface Assets
+on:
+  push:
+    branches: [film/lake-peigneur-1980]
+    paths: [.github/workflows/ep004-fonts.yml]
+  workflow_dispatch:
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          mkdir -p production_fonts
+          curl -fL --retry 3 'https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf' -o production_fonts/PlayfairDisplay.ttf
+          curl -fL --retry 3 'https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf' -o production_fonts/Manrope.ttf
+          curl -fL --retry 3 'https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/OFL.txt' -o production_fonts/OFL-Playfair.txt
+          curl -fL --retry 3 'https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt' -o production_fonts/OFL-Manrope.txt
+          test $(stat -c%s production_fonts/PlayfairDisplay.ttf) -gt 30000
+          test $(stat -c%s production_fonts/Manrope.ttf) -gt 30000
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ep004-fonts-for-renderer
+          path: production_fonts/
