@@ -30,7 +30,8 @@ try {
   if (voicePath) {
     await access(resolve(voicePath));
     await page.locator('#voiceFile').setInputFiles(resolve(voicePath));
-    await page.waitForFunction(() => Boolean(window.player?.audioBuffers?.voice) || /loaded|ready/i.test(document.querySelector('#voiceStatus')?.textContent || ''), { timeout: 30000 }).catch(() => {});
+    await page.waitForFunction(() => Boolean(window.player?.voice || window.player?.audioBuffers?.voice), null, { timeout: 60000 });
+    console.log('Narration decoded and attached to film timeline.');
     console.log('User-supplied narration has been selected:', voicePath);
   } else {
     console.warn('NO NARRATION PROVIDED: this output is ONLY a preview, never a final video.');
