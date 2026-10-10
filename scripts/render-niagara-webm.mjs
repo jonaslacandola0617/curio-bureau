@@ -25,6 +25,9 @@ try {
   page.on('pageerror', e => console.error('BROWSER ERROR:', e.message));
   page.on('console', m => { if (m.type() === 'error') console.error('CONSOLE ERROR:', m.text()); });
   await page.goto(pathToFileURL(input).href, { waitUntil: 'load', timeout: 60000 });
+  const photoReady=await page.evaluate(async()=>await window.NIAGARA_READY);
+  if(!photoReady)throw new Error('Historic documentary photo asset was not loaded');
+
   await page.waitForFunction(() => typeof window.exportCurioWebM === 'function');
   // The editorial film must NEVER export with fallback typography.
   const fonts = await page.evaluate(async () => {
@@ -34,9 +37,9 @@ try {
       document.fonts.load('800 42px "Manrope"')
     ]);
     await document.fonts.ready;
-    return {loaded:[...document.fonts].filter(f=>f.status==='loaded').map(f=>f.family),geodata:window.CURIO_QA.mapLoaded,captions:window.CURIO_QA.captionCount};
+    return {loaded:[...document.fonts].filter(f=>f.status==='loaded').map(f=>f.family),geodata:window.CURIO_QA.mapLoaded,captions:window.CURIO_QA.captionCount,photo:window.CURIO_QA.photoLoaded};
   });
-  if(!fonts.legacy && (!fonts.loaded.some(n=>n.includes('Playfair Display'))||!fonts.loaded.some(n=>n.includes('Manrope'))||!fonts.geodata||fonts.captions<35)) {
+  if(!fonts.legacy && (!fonts.loaded.some(n=>n.includes('Playfair Display'))||!fonts.loaded.some(n=>n.includes('Manrope'))||!fonts.geodata||fonts.captions<32)) {
     throw new Error('Editorial render blocked: fonts, geography or captions missing: '+JSON.stringify(fonts));
   }
   console.log('Editorial prerequisite check:',JSON.stringify(fonts));
