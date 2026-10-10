@@ -273,7 +273,7 @@ function nfScene7(t){
  let b=nfp(t,2.6,3.6);g.save();g.globalAlpha=b;
  nfr(85,1262,914,231,NF.deep);
  nfTitle('Curio Bureau',103,1383,105,NF.cream);
- nfText('STORIES, SYSTEMS, AND SURPRISES.',108,1457,23,NF.gold,800,1.4);
+ nfText('STORIES, SYSTEMS, AND SURPRISES.',108,1430,21,NF.gold,800,1.0);
  g.restore();
 }
 scenes.splice(0,scenes.length,nfScene0,nfScene1,nfScene2,nfScene3,nfScene4,nfScene5,nfScene6,nfScene7);
