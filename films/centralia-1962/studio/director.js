@@ -260,7 +260,15 @@ function cbScene4(t){
  cbBg('#11273B',3);cbMast(4,'1983 · A dangerous turning point');
  cbTitle('The ground',96,336,99,PA.paper);
  cbTitle('gave way.',96,454,104,PA.gold);
- const k=cbP(t,.20,1.6);g.save();g.globalAlpha=k;cbPanel(84,541,916,745,'#D2C8B9');cbRoad(578,cbP(t,2,4));g.restore();
+ const k=cbP(t,.20,1.6);g.save();g.globalAlpha=k;cbPanel(84,541,916,745,'#D2C8B9');
+ // True ground cutaway below the asphalt: coal geometry and burning workings,
+ // not an empty flat polygon beneath the damaged road.
+ cbLayers(864,1287);cbMineTunnel(533,1206,625,167);
+ cbEmberFront(t,385+cbP(t,2.1,5.0)*120,1113,325);
+ cbGlow(555,1036,105,cbP(t,1.6,3.4)*.75);
+ cbRoad(578,cbP(t,2,4));
+ cbLabel('ROUTE 61  /  SUBSIDENCE',117,915,24,PA.paper,800,1.1);
+ g.restore();
  const d=cbP(t,3.0,4.35);g.save();g.globalAlpha=d;cbR(95,1120,898,233,PA.night);
  cbLabel('GOVERNMENT STUDY  /  1983',125,1185,26,PA.paper,800,1.8);
  cbNumber('$663M',128,1299,120,PA.gold);
@@ -311,11 +319,11 @@ function cbScene7(t){
  cbRule(104,623,713,PA.coral,9);g.restore();
  const z=cbP(t,1.2,2.7);g.save();g.globalAlpha=z;
  cbLayers(861,1257);cbMineTunnel(520,1220,602,141);cbEmberFront(t,300,1137,485);
- cbLabel('CENTRALIA  /  MAY 1962 – PRESENT',105,1290,25,PA.paper,800,1.8);
+ cbLabel('CENTRALIA  /  MAY 1962 – PRESENT',105,1280,21,PA.paper,800,1.7);
  g.restore();
  let b=cbP(t,3.2,4.45);g.save();g.globalAlpha=b;
- cbTitle('Curio Bureau',103,1377,100,PA.paper);
- cbLabel('STORIES, SYSTEMS, AND SURPRISES.',108,1428,21,PA.gold,800,1.4);
+ cbTitle('Curio Bureau',103,1367,97,PA.paper);
+ cbLabel('STORIES, SYSTEMS, AND SURPRISES.',108,1417,20,PA.gold,800,1.4);
  g.restore();
 }
 scenes.splice(0,scenes.length,cbScene0,cbScene1,cbScene2,cbScene3,cbScene4,cbScene5,cbScene6,cbScene7);
