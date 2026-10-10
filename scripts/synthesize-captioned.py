@@ -38,7 +38,7 @@ async def main():
   if not (.5<=speed<=1.95):raise RuntimeError(f'Narration pacing unsupported: {i} {speed}')
   # use chain of atempo filters to avoid clipping.
   raw=OUT/f'part-{i:02d}.wav'
-  af=f'atempo={speed:.7f},apad,atrim=0:{end-start},afade=t=in:st=0:d=.07,afade=t=out:st={end-start-.12}:d=.12'
+  af=f'atempo={speed:.7f},apad,atrim=0:{end-start},afade=t=in:st=0:d=0.07,afade=t=out:st={end-start-.12}:d=0.12'
   run(['ffmpeg','-y','-v','error','-i',str(audio),'-af',af,'-ac','2','-ar','48000',str(raw)])
   for word in words:
    all_words.append(dict(text=word['text'],start=round(start+word['start']/speed,3),end=round(min(end-.05,start+word['end']/speed),3)))
