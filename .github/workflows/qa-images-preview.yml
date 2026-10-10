@@ -1,0 +1,33 @@
+name: Prepare review images for external QA
+on:
+  push:
+    branches: [film/samoa-day-disappeared]
+    paths: ['.github/workflows/qa-images-preview.yml']
+  workflow_dispatch:
+jobs:
+  review-thumbnails:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Transcode review captures to small viewable base64 images
+        run: |
+          set -euo pipefail
+          mkdir -p films/samoa-2011/review/inspect
+          SRC="films/samoa-2011/review/sha-23c1b58372d2"
+          for k in contact-sheet opening geography statute final-frame; do
+            case "$k" in contact-sheet) ext=jpg; width=630 ;; *) ext=png; width=520 ;; esac
+            ffmpeg -hide_banner -loglevel error -y -i "$SRC/$k.$ext" -vf "scale=$width:-2" -q:v 6 -frames:v 1 "/tmp/$k.jpg"
+            base64 -w0 "/tmp/$k.jpg" > "films/samoa-2011/review/inspect/$k.base64.txt"
+          done
+          wc -c films/samoa-2011/review/inspect/*
+      - name: Commit compact QA previews
+        run: |
+          git config user.name "Curio Bureau QA"
+          git config user.email "actions@users.noreply.github.com"
+          git add films/samoa-2011/review/inspect
+          git commit -m "QA previews: visual inspection in connected assistant" || exit 0
+          git fetch origin film/samoa-day-disappeared
+          git rebase FETCH_HEAD
+          git push origin HEAD:film/samoa-day-disappeared
