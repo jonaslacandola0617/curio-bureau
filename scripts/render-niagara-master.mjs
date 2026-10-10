@@ -37,7 +37,7 @@ try{
  if(!pre.faces.some(f=>f.family.toLowerCase().includes('manrope')&&f.status==='loaded'))throw Error('Manrope not actually loaded');
  if(pre.duration!==64||pre.fps!==30||!pre.geodata||!pre.photo||pre.captions<32||pre.sfx<11)throw Error('Required film assets incomplete');
  const cv=page.locator('#film');
- const audits=[0,.2,.8,2,4,6.5,7.9,8.03,9,12,15.9,16.03,17,20,24.9,25.03,26,30,33.9,34.03,37,40,41.9,42.03,45,48,50.9,51.03,54,57.9,58.03,60,61,62,63,63.8,63.96];
+ const audits=[0,.2,.8,2,3,4.8,6.5,6.98,7.03,9,12,14.95,15.03,17,20,22.95,23.03,26,28,31.95,32.03,35,38,41.95,42.03,44.5,47.5,50.95,51.03,54,57.95,58.03,60,61,62,63,63.8,63.96];
  let failed=[];
  for(const t of audits){
   const report=await page.evaluate(t=>window.inspectFrame(t),t);
