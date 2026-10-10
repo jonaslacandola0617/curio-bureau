@@ -26,6 +26,20 @@ try {
   page.on('console', m => { if (m.type() === 'error') console.error('CONSOLE ERROR:', m.text()); });
   await page.goto(pathToFileURL(input).href, { waitUntil: 'load', timeout: 60000 });
   await page.waitForFunction(() => typeof window.exportCurioWebM === 'function');
+  // The editorial film must NEVER export with fallback typography.
+  const fonts = await page.evaluate(async () => {
+    if(!window.CURIO_QA) return {legacy:true};
+    await Promise.all([
+      document.fonts.load('600 100px "Playfair Display"'),
+      document.fonts.load('800 42px "Manrope"')
+    ]);
+    await document.fonts.ready;
+    return {loaded:[...document.fonts].filter(f=>f.status==='loaded').map(f=>f.family),geodata:window.CURIO_QA.mapLoaded,captions:window.CURIO_QA.captionCount};
+  });
+  if(!fonts.legacy && (!fonts.loaded.some(n=>n.includes('Playfair Display'))||!fonts.loaded.some(n=>n.includes('Manrope'))||!fonts.geodata||fonts.captions<35)) {
+    throw new Error('Editorial render blocked: fonts, geography or captions missing: '+JSON.stringify(fonts));
+  }
+  console.log('Editorial prerequisite check:',JSON.stringify(fonts));
   const voicePath = process.env.CURIO_VOICE || '';
   if (voicePath) {
     await access(resolve(voicePath));
