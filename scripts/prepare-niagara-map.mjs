@@ -1,0 +1,11 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+const url='https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json';
+const r=await fetch(url,{signal:AbortSignal.timeout(45000)});
+if(!r.ok)throw Error('US geographic polygon download failed: '+r.status);
+const json=await r.json();
+const names=['New York','Pennsylvania','Ohio','Vermont','Massachusetts','Connecticut','New Jersey','Michigan'];
+const features=json.features.filter(f=>names.includes(f.properties.name)).map(f=>({name:f.properties.name,geometry:f.geometry}));
+if(features.length<7||!features.some(x=>x.name==='New York'))throw Error('Real New York state boundary missing');
+await mkdir('dist/niagara-1969',{recursive:true});
+await writeFile('dist/niagara-1969/geography.json',JSON.stringify(features));
+console.log('New York and US region geodata',features.length);
