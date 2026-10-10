@@ -1,0 +1,89 @@
+{
+  "title": "Curio Bureau 001 preproduction animatic",
+  "fps": 30,
+  "duration": 64,
+  "stage": "ANIMATIC",
+  "reference": "Storyboard beats-storyboard.md",
+  "frames": [
+    {
+      "time": "00:00",
+      "seconds": 0,
+      "description": "Date grid and editorial headline",
+      "styleframe": "style-01-calendar.svg",
+      "transition": "object-continuity and direction-matched cut",
+      "evidence": "see research.md"
+    },
+    {
+      "time": "00:08",
+      "seconds": 8,
+      "description": "Friday erased; three-day flip",
+      "styleframe": "style-01-calendar.svg",
+      "transition": "object-continuity and direction-matched cut",
+      "evidence": "see research.md"
+    },
+    {
+      "time": "00:16",
+      "seconds": 16,
+      "description": "Pacific cartography anchored in projected data",
+      "styleframe": "style-02-map.svg",
+      "transition": "object-continuity and direction-matched cut",
+      "evidence": "see research.md"
+    },
+    {
+      "time": "00:25",
+      "seconds": 25,
+      "description": "Business overlap micro-timeline",
+      "styleframe": "style-02-map.svg",
+      "transition": "object-continuity and direction-matched cut",
+      "evidence": "see research.md"
+    },
+    {
+      "time": "00:34",
+      "seconds": 34,
+      "description": "Date-line and geography relationship",
+      "styleframe": "style-02-map.svg",
+      "transition": "object-continuity and direction-matched cut",
+      "evidence": "see research.md"
+    },
+    {
+      "time": "00:42",
+      "seconds": 42,
+      "description": "Apia midnight clock and paper time change",
+      "styleframe": "style-01-calendar.svg",
+      "transition": "object-continuity and direction-matched cut",
+      "evidence": "see research.md"
+    },
+    {
+      "time": "00:51",
+      "seconds": 51,
+      "description": "Actual International Date Line Act evidence",
+      "styleframe": "style-03-act.svg",
+      "transition": "object-continuity and direction-matched cut",
+      "evidence": "see research.md"
+    },
+    {
+      "time": "00:58",
+      "seconds": 58,
+      "description": "Last insight and masthead",
+      "styleframe": "style-04-end.svg",
+      "transition": "object-continuity and direction-matched cut",
+      "evidence": "see research.md"
+    }
+  ],
+  "voiceStarts": [
+    0,
+    8,
+    16,
+    25,
+    34,
+    42,
+    51,
+    58
+  ],
+  "captionMargin": {
+    "left": 110,
+    "right": 110,
+    "top": 1400,
+    "bottom": 290
+  }
+}
