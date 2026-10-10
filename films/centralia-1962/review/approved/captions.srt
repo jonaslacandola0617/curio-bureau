@@ -1,192 +1,148 @@
 1
-00:00:00,104 --> 00:00:01,498
-In Pennsylvania, there's a
+00:00:00,102 --> 00:00:01,416
+In Pennsylvania, a
 
 2
-00:00:01,511 --> 00:00:02,697
-town where the ground has
+00:00:01,429 --> 00:00:02,781
+fire has burned beneath
 
 3
-00:00:02,710 --> 00:00:04,013
-been burning for more than
+00:00:02,793 --> 00:00:04,120
+one town for more than
 
 4
-00:00:04,026 --> 00:00:05,004
+00:00:04,133 --> 00:00:05,051
 sixty years.
 
 5
-00:00:05,447 --> 00:00:06,750
-The fire is still alive
+00:00:05,472 --> 00:00:06,594
+It's still burning today.
 
 6
-00:00:06,763 --> 00:00:07,375
-underneath.
-
-7
-00:00:08,102 --> 00:00:09,018
+00:00:08,102 --> 00:00:09,020
 This is Centralia.
 
-8
-00:00:09,438 --> 00:00:10,660
+7
+00:00:09,441 --> 00:00:10,653
 In nineteen sixty two,
 
-9
-00:00:11,067 --> 00:00:12,480
+8
+00:00:11,061 --> 00:00:12,477
 a fire likely spread from
 
-10
-00:00:12,492 --> 00:00:13,689
+9
+00:00:12,490 --> 00:00:13,689
 a trash dump into
 
+10
+00:00:13,702 --> 00:00:15,066
+abandoned coal mines.
+
 11
-00:00:13,701 --> 00:00:14,770
-abandoned coal mine
+00:00:16,102 --> 00:00:17,505
+Old mine tunnels linked coal
 
 12
-00:00:14,783 --> 00:00:15,394
-workings.
+00:00:17,518 --> 00:00:18,066
+seams.
 
 13
-00:00:16,123 --> 00:00:17,628
-The tunnels connected layers
+00:00:18,526 --> 00:00:19,686
+Heat moved underground,
 
 14
-00:00:17,642 --> 00:00:18,709
-of coal beneath the
+00:00:20,005 --> 00:00:21,485
+while fresh air kept feeding
 
 15
-00:00:18,722 --> 00:00:19,420
-streets.
+00:00:21,497 --> 00:00:22,224
+the flames.
 
 16
-00:00:19,899 --> 00:00:20,911
-Heat crept through the
+00:00:25,102 --> 00:00:26,594
+Crews drilled, dug,
 
 17
-00:00:20,925 --> 00:00:22,211
-seams, while air
+00:00:26,875 --> 00:00:27,793
+and tried to stop it.
 
 18
-00:00:22,224 --> 00:00:23,729
-passages helped the fire
+00:00:28,227 --> 00:00:29,630
+But the fire kept moving
 
 19
-00:00:23,743 --> 00:00:24,372
-survive.
+00:00:29,643 --> 00:00:30,829
+through hidden passages.
 
 20
-00:00:25,128 --> 00:00:26,245
-Workers drilled,
+00:00:34,102 --> 00:00:35,288
+In nineteen eighty three,
 
 21
-00:00:26,708 --> 00:00:28,144
-dug, and tried to
+00:00:35,620 --> 00:00:37,099
+Route sixty one cracked.
 
 22
-00:00:28,160 --> 00:00:28,878
-contain it.
+00:00:37,533 --> 00:00:39,000
+Stopping the fire could cost
 
 23
-00:00:29,421 --> 00:00:30,730
-But the flames were hidden
+00:00:39,013 --> 00:00:40,365
+over six hundred million
 
 24
-00:00:30,746 --> 00:00:31,927
-in a maze that was
+00:00:40,378 --> 00:00:40,952
+dollars.
 
 25
-00:00:31,943 --> 00:00:33,299
-difficult to reach.
+00:00:42,102 --> 00:00:43,658
+Then, forty two million
 
 26
-00:00:34,078 --> 00:00:34,950
-By nineteen eighty three,
+00:00:43,671 --> 00:00:45,214
+dollars funded relocation.
 
 27
-00:00:35,175 --> 00:00:36,692
-subsidence damaged Route sixty
-
-28
-00:00:36,702 --> 00:00:37,122
-one.
-
-29
-00:00:37,250 --> 00:00:38,679
-A government study estimated six
-
-30
-00:00:38,689 --> 00:00:39,991
-hundred sixty three million
-
-31
-00:00:40,001 --> 00:00:41,469
-dollars to extinguish the fire.
-
-32
-00:00:42,101 --> 00:00:43,251
-So Congress approved
-
-33
-00:00:43,264 --> 00:00:44,856
-forty two million dollars
-
-34
-00:00:44,869 --> 00:00:45,741
-for relocation.
-
-35
-00:00:46,233 --> 00:00:47,788
+00:00:45,712 --> 00:00:47,268
 Families moved away, and
 
-36
-00:00:47,800 --> 00:00:49,115
+28
+00:00:47,281 --> 00:00:48,582
 entire streets began
 
-37
-00:00:49,127 --> 00:00:50,391
-disappearing from the map.
+29
+00:00:48,594 --> 00:00:49,245
+disappearing.
 
-38
-00:00:51,077 --> 00:00:52,480
-Today, Centralia is nearly
+30
+00:00:51,102 --> 00:00:52,543
+Now Centralia is nearly
 
-39
-00:00:52,489 --> 00:00:52,909
+31
+00:00:52,556 --> 00:00:52,976
 empty.
 
-40
-00:00:53,089 --> 00:00:54,675
-Underground, the fire persists,
+32
+00:00:53,360 --> 00:00:54,878
+The fire still burns beneath
 
-41
-00:00:54,810 --> 00:00:56,251
-with dangerous gases and ground
+33
+00:00:54,954 --> 00:00:56,408
+dangerous, unstable
 
-42
-00:00:56,260 --> 00:00:57,479
-that can collapse without warning.
+34
+00:00:56,421 --> 00:00:56,855
+ground.
 
-43
-00:00:58,103 --> 00:00:59,194
-The town didn't disappear
+35
+00:00:58,115 --> 00:00:59,505
+The town emptied, one home
 
-44
-00:00:59,205 --> 00:00:59,710
-overnight.
+36
+00:00:59,518 --> 00:01:00,054
+at a time.
 
-45
-00:01:00,089 --> 00:01:00,950
-It emptied one home at
-
-46
-00:01:00,961 --> 00:01:01,381
-a time.
-
-47
-00:01:01,753 --> 00:01:02,396
-The town left.
-
-48
-00:01:02,786 --> 00:01:03,441
+37
+00:01:00,487 --> 00:01:01,214
 The fire didn't.
 
