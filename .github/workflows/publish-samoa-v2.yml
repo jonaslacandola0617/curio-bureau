@@ -1,0 +1,53 @@
+name: Publish Samoa Vox Editorial V2
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-samoa-v2.yml'
+  workflow_dispatch:
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - name: Verify approved V2 build completed from exact production commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          test "$(gh api "repos/$GH_REPO/actions/runs/38018553197" --jq '.conclusion')" = "success"
+          test "$(gh api "repos/$GH_REPO/actions/runs/38018553197" --jq '.head_sha')" = "2b560f91de76165e26de4c5cce6a638af178d2e0"
+      - name: Download fully checked V2 film masters
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          mkdir -p master
+          gh run download 38018553197 --repo "$GH_REPO" --name curio-bureau-samoa-v2-qa --dir master
+          for f in Curio_Bureau_Samoa_Vox_Editorial.mp4 Curio_Bureau_Samoa_Vox_Editorial.webm Curio_Bureau_Samoa_Vox_Editorial.html captions.srt frame-review.jpg master-probe.json loudness.log; do
+            test -s "master/$f" || { echo "Missing master/$f"; exit 1; }
+          done
+          grep -Fq "They're agreements." master/captions.srt
+          grep -Fq "And Samoa decided to rewrite" master/captions.srt
+          test "$(grep -c ' --> ' master/captions.srt)" -ge 45
+          ls -lh master/
+      - name: Publish verified director's cut, replacing defective version as recommended release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release create samoa-vox-002 \
+            master/Curio_Bureau_Samoa_Vox_Editorial.mp4 \
+            master/Curio_Bureau_Samoa_Vox_Editorial.webm \
+            master/Curio_Bureau_Samoa_Vox_Editorial.html \
+            master/captions.srt \
+            master/frame-review.jpg \
+            master/master-probe.json \
+            master/loudness.log \
+            --repo "$GH_REPO" \
+            --target "2b560f91de76165e26de4c5cce6a638af178d2e0" \
+            --latest \
+            --title "Curio Bureau 001 — The Day That Disappeared | V2 Director's Cut" \
+            --notes "CORRECTED V2. Original 64-second Vox-inspired Curio Bureau editorial explainer, animated Pacific cartography derived from Natural Earth, stylized historical statute, Playfair Display headings, Manrope captions burned into BOTH video masters, synchronized 46-cue SRT file, 43 motion sound cues from 10 sounds selected from the owner's Google Drive, embedded narration and background music, 1080x1920 30fps crisp H.264 MP4 master at CRF16 with AAC 48k stereo. HTML studio includes narration, music, SFX, captions, playback and WebM export. Production commit: 2b560f91de76. All automated media checks passed; 37 native frame screenshots and key scenes visually reviewed. Source on film/samoa-day-disappeared. Replaces original samoa-vox-001. The final mix passed measured loudness checks; no claim of a human listening audition."
