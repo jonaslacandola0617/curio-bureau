@@ -32,7 +32,7 @@ jobs:
             test -s "/tmp/centralia-corrected/$f"
           done
           grep -Fq 'Route' /tmp/centralia-corrected/captions.srt
-          grep -Fq 'nearly empty' /tmp/centralia-corrected/captions.srt
+          grep -Fq 'Now Centralia is nearly' /tmp/centralia-corrected/captions.srt
       - name: Push distinct corrected master assets
         run: |
           set -euo pipefail
