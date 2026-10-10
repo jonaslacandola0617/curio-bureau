@@ -1,0 +1,10 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+const url='https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json';
+const r=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!r.ok)throw Error('US states cartography unavailable '+r.status);
+const d=await r.json();
+const use=['Pennsylvania','New York','New Jersey','Ohio','West Virginia','Maryland','Virginia','Delaware','Connecticut','Massachusetts'];
+const items=d.features.filter(f=>use.includes(f.properties?.name)).map(f=>({name:f.properties.name,geometry:f.geometry}));
+if(items.length<8||!items.find(f=>f.name==='Pennsylvania'))throw Error('Actual Pennsylvania geodata absent');
+await mkdir('dist/centralia-1962',{recursive:true});
+await writeFile('dist/centralia-1962/geography.json',JSON.stringify(items));
+console.log('Geographic state shapes:',items.map(x=>x.name).join(', '));
