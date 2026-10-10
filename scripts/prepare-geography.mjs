@@ -1,0 +1,12 @@
+import {writeFile,mkdir} from 'node:fs/promises';
+const url='https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson';
+const response=await fetch(url,{signal:AbortSignal.timeout(45000)});
+if(!response.ok)throw new Error('Natural Earth download failed: '+response.status);
+const input=await response.json();
+const countries=['Australia','New Zealand','Papua New Guinea','Indonesia','Solomon Islands','Vanuatu','Fiji','Samoa','Tonga','New Caledonia','Timor-Leste','Kiribati'];
+const wanted=input.features.filter(f=>countries.includes(f.properties?.ADMIN)||countries.includes(f.properties?.NAME));
+if(!wanted.some(f=>f.properties.ADMIN==='Australia')||!wanted.some(f=>f.properties.ADMIN==='New Zealand'))throw Error('Geography incomplete');
+const geo=wanted.map(f=>({name:f.properties.ADMIN||f.properties.NAME,geometry:f.geometry}));
+await mkdir('dist/samoa-2011',{recursive:true});
+await writeFile('dist/samoa-2011/geography.json',JSON.stringify(geo));
+console.log('Natural Earth geography loaded, country polygons:',geo.length,'encoded chars:',JSON.stringify(geo).length);
