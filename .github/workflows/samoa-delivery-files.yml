@@ -1,0 +1,35 @@
+name: Deliver Samoa V2 individual files
+on:
+  push:
+    branches: [film/samoa-day-disappeared]
+    paths:
+      - '.github/workflows/samoa-delivery-files.yml'
+  workflow_dispatch:
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retrieve completed V2 files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/curio-video
+          gh run download 38018553197 --repo "${{ github.repository }}" --name curio-bureau-samoa-v2-qa --dir /tmp/curio-video
+      - name: Publish individual video files in distribution branch
+        run: |
+          git switch -c delivery/samoa-vox-002
+          mkdir -p deliverables/samoa-vox-002
+          cp /tmp/curio-video/Curio_Bureau_Samoa_Vox_Editorial.mp4 deliverables/samoa-vox-002/
+          cp /tmp/curio-video/Curio_Bureau_Samoa_Vox_Editorial.webm deliverables/samoa-vox-002/
+          cp /tmp/curio-video/Curio_Bureau_Samoa_Vox_Editorial.html deliverables/samoa-vox-002/
+          cp /tmp/curio-video/captions.srt deliverables/samoa-vox-002/
+          cp /tmp/curio-video/frame-review.jpg deliverables/samoa-vox-002/
+          git config user.name "Curio Bureau Delivery"
+          git config user.email "actions@users.noreply.github.com"
+          git add deliverables/samoa-vox-002
+          git commit -m "Distribute corrected Samoa V2 individual video masters"
+          git push -u origin delivery/samoa-vox-002
