@@ -1,0 +1,19 @@
+# Niagara 1969 — detailed visual beats / animatic 64 seconds
+
+| Time | Editorial graphic — exact design | Camera/transition | Audio intent | Fact / caption |
+|---|---|---|---|---|
+| 00–03 | Wet limestone escarpment artwork: layered rock face with dense independent whitewater strands, mist, moving glints; deep turquoise gorge; modern photo crop in torn paper edge | Controlled push into falling water with handmade frame | Waterfall broadband roar + low musical tension | USACE dewatering |
+| 03–07 | A 1969 daterule stamps; water streams diminish *only over American side*; Horseshoe stays represented by persistent blue ribbon in mini schematic | Water volume graphic folds into a diagram ink line | Water roar fades to near silence + definitive paper impact | Date June 1969 |
+| 07–12 | Geographical location map: US/Canada region → Niagara Gorge landmarks → Goat Island and named twin falls, Canada/USA | Camera push following Niagara River; labels reveal sequentially | Airy real Drive whoosh, map click | Both falls, accurately identified |
+| 12–15 | Bold two-column water comparison, American label GOES DRY while Horseshoe label KEPT FLOWING | Moving line matches dam top edge | One hard click and musical low chord | Fact distinction |
+| 15–19 | Cutaway construction plan: four richly textured boulder clusters fill drawn cross-channel barrier, one by one | Angle follows dam line from bank to Goat Island | Stone/debris noises, distinct impacts | Rock cofferdam |
+| 19–23 | Animated current flow vectors reroute toward Horseshoe; local dam holds upstream channel; clarified FLOW ARROW | Dotted channels turn into hydrology arrows | Swoosh + low resonant sustained tone | USACE |
+| 23–28 | Real rights-cleared photograph of dewatered historic scene **or** explicit original illustration shows exposed dolomite and fall talus | Polaroid archival clip pushes through print; annotator inks geology | Paper shutter + land ambience | Photo rights, no fake archive |
+| 28–32 | The face is exploded into layered geology cross-section: resistant dolomite over shale, talus pile accumulation and fractured bedrock | Topography transitions into colored strata | Detailed brittle chips, low mechanical rumble | USACE geology |
+| 32–36 | Drill rig with real assembly (mast, base, drill string, bore, depth ticks), core sample cylinder pulled | Assembled cutaway scale changes smoothly | Tool tick and mechanical impact | 48 core borings |
+| 36–42 | Piezometer dial visual; water pressure in joints, crack line marker, fracture lines pulse; statement "UNDERSTAND EROSION" | Geological annotated schematic becomes measured chart | Click series, bed lowers for speech | USACE studies |
+| 42–47 | Reverse engineer: dam stones lifted gradually; flow reconnects small stream first, grows into multiple ribbons | Existing flow diagram becomes the river | Staggered stone removal impacts, building water | Nov 25 restoration gradual |
+| 47–51 | Fuller cascading waterfall with increasingly detailed segmented strands, spray and rainbow mist; Horseshoe uninterrupted label | Recovered photo/cascade detailed view | Music builds, roaring water returns | Restoration |
+| 51–56 | Re-typeset IJC 1975 document with authentic title and publication year, key recommendation visually paraphrased not falsely quoted | Paper turn, documented highlighted line moves into final thesis | Dry archival rustle and resolved musical chord | IJC final report |
+| 56–60 | Scale return to gorge; visual contrast between human engineering markers and natural cliff retreat; dates 1969→1975 | Diagram dissolves into real water photographic texture | warm resolving motif | Interpretive final |
+| 60–64 | "LET NATURE CHANGE." typeset Playfair in safe region; brand signature and full hold | Gold flowing channel stroke becomes masthead line | musical end chord, no dramatic whoosh | Philosophical end |
