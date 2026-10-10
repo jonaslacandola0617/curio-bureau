@@ -75,6 +75,44 @@ async def narration():
     if current:cues.append({"start":round(current[0]["start"],3),
               "end":round(min(76,current[-1]["end"]+.08),3),
               "text":" ".join(e["text"] for e in current)})
+    if not words:
+        # Some Edge TTS responses contain audio with NO WordBoundary events.
+        # Without this guard the old pipeline silently delivered zero captions.
+        # Estimate time cues from the measured recorded durations, and mark
+        # their provenance. This is a working fallback, NOT verified forced
+        # alignment, and must not be advertised as exact word boundaries.
+        import re
+        timings_by_scene=timings
+        for seg in timings_by_scene:
+            start=seg["start"]; words_here=seg["text"].split()
+            duration=seg["actual_length"]
+            def weight(tok):
+                w=re.sub(r"[^A-Za-z]","",tok).lower()
+                syl=len(re.findall(r"[aeiouy]+",w)) or 1
+                return .45+.5*syl+.045*min(len(w),9)+(.30 if re.search(r"[,.?!:]$",tok) else 0)
+            weights=[weight(w) for w in words_here]
+            total=sum(weights)
+            accum=0.; j=0
+            while j<len(words_here):
+                k=j
+                while k+1<len(words_here):
+                    phrase=" ".join(words_here[j:k+2])
+                    nextdur=(sum(weights[j:k+2])/total)*duration
+                    if k-j+1>=4 or len(phrase)>34 or nextdur>1.65:break
+                    k+=1
+                    if re.search(r"[.!?]$",words_here[k]):break
+                st=start+duration*(sum(weights[:j])/total)
+                en=start+duration*(sum(weights[:k+1])/total)
+                cues.append({"start":round(max(0,st-.01),3),
+                             "end":round(min(76,en+.03),3),
+                             "text":" ".join(words_here[j:k+1]),
+                             "source":"ESTIMATED_FROM_RECORDED_SCENE_DURATION"})
+                j=k+1
+        (BASE/"caption_alignment_method.txt").write_text(
+          "WordBoundary metadata was unavailable from the TTS service.\\n"
+          "Captions are syllable-weighted estimates from measured recording "
+          "durations and REQUIRE manual listening/forced alignment before FINAL.\\n")
+    if not cues: raise RuntimeError("No caption timing data generated. FAIL release.")
     (BASE/"captions.json").write_text(json.dumps(cues,indent=2))
     (BASE/"word_boundaries.json").write_text(json.dumps(words,indent=2))
     (BASE/"voice_timing.json").write_text(json.dumps(timings,indent=2))
