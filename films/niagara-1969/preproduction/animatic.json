@@ -1,0 +1,37 @@
+{
+  "duration": 64,
+  "fps": 30,
+  "stage": "ANIMATIC APPROVED FOR BUILD",
+  "sceneStart": [
+    0,
+    7,
+    15,
+    23,
+    32,
+    42,
+    51,
+    58,
+    64
+  ],
+  "beats": [
+    "Hero waterfall drains",
+    "Which Falls? two channels",
+    "Cofferdam stones and redirected flow",
+    "Dry limestone cliff and talus",
+    "Drilling and pressure studies",
+    "Dam removal, gradual return of cascading water",
+    "1975 IJC report and findings",
+    "Curio Bureau insight and brand"
+  ],
+  "styleframes": [
+    "01-waterfall-hook.svg",
+    "02-flow-map.svg",
+    "03-geology-cutaway.svg",
+    "04-policy-finale.svg"
+  ],
+  "captionZone": [
+    1455,
+    1632
+  ],
+  "licenseNotes": "Flowing Falls photo Bob Linsdell CC BY2.0; technical maps schematic labeled."
+}
