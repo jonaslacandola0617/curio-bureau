@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Curio Bureau / 004 / Lake Peigneur — Editorial Animatic</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root{--navy:#0D1C2B;--ivory:#F5F0E7;--gold:#C8A26B;--coral:#D57864}
+*{box-sizing:border-box}body{background:#09131d;color:var(--ivory);font:500 14px Manrope,system-ui,sans-serif;margin:0}
+header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ffffff22;padding:14px 25px;gap:12px;flex-wrap:wrap}h1{font:600 23px 'Playfair Display',Georgia,serif;margin:0}.kicker{font-size:10px;letter-spacing:.24em;color:var(--gold)}
+main{display:flex;gap:24px;max-width:1180px;margin:18px auto;padding:0 20px;align-items:flex-start;justify-content:center}
+.viewer{width:min(100%,410px);aspect-ratio:9/16;box-shadow:0 23px 90px #000b;border:1px solid #ffffff24;position:relative;overflow:hidden;background:#0D1C2B}
+canvas{width:100%;height:100%;object-fit:contain;display:block}.panel{width:420px;max-width:100%;padding:12px 8px}.panel h2{font:600 28px 'Playfair Display',Georgia,serif;margin:0 0 11px}.panel p{line-height:1.65;color:#bed0d5;font-size:12px}
+.controls{display:flex;gap:9px;margin:20px 0 10px;flex-wrap:wrap}button,.load{color:#eae4da;border:1px solid #7a879077;background:#152a3b;border-radius:7px;padding:10px 13px;font:700 12px Manrope,system-ui;cursor:pointer}button:hover,.load:hover{border-color:var(--gold)}button.primary{background:var(--gold);color:#122332}button:disabled{opacity:.45;cursor:default}
+input[type=range]{width:100%;accent-color:var(--gold)}.line{display:flex;justify-content:space-between;font-size:10px;letter-spacing:.08em;color:#9bb1bb}.notice{padding:12px;border-left:2px solid var(--gold);background:#c8a26b0d;line-height:1.7;color:#c4cbd1;font-size:12px}input[type=file]{display:none}.timeline-list{margin:14px 0;padding:0;list-style:none}.timeline-list li{padding:9px 0;border-bottom:1px solid #ffffff14;font-size:12px;color:#b4c9cf}.timeline-list b{color:var(--ivory)}.scene-tag{display:inline-block;min-width:76px;color:var(--gold);font-size:11px}
+@media(max-width:790px){main{flex-direction:column;align-items:center}.panel{width:min(100%,420px)}header{padding:15px}}
+</style></head><body>
+<header><div><div class="kicker">CURIO BUREAU / FILM 004 / WORK-IN-PROGRESS</div><h1>The Day a Lake Disappeared</h1></div><span style="font-size:12px;color:#d8b889">NATIVE 4K VECTOR MOTION STUDIO · 75 S</span></header>
+<main><div class="viewer"><canvas id="film" width="2160" height="3840" aria-label="Curio Bureau Episode 004 editorial animation canvas"></canvas></div>
+<div class="panel"><div class="kicker">PRODUCTION ANIMATIC · NOT RELEASE MASTER</div><h2>Lake Peigneur, 1980</h2><p>Original 2D/2.5D editorial scenes with stateful fluid mechanisms and deterministic 4K frames. The reconstructions are explanatory artwork, not historical photographs.</p>
+<div class="controls"><button id="play" class="primary">▶ Play</button><button id="pause">Ⅱ Pause</button><button id="replay">↺ Replay</button><button id="export">⬇ Export WebM</button></div>
+<div class="line"><span id="timeText">00:00.00</span><span>01:15.00 · 30 FPS</span></div><input type="range" min="0" max="75" step="0.03333333" value="0" id="scrub"/>
+<div style="margin:10px 0 16px"><label class="load" for="voice">Attach completed narration MP3</label><input id="voice" type="file" accept="audio/*"/><div id="voiceStatus" style="font-size:11px;color:#8aa7ae;margin-top:11px">Narration not attached locally. Export requires a verified voice file.</div></div>
+<div class="notice">This is an editorial animatic / vector layout proof, not a final mixed documentary. Historic archival permissions, source-report deep review, real audio mixing, and word-timed caption QA remain open. Export is disabled until narrated audio is attached; a browser WebM is not the authoritative 4K master.</div>
+<ul class="timeline-list"><li><span class="scene-tag">00–08</span><b>The lake begins to drain</b></li><li><span class="scene-tag">08–17</span><b>A hidden salt-dome landscape</b></li><li><span class="scene-tag">17–30</span><b>How the water found the mine</b></li><li><span class="scene-tag">30–39</span><b>Evacuation underground</b></li><li><span class="scene-tag">39–51</span><b>The expanding whirlpool</b></li><li><span class="scene-tag">51–62</span><b>The canal reverses</b></li><li><span class="scene-tag">62–75</span><b>A permanently changed lake</b></li></ul></div></main>
+<script>
+(()=>{'use strict';
+const canvas=document.getElementById('film'),c=canvas.getContext('2d',{alpha:false});
+const NAV='#0D1C2B',IV='#F5F0E7',G='#C8A26B',C='#D57864',BLUE='#6099AA',PALE='#D2E3D9',INK='#0A1520';
+const T=75,FPS=30,PI=Math.PI;let time=0,playing=false,lock=false,lastTick=0,voice=null,voiceURL=null;
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x)),ease=x=>{x=clamp(x);return x*x*(3-2*x)},mix=(a,b,p)=>a+(b-a)*p;
+const H=(t,phase,speed)=>Math.sin(t*speed+phase);const P=(x,y)=>({x,y});
+function line(points,color,width=2,alpha=1,dash=[]){c.save();c.strokeStyle=color;c.globalAlpha=alpha;c.lineWidth=width;c.lineJoin='round';c.lineCap='round';c.setLineDash(dash);c.beginPath();points.forEach((p,i)=>i?c.lineTo(p.x,p.y):c.moveTo(p.x,p.y));c.stroke();c.restore()}
+function rect(x,y,w,h,color,alpha=1){c.save();c.fillStyle=color;c.globalAlpha=alpha;c.fillRect(x,y,w,h);c.restore()}
+function circle(x,y,r,color,alpha=1){c.save();c.globalAlpha=alpha;c.fillStyle=color;c.beginPath();c.arc(x,y,Math.max(0.001,r),0,PI*2);c.fill();c.restore()}
+function poly(pts,color,alpha=1){c.save();c.fillStyle=color;c.globalAlpha=alpha;c.beginPath();pts.forEach((p,i)=>i?c.lineTo(p.x,p.y):c.moveTo(p.x,p.y));c.closePath();c.fill();c.restore()}
+function strokePoly(pts,color,w=2,a=1){line(pts.concat([pts[0]]),color,w,a)}
+function roundRect(x,y,w,h,r,color,alpha=1){c.save();c.globalAlpha=alpha;c.fillStyle=color;c.beginPath();c.roundRect(x,y,w,h,r);c.fill();c.restore()}
+function txt(s,x,y,font='22px Manrope',color=IV,align='left',alpha=1){c.save();c.globalAlpha=alpha;c.fillStyle=color;c.font=font;c.textAlign=align;c.textBaseline='alphabetic';c.fillText(s,x,y);c.restore()}
+function textBox(s,x,y,w,sz=66,lineH=1.1,col=IV,serif=true){const fs=serif?'Playfair Display':'Manrope';c.save();c.font=`600 ${sz}px '${fs}'`;let words=s.split(' '),lines=[],buf='';for(let word of words){let test=buf?buf+' '+word:word;if(c.measureText(test).width>w&&buf){lines.push(buf);buf=word}else buf=test}if(buf)lines.push(buf);c.restore();lines.forEach((l,i)=>txt(l,x,y+i*sz*lineH,`600 ${sz}px '${fs}'`,col))}
+function rule(x,y,w,col=G,a=.6){line([P(x,y),P(x+w,y)],col,2,a)}
+function noise(t){c.save();let count=460;for(let i=0;i<count;i++){let seed=i*33.93;let x=(Math.sin(seed*1.13)*100000)%1080, y=(Math.sin(seed*2.47)*100000)%1920; x=(x+1080)%1080;y=(y+1920)%1920;rect(x,y,1.4,1.4,i%4?IV:G,.055)}c.restore()}
+function frameBase(t,chapter='',scheme='navy'){
+ rect(0,0,1080,1920,scheme==='ivory'?IV:NAV);
+ c.save();let grad=c.createLinearGradient(0,0,0,1920);grad.addColorStop(0,scheme==='ivory'?'#eee6d9':'#142b3b');grad.addColorStop(1,scheme==='ivory'?'#f4eee4':'#091520');c.fillStyle=grad;c.fillRect(0,0,1080,1920);c.restore();
+ rule(80,112,920,G,.28);txt('CURIO BUREAU',80,93,"700 22px 'Manrope'",scheme==='ivory'?NAV:IV);
+ txt('RESEARCH FILE   /   004',1000,91,"500 17px 'Manrope'",G,'right');
+ rule(80,1762,920,G,.25);txt('LAKE PEIGNEUR  ·  NOV 20, 1980',80,1798,"600 18px 'Manrope'",scheme==='ivory'?NAV:PALE);txt(chapter.toUpperCase(),1000,1798,"700 17px 'Manrope'",G,'right');
+ let barW=920*clamp(t/T);rect(80,1822,920,3,IV,.11);rect(80,1822,barW,3,G,.78);
+}
+function rotRing(x,y,r,t,col=PALE,op=.2,squash=.63){c.save();c.translate(x,y);c.scale(1,squash);c.rotate(t);c.strokeStyle=col;c.lineWidth=2;c.globalAlpha=op;c.beginPath();c.ellipse(0,0,r,r*.89,0,-PI*.14,PI*1.63);c.stroke();c.restore()}
+function lakeShape(x,y,scale,color){c.save();c.translate(x,y);c.scale(scale,scale);c.beginPath();c.moveTo(-440,-135);c.bezierCurveTo(-380,-360,-150,-385,12,-330);c.bezierCurveTo(150,-395,440,-240,435,-70);c.bezierCurveTo(475,105,300,240,100,270);c.bezierCurveTo(-100,350,-410,230,-450,35);c.bezierCurveTo(-460,-25,-455,-80,-440,-135);c.closePath();c.fillStyle=color;c.fill();c.restore()}
+function rig(cx,cy,s,t){c.save();c.translate(cx,cy);c.scale(s,s);c.rotate(.01+Math.max(0,t-2)*.002);rect(-92,75,188,22,IV,.88);rect(-65,99,140,8,G,.5);line([P(-62,76),P(-5,-260),P(60,76)],IV,9,.9);line([P(-5,-260),P(60,-250)],G,2,.6);for(let i=0;i<8;i++){let yy=-223+i*37;line([P(-48+(yy+260)/12,yy),P(43-(yy+260)/13,yy+1)],G,3,.72)}for(let i=0;i<7;i++){let yy=-200+i*38;line([P(-40+(yy+260)/12,yy),P(32-(yy+260)/13,yy+38)],IV,2,.5)}rect(64,15,58,56,IV,.64);line([P(0,-260),P(0,174)],G,3,.78);c.restore()}
+function rippleField(cx,cy,t,factor=1){for(let i=0;i<12;i++){let k=i*44,rad=(110+k)*(1+factor*.15);rotRing(cx,cy,rad,-t*.16+i*.4,PALE,.08+.032*(i%3),.48)}for(let i=0;i<85;i++){let ang=i*2.399+t*.07,rad=Math.sqrt(i)*53;let x=cx+Math.cos(ang)*rad*1.28,y=cy+Math.sin(ang)*rad*.63;circle(x,y,1.5+(i%3),PALE,.11)}}
+function scene0(t){let q=clamp(t/8),v=ease((t-2)/5);frameBase(t,'The impossible opening');
+ c.save();c.translate(0,60-Math.sin(t*.12)*26);for(let i=0;i<15;i++){let yy=345+i*89;line([P(-50,yy),P(220+Math.sin(i)*80,yy-38),P(460,yy+9),P(850+Math.cos(i)*20,yy-50),P(1130,yy+5)],i%3===0?G:PALE,i%3===0?7:4,.045)}
+ lakeShape(535,1090,1.13,'#285b69');for(let j=0;j<8;j++)lakeShape(535+Math.cos(j*2.1)*j*3,1090+Math.sin(j)*j*4,1.12-j*.025,j%2?BLUE:PALE);lakeShape(535,1090,1.06,'#24536a');
+ for(let j=0;j<28;j++){let x=30+j*39,y=550+Math.sin(j*.53)*88;poly([P(x,y),P(x+14,y-38),P(x+24,y+3)],j%3?G:PALE,.22)}
+ let cx=530,cy=1090;for(let i=0;i<20;i++)rotRing(cx,cy,50+i*27+v*65,t*(i%2?.33:-.18),i%3?PALE:G,(.055+i*.003)*v,.72);
+ rippleField(cx,cy,t,1);let hole=25+140*v;let gr=c.createRadialGradient(cx,cy,0,cx,cy,hole*2);gr.addColorStop(0,INK);gr.addColorStop(.43,'#102a36');gr.addColorStop(1,'#24536a00');c.fillStyle=gr;c.globalAlpha=v;c.fillRect(cx-hole*2,cy-hole*2,hole*4,hole*4);c.globalAlpha=1;
+ rig(675,865,.73,t);c.restore();
+ txt('NOVEMBER 20, 1980',86,255,"700 24px 'Manrope'",G);textBox('The day a lake',83,355,900,92,1.12);txt('disappeared.',83,564,"600 105px 'Playfair Display'",IV);
+ txt('ORIGINAL EXPLANATORY RECONSTRUCTION',85,1669,"600 16px 'Manrope'",PALE);rule(85,1690,560,G,.48);
+}
+function scene1(t){let p=clamp((t-8)/9);frameBase(t,'Hidden beneath the water','ivory');
+ txt('01 / LOCATION',80,255,"800 25px 'Manrope'",C);textBox('A landscape with',75,355,850,81,1.14,NAV);txt('another world below.',76,532,"600 78px 'Playfair Display'",NAV);
+ c.save();let yy=910+Math.sin(t*.45)*10;
+ // geographic locator deliberately schematic; label physically honest
+ let top=[P(115,yy-200),P(330,yy-241),P(480,yy-148),P(622,yy-170),P(920,yy-55),P(890,yy+206),P(690,yy+256),P(500,yy+173),P(300,yy+228),P(95,yy+94)];poly(top,'#b1c8bc',.85);strokePoly(top,NAV,3,.3);
+ for(let i=0;i<7;i++){let k=i*20;line([P(160+k,yy-185),P(345+k,yy+150),P(575+k,yy+84),P(760+k,yy+205)],NAV,2,.12)}
+ for(let i=0;i<5;i++){let dy=i*43;line([P(105,yy-180+dy),P(440,yy-190+dy),P(720,yy-110+dy),P(940,yy-75+dy)],IV,3,.35)}
+ lakeShape(525,yy-5,.36,'#386e7d');let marker=clamp((p-.25)*4);for(let i=0;i<3;i++){c.save();c.strokeStyle=C;c.lineWidth=3;c.globalAlpha=marker*(.8-i*.24);c.beginPath();c.arc(525,yy-5,70+i*37+(t-8)*7,0,2*PI);c.stroke();c.restore()}
+ circle(525,yy-5,12,C,marker);c.restore();
+ roundRect(105,1280,870,195,14,NAV,1);txt('LAKE PEIGNEUR',147,1353,"700 32px 'Manrope'",IV);txt('Jefferson Island  /  Louisiana',147,1414,"600 23px 'Manrope'",PALE);circle(885,1370,15,C);
+ txt('GEOGRAPHIC RELATIONSHIPS SIMPLIFIED',100,1552,"600 15px 'Manrope'",NAV);
+ let k=ease((p-.65)/.35);rect(95,1590,890*k,8,C,.65);
+}
+function mineSection(x,y,t,opacity=1){c.save();c.translate(x,y);c.globalAlpha=opacity;
+ let layers=['#ab8f72','#bda88e','#8e7262','#d2af8b','#ad826c','#c5b293'];for(let i=0;i<12;i++){let yy=-275+i*82;poly([P(-510,yy),P(-290,yy-16+Math.sin(i)*12),P(10,yy+8),P(260,yy-10),P(515,yy+12),P(515,yy+87),P(-510,yy+87)],layers[i%6],.88);line([P(-510,yy+4),P(-180,yy-7),P(175,yy+17),P(510,yy+9)],IV,2,.17)}
+ // salt dome elliptical mammoth strata
+ c.save();c.beginPath();c.ellipse(18,335,385,630,0,PI,PI*2);c.lineTo(404,970);c.lineTo(-360,970);c.closePath();c.fillStyle='#d4c8ac';c.fill();c.clip();for(let i=0;i<27;i++){let yy=-30+i*40;line([P(-380,yy+80),P(-220,yy+10),P(20,yy+90),P(235,yy+35),P(430,yy+60)],G,6,.23)}c.restore();
+ // mine gallery precise illustrative modules
+ for(let row=0;row<4;row++){let ty=330+row*125;for(let j=0;j<4;j++){let bx=-290+j*165;roundRect(bx,ty,120,56,9,INK,.9);rect(bx+12,ty+6,22,5,G,.4);line([P(bx+60,ty+6),P(bx+60,ty+55)],IV,1,.3)}}
+ // shaft + hoist connection
+ rect(-47,-258,26,990,INK,.82);rect(-46,-248,3,985,G,.5);
+ c.restore()}
+function scene2(t){let p=clamp((t-17)/13);frameBase(t,'Diagram  ·  not to scale');
+ txt('02 / UNDERGROUND',82,242,"800 25px 'Manrope'",G);textBox('A hidden',80,355,900,86,1.1);txt('salt mine.',80,538,"600 105px 'Playfair Display'",G);
+ c.save();c.beginPath();c.rect(0,615,1080,1040);c.clip();mineSection(540,945,t);
+ // surface lake and drill
+ rect(0,640,1080,130,'#356879',.93);for(let i=0;i<16;i++)line([P(i*88,686),P(i*88+38,680+Math.sin(t*3+i)*8)],PALE,2,.38);
+ rig(570,634,.48,0);
+ let travel=ease(p/.51), reach=730+travel*685;line([P(577,475),P(575,reach)],C,8,.96,[12,8]);circle(575,reach,15,C);
+ let flood=ease((p-.42)/.5);for(let i=0;i<11;i++){let yy=1255+(i%4)*125;let xx=400+Math.sin(i*7)*185;roundRect(xx,yy,240*flood,22,8,BLUE,.55*flood)}
+ for(let j=0;j<55;j++){let yy=800+j*13;let x=575+Math.sin(j*8.1+t*3)*25*(1+flood);circle(x,yy,2.5,IV,(j/55)*flood)}c.restore();
+ roundRect(80,1646,900,89,12,INK,.75);txt(p<.36?'OIL EXPLORATION DRILL':p<.62?'WATER ENTERS THE MINE':'GALLERIES BEGIN TO FLOOD',117,1703,"700 29px 'Manrope'",IV);
+}
+function worker(x,y,scale=1,t=0){c.save();c.translate(x,y);c.scale(scale,scale);circle(0,-24,10,IV,.91);line([P(0,-11),P(0,26)],IV,5,.9);line([P(0,-2),P(-15,17)],IV,4,.82);line([P(0,-2),P(17,8)],IV,4,.82);line([P(0,26),P(-11,45)],IV,4,.85);line([P(0,26),P(12,46)],IV,4,.85);c.restore()}
+function scene3(t){let p=clamp((t-30)/9);frameBase(t,'The evacuation');
+ textBox('52 people',80,354,900,103,1.06);txt('underground.',82,505,"600 79px 'Playfair Display'",IV);txt('ALL ESCAPED',84,586,"800 38px 'Manrope'",G);
+ c.save();c.beginPath();c.rect(0,700,1080,960);c.clip();mineSection(530,1050,t,.75);
+ for(let k=0;k<3;k++){let yy=1200+k*127;rect(85,yy-17,680,64,NAV,.76);let n=6;for(let i=0;i<n;i++){let offset=ease(p)*270;worker(142+i*76+offset,yy+7,.63)} }
+ let elevX=850;rect(elevX-67,760,136,810,INK,.65);line([P(elevX,790),P(elevX,1560)],G,4,.85);let elevY=1440-ease(p)*552;roundRect(elevX-55,elevY,110,90,8,G,.8);line([P(elevX-47,elevY+20),P(elevX+50,elevY+20)],INK,3,.5);c.restore();
+ txt('MSHA ACCOUNT  ·  EVACUATION SURVIVED',83,1700,"600 19px 'Manrope'",PALE);
+}
+function scene4(t){let p=clamp((t-39)/12),zoom=1+ease(p)*.24;frameBase(t,'The whirlpool');
+ txt('03 / WHAT THE SURFACE REVEALED',80,253,"800 22px 'Manrope'",G);
+ c.save();c.translate(540,1000);c.scale(zoom,zoom);lakeShape(0,0,1.2,'#326c7b');
+ for(let i=0;i<52;i++){let r=18+i*14+(p*32);let start=(t-39)*.36+i*.17;rotRing(0,0,r,start,i%5?PALE:G,.12+i*.003,.78)}
+ for(let i=0;i<220;i++){let a=(t-39)*.9+i*2.3999632,rad=25+Math.sqrt(i/220)*520;let wave=Math.sin(a*1.5+t)*9;let x=Math.cos(a)*rad+Math.sin(i*17)*wave,y=Math.sin(a)*rad*.75+Math.cos(i)*wave;circle(x,y,1+i%3,IV,.11)}
+ let g=c.createRadialGradient(0,0,0,0,0,168);g.addColorStop(0,NAV);g.addColorStop(.7,'#173843');g.addColorStop(1,'#326c7b00');c.fillStyle=g;c.fillRect(-190,-190,380,380);
+ for(let i=0;i<5;i++){let a=(t-39)*.22+i*1.9,rad=380-ease(p)*150;let x=Math.cos(a)*rad,y=Math.sin(a)*rad*.77;let bx=x+Math.sin(i)*18,by=y+Math.cos(i)*13;poly([P(bx-54,by-18),P(bx+51,by-15),P(bx+43,by+17),P(bx-61,by+17)],i%2?IV:G,.75);line([P(bx-23,by-18),P(bx+27,by-18)],NAV,3,.75)}c.restore();
+ textBox('A lake falls',83,319,880,83,1.13);txt('into the earth.',82,489,"600 84px 'Playfair Display'",IV);
+ roundRect(83,1513,910,132,12,INK,.78);txt('DRILLING RIG  •  BARGES  •  LAKESHORE',113,1580,"700 25px 'Manrope'",IV);txt('ILLUSTRATIVE RECONSTRUCTION',113,1617,"600 17px 'Manrope'",G);
+}
+function scene5(t){let p=clamp((t-51)/11);frameBase(t,'Reversing water');
+ txt('04 / THE RIVER SYSTEM',84,258,"800 24px 'Manrope'",G);textBox('Then the canal',82,358,900,86,1.1);txt('flowed backward.',83,538,"600 83px 'Playfair Display'",G);
+ // before-v-during vertical panels
+ for(let i=0;i<2;i++){let y=650+i*510;roundRect(82,y,912,439,12,i===0?'#183445':'#204d5b',1);txt(i===0?'BEFORE':'DURING THE DISASTER',112,y+70,"700 26px 'Manrope'",i?C:IV);
+ lakeShape(285,y+258,.24,i?'#173b4b':'#477a87');roundRect(555,y+198,335,80,40,BLUE,.43);for(let j=0;j<5;j++){let py=y+229+j*11;line([P(570,py),P(870,py)],PALE,2,.2)}
+ // directional current, reverse for second panel
+ let dx=i===0?1:-1,from=620+(i?220:-80),to=from+dx*210;let pulse=ease((p-i*.2)/.65);
+ line([P(from,y+241),P(to,y+241)],i?C:G,11,pulse);poly([P(to,y+241),P(to-dx*35,y+217),P(to-dx*35,y+265)],i?C:G,pulse);
+ txt('LAKE',238,y+345,"600 23px 'Manrope'",IV);txt('DELCAMBRE CANAL',605,y+348,"600 18px 'Manrope'",IV);
+ }
+ txt('FLOW DIRECTION  /  SCHEMATIC',95,1728,"600 18px 'Manrope'",PALE);
+}
+function scene6(t){let p=clamp((t-62)/13);frameBase(t,'What remained');
+ if(t<69){
+ txt('05 / AFTERMATH',83,250,"800 24px 'Manrope'",G);textBox('The same lake.',82,364,920,91,1.1);txt('A different world.',82,550,"600 81px 'Playfair Display'",IV);
+ for(let z=0;z<2;z++){let x=z?554:81;roundRect(x,695,445,820,9,z?'#153548':'#274451',1);txt(z?'AFTER':'BEFORE',x+32,764,"800 25px 'Manrope'",z?C:G);poly([P(x+25,995),P(x+425,995),P(x+425,1490),P(x+25,1490)],z?'#ba997e':'#c0af8c',.95);let deep=z?370:100;rect(x+25,995,400,deep,z?'#286578':'#6796a2',1);for(let i=0;i<9;i++)line([P(x+40,1020+i*19),P(x+390,1020+i*19)],PALE,2,.14);if(z){for(let i=0;i<7;i++){let yy=1330+i*22;line([P(x+30,yy),P(x+390,yy)],G,2,.4)}}
+ txt(z?'DEEPER  /  SALTIER':'SHALLOW  /  FRESH',x+32,1599,"700 22px 'Manrope'",IV)}
+ roundRect(81,1660,917,91,12,NAV,.65);txt('THE MINE NEVER REOPENED',112,1718,"700 28px 'Manrope'",G);
+ }else{let v=ease((t-69)/2.1);c.save();c.globalAlpha=v;rect(0,0,1080,1920,NAV,.93);txt('THE DANGER WAS',540,664,"600 52px 'Playfair Display'",PALE,'center');txt('HIDDEN BENEATH',540,760,"600 68px 'Playfair Display'",IV,'center');txt('THE SURFACE.',540,864,"600 85px 'Playfair Display'",G,'center');rule(302,960,476,G,.5);
+ let u=ease((t-71.7)/1.3);txt('CURIO BUREAU',540,1331,"600 79px 'Playfair Display'",IV,'center',u);txt('Stories, systems, and surprises.',540,1402,"600 28px 'Manrope'",G,'center',u);c.restore()}
+}
+const scenes=[scene0,scene1,scene2,scene3,scene4,scene5,scene6],starts=[0,8,17,30,39,51,62];
+function caption(t){const captions=[['In 1980, a Louisiana lake began','disappearing into the ground.'],['Lake Peigneur looked ordinary.','But beneath it was a salt mine.'],['A drilling rig operated above the mine.','Water entered the underground galleries.'],['Fifty-two people were underground.','Every one of them escaped.'],['A whirlpool swallowed equipment,','barges, and parts of the shoreline.'],['The Delcambre Canal reversed','and began refilling the basin.'],['It returned deeper and saltier.','The hidden landscape had changed.']];let i=starts.findLastIndex(x=>x<=t),a=captions[i]||captions[0];if(t>70)return;
+ let y=i===5?1598:1598;roundRect(57,y-75,966,155,12,INK,.91);txt(a[0],540,y-14,"700 41px 'Manrope'",IV,'center');txt(a[1],540,y+45,"700 41px 'Manrope'",IV,'center');
+}
+function render(t){time=clamp(t,0,T);c.save();c.setTransform(2,0,0,2,0,0);c.lineCap='round';c.lineJoin='round';let i=starts.findLastIndex(x=>x<=time);scenes[i](time);caption(time);noise(time);c.restore();document.getElementById('scrub').value=time;document.getElementById('timeText').textContent=`${String(Math.floor(time/60)).padStart(2,'0')}:${(time%60).toFixed(2).padStart(5,'0')}`;return true}
+function tick(now){if(!playing)return;if(!lastTick)lastTick=now;let dt=Math.min(.15,(now-lastTick)/1000);lastTick=now;time+=dt;if(time>=T){time=T;playing=false}render(time);if(playing)requestAnimationFrame(tick)}
+function play(){if(time>=T)time=0;if(voice){voice.currentTime=Math.min(time,voice.duration||T);voice.play().catch(console.warn)}playing=true;lastTick=0;requestAnimationFrame(tick)}
+function pause(){playing=false;if(voice)voice.pause();lastTick=0}
+function seek(t){pause();time=clamp(t,0,T);if(voice&&Number.isFinite(voice.duration))voice.currentTime=Math.min(time,voice.duration-0.1);render(time)}
+document.getElementById('play').onclick=play;document.getElementById('pause').onclick=pause;document.getElementById('replay').onclick=()=>{seek(0);play()};document.getElementById('scrub').oninput=e=>seek(+e.target.value);
+document.getElementById('voice').onchange=e=>{let f=e.target.files[0];if(!f)return;if(voiceURL)URL.revokeObjectURL(voiceURL);voiceURL=URL.createObjectURL(f);voice=new Audio(voiceURL);voice.preload='auto';voice.load();document.getElementById('voiceStatus').textContent=`Loaded: ${f.name}. Check voice/visual sync before export.`};
+async function exportWebM(){if(lock)return;if(!voice){alert('Attach the actual narration MP3 first. A silent video would fail the release gate.');return}if(!canvas.captureStream||typeof MediaRecorder==='undefined'){alert('This browser does not support MediaRecorder.');return}
+ lock=true;pause();time=0;await voice.play().catch(()=>{});voice.pause();voice.currentTime=0;
+ const ac=new AudioContext({sampleRate:48000});await ac.resume();const dst=ac.createMediaStreamDestination();const audioEl=ac.createMediaElementSource(voice);audioEl.connect(dst);audioEl.connect(ac.destination);const video=canvas.captureStream(30);const stream=new MediaStream([...video.getVideoTracks(),...dst.stream.getAudioTracks()]);
+ const types=['video/webm;codecs=vp9,opus','video/webm;codecs=vp8,opus','video/webm'];let mime=types.find(MediaRecorder.isTypeSupported)||'';let recorder;try{recorder=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:40000000,audioBitsPerSecond:320000})}catch(e){alert(e.message);lock=false;return}
+ let chunks=[];recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};recorder.onstop=()=>{let a=document.createElement('a');a.href=URL.createObjectURL(new Blob(chunks,{type:mime}));a.download='CURIO_004_ANIMATIC_NOT_MASTER.webm';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),30000);lock=false;ac.close()};
+ let fno=0;recorder.start(1000);const step=()=>{time=Math.min(T,fno/FPS);render(time);if(fno===0){voice.currentTime=0;voice.play().catch(console.warn)}fno++;if(time<T)setTimeout(step,1000/FPS);else setTimeout(()=>recorder.stop(),500)};step();}
+document.getElementById('export').onclick=exportWebM;
+window.setTime=t=>seek(t);window.setFrame=n=>seek(n/FPS);window.renderFrame=n=>{seek(n/FPS);return canvas.toDataURL('image/png')};window.getDuration=()=>T;window.getFPS=()=>FPS;window.getMasterSize=()=>[canvas.width,canvas.height];
+(async()=>{try{await document.fonts.ready;}catch(e){}render(0)})();
+})();
+</script></body></html>
