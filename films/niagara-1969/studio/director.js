@@ -133,6 +133,27 @@ function nfDocument(x,y,w,h){
 function nfPhotoLabel(x,y,s){nfr(x,y-28,Math.min(870,36+s.length*13),48,NF.deep);nfText(s,x+18,y+5,19,NF.cream,800,1)}
 function nfHeadlineDate(y=630){nfBadge('1969 / NIAGARA, NEW YORK',110,y,516,NF.gold,NF.deep)}
 function nfCover(name,sub){nfTitle(name,99,366,103,NF.cream,890);nfText(sub,101,417,24,NF.gold,800,2)}
+function nfNYInset(x,y,w,h){
+ const entry=GEO.find(f=>f.name==='New York');
+ nfClip(x,y,w,h,()=>{
+  nfr(x,y,w,h,NF.deep);
+  for(let i=0;i<9;i++)nfs([x+i*w/9,y,x+i*w/9,y+h],'#E1F5EA17',1);
+  for(let i=0;i<5;i++)nfs([x,y+i*h/5,x+w,y+i*h/5],'#E1F5EA19',1);
+  if(entry&&entry.geometry){
+   let multi=entry.geometry.type==='MultiPolygon'?entry.geometry.coordinates:[entry.geometry.coordinates];
+   for(const poly of multi)for(const ring of poly){
+    g.beginPath();let begun=false;
+    for(const [lon,lat] of ring){let xx=x+(lon+80.7)/9.7*w,yy=y+(45.7-lat)/6.0*h;
+     if(!begun){g.moveTo(xx,yy);begun=true}else g.lineTo(xx,yy)}
+    g.closePath();g.fillStyle=NF.sage;g.fill();g.strokeStyle='#F5F0E755';g.lineWidth=1.5;g.stroke();
+   }
+  }
+  const pinX=x+(-79.075+80.7)/9.7*w,pinY=y+(45.7-43.083)/6.0*h;
+  nfdot(pinX,pinY,7,NF.coral);g.strokeStyle=NF.coral;g.lineWidth=2;g.beginPath();g.arc(pinX,pinY,16,0,Math.PI*2);g.stroke();
+  nfText('NIAGARA',x+15,y+h-16,18,NF.cream,800);
+ });
+ nfs([x,y,x+w,y,x+w,y+h,x,y+h,x,y],NF.gold,3);
+}
 function nfScene0(t){
  nfBase(NF.deep,'The great dewatering',0);
  const push=nfp(t,0,5.5);
@@ -140,14 +161,14 @@ function nfScene0(t){
  // Historic engineering still moves around the photograph: water disappears gradually, revealing original cliff art.
  const drained=nfp(t,2.75,5.6);
  g.save();g.globalAlpha=drained;nfCliff(98,392,887,1044);g.restore();
- nfCascade(106,460,870,890,t,1-drained);
+ nfCascade(122,769,841,618,t,1-drained);
  nfMist(115,1130,850,200,t,(1-drained)*.43);
  g.save();g.globalAlpha=.94;
  nfr(90,247,910,150,NF.deep);nfTitle('They stopped a waterfall.',103,356,92);
  g.restore();
  nfHeadlineDate(1319);
  nfBadge('AMERICAN FALLS',110,1397,368,NF.coral);
- nfText('Horseshoe Falls kept flowing.',111,1687,24,NF.foam,700);
+ nfText('Horseshoe Falls kept flowing.',111,1677,24,NF.foam,700);nfText('Present-day photo: Bob Linsdell / CC BY 2.0',111,1720,16,NF.gold,700);
 }
 function nfScene1(t){
  nfBase('#132A3A','One river. Two waterfalls.',1);
@@ -156,7 +177,7 @@ function nfScene1(t){
  const a=nfp(t,.4,1.6);
  g.save();g.globalAlpha=a;nfPaper(92,516,894,955);nfRiverPanel(111,535,857,917,t,.03);
  nfText('CANADA',139,592,25,NF.cream,800,2);
- nfText('UNITED STATES',722,593,20,NF.ink,800,1);
+ nfText('UNITED STATES',701,751,20,NF.ink,800,1);nfNYInset(705,552,238,174);
  nfBadge('AMERICAN FALLS  → DRY',422,1250,510,NF.coral);
  nfBadge('HORSESHOE  →  FLOWING',121,1360,540,NF.deep);
  g.restore();
@@ -188,7 +209,7 @@ function nfScene3(t){
  nfBadge('FALLEN STONE / TALUS',134,1240,477,NF.deep);
  g.restore();
  const pp=nfp(t,4,5.6);g.save();g.globalAlpha=pp;
- nfText('ORIGINAL DOCUMENTARY ILLUSTRATION',113,1390,21,NF.gold,800);
+ nfBadge('ORIGINAL ENGINEERING ILLUSTRATION',113,1374,728,NF.deep);
  g.restore();
  nfText('Engineers could finally inspect the rock.',107,1674,22,NF.ink,700);
 }
@@ -213,7 +234,7 @@ function nfScene4(t){
   for(let i=0;i<12;i++)nfr(775,601+i*58,19,10,NF.paper);
   nfdot(767,1299*rig+565*(1-rig),19,NF.coral);
   nfText('48 CORE BORINGS',144,673,26,NF.ink,800);
-  nfText('ROCK FRACTURES',142,1072,26,NF.cream,800);
+  nfText('ROCK FRACTURES',142,1165,26,NF.cream,800);
   nfText('PRESSURE MEASUREMENTS',144,1344,22,NF.cream,800);
  });
  const dial=nfp(t,3.7,5.9);g.save();g.globalAlpha=dial;
@@ -229,11 +250,11 @@ function nfScene5(t){
  const a=nfp(t,.6,5.5);
  nfPaper(92,516,898,895);
  nfCliff(107,532,868,864);
- nfCascade(112,563,863,802,t,.03+.97*a);
+ nfCascade(120,744,841,640,t,.03+.97*a);
  nfMist(112,1144,859,162,t,a*.67);
  nfBadge('AMERICAN FALLS  /  FLOW RESTORED',126,1299,770,NF.deep);
  g.save();g.globalAlpha=nfp(t,4.1,5.4);
- nfText('HORSESHOE NEVER STOPPED.',110,1412,27,NF.gold,800);
+ nfBadge('HORSESHOE ALWAYS FLOWING',111,1380,654,NF.gold,NF.deep);
  g.restore();
 }
 function nfScene6(t){
@@ -298,7 +319,7 @@ function nfCaptions(t){
  }
  g.restore();
 }
-renderAt=function(t){nfQA.issues.length=0;nfQA.titles.length=0;nfOldRender(t);nfCaptions(t)};
+renderAt=function(t){nfQA.issues.length=0;nfQA.titles.length=0;const sec=Math.max(0,Math.min(D-.00001,t));let idx=0;while(idx<7&&sec>=starts[idx+1])idx++;g.save();scenes[idx](sec-starts[idx]);g.restore();nfCaptions(sec);nfr(0,H-5,W*sec/D,5,NF.gold)};
 window.renderAt=renderAt;window.setTime=t=>player.seek(t);window.setFrame=f=>player.seek(f/FPS);
 window.renderFrame=f=>renderAt(f/FPS);window.getDuration=()=>D;window.getFPS=()=>FPS;
 window.inspectFrame=t=>{renderAt(t);return{at:t,photoLoaded:nfQA.photoLoaded,geodata:nfQA.geodata,captionCount:nfQA.captionCount,issues:nfQA.issues.slice(),titles:nfQA.titles.slice()}};
