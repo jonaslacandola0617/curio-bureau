@@ -61,5 +61,6 @@ async def main():
   for i,c in enumerate(captions,1):out.write(f"{i}\n{srt_time(c['start'])} --> {srt_time(c['end'])}\n{c['text']}\n\n")
  concat=OUT/'parts.txt';concat.write_text(''.join(f"file 'part-{i:02d}.wav'\n" for i in range(8)))
  run(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',str(concat),'-ar','48000','-ac','2',str(OUT/'narration.wav')])
+ run(['ffmpeg','-y','-v','error','-i',str(OUT/'narration.wav'),'-c:a','libmp3lame','-b:a','160k','-ar','48000',str(OUT/'narration-embedded.mp3')])
  print('Narration + word boundaries:',len(all_words),'phrases:',len(captions))
 asyncio.run(main())
