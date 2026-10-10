@@ -27,7 +27,7 @@ async def main():
   audio=OUT/f'voice-{i:02d}.mp3'
   words=[]
   with audio.open('wb') as output:
-   async for chunk in edge_tts.Communicate(line,VOICE,rate='+6%',pitch='-2Hz').stream():
+   async for chunk in edge_tts.Communicate(line,VOICE,rate='+6%',pitch='-2Hz',boundary='WordBoundary').stream():
     if chunk['type']=='audio':output.write(chunk['data'])
     elif chunk['type']=='WordBoundary':words.append(dict(text=chunk['text'],start=chunk['offset']/10_000_000,end=(chunk['offset']+chunk['duration'])/10_000_000))
   if len(words)<5:raise RuntimeError(f'TTS word boundary events unavailable for segment {i}')
