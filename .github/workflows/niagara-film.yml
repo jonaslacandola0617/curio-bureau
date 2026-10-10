@@ -3,6 +3,7 @@ on:
   push:
     branches: [film/niagara-1969-dewatering]
     paths:
+      - 'package.json'
       - 'films/niagara-1969/studio/**'
       - 'films/niagara-1969/assets/**'
       - 'scripts/build-niagara.mjs'
