@@ -1,0 +1,61 @@
+name: EP004 Natural Narration Builder
+on:
+  push:
+    branches:
+      - film/lake-peigneur-1980
+    paths:
+      - .github/workflows/ep004-natural-narration.yml
+  workflow_dispatch:
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Install natural neural narration tools
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install edge-tts
+      - name: Generate separately timed original narration scenes
+        shell: bash
+        run: |
+          mkdir -p voice
+          cat > /tmp/generate.py <<'PY'
+          import asyncio, json, subprocess, os, pathlib
+          import edge_tts
+          scenes=[
+            ("In nineteen eighty, a Louisiana lake began disappearing into the ground.",0,8),
+            ("Lake Peigneur looked ordinary. But below the water lay a maze of salt mine tunnels.",8,9),
+            ("An oil drilling rig was operating above the mine. A sudden opening let water rush into the underground galleries. The flood spread fast.",17,13),
+            ("Fifty two people were working underground. Every miner escaped.",30,9),
+            ("On the surface, a huge whirlpool swallowed drilling equipment, barges, and pieces of shoreline. The lake was draining into the mine.",39,12),
+            ("Then the Delcambre Canal changed direction. Water from downstream flowed back toward the emptied lake, and began filling it again.",51,11),
+            ("Two days later, Lake Peigneur was back, deeper, saltier, and permanently changed. The mine was lost. The danger had been hidden beneath the surface.",62,13)
+          ]
+          async def main():
+            manifest=[]
+            for i,(line,start,slot) in enumerate(scenes):
+              path=f"voice/scene_{i:02d}.mp3"
+              com=edge_tts.Communicate(text=line,voice="en-US-AndrewNeural",rate="-3%",pitch="-3Hz")
+              await com.save(path)
+              pr=subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","default=noprint_wrappers=1:nokey=1",path],capture_output=True,text=True,check=True)
+              duration=float(pr.stdout.strip())
+              if duration>slot-0.25: raise RuntimeError(f"VOICE SCENE {i} exceeds available scene ({duration:.2f} > {slot})")
+              manifest.append({"index":i,"text":line,"start":start,"slot":slot,"duration":duration,"filename":path})
+            pathlib.Path("voice/timing.json").write_text(json.dumps(manifest,indent=2))
+            # Reconstruct a 48kHz voice-only master with precise scene starts
+            inputs=[];filters=[];tags=[]
+            for i,e in enumerate(manifest):
+              inputs+=["-i",e["filename"]]
+              filters.append(f"[{i}:a]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,adelay={int(e['start']*1000)}|{int(e['start']*1000)}[a{i}]")
+              tags.append(f"[a{i}]")
+            subprocess.run(["ffmpeg","-hide_banner","-loglevel","error","-y",*inputs,"-filter_complex",";".join(filters)+";"+"".join(tags)+f"amix=inputs={len(manifest)}:normalize=0:duration=longest,apad=pad_dur=75,atrim=0:75[out]","-map","[out]","-ar","48000","-ac","2","-c:a","pcm_s24le","voice/episode004_natural_voice_48k.wav"],check=True)
+          asyncio.run(main())
+          PY
+          python /tmp/generate.py
+          ffprobe -v error -show_entries format=duration:stream=sample_rate,channels -of json voice/episode004_natural_voice_48k.wav
+      - uses: actions/upload-artifact@v4
+        with:
+          name: episode004-natural-narration
+          path: voice/
+          if-no-files-found: error
