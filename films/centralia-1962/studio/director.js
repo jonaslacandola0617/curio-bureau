@@ -311,11 +311,11 @@ function cbScene7(t){
  cbRule(104,623,713,PA.coral,9);g.restore();
  const z=cbP(t,1.2,2.7);g.save();g.globalAlpha=z;
  cbLayers(861,1257);cbMineTunnel(520,1220,602,141);cbEmberFront(t,300,1137,485);
- cbLabel('CENTRALIA  /  MAY 1962 – PRESENT',105,1342,25,PA.paper,800,1.8);
+ cbLabel('CENTRALIA  /  MAY 1962 – PRESENT',105,1290,25,PA.paper,800,1.8);
  g.restore();
  let b=cbP(t,3.2,4.45);g.save();g.globalAlpha=b;
- cbTitle('Curio Bureau',103,1413,100,PA.paper);
- cbLabel('STORIES, SYSTEMS, AND SURPRISES.',108,1695,21,PA.gold,800,1.4);
+ cbTitle('Curio Bureau',103,1377,100,PA.paper);
+ cbLabel('STORIES, SYSTEMS, AND SURPRISES.',108,1428,21,PA.gold,800,1.4);
  g.restore();
 }
 scenes.splice(0,scenes.length,cbScene0,cbScene1,cbScene2,cbScene3,cbScene4,cbScene5,cbScene6,cbScene7);
