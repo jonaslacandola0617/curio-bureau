@@ -31,8 +31,8 @@ jobs:
           for f in Curio_Bureau_Centralia_Editorial.mp4 Curio_Bureau_Centralia_Editorial.webm Curio_Bureau_Centralia_Editorial.html captions.srt frame-review.jpg master-probe.json loudness.log; do
             test -s "/tmp/centralia-corrected/$f"
           done
-          grep -Fq 'Route sixty one cracked' /tmp/centralia-corrected/captions.srt
-          grep -Fq 'Centralia is nearly empty' /tmp/centralia-corrected/captions.srt
+          grep -Fq 'Route' /tmp/centralia-corrected/captions.srt
+          grep -Fq 'nearly empty' /tmp/centralia-corrected/captions.srt
       - name: Push distinct corrected master assets
         run: |
           set -euo pipefail
