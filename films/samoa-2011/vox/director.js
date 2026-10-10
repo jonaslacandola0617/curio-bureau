@@ -123,11 +123,11 @@ function pathLine(rect,xOffset,t){
 }
 function frame0(t){
  deco(color.deep,false,10);mast(0,'The vanished date');
- const v=out((t-.2)/1.0);g.save();g.globalAlpha=v;
+ const v=out((t+.35)/.9);g.save();g.globalAlpha=v;
  heading('The day that',100,366,107,color.white,850);
  heading('disappeared.',100,487,104,color.white,860);
  g.restore();rule(104,519,600*out((t-.7)/1.2),color.gold,8);
- const b=out((t-1)/1.2);g.save();g.globalAlpha=b;g.translate(0,(1-b)*150);
+ const b=out((t+.10)/1.65);g.save();g.globalAlpha=b;g.translate(0,(1-b)*150);
  texturePanel(87,600,905,764);
  printCalendar(120,648,518,628,'30','FRIDAY',-.045);
  g.save();g.translate(752,919);g.rotate(.085);
@@ -179,12 +179,12 @@ function frame3(t){
  label('THE TRADING WEEK',97,420,26,color.coral,800,4);
  const row=(y,country,days,shift,accent)=>{
   paintRect(93,y,897,188,color.white);rule(93,y,897,accent,7);label(country,115,y+52,28,color.ink,800);
-  for(let i=0;i<7;i++){let x=114+i*121;paintRect(x,y+80,101,82,days[i]==='W'?color.ink:'#D1D9D4');
-    label(['M','T','W','T','F','S','S'][i],x+38,y+130,29,days[i]==='W'?color.white:'#7C8E91',800)}
+  for(let i=0;i<7;i++){let x=114+i*121,work=days[i]!=='SAT'&&days[i]!=='SUN';paintRect(x,y+80,101,82,work?color.ink:'#D1D9D4');
+    label(days[i],x+14,y+128,20,work?color.white:'#617982',800)}
  };
  const v=out((t-.4)/1.2);g.save();g.globalAlpha=v;
- row(540,'SAMOA     /     OLD CALENDAR',['W','W','W','W','W','X','X'],0,color.coral);
- row(788,'AUSTRALIA / NEW ZEALAND',['W','W','W','W','W','X','X'],1,color.gold);
+ row(540,'SAMOA / OLD CALENDAR',['SUN','MON','TUE','WED','THU','FRI','SAT'],0,color.coral);
+ row(788,'AUSTRALIA / NEW ZEALAND',['MON','TUE','WED','THU','FRI','SAT','SUN'],1,color.gold);
  g.restore();
  // Temporal misalignment is revealed as translucent weekend barriers.
  let k=out((t-3)/1.5);g.save();g.globalAlpha=k;
@@ -235,7 +235,11 @@ function frame6(t){
  heading('Date Line Act',141,853,66,color.ink,760,600);
  label('SECTION 8',145,960,30,color.coral,800,3);
  label('EFFECT ON PAY AND ALLOWANCES',145,1018,25,color.ink,800);
- for(let i=0;i<7;i++){let yy=1073+i*39;rule(144,yy,i%2===0?715:610,'#22384944',10)}
+ label('EDITORIAL SUMMARY OF THE LAW',145,1070,19,color.coral,800,1.5);
+ label('Employees were entitled to equivalent',145,1122,24,color.ink,700);
+ label('pay and allowances for working hours',145,1166,24,color.ink,700);
+ label('lost because the date was skipped.',145,1210,24,color.ink,700);
+ stroke(145,1244,858,1244,'#17304744',3);
  const highlight=out((t-2.5)/1.7);paintRect(138,1232,747*highlight,64,'#C8A26B88');
  label('PAY FOR NORMAL HOURS LOST',154,1278,29,color.ink,800);
  g.restore();
