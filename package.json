@@ -1,0 +1,14 @@
+{
+  "name": "curio-bureau-niagara-003",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-niagara.mjs",
+    "render": "node scripts/render-niagara-webm.mjs",
+    "master": "node scripts/render-niagara-master.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}
