@@ -32,6 +32,11 @@ async def main():
     if chunk['type']=='audio':output.write(chunk['data'])
     elif chunk['type']=='WordBoundary':words.append(dict(text=chunk['text'],start=chunk['offset']/10_000_000,end=(chunk['offset']+chunk['duration'])/10_000_000))
   if len(words)<5:raise RuntimeError(f'TTS word boundary events unavailable for segment {i}')
+  scripted_words=line.split()
+  if len(words)!=len(scripted_words):raise RuntimeError(f'Caption token count mismatched in scene {i}: {len(words)} speech boundaries vs {len(scripted_words)} script words')
+  for word,written in zip(words,scripted_words):
+   word['text']=written
+   word['sentence_end']=written.endswith(('.', '!', '?'))
   duration=float(run(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(audio)]))
   target=end-start-.23
   speed=duration/target
@@ -41,7 +46,7 @@ async def main():
   af=f'atempo={speed:.7f},apad,atrim=0:{end-start},afade=t=in:st=0:d=0.07,afade=t=out:st={end-start-.12}:d=0.12'
   run(['ffmpeg','-y','-v','error','-i',str(audio),'-af',af,'-ac','2','-ar','48000',str(raw)])
   for word in words:
-   all_words.append(dict(text=word['text'],start=round(start+word['start']/speed,3),end=round(min(end-.05,start+word['end']/speed),3)))
+   all_words.append(dict(text=word['text'],scene=i,sentence_end=word['sentence_end'],start=round(start+word['start']/speed,3),end=round(min(end-.05,start+word['end']/speed),3)))
  # subtitle groups: <=6 words and 1.8s, clipped scene-accurate intervals.
  captions=[]; group=[]
  def commit():
@@ -50,10 +55,10 @@ async def main():
   if content:captions.append({'start':round(group[0]['start'],3),'end':round(max(group[-1]['end'],group[0]['start']+.52),3),'text':content})
   group.clear()
  for i,w in enumerate(all_words):
-  if group and (len(group)>=5 or len(' '.join(t['text'] for t in group+[w]))>36 or (w['end']-group[0]['start'])>1.6 or w['start']-group[-1]['end']>.6):
+  if group and (group[-1]['scene']!=w['scene'] or group[-1]['sentence_end'] or len(group)>=5 or len(' '.join(t['text'] for t in group+[w]))>36 or (w['end']-group[0]['start'])>1.6 or w['start']-group[-1]['end']>.6):
    commit()
   group.append(w)
-  if w['text'].endswith(('.', '!', '?')):commit()
+  if w['sentence_end']:commit()
  commit()
  if len(captions)<35:raise RuntimeError('Too few precise phrase captions: '+str(len(captions)))
  (OUT/'captions.json').write_text(json.dumps(captions,ensure_ascii=False,indent=2))
