@@ -1,15 +1,5 @@
-name: Samoa preview render
-
-on:
-  push:
-    branches:
-      - film/samoa-day-disappeared
-    paths:
-      - 'films/samoa-2011/**'
-      - 'scripts/render-html.mjs'
-      - 'package.json'
-      - '.github/workflows/samoa-preview.yml'
-  workflow_dispatch:
+name: Samoa LEGACY preview render (manual only)
+on: workflow_dispatch
 
 jobs:
   render-preview:
