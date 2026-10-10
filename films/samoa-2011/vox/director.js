@@ -13,7 +13,9 @@ const color={white:'#F5F0E7',paper:'#EDE5D6',navy:'#0D1C2B',deep:'#081521',gold:
 function paintRect(x,y,w,h,fill,rad=0){g.beginPath();g.roundRect(x,y,w,h,rad);g.fillStyle=fill;g.fill()}
 function typeface(size=28,colorName=color.ink,weight=600){g.font=weight+' '+size+'px "Manrope",Arial,sans-serif';g.fillStyle=colorName;g.textBaseline='alphabetic'}
 function label(t,x,y,size=26,clr=color.ink,weight=700,spacing=0){
- typeface(size,clr,weight);if(!spacing){g.fillText(t,x,y);return}
+ typeface(size,clr,weight);const tr=g.getTransform();const pure=Math.abs(tr.a-1)<.001&&Math.abs(tr.d-1)<.001&&Math.abs(tr.b)<.001&&Math.abs(tr.c)<.001&&Math.abs(tr.e)<.001&&Math.abs(tr.f)<.001;
+ if(pure&&x>=SAFE.left&&y<1685){while(g.measureText(t).width+x>SAFE.right&&size>15){size--;typeface(size,clr,weight)}}
+ if(!spacing){g.fillText(t,x,y);return}
  let xx=x;for(const ch of t){g.fillText(ch,xx,y);xx+=g.measureText(ch).width+spacing}
 }
 function heading(t,x,y,size=94,clr=color.white,maxW=904,weight=600){
@@ -160,7 +162,7 @@ function frame2(t){
  pathLine(m,.69,t);
  const [sx,sy]=labels.sam;
  stroke(sx+5,sy-6,sx+106,sy-66,color.white,4);
- paintRect(sx+100,sy-116,232,71,color.paper);label('SAMOA',sx+122,sy-71,27,color.ink,800);
+ const pinX=Math.min(735,sx+42);paintRect(pinX,sy-116,226,71,color.paper);label('SAMOA',pinX+18,sy-71,27,color.ink,800);
  label('AUSTRALIA',150,1022,27,color.ink,800);
  label('NEW ZEALAND',490,1322,24,color.white,800);
  g.restore();
