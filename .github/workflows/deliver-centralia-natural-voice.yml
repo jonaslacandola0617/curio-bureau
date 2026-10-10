@@ -1,0 +1,75 @@
+name: Deliver Centralia natural-voice correction
+on:
+  push:
+    branches: [film/centralia-underground-fire]
+    paths: ['.github/workflows/deliver-centralia-natural-voice.yml']
+  workflow_dispatch:
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - name: Checkout corrected source
+        uses: actions/checkout@v4
+      - name: Verify exact corrected master
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          test "$(gh api "repos/$GH_REPO/actions/runs/38025113382" --jq '.conclusion')" = 'success'
+          test "$(gh api "repos/$GH_REPO/actions/runs/38025113382" --jq '.head_sha')" = 'a5f991a27ff67c02d39f95f7fe615f81875d9a25'
+      - name: Retrieve NEW narrated video outputs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          mkdir -p /tmp/centralia-corrected
+          gh run download 38025113382 --repo "$GH_REPO" --name curio-bureau-centralia-002-editorial --dir /tmp/centralia-corrected
+          for f in Curio_Bureau_Centralia_Editorial.mp4 Curio_Bureau_Centralia_Editorial.webm Curio_Bureau_Centralia_Editorial.html captions.srt frame-review.jpg master-probe.json loudness.log; do
+            test -s "/tmp/centralia-corrected/$f"
+          done
+          grep -Fq 'Route sixty one cracked' /tmp/centralia-corrected/captions.srt
+          grep -Fq 'Centralia is nearly empty' /tmp/centralia-corrected/captions.srt
+      - name: Push distinct corrected master assets
+        run: |
+          set -euo pipefail
+          git switch -c delivery/centralia-002-natural-voice
+          OUT=deliverables/centralia-002-natural-voice
+          mkdir -p "$OUT"
+          cp /tmp/centralia-corrected/Curio_Bureau_Centralia_Editorial.mp4 "$OUT/Curio_Bureau_Centralia_NATURAL_VOICE_v2.mp4"
+          cp /tmp/centralia-corrected/Curio_Bureau_Centralia_Editorial.webm "$OUT/Curio_Bureau_Centralia_NATURAL_VOICE_v2.webm"
+          cp /tmp/centralia-corrected/Curio_Bureau_Centralia_Editorial.html "$OUT/Curio_Bureau_Centralia_NATURAL_VOICE_v2.html"
+          cp /tmp/centralia-corrected/captions.srt "$OUT/captions_v2.srt"
+          cp /tmp/centralia-corrected/frame-review.jpg "$OUT/frame-review.jpg"
+          cp /tmp/centralia-corrected/master-probe.json "$OUT/master-probe.json"
+          cp /tmp/centralia-corrected/loudness.log "$OUT/loudness.log"
+          cat > "$OUT/README.md" <<'EOF'
+          # Curio Bureau 002 — Centralia | Natural-Voice Correction v2
+
+          **This version replaces the original Centralia audio**, whose speech accelerated especially around 38 seconds and 55 seconds.
+
+          Fixed by rewriting the voiceover to fit each scene, NOT by time-stretching. All eight segments used actual TTS playback tempo **1.0x** (natural speed); earlier speech finishes naturally without manipulation. Word timestamps and all 37 burned-caption segments were regenerated from the revised narration.
+
+          Actual natural voice durations by scene: [6.984,7.464,6.624,6.216,7.344,7.632,6.240,3.600] seconds.
+          Scene windows: [8,8,9,9,8,9,7,6] seconds. No segment required a speed-up.
+
+          Files:
+          - `Curio_Bureau_Centralia_NATURAL_VOICE_v2.mp4` — upload-ready, H.264 1080x1920 30fps with narration, audible music and Drive SFX, burned-in captions
+          - `Curio_Bureau_Centralia_NATURAL_VOICE_v2.webm` — alternative video
+          - `Curio_Bureau_Centralia_NATURAL_VOICE_v2.html` — interactive voice-embedded animation studio
+          - `captions_v2.srt` — word-aligned subtitle file
+          - Review sheet and verified codec/loudness checks
+
+          Confirmed GitHub Actions master: https://github.com/jonaslacandola0617/curio-bureau/actions/runs/38025113382
+          Exact sound and source revision: `a5f991a27ff67c02d39f95f7fe615f81875d9a25`.
+          GitHub source branch: `film/centralia-underground-fire`.
+          The initial `delivery/centralia-002` branch contains the older incorrectly paced audio. Do not use that version.
+          EOF
+          git config user.name "Curio Bureau Delivery"
+          git config user.email "actions@users.noreply.github.com"
+          git add "$OUT"
+          git commit -m "Deliver Centralia v2 natural voice: no dialogue time compression"
+          git push origin HEAD:refs/heads/delivery/centralia-002-natural-voice
