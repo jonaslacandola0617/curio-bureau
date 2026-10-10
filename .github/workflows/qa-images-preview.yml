@@ -11,6 +11,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - name: Install FFmpeg for image previews
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
       - name: Transcode review captures to small viewable base64 images
         run: |
           set -euo pipefail
