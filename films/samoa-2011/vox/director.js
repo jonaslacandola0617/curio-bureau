@@ -18,8 +18,10 @@ function label(t,x,y,size=26,clr=color.ink,weight=700,spacing=0){
 }
 function heading(t,x,y,size=94,clr=color.white,maxW=904,weight=600){
  let sz=size;
+ const tr=g.getTransform(),screenSpace=(Math.abs(tr.a-1)<.001&&Math.abs(tr.b)<.001&&Math.abs(tr.c)<.001&&Math.abs(tr.d-1)<.001&&Math.abs(tr.e)<.001&&Math.abs(tr.f)<.001);
+ if(screenSpace)maxW=Math.min(maxW,SAFE.right-x);
  while(sz>28){g.font=weight+' '+sz+'px "Playfair Display",Georgia,serif';if(g.measureText(t).width<=maxW)break;sz-=1}
- let box=g.measureText(t);if(x<SAFE.left||x+box.width>SAFE.right+1||y<SAFE.top||y>SAFE.bottom)qa.issues.push({text:t,x,y,w:sq(box.width),size:sz});
+ let box=g.measureText(t);if(screenSpace&&(x<SAFE.left||x+box.width>SAFE.right+1||y<SAFE.top||y>SAFE.bottom))qa.issues.push({text:t,x,y,w:sq(box.width),size:sz});
  qa.titles.push({text:t,x,y,font:'Playfair Display',size:sz});g.fillStyle=clr;g.textAlign='left';g.textBaseline='alphabetic';g.fillText(t,x,y);
 }
 function dataTitle(t,x,y,size=54,clr=color.white,maxW=895){
@@ -372,4 +374,5 @@ player.attach=function(context,dest,offset,start){
   o.connect(env);env.connect(comp);o.start(when);o.stop(when+.24);player.sources.push(o);
  }
 };
+if(!qa.mapLoaded||qa.captionCount<35)throw Error('Documentary release dependencies missing: geodata/captions');
 renderAt(.01);
