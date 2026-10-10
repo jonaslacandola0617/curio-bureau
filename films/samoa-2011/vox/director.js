@@ -336,7 +336,16 @@ const SCORE_CUES=[
 cueEvents.splice(0,cueEvents.length,...SCORE_CUES.map(q=>q.slice(0,3)));
 window.CURIO_CUE_SHEET=SCORE_CUES.map(([at,key,vol,trigger])=>({at,key,filename:CUE_FILES[key],vol,trigger}));
 const oldInit=player.init.bind(player);
-player.init=async function(){await oldInit();if(Object.keys(this.fx).length<10)throw Error('Drive SFX not decoded: '+Object.keys(this.fx).join(','))};
+player.init=async function(){
+ await oldInit();
+ if(Object.keys(this.fx).length<10)throw Error('Drive SFX not decoded: '+Object.keys(this.fx).join(','));
+ if(!this.voice&&window.CURIO_EMBEDDED_VOICE){
+  const res=await fetch('data:audio/mpeg;base64,'+window.CURIO_EMBEDDED_VOICE);
+  this.voice=await this.audioCtx.decodeAudioData(await res.arrayBuffer());
+  $('voiceStatus').textContent='Complete narration embedded · '+this.voice.duration.toFixed(1)+' seconds';
+ }
+ if(!this.voice)throw Error('Narration missing from standalone film');
+};
 player.attach=function(context,dest,offset,start){
  // WebAudio mastering bus: prevents simultaneous sound events from hard-clipping.
  const comp=context.createDynamicsCompressor();comp.threshold.value=-19;comp.knee.value=20;comp.ratio.value=5;comp.attack.value=.004;comp.release.value=.22;
