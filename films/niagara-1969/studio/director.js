@@ -174,7 +174,7 @@ function nfScene1(t){
  nfBase('#132A3A','One river. Two waterfalls.',1);
  nfTitle('Not all of Niagara.',101,358,94);
  nfText('THE WATER WENT SOMEWHERE ELSE',101,429,24,NF.gold,800,1.2);
- const a=nfp(t,.4,1.6);
+ const a=.38+.62*nfp(t,0,.95);
  g.save();g.globalAlpha=a;nfPaper(92,516,894,955);nfRiverPanel(111,535,857,917,t,.03);
  nfText('CANADA',139,592,25,NF.cream,800,2);
  nfText('UNITED STATES',701,751,20,NF.ink,800,1);nfNYInset(705,552,238,174);
@@ -261,7 +261,7 @@ function nfScene6(t){
  nfBase('#172F3D','The 1975 policy verdict',6);
  nfTitle('What should we save?',97,344,88);
  nfText('1975  /  INTERNATIONAL JOINT COMMISSION',103,410,22,NF.gold,800,1);
- let p=nfp(t,.35,1.9);
+ let p=.44+.56*nfp(t,0,1.0);
  g.save();g.globalAlpha=p;
  nfDocument(117,506,838,960);
  nfText('INTERNATIONAL JOINT COMMISSION',157,593,22,NF.ink,800,2);
