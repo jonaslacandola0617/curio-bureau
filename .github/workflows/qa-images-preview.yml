@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: read
     steps:
       - uses: actions/checkout@v4
       - name: Install FFmpeg for image previews
@@ -26,6 +27,19 @@ jobs:
             base64 -w0 "/tmp/$k.jpg" > "films/samoa-2011/review/inspect/$k.base64.txt"
           done
           wc -c films/samoa-2011/review/inspect/*
+      - name: Download exact V2 QA artifact for documentary scene close-ups
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          mkdir -p /tmp/curio-film
+          gh run download 38015451074 --repo "$GH_REPO" --name curio-bureau-samoa-v2-qa --dir /tmp/curio-film
+          for k in 002000 005400 006000 006200; do
+            SRC=$(find /tmp/curio-film -name "frame-$k.png" -print -quit)
+            test -n "$SRC"
+            ffmpeg -hide_banner -loglevel error -y -i "$SRC" -vf "scale=520:-2" -q:v 6 -frames:v 1 "/tmp/scene-$k.jpg"
+            base64 -w0 "/tmp/scene-$k.jpg" > "films/samoa-2011/review/inspect/scene-$k.base64.txt"
+          done
       - name: Commit compact QA previews
         run: |
           git config user.name "Curio Bureau QA"
