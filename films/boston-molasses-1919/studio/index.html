@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CURIO BUREAU / 005 / The Great Boston Molasses Flood</title>
+<style>
+@font-face{font-family:"Manrope";src:url("../fonts/Manrope.ttf")}@font-face{font-family:"Playfair Display";src:url("../fonts/PlayfairDisplay.ttf")}
+:root{--navy:#0D1C2B;--ivory:#F5F0E7;--gold:#C8A26B}
+*{box-sizing:border-box}body{margin:0;background:#07111A;color:var(--ivory);font:500 13px "Manrope",sans-serif}
+header{display:flex;align-items:center;gap:12px;justify-content:space-between;padding:16px 24px;border-bottom:1px solid #ffffff20}
+h1{font:700 21px "Playfair Display",Georgia,serif;margin:0}
+small{color:var(--gold);letter-spacing:.12em}
+main{display:flex;justify-content:center;gap:25px;padding:18px;flex-wrap:wrap}
+canvas{display:block;width:min(360px,92vw);height:auto;border-radius:5px;box-shadow:0 18px 70px #0009}
+.controls{min-width:min(380px,90vw);max-width:430px}
+button{font:700 13px Manrope,sans-serif;color:var(--ivory);border:1px solid #7c817b;background:#1b3244;border-radius:5px;padding:11px 15px;cursor:pointer;margin:3px}
+button:disabled{opacity:.5;cursor:default}button:focus-visible,input:focus-visible{outline:2px solid var(--gold)}
+input[type=range]{width:100%;accent-color:#C8A26B}
+.status{margin:14px 0 8px;color:var(--gold);font-variant-numeric:tabular-nums}
+footer{padding:16px 24px;color:#adb8bb;font-size:12px;line-height:1.6}
+</style></head><body>
+<header><div><small>CURIO BUREAU / 005</small><h1>The Great Boston Molasses Flood</h1></div><div>2160 × 3840 · 30 FPS · 76s</div></header>
+<main><canvas id="screen" width="2160" height="3840"></canvas>
+<section class="controls"><h2>Editorial Motion Studio</h2>
+<p>Original reconstruction + verified 1919 archival photos. For render/master quality control, use deterministic frame functions.</p>
+<button id="play">Play</button><button id="pause">Pause</button><button id="replay">Replay</button>
+<button id="export">Export 4K WebM</button>
+<p class="status" id="status">Loading fonts and soundtrack…</p>
+<input id="seek" type="range" min="0" max="76" step="0.033333" value="0">
+<p><span id="time">00:00</span> / 01:16</p>
+<p>Audio: natural neural narration, original melodic documentary score, bespoke impact/water/metal sound effects.</p>
+<p>Archive usage: Boston Public Library / Boston Elevated Railway Company / Wikimedia Commons. See production manifests.</p>
+</section></main>
+<audio id="audio" preload="auto" src="../out/master_mix.mp3"></audio>
+<script src="scene.js"></script><script src="../out/captions.js"></script>
+<script>
+const C=document.getElementById("screen"),ctx=C.getContext("2d");
+const A=document.getElementById("audio"),S=document.getElementById("seek"),T=document.getElementById("time"),ST=document.getElementById("status");
+let assets={},playing=false,manual=0,raf=0,ready=false;
+let captions=window.CURIO005_CAPTIONS||[];
+const getT=()=>playing?Math.min(76,A.currentTime):manual;
+function render(t){Curio005.render(ctx,Math.max(0,Math.min(75.99,t)),assets,captions);S.value=t;T.textContent=String(Math.floor(t/60)).padStart(2,"0")+":"+String(Math.floor(t%60)).padStart(2,"0");}
+function tick(){render(getT());if(playing&&A.paused){playing=false;}if(playing)raf=requestAnimationFrame(tick);}
+const image=(src)=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=reject;im.src=src;});
+async function start(){
+ await document.fonts.ready;
+ const x=await Promise.all([image("../assets/aerial.jpg"),image("../assets/after.jpg")]);
+ assets={aerial:x[0],after:x[1]};
+ ready=true;ST.textContent="Ready · all scene assets loaded";render(0);
+}
+start().catch(e=>{ST.textContent="ASSET OR FONT GAP: "+e.message;render(0)});
+window.setTime=t=>{playing=false;A.pause();manual=t;A.currentTime=t;render(t)};
+window.setFrame=n=>window.setTime(n/30);
+window.renderFrame=n=>{render(n/30);return true};
+window.getDuration=()=>76;window.getFPS=()=>30;
+document.getElementById("play").onclick=()=>{if(!ready)return;playing=true;A.currentTime=manual;A.play();cancelAnimationFrame(raf);tick()};
+document.getElementById("pause").onclick=()=>{manual=getT();playing=false;A.pause();cancelAnimationFrame(raf);render(manual)};
+document.getElementById("replay").onclick=()=>{playing=false;A.pause();manual=0;A.currentTime=0;render(0);document.getElementById("play").click()};
+S.oninput=()=>window.setTime(Number(S.value));
+document.getElementById("export").onclick=async()=>{
+ if(!ready)return;
+ const btn=document.getElementById("export");btn.disabled=true;ST.textContent="Recording realtime 4K WebM — keep browser tab active.";
+ const AC=window.AudioContext||window.webkitAudioContext;let ac=new AC();
+ const source=ac.createMediaElementSource(A),dest=ac.createMediaStreamDestination();
+ source.connect(dest);source.connect(ac.destination);
+ const live=C.captureStream(30);const mixed=new MediaStream([...live.getVideoTracks(),...dest.stream.getAudioTracks()]);
+ const options=[{mimeType:"video/webm;codecs=vp9,opus",videoBitsPerSecond:40000000,audioBitsPerSecond:320000},
+  {mimeType:"video/webm;codecs=vp8,opus",videoBitsPerSecond:35000000,audioBitsPerSecond:256000},
+  {mimeType:"video/webm"}].find(c=>MediaRecorder.isTypeSupported(c.mimeType));
+ let rec=new MediaRecorder(mixed,options),chunks=[];
+ rec.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
+ const done=new Promise(r=>rec.onstop=r);
+ await ac.resume();window.setTime(0);rec.start(500);
+ document.getElementById("play").click();
+ await new Promise(resolve=>{let q=setInterval(()=>{if(A.currentTime>=75.95||A.ended){clearInterval(q);resolve()}},120)});
+ playing=false;A.pause();rec.stop();await done;
+ const blob=new Blob(chunks,{type:"video/webm"});const url=URL.createObjectURL(blob);
+ const a=document.createElement("a");a.href=url;a.download="CURIO_BUREAU_EP005_4K_BROWSER_EXPORT.webm";a.click();
+ setTimeout(()=>URL.revokeObjectURL(url),15000);
+ btn.disabled=false;ST.textContent="WebM exported. Authoritative MP4: deterministic renderer.";
+};
+</script></body></html>
