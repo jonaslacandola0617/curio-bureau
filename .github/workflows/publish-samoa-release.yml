@@ -1,0 +1,42 @@
+name: Publish Samoa movie release
+on:
+  workflow_run:
+    workflows: ["Curio Bureau — Samoa editorial film master"]
+    types: [completed]
+jobs:
+  publish:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_sha == '7d63a74edc67079451c35f26f00227ed4c554e4e'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - name: Download checked master artifact from successful film run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          mkdir -p master
+          gh run download "$RUN_ID" --repo "$GH_REPO" --name curio-bureau-samoa-vox-editorial --dir master
+          ls -lh master
+          test -s master/Curio_Bureau_Samoa_Vox_Editorial.mp4
+          test -s master/Curio_Bureau_Samoa_Vox_Editorial.webm
+          test -s master/Curio_Bureau_Samoa_Vox_Editorial.html
+      - name: Publish permanent MP4, WebM, and self-contained HTML
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TARGET_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          gh release create samoa-vox-001 \
+            master/Curio_Bureau_Samoa_Vox_Editorial.mp4 \
+            master/Curio_Bureau_Samoa_Vox_Editorial.webm \
+            master/Curio_Bureau_Samoa_Vox_Editorial.html \
+            master/frame-review.jpg \
+            --repo "$GH_REPO" \
+            --target "$TARGET_SHA" \
+            --title "Curio Bureau 001 — The Day That Disappeared" \
+            --notes "Vox-inspired editorial documentary about Samoa skipping December 30, 2011. Original 64-second vertical 1080x1920 animation, neural narration, SFX sourced from the project's shared Drive library, and standalone interactive HTML. MP4 and WebM are voiced exports. Production source: film/samoa-day-disappeared."
