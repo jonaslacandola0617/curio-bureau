@@ -53,7 +53,18 @@ async def narration():
         audio[:fade]*=np.linspace(0,1,fade)[:,None]
         audio[-fade:]*=np.linspace(1,0,fade)[:,None]
         place(v,audio,start)
+        # HARD EDITORIAL QA: prevent 3–5 second narration dead zones.
+        # A measured narration should usually flow to the next beat, allowing
+        # only an intentional short breath. Re-time the picture and score,
+        # or rewrite/record the narration; do NOT speed-stretch the voice.
+        gap=(end-start)-length
+        if gap>1.20:
+            raise RuntimeError(
+                f"EDITORIAL PACING QA FAILED: scene {i+1} has {gap:.2f}s "
+                f"without narration. Rebuild scene durations, picture, "
+                f"caption map and music cues; do not deliver this timing.")
         timings.append({"start":start,"end":end,"actual_length":round(length,3),
+                       "voice_gap":round(gap,3),
                        "text":text,"word_count":len(word)})
         words.extend(word)
     level=rms(v)
