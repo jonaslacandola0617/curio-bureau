@@ -6,14 +6,14 @@ OUT=pathlib.Path('dist/centralia-1962');OUT.mkdir(parents=True,exist_ok=True)
 VOICE='en-US-AndrewNeural'
 STARTS=[0,8,16,25,34,42,51,58,64]
 LINES=[
-"In Pennsylvania, there's a town where the ground has been burning for more than sixty years. The fire is still alive underneath.",
-"This is Centralia. In nineteen sixty two, a fire likely spread from a trash dump into abandoned coal mine workings.",
-"The tunnels connected layers of coal beneath the streets. Heat crept through the seams, while air passages helped the fire survive.",
-"Workers drilled, dug, and tried to contain it. But the flames were hidden in a maze that was difficult to reach.",
-"By nineteen eighty three, subsidence damaged Route sixty one. A government study estimated six hundred sixty three million dollars to extinguish the fire.",
-"So Congress approved forty two million dollars for relocation. Families moved away, and entire streets began disappearing from the map.",
-"Today, Centralia is nearly empty. Underground, the fire persists, with dangerous gases and ground that can collapse without warning.",
-"The town didn't disappear overnight. It emptied one home at a time. The town left. The fire didn't."
+"In Pennsylvania, a fire has burned beneath one town for more than sixty years. It's still burning today.",
+"This is Centralia. In nineteen sixty two, a fire likely spread from a trash dump into abandoned coal mines.",
+"Old mine tunnels linked coal seams. Heat moved underground, while fresh air kept feeding the flames.",
+"Crews drilled, dug, and tried to stop it. But the fire kept moving through hidden passages.",
+"In nineteen eighty three, Route sixty one cracked. Stopping the fire was estimated to cost over six hundred million dollars.",
+"Then, forty two million dollars funded relocation. Families moved away, and entire streets began disappearing.",
+"Now Centralia is nearly empty. The fire still burns beneath dangerous, unstable ground.",
+"The town emptied, one home at a time. The fire didn't."
 ]
 def run(args):
  p=subprocess.run(args,check=False,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
@@ -26,15 +26,27 @@ async def main():
  for i,(line,start,end) in enumerate(zip(LINES,STARTS,STARTS[1:])):
   dst=OUT/f'voice-{i:02d}.mp3'; words=[]
   with dst.open('wb') as audio:
-   async for chunk in edge_tts.Communicate(line,VOICE,rate='+6%',pitch='-2Hz',boundary='WordBoundary').stream():
+   async for chunk in edge_tts.Communicate(line,VOICE,rate='-2%',pitch='-2Hz',boundary='WordBoundary').stream():
     if chunk['type']=='audio':audio.write(chunk['data'])
     elif chunk['type']=='WordBoundary':words.append(dict(start=chunk['offset']/10_000_000,end=(chunk['offset']+chunk['duration'])/10_000_000))
   scripted=line.split()
   if len(words)!=len(scripted):raise RuntimeError(f'Word-boundary mismatch scene {i}: {len(words)} vs {len(scripted)}')
   duration=float(run(['ffprobe','-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',str(dst)]))
-  target=end-start-.23; speed=duration/target
-  if not (.5<=speed<=1.95):raise RuntimeError(f'Speech out of pace scene {i}: {speed:.2f}')
-  filtered=f'atempo={speed:.7f},apad,atrim=0:{end-start},afade=t=in:st=0:d=0.07,afade=t=out:st={end-start-.14}:d=0.14'
+  # Never stretch every paragraph to occupy its entire scene. A shorter take
+  # should finish naturally, leaving musical/visual breathing room.
+  scene_length=end-start
+  usable=scene_length-.30
+  proposed_tempo=duration/usable
+  print(f'SCENE {i+1}: natural_voice={duration:.3f}s / window={usable:.3f}s / tempo_needed={proposed_tempo:.4f}',flush=True)
+  if proposed_tempo>1.045:
+   raise RuntimeError(
+    f'SCENE {i+1} narration would sound rushed: {duration:.2f}s speech in {usable:.2f}s. '
+    f'Rewrite its words instead of forcing {proposed_tempo:.2f}x speed.'
+   )
+  speed=max(1.0,proposed_tempo)
+  actual_duration=duration/speed
+  fade_out=max(0.15,actual_duration-.18)
+  filtered=f'atempo={speed:.7f},afade=t=in:st=0:d=0.07,afade=t=out:st={fade_out:.3f}:d=0.15,apad,atrim=0:{scene_length}'
   run(['ffmpeg','-y','-v','error','-i',str(dst),'-af',filtered,'-ac','2','-ar','48000',str(OUT/f'part-{i:02d}.wav')])
   for w,token in zip(words,scripted):
    words_all.append(dict(text=token,scene=i,sentence_end=token.endswith(('.', '!', '?')),start=round(start+w['start']/speed,3),end=round(min(end-.04,start+w['end']/speed),3)))
@@ -56,5 +68,5 @@ async def main():
  concat=OUT/'parts.txt';concat.write_text(''.join(f"file 'part-{i:02d}.wav'\n" for i in range(8)))
  run(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',str(concat),'-ac','2','-ar','48000',str(OUT/'narration.wav')])
  run(['ffmpeg','-y','-v','error','-i',str(OUT/'narration.wav'),'-c:a','libmp3lame','-b:a','160k','-ar','48000',str(OUT/'narration-embedded.mp3')])
- print('CENTRALIA NARRATION:',len(words_all),'word events;',len(captions),'captions; 8 fixed scenes.')
+ print('CENTRALIA NATURAL-PACE NARRATION:',len(words_all),'word events;',len(captions),'captions; all scenes <= 1.045x tempo.',flush=True)
 asyncio.run(main())
