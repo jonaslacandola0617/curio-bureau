@@ -1,0 +1,75 @@
+name: Curio Bureau — Samoa editorial film master
+on:
+  push:
+    branches: [film/samoa-day-disappeared]
+    paths:
+      - 'films/samoa-2011/vox/**'
+      - 'films/samoa-2011/assets/**'
+      - 'scripts/build-vox.mjs'
+      - 'scripts/synthesize-narration.py'
+      - 'scripts/render-html.mjs'
+      - '.github/workflows/samoa-final.yml'
+  workflow_dispatch:
+
+jobs:
+  final-master:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout film source
+        uses: actions/checkout@v4
+      - name: Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install audio tools and browser
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          pip install edge-tts==7.2.3
+      - name: Build standalone motion graphic
+        run: node scripts/build-vox.mjs
+      - name: Generate 64-second documentary narration
+        run: python scripts/synthesize-narration.py
+      - name: Render voiced and sound-designed WebM master
+        env:
+          CURIO_HTML: dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.html
+          CURIO_VOICE: dist/samoa-2011/narration.wav
+          CURIO_OUTPUT: dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.webm
+        run: node scripts/render-html.mjs
+      - name: Convert to widely compatible MP4
+        run: |
+          ffmpeg -y -v warning -i dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.webm -c:v libx264 -preset fast -crf 19 -pix_fmt yuv420p -r 30 -c:a aac -b:a 192k -movflags +faststart dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.mp4
+      - name: Check duration, both streams and resolution
+        run: |
+          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name,codec_type,width,height -of json dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.mp4 | tee dist/samoa-2011/master-probe.json
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0 dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.mp4 | grep '^1080,1920$'
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of csv=p=0 dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.mp4 | grep 'aac'
+          test "$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.mp4 | cut -d. -f1)" -ge 62
+      - name: Contact sheet for visual review
+        run: |
+          ffmpeg -y -v error -i dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.mp4 -vf "fps=1/8,scale=324:576,tile=4x2" -frames:v 1 dist/samoa-2011/frame-review.jpg
+      - name: Remove temporary audio intermediates
+        run: |
+          rm -f dist/samoa-2011/part-*.wav dist/samoa-2011/voice-*.mp3 dist/samoa-2011/parts.txt
+      - name: Upload final deliverables
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: curio-bureau-samoa-vox-editorial
+          path: |
+            dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.html
+            dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.webm
+            dist/samoa-2011/Curio_Bureau_Samoa_Vox_Editorial.mp4
+            dist/samoa-2011/master-probe.json
+            dist/samoa-2011/frame-review.jpg
+          if-no-files-found: warn
+          retention-days: 30
