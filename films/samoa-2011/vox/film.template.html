@@ -2,14 +2,14 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Curio Bureau — The Day That Disappeared | Editorial Motion Film</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
 :root{color-scheme:dark;--navy:#0D1C2B;--cream:#F5F0E7;--gold:#C8A26B;--coral:#D57864}
-*{box-sizing:border-box}body{margin:0;background:#070e17;color:#f5f0e7;font:500 14px 'DM Sans',Arial,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:#070e17;color:#f5f0e7;font:500 14px 'Manrope',Arial,sans-serif}
 header{padding:16px 20px;display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid #263244}
-header b{font:23px 'DM Serif Display',Georgia,serif}header span{color:#aab8bf;letter-spacing:2px;font-size:10px}
+header b{font:23px 'Playfair Display',Georgia,serif}header span{color:#aab8bf;letter-spacing:2px;font-size:10px}
 main{display:flex;min-height:calc(100svh - 64px);gap:30px;justify-content:center;align-items:center;padding:22px}
 #film{height:min(80svh,840px);width:auto;aspect-ratio:9/16;max-width:100%;background:#0d1c2b;box-shadow:0 26px 90px #000c}
-.side{width:340px;max-width:100%;align-self:center}.side h1{font:40px/1.02 'DM Serif Display',Georgia,serif;margin:0 0 14px}
+.side{width:340px;max-width:100%;align-self:center}.side h1{font:40px/1.02 'Playfair Display',Georgia,serif;margin:0 0 14px}
 .side p{line-height:1.65;color:#bfc7c9}.eyebrow{color:var(--gold);text-transform:uppercase;font-size:11px;letter-spacing:3px}
 button,.voice{border:1px solid #5d6973;border-radius:0;background:transparent;color:#eee;padding:11px 14px;font:600 12px 'DM Sans',Arial;cursor:pointer;display:inline-block;margin:5px 3px 5px 0}
 button.primary{background:var(--gold);border-color:var(--gold);color:#0d1c2b}
@@ -20,7 +20,7 @@ small{display:block;line-height:1.6;color:#a8b2b6;margin-top:12px}.status{color:
 <header><b>Curio Bureau</b><span>STORIES / SYSTEMS / SURPRISES</span></header>
 <main><canvas id="film" width="1080" height="1920"></canvas>
 <section class="side"><div class="eyebrow">Film 001 · Samoa, 2011</div><h1>The Day That Disappeared</h1>
-<p>An editorial motion documentary built from maps, archival newspaper composition, paper-cut textures, diagrams, and kinetic type.</p>
+<p>An illustrated editorial documentary built from real Pacific geography, statutory evidence, layered paper graphics, kinetic headlines, synchronized captions, and sound.</p>
 <input aria-label="Film position" type="range" id="seek" min="0" max="64" value="0" step=".01">
 <div><button id="play" class="primary">▶ Play</button><button id="replay">↺ Replay</button><label class="voice" for="voiceFile">↑ Load narration</label><button id="export">↓ Export WebM</button></div>
 <input type="file" id="voiceFile" accept="audio/*"><div class="status" id="status">Ready · 64 seconds · 1080 × 1920 / 30fps</div>
