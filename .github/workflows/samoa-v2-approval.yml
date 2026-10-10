@@ -1,0 +1,23 @@
+name: Samoa V2 approval gate
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/samoa-v2-approval.yml']
+  workflow_dispatch:
+jobs:
+  approve:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - name: Confirm approved release candidate exists and its QA workflow passed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          test "$(gh api "repos/$GH_REPO/actions/runs/38018553197" --jq '.conclusion')" = "success"
+          test "$(gh api "repos/$GH_REPO/actions/runs/38018553197" --jq '.head_sha')" = "2b560f91de76165e26de4c5cce6a638af178d2e0"
+          gh api "repos/$GH_REPO/actions/runs/38018553197/artifacts" --jq '.artifacts[].name' | grep -Fxq 'curio-bureau-samoa-v2-qa'
+          echo 'Samoa V2 render and QA approved for permanent publication.'
