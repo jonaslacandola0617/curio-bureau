@@ -1,0 +1,54 @@
+name: EP008 Mars Climate Orbiter native 4K film candidate
+on:
+  push:
+    branches: [film/mars-climate-orbiter-1999]
+    paths:
+      - .github/workflows/ep008-mars-film.yml
+  workflow_dispatch:
+jobs:
+  build:
+    timeout-minutes: 330
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install multimedia dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fluidsynth fluid-soundfont-gm fontconfig
+          python -m pip install --upgrade pip -q
+          pip install --disable-pip-version-check -q numpy soundfile edge-tts mido Pillow playwright
+          python -m playwright install --with-deps chromium
+      - name: Get credited NASA/USGS image and render-only font faces
+        run: |
+          mkdir -p films/mars-climate-orbiter-1999/assets
+          cd films/mars-climate-orbiter-1999/assets
+          curl -fL --retry 5 --retry-delay 3 -A 'CurioBureau/008 (noncommercial research film)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Mars_globe.jpg' -o mars_globe.jpg
+          curl -fL --retry 4 'https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf' -o PlayfairDisplay.ttf
+          curl -fL --retry 4 'https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf' -o Manrope.ttf
+          file mars_globe.jpg PlayfairDisplay.ttf Manrope.ttf
+          test "$(stat -c%s mars_globe.jpg)" -gt 100000
+          test "$(stat -c%s PlayfairDisplay.ttf)" -gt 50000
+          test "$(stat -c%s Manrope.ttf)" -gt 50000
+      - name: Render the true recorded narration and original score
+        run: |
+          python films/mars-climate-orbiter-1999/src/build_audio.py
+          ffmpeg -hide_banner -i films/mars-climate-orbiter-1999/audio/voice_24bit.wav -af 'silencedetect=noise=-37dB:d=0.85' -f null - 2>films/mars-climate-orbiter-1999/audio/silence_audit.txt
+          cat films/mars-climate-orbiter-1999/audio/voice_gap_QA.json
+      - name: Native 4K PNG scene render, MP4 and WebM
+        run: |
+          python -u films/mars-climate-orbiter-1999/src/render.py
+      - name: Release artifact (only checked render files, never raw fonts)
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: curio-008-native4k-actual-render-candidates
+          path: |
+            films/mars-climate-orbiter-1999/dist/CURIO_BUREAU_EP008_NATIVE4K_MP4_REVIEW.mp4
+            films/mars-climate-orbiter-1999/dist/CURIO_BUREAU_EP008_NATIVE4K_WEBM_REVIEW.webm
+            films/mars-climate-orbiter-1999/dist/CURIO_BUREAU_EP008_SOURCE_REVIEW.zip
+            films/mars-climate-orbiter-1999/dist/EP008_NATIVE4K_CONTACT_SHEET.jpg
+            films/mars-climate-orbiter-1999/dist/ENCODE_QA.json
+          retention-days: 30
+          if-no-files-found: error
