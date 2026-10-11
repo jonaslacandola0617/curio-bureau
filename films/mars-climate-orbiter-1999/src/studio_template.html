@@ -221,14 +221,15 @@ function scene6(t,u){stage(t);label('SEPT 23, 1999');block('IT WENT|BEHIND MARS.
 }
 function scene7(t,u){stage(t,false);label('1999 / MISHAP INVESTIGATION');
  block('THE ERROR|WAS NOT|THE WHOLE STORY.',73,274,69);
- rounded(68,530,943,560,22,'#e7dfd1','#c8a26b',2);
- K.save();K.beginPath();K.rect(82,555,916,506);K.clip();
- txt('MARS CLIMATE ORBITER',122,632,26,'#243447',800);
- txt('INVESTIGATION / EXPLANATORY SUMMARY',122,678,19,'#57646c',600);
- line(120,723,956,723,'#b5a38d',2);
- txt('INTERFACE MISMATCH',125,802,31,'#29323c',800);rounded(122,823,803*sm(u*1.5),9,2,'#d57864');
- txt('VERIFICATION FAILURE',125,902,31,'#29323c',800);rounded(122,924,803*sm((u-.27)*1.8),9,2,'#d57864');
- txt('COMMUNICATION BREAKDOWN',125,1003,29,'#29323c',800);
+ // Information card ends ABOVE the central safe-caption band (roughly y=840-1040).
+ rounded(68,510,943,326,22,'#e7dfd1','#c8a26b',2);
+ K.save();K.beginPath();K.rect(82,520,916,310);K.clip();
+ txt('MARS CLIMATE ORBITER',122,567,26,'#243447',800);
+ txt('INVESTIGATION / EXPLANATORY SUMMARY',122,601,19,'#57646c',600);
+ line(120,619,956,619,'#b5a38d',2);
+ txt('INTERFACE MISMATCH',125,667,28,'#29323c',800);rounded(122,681,800*sm(u*1.5),6,2,'#d57864');
+ txt('VERIFICATION FAILURE',125,737,28,'#29323c',800);rounded(122,751,800*sm((u-.27)*1.8),6,2,'#d57864');
+ txt('COMMUNICATION BREAKDOWN',125,809,27,'#29323c',800);
  K.restore();
  rounded(80,1384,920,251,18,'rgba(15,32,47,.94)','rgba(200,162,107,.6)');
  txt('ONE FILE. TWO UNITS.',112,1470,43,IVORY,800);
