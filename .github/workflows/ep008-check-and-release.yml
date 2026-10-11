@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euxo pipefail
           mkdir -p /tmp/ep008
-          gh run download 38117491625 -n curio-008-native4k-actual-render-candidates -D /tmp/ep008
+          gh run download 38119935016 -n curio-008-native4k-actual-render-candidates -D /tmp/ep008
           find /tmp/ep008 -type f -printf '%p %s bytes\n'
       - name: Verify real MP4 and WebM audio and picture (no fake 4K)
         run: |
@@ -58,4 +58,4 @@ jobs:
           SOURCE=$(find . -name 'CURIO_BUREAU_EP008_SOURCE_REVIEW.zip' -print -quit)
           SHEET=$(find . -name 'EP008_NATIVE4K_CONTACT_SHEET.jpg' -print -quit)
           test -s "$MP4";test -s "$WEBM";test -s "$SOURCE";test -s "$SHEET"
-          gh release create ep008-mars-1999-review-r1 "$MP4" "$WEBM" "$SOURCE" "$SHEET" EP008_INDEPENDENT_RELEASE_TECH_QA.json --repo jonaslacandola0617/curio-bureau --target film/mars-climate-orbiter-1999 --prerelease --title 'Curio Bureau 008 • Mars Climate Orbiter • Native 4K Review R1' --notes 'RENDER CANDIDATE / NOT A FINAL APPROVED VIDEO. Verified native 2160x3840 30fps H.264/AAC MP4 and VP9/Opus WebM, 48 kHz stereo, length checked and ending decodable. Exact caption word alignment, full subjective audio+motion review and premium-art creative approval remain open. Research: NASA 1999 Mars Climate Orbiter mishap.'
+          gh release create ep008-mars-1999-review-r3 "$MP4" "$WEBM" "$SOURCE" "$SHEET" EP008_INDEPENDENT_RELEASE_TECH_QA.json --repo jonaslacandola0617/curio-bureau --target film/mars-climate-orbiter-1999 --prerelease --title 'Curio Bureau 008 • Mars Climate Orbiter • Native 4K Review R3' --notes 'REVISED R3 RENDER CANDIDATE / NOT A FINAL APPROVED VIDEO. Investigation evidence card moved above center-caption band; corrected 9-scene preflight checked. Verified native 2160x3840 30fps H.264/AAC MP4 and VP9/Opus WebM, 48 kHz stereo, length checked and ending decodable. Exact caption word alignment, full subjective audio+motion review and premium-art creative approval remain open. Research: NASA 1999 Mars Climate Orbiter mishap.'
