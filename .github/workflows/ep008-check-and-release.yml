@@ -1,0 +1,61 @@
+name: EP008 Review Candidate Technical Verification and Direct Downloads
+on:
+  push:
+    branches: [film/mars-climate-orbiter-1999]
+    paths: [.github/workflows/ep008-check-and-release.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install required probe tools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Fetch actual 4K encoded render artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/ep008
+          gh run download 38117491625 -n curio-008-native4k-actual-render-candidates -D /tmp/ep008
+          find /tmp/ep008 -type f -printf '%p %s bytes\n'
+      - name: Verify real MP4 and WebM audio and picture (no fake 4K)
+        run: |
+          cat >/tmp/check.py <<'PY'
+          import glob,json,subprocess,pathlib
+          root=pathlib.Path('/tmp/ep008')
+          files=list(root.rglob('CURIO_BUREAU_EP008_NATIVE4K_*_REVIEW.*'))
+          assert len(files)==2,[str(x) for x in files]
+          out={}
+          for p in files:
+           x=json.loads(subprocess.run(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(p)],capture_output=True,text=True,check=True).stdout)
+           v=next(z for z in x['streams'] if z['codec_type']=='video')
+           a=next(z for z in x['streams'] if z['codec_type']=='audio')
+           typ=p.suffix
+           assert (v['width'],v['height'],v['r_frame_rate'])==(2160,3840,'30/1')
+           assert (v['codec_name'],a['codec_name'])==({'mp4':('h264','aac'),'webm':('vp9','opus')}[typ[1:]])
+           assert int(a['sample_rate'])==48000
+           dur=float(x['format']['duration']);assert dur>60 and dur<120
+           subprocess.run(['ffmpeg','-v','error','-sseof','-2','-i',str(p),'-frames:v','1','-f','null','-'],check=True)
+           out[p.name]={'size_bytes':p.stat().st_size,'duration':dur,'video':v['codec_name'],'audio':a['codec_name'],'size':[v['width'],v['height']],'fps':v['r_frame_rate']}
+          assert abs(list(out.values())[0]['duration']-list(out.values())[1]['duration'])<.2
+          (root/'EP008_INDEPENDENT_RELEASE_TECH_QA.json').write_text(json.dumps({'status':'RENDER CANDIDATE, NOT FINAL','files':out,'remaining':['full-speed subjective moving-shot and sound QA','word-level subtitle alignment verification','quality parity human artistic approval']},indent=2))
+          print(json.dumps(out,indent=2))
+          PY
+          python /tmp/check.py
+      - name: Publish review files as GitHub prerelease, not FINAL
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euxo pipefail
+          cd /tmp/ep008
+          MP4=$(find . -name 'CURIO_BUREAU_EP008_NATIVE4K_MP4_REVIEW.mp4' -print -quit)
+          WEBM=$(find . -name 'CURIO_BUREAU_EP008_NATIVE4K_WEBM_REVIEW.webm' -print -quit)
+          SOURCE=$(find . -name 'CURIO_BUREAU_EP008_SOURCE_REVIEW.zip' -print -quit)
+          SHEET=$(find . -name 'EP008_NATIVE4K_CONTACT_SHEET.jpg' -print -quit)
+          test -s "$MP4";test -s "$WEBM";test -s "$SOURCE";test -s "$SHEET"
+          gh release create ep008-mars-1999-review-r1 "$MP4" "$WEBM" "$SOURCE" "$SHEET" EP008_INDEPENDENT_RELEASE_TECH_QA.json --repo jonaslacandola0617/curio-bureau --target film/mars-climate-orbiter-1999 --prerelease --title 'Curio Bureau 008 • Mars Climate Orbiter • Native 4K Review R1' --notes 'RENDER CANDIDATE / NOT A FINAL APPROVED VIDEO. Verified native 2160x3840 30fps H.264/AAC MP4 and VP9/Opus WebM, 48 kHz stereo, length checked and ending decodable. Exact caption word alignment, full subjective audio+motion review and premium-art creative approval remain open. Research: NASA 1999 Mars Climate Orbiter mishap.'
