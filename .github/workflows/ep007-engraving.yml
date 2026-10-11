@@ -1,0 +1,28 @@
+name: EP007 Public Domain Engraving
+on:
+  push:
+    branches: [film/chicago-lifted-buildings-1860]
+    paths: [.github/workflows/ep007-engraving.yml]
+  workflow_dispatch:
+jobs:
+  archival:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtain and verify 19th-century Lake Street engraving
+        run: |
+          mkdir -p archival
+          curl -fL --retry 4 --retry-delay 2 -A 'CurioBureauDocumentary/1.0 (production reference)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Street_Raising_on_Lake_Street.jpg' -o archival/Street_Raising_on_Lake_Street.jpg
+          file archival/Street_Raising_on_Lake_Street.jpg
+          test "$(stat -c%s archival/Street_Raising_on_Lake_Street.jpg)" -gt 100000
+          cat >archival/provenance.txt <<'TEXT'
+          Work: Edward Mendel, Street Raising on Lake Street (19th-century engraving/lithograph), Chicago Historical Society.
+          U.S. public-domain artwork. Wikimedia Commons historical item; description date conflicts among catalogs (1857 / 1860).
+          https://commons.wikimedia.org/wiki/File:Street_Raising_on_Lake_Street.jpg
+          Do not assert that the image is a photographic frame or actual 1860 video.
+          Caption: 'Period lithograph of Lake Street building raising — Edward Mendel, nineteenth century.'
+          TEXT
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ep007-historical-lithograph
+          path: archival/
+          if-no-files-found: error
