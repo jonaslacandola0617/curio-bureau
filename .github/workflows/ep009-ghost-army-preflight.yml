@@ -61,3 +61,5 @@ jobs:
             films/ghost-army-1945/audio/audio_cue_sheet.csv
           retention-days: 30
           if-no-files-found: error
+
+# Re-run after required Playfair font load correction in Canvas renderer
