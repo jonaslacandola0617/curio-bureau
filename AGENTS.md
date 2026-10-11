@@ -23,3 +23,6 @@ Before any audio post-production, browse the first-party [50-cue original SFX ca
 **Identity:** navy #0D1C2B, ivory #F5F0E7, gold #C8A26B, coral #D57864; Playfair Display editorial and Manrope utility; 'Curio Bureau — Stories, systems, and surprises.'
 
 Future sessions must obtain the documents from this repository again; the presence of an AGENTS.md or chat message does not itself grant automatic long-term assistant memory.
+
+## Audio inventory and original SFX
+When building any Curio Bureau project, consult [production/audio/README.md](production/audio/README.md): primary 50-cue original SFX pack, optional 32-cue supplemental designed sounds, 120-metadata-item existing Drive library, per-sample licensing restrictions and audio-directions. Do not claim the libraries underwent human listening QA. Prioritize more expressive voice delivery and accurately synced sound cues, not just more generic hits.
