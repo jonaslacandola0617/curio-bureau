@@ -3,11 +3,12 @@
 **Scope:** ALL Curio Bureau-related work in this repository and any agent acting on it.
 
 ## Authoritative rules: read before answering or modifying Curio Bureau projects
-1. **READ IN FULL** [production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md](production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md). This is the canonical source of truth. If the user authorizes a different policy later, record the change explicitly; do not silently revert to older episode prompts.
+1. **READ IN FULL** [production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md](production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md), now **v1.2** with the user-approved Motion Mastery Lab upgrades. This is the canonical source of truth. If the user authorizes a different policy later, record the change explicitly; do not silently revert to older episode prompts.
 2. READ [production/bible/v1.1/README.md](production/bible/v1.1/README.md) and applicable visual, motion, anti-repetition, audio, hook, workflow and QA modules before suggesting or generating work.
-3. The audit is evidence-qualified; do not misrepresent missing Episode 002/003 master footage or public view counts as observed retention.
+3. READ [production/motion-lab/v1/README.md](production/motion-lab/v1/README.md) and its technical/asset/technique reports before animation work. The nine referenced MP4s are mainly third-party Vox-inspired demos, NOT verified original Vox masters; designs must adapt general mechanics to original Curio subjects. The audit is evidence-qualified; do not misrepresent missing Episode 002/003 master footage or public view counts as observed retention.
 4. **User intent gate:** If asked to read, study, digest, audit or create guidance, **DO NOT produce videos, scripts, images, sounds or other episode artifacts** unless specifically requested. Use the [governance-only ingestion prompt](production/READ_AND_DIGEST_PROMPT_FOR_CHATGPT.md).
-5. If video production IS explicitly requested: don't skip original hooks, research, 5 demanding style frames, score/SFX cue sheet, detailed shot fingerprint ledger, natural-voice timing and word-aligned captions, creative preflight, or actual 4K MP4+WebM QA.
+5. If video production IS explicitly requested: use the [Episode 008 production prompt](production/prompts/EP008_NEXT_EPISODE_MASTER_PRODUCTION_PROMPT.md) when relevant, require 5 demanding style frames, multi-part assets and a moving preflight for difficult scenes; no basic middle-scene assets after a polished intro.
+6. If video production IS explicitly requested: don't skip original hooks, research, 5 demanding style frames, score/SFX cue sheet, detailed shot fingerprint ledger, natural-voice timing and word-aligned captions, creative preflight, or actual 4K MP4+WebM QA.
 
 ## Hard regressions forbidden
 - Repeated 3–5 second silent narration holes: normal gap 0.12–0.55s; unplanned >0.85s editorial fail; >1.20s release fail; check inside voice clips, not just between them.
