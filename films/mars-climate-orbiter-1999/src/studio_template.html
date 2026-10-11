@@ -115,28 +115,77 @@ function scene1(t,u){stage(t);label();block('NINE MONTHS|TO MARS',65,277,84);
  rounded(73,1216,365,140,12,'rgba(13,28,43,.89)','rgba(200,162,107,.4)');txt('DEC 11, 1998',98,1266,26,IVORY,800);txt('LAUNCH',98,1311,18,GOLD,700);
  rounded(575,1620,370,123,12,'rgba(13,28,43,.89)','rgba(200,162,107,.4)');txt('SEPT 23, 1999',605,1668,24,IVORY,800);txt('MARS ARRIVAL',605,1702,17,GOLD);
 }
-function scene2(t,u){stage(t);label();block('TWO TEAMS.|TWO SYSTEMS.',67,276,71);
- sourceCard(78,460,920,355,'A','GROUND SOFTWARE','SMALL FORCES / THRUSTER IMPULSE');
- for(let i=0;i<14;i++){let y=600+i*11;rounded(125,y,720*(.2+rnd(i+2)*.65),4,1,'rgba(95,142,161,'+(.13+.25*rnd(i+99))+')')}
- txt('lbf·s',803,748,62,GOLD,800,'center');
- sourceCard(78,1213,920,366,'B','FLIGHT NAVIGATION','RECEIVES NUMERICAL IMPULSE DATA');
- txt('N·s',796,1510,74,BLUE,800,'center');
- for(let i=0;i<20;i++){let y=1275+i*10;rounded(128,y,500*(.3+rnd(i+70)*.55),3,1,'rgba(95,142,161,.13)')}
- line(540,826,540,1212,'rgba(200,162,107,.55)',3);let pulse=sm((u*3)%1);circle(540,850+pulse*330,11,GOLD);
- txt('UNIT LABEL OMITTED',550,1170,20,CORAL,800);
+function scene2(t,u){
+ stage(t);label('GROUND SYSTEM / NASA 1999');
+ // Original late-1990s CRT terminal treatment: independently designed chassis, signal processing
+ block('THE WRONG|DATA FILE.',73,258,77);
+ function monitor(x,y,wide,h,labelText,unit,light){
+   K.save();
+   K.beginPath();K.moveTo(x+20,y);K.lineTo(x+wide-38,y);K.lineTo(x+wide,y+26);K.lineTo(x+wide-3,y+h-44);
+   K.lineTo(x+wide-45,y+h);K.lineTo(x+15,y+h);K.lineTo(x,y+h-44);K.closePath();K.fillStyle='#5D666A';K.fill();
+   K.lineWidth=4;K.strokeStyle='#D0C2A6';K.stroke();
+   rounded(x+34,y+28,wide-69,h-93,20,'#051926','#809398',4);
+   let gl=K.createLinearGradient(x,y,x+wide,y+h);gl.addColorStop(0,'rgba(89,173,171,.18)');gl.addColorStop(.5,'rgba(22,62,72,.04)');gl.addColorStop(1,'rgba(119,163,179,.09)');
+   rounded(x+40,y+34,wide-82,h-107,14,gl);
+   K.save();K.beginPath();K.roundRect(x+40,y+34,wide-82,h-107,14);K.clip();
+   for(let j=0;j<18;j++){line(x+65,y+60+j*14,x+wide-69,y+60+j*14,'rgba(55,124,135,.15)',1.4)}
+   for(let j=0;j<18;j++){
+     let length=120+rnd(j+23)*360;
+     rounded(x+68,y+103+j*12,length,3,1,'rgba(121,190,191,'+(.1+.25*rnd(j+16))+')');
+   }
+   txt(labelText,x+70,y+86,20,light,800);
+   txt(unit,x+wide-95,y+h-143,53,light,800,'right');
+   K.restore();
+   // control screws, analog toggles and bottom bezel
+   [x+42,x+wide-42].forEach(xx=>{circle(xx,y+h-28,9,'#313b43');line(xx-4,y+h-28,xx+4,y+h-28,'#c8ba9e',2)});
+   circle(x+wide-65,y+h-41,7,light);
+   K.restore();
+ }
+ // Layered monitors, not a uniform two-column software UI
+ monitor(90,445,900,395,'01 / SMALL FORCES OUTPUT','lbf·s',GOLD);
+ line(197,850,197,1007,'#929990',12);line(197,900,852,900,'#687d83',11);
+ for(let j=0;j<10;j++)line(244+j*49,889,244+j*49,914,'#9EB0AA',3);
+ txt('IMPULSE DATA',435,969,19,GOLD,800,'center');
+ K.save();K.translate(527,1005);K.rotate(-.10);
+ rounded(-328,-42,657,92,18,'#D7C4A1','#7E735F',3);
+ for(let k=0;k<30;k++){rounded(-303+k*20,-10,11,24,1,'#A28D70')}
+ txt('AMD FILE  /  UNCONVERTED UNIT FIELD',0,36,17,'#253345',800,'center');
+ K.restore();
+ let n=sm(u);circle(mix(188,843,n),1022,12,GOLD);
+ monitor(90,1206,900,388,'02 / NAVIGATION MODEL','N·s',BLUE);
+ txt('OUTPUT FORMAT ≠ INPUT CONTRACT',540,1708,22,CORAL,800,'center');
 }
-function scene3(t,u){stage(t);label();block('THE SAME NUMBER.|NOT THE SAME FORCE.',66,266,61);
- rounded(72,428,440,350,18,'#132b3c','rgba(208,164,107,.6)');
- rounded(568,428,440,350,18,'#142537','rgba(112,162,173,.7)');
- txt('SENT',109,496,20,GOLD,800);txt('EXPECTED',601,496,20,BLUE,800);
- txt('1',128,634,117,IVORY,700);txt('lbf·s',128,701,45,GOLD,800);
- txt('1',619,634,117,IVORY,700);txt('N·s',620,701,50,BLUE,800);
- txt('ACTUALLY',90,1240,20,'#a7babd',700);
- rounded(94,1297,884,190,21,'rgba(11,25,38,.94)','rgba(200,162,107,.6)');
- txt('1 lbf·s = 4.448 N·s',540,1410,52,GOLD,800,'center');
- let cx=520,cy=605;line(515,608,564,608,CORAL,5);if(u>.36){line(522,593,557,630,CORAL,6);line(557,593,522,630,CORAL,6)}
- txt(u>.45?'NO CONVERSION':'SOFTWARE HANDOFF',540,1601,27,u>.45?CORAL:IVORY,800,'center');
- tickbar(118,1707,790,30)
+function scene3(t,u){
+ stage(t);label('SOFTWARE INTERFACE / UNIT INTEGRITY');
+ // Different visual family: giant transformation ruler with unconverted signal gate
+ txt('A NUMBER',72,274,82,IVORY,600,'left','Playfair');
+ txt('WITHOUT ITS UNIT.',72,366,66,IVORY,600,'left','Playfair');
+ // Source unit appears as massive typographic object, with physical dimension bars
+ txt('1',118,635,190,IVORY,700);
+ txt('lbf·s',320,627,73,GOLD,800);
+ txt('ACTUAL IMPULSE',116,716,21,'#B6BDC0',800);
+ line(116,745,945,745,'rgba(200,162,107,.48)',3);
+ for(let j=0;j<24;j++)line(115+j*35,745,115+j*35,745+(j%4?12:26),GOLD,1);
+ // measured impulse encoded as an animated fine-grain bar, mathematically annotated
+ rounded(112,1241,858,160,18,'rgba(7,20,31,.94)','rgba(200,162,107,.34)');
+ rounded(138,1301,790*sm(u*1.7),27,10,'#C8A26B');
+ txt('WHAT THE VALUE SHOULD MEAN',137,1282,19,'#B4BFC0',800);
+ txt('4.448 N·s',137,1390,55,IVORY,800);
+ // transparent discrepancy measurement with two physically distinct signals
+ const p=sm((u-.20)*1.6);
+ line(145,1466,925,1466,'rgba(145,183,190,.45)',2);
+ rounded(145,1480,790*p,10,4,BLUE);
+ rounded(145,1527,177*p,10,4,CORAL);
+ txt('TRUE THRUSTER IMPULSE',145,1576,19,BLUE,800);
+ txt('MODEL ESTIMATE',145,1631,19,CORAL,800);
+ rounded(628,1655,316,66,10,'rgba(213,120,100,.14)','rgba(213,120,100,.65)',1.5);
+ txt('4.45× UNDERESTIMATE',787,1696,19,CORAL,800,'center');
+ K.save();K.globalAlpha=sm((u-.24)*2);
+ txt('ASSUMED ≠ ACTUAL',540,838,27,CORAL,800,'center');
+ arc(543,1068,182,PI*1.1,PI*1.9,CORAL,11);
+ arc(543,1068,143,PI*1.03,PI*1.9,BLUE,7);
+ txt('÷ 4.45',540,1102,55,GOLD,800,'center');
+ K.restore();
 }
 function scene4(t,u){stage(t);label();block('SMALL THRUSTERS.|A GROWING ERROR.',68,273,63);
  // camera moves: foreground rig, separate wheel ring and panel oscillation
