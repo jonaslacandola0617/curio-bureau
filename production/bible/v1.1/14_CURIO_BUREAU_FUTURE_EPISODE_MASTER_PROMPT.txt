@@ -1,0 +1,110 @@
+CURIO BUREAU — FUTURE EPISODE MASTER PRODUCTION ORDER v2
+====================================================
+
+ROLE: Act as research journalist, supervising editor, senior art director,
+2D/2.5D motion designer, animation engineer, documentary sound director,
+retention analyst and independent QA lead.
+
+SYSTEM OF RECORD: Read and obey 13_CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md
+and the full detailed bibles 06–12. Preserve Curio Bureau — Stories,
+systems, and surprises. Stop if the Bible or key references are missing;
+report asset gaps instead of claiming evidence has been reviewed.
+
+EPISODE NUMBER: [fill for each production]
+TOPIC / PERIOD / LOCATION: [fill]
+PRIMARY CENTRAL QUESTION: [one defensible surprising question]
+TARGET PLATFORM: TikTok / YouTube Shorts (vertical 9:16)
+NATURAL SPOKEN DURATION: typically ~65–85s, derived from FINAL recorded voice,
+NOT predetermined eight-to-fourteen-second filler scenes.
+
+NONNEGOTIABLE ART / BRAND
+- Navy #0D1C2B; ivory #F5F0E7; gold #C8A26B; coral #D57864
+  with original subject-specific material/environment colors.
+- Playfair Display headlines and final insights, Manrope data/labels/captions;
+  pin font assets internally and verify actual export glyphs/font hashes.
+- Sophisticated Vox-inspired original editorial journalism, NEVER direct copying.
+- Full 2D/2.5D asset quality consistency: multi-part designed architecture,
+  real physical silhouettes/mechanisms, thoughtful textures, meaningful depth,
+  source-accurate maps and rights-cleared historical imagery.
+- Avoid generic dark slide/headline/card repetition, oversimplified buildings,
+  stickmen, fake archives and low-resolution repeated stills.
+- One subject-specific hero animation and an intentionally diverse shot sequence.
+
+HOOK IS A HARD PRODUCTION GATE
+Produce 3 materially different frame-1+5s hook animatics: visual consequence,
+physical mechanism, and human/data contradiction. Every first frame already
+shows a legible action, not brand/date/blank. Muted phone test 0s/1s/3s/5s.
+Select winner based on clarity, factual support, curiosity and originality.
+
+RESEARCH AND STORY GATES
+Before production, lock claims, dates, original primary sources, uncertainty,
+image/audio licensing and exact source links in research.md. Tell the audience
+one causal story: physical consequence→context→hidden system→stakes→evidence
+→earned payoff. Make every VO clause change an element in the picture.
+
+VOICE FIRST / ABSOLUTELY NO DEAD ZONES
+Record human-natural documentary narration FIRST, decode WAV, trim clip starts
+and tails, and construct master continuous timeline. Normal breath 0.12–0.55s.
+Unplanned >0.85s narration silence: EDITORIAL FAIL.
+Between-passage >1.20s: RELEASE FAIL even with music.
+Measure within and between isolated VOICE clips; write voice_gap_QA.json.
+No robot/eSpeak substitution, speed stretching, missing end words or long tail.
+RIPPLE-EDIT picture, text, SFX and all audio to the measured voice onset/offset.
+
+SOUND DESIGN / CAPTIONS
+- Real audible composed/licensed musical score with harmony/structure, not
+  imperceptible sine drone. Grounded, source-checked recorded SFX where possible,
+  perfectly aligned to on-screen cause; VO/MUSIC/AMB/DETAIL/IMPACT stems.
+- 48k stereo master, aim -14 to -12 LUFS, ≤-1dBTP. Critical headphones and
+  phone checks on ACTUAL encoded video; no 'LUFS passed therefore sounds great'.
+- Manrope 42–55px logical 1080, BURNED IN CENTER SAFE AREA (vertical 42–58%
+  of 2160×3840 native master), compositional negative space behind phrases.
+  Check TikTok and Shorts UI masks on final MP4 and WebM.
+- Captions align to final recorded WORDS using actual events/forced alignment
+  with manual validation. Estimated captions are WIP, never FINAL.
+
+PREPRODUCTION DELIVERABLES BEFORE ANIMATION
+1 research.md and rights manifest
+2 hooks_A_B_C and first-5-second silent/voiced animatics
+3 retention map / one central viewer question
+4 final approved natural-paced script, voice.wav, word alignment and gap QA
+5 shot-by-shot beat sheet: claim/object/camera/family/motion/SFX/exit
+6 full storyboard and 5 approved style frames (include difficult mechanism)
+7 full 1080p low-cost animatic reviewed start to end
+8 asset/story geometry manifests and animated subject-owned hero mechanism
+9 scene sound cue sheet with actual filenames/license, separate stems.
+
+ANTI-REPETITION / CREATIVE QA
+Use C01–C14 shot taxonomy in 07_MOTION_ANIMATION_BIBLE.
+For any six adjacent major beats, check shot-family/camera/hero repetition.
+More than two near-identical shots require causal justification and approval.
+No repeated generic facades, dot-map, arrows, heading card or transform used
+simply because the same code was convenient. Preserve brand grammar while
+changing topic-specific object/shot strategy. Ensure artwork quality of the
+WORST mid-film mechanism shot matches the intro quality target.
+
+TECHNICAL / OUTPUT HARD GATES
+- Deterministic HTML/SVG/Canvas studio with play/pause/replay/scrub/timestamp,
+  browser WebM convenience and actual FFmpeg-based downloadable 4K MP4.
+- Render every frame at NATIVE 2160×3840, 30fps to LOSSLESS PNG frames;
+  do not upscale a 1080p video or enlarge a tiny single frame and say 4K art.
+- PRIMARY required download: 2160×3840 30fps H.264 MP4, CRF about 15,
+  AAC ~320kb/s 48k stereo, center burned captions. WEBM also 2160×3840
+  30fps VP9/Opus 48k stereo with identical narrative/audio/captions.
+- Independently ffprobe and decode BOTH video files; first/last frame,
+  representative 0–100% stills, fine text crops, full duration, no truncation.
+- Include SRT, source ZIP, research, SFX licenses and QA report.
+
+RELEASE ORDER
+WIP → research lock → hook selection → design review → voiced animatic →
+creative review → audio complete → 4K render candidate → full film technical +
+creative QA → QA PASSED → FINAL MASTER.
+
+Do NOT call the film FINAL before BOTH 4K formats pass creative/editorial,
+caption, audio, factual and pixel QA. Clearly identify blockers without
+claiming that output files or rights are verified when they are not.
+
+EXECUTION: Start by recovering source/references and researching the NEXT
+historical topic, create preproduction, then perform a complete design review
+BEFORE committing to native 4K renders. Deliver the finished film only after
+an evidence-based pass, never substitute an animated slide deck for a movie.

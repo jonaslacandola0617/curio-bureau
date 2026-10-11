@@ -1,0 +1,6 @@
+episode,approx_time_s,family,main_object,observed_issue,redesign_option,evidence_type,review_status
+004,0-8,typed_intro,lake surface and heading,relatively static opening,shoreline collapses before typography,V-sampled,confirm by full playback
+005,37-46,environment_street,brown wave and same building backdrop,repetitive facades and waves,alternate human ground POV then archive closeup,V-sampled,confirm by full playback
+006,37-59,environment_street,1967 road markings and H sign,repeated road geometry and camera,overhead junction then worker sign macro then ground perspective,V-sampled,confirm by full playback
+007,0-6,full_bleed_reconstruction,lifted Chicago storefront and jacks,strong intricate opening but asset resolution concern,rigged multi-plane high-resolution story mechanism,V-sampled,confirm source raster
+007,12-55,mechanism_and_diagrams,schematic sewer and lifting system,complexity lower than hero artwork,designed jacks with period engineering details and 2.5D parallax,V-sampled,confirm by full playback
