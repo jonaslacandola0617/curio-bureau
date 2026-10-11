@@ -1,0 +1,87 @@
+name: Curio Bureau Original SFX Pack v1 Build QA Release
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/curio-sfx-v1-build.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 1}
+      - name: Install audio synthesis and probe dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libsndfile1
+          python -m pip install --disable-pip-version-check -q numpy scipy soundfile
+      - name: Render reproducible 50-cue original SFX pack
+        run: |
+          set -euo pipefail
+          python -u production/audio-sfx-v1/generate_pack.py
+      - name: Independently inspect 24bit stereo FLAC cues and WAV pack
+        run: |
+          cat >/tmp/check_curio_sfx.py <<'PY'
+          import hashlib,json,pathlib
+          import numpy as np,soundfile as sf
+          p=pathlib.Path('audio/curio_sfx_v1')
+          v=json.loads((p/'CATALOG.json').read_text());q=json.loads((p/'BUILD_QA.json').read_text())
+          assert len(v['cues'])==50 and q['status']=='PASS'
+          paths=list(p.rglob('*.flac'));assert len(paths)==50,len(paths)
+          for x in v['cues']:
+              fn=pathlib.Path(x['path']);assert fn.is_file(),fn
+              inf=sf.info(fn)
+              assert inf.samplerate==48000 and inf.channels==2 and inf.subtype=='PCM_24',str(inf)
+              y,sr=sf.read(fn,dtype='float32',always_2d=True)
+              assert sr==48000 and len(y)>20000 and np.isfinite(y).all()
+              peak=np.max(abs(y));assert .02<peak<.85
+              assert np.sqrt(np.mean(np.asarray(y,dtype='float64')**2))>.0007
+              assert hashlib.sha256(fn.read_bytes()).hexdigest()==x['sha256']
+              if x['loop']:assert abs(y[0,0]-y[-1,0])<.008,fn
+          assert (p/'CURIO_SFX_V1_AUDITION.mp3').stat().st_size>20000
+          assert pathlib.Path('CURIO_BUREAU_SFX_V1_PCM24_WAV_PACK.zip').stat().st_size>100000
+          print('INDEPENDENT_AUDIO_QA_OK:',len(paths),'FLAC files: PCM24 stereo 48kHz',flush=True)
+          PY
+          python /tmp/check_curio_sfx.py
+      - name: Commit verified original lossless FLAC assets and catalog to main
+        run: |
+          set -euo pipefail
+          git config user.name "Curio Bureau Audio Bot"
+          git config user.email "curio-bureau-audio-bot@users.noreply.github.com"
+          git add audio/curio_sfx_v1
+          if ! git diff --cached --quiet; then
+            git commit -m "audio(sfx): add 50 original 48kHz 24bit cues, catalog and audition"
+            git push origin HEAD:main
+          fi
+      - name: Publish first-party WAV zip and audition MP3 via GitHub prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if gh release view curio-sfx-v1-original >/dev/null 2>&1; then
+            echo 'Existing release preserved, future changes require a new version.'
+          else
+            gh release create curio-sfx-v1-original \
+              CURIO_BUREAU_SFX_V1_PCM24_WAV_PACK.zip \
+              audio/curio_sfx_v1/CURIO_SFX_V1_AUDITION.mp3 \
+              audio/curio_sfx_v1/CATALOG.csv \
+              audio/curio_sfx_v1/CATALOG.json \
+              audio/curio_sfx_v1/BUILD_QA.json \
+              --repo jonaslacandola0617/curio-bureau \
+              --target main --prerelease \
+              --title "Curio Bureau Original SFX v1: 50 cues, 48k 24bit" \
+              --notes "Original first-party designed/synthesized editorial SFX in 48kHz/24-bit stereo PCM WAV. Lossless FLACs + generator are on main. Archive, mechanical, science, editorial punctuation, 2.5D transitions, cinematic, and ambience. No licensed third-party Drive files; synthetic designs are NOT authentic field/historical recordings. Signals passed automated QA, but subjective mix/audition is for human review."
+          fi
+      - name: Backup complete WAV pack as GitHub workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: curio-original-sfx-v1-wav-pack
+          path: |
+            CURIO_BUREAU_SFX_V1_PCM24_WAV_PACK.zip
+            audio/curio_sfx_v1/CATALOG.csv
+            audio/curio_sfx_v1/CURIO_SFX_V1_AUDITION.mp3
+            audio/curio_sfx_v1/BUILD_QA.json
+          retention-days: 30
