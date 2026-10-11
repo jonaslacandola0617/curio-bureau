@@ -1,0 +1,63 @@
+name: EP009 Ghost Army | native-4K art, voice and sound preflight
+on:
+  push:
+    branches: [film/ghost-army-1945]
+    paths:
+      - .github/workflows/ep009-ghost-army-preflight.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install multimedia, music, synthesis, headless browser
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fluidsynth fluid-soundfont-gm fontconfig
+          python -m pip install -q numpy soundfile edge-tts mido Pillow playwright
+          python -m playwright install --with-deps chromium
+      - name: Obtain fonts for PRIVATE rendering ONLY (not shared or committed)
+        run: |
+          mkdir -p films/ghost-army-1945/assets
+          cd films/ghost-army-1945/assets
+          curl -fL --retry 4 'https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf' -o PlayfairDisplay.ttf
+          curl -fL --retry 4 'https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf' -o Manrope.ttf
+          test "$(stat -c%s PlayfairDisplay.ttf)" -gt 50000
+          test "$(stat -c%s Manrope.ttf)" -gt 50000
+      - name: Produce real narration A/B tests, original score and primary SFX mixes
+        run: |
+          set -euxo pipefail
+          python -u films/ghost-army-1945/src/build_audio.py
+          ffmpeg -hide_banner -i films/ghost-army-1945/audio/voice_24bit.wav -af 'silencedetect=noise=-37dB:d=0.85' -f null - 2>films/ghost-army-1945/audio/silence_report.txt
+          cat films/ghost-army-1945/audio/voice_gap_QA.json
+      - name: Decode 27 actual native-4K scene samples and check browser errors
+        run: python -u films/ghost-army-1945/src/preflight.py
+      - name: Publish original preview contact on film branch
+        run: |
+          git config user.name 'curio-bureau-preflight[bot]'
+          git config user.email 'actions@users.noreply.github.com'
+          git add films/ghost-army-1945/review/EP009_SHOT_PREFLIGHT_CONTACT.jpg films/ghost-army-1945/review/EP009_PREFLIGHT_QA.json
+          if ! git diff --cached --quiet; then
+            git commit -m "art(ep009): actual 27-frame Ghost Army preflight in native-4K browser rendering"
+            git pull --rebase origin film/ghost-army-1945
+            git push origin HEAD:film/ghost-army-1945
+          fi
+      - name: Retain actual voice auditions, real soundtrack preflight, native styleframes
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: curio-009-ghost-army-audio-motion-preflight
+          path: |
+            films/ghost-army-1945/review/EP009_9_SCENES_27_FRAME_MOTION_XRAY.jpg
+            films/ghost-army-1945/review/scene_*_2160x3840.png
+            films/ghost-army-1945/review/EP009_PREFLIGHT_QA.json
+            films/ghost-army-1945/audio/VOICE_AUDITION_*.mp3
+            films/ghost-army-1945/audio/final_mix.mp3
+            films/ghost-army-1945/audio/voice_gap_QA.json
+            films/ghost-army-1945/audio/silence_report.txt
+            films/ghost-army-1945/audio/audio_cue_sheet.csv
+          retention-days: 30
+          if-no-files-found: error
