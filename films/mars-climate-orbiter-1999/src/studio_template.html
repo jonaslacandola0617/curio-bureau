@@ -1,0 +1,221 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Curio Bureau • Episode 008 | Mars Climate Orbiter</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>/*LOCAL_RENDER_FONTS*/
+:root{color-scheme:dark}body{margin:0;background:#030a11;color:#f5f0e7;font:16px Manrope,sans-serif;display:flex;align-items:flex-start;gap:16px;padding:8px}
+canvas{width:540px;height:960px;background:#0D1C2B;flex:none}
+#controls{width:300px;display:flex;flex-direction:column;gap:12px;padding:16px;border:1px solid #31404d;border-radius:12px}
+button{padding:12px;color:#f5f0e7;border:1px solid #C8A26B;background:#15283a;border-radius:8px;cursor:pointer}input{width:100%}
+@media(max-width:750px){body{display:block}canvas{width:min(100%,540px);height:auto}#controls{width:auto}}
+</style></head><body>
+<canvas id="film" width="2160" height="3840" aria-label="Episode 008 film canvas"></canvas>
+<div id="controls"><h2>Curio Bureau / 008</h2><p>THE SPACECRAFT LOST IN TRANSLATION</p>
+<button onclick="toggle()">Play / Pause</button><button onclick="seek(0)">Replay</button>
+<input type="range" id="seek" min="0" step=".02" value="0"><span id="clock">0:00</span>
+<button id="export" onclick="exportWebm()">Export 4K WebM (live)</button>
+<p>Actual 2160 × 3840 deterministic canvas. Audio/master timings generated from the spoken-phrase recording.</p>
+</div>
+<audio id="snd" preload="auto" src="final_mix.mp3"></audio>
+<img id="marsImg" src="mars_globe.jpg" style="display:none">
+<script id="timeline" type="application/json">/*TIMELINE_JSON*/</script>
+<script>
+const D=JSON.parse(document.getElementById('timeline').textContent),C=document.getElementById('film'),K=C.getContext('2d',{alpha:false}),A=document.getElementById('snd'),M=document.getElementById('marsImg');
+const W=1080,H=1920,NAVY='#0D1C2B',IVORY='#F5F0E7',GOLD='#C8A26B',CORAL='#D57864',BLUE='#6C9CA6';
+const PI=Math.PI;const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),mix=(a,b,t)=>a+(b-a)*t,sm=(u)=>{u=clamp(u);return u*u*(3-2*u)};
+const rnd=i=>{let v=Math.sin(i*78.233+5.31)*43758.5453;return v-Math.floor(v)};
+const star=Array.from({length:220},(_,i)=>({x:rnd(i+1)*W,y:rnd(i+901)*H,r:.6+rnd(i+12)*1.65,a:.1+rnd(i+42)*.62}));
+function path(points,stroke,w=2,dash=[]){K.beginPath();K.moveTo(points[0][0],points[0][1]);for(let i=1;i<points.length;i++)K.lineTo(...points[i]);K.strokeStyle=stroke;K.lineWidth=w;K.setLineDash(dash);K.stroke();K.setLineDash([])}
+function circle(x,y,r,col){K.beginPath();K.arc(x,y,Math.max(.01,r),0,2*PI);K.fillStyle=col;K.fill()}
+function rounded(x,y,w,h,r,fill,stroke=null,sw=2){K.beginPath();K.roundRect(x,y,w,h,r);if(fill){K.fillStyle=fill;K.fill()}if(stroke){K.lineWidth=sw;K.strokeStyle=stroke;K.stroke()}}
+function line(x1,y1,x2,y2,col,w=2){path([[x1,y1],[x2,y2]],col,w)}
+function txt(s,x,y,size=25,col=IVORY,weight=600,align='left',family='Manrope'){K.fillStyle=col;K.font=weight+' '+size+'px '+(family==='Playfair'?'Playfair Display':'Manrope');K.textAlign=align;K.fillText(s,x,y)}
+function block(text,x,y,sz=75,col=IVORY){const lines=text.split('|');lines.forEach((v,i)=>txt(v,x,y+i*sz*1.17,sz,col,600,'left','Playfair'))}
+function stars(t,mag=1){for(let i=0;i<star.length;i++){let s=star[i];circle((s.x+t*(.5+s.r)*mag)%W,s.y,s.r,s.a>.40?'rgba(240,234,222,'+(s.a*.8)+')':'rgba(120,172,189,'+s.a+')')}}
+function paperNoise(t){K.save();K.globalAlpha=.045;for(let i=0;i<90;i++){let x=rnd(i+5)*W,y=rnd(i+900)*H;line(x,y,x+7+rnd(i+54)*25,y+3,'#F5F0E7',.5)}K.restore()}
+function stage(t,dark=true){let g=K.createLinearGradient(0,0,950,H);g.addColorStop(0,dark?'#091521':'#182331');g.addColorStop(1,'#050d17');K.fillStyle=g;K.fillRect(0,0,W,H);stars(t,.16);paperNoise(t)}
+function label(title,subtitle=null){rounded(65,66,500,49,9,'rgba(200,162,107,.12)','rgba(200,162,107,.45)',1);txt('C U R I O   B U R E A U    /    0 0 8',86,99,16,GOLD,800);if(subtitle)txt(subtitle,78,1810,18,'#BBC6C6',600)}
+function credit(){txt('ILLUSTRATIVE RECONSTRUCTION • NASA/USGS PLANET MOSAIC',69,1851,12,'#B9B4A8',600);line(70,1782,1010,1782,'rgba(200,162,107,.33)');txt('STORIES, SYSTEMS, AND SURPRISES.',70,1881,15,GOLD,500)}
+function arc(x,y,r,a,b,stroke,width=3,dash=[]){K.beginPath();K.arc(x,y,r,a,b);K.lineWidth=width;K.strokeStyle=stroke;K.setLineDash(dash);K.stroke();K.setLineDash([])}
+function mars(x,y,r,t,alpha=1){
+ K.save();K.globalAlpha=alpha;K.shadowColor='#e28049';K.shadowBlur=45;
+ K.beginPath();K.arc(x,y,r,0,2*PI);K.clip();K.shadowBlur=0;
+ if(M.complete&&M.naturalWidth){K.drawImage(M,x-r,y-r,2*r,2*r)}
+ else{let g=K.createRadialGradient(x-r*.35,y-r*.4,r*.08,x,y,r);g.addColorStop(0,'#c88761');g.addColorStop(1,'#522b26');K.fillStyle=g;K.fillRect(x-r,y-r,2*r,2*r)}
+ let shadow=K.createLinearGradient(x-r,y-r,x+r,y+r*.8);
+ shadow.addColorStop(0,'rgba(3,6,14,.06)');shadow.addColorStop(.48,'rgba(3,6,14,.18)');shadow.addColorStop(1,'rgba(3,6,14,.94)');
+ K.fillStyle=shadow;K.fillRect(x-r,y-r,2*r,2*r);
+ K.restore();arc(x,y,r,PI*1.03,PI*1.68,'rgba(245,187,123,.65)',3);
+ K.save();K.globalAlpha=.15;arc(x,y,r+11,1.0,5.1,'#ffa46a',15);K.restore()
+}
+function earth(x,y,r){let g=K.createRadialGradient(x-r*.32,y-r*.4,r*.1,x,y,r);g.addColorStop(0,'#8cb6bd');g.addColorStop(.52,'#386b85');g.addColorStop(1,'#142e4a');circle(x,y,r,g);
+ K.save();K.beginPath();K.arc(x,y,r,0,2*PI);K.clip();K.fillStyle='#8b9c7e';
+ for(let i=0;i<7;i++){let a=i*1.8;K.beginPath();K.ellipse(x+Math.cos(a)*r*.46,y+Math.sin(a)*r*.6,r*.25,r*.12,a*.6,0,2*PI);K.fill()}K.restore();
+ arc(x,y,r,3.7,5.4,'#cee7ec',2)}
+function satellite(x,y,scale,t=0,flame=0,rot=0){
+ K.save();K.translate(x,y);K.rotate(rot);K.scale(scale,scale);
+ // distant lower rail & asymmetrical solar panel
+ K.shadowBlur=18;K.shadowColor='rgba(0,0,0,.45)';
+ K.save();K.translate(-45,-10);K.rotate(.035*Math.sin(t*2));
+ K.fillStyle='#1B344C';K.strokeStyle='#D0A96B';K.lineWidth=3;
+ K.beginPath();K.moveTo(-220,-125);K.lineTo(-5,-95);K.lineTo(-7,110);K.lineTo(-245,135);K.closePath();K.fill();K.stroke();
+ for(let i=0;i<11;i++)line(-210+i*19,-117,-216+i*19,126,'rgba(143,196,209,.45)',1.2);
+ for(let i=0;i<6;i++)line(-238,-98+i*38,-10,-80+i*35,'rgba(143,196,209,.35)',1);
+ K.restore();
+ K.shadowBlur=0;
+ // extended structural booms + golden thermal insulation
+ line(-35,0,235,35,'#D8D4C9',6);line(-65,15,220,42,'#6D7B7A',3);
+ rounded(-48,-55,125,115,14,'#B58B57','#F2D39B',3);
+ for(let i=0;i<5;i++){line(-30+i*23,-48,-25+i*23,50,'rgba(97,67,42,.42)',3)}
+ rounded(-75,-30,38,64,7,'#465461','#B6C8CB',2);
+ // panel central spine / dish antenna
+ K.beginPath();K.moveTo(90,-30);K.lineTo(170,-90);K.lineTo(200,-52);K.lineTo(125,10);K.closePath();K.fillStyle='#BDC4C4';K.fill();K.strokeStyle='#607988';K.lineWidth=3;K.stroke();
+ circle(164,-48,13,'#6A7684');circle(164,-48,5,GOLD);
+ line(175,-45,218,-108,'#D2DAD9',5);circle(218,-108,5,'#E6D5B6');
+ // inertia wheel assembly with rotation indication
+ circle(0,4,38,'#394650');arc(0,4,29,t*1.9,t*1.9+4.6,GOLD,8);circle(0,4,8,'#C5B3A0');
+ // tiny nozzle and jet - physically directed
+ rounded(-48,44,31,26,4,'#606872','#D4CBBD',2);
+ if(flame>0){K.save();K.globalAlpha=flame;let g=K.createLinearGradient(0,60,0,145);g.addColorStop(0,'#FFF6C6');g.addColorStop(1,'rgba(255,158,88,0)');K.beginPath();K.moveTo(-40,65);K.quadraticCurveTo(-38,120,-25,145);K.quadraticCurveTo(-12,112,-21,65);K.fillStyle=g;K.fill();K.restore()}
+ K.restore()
+}
+function polyBezier(x0,y0,cx,cy,x1,y1,p,col,w=2,dash=[]){K.beginPath();K.moveTo(x0,y0);K.quadraticCurveTo(cx,cy,x1,y1);K.strokeStyle=col;K.lineWidth=w;K.setLineDash(dash);K.stroke();K.setLineDash([]);if(p!=null){let u=clamp(p);let x=(1-u)**2*x0+2*(1-u)*u*cx+u*u*x1;let y=(1-u)**2*y0+2*(1-u)*u*cy+u*u*y1;circle(x,y,6,col)}}
+function tickbar(x,y,w,num=14){for(let i=0;i<num;i++)line(x+i*w/num,y,x+i*w/num,y+(i%4?8:18),i<num*.66?GOLD:'#4D6776',1.5)}
+function sourceCard(x,y,w,h,k,title,sub){
+ rounded(x,y,w,h,18,'rgba(12,31,44,.92)','rgba(154,186,192,.28)',2);
+ rounded(x+22,y+22,45,38,8,'rgba(200,162,107,.17)','rgba(200,162,107,.4)',1);
+ txt(k,x+45,y+49,18,GOLD,800,'center');txt(title,x+86,y+50,26,IVORY,800);
+ txt(sub,x+28,y+90,17,'#9db5ba',500);line(x+30,y+110,x+w-30,y+110,'rgba(214,219,221,.15)');
+}
+function caption(t){
+ const p=D.phrases.find(p=>t>=p.start-.005&&t<p.end+.004);if(!p)return;
+ const alpha=sm((t-p.start)/.12)*sm((p.end-t)/.11);
+ K.save();K.globalAlpha=alpha;
+ let words=p.text.split(' '),lines=[''];K.font='700 39px Manrope';
+ for(let wd of words){let last=lines.length-1,test=(lines[last]+' '+wd).trim();if(K.measureText(test).width>850&&lines[last])lines.push(wd);else lines[last]=test}
+ let h=lines.length*55+52,yy=946-h/2;
+ rounded(82,yy,916,h,18,'rgba(4,12,21,.91)','rgba(208,176,113,.43)',1.5);
+ lines.forEach((z,i)=>txt(z,540,yy+60+i*54,38,IVORY,800,'center'));
+ K.restore()
+}
+function scene0(t,u){stage(t);label('SEPT 23, 1999');block('A SIGNAL|THAT NEVER|RETURNED',73,260,78);
+ let mm=sm(u*.5);mars(735,1260,680+30*mm,t);
+ polyBezier(45,720,350,555,780,1310,sm(u*1.25),'rgba(202,177,125,.7)',4,[13,11]);
+ let x=mix(105,760,sm(u*1.14)),y=640+650*sm(u*1.14);satellite(x,y,.48,u,0,.25);
+ rounded(77,1470,396,160,18,'rgba(8,18,30,.83)','rgba(200,162,107,.4)');
+ txt('EXPECTED CONTACT',104,1522,23,GOLD,700);
+ txt(u>.58?'NO SIGNAL':'AWAITING SIGNAL',105,1579,35,u>.58?CORAL:IVORY,800);
+ for(let k=0;k<8;k++)circle(98+k*26,1645,3,k<sm(u*.9)*8?CORAL:GOLD);
+}
+function scene1(t,u){stage(t);label();block('NINE MONTHS|TO MARS',65,277,84);
+ earth(185,626,138);mars(775,1440,310,t);
+ polyBezier(175,775,820,240,790,1105,sm(u),GOLD,4,[15,10]);
+ let uu=sm(u),x=(1-uu)**2*175+2*(1-uu)*uu*820+uu*uu*790,y=(1-uu)**2*775+2*(1-uu)*uu*240+uu*uu*1105;
+ satellite(x,y,.37,u,0,.6);
+ rounded(73,1216,365,140,12,'rgba(13,28,43,.89)','rgba(200,162,107,.4)');txt('DEC 11, 1998',98,1266,26,IVORY,800);txt('LAUNCH',98,1311,18,GOLD,700);
+ rounded(575,1620,370,123,12,'rgba(13,28,43,.89)','rgba(200,162,107,.4)');txt('SEPT 23, 1999',605,1668,24,IVORY,800);txt('MARS ARRIVAL',605,1702,17,GOLD);
+}
+function scene2(t,u){stage(t);label();block('TWO TEAMS.|TWO SYSTEMS.',67,276,71);
+ sourceCard(78,460,920,355,'A','GROUND SOFTWARE','SMALL FORCES / THRUSTER IMPULSE');
+ for(let i=0;i<14;i++){let y=600+i*11;rounded(125,y,720*(.2+rnd(i+2)*.65),4,1,'rgba(95,142,161,'+(.13+.25*rnd(i+99))+')')}
+ txt('lbf·s',803,748,62,GOLD,800,'center');
+ sourceCard(78,1213,920,366,'B','FLIGHT NAVIGATION','RECEIVES NUMERICAL IMPULSE DATA');
+ txt('N·s',796,1510,74,BLUE,800,'center');
+ for(let i=0;i<20;i++){let y=1275+i*10;rounded(128,y,500*(.3+rnd(i+70)*.55),3,1,'rgba(95,142,161,.13)')}
+ line(540,826,540,1212,'rgba(200,162,107,.55)',3);let pulse=sm((u*3)%1);circle(540,850+pulse*330,11,GOLD);
+ txt('UNIT LABEL OMITTED',550,1170,20,CORAL,800);
+}
+function scene3(t,u){stage(t);label();block('THE SAME NUMBER.|NOT THE SAME FORCE.',66,266,61);
+ rounded(72,428,440,350,18,'#132b3c','rgba(208,164,107,.6)');
+ rounded(568,428,440,350,18,'#142537','rgba(112,162,173,.7)');
+ txt('SENT',109,496,20,GOLD,800);txt('EXPECTED',601,496,20,BLUE,800);
+ txt('1',128,634,117,IVORY,700);txt('lbf·s',128,701,45,GOLD,800);
+ txt('1',619,634,117,IVORY,700);txt('N·s',620,701,50,BLUE,800);
+ txt('ACTUALLY',90,1240,20,'#a7babd',700);
+ rounded(94,1297,884,190,21,'rgba(11,25,38,.94)','rgba(200,162,107,.6)');
+ txt('1 lbf·s = 4.448 N·s',540,1410,52,GOLD,800,'center');
+ let cx=520,cy=605;line(515,608,564,608,CORAL,5);if(u>.36){line(522,593,557,630,CORAL,6);line(557,593,522,630,CORAL,6)}
+ txt(u>.45?'NO CONVERSION':'SOFTWARE HANDOFF',540,1601,27,u>.45?CORAL:IVORY,800,'center');
+ tickbar(118,1707,790,30)
+}
+function scene4(t,u){stage(t);label();block('SMALL THRUSTERS.|A GROWING ERROR.',68,273,63);
+ // camera moves: foreground rig, separate wheel ring and panel oscillation
+ satellite(565,620,1.75,t,u>.18&&u<.74?.9:0,.06*Math.sin(u*PI));
+ txt('REACTION WHEEL',140,420,20,GOLD,800);line(323,416,512,569,GOLD,2);
+ txt('SOLAR ARRAY',614,1168,20,'#c4d9d8',800);line(700,1144,320,780,'#97b6bd',2);
+ rounded(90,1310,890,360,22,'rgba(8,24,36,.93)','rgba(111,157,176,.4)');
+ txt('PREDICTED PATH',120,1392,23,BLUE,800);
+ txt('ACTUAL TRAJECTORY',120,1570,23,CORAL,800);
+ polyBezier(150,1467,520,1320,930,1480,u,BLUE,5,[12,10]);
+ polyBezier(150,1601,440,1410,930,1650,u,CORAL,5);
+ let xx=mix(140,930,sm(u));circle(xx,1514-70*Math.sin(PI*u),7,GOLD);
+}
+function scene5(t,u){stage(t);label();block('THE WRONG|APPROACH',71,266,81);
+ mars(540,905,514,t);
+ arc(540,905,604,3.2,5.96,BLUE,5,[14,10]);arc(540,905,552,3.17,5.99,CORAL,5);
+ txt('PLANNED ≈150 km',88,1418,37,BLUE,800);
+ txt('ESTIMATED ≈60 km',88,1510,37,CORAL,800);
+ rounded(84,1580,916,136,14,'rgba(10,27,37,.85)','rgba(200,162,107,.35)');
+ txt('SCHEMATIC — DISTANCES NOT TO SCALE',540,1640,20,IVORY,700,'center');
+ satellite(mix(140,800,sm(u)),mix(544,415,sm(u)),.41,u,0,.24);
+}
+function scene6(t,u){stage(t);label('SEPT 23, 1999');block('IT WENT|BEHIND MARS.',435,290,68);
+ mars(30,1100,750,t);
+ // station/receiver diagram off right
+ rounded(568,1190,444,465,20,'rgba(9,25,37,.93)','rgba(200,162,107,.45)');
+ txt('DEEP SPACE LINK',595,1260,23,GOLD,800);
+ txt('SIGNAL: NONE',596,1337,32,CORAL,800);
+ path([[595,1427],[663,1427],[680,1413],[692,1447],[710,1426],[788,1426],[804,1426],[978,1426]],'#7DADC0',4);
+ for(let i=0;i<24;i++)line(596+i*16,1490,596+i*16,1490+15*(.3+rnd(i+1)),i<sm(u)*24?CORAL:'#4c7182',3);
+ txt('CONTACT NOT REACQUIRED',595,1608,18,IVORY,600);
+ satellite(mix(310,-135,sm(u*.88)),mix(470,1030,sm(u*.88)),.50,u,0,.28);
+}
+function scene7(t,u){stage(t,false);label('1999 / MISHAP INVESTIGATION');
+ block('THE ERROR|WAS NOT|THE WHOLE STORY.',73,274,69);
+ rounded(68,530,943,560,22,'#e7dfd1','#c8a26b',2);
+ K.save();K.beginPath();K.rect(82,555,916,506);K.clip();
+ txt('MARS CLIMATE ORBITER',122,632,26,'#243447',800);
+ txt('INVESTIGATION / EXPLANATORY SUMMARY',122,678,19,'#57646c',600);
+ line(120,723,956,723,'#b5a38d',2);
+ txt('INTERFACE MISMATCH',125,802,31,'#29323c',800);rounded(122,823,803*sm(u*1.5),9,2,'#d57864');
+ txt('VERIFICATION FAILURE',125,902,31,'#29323c',800);rounded(122,924,803*sm((u-.27)*1.8),9,2,'#d57864');
+ txt('COMMUNICATION BREAKDOWN',125,1003,29,'#29323c',800);
+ K.restore();
+ rounded(80,1384,920,251,18,'rgba(15,32,47,.94)','rgba(200,162,107,.6)');
+ txt('ONE FILE. TWO UNITS.',112,1470,43,IVORY,800);
+ txt('NO CHECK THAT CAUGHT THE DIFFERENCE.',110,1544,22,CORAL,700);
+}
+function scene8(t,u){stage(t);label();mars(695,1294,640,t);
+ satellite(355,555,.77,u,0,.14);
+ block('SMALL INPUT.|COSMIC CONSEQUENCE.',68,255,63);
+ txt('SEPTEMBER 23, 1999',75,462,22,GOLD,800);
+ let appear=sm((u-.42)*2.5);
+ K.save();K.globalAlpha=appear;
+ rounded(79,1445,920,185,25,'rgba(6,17,28,.87)','rgba(200,162,107,.7)');
+ txt('CURIO BUREAU',540,1530,54,IVORY,600,'center','Playfair');
+ txt('STORIES, SYSTEMS, AND SURPRISES.',540,1578,16,GOLD,800,'center');
+ K.restore();
+}
+const scenes=[scene0,scene1,scene2,scene3,scene4,scene5,scene6,scene7,scene8];
+function frame(t){t=clamp(t,0,D.duration-1/30);K.setTransform(2,0,0,2,0,0);K.clearRect(0,0,W,H);
+ const s=D.scenes;let id=8;
+ for(let i=0;i<9;i++){if(t<s[i].end||i===8){id=i;break}}
+ let q=s[id],u=clamp((t-q.start)/Math.max(.2,q.end-q.start));
+ scenes[id](t,u);caption(t);credit();
+}
+window.setTime=t=>{frame(t);A.currentTime=Math.max(0,t);document.getElementById('seek').value=t};
+window.setFrame=n=>frame(n/30);window.renderFrame=n=>frame(n/30);window.getDuration=()=>D.duration;window.getFPS=()=>30;
+let running=false,last=0;
+function loop(){if(!running)return;frame(A.currentTime);document.getElementById('clock').textContent=A.currentTime.toFixed(2)+'s';document.getElementById('seek').value=A.currentTime;
+ if(A.ended||A.currentTime>=D.duration-.1){running=false;A.pause();return}requestAnimationFrame(loop)}
+function toggle(){if(running){running=false;A.pause()}else{running=true;A.play();requestAnimationFrame(loop)}}
+function seek(n){A.currentTime=n;frame(n);document.getElementById('seek').value=n}
+document.getElementById('seek').max=D.duration;document.getElementById('seek').oninput=e=>seek(+e.target.value);
+async function exportWebm(){
+ if(!window.MediaRecorder||!C.captureStream)return alert('Browser 4K MediaRecorder not supported');
+ const video=C.captureStream(30);let mix;try{let ac=new AudioContext(),src=ac.createMediaElementSource(A),dest=ac.createMediaStreamDestination();src.connect(dest);src.connect(ac.destination);mix=new MediaStream([...video.getVideoTracks(),...dest.stream.getAudioTracks()])}catch(e){return alert('Audio graph unavailable: '+e.message)}
+ const types=['video/webm;codecs=vp9,opus','video/webm;codecs=vp8,opus','video/webm'];let mimeType=types.find(x=>MediaRecorder.isTypeSupported(x));if(!mimeType)return alert('No WebM encoder');
+ const chunks=[],r=new MediaRecorder(mix,{mimeType,videoBitsPerSecond:35000000,audioBitsPerSecond:256000});r.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};r.onstop=()=>{let blob=new Blob(chunks,{type:mimeType}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='CURIO_BUREAU_EP008_BROWSER_4K.webm';a.click();URL.revokeObjectURL(url)};
+ seek(0);r.start(1000);running=true;await A.play();requestAnimationFrame(loop);A.onended=()=>{running=false;r.stop()};}
+window.readyPromise=Promise.all([document.fonts.ready,new Promise(resolve=>{if(M.complete)resolve();else{M.onload=resolve;M.onerror=resolve}})]).then(()=>frame(0));
+</script></body></html>
