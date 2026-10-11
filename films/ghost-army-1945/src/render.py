@@ -21,7 +21,7 @@ clean=clean.replace('/*TIMELINE_JSON*/',json.dumps(manifest,separators=(',',':')
 
 shutil.copy(A/'final_mix.mp3',DIST/'final_mix.mp3')
 shutil.copy(A/'captions.srt',DIST/'captions.srt')
-(DIST/'READ_ME.txt').write_text('Curio Bureau Episode 009 — RENDER CANDIDATE. Open CURIO_EP009_MOTION_STUDIO.html in a browser; keep final_mix.mp3 alongside it. Online Playfair and Manrope will load via Google Fonts. Source footage is a credited NASA/USGS period original illustration; remaining vector sequences are original illustrative animation. This candidate requires human artistic, caption and listening review before FINAL MASTER. No font binaries distributed.\n')
+(DIST/'READ_ME.txt').write_text('Curio Bureau Episode 009 — RENDER CANDIDATE. Open CURIO_EP009_MOTION_STUDIO.html in a browser; keep final_mix.mp3 alongside it. Online Playfair and Manrope will load via Google Fonts. Every visible WWII battlefield illustration is originally drawn Canvas art, an explicitly labelled reconstruction, not an archival photograph or battlefield recording. This candidate requires human artistic, caption and listening review before FINAL MASTER. No font binaries distributed.\n')
 mp4=DIST/'CURIO_BUREAU_EP009_NATIVE4K_MP4_REVIEW.mp4';webm=DIST/'CURIO_BUREAU_EP009_NATIVE4K_WEBM_REVIEW.webm'
 cmd=['ffmpeg','-y','-loglevel','error','-threads','4','-f','image2pipe','-framerate','30','-vcodec','png','-i','pipe:0','-i',str(A/'master_24bit.wav'),'-map','0:v','-map','1:a','-c:v','libx264','-preset','ultrafast','-crf','14','-pix_fmt','yuv420p','-tune','animation','-r','30','-c:a','aac','-b:a','320k','-ar','48000','-ac','2','-movflags','+faststart','-frames:v',str(frames),str(mp4)]
 print('RENDERING',frames,'native-4K frames for',round(duration,3),'seconds',flush=True)
