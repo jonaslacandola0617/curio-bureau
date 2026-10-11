@@ -229,5 +229,5 @@ async function exportWebm(){if(!window.MediaRecorder||!C.captureStream)return al
  const chunks=[],r=new MediaRecorder(m,{mimeType,videoBitsPerSecond:35000000,audioBitsPerSecond:256000});r.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
  r.onstop=()=>{let blob=new Blob(chunks,{type:mimeType}),url=URL.createObjectURL(blob),z=document.createElement('a');z.href=url;z.download='CURIO_BUREAU_EP009_BROWSER_4K.webm';z.click();URL.revokeObjectURL(url)};
  seek(0);r.start(1000);running=true;await A.play();requestAnimationFrame(loop);A.onended=()=>{running=false;r.stop()}}
-window.readyPromise=document.fonts.ready.then(()=>draw(0));
+window.readyPromise=Promise.all([document.fonts.load('600 64px "Playfair Display"'),document.fonts.load('700 32px Manrope')]).then(()=>document.fonts.ready).then(()=>draw(0));
 </script></body></html>
