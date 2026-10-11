@@ -1,0 +1,39 @@
+name: Build original Curio Bureau SFX v1
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/build-curio-sfx-v1.yml
+      - production/audio/original-sfx-v1/generate_sfx.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install -q numpy scipy soundfile
+      - name: Generate original cue assets and validate actual WAVs
+        run: |
+          python -u production/audio/original-sfx-v1/generate_sfx.py
+          test "$(find production/audio/original-sfx-v1/wav -name '*.wav' | wc -l)" -eq 32
+      - name: Push verified reusable audio files into GitHub main
+        run: |
+          set -euo pipefail
+          git config user.name 'curio-bureau-sfx[bot]'
+          git config user.email 'actions@users.noreply.github.com'
+          git add production/audio/original-sfx-v1/wav production/audio/original-sfx-v1/CATALOG.csv production/audio/original-sfx-v1/CATALOG.json production/audio/original-sfx-v1/QA.json
+          if ! git diff --cached --quiet; then
+            git commit -m "audio: publish 32 source-original stereo 24-bit sound effects"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Publish downloadable ZIP and audition waveform as tagged release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd production/audio/original-sfx-v1
+          gh release create curio-original-designed-sfx-v1 CURIO_BUREAU_ORIGINAL_SFX_V1.zip AUDITION_ALL_32.wav CATALOG.csv QA.json --repo "${{ github.repository }}" --target main --title 'Curio Bureau Original Designed SFX v1 — 32 cue WAV library' --notes '32 original procedural/synthesized editorial sound design cues; WAV 48k PCM24 stereo. Audio signal QC completed; creative listening remains open. No existing third-party Drive SFX redistributed.'
