@@ -197,17 +197,23 @@ function scene8(t,u){landscape(t,false);
  ser('Curio Bureau',538,1589,60,IVORY,'center');txt('STORIES, SYSTEMS, AND SURPRISES.',540,1636,16,GOLD,800,'center');K.restore();
 }
 const SCENES=[scene0,scene1,scene2,scene3,scene4,scene5,scene6,scene7,scene8];
-function caption(t){let a=D.phrases.find(p=>t>=p.start-.035&&t<Math.min(p.end+.06,D.duration-.1));if(!a)return;
- // phrase group from actual clip boundaries; word boundaries (if provided) are separate QA
- let words=a.text.split(' '),lines=[],now='';
- for(let w of words){let s=now?now+' '+w:w;if(s.length>30&&now){lines.push(now);now=w}else now=s}if(now)lines.push(now);
- if(lines.length>3){let q=lines.join(' ').split(' ');lines=[];now='';for(let w of q){let s=now?now+' '+w:w;if(s.length>38&&now){lines.push(now);now=w}else now=s}if(now)lines.push(now)}
- let yy=951-(lines.length-1)*32;
- K.save();K.textAlign='center';
- for(let i=0;i<lines.length;i++){let sz=30,ww=K.measureText(lines[i]).width;if(ww>950)sz=25;
- let cy=yy+i*62;rr(48,cy-46,984,57,10,'rgba(3,12,19,.88)','rgba(200,162,107,.19)',1);
- txt(lines[i],540,cy,sz,IVORY,800,'center')}
- K.restore()}
+function caption(t){
+ const p=D.phrases.find(p=>t>=p.start-.005&&t<p.end+.004);if(!p)return;
+ const alpha=sm((t-p.start)/.12)*sm((p.end-t)/.11);
+ K.save();K.globalAlpha=alpha;
+ const words=p.text.split(' '),lines=[''];
+ K.font='700 39px Manrope';
+ for(const wd of words){
+  let last=lines.length-1,test=(lines[last]+' '+wd).trim();
+  if(K.measureText(test).width>850&&lines[last])lines.push(wd);else lines[last]=test;
+ }
+ let h=lines.length*55+52,yy=946-h/2;
+ // One rounded translucent caption panel, matching Episode 008:
+ // never split consecutive lines into separate flat black bars.
+ rr(82,yy,916,h,18,'rgba(4,12,21,.91)','rgba(208,176,113,.43)',1.5);
+ lines.forEach((z,i)=>txt(z,540,yy+60+i*54,38,IVORY,800,'center'));
+ K.restore()
+}
 function footnote(){line(52,1804,1028,1804,'rgba(201,165,110,.32)',1);
  txt('ILLUSTRATIVE RECONSTRUCTION • U.S. GHOST ARMY, 1944–45',53,1842,14,'#C4B69E',700);
  txt('STORIES, SYSTEMS, AND SURPRISES.',53,1881,15,GOLD,600)}
