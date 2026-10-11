@@ -10,6 +10,9 @@
 5. If video production IS explicitly requested: use the [Episode 008 production prompt](production/prompts/EP008_NEXT_EPISODE_MASTER_PRODUCTION_PROMPT.md) when relevant, require 5 demanding style frames, multi-part assets and a moving preflight for difficult scenes; no basic middle-scene assets after a polished intro.
 6. If video production IS explicitly requested: don't skip original hooks, research, 5 demanding style frames, score/SFX cue sheet, detailed shot fingerprint ledger, natural-voice timing and word-aligned captions, creative preflight, or actual 4K MP4+WebM QA.
 
+## Original Curio Bureau SFX pack (approved repository resource)
+Before any audio post-production, browse the first-party [50-cue original SFX catalog](audio/curio_sfx_v1/CATALOG.csv), read the [Drive library gap audit](production/audio-sfx-v1/LIBRARY_AUDIT.md) and [sound-design guide](production/audio-sfx-v1/SOUND_DIRECTION_GUIDE.md). The `audio/curio_sfx_v1/` FLAC pack is 48kHz/24bit stereo and may be used in Curio Bureau films with authored cue sheets, manual audible mix QA, and timecoded narrative/animation triggers. Cue packs are **synthesized approximations, not authentic field, period, or NASA recordings**; prefer cleared real Foley when historical/physical authenticity is essential. Do not copy Google Drive Mixkit/Freesound downloaded audio into this public repo without separate rights. **Emotional voice directing and dynamic musical scoring remain separate mandatory creative tasks.**
+ 
 ## Hard regressions forbidden
 - Repeated 3–5 second silent narration holes: normal gap 0.12–0.55s; unplanned >0.85s editorial fail; >1.20s release fail; check inside voice clips, not just between them.
 - Subtitles behind platform controls: place Manrope phrases around vertical center (42–58%), compose shots around them, and test TikTok/Shorts UI overlay.

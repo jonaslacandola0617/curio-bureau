@@ -12,6 +12,9 @@ This repository is the **source of truth for production code and technical docum
 - Save meaningful milestones as commits; use pull requests to review and merge into `main`.
 - Do not overwrite another topic's branch or force-push without a specific reason.
 
+## New original sound-effects library (October 2026)
+[Curio Bureau SFX v1 — 50 original audio cues](https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-sfx-v1-original) · [FLAC/Catalog](audio/curio_sfx_v1/CATALOG.csv) · [Existing library audit](production/audio-sfx-v1/LIBRARY_AUDIT.md) · [Sound direction guide](production/audio-sfx-v1/SOUND_DIRECTION_GUIDE.md). The sound pack contains synthesized designs only; authentic period Foley and professionally directed narration remain future improvements.
+
 ## Governing production policy (October 2026)
 **Authoritative, v1.2:** [Curio Bureau Master Production Bible](production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md), including the approved Motion Mastery Lab upgrades.
 **Start here:** [Project governance and reading order](production/bible/v1.1/README.md). [Motion Mastery Lab reference library](production/motion-lab/v1/README.md). [Episode 008 master production prompt](production/prompts/EP008_NEXT_EPISODE_MASTER_PRODUCTION_PROMPT.md).
