@@ -63,27 +63,49 @@ jobs:
           print(json.dumps(out,indent=2))
           PY
           python /tmp/check.py
+      - name: Quantify actual encoded output integrated loudness and sample peaks
+        run: |
+          python - <<'PY'
+          import json,re,subprocess,pathlib
+          root=pathlib.Path('films/ghost-army-1945/dist')
+          r={}
+          for ext in ['mp4','webm']:
+            p=root/f'CURIO_BUREAU_EP009_NATIVE4K_{ext.upper()}_REVIEW.{ext}'
+            q=subprocess.run(['ffmpeg','-hide_banner','-nostats','-i',str(p),'-vn','-af','ebur128=peak=true','-f','null','-'],capture_output=True,text=True,check=True)
+            output=q.stderr
+            i=list(re.finditer(r'Integrated loudness:\s*I:\s*(-?\d+(?:\.\d+)?) LUFS',output))
+            peak=list(re.finditer(r'True peak:\s*Peak:\s*(-?\d+(?:\.\d+)?) dBFS',output))
+            if not i:raise RuntimeError(f'No measured integrated loudness for {p}')
+            val=float(i[-1].group(1));pk=float(peak[-1].group(1)) if peak else None
+            if not(-15<val<-10.0):raise RuntimeError(f'Audio master loudness outside intended window: {p}: {val}')
+            if pk is not None and pk>-.10:raise RuntimeError(f'True peak likely clipping: {p}: {pk}')
+            r[ext]={'measured_integrated_LUFS':val,'true_peak_dBFS':pk,'method':'ffmpeg ebur128=peak=true applied to decoded actual export'}
+          (root/'R2_AUDIO_LOUDNESS_QA.json').write_text(json.dumps({'audio_r2':r,'voice_and_SFX_relative_gain_dB':3.0,'target_integrated_LUFS':-12,'human_listening_signoff':'PENDING'},indent=2))
+          print(json.dumps(r,indent=2))
+          PY
       - name: Publish direct-review MP4, WebM and editable source files
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           D=films/ghost-army-1945/dist
-          gh release create ep009-ghost-army-review-r1 \
+          gh release create ep009-ghost-army-review-r2 \
             "$D/CURIO_BUREAU_EP009_NATIVE4K_MP4_REVIEW.mp4" \
             "$D/CURIO_BUREAU_EP009_NATIVE4K_WEBM_REVIEW.webm" \
             "$D/CURIO_BUREAU_EP009_SOURCE_REVIEW.zip" \
             "$D/EP009_NATIVE4K_CONTACT_SHEET.jpg" \
             "$D/ENCODE_QA.json" \
             "$D/INDEPENDENT_STREAM_QA.json" \
+            "$D/R2_AUDIO_LOUDNESS_QA.json" \
             films/ghost-army-1945/audio/audio_cue_sheet.csv \
+            films/ghost-army-1945/audio/AUDIO_MIX_REVISION_R2.json \
             films/ghost-army-1945/audio/VOICE_AUDITION_OPEN_A.mp3 \
             films/ghost-army-1945/audio/VOICE_AUDITION_OPEN_B.mp3 \
             --repo jonaslacandola0617/curio-bureau \
             --target film/ghost-army-1945 \
             --prerelease \
-            --title 'Curio Bureau 009 - The Army That Was Not There - Native4K REVIEW R1' \
-            --notes 'US Ghost Army history based on U.S. Army/National WWII Museum. Original WWII illustrative animation, recorded TTS, original composed score and 16 owned synthesised SFX cues. Actual native 2160x3840 30fps H.264/AAC and VP9/Opus files separately verified. REVIEW CANDIDATE, NOT FINAL: human emotional voice review, source rights/music checks, true word-aligned captions and full phone/headphone moving-film creative QA remain open. No authentic 1945 audio or footage is implied.'
+            --title 'Curio Bureau 009 - The Army That Was Not There - Native4K REVIEW R2' \
+            --notes 'US Ghost Army history based on U.S. Army/National WWII Museum. Original WWII illustrative animation, recorded TTS, original composed score and 16 owned synthesised SFX cues. Actual native 2160x3840 30fps H.264/AAC and VP9/Opus files separately verified. R2 IMPROVEMENTS: unified translucent single-panel captions matching 008; voice and owned SFX mix +3dB relative to score, safer -12 LUFS / -1 dBTP target. REVIEW CANDIDATE, NOT FINAL: human emotional voice review, source rights/music checks, true word-aligned captions and full phone/headphone moving-film creative QA remain open. No authentic 1945 audio or footage is implied.'
       - name: Preserve native-4K renders
         uses: actions/upload-artifact@v4
         if: success()
