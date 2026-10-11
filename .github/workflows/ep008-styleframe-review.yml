@@ -1,0 +1,30 @@
+name: EP008 Publish internal styleframe contact (original artwork only)
+on:
+  push:
+    branches: [film/mars-climate-orbiter-1999]
+    paths: [.github/workflows/ep008-styleframe-review.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract successful preflight artwork and commit single small contact sheet
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/ep008proof films/mars-climate-orbiter-1999/review
+          gh run download 38118437074 -n ep008-native-4k-styleframe-preflight -D /tmp/ep008proof
+          find /tmp/ep008proof -name '*.jpg' -o -name '*.png' | head
+          find /tmp/ep008proof -name 'EP008_NINE_SCENE_STYLEFRAMES_CONTACT.jpg' -exec cp {} films/mars-climate-orbiter-1999/review/EP008_STYLEFRAME_PREFLIGHT_CONTACT.jpg \;
+          test -s films/mars-climate-orbiter-1999/review/EP008_STYLEFRAME_PREFLIGHT_CONTACT.jpg
+          git config user.name 'curio-bureau-qa[bot]'
+          git config user.email 'actions@users.noreply.github.com'
+          git add films/mars-climate-orbiter-1999/review/EP008_STYLEFRAME_PREFLIGHT_CONTACT.jpg
+          git commit -m 'art(ep008): attach real 4k rendered nine-scene preflight contact sheet'
+          git push origin HEAD:film/mars-climate-orbiter-1999
