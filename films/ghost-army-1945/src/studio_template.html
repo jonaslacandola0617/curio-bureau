@@ -116,10 +116,10 @@ function river(x,y,u){K.save();K.translate(x,y);let a=K.createLinearGradient(150
  K.restore()}
 function annotation(t,x,y,textline,width=550){rr(x,y,width,54,7,'rgba(10,28,35,.82)','rgba(200,162,107,.5)',1);txt(textline,x+18,y+36,20,GOLD,700)}
 function scene0(t,u){landscape(t,false);header('GHOST ARMY / RECONSTRUCTION');
- K.save();K.translate(-38*sm(u),50*sm(u));ww2Tank(550,1020,1.23,t,1-.31*sm((u-.48)*2.7),sm((u-.25)*2));K.restore();
+ K.save();K.translate(-38*sm(u),50*sm(u));ww2Tank(550,1270,1.23,t,1-.31*sm((u-.48)*2.7),sm((u-.25)*2));K.restore();
  // separate focal eye path to the valve and clued stitching
  if(u>.33){let a=sm((u-.33)*2.6);K.save();K.globalAlpha=a;
- line(792,970,921,758,GOLD,3);circ(794,970,8,CORAL);annotation(t,652,679,'NOT STEEL. RUBBER.',365);K.restore()}
+ line(792,1220,921,758,GOLD,3);circ(794,1220,8,CORAL);annotation(t,652,679,'NOT STEEL. RUBBER.',365);K.restore()}
  ser('AN ARMY',65,270,100);ser('MADE OF AIR.',65,372,100,GOLD);txt('1944–1945',75,452,24,'#E7D7AC',700);
 }
 function scene1(t,u){landscape(t,true);
@@ -137,23 +137,23 @@ function scene1(t,u){landscape(t,true);
 function scene2(t,u){landscape(t,true);
  // premium closeup physically continuous inflation as local object change
  K.save();K.translate(540,1050);K.scale(1+.13*sm(u),1+.13*sm(u));K.translate(-540,-1050);
- ww2Tank(545,1000,1.13,t,.36+.64*sm(u*1.8),sm((u-.32)*2.2));K.restore();
+ ww2Tank(545,1310,1.13,t,.36+.64*sm(u*1.8),sm((u-.32)*2.2));K.restore();
  ser('A full-size',85,224,79);ser('illusion.',85,324,96,GOLD);
  // multipiece seam reference, above caption band
  annotation(t,76,535,'FABRIC • AIR VALVE • FALSE ARMOR',918);
- if(u>.64){K.save();K.globalAlpha=sm((u-.64)*3);line(770,930,942,719,GOLD,4);circ(770,930,9,CORAL);txt('STITCHED SKIN',700,679,25,IVORY,800);K.restore()}
+ if(u>.64){K.save();K.globalAlpha=sm((u-.64)*3);line(770,1240,942,719,GOLD,4);circ(770,1240,9,CORAL);txt('STITCHED SKIN',700,679,25,IVORY,800);K.restore()}
  header('VISUAL DECEPTION')}
 function scene3(t,u){landscape(t,false);
- K.save();K.translate(20*sm(u),0);speakerVehicle(548,1175,1.17,t);K.restore();
+ K.save();K.translate(20*sm(u),0);speakerVehicle(548,1405,1.17,t);K.restore();
  // waves originate from physical speaker plane (not a magic UI card)
- for(let i=0;i<6;i++){let d=(u*.94+i*.16)%1,r=65+d*630;K.save();K.globalAlpha=(1-d)*.36;K.beginPath();K.arc(410,1093,r,-.7,.6);K.lineWidth=4;K.strokeStyle=GOLD;K.stroke();K.restore()}
+ for(let i=0;i<6;i++){let d=(u*.94+i*.16)%1,r=65+d*630;K.save();K.globalAlpha=(1-d)*.36;K.beginPath();K.arc(410,1328,r,-.7,.6);K.lineWidth=4;K.strokeStyle=GOLD;K.stroke();K.restore()}
  ser('The tanks',72,254,77);ser('needed a voice.',72,358,80,GOLD);
  annotation(t,75,520,'LOUDSPEAKERS • RECORDED FIELD SOUNDS',928);
  header('SONIC DECEPTION • ORIGINAL AUDIO DESIGN')}
 function scene4(t,u){sky(false); // completely different macro industrial framing
- let v=sm(u);K.save();K.translate(540,1030);K.scale(.95+.14*v,.95+.14*v);K.translate(-540,-1030);radioBox(545,1024,1.27,t);K.restore();
+ let v=sm(u);K.save();K.translate(540,1030);K.scale(.95+.14*v,.95+.14*v);K.translate(-540,-1030);radioBox(545,1390,1.08,t);K.restore();
  for(let i=0;i<12;i++){let x=60+i*84,y=540+65*Math.sin(i+u*3);line(x,y,x+25,y-23,'rgba(200,162,107,.2)',2)}
- ser('An invisible',70,223,87);ser('division.',70,324,93,GOLD);
+ ser('An invisible',1003,219,87,IVORY,'right');ser('division.',1003,321,93,GOLD,'right');
  annotation(t,74,1544,'FALSE RADIO TRAFFIC • REAL OPERATORS',930);
  header('RADIO DECEPTION');texture(8)}
 function scene5(t,u){landscape(t,true); // cinematic cut between observer + large false battlefield
@@ -188,7 +188,7 @@ function scene7(t,u){sky(false); // ratio explained using visual silhouette + ty
  for(let i=0;i<19;i++){K.save();K.globalAlpha=k*(.12+.48*(1-j/12));soldier(x+i*49,y,.25+.04*(j%2),t);K.restore()}}
  header('OPERATION VIERSEN / TWO DIVISIONS')}
 function scene8(t,u){landscape(t,false);
- K.save();K.globalAlpha=1-.64*sm(u);ww2Tank(560,1190,1.15,t,1,sm(u));K.restore();
+ K.save();K.globalAlpha=1-.64*sm(u);ww2Tank(560,1405,.92,t,1,sm(u));K.restore();
  // small human silhouettes remain in reality
  for(let i=0;i<5;i++)soldier(240+i*142,1348,.27,t);
  ser('AN ARMY',72,295,90);ser('THAT WASN’T',72,400,90);ser('THERE.',72,506,112,GOLD);
