@@ -1,0 +1,84 @@
+name: EP008 Visual Craft Preflight
+on:
+  push:
+    branches: [film/mars-climate-orbiter-1999]
+    paths: [.github/workflows/ep008-preflight.yml]
+  workflow_dispatch:
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions: {contents: read}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare Chromium and mandatory art assets
+        run: |
+          python -m pip install -q playwright Pillow
+          python -m playwright install --with-deps chromium
+          mkdir -p films/mars-climate-orbiter-1999/assets
+          cd films/mars-climate-orbiter-1999/assets
+          curl -fL --retry 5 -A 'CurioBureauMotionResearch/1.0' 'https://commons.wikimedia.org/wiki/Special:FilePath/Mars_globe.jpg' -o mars_globe.jpg
+          curl -fL --retry 4 'https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf' -o PlayfairDisplay.ttf
+          curl -fL --retry 4 'https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf' -o Manrope.ttf
+      - name: Render nine independent full 4K styleframes
+        run: |
+          cat > /tmp/preflight.py <<'PY'
+          import json,pathlib,base64,math,io,os
+          from PIL import Image,ImageDraw
+          from playwright.sync_api import sync_playwright
+          root=pathlib.Path('films/mars-climate-orbiter-1999')
+          asset=root/'assets';o=root/'preflight';o.mkdir(exist_ok=True)
+          phr=[(0,'In 1999, a spacecraft disappeared behind Mars.'),(0,'Its signal was supposed to return.'),(0,'It never did.'),(1,'A nine month journey from Earth.'),(1,'Mars weather was the destination.'),(2,'Two teams used different units.'),(2,'The ground file used pounds force seconds.'),(3,'The navigator expected newton seconds.'),(3,'Four point four five to one.'),(3,'No conversion at the handoff.'),(4,'The spacecraft fired small thrusters.'),(4,'The errors accumulated.'),(5,'The planned altitude was higher.'),(5,'It passed dangerously low.'),(6,'The signal vanished behind Mars.'),(6,'It never returned.'),(6,'No trace.'),(7,'A report found systemic failure.'),(7,'The checks had missed the mismatch.'),(8,'The interface lost the mission.')]
+          scenes={};rows=[];t=0
+          for i,(scene,text) in enumerate(phr):
+           if str(scene) not in scenes:scenes[str(scene)]={'start':t,'end':t+4}
+           scenes[str(scene)]['end']=t+4
+           rows.append(dict(i=i,scene=scene,start=t,end=t+4,text=text))
+           t+=4
+          timeline={'scenes':scenes,'phrases':rows,'duration':t,'fps':30}
+          css=''
+          for family,fn in [('Playfair Display','PlayfairDisplay.ttf'),('Manrope','Manrope.ttf')]:
+           css+='@font-face{font-family:"'+family+'";src:url(data:font/truetype;base64,'+base64.b64encode((asset/fn).read_bytes()).decode()+') format("truetype");font-weight:100 900;}'
+          src=(root/'src/studio_template.html').read_text()
+          src=src.replace('/*LOCAL_RENDER_FONTS*/',css).replace('/*TIMELINE_JSON*/',json.dumps(timeline))
+          (o/'render.html').write_text(src)
+          (o/'mars_globe.jpg').write_bytes((asset/'mars_globe.jpg').read_bytes())
+          frames=[]
+          with sync_playwright() as p:
+           browser=p.chromium.launch(headless=True,args=['--no-sandbox','--disable-dev-shm-usage'])
+           page=browser.new_context(viewport={'width':1080,'height':1920},device_scale_factor=2).new_page()
+           page.goto((o/'render.html').resolve().as_uri(),wait_until='domcontentloaded',timeout=180000)
+           page.add_style_tag(content='body{margin:0!important;padding:0!important;display:block!important}canvas{width:1080px!important;height:1920px!important}#controls{display:none!important}')
+           page.evaluate('window.readyPromise')
+           chk=page.evaluate("({a:document.fonts.check('600 32px Playfair Display'),b:document.fonts.check('700 32px Manrope'),mars:document.getElementById('marsImg').naturalWidth})")
+           print('CHECK_ASSETS',chk,flush=True)
+           assert chk['a'] and chk['b'] and chk['mars']>4000
+           for sid in range(9):
+            q=scenes[str(sid)]
+            for phase in ([.12,.55,.87] if sid==0 else [.55]):
+             tt=q['start']+(q['end']-q['start'])*phase
+             page.evaluate('(t)=>window.renderFrame(Math.round(t*30))',tt)
+             b=page.locator('#film').screenshot(type='png',scale='device')
+             img=Image.open(io.BytesIO(b)).convert('RGB')
+             assert img.size==(2160,3840)
+             name='scene%02d_%02d.png'%(sid,round(phase*100));img.save(o/name,optimize=True)
+             img.thumbnail((270,480));frames.append((name,img.copy()))
+           browser.close()
+          cols=3;sheet=Image.new('RGB',(cols*300,math.ceil(len(frames)/cols)*520),(6,16,26));draw=ImageDraw.Draw(sheet)
+          for j,(name,im) in enumerate(frames):
+           x=(j%3)*300+12;y=(j//3)*520+30;sheet.paste(im,(x,y));draw.text((x,y-22),name,fill=(239,221,180))
+          path=o/'EP008_NINE_SCENE_STYLEFRAMES_CONTACT.jpg';sheet.save(path,quality=90)
+          b64=base64.b64encode(path.read_bytes()).decode()
+          print('CONTACT_B64_BEGIN')
+          for j in range(0,len(b64),12000):print('CONTACT_B64_CHUNK '+str(j//12000)+' '+b64[j:j+12000])
+          print('CONTACT_B64_END')
+          print('PREFLIGHT_COMPLETED',len(frames),'contact',path.stat().st_size,flush=True)
+          PY
+          python /tmp/preflight.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ep008-native-4k-styleframe-preflight
+          path: |
+            films/mars-climate-orbiter-1999/preflight/*.png
+            films/mars-climate-orbiter-1999/preflight/*.jpg
+          if-no-files-found: error
