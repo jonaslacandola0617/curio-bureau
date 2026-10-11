@@ -84,6 +84,6 @@ with zipfile.ZipFile(DIST/'CURIO_BUREAU_EP009_SOURCE_REVIEW.zip','w',zipfile.ZIP
   z.write(p,'src/'+p.name)
  for p in (ROOT/'docs').rglob('*'):
   if p.is_file():z.write(p,'docs/'+p.name)
- for p in [A/'timeline.json',A/'voice_gap_QA.json',A/'audio_cue_sheet.csv',A/'VOICE_AB_QA.md',A/'AUDIO_HUMAN_CREATIVE_GATE.md']:
+ for p in [A/'timeline.json',A/'voice_gap_QA.json',A/'audio_cue_sheet.csv',A/'VOICE_AB_QA.md',A/'AUDIO_HUMAN_CREATIVE_GATE.md',A/'AUDIO_MIX_REVISION_R2.json']:
   z.write(p,'audio/'+p.name)
 print('EP009 RENDER CANDIDATE DELIVERED',qa['streams'],flush=True)
