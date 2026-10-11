@@ -65,3 +65,5 @@ jobs:
 # Re-run after required Playfair font load correction in Canvas renderer
 
 # Native-4K exact screenshot pixel test: removed capture border.
+
+# Art revision: reposition primary objects to protect 42–58 percent center captions.
