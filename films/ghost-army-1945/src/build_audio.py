@@ -173,12 +173,26 @@ async def main():
  m=music(duration,seg)
  fx=collect_sfx(n,seg)
  v=np.pad(v,((0,n-len(v)),(0,0)))
- z=.94*v+.61*m+.85*fx
+ # R2: +3.0 dB vocal/SFX relative to music, true-peak limited finished master.
+ # Keep music present; raising every bus equally before loudnorm would be cancelled by normalization.
+ voice_gain=10**(3.0/20)
+ sfx_gain=10**(3.0/20)
+ z=(.94*voice_gain)*v + .61*m + (.85*sfx_gain)*fx
  peak=float(np.max(abs(z)))
  if peak>.87:z*=.87/peak
+ (OUT/'AUDIO_MIX_REVISION_R2.json').write_text(json.dumps({
+   'mix_request':'raise perceived narration and SFX 2-4 dB', 
+   'chosen_relative_voice_gain_db':3.0,
+   'chosen_relative_sfx_gain_db':3.0,
+   'music_source_gain_unchanged':True,
+   'master_target_lufs':-12.0,
+   'master_true_peak_ceiling_dbTP':-1.0,
+   'source_basis':'gain changes applied to separately-rendered voice and SFX buses before final loudnorm',
+   'qa_limit':'Final actual perceived gain requires encoded-file measurements and human audition; not guaranteed to be exactly +3dB absolute versus R1'
+  },indent=2))
  for name,x in [('voice_24bit.wav',v),('music_24bit.wav',m),('sfx_24bit.wav',fx),('mix_raw.wav',z)]:
   sf.write(OUT/name,x,SR,subtype='PCM_24')
- subprocess.run(['ffmpeg','-y','-v','error','-i',str(OUT/'mix_raw.wav'),'-af','loudnorm=I=-13.5:TP=-1.3:LRA=7','-ar','48000','-ac','2',str(OUT/'master_24bit.wav')],check=True)
+ subprocess.run(['ffmpeg','-y','-v','error','-i',str(OUT/'mix_raw.wav'),'-af','loudnorm=I=-12.0:TP=-1.0:LRA=7','-ar','48000','-ac','2',str(OUT/'master_24bit.wav')],check=True)
  subprocess.run(['ffmpeg','-y','-v','error','-i',str(OUT/'master_24bit.wav'),'-c:a','libmp3lame','-b:a','256k',str(OUT/'final_mix.mp3')],check=True)
  scenes={str(i):dict(start=min(x['start'] for x in seg if x['scene']==i),end=max(x['end'] for x in seg if x['scene']==i)) for i in range(9)}
  (OUT/'timeline.json').write_text(json.dumps(dict(duration=round(duration,4),speechEnd=round(speech_duration,4),fps=30,phrases=seg,scenes=scenes),indent=2))
