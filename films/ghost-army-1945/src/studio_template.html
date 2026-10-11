@@ -1,0 +1,233 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Curio Bureau 009 | The Army That Wasn't There</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>/*LOCAL_RENDER_FONTS*/:root{color-scheme:dark}body{margin:0;background:#070e17;color:#f5f0e7;font:16px Manrope,sans-serif;display:flex;gap:16px;padding:8px}
+canvas{width:540px;height:960px;flex:none;border:1px solid #31414b}
+#controls{width:290px;display:flex;flex-direction:column;gap:12px;padding:16px;background:#0d1c2b;border-radius:12px}
+button{padding:11px;background:#172a3a;border:1px solid #c8a26b;color:#f5f0e7;border-radius:7px;cursor:pointer}
+@media(max-width:750px){body{display:block}canvas{width:min(100%,540px);height:auto}#controls{width:auto}}</style></head><body>
+<canvas id="film" width="2160" height="3840"></canvas>
+<div id="controls"><h2>CURIO BUREAU / 009</h2><p>THE ARMY THAT WASN'T THERE</p>
+<button onclick="toggle()">Play / Pause</button><button onclick="seek(0)">Replay</button>
+<input id="seek" type="range" min="0" step=".01" value="0"><span id="clock">00:00</span>
+<button onclick="exportWebm()">Export 4K WebM</button><p>All period scenes are original illustrative reconstructions, not historical footage.</p></div>
+<audio id="snd" preload="auto" src="final_mix.mp3"></audio><script id="timeline" type="application/json">/*TIMELINE_JSON*/</script>
+<script>
+const C=document.getElementById('film'),K=C.getContext('2d',{alpha:false}),A=document.getElementById('snd'),D=JSON.parse(document.getElementById('timeline').textContent);
+const W=1080,H=1920,PI=Math.PI,NAVY='#0D1C2B',IVORY='#F5F0E7',GOLD='#C8A26B',CORAL='#D57864',SAGE='#9baf98',FIELD='#677663';
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),sm=x=>{x=clamp(x);return x*x*(3-2*x)},mix=(a,b,u)=>a+(b-a)*u;
+const rnd=i=>{let q=Math.sin(i*73.132+12.41)*12457.124;return q-Math.floor(q)};
+function fillrect(x,y,w,h,c){K.fillStyle=c;K.fillRect(x,y,w,h)}
+function line(x,y,X,Y,col=IVORY,w=2){K.beginPath();K.moveTo(x,y);K.lineTo(X,Y);K.strokeStyle=col;K.lineWidth=w;K.stroke()}
+function poly(pts,col,stroke=null,sw=2){K.beginPath();K.moveTo(...pts[0]);for(let i=1;i<pts.length;i++)K.lineTo(...pts[i]);K.closePath();K.fillStyle=col;K.fill();if(stroke){K.strokeStyle=stroke;K.lineWidth=sw;K.stroke()}}
+function circ(x,y,r,c,stroke=null,w=2){K.beginPath();K.arc(x,y,Math.max(.2,r),0,PI*2);K.fillStyle=c;K.fill();if(stroke){K.strokeStyle=stroke;K.lineWidth=w;K.stroke()}}
+function ellipse(x,y,rx,ry,c){K.beginPath();K.ellipse(x,y,Math.max(.2,rx),Math.max(.2,ry),0,0,PI*2);K.fillStyle=c;K.fill()}
+function rr(x,y,w,h,r,c,stroke=null,sw=2){K.beginPath();K.roundRect(x,y,w,h,r);K.fillStyle=c;K.fill();if(stroke){K.strokeStyle=stroke;K.lineWidth=sw;K.stroke()}}
+function txt(t,x,y,sz=28,color=IVORY,weight=600,align='left',family='Manrope'){K.fillStyle=color;K.font=weight+' '+sz+'px '+(family==='Playfair'?'Playfair Display':'Manrope');K.textAlign=align;K.fillText(t,x,y)}
+function ser(t,x,y,sz=64,color=IVORY,align='left'){txt(t,x,y,sz,color,600,align,'Playfair')}
+function grad(x,y,X,Y,a,b){const g=K.createLinearGradient(x,y,X,Y);g.addColorStop(0,a);g.addColorStop(1,b);return g}
+function header(section='1944–45 / EUROPE'){rr(48,56,445,48,8,'rgba(11,25,37,.77)','rgba(200,162,107,.6)',1);txt('C U R I O   B U R E A U   /  0 0 9',70,88,14,GOLD,800);txt(section,54,1771,17,'#E0DBCA',600)}
+function texture(seed=0){K.save();K.globalAlpha=.05;for(let i=0;i<440;i++){let x=rnd(i+seed+4)*W,y=rnd(i+seed+402)*H,len=2+rnd(i+seed+8)*16;line(x,y,x+len,y+len*.18,i%3?'#f9ebd0':'#273b43',.65)}K.restore()}
+function sky(day=false){fillrect(0,0,W,H,grad(0,0,W,H,day?'#91a69c':'#071522',day?'#293e4b':'#203644'));if(day){ellipse(876,350,140,140,'rgba(248,228,179,.12)')}else{for(let i=0;i<100;i++)circ(rnd(i+100)*W,rnd(i+300)*860,0.6+rnd(i+333)*1.45,'rgba(248,238,211,'+(.05+rnd(i+400)*.18)+')')}}
+function landscape(t,light=false){
+ sky(light);
+ for(let z=0;z<3;z++){let y=840+z*206,amp=52+z*31,pts=[[0,H]];
+ for(let x=0;x<=W;x+=34){let v=y+Math.sin(x*.005+z+t*.004*(z+1))*amp+Math.cos(x*.013+z*2)*17;pts.push([x,v])}pts.push([W,H]);
+ poly(pts,['#354e50','#314343','#182b30'][z]);}
+ for(let i=0;i<165;i++){let x=rnd(i+91)*W,y=1420+rnd(i+300)*520,alpha=.11+rnd(i+13)*.30;line(x,y,x+(rnd(i+41)-.5)*8,y-8-rnd(i+10)*48,'rgba(181,176,118,'+alpha+')',.8+rnd(i)*1.6)}
+ for(let j=0;j<9;j++){let x=(j*171+t*.2)%1260-100,y=1200+rnd(j+131)*390;
+ K.save();K.globalAlpha=.25;for(let i=0;i<23;i++){let xx=x+(rnd(i+j*200)-.5)*190,yy=y+(rnd(i+j*210)-.5)*47;ellipse(xx,yy,19+rnd(i+j*320)*37,8+rnd(i+j*230)*21,'#435b49')}K.restore()}
+ texture(7)
+}
+function shadow(x,y,w,h=32){ellipse(x,y,w,h,'rgba(0,0,0,.38)')}
+function rivet(x,y){circ(x,y,3.2,'#d7d0aa');circ(x-1,y-1,1,'#fff6d2')}
+function soldier(x,y,s=1,t=0){K.save();K.translate(x,y);K.scale(s,s);let wob=Math.sin(t*1.4+x)*2;
+ shadow(0,166,31,5); // boots and legs
+ poly([[-21,72],[-2,72],[2,140],[-9,141],[-19,116]],'#586457');poly([[2,72],[20,68],[16,140],[4,142]],'#66715f');
+ poly([[-19,134],[-4,133],[-3,152],[-35,153]],'#202b29');poly([[8,135],[20,134],[35,150],[9,153]],'#202b29');
+ poly([[-32,-12],[28,-10],[22,83],[-24,84]],'#78806b','#364035',2);
+ poly([[-26,-7],[-47,10],[-39,69],[-22,63]],'#687663');poly([[24,-5],[41,11],[35,69],[21,65]],'#78806b');
+ circ(-29,71,7,'#c7a17b');circ(28,68,7,'#b88d70');rr(-13,-13,25,12,3,'#a88f6b');
+ circ(0,-43+wob,25,'#bb9474');poly([[-29,-53],[24,-53],[31,-44],[-34,-44]],'#404b3e');
+ K.beginPath();K.arc(0,-52,28,PI,2*PI);K.fillStyle='#5f6b54';K.fill();line(-12,-35,9,-34,'#776451',2);line(-9,0,9,0,'#d6c6a1',2);
+ poly([[-16,26],[18,24],[12,45],[-13,45]],'#566450');line(-16,50,18,50,'#bcb399',2);
+ K.restore()}
+function ww2Tank(x,y,s=1,t=0,inflate=1,reveal=0){K.save();K.translate(x,y);K.scale(s,s);K.shadowColor='rgba(0,0,0,.55)';K.shadowBlur=13;shadow(0,236,320,32);K.shadowBlur=0;
+ const bulge=.65+.35*sm(inflate);
+ K.save();K.scale(1,bulge);
+ // hull/tracks with period plausible broad silhouette; rubber reconstruction indicated in captions
+ poly([[-347,49],[-302,111],[253,111],[302,58],[260,1],[-252,0]],'#485649','#1b2925',6);
+ rr(-309,88,580,142,63,'#283630','#94a08c',6);
+ for(let i=0;i<7;i++){let px=-244+i*76; circ(px,161,40,'#1d2826','#9a9b7b',5);circ(px,161,25,'#63745d','#182622',3);circ(px,161,8,'#323f3a');for(let k=0;k<8;k++){let a=k*PI/4;line(px+17*Math.cos(a),161+17*Math.sin(a),px+24*Math.cos(a),161+24*Math.sin(a),'#a6aa92',2)}}
+ for(let i=0;i<24;i++){let xx=-296+i*24;line(xx,100,xx+13,113,'#93a082',3);line(xx,209,xx+13,222,'#a4b199',3)}
+ poly([[-310,20],[-253,-82],[156,-91],[298,13],[282,90],[-292,86]],'#818775','#c5c3a4',5);
+ poly([[-310,20],[-253,-80],[156,-91],[151,10]],'#626e60');poly([[151,10],[156,-91],[298,13],[282,90]],'#5f6a5e');
+ // individual surface panels, riveted divisions
+ for(let i=0;i<9;i++){let xx=-229+i*48;line(xx,-51,xx+10,70,'rgba(35,54,48,.5)',2);rivet(xx,53)}
+ line(-244,-59,155,-64,'#b2b394',4);
+ // turret contoured cupola + gun mantle, independent
+ poly([[-135,-73],[-105,-146],[-36,-191],[101,-178],[154,-105],[124,-67]],'#858c79','#d6d0ac',5);
+ poly([[-103,-147],[-41,-185],[91,-175],[41,-111]],'#9ea28b');
+ rr(91,-132,92,44,18,'#47594a','#c6c5a9',4);
+ poly([[162,-126],[415,-134],[422,-103],[165,-101]],'#6e7966','#d0ccb0',4);
+ for(let k=0;k<8;k++){let xx=185+k*27;line(xx,-128,xx+2,-109,'rgba(39,51,43,.65)',1)}
+ circ(415,-118,17,'#3b453d','#dbd3b0',4);
+ // top hatch with handles
+ poly([[-38,-185],[34,-192],[62,-201],[-14,-205]],'#4b5a4b','#bdc2a7',3);
+ line(-40,-184,-67,-207,'#abb39b',4);line(-67,-207,-92,-195,'#abb39b',3);
+ // false-rubber clues: stitched seams, valve, straps, visible slack curvature
+ K.save();K.globalAlpha=sm(reveal)*.92;
+ for(let j=0;j<18;j++){let xx=-240+j*31,yy=33+11*Math.sin(xx*.01);line(xx,yy,xx+7,yy+7,CORAL,3)}
+ rr(208,-39,37,40,8,'#b08e5e','#eddab0',3);circ(229,-19,9,'#3c463e','#f0d7a4',3);
+ for(let j=0;j<8;j++){let a=j*PI/4;line(229+8*Math.cos(a),-19+8*Math.sin(a),229+14*Math.cos(a),-19+14*Math.sin(a),GOLD,2)}
+ K.restore();
+ K.restore();K.restore()}
+function speakerVehicle(x,y,s,t=0){K.save();K.translate(x,y);K.scale(s,s);
+ shadow(0,220,320,35);
+ // halftrack rear vehicle, independent running tracks and steel lattice
+ rr(-288,80,470,105,30,'#3f5149','#91a58a',4);
+ rr(-272,158,345,91,36,'#1f2f2d','#afba9e',5);
+ for(let i=0;i<5;i++){let px=-219+i*66;circ(px,207,30,'#2b332e','#869478',4);circ(px,207,12,'#687967')}
+ rr(119,121,225,84,16,'#526453','#afb7a2',5);
+ circ(226,219,58,'#1e2b29','#c0c0ac',7);circ(226,219,30,'#4e6154');circ(227,219,9,'#c8a26b');
+ poly([[95,92],[159,26],[265,29],[338,98]],'#708270','#d3c6a4',5);
+ rr(-203,-213,290,293,14,'#36483f','#adb6a1',5);
+ // 3 large actual cones, ring details, concentric grilles, screw anchors
+ for(let q=0;q<3;q++){let cx=-157+q*94,cy=-80;
+ circ(cx,cy,46,'#8d9780','#263a34',5);circ(cx,cy,37,'#192e2c','#c9c2a2',3);circ(cx,cy,27,'#455950');circ(cx,cy,9,'#9da78c');
+ for(let j=0;j<6;j++){let a=j*PI/3;line(cx+30*Math.cos(a),cy+30*Math.sin(a),cx+40*Math.cos(a),cy+40*Math.sin(a),'#b6bba5',2)}
+ }
+ for(let k=0;k<7;k++){line(-182+k*38,77,-182+k*38,-207,'rgba(187,197,158,.15)',1)}
+ line(37,-161,160,-202,'#9da98f',7);line(149,-191,159,20,'#54695d',5);
+ K.restore()}
+function radioBox(x,y,s,t=0){K.save();K.translate(x,y);K.scale(s,s);shadow(0,420,350,38);
+ rr(-338,-360,665,660,22,'#222d2a','#c2b694',7);
+ rr(-315,-337,623,140,10,'#61705d','#c7c49e',3);
+ txt('SIGNAL CORPS',-292,-277,27,IVORY,800);txt('RADIO / 1945',290,-277,23,IVORY,700,'right');
+ rr(-300,-155,597,240,6,'#101c1c','#7f9788',4);
+ for(let i=0;i<4;i++){circ(-221+i*139,-40,51,'#586a60','#d8cba7',6);circ(-221+i*139,-40,34,'#1f302d','#8a9886',3);circ(-221+i*139,-40,13,'#d0ba89')}
+ for(let i=0;i<26;i++){let x=-284+i*22;line(x,104,x,115,'#aeb49f',i%5===0?4:2)}
+ rr(-281,139,550,113,7,'#414e45','#9eaa98',3);
+ for(let i=0;i<13;i++){let px=-240+i*40;rr(px,166,17,51,6,i%2?'#202f2a':'#8a947d','#c3b797',1)}
+ K.restore()}
+function river(x,y,u){K.save();K.translate(x,y);let a=K.createLinearGradient(150,-500,550,450);a.addColorStop(0,'#2b6672');a.addColorStop(.5,'#457f7d');a.addColorStop(1,'#234d65');
+ poly([[245,-600],[478,-600],[386,-304],[560,-66],[465,136],[608,386],[482,600],[202,600],[273,402],[170,158],[290,-49],[138,-320]],a);
+ for(let i=0;i<12;i++){let yy=-490+i*95;line(280+65*Math.sin(yy*.01),yy,398+27*Math.sin(yy*.02),yy+12,'rgba(205,225,214,.32)',3)}
+ K.restore()}
+function annotation(t,x,y,textline,width=550){rr(x,y,width,54,7,'rgba(10,28,35,.82)','rgba(200,162,107,.5)',1);txt(textline,x+18,y+36,20,GOLD,700)}
+function scene0(t,u){landscape(t,false);header('GHOST ARMY / RECONSTRUCTION');
+ K.save();K.translate(-38*sm(u),50*sm(u));ww2Tank(550,1020,1.23,t,1-.31*sm((u-.48)*2.7),sm((u-.25)*2));K.restore();
+ // separate focal eye path to the valve and clued stitching
+ if(u>.33){let a=sm((u-.33)*2.6);K.save();K.globalAlpha=a;
+ line(792,970,921,758,GOLD,3);circ(794,970,8,CORAL);annotation(t,652,679,'NOT STEEL. RUBBER.',365);K.restore()}
+ ser('AN ARMY',65,270,100);ser('MADE OF AIR.',65,372,100,GOLD);txt('1944–1945',75,452,24,'#E7D7AC',700);
+}
+function scene1(t,u){landscape(t,true);
+ // separated workshop / human scale tableau; avoid opening title card layout
+ rr(48,83,985,210,19,'rgba(11,28,30,.71)','rgba(200,162,107,.33)');
+ txt('JANUARY 1944',82,149,25,GOLD,800);ser('A secret unit',80,238,74);
+ // pitched tents, deep soldiers/jeep road and material carts
+ for(let i=0;i<4;i++){let xx=160+i*258,yy=800+i*60;poly([[xx-120,yy+140],[xx,yy-75],[xx+120,yy+140]],i%2?'#a1a18b':'#879381','#d3c6a2',3);line(xx,yy-74,xx,yy+144,'#d9c9aa',3)}
+ for(let i=0;i<10;i++){let x=90+(i*101)%970,y=1185+(i%3)*38;soldier(x,y,.46,u+i)}
+ poly([[0,1300],[1080,1360],[1080,1650],[0,1620]],'rgba(10,18,20,.27)');
+ // Cargo + handcart
+ rr(560,1350,420,105,17,'#67776a','#d0c3a0',4);for(let k=0;k<2;k++)circ(630+k*270,1465,38,'#1e2d29','#d7cbb0',5);
+ annotation(t,80,1555,'1,100 ARTISTS. ENGINEERS. SOLDIERS.',900);
+ header('THE 23RD HEADQUARTERS SPECIAL TROOPS')}
+function scene2(t,u){landscape(t,true);
+ // premium closeup physically continuous inflation as local object change
+ K.save();K.translate(540,1050);K.scale(1+.13*sm(u),1+.13*sm(u));K.translate(-540,-1050);
+ ww2Tank(545,1000,1.13,t,.36+.64*sm(u*1.8),sm((u-.32)*2.2));K.restore();
+ ser('A full-size',85,224,79);ser('illusion.',85,324,96,GOLD);
+ // multipiece seam reference, above caption band
+ annotation(t,76,535,'FABRIC • AIR VALVE • FALSE ARMOR',918);
+ if(u>.64){K.save();K.globalAlpha=sm((u-.64)*3);line(770,930,942,719,GOLD,4);circ(770,930,9,CORAL);txt('STITCHED SKIN',700,679,25,IVORY,800);K.restore()}
+ header('VISUAL DECEPTION')}
+function scene3(t,u){landscape(t,false);
+ K.save();K.translate(20*sm(u),0);speakerVehicle(548,1175,1.17,t);K.restore();
+ // waves originate from physical speaker plane (not a magic UI card)
+ for(let i=0;i<6;i++){let d=(u*.94+i*.16)%1,r=65+d*630;K.save();K.globalAlpha=(1-d)*.36;K.beginPath();K.arc(410,1093,r,-.7,.6);K.lineWidth=4;K.strokeStyle=GOLD;K.stroke();K.restore()}
+ ser('The tanks',72,254,77);ser('needed a voice.',72,358,80,GOLD);
+ annotation(t,75,520,'LOUDSPEAKERS • RECORDED FIELD SOUNDS',928);
+ header('SONIC DECEPTION • ORIGINAL AUDIO DESIGN')}
+function scene4(t,u){sky(false); // completely different macro industrial framing
+ let v=sm(u);K.save();K.translate(540,1030);K.scale(.95+.14*v,.95+.14*v);K.translate(-540,-1030);radioBox(545,1024,1.27,t);K.restore();
+ for(let i=0;i<12;i++){let x=60+i*84,y=540+65*Math.sin(i+u*3);line(x,y,x+25,y-23,'rgba(200,162,107,.2)',2)}
+ ser('An invisible',70,223,87);ser('division.',70,324,93,GOLD);
+ annotation(t,74,1544,'FALSE RADIO TRAFFIC • REAL OPERATORS',930);
+ header('RADIO DECEPTION');texture(8)}
+function scene5(t,u){landscape(t,true); // cinematic cut between observer + large false battlefield
+ K.save();K.translate(620,1225);K.scale(.66,.66);ww2Tank(0,0,1,t,1,0);K.restore();
+ K.save();K.translate(170,1240);K.scale(.4,.4);speakerVehicle(0,0,1,t);K.restore();
+ for(let i=0;i<5;i++)soldier(100+i*155,1455,.31,t);
+ // foreground enemy observation lens silhouette at image edge; not asserting identity
+ K.save();K.globalAlpha=.93;poly([[760,1500],[870,1435],[1045,1570],[1080,1920],[730,1920]],'#111c1e');circ(902,1452,54,'#192627','#c7bd97',5);circ(901,1452,36,'#416267');K.restore();
+ ser('EVERY SIGNAL',65,247,80);ser('SAID THE SAME.',65,356,77,GOLD);
+ annotation(t,64,563,'DECOYS + SOUND + FALSE RADIO',933);
+ header('THREE LAYERS OF ONE DECEPTION')}
+function scene6(t,u){sky(true); // original labeled conceptual strategic diagram, not a real georeferenced map
+ poly([[0,460],[1080,560],[1080,H],[0,H]],'#63796a');
+ for(let i=0;i<52;i++){let xx=rnd(i+22)*W,yy=600+rnd(i+233)*1200;ellipse(xx,yy,23+rnd(i+102)*30,8+rnd(i+299)*19,'rgba(33,66,55,.24)')}
+ river(0,1130,u);
+ txt('MARCH 1945',77,185,28,GOLD,800);ser('The Rhine',75,276,89);ser('crossing.',75,371,88);
+ // false formation on NW, real crossing on offset : conceptual not precise map
+ for(let i=0;i<9;i++){let xx=125+(i%3)*95,yy=760+Math.floor(i/3)*82;poly([[xx-29,yy+16],[xx-15,yy-16],[xx+31,yy-14],[xx+41,yy+17]],'#2d3d35','#b0b399',2);circ(xx-16,yy+18,6,'#151d1b');circ(xx+27,yy+18,6,'#151d1b')}
+ annotation(t,77,552,'OPERATION VIERSEN  •  SCHEMATIC',914);
+ // crossing animation arrows actual path conceptual (no route-specific historic assertion)
+ for(let j=0;j<3;j++){let p=sm((u-j*.10)*2.3),startX=820-j*89,startY=1300+j*95;
+ line(startX,startY,startX-390*p,startY+100*p,'rgba(245,240,231,.89)',9);
+ if(p>.9){poly([[startX-390,startY+100],[startX-350,startY+66],[startX-345,startY+128]],IVORY)}
+ }
+ txt('ILLUSTRATIVE • NOT TO SCALE',77,1670,21,'#EEF1E5',700);
+ header('DECOY UNITS / REAL CROSSING');texture(101)}
+function scene7(t,u){sky(false); // ratio explained using visual silhouette + typography parity not repeated location card
+ ser('1,100',67,347,133,GOLD);txt('REAL GHOST ARMY PERSONNEL',77,399,19,IVORY,800);
+ ser('~30,000',67,635,124,IVORY);txt('TROOPS THE UNIT COULD SIMULATE',77,680,19,'#DFD1B8',800);
+ // horizontal massively repeated glyphs in depth creating a "phantom army" illusion
+ for(let j=0;j<9;j++){let k=sm(u*1.65-j*.06),y=1160+(j%3)*150,x=75+(j%3)*55;
+ for(let i=0;i<19;i++){K.save();K.globalAlpha=k*(.12+.48*(1-j/12));soldier(x+i*49,y,.25+.04*(j%2),t);K.restore()}}
+ header('OPERATION VIERSEN / TWO DIVISIONS')}
+function scene8(t,u){landscape(t,false);
+ K.save();K.globalAlpha=1-.64*sm(u);ww2Tank(560,1190,1.15,t,1,sm(u));K.restore();
+ // small human silhouettes remain in reality
+ for(let i=0;i<5;i++)soldier(240+i*142,1348,.27,t);
+ ser('AN ARMY',72,295,90);ser('THAT WASN’T',72,400,90);ser('THERE.',72,506,112,GOLD);
+ K.save();K.globalAlpha=sm((u-.45)*2.4);
+ rr(82,1510,921,164,21,'rgba(7,20,29,.84)','rgba(200,162,107,.78)',2);
+ ser('Curio Bureau',538,1589,60,IVORY,'center');txt('STORIES, SYSTEMS, AND SURPRISES.',540,1636,16,GOLD,800,'center');K.restore();
+}
+const SCENES=[scene0,scene1,scene2,scene3,scene4,scene5,scene6,scene7,scene8];
+function caption(t){let a=D.phrases.find(p=>t>=p.start-.035&&t<Math.min(p.end+.06,D.duration-.1));if(!a)return;
+ // phrase group from actual clip boundaries; word boundaries (if provided) are separate QA
+ let words=a.text.split(' '),lines=[],now='';
+ for(let w of words){let s=now?now+' '+w:w;if(s.length>30&&now){lines.push(now);now=w}else now=s}if(now)lines.push(now);
+ if(lines.length>3){let q=lines.join(' ').split(' ');lines=[];now='';for(let w of q){let s=now?now+' '+w:w;if(s.length>38&&now){lines.push(now);now=w}else now=s}if(now)lines.push(now)}
+ let yy=951-(lines.length-1)*32;
+ K.save();K.textAlign='center';
+ for(let i=0;i<lines.length;i++){let sz=30,ww=K.measureText(lines[i]).width;if(ww>950)sz=25;
+ let cy=yy+i*62;rr(48,cy-46,984,57,10,'rgba(3,12,19,.88)','rgba(200,162,107,.19)',1);
+ txt(lines[i],540,cy,sz,IVORY,800,'center')}
+ K.restore()}
+function footnote(){line(52,1804,1028,1804,'rgba(201,165,110,.32)',1);
+ txt('ILLUSTRATIVE RECONSTRUCTION • U.S. GHOST ARMY, 1944–45',53,1842,14,'#C4B69E',700);
+ txt('STORIES, SYSTEMS, AND SURPRISES.',53,1881,15,GOLD,600)}
+function draw(t){t=clamp(t,0,D.duration-1/30);K.setTransform(2,0,0,2,0,0);K.clearRect(0,0,W,H);
+ let id=8;for(let i=0;i<9;i++)if(t<D.scenes[String(i)].end||i===8){id=i;break}
+ let sc=D.scenes[String(id)],u=clamp((t-sc.start)/Math.max(.2,sc.end-sc.start));
+ SCENES[id](t,u);caption(t);footnote()}
+window.setTime=t=>{draw(t);A.currentTime=Math.max(0,t);document.getElementById('seek').value=t};
+window.setFrame=n=>draw(n/30);window.renderFrame=n=>draw(n/30);window.getDuration=()=>D.duration;window.getFPS=()=>30;
+let running=false;
+function loop(){if(!running)return;draw(A.currentTime);document.getElementById('clock').textContent=A.currentTime.toFixed(2)+'s';document.getElementById('seek').value=A.currentTime;
+ if(A.ended||A.currentTime>=D.duration-.06){running=false;A.pause();return}requestAnimationFrame(loop)}
+function toggle(){if(running){running=false;A.pause()}else{running=true;A.play();requestAnimationFrame(loop)}}
+function seek(v){A.currentTime=v;draw(v);document.getElementById('seek').value=v}
+document.getElementById('seek').max=D.duration;document.getElementById('seek').oninput=e=>seek(+e.target.value);
+async function exportWebm(){if(!window.MediaRecorder||!C.captureStream)return alert('WebM media recorder unavailable');
+ const v=C.captureStream(30);let m;try{let a=new AudioContext(),src=a.createMediaElementSource(A),dst=a.createMediaStreamDestination();src.connect(dst);src.connect(a.destination);m=new MediaStream([...v.getVideoTracks(),...dst.stream.getAudioTracks()])}catch(e){return alert(e.message)}
+ const mimeType=['video/webm;codecs=vp9,opus','video/webm;codecs=vp8,opus','video/webm'].find(x=>MediaRecorder.isTypeSupported(x));if(!mimeType)return alert('No WebM codec');
+ const chunks=[],r=new MediaRecorder(m,{mimeType,videoBitsPerSecond:35000000,audioBitsPerSecond:256000});r.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
+ r.onstop=()=>{let blob=new Blob(chunks,{type:mimeType}),url=URL.createObjectURL(blob),z=document.createElement('a');z.href=url;z.download='CURIO_BUREAU_EP009_BROWSER_4K.webm';z.click();URL.revokeObjectURL(url)};
+ seek(0);r.start(1000);running=true;await A.play();requestAnimationFrame(loop);A.onended=()=>{running=false;r.stop()}}
+window.readyPromise=document.fonts.ready.then(()=>draw(0));
+</script></body></html>
