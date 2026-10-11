@@ -17,7 +17,7 @@ This repository is the **source of truth for production code and technical docum
 
 ## Governing production policy (October 2026)
 **Authoritative, v1.2:** [Curio Bureau Master Production Bible](production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md), including the approved Motion Mastery Lab upgrades.
-**Start here:** [Project governance and reading order](production/bible/v1.1/README.md). [Motion Mastery Lab reference library](production/motion-lab/v1/README.md). [Episode 008 master production prompt](production/prompts/EP008_NEXT_EPISODE_MASTER_PRODUCTION_PROMPT.md).
+**Start here:** [Project governance and reading order](production/bible/v1.1/README.md). [Motion Mastery Lab reference library](production/motion-lab/v1/README.md). [Episode 009 current master production prompt](production/prompts/EP009_NEXT_EPISODE_MASTER_PRODUCTION_PROMPT.md). [Episode 008 archived directive](production/prompts/EP008_NEXT_EPISODE_MASTER_PRODUCTION_PROMPT.md).
 **For future ChatGPT sessions:** [Read-and-digest prompt (no video creation)](production/READ_AND_DIGEST_PROMPT_FOR_CHATGPT.md) and [AGENTS.md](AGENTS.md).
 
 The October 2026 v1.1 audit under `production/bible/v1.1/` documents known gaps: earlier named Episode 001–003 masters were not all recovered, and Vox/viral-video studies did not include full external frame-by-frame playback or private audience analytics. Do not overstate observation coverage.
