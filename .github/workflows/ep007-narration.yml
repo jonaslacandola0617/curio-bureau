@@ -1,0 +1,79 @@
+name: EP007 Continuous Documentary Narration
+on:
+  push:
+    branches: [film/chicago-lifted-buildings-1860]
+    paths: [.github/workflows/ep007-narration.yml]
+  workflow_dispatch:
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+          python -m pip install edge-tts numpy soundfile
+      - name: Create breath-timed voice master
+        run: |
+          cat >/tmp/ep007voice.py <<'PY'
+          import asyncio,json,pathlib,subprocess,re
+          import numpy as np,soundfile as sf,edge_tts
+          R=48000;D=pathlib.Path('episode007_voice');D.mkdir(exist_ok=True)
+          lines=[
+          "Chicago once lifted entire brick buildings, while businesses stayed open. And it did it with thousands of screws.",
+          "In the eighteen fifties, Chicago had a messy problem. Its flat, muddy streets trapped rainwater and sewage.",
+          "Engineer Ellis Chesbrough proposed a new system of sewers and higher streets. But that created another problem. The buildings were now too low.",
+          "So workers placed heavy wooden beams beneath brick walls, and supported them with rows of steel screw jacks.",
+          "Then, in eighteen sixty, Chicago lifted a three hundred and twenty foot row of Lake Street buildings, using about six thousand screws.",
+          "Six hundred workers followed signals, turning each jack a little at a time. The entire block rose gradually, while its weight stayed supported.",
+          "And here is the astonishing part. Shops and offices continued operating as the buildings rose above the old road.",
+          "Once the block reached its new height, masons built permanent foundations underneath. Other buildings were raised in separate projects over the following years.",
+          "The new sewers helped drainage. But polluted water still posed problems for the nearby lake and river.",
+          "Chicago did not levitate in a single day. It rebuilt the ground beneath its city, one careful lift at a time."
+          ]
+          def dec(p):
+             return np.frombuffer(subprocess.run(['ffmpeg','-v','error','-i',str(p),'-ar',str(R),'-ac','2','-f','f32le','pipe:1'],check=True,capture_output=True).stdout,dtype=np.float32).reshape(-1,2).copy()
+          async def main():
+             chunks=[];scenes=[];allwords=[];t=0.
+             for i,s in enumerate(lines):
+                 v=edge_tts.Communicate(text=s,voice='en-US-AndrewNeural',rate='-2%',pitch='-2Hz')
+                 data=[];words=[]
+                 async for q in v.stream():
+                     if q['type']=='audio':data.append(q['data'])
+                     elif q['type']=='WordBoundary':words.append(q)
+                 path=D/f'raw_{i:02d}.mp3';path.write_bytes(b''.join(data))
+                 x=dec(path)
+                 # silence trim w/ 10ms RMS / 30ms moving window
+                 mono=np.max(abs(x),axis=1);step=480
+                 vals=np.array([np.sqrt(np.mean(mono[k:k+step]**2)) for k in range(0,len(mono),step)])
+                 sm=np.convolve(vals,np.ones(5)/5,'same');idx=np.where(sm>max(.0015,float(sm.max())*.022))[0]
+                 if not len(idx):raise RuntimeError('empty line '+str(i))
+                 a=max(0,int(idx[0]*step-4500));b=min(len(x),int((idx[-1]+1)*step+6500))
+                 x=x[a:b]
+                 if i:
+                     pause=.25 if i%3 else .37
+                     chunks.append(np.zeros((int(pause*R),2),np.float32));t+=pause
+                 start=t;t+=len(x)/R
+                 fades=min(900,len(x)//5)
+                 x[:fades]*=np.linspace(0,1,fades)[:,None];x[-fades:]*=np.linspace(1,0,fades)[:,None]
+                 chunks.append(x)
+                 sf.write(D/f'clip_{i:02d}.wav',x,R,subtype='PCM_24')
+                 scenes.append(dict(id=i,start=round(start,4),end=round(t,4),duration=round(len(x)/R,4),text=s,boundaries=len(words)))
+                 for w in words:
+                     ss=start+w['offset']/1e7-a/R; ee=ss+w['duration']/1e7
+                     if ee>start and ss<t:allwords.append(dict(start=max(start,ss),end=min(t,ee),text=w['text']))
+             y=np.concatenate(chunks)
+             sf.write(D/'natural_narration_48k.wav',y,R,subtype='PCM_24')
+             (D/'timeline.json').write_text(json.dumps(dict(duration=t,scenes=scenes,word_events=allwords),indent=2))
+             gaps=[round(scenes[i+1]['start']-scenes[i]['end'],3) for i in range(len(scenes)-1)]
+             (D/'voice_gap_QA.json').write_text(json.dumps(dict(max_gap=max(gaps),gaps=gaps),indent=2))
+             assert max(gaps)<.55
+             print('VOICE_SECONDS',round(t,3),'SCENES',len(scenes),'WORDS',len(allwords),'MAX_GAP',max(gaps))
+          asyncio.run(main())
+          PY
+          python /tmp/ep007voice.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ep007-natural-voice-master
+          path: episode007_voice/
+          if-no-files-found: error
