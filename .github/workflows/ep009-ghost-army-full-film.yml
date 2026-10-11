@@ -1,6 +1,10 @@
 name: EP009 Ghost Army | full native-4K encoded MP4 and WebM (REVIEW)
 on:
   workflow_dispatch:
+  push:
+    branches: [film/ghost-army-1945]
+    paths:
+      - .github/workflows/ep009-ghost-army-full-film.yml
 permissions:
   contents: write
 jobs:
