@@ -2,11 +2,11 @@
 
 **Current authority: v1.1, adopted 11 October 2026.**
 
-This folder stores the cross-episode audit and supporting design, motion, audio, hook, anti-repetition, and technical standards. The **one governing document** is [Master Production Bible](../CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md); supporting studies provide context, rationale and evidence but do not silently override it.
+This folder stores the cross-episode audit and supporting design, motion, audio, hook, anti-repetition, and technical standards. The **one governing document** is [Master Production Bible](../../CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md); supporting studies provide context, rationale and evidence but do not silently override it.
 
 ## Before ANY Curio Bureau work
 
-1. Read the [Master Bible](../CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md) **in full**.
+1. Read the [Master Bible](../../CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md) **in full**.
 2. Read the [executive rules](13A_MASTER_BIBLE_EXECUTIVE_RULES.md), [visual identity](06_CURIO_BUREAU_VISUAL_IDENTITY_BIBLE.md), [motion design](07_CURIO_BUREAU_MOTION_ANIMATION_BIBLE.md), [anti-repetition](12_CURIO_BUREAU_ANTI_REPETITION_SYSTEM.md), [audio/captions](08_CURIO_BUREAU_AUDIO_AND_CAPTION_BIBLE.md), [hooks/storytelling](09_CURIO_BUREAU_STORYTELLING_HOOK_BIBLE.md), [workflow](10_CURIO_BUREAU_PRODUCTION_WORKFLOW_V2.md), and [QA checklist](11_CURIO_BUREAU_QA_AND_RELEASE_CHECKLIST.md).
 3. For production, consult the [seven-episode audit](01_CURIO_BUREAU_COMPLETE_VIDEO_AUDIT.md), [visual defects](03_VISUAL_INCONSISTENCY_REPORT.md), [editorial references](04_VOX_EDITORIAL_MOTION_BENCHMARK.md), [short-form hooks](05_VIRAL_HOOK_AND_RETENTION_STUDY.md), [roadmap](15_CURIO_BUREAU_IMPROVEMENT_ROADMAP.md), and [future-episode template](14_CURIO_BUREAU_FUTURE_EPISODE_MASTER_PROMPT.txt).
 4. Log new shots in a per-project fingerprint ledger and compare to prior episodes. No video may be called FINAL without evidence of creative and technical passes.
