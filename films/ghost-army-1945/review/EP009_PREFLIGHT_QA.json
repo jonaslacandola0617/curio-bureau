@@ -1,0 +1,24 @@
+{
+  "native4k": true,
+  "fps": 30,
+  "scenes": 9,
+  "timeline_seconds": 65.18,
+  "frame_samples": 27,
+  "scene_midframes_native_saved": 9,
+  "motion_validation": "27 samples over 9 scenes at 5/37/71 percent, not continuous human playback",
+  "font_checks": {
+    "playfair": true,
+    "manrope": true,
+    "canvas": [
+      2160,
+      3840
+    ]
+  },
+  "page_errors": [],
+  "release": "ART PREFLIGHT / motion only; no actual video release approval",
+  "limitations": [
+    "No human full-speed sound audit",
+    "Original layered objects reviewed by sampled frames, not subjective animation audit",
+    "Captions phrase-timed; true word-level align still open"
+  ]
+}
