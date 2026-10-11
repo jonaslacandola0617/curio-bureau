@@ -19,7 +19,7 @@ jobs:
         run: |
           set -euxo pipefail
           mkdir -p /tmp/ep008proof films/mars-climate-orbiter-1999/review
-          gh run download 38118437074 -n ep008-native-4k-styleframe-preflight -D /tmp/ep008proof
+          gh run download 38119931884 -n ep008-native-4k-styleframe-preflight -D /tmp/ep008proof
           find /tmp/ep008proof -name '*.jpg' -o -name '*.png' | head
           find /tmp/ep008proof -name 'EP008_NINE_SCENE_STYLEFRAMES_CONTACT.jpg' -exec cp {} films/mars-climate-orbiter-1999/review/EP008_STYLEFRAME_PREFLIGHT_CONTACT.jpg \;
           test -s films/mars-climate-orbiter-1999/review/EP008_STYLEFRAME_PREFLIGHT_CONTACT.jpg
