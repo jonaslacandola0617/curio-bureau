@@ -3,7 +3,8 @@
 
 ## 1. Project canonical repository and branches
 Repo: https://github.com/jonaslacandola0617/curio-bureau
-- Stable adopted Bible v1.3: https://github.com/jonaslacandola0617/curio-bureau/blob/main/production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md
+- **Stable adopted Bible v1.4 (after explicit owner approval):** https://github.com/jonaslacandola0617/curio-bureau/blob/main/production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md
+- Full **adopted v1.4 editorial art/motion chapter**: https://github.com/jonaslacandola0617/curio-bureau/blob/main/production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md
 - Agent requirements: https://github.com/jonaslacandola0617/curio-bureau/blob/main/AGENTS.md
 - README/branch policy: https://github.com/jonaslacandola0617/curio-bureau/blob/main/README.md
 - Center caption standard: https://github.com/jonaslacandola0617/curio-bureau/blob/main/production/CURIO_BUREAU_CENTER_CAPTION_STANDARD.md
@@ -11,8 +12,8 @@ Repo: https://github.com/jonaslacandola0617/curio-bureau
 - v1 Vox-inspired clips lab: https://github.com/jonaslacandola0617/curio-bureau/tree/main/production/motion-lab/v1
 - v2 five actual Vox-titled films graphics lab: https://github.com/jonaslacandola0617/curio-bureau/tree/main/production/motion-lab/v2
 - v2 core technical technique index: https://github.com/jonaslacandola0617/curio-bureau/blob/main/production/motion-lab/v2/08_TRANSFERABLE_GRAPHIC_TECHNIQUES_V2.md
-- v1.3 future episode adapter: https://github.com/jonaslacandola0617/curio-bureau/blob/main/production/prompts/FUTURE_EPISODE_MOTION_GRAPHICS_V13_ADDENDUM.md
-- EP009 production master prompt (despite early text labeling v1.2, main v1.3 outranks it): https://github.com/jonaslacandola0617/curio-bureau/blob/main/production/prompts/EP009_NEXT_EPISODE_MASTER_PRODUCTION_PROMPT.md
+- Previously adopted v1.3 future episode adapter (still technically applicable): https://github.com/jonaslacandola0617/curio-bureau/blob/main/production/prompts/FUTURE_EPISODE_MOTION_GRAPHICS_V13_ADDENDUM.md
+- EP009 production master prompt (despite early text labeling v1.2, main **v1.4** outranks it): https://github.com/jonaslacandola0617/curio-bureau/blob/main/production/prompts/EP009_NEXT_EPISODE_MASTER_PRODUCTION_PROMPT.md
 - Original EP009 source branch: https://github.com/jonaslacandola0617/curio-bureau/tree/film/ghost-army-1945/films/ghost-army-1945
 - Rejected V3 branch: https://github.com/jonaslacandola0617/curio-bureau/tree/design/ghost-army-editorial-collage-v3/films/ghost-army-1945/design-tests
 - Rejected V4 branch: https://github.com/jonaslacandola0617/curio-bureau/tree/design/ghost-army-visual-match-v4/films/ghost-army-1945/design-tests/v4
