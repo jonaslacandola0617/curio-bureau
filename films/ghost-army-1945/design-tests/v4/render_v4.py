@@ -15,6 +15,11 @@ SOURCES={
  'halftrack':('M3A1 Halftrack.jpg','https://commons.wikimedia.org/wiki/File:M3A1_Halftrack.jpg','U.S. Army 1944 technical manual, public domain. Vehicle-type reference, NOT a photo of the Ghost Army sonic equipment.'),
  'radio':('SCR-610.jpg','https://commons.wikimedia.org/wiki/File:SCR-610.jpg','U.S. Army technical manual TM 11-487, October 1944, public domain. Period radio-type reference, NOT verified as 23rd inventory.')
 }
+PREFERRED={
+ 'tank':'https://ghostarmy.com/images/resources/resources-TankApril.jpg',
+ 'halftrack':'https://ghostarmy.com/images/resources/resources-Sonichalftrack.jpg'
+}
+selected={}
 session=requests.Session()
 session.headers.update({'User-Agent':'CurioBureauEditorialResearch/1.0 (noncommercial sourcing; GitHub Actions; original direct-attribution video)'})
 for name,(filename,url,license_text) in SOURCES.items():
@@ -24,6 +29,7 @@ for name,(filename,url,license_text) in SOURCES.items():
  q={'action':'query','format':'json','prop':'imageinfo','iiprop':'url','titles':'File:'+filename}
  errors=[]
  candidates=[]
+ if name in PREFERRED:candidates.append(PREFERRED[name])
  try:
   v=session.get(api,params=q,timeout=45);v.raise_for_status()
   pages=v.json()['query']['pages']
@@ -39,13 +45,18 @@ for name,(filename,url,license_text) in SOURCES.items():
    im=Image.open(io.BytesIO(resp.content));im.load()
    assert im.width>400 and im.height>230,(im.width,im.height)
    im.convert('RGB').save(dest,'JPEG',quality=93,subsampling=0,optimize=True)
+   selected[name]=remote
    print('SOURCE OK',name,im.size,dest.stat().st_size,flush=True)
    break
   except Exception as e:errors.append(str(e))
  else: raise RuntimeError('Unable to obtain attribution-checked image '+name+' failures='+str(errors))
 
 sources_text='# Curio Bureau V4 — sourced imagery and factual caveats\n\n'
-for name,(fn,url,lic) in SOURCES.items():sources_text+=f'- **{name}** [{fn}]({url}): {lic}\n'
+for name,(fn,url,lic) in SOURCES.items():
+ if name in PREFERRED and selected.get(name)==PREFERRED[name]:
+  sources_text+=f'- **{name}** [{name} wartime reference]({selected[name]}): National Archives photograph distributed in Ghost Army press kit as media-use cleared. Original credits and image description: https://ghostarmy.com/about/presskit/493/ . This is a sourced historical image, not generated art.\n'
+ else:
+  sources_text+=f'- **{name}** [{fn}]({url}): {lic}\n'
 sources_text+="""
 - All three files were fetched by exact Wikimedia Commons filename at render time. Output JPGs have lossless-subject editing only through re-encoding; cropping, grading and typography are original Curio decisions.
 - **Important:** The 2025 museum photo is a modern exhibition photo. The War Department half-track and radio photos are generic equipment references. These three images must not be relabeled as genuine photographs of Ghost Army operations.
@@ -57,6 +68,12 @@ sources_text+="""
 (ROOT/'SOURCES.md').write_text(sources_text,encoding='utf8')
 
 src=(ROOT/'visual_match.html').read_text(encoding='utf8')
+if selected.get('tank')==PREFERRED['tank']:
+ src=src.replace('Modern museum display · original image, CC0','Wartime Ghost Army decoy · National Archives')
+ src=src.replace('The tank occupies','The tank occupies')
+if selected.get('halftrack')==PREFERRED['halftrack']:
+ src=src.replace('M3 HALF-TRACK · TYPE REFERENCE','SONIC HALF-TRACK · GHOST ARMY')
+ src=src.replace('Vehicle image: U.S. Army 1944 manual / equipment type','Wartime sonic half-track · National Archives')
 fdir=ROOT.parent.parent/'assets'
 css=''
 for family,fn in [('Playfair Display','PlayfairDisplay.ttf'),('Manrope','Manrope.ttf')]:
@@ -145,7 +162,7 @@ for i,(t,thumb) in enumerate(contact):
 contact_sheet.save(OUT/'CURIO_GHOST_ARMY_V4_FRAME_REVIEW.jpg',quality=89)
 qa={'status':'ART_DIRECTION_REVIEW_NOT_MASTER','requested_duration_seconds':16,'rendered_distinct_frames':DUR*FPS,
  'screen_scale':'1080x1920','fps':FPS,'no_voiceover':True,
- 'image_attribution':'See SOURCES.md (museum photo and two Army equipment type references)',
+ 'image_attribution':'See SOURCES.md for exactly selected historical images or explicit fallbacks',
  'timeline_shots':[[0,3.2],[3.2,6.2],[6.2,9.2],[9.2,12.8],[12.8,16]],
  'final_data_unit_counts':{'actual_filled':11,'simulated_outlined':300,'people_per_unit':100},
  'files':{}}
