@@ -26,3 +26,6 @@ User feedback on Episode 008: animations and presentability were good, but **nar
 - [Primary audition MP3](https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-sfx-v1-original/CURIO_SFX_V1_AUDITION.mp3)
 - [Experimental WAV ZIP (32)](https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-original-designed-sfx-v1/CURIO_BUREAU_ORIGINAL_SFX_V1.zip)
 - [Experimental audition WAV](https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-original-designed-sfx-v1/AUDITION_ALL_32.wav)
+
+## Owner directive, 12 October 2026
+Reuse existing sound libraries before generating new effects. [Approved generated editorial cues](../../audio/generated-editorial-v1/README.md) now preserve the Pig War R2 sounds. Every new generated SFX must be saved, indexed and pushed for reuse.
