@@ -41,7 +41,7 @@ for name,(filename,url,license_text) in SOURCES.items():
  for remote in candidates:
   try:
    print('SOURCE',name,remote,flush=True)
-   resp=session.get(remote,timeout=80);resp.raise_for_status()
+   resp=session.get(remote,timeout=30 if remote.startswith('https://ghostarmy.com/') else 80);resp.raise_for_status()
    im=Image.open(io.BytesIO(resp.content));im.load()
    assert im.width>400 and im.height>230,(im.width,im.height)
    im.convert('RGB').save(dest,'JPEG',quality=93,subsampling=0,optimize=True)
@@ -58,8 +58,8 @@ for name,(fn,url,lic) in SOURCES.items():
  else:
   sources_text+=f'- **{name}** [{fn}]({url}): {lic}\n'
 sources_text+="""
-- All three files were fetched by exact Wikimedia Commons filename at render time. Output JPGs have lossless-subject editing only through re-encoding; cropping, grading and typography are original Curio decisions.
-- **Important:** The 2025 museum photo is a modern exhibition photo. The War Department half-track and radio photos are generic equipment references. These three images must not be relabeled as genuine photographs of Ghost Army operations.
+- Each selected image source is documented above. The two wartime Ghost Army images are preferred; properly labeled Wikimedia Commons sources are fallbacks. Output JPGs are recompressed for browser compatibility; cropping, grading and typography are original Curio decisions.
+- **Important:** If the Commons fallback is used, the 2025 museum photograph is modern. If the wartime press-kit imagery succeeds, those photos are wartime references identified as such. The War Department SCR-610 radio is a generic equipment-type reference and not a verified 23rd radio.
 - The map is an **original schematic** and makes no claims about exact deployment or troop movement. Düsseldorf/Cologne region positioning is merely geographic context.
 - Unit comparison: a rounded ∼1,100 real Ghost Army members and ∼30,000-person force that could be simulated. National WWII Museum: https://www.nationalww2museum.org/visit/museum-campus-guide/hall-democracy/senator-john-alario-jr-special-exhibition-hall/ghost-army ; https://www.nationalww2museum.org/media/press-releases/national-wwii-museum-unveils-new-special-exhibit-ghost-army-combat-con-artists
 - The "observer" and radio ticks in the video are explanatory symbols, not depicted historical intercepted traffic.
