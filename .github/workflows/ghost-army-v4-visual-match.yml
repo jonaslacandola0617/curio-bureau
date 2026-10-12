@@ -1,0 +1,61 @@
+name: Ghost Army V4 | Vox-inspired visual match five-mode review
+on:
+  push:
+    branches: [design/ghost-army-visual-match-v4]
+    paths:
+      - '.github/workflows/ghost-army-v4-visual-match.yml'
+      - 'films/ghost-army-1945/design-tests/v4/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render_v4:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install browser renderer and media tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install -q Pillow numpy requests playwright
+          python -m playwright install --with-deps chromium
+      - name: Fetch typography for private renderer only
+        run: |
+          set -euo pipefail
+          mkdir -p films/ghost-army-1945/assets
+          curl -fLsS --retry 3 'https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf' -o films/ghost-army-1945/assets/PlayfairDisplay.ttf
+          curl -fLsS --retry 3 'https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf' -o films/ghost-army-1945/assets/Manrope.ttf
+          test "$(stat -c%s films/ghost-army-1945/assets/PlayfairDisplay.ttf)" -gt 40000
+          test "$(stat -c%s films/ghost-army-1945/assets/Manrope.ttf)" -gt 40000
+      - name: Render 384 actual frames with sourced images and synchronized SFX
+        run: |
+          python -u films/ghost-army-1945/design-tests/v4/render_v4.py
+      - name: Upload real viewing copy and review assets
+        uses: actions/upload-artifact@v4
+        with:
+          name: curio-ghost-army-v4-visual-match-review
+          path: |
+            films/ghost-army-1945/design-tests/v4/output/CURIO_GHOST_ARMY_VISUAL_MATCH_V4_WITH_AUDIO.mp4
+            films/ghost-army-1945/design-tests/v4/output/CURIO_GHOST_ARMY_VISUAL_MATCH_V4_WITH_AUDIO.webm
+            films/ghost-army-1945/design-tests/v4/output/CURIO_GHOST_ARMY_V4_EDITABLE_SOURCE.zip
+            films/ghost-army-1945/design-tests/v4/output/CURIO_GHOST_ARMY_V4_FRAME_REVIEW.jpg
+            films/ghost-army-1945/design-tests/v4/output/CURIO_GHOST_ARMY_V4_QA.json
+            films/ghost-army-1945/design-tests/v4/SOURCES.md
+          if-no-files-found: error
+          retention-days: 30
+      - name: Publish public prerelease review copies
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd films/ghost-army-1945/design-tests/v4/output
+          TAG='ghost-army-visual-match-v4-review-20261012'
+          ASSETS=(CURIO_GHOST_ARMY_VISUAL_MATCH_V4_WITH_AUDIO.mp4 CURIO_GHOST_ARMY_VISUAL_MATCH_V4_WITH_AUDIO.webm CURIO_GHOST_ARMY_V4_EDITABLE_SOURCE.zip CURIO_GHOST_ARMY_V4_FRAME_REVIEW.jpg CURIO_GHOST_ARMY_V4_QA.json README.txt)
+          if gh release view "$TAG" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            gh release upload "$TAG" "${ASSETS[@]}" --clobber --repo "${{ github.repository }}"
+          else
+            gh release create "$TAG" "${ASSETS[@]}" --repo "${{ github.repository }}" --target "${{ github.sha }}" --title 'Ghost Army V4 — visual-match review (not approved)' --notes 'Five distinct visual modes, 16s, 1080x1920 24fps, sourced rights-checked photos, original explanatory graphics and sound (no voiceover). This is NOT a native-4K final film or an artist-approved motion proof. Credits and reconstruction caveats in source ZIP.' --prerelease
+          fi
