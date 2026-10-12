@@ -33,6 +33,7 @@ with sync_playwright() as pw:
     page.on("pageerror",lambda e: errors.append(str(e)))
     proc=subprocess.Popen(ff,stdin=subprocess.PIPE,stderr=subprocess.PIPE)
     try:
+        page.add_style_tag(content="#stage{width:720px!important;height:1280px!important;max-width:none!important}")
         canvas=page.locator("#stage")
         for n in range(frames):
             page.evaluate("(t) => window.renderAt(t)",n/FPS)
