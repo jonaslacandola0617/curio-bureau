@@ -1,0 +1,69 @@
+{
+  "status": "TECHNICAL_COMPONENT_CHECKS_PASSED",
+  "scope": "Synthetic Canvas mechanism checks; no full-film artistic or authentic photo-parallax approval.",
+  "focus": {
+    "center_max_channel_error": 0,
+    "source_context": {
+      "mean": 136,
+      "variance": 10404
+    },
+    "processed_context": {
+      "mean": 88,
+      "variance": 0
+    },
+    "strength_sweep": [
+      {
+        "strength": 0,
+        "mean": 136,
+        "variance": 10404
+      },
+      {
+        "strength": 0.25,
+        "mean": 123.875,
+        "variance": 1398.359375
+      },
+      {
+        "strength": 0.5,
+        "mean": 112.1875,
+        "variance": 14.08984375
+      },
+      {
+        "strength": 0.75,
+        "mean": 100,
+        "variance": 0
+      },
+      {
+        "strength": 1,
+        "mean": 88,
+        "variance": 0
+      }
+    ]
+  },
+  "film": {
+    "held_cadence": true,
+    "deterministic_pixels": true,
+    "amplitude_bounded": true
+  },
+  "edge_boil": {
+    "endpoints_attached": true,
+    "evolves": true
+  },
+  "ink": {
+    "core_pixel": 0,
+    "spread_pixel": 246
+  },
+  "parallax": {
+    "near": {
+      "scale": 1,
+      "x": 150,
+      "y": 240
+    },
+    "far": {
+      "scale": 0.5,
+      "x": 165,
+      "y": 240
+    },
+    "depth_dependence": true
+  },
+  "browser_errors": []
+}

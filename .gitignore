@@ -1,0 +1,5 @@
+# Licensed Indieground source materials stay private; do not redistribute in this public repo.
+/assets/visual/indieground/local/
+/assets/visual/indieground/private-previews/
+__pycache__/
+*.pyc
