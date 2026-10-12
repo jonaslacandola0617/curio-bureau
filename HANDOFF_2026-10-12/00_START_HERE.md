@@ -2,15 +2,15 @@
 **Prepared 12 October 2026. Read FIRST. Transfer to another AI motion director/compositor.**
 
 ## Current owner decision, overriding all positive descriptions elsewhere
-The user has **REJECTED ALL FOUR Ghost Army experimental collage motion tests (V1, V2, V3, V4)** as artistically failing. V4 technically rendered but was explicitly criticized as **“just another presentation, im getting tired of this.”** V3 was rejected even more strongly: “the visual is too far from vox style ... theres not a single trace of vox style”. Do not use any of these as an approved aesthetic target, do not imply the user likes them, and do not try a fifth incremental version using the same poster/card composition. Avoid asking for more reference tutorials; the user supplied enough. Their current request is to export knowledge and HAND OFF, **not** to produce another film or change the official Bible.
+The user has **REJECTED ALL FOUR Ghost Army experimental collage motion tests (V1, V2, V3, V4)** as artistically failing. **The revised v1.4 production directing Bible, however, is now expressly ADOPTED; these are separate approval tracks.** V4 technically rendered but was explicitly criticized as **“just another presentation, im getting tired of this.”** V3 was rejected even more strongly: “the visual is too far from vox style ... theres not a single trace of vox style”. Do not use any of these as an approved aesthetic target, do not imply the user likes them, and do not try a fifth incremental version using the same poster/card composition. Avoid asking for more reference tutorials; the user supplied enough. Their current request is to export knowledge and HAND OFF, **not** to produce another film or change the official Bible.
 
 ## Identity in one paragraph
 **CURIO BUREAU — “Stories, systems, and surprises.”** Originally evolved from **404 Files**, a digital-history/retro-tech channel. The relaunch is a fresh baseline of concise, gripping, deeply researched narrated short documentaries about unusual history, engineering failures, forgotten technology and surprising events/systems. Desired video art: authored, premium **Vox-informed editorial visual explanations**, tactile mixed-media archives where relevant, original design identity, rich and recognizable cutouts, accurate maps, readable typographic comparisons, purposeful physical/semantic motion, art-directed compositing, emotional human-sounding narration and musical/sound storytelling. NOT simple presentation slides, a slideshow of Photoshop posters, primitive SVG machinery, stock motion-graphics templates, or one never-ending side-scrolling paper desk.
 
 ## Authority and scope
 - **Repo:** https://github.com/jonaslacandola0617/curio-bureau
-- **Single adopted master:** `main:production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md` **v1.3**. `AGENTS.md` and README are binding. THIS TRANSFER DOES NOT CHANGE THEM.
-- **Proposed but NOT adopted:** user-reviewed separate `v1.4` art & editorial motion draft with two required refinements. Read `02_CREATIVE_DIRECTION_AND_DRAFT_V14.md`; do not merge/adopt without explicit approval.
+- **Single adopted master:** `main:production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md` **v1.4** (owner-adopted with two corrections). `AGENTS.md` and README are binding. Adopted v1.3 and earlier safeguards remain intact.
+- **Adopted v1.4:** the owner explicitly authorized its promotion after affirming the conceptual framework and requiring the two refinements. Full binding chapter: `production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md`. See `02_CREATIVE_DIRECTION_AND_DRAFT_V14.md` for the earlier proposal's historical development.
 - **Handoff branch:** `handoff/curio-vox-complete-20261012`; contains new transfer documents and verbatim copies of user's two research manuals and visual-match director directive. The branch's other content comes from main, so canonical Bible exists there unchanged.
 - **Original Episode 009 film branch:** `film/ghost-army-1945`; separate from the experimental collage review branches.
 - **Rejected V3:** `design/ghost-army-editorial-collage-v3`.
@@ -20,7 +20,7 @@ The user has **REJECTED ALL FOUR Ghost Army experimental collage motion tests (V
 ## Read in this order
 1. THIS document.
 2. `04_OWNER_FEEDBACK_AND_CHRONOLOGY.md` (what the user actually wanted, corrections and mistakes to avoid).
-3. `02_CREATIVE_DIRECTION_AND_DRAFT_V14.md` (coherent conceptual language, NOT production approval).
+3. `production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md` (ADOPTED full art/motion chapter); then `02_CREATIVE_DIRECTION_AND_DRAFT_V14.md` (historical consolidated draft, now approved conceptually but never a video acceptance).
 4. `01_SOURCE_MANUALS/Vox_Inspired_Editorial_Animation_Manual_USER_SUPPLIED.md` (1911 lines, 5 actual Vox films).
 5. `01_SOURCE_MANUALS/Vox_Style_Motion_Design_Editing_Techniques_Bible_USER_SUPPLIED.md` (2795 lines, 10 tutorials, observed vs inferred).
 6. `01_SOURCE_MANUALS/Curio_Vox_Visual_Match_Creative_Director_Directive_USER_SUPPLIED.md` (369 lines, user-provided V4 plan; superseded by later user rejection, but records craft constraints).
@@ -31,7 +31,7 @@ The user has **REJECTED ALL FOUR Ghost Army experimental collage motion tests (V
 ## Defining directing thought
 **Continuity of visual thought.** The next shot earns its existence by developing the audience's understanding of the previous one; it may preserve a known object, geographic anchor, coordinate system, comparator, question or evidence relationship. An intentional hard cut can be more coherent than a spectacular morph. Parallax is a selective tool, not a style. Motion's contract: **known state → meaningful operation → newly readable state → hold**. Graphics must show why something is true, not merely write a label saying so.
 
-## Overriding two corrections to v1.4 draft
+## Binding two owner corrections adopted into v1.4
 1. **Editorial sequence and shot relationships BEFORE final artwork:** plan transitions, invariants, keyframe states and intended emotional/cognitive progression; then commission/source purpose-built artwork that supports the edit. A beautiful flattened image unsuitable for its planned transition is NOT production-ready.
 2. **Judge procedural Canvas/SVG artwork by output, not method:** well-crafted diagrams, maps and crisp SVG illustrations can be premium; purposefully simplifying a photo to an analytical drawing may be correct. V3's primitive generic machinery and poor composition were the failure, not the syntax or code language.
 
