@@ -157,7 +157,7 @@ function frame5(t){
  txt("≈ 1,100",79,694,104,C.ink,"Playfair Display",700);
  txt("PERSONNEL",595,685,29,C.olive,"Manrope",700);
  let p=dec((u-.05)/.48);
- for(let j=0;j<11;j++){let a=clamp(p*12-j);if(a>0){g.save();g.globalAlpha=a;rect(88+j*58,752,42,42,C.olive);g.restore();}}
+ for(let j=0;j<11;j++){let a=clamp(p*12-j);if(a>0){g.save();g.globalAlpha=a;square(93+j*44,752,C.olive,null);g.restore();}}
  line(76,834,995,834,C.olive,2);
  let q=clamp((u-.55)/.96);
  txt("SIMULATED",79,942,28,C.coral,"Manrope",800);
