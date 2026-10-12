@@ -23,7 +23,7 @@ positions=[round(f*FPS) for f in checks]
 ff=[
  "ffmpeg","-nostdin","-hide_banner","-loglevel","error","-y",
  "-framerate",str(FPS),"-start_number","0","-i",str(FRAME_DIR/"frame_%04d.png"),
- "-c:v","libx264","-pix_fmt","yuv420p","-preset","veryfast",
+ "-vf","scale=720:1280:flags=lanczos","-c:v","libx264","-pix_fmt","yuv420p","-preset","veryfast",
  "-crf","20","-r",str(FPS),"-movflags","+faststart",str(silent)
 ]
 with sync_playwright() as pw:
