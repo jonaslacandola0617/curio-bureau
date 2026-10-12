@@ -8,6 +8,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: ghost-army-v4-visual-match
+  cancel-in-progress: true
 jobs:
   render_v4:
     if: github.actor != 'github-actions[bot]'
