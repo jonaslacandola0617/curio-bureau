@@ -1,0 +1,56 @@
+{
+  "status": "ART_DIRECTION_REVIEW_NOT_MASTER",
+  "requested_duration_seconds": 16,
+  "rendered_distinct_frames": 384,
+  "screen_scale": "1080x1920",
+  "fps": 24,
+  "no_voiceover": true,
+  "image_attribution": "See SOURCES.md for exactly selected historical images or explicit fallbacks",
+  "timeline_shots": [
+    [
+      0,
+      3.2
+    ],
+    [
+      3.2,
+      6.2
+    ],
+    [
+      6.2,
+      9.2
+    ],
+    [
+      9.2,
+      12.8
+    ],
+    [
+      12.8,
+      16
+    ]
+  ],
+  "final_data_unit_counts": {
+    "actual_filled": 11,
+    "simulated_outlined": 300,
+    "people_per_unit": 100
+  },
+  "files": {
+    "CURIO_GHOST_ARMY_VISUAL_MATCH_V4_WITH_AUDIO.mp4": {
+      "bytes": 3121264,
+      "codec": "h264",
+      "audio": "aac",
+      "duration": 16.0,
+      "width": 1080,
+      "height": 1920,
+      "fps": "24/1"
+    },
+    "CURIO_GHOST_ARMY_VISUAL_MATCH_V4_WITH_AUDIO.webm": {
+      "bytes": 1766849,
+      "codec": "vp9",
+      "audio": "opus",
+      "duration": 16.008,
+      "width": 1080,
+      "height": 1920,
+      "fps": "24/1"
+    }
+  }
+}
