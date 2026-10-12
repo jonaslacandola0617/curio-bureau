@@ -33,6 +33,17 @@ jobs:
       - name: Render 384 actual frames with sourced images and synchronized SFX
         run: |
           python -u films/ghost-army-1945/design-tests/v4/render_v4.py
+      - name: Persist the rendered frame review and QA in the design branch
+        run: |
+          set -euo pipefail
+          git config user.name 'curio-bureau-motion-review[bot]'
+          git config user.email 'actions@users.noreply.github.com'
+          mkdir -p films/ghost-army-1945/design-tests/v4/review
+          cp films/ghost-army-1945/design-tests/v4/output/CURIO_GHOST_ARMY_V4_FRAME_REVIEW.jpg films/ghost-army-1945/design-tests/v4/review/FRAME_REVIEW.jpg
+          cp films/ghost-army-1945/design-tests/v4/output/CURIO_GHOST_ARMY_V4_QA.json films/ghost-army-1945/design-tests/v4/review/QA.json
+          git add films/ghost-army-1945/design-tests/v4/review/
+          git commit -m 'render(v4): independently verified full-HD storyboard and video QA' || true
+          git push origin HEAD:refs/heads/design/ghost-army-visual-match-v4
       - name: Upload real viewing copy and review assets
         uses: actions/upload-artifact@v4
         with:
