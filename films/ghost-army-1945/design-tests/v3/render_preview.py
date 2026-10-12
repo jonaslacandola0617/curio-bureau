@@ -7,7 +7,7 @@ from PIL import Image,ImageDraw
 from playwright.sync_api import sync_playwright
 
 HERE=pathlib.Path(__file__).resolve().parent
-FILM=HERE.parents[2]
+FILM=HERE.parents[1]
 OUT=HERE/'output'
 OUT.mkdir(exist_ok=True)
 TEMPLATE=(HERE/'motion_template.html').read_text(encoding='utf8')
