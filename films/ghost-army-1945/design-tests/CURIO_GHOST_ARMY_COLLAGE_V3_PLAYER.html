@@ -118,7 +118,7 @@ function speakerScene(t){
  caption('They even faked the sounds.');
 }
 function radioScene(t){
- let u=t-7.35;paperTexture('#e8ddc2');
+ let u=t-7.35;if(u>3.5)mapBase();else paperTexture('#e8ddc2');
  c.save();c.translate(0,-Math.max(0,ease((u-3.54)/.57))*1520);
  torn(49,64,629,1161,'#efe5d0',-.019);tape(96,72);tape(603,1187,87,.2);
  topSeal('SIGNAL / 1945');
