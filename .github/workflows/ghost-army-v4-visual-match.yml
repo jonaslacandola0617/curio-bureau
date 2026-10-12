@@ -44,7 +44,9 @@ jobs:
           test "$(stat -c%s films/ghost-army-1945/assets/Manrope.ttf)" -gt 40000
       - name: Render 384 actual frames with sourced images and synchronized SFX
         run: |
-          python -u films/ghost-army-1945/design-tests/v4/render_v4.py
+          set -o pipefail
+          mkdir -p films/ghost-army-1945/design-tests/v4/review
+          python -u films/ghost-army-1945/design-tests/v4/render_v4.py 2>&1 | tee films/ghost-army-1945/design-tests/v4/review/BUILD_LOG.txt
       - name: Persist the rendered frame review and QA in the design branch
         run: |
           set -euo pipefail
@@ -92,5 +94,6 @@ jobs:
           git config user.name 'curio-bureau-motion-review[bot]'
           git config user.email 'actions@users.noreply.github.com'
           git add films/ghost-army-1945/design-tests/v4/review/BUILD_STATUS.json
-          git commit -m 'ci(v4): review build failed' || true
+          if [ -f films/ghost-army-1945/design-tests/v4/review/BUILD_LOG.txt ]; then git add films/ghost-army-1945/design-tests/v4/review/BUILD_LOG.txt; fi
+          git commit -m 'ci(v4): review build failed with diagnostics' || true
           git push origin HEAD:refs/heads/design/ghost-army-visual-match-v4
