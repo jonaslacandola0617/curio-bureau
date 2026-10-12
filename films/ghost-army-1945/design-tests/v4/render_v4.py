@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Curio Bureau Ghost Army V4. Distinct real frames at 1080x1920 24fps, source-grounded images.
 V4 is an art-direction review, not the v1.3 required 2160x3840 30fps final episode."""
-import base64,io,json,math,os,pathlib,random,subprocess,time,wave,zipfile
+import base64,io,json,math,os,pathlib,random,shutil,subprocess,time,wave,zipfile
 import numpy as np, requests
 from PIL import Image,ImageDraw
 from playwright.sync_api import sync_playwright
@@ -50,6 +50,14 @@ for name,(filename,url,license_text) in SOURCES.items():
    break
   except Exception as e:errors.append(str(e))
  else: raise RuntimeError('Unable to obtain attribution-checked image '+name+' failures='+str(errors))
+
+# The private renderer lives under v4/output/ and loads ./assets/*.jpg.
+# Original source images remain under v4/assets/, so stage copies beside renderer HTML.
+render_assets=OUT/'assets'
+render_assets.mkdir(parents=True,exist_ok=True)
+for name in SOURCES:
+ shutil.copy2(ASSETS/(name+'.jpg'),render_assets/(name+'.jpg'))
+print('STAGED HTML IMAGE ASSETS',[(n,(render_assets/(n+'.jpg')).stat().st_size) for n in SOURCES],flush=True)
 
 sources_text='# Curio Bureau V4 — sourced imagery and factual caveats\n\n'
 for name,(fn,url,lic) in SOURCES.items():
