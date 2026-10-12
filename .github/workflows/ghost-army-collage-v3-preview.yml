@@ -1,0 +1,67 @@
+name: Ghost Army V3 | actual paper collage motion preview
+on:
+  push:
+    branches: [design/ghost-army-editorial-collage-v3]
+    paths:
+      - '.github/workflows/ghost-army-collage-v3-preview.yml'
+      - 'films/ghost-army-1945/design-tests/v3/motion_template.html'
+      - 'films/ghost-army-1945/design-tests/v3/render_preview.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  native_motion_preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install true frame renderer
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install -q numpy Pillow playwright
+          python -m playwright install --with-deps chromium
+      - name: Fetch typography for PRIVATE screenshot renderer
+        run: |
+          set -euxo pipefail
+          mkdir -p films/ghost-army-1945/assets
+          curl -fLsS --retry 3 'https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf' -o films/ghost-army-1945/assets/PlayfairDisplay.ttf
+          curl -fLsS --retry 3 'https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf' -o films/ghost-army-1945/assets/Manrope.ttf
+          test "$(stat -c%s films/ghost-army-1945/assets/PlayfairDisplay.ttf)" -gt 40000
+          test "$(stat -c%s films/ghost-army-1945/assets/Manrope.ttf)" -gt 40000
+      - name: Render and validate actual 16-second film
+        run: |
+          python -u films/ghost-army-1945/design-tests/v3/render_preview.py
+          test -s films/ghost-army-1945/design-tests/v3/output/CURIO_GHOST_ARMY_EDITORIAL_COLLAGE_V3_WITH_AUDIO.mp4
+          test -s films/ghost-army-1945/design-tests/v3/output/CURIO_GHOST_ARMY_EDITORIAL_COLLAGE_V3_WITH_AUDIO.webm
+      - name: Upload encoded preview/source/art-review artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: curio-ghost-army-v3-paper-collage-actual-render
+          path: |
+            films/ghost-army-1945/design-tests/v3/output/CURIO_GHOST_ARMY_EDITORIAL_COLLAGE_V3_WITH_AUDIO.mp4
+            films/ghost-army-1945/design-tests/v3/output/CURIO_GHOST_ARMY_EDITORIAL_COLLAGE_V3_WITH_AUDIO.webm
+            films/ghost-army-1945/design-tests/v3/output/CURIO_GHOST_ARMY_V3_EDITABLE_SOURCE.zip
+            films/ghost-army-1945/design-tests/v3/output/CURIO_GHOST_ARMY_V3_FRAME_REVIEW.jpg
+            films/ghost-army-1945/design-tests/v3/output/CURIO_GHOST_ARMY_V3_QA.json
+          retention-days: 30
+          if-no-files-found: error
+      - name: Publish PUBLIC prerelease review clips for immediate owner playback
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euxo pipefail
+          cd films/ghost-army-1945/design-tests/v3/output
+          TAG='ghost-army-collage-v3-motion-review-20261012'
+          gh release create "$TAG" \
+            CURIO_GHOST_ARMY_EDITORIAL_COLLAGE_V3_WITH_AUDIO.mp4 \
+            CURIO_GHOST_ARMY_EDITORIAL_COLLAGE_V3_WITH_AUDIO.webm \
+            CURIO_GHOST_ARMY_V3_EDITABLE_SOURCE.zip \
+            CURIO_GHOST_ARMY_V3_FRAME_REVIEW.jpg \
+            CURIO_GHOST_ARMY_V3_QA.json \
+            README.txt \
+            --repo "${{ github.repository }}" \
+            --target "${{ github.sha }}" \
+            --title 'Ghost Army editorial collage V3 — motion review, NOT final' \
+            --notes 'Actual 16-second 540x960 24fps paper-collage study with original illustrative object art and sound; independently encoded MP4/WebM, source HTML and frame QA. This is a review test, NOT a released Curio episode or native-4K master.' \
+            --prerelease
