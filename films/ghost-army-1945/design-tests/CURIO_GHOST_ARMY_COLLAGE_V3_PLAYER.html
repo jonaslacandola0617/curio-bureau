@@ -1,0 +1,183 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Curio Bureau · Ghost Army V3 moving collage</title><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>body{margin:0;padding:14px;background:#101c27;color:#f4ecda;display:flex;gap:22px;justify-content:center;font:14px system-ui,sans-serif}canvas{height:min(90vh,1100px);width:auto;box-shadow:0 13px 60px #000b}aside{width:240px}button{background:#1a3442;color:#eee4d1;border:1px solid #c8a26b;padding:12px 28px;cursor:pointer}input{width:100%}@media(max-width:800px){body{display:block;padding:0}canvas{width:100%;max-width:540px;height:auto;display:block;margin:auto}aside{margin:auto;padding:12px;width:min(100%,540px)}}small{color:#b9b2a6;line-height:1.5;display:block}</style></head>
+<body><canvas id="stage" width="720" height="1280"></canvas><aside><h2>GHOST ARMY / V3</h2><p>Original editorial collage motion test. Selective depth. Three different handoffs.</p><button id="play">Play / Pause</button><input id="seek" type="range" min="0" max="16" step=".01" value="0"/><p id="status">00:00 / 00:16</p><small>16-second art-direction proof, not archival photography. Illustrations, annotations and map are original schematics; no exact battlefield movements implied. Media preview is rendered separately.</small></aside>
+<script>
+const cvs=document.getElementById('stage'),c=cvs.getContext('2d',{alpha:false}),W=720,H=1280;
+const navy='#162d39',ink='#233945',cream='#efe5ce',gold='#d4a958',red='#ba634a',sage='#647962';
+function clamp(v,a=0,b=1){return Math.max(a,Math.min(b,v))}
+function ease(v){v=clamp(v);return v*v*(3-2*v)}
+function lerp(a,b,k){return a+(b-a)*k}
+function rect(x,y,w,h,col){c.fillStyle=col;c.fillRect(x,y,w,h)}
+function stroke(x,y,X,Y,col='#a38e70',w=3){c.beginPath();c.moveTo(x,y);c.lineTo(X,Y);c.lineWidth=w;c.strokeStyle=col;c.stroke()}
+function circle(x,y,r,col,outline=null,sw=3){c.beginPath();c.arc(x,y,Math.max(.1,r),0,Math.PI*2);c.fillStyle=col;c.fill();if(outline){c.lineWidth=sw;c.strokeStyle=outline;c.stroke()}}
+function poly(points,col,out=null,sw=3){c.beginPath();c.moveTo(points[0][0],points[0][1]);for(let p of points.slice(1))c.lineTo(p[0],p[1]);c.closePath();c.fillStyle=col;c.fill();if(out){c.lineWidth=sw;c.strokeStyle=out;c.stroke()}}
+function text(s,x,y,size=30,col=navy,font='sans-serif',weight='normal',align='left'){c.textAlign=align;c.fillStyle=col;c.font=weight+' '+size+'px '+font;c.fillText(s,x,y);c.textAlign='left'}
+function seed(n){let x=Math.sin(n*184.251+24.11)*92181.397;return x-Math.floor(x)}
+function paperTexture(base='#e9dfc9',lineOpacity=.23){
+ rect(0,0,W,H,base);
+ c.strokeStyle='rgba(72,72,61,'+lineOpacity+')';c.lineWidth=1;
+ for(let x=0;x<W;x+=24){c.beginPath();c.moveTo(x,0);c.lineTo(x,H);c.stroke()}
+ for(let y=0;y<H;y+=24){c.beginPath();c.moveTo(0,y);c.lineTo(W,y);c.stroke()}
+ for(let i=0;i<3500;i++){let x=seed(i*2)*W,y=seed(i*2+1)*H;c.fillStyle=i%3===0?'rgba(37,41,32,.12)':'rgba(255,255,255,.23)';c.fillRect(x,y,i%5===0?2:1,1)}
+}
+function torn(x,y,w,h,fill=cream,angle=0){
+ c.save();c.translate(x+w/2,y+h/2);c.rotate(angle);c.shadowColor='rgba(19,30,30,.32)';c.shadowBlur=16;c.shadowOffsetX=6;c.shadowOffsetY=11;
+ let p=[[-w/2+5,-h/2],[-w/2+w*.32,-h/2+4],[-w/2+w*.55,-h/2-5],[w/2,-h/2+6],[w/2-7,h*.04],[w/2+4,h*.25],[w/2-8,h/2-5],[w*.17,h/2+4],[-w*.22,h/2-5],[-w/2+5,h/2],[-w/2-3,-h*.2]];
+ poly(p,fill,'rgba(87,79,61,.28)',1.7);c.restore();
+}
+function tape(x,y,w=75,rot=-.13){c.save();c.translate(x,y);c.rotate(rot);rect(-w/2,-11,w,23,'rgba(204,177,122,.61)');stroke(-w/2,-12,w/2,-12,'rgba(248,229,179,.6)',2);c.restore()}
+function path(points,color,w=4,frac=1,dashed=false){c.beginPath();const n=Math.max(1,Math.floor((points.length-1)*clamp(frac)));c.moveTo(...points[0]);for(let i=1;i<=n;i++)c.lineTo(...points[i]);c.strokeStyle=color;c.lineWidth=w;c.lineJoin='round';c.lineCap='round';c.setLineDash(dashed?[9,8]:[]);c.stroke();c.setLineDash([])}
+function arrow(x,y,X,Y,col=red,w=4){stroke(x,y,X,Y,col,w);c.save();c.translate(X,Y);c.rotate(Math.atan2(Y-y,X-x));poly([[0,0],[-15,-7],[-15,7]],col);c.restore()}
+function caption(s){
+ c.fillStyle='rgba(10,27,39,.83)';c.beginPath();c.roundRect(67,664,586,91,15);c.fill();c.strokeStyle='#c8a26b';c.lineWidth=2;c.stroke();text(s,360,719,s.length>46?22:28,'#f5f0e7','sans-serif','bold','center');
+}
+function topSeal(label){
+ rect(42,24,220,37,navy);text(label,57,50,16,'#f5e1b6','sans-serif','bold');
+}
+function stamp(x,y,s,angle=0){c.save();c.translate(x,y);c.rotate(angle);c.strokeStyle='#ab6958';c.lineWidth=4;c.strokeRect(0,0,180,39);text(s,10,27,18,'#a35b4b','monospace','bold');c.restore()}
+function makeTank(){
+ // Architectural-quality paper-edged tank body assembled as cutout
+ c.save();c.shadowColor='rgba(8,19,21,.45)';c.shadowBlur=18;c.shadowOffsetY=15;
+ poly([[110,713],[149,658],[510,627],[572,695],[540,785],[154,801]],'#f1e9d7','#fbefdb',12);
+ c.restore();
+ poly([[128,696],[161,661],[519,641],[566,703],[527,764],[145,779]],'#243e36','#d1ccb5',7);
+ poly([[163,671],[480,652],[518,692],[503,741],[168,748]],'#617261','#203b34',5);
+ path([[164,670],[494,652],[520,696]],'#a8b09a',5);
+ for(let i=0;i<6;i++){let x=187+i*55;circle(x,727,30,'#283b34','#b2b6a2',7);circle(x,727,13,'#9ca995');circle(x-1,726,4,'#334a40')}
+ poly([[173,641],[235,558],[442,546],[494,634]],'#465d4f','#d1d1b4',6);
+ poly([[263,568],[278,517],[415,506],[455,548]],'#697e6c','#c1c7ac',5);
+ poly([[300,515],[323,480],[377,476],[401,513]],'#314c42','#d5d6b5',4);
+ poly([[384,565],[633,522],[641,545],[404,589]],'#73836f','#38493e',5);
+ poly([[622,526],[687,515],[687,529],[642,545]],'#2a4036');
+ path([[199,655],[482,639]],'#d4d2b6',3);
+ for(let i=0;i<11;i++){circle(204+i*25,645,1.5,'#dacdac')}
+ poly([[222,579],[241,570],[248,602],[226,614]],'#8e9d80');
+ circle(460,607,32,'#d1ba94','#f1e5c5',8);circle(460,607,21,'#384e47','#b0a589',6);circle(460,607,9,'#101f28','#cab78d',3);
+}
+function tankScene(t){
+ let p=ease(t/1.15),zoom=ease((t-2.6)/1.0),z=lerp(1,19,zoom);
+ c.save();c.translate(360,630);c.scale(z,z);c.translate(-lerp(360,460,zoom),-lerp(630,607,zoom));
+ paperTexture('#d9cbb0');
+ path([[15,389],[167,343],[282,374],[448,337],[704,347]],'#8c9c92',6,.99);path([[0,853],[151,815],[340,843],[720,763]],'#8c9c92',7,1);
+ text('FRANCE',41,860,22,'#819189','Georgia','italic');
+ text('GERMANY',531,396,22,'#819189','Georgia','italic');
+ c.save();c.translate(-8*p,4*p);
+ torn(49,102,636,790,'#f1e9d7',-.025);tape(95,112,100,.15);tape(621,848,125,-.06);
+ torn(69,440,580,410,'#8d9a88',-.025);
+ makeTank();
+ c.restore();
+ torn(45,963,632,208,'#efe6d3',-.025);
+ text('HOW IT FOOLED AN ARMY',75,1002,17,'#a95d49','sans-serif','bold');
+ text('It looked like steel.',74,1075,47,ink,'Georgia','bold');
+ text('But it was filled with air.',74,1125,25,'#6a6557','Georgia','italic');
+ topSeal('FIELD NOTE / 009');
+ text('The army that',67,242,56,navy,'Georgia','bold');
+ text('wasn\'t there.',67,305,61,navy,'Georgia','italic');
+ if(t>1.15){let a=ease((t-1.15)/.75);c.save();c.globalAlpha=a;path([[490,601],[550,552],[626,547]],'#c68f55',7,a);torn(515,500,170,50,navy);text('AIR VALVE',531,533,21,cream,'sans-serif','bold');c.restore()}
+ c.restore();caption('An army made of air.');
+}
+function speakerTruck(){
+ torn(51,362,637,542,'#8a9e8d',.025);
+ // vehicle chassis + weathered panels
+ poly([[141,752],[179,662],[468,643],[558,704],[579,799],[146,812]],'#324d43','#f5e9d3',9);
+ poly([[175,681],[452,668],[506,706],[514,753],[178,771]],'#6c806b','#30483f',5);
+ poly([[162,765],[575,745],[578,794],[158,816]],'#283f3b','#bec9b2',6);
+ for(let x of [226,475]){circle(x,799,49,'#223630','#d7d2b9',8);circle(x,799,21,'#889e8c');circle(x,799,7,'#263d33')}
+ poly([[268,676],[293,569],[411,563],[449,669]],'#526e63','#e5dcc4',6);
+ rect(302,597,103,49,'#293f3e');path([[319,617],[387,608]],'#c3c1a5',4);
+ // technical brackets / horn mounts
+ rect(288,530,15,79,'#354f48');rect(425,530,15,80,'#354f48');
+}
+function horn(x,y,scale=1){
+ c.save();c.translate(x,y);c.scale(scale,scale);c.shadowColor='#11232799';c.shadowBlur=20;c.shadowOffsetX=10;
+ poly([[-91,38],[-152,66],[-150,-60],[-91,-39]],'#647f71','#d8dbc0',7);
+ circle(0,0,112,'#d7d4b8','#38483c',8);circle(0,0,96,'#829587','#293f37',9);circle(0,0,75,'#435b52','#a0ae99',5);circle(0,0,49,'#1f3533','#6c8279',6);circle(0,0,27,'#13272b','#8b9e8e',5);circle(0,0,9,'#bdb8a2');c.restore()
+}
+function speakerScene(t){
+ let u=t-3.6,rec=ease(u/.88),z=lerp(15,1,rec);
+ paperTexture('#233e43',.07);
+ torn(43,84,642,255,cream,-.03);tape(610,113,106,-.15);
+ text('SONIC DECEPTION',77,129,17,red,'sans-serif','bold');
+ text('An army you',72,218,61,navy,'Georgia','bold');
+ text('could hear.',72,294,67,navy,'Georgia','italic');
+ torn(39,352,644,546,'#dcd5bf',.027);
+ speakerTruck();horn(353,531,1);
+ c.save();c.beginPath();c.rect(0,320,720,700);c.clip();
+ if(u<.88){c.translate(360,635);c.scale(z,z);c.translate(-353,-531);horn(353,531,1)}
+ else{
+ let wave=ease((u-1.2)/1.9);
+ for(let i=0;i<3;i++){let rr=127+i*67;c.save();c.beginPath();c.arc(353,531,rr,-.65,.70*wave-.65);c.strokeStyle=i===0?'#e4c27a':'#b97756';c.lineWidth=i===0?8:5;c.lineCap='round';c.stroke();c.restore()}
+ }
+ c.restore();
+ torn(68,962,590,210,cream,-.018);
+ text('RECORDED BOOTS. ENGINE NOISE.',96,1008,19,'#a9624a','sans-serif','bold');
+ text('Imaginary soldiers.',90,1083,44,navy,'Georgia','bold');
+ text('A real sound from a fake force.',90,1128,23,'#625f54','Georgia','italic');
+ // waveform tail visually hands off at right screen edge
+ if(u>3.0){let p=ease((u-3)/.75);path([[400,624],[458,594],[510,634],[563,585],[642,622],[718,622]],'#d3aa62',7,p)}
+ caption('They even faked the sounds.');
+}
+function radioScene(t){
+ let u=t-7.35;paperTexture('#e8ddc2');
+ c.save();c.translate(0,-Math.max(0,ease((u-3.54)/.57))*1520);
+ torn(49,64,629,1161,'#efe5d0',-.019);tape(96,72);tape(603,1187,87,.2);
+ topSeal('SIGNAL / 1945');
+ text('An army that',78,205,61,navy,'Georgia','bold');text('could speak.',80,270,65,navy,'Georgia','italic');
+ torn(72,350,581,573,'#5d7266',-.025);
+ c.save();c.translate(6,2);c.shadowColor='#18292399';c.shadowBlur=16;c.shadowOffsetY=12;
+ poly([[123,460],[561,420],[599,804],[138,848]],'#304943','#f2e9d3',9);c.restore();
+ poly([[149,482],[536,450],[567,776],[163,819]],'#677968','#1e3631',6);
+ rect(194,503,330,125,'#1a302e');
+ for(let i=0;i<13;i++){let x=212+i*23;stroke(x,516,x,612,'#a5b1a1',2)}
+ for(let i=0;i<3;i++)stroke(214,540+i*22,503,540+i*22,'#d6b976',2);
+ text('1.20       2.35       4.60',205,663,19,'#ede0b8','monospace');
+ for(let x of [229,445]){circle(x,730,x===229?53:59,'#253d38','#c9cdb1',8);circle(x,730,24,'#8ea393');circle(x,730,8,'#384d45')}
+ for(let x of [326,352,380])circle(x,754,7,'#c2c8ae');
+ let n=ease((u-.72)/1.65);stroke(333+65*n,517,333+65*n,616,red,5);
+ c.beginPath();c.moveTo(564,766);c.bezierCurveTo(687,786,553,901,720,996);c.lineWidth=16;c.strokeStyle='#233c36';c.stroke();
+ let w=ease((u-.55)/2.0), pts=[[70,1010],[158,1010],[190,984],[216,1054],[249,1010],[310,1010],[335,974],[371,1055],[411,1010],[478,1010],[512,981],[552,1010],[677,1010]];
+ path(pts,red,7,w);
+ if(u>1.9){let a=ease((u-1.9)/.72);c.globalAlpha=a;torn(73,1077,575,107,navy,-.015);text('FALSE RADIO TRAFFIC',102,1142,28,cream,'sans-serif','bold');c.globalAlpha=1}
+ c.restore();
+ caption('Even its radio traffic was invented.');
+}
+function mapBase(){
+ paperTexture('#d7cbb0');
+ path([[0,202],[126,182],[310,233],[508,173],[720,185]],'#a0a58c',7);
+ path([[0,432],[135,396],[310,462],[534,391],[720,417]],'#a0a58c',6);
+ path([[0,911],[173,873],[344,899],[545,846],[720,866]],'#a0a58c',6);
+ // bent river, water and fine contour
+ let river=[[394,-35],[384,100],[426,240],[401,349],[374,465],[425,589],[367,701],[381,815],[352,940],[373,1071],[337,1329]];
+ path(river,'#7b9b9b',37);path(river,'#d0d4c7',5);
+ text('FRANCE',91,527,22,'#617971','Georgia','italic');text('GERMANY',472,371,23,'#617971','Georgia','italic');
+ c.save();c.translate(505,627);c.rotate(-Math.PI/2);text('RHINE',0,0,20,'#325360','Georgia','bold');c.restore();
+ for(let i=0;i<18;i++){let x=seed(i)*680+20,y=seed(i+40)*1000+140;stroke(x,y,x+20,y-5,'#b8a78b',2)}
+}
+function mapScene(t){
+ let u=t-11.45;
+ mapBase();torn(47,78,626,209,cream,-.025);text('THE TRICK ON A MAP',82,127,19,red,'sans-serif','bold');
+ text('A force that',78,205,57,navy,'Georgia','bold');text('wasn\'t there.',79,267,60,navy,'Georgia','italic');
+ let q=ease((u-.45)/1.7);
+ let pts=[[79,828],[130,773],[202,744],[246,692],[321,699],[386,622],[447,592],[524,524],[612,475]];
+ path(pts,red,8,q,true);let lit=ease((u-.55)/1.3);
+ c.save();c.globalAlpha=.22*lit;circle(393,620,197,'#f0cf89');c.restore();
+ if(u>1.3){let a=ease((u-1.3)/1.15);c.globalAlpha=a;
+ for(let [x,y] of [[224,614],[298,649],[463,558],[531,508],[337,574]]){rect(x,y,56,36,navy);text('XX',x+14,y+25,18,cream,'sans-serif','bold')}c.globalAlpha=1}
+ if(u>2.15){let a=ease((u-2.15)/.85);c.globalAlpha=a;
+ torn(49,870,623,306,cream,-.025);tape(599,890,98,-.15);
+ text('THE ILLUSION OF SCALE',85,930,18,red,'sans-serif','bold');
+ text('1,100 specialists',80,1008,47,navy,'Georgia','bold');
+ stroke(88,1031,622,1031,gold,4);
+ text('created the impression of',85,1082,25,ink,'sans-serif');
+ text('two divisions.',84,1142,49,'#a3543f','Georgia','bold');
+ c.globalAlpha=1;}
+ text('SCHEMATIC MAP • NOT AN ARCHIVAL BATTLE PLAN',56,1239,13,'#455953','sans-serif','bold');
+ caption('1,100 specialists created a much larger illusion.');
+}
+let time=0,playing=false,origin=0;
+function renderAt(t){time=clamp(t,0,16);c.save();c.clearRect(0,0,W,H);if(t<3.6)tankScene(time);else if(t<7.35)speakerScene(time);else if(t<11.45)radioScene(time);else mapScene(time);c.restore();document.getElementById('seek').value=time;document.getElementById('status').textContent='00:'+time.toFixed(2)+' / 00:16';}
+function frame(now){if(!playing)return;renderAt((now-origin)/1000);if(time>=16){playing=false;return}requestAnimationFrame(frame)}
+document.getElementById('play').onclick=()=>{if(playing){playing=false;return;}if(time>=16)time=0;origin=performance.now()-1000*time;playing=true;requestAnimationFrame(frame)};
+document.getElementById('seek').oninput=e=>{playing=false;renderAt(Number(e.target.value))};
+window.renderAt=renderAt;renderAt(0);
+</script></body></html>
