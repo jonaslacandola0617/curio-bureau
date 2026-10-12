@@ -10,7 +10,7 @@
 ## B. Early project standards and adoption
 - Brand: Playfair Display headlines, Manrope captions and utility, navy `#0D1C2B`, ivory `#F5F0E7`, gold `#C8A26B`, coral `#D57864`. Original accents allowed by subject and historical materials.
 - User insists on captivating script/hook, voice with emotional inflection, convincing score (audible), distinct well-timed physical SFX, center-safe captions, phone readability, clean reliable export and real authored motion. Avoid repetitive card layouts, slides, generic primitive assets and silent speech gaps.
-- V1.1 then user-approved **Bible v1.2** (Vox tutorial craft) then **v1.3** (first-party Vox originals graphics-only research). `main:production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md` v1.3 is CURRENT ADOPTED. Existing versions were not updated for Ghost Army collage V3/V4 failures.
+- V1.1 then user-approved **Bible v1.2** (Vox tutorial craft) then **v1.3** (first-party Vox originals graphics-only research). `main:production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md` is NOW **v1.4 CURRENT ADOPTED**, after explicit owner instruction following their two correction requests. v1.3/v1.2/v1.1 rules remain preserved. Rejected Ghost Army V3/V4 films remain unapproved independent of the adopted direction.
 - Real episode releases must be native `2160x3840/30fps` in independent H264/AAC MP4 + VP9/Opus WebM with true voice, music, SFX, word-verified captions and content/art QA, not an upscaled preview. User also wants **browser-openable deterministic HTML/Canvas/SVG/JS with play, scrub, replay and built-in full-length WebM export with synchronized audio** whenever production workflow supports it.
 - User earlier noted Episode 008's *animation, images, visual presentation and some sound design* were good, but narration too flat and overall emotion insufficient. Owner Ep009 feedback: image/motion acceptable by its original production criterion, sound design good, but caption box inconsistent with Episode 008 and narration not emotional enough; +3dB VO/SFX desired. **Do not mistakenly label overall Episode 009 source as “rejected art” solely because separate Ghost Army collage-style V1–V4 tests were rejected.**
 
@@ -51,13 +51,13 @@
 - Direct owner verdict: “nope, the visual is too far from vox style that is not the art of vox theres not a single trace of vox style in that shit”.
 - Assistant forensic admission: replaced successful beautiful concept source with primitive programmatic stocklike tank, halftrack, radio, repetitive procedural torn paper. Motion/sfx quality does not fix lack of proper visual assets.
 
-### Draft v1.4 creative director framework (APPROVED CONCEPTUALLY, NOT adopted)
+### v1.4 creative director framework (APPROVED CONCEPTUALLY, LATER EXPLICITLY ADOPTED WITH TWO CORRECTIONS)
 - User demanded “ive supplied you already with enough materials ... what are you lacking ... draft the bible but do not change it i want to see what did you exactly learn”.
 - Assistant created a LONG inline `CURIO BUREAU — THE EDITORIAL ART & MOTION DIRECTION BIBLE Proposed v1.4 Addendum`; distinguished role-specific artwork from evolving visual argument, technical parallax vs motion vocabulary, recognized source-based detail, evidence and data, high-quality intermediate frames. User replied **“Yes—this draft captures the distinction clearly at the level of creative direction”** and specifically praised the phrase **“continuity of visual thought.”**
 - User mandated refinements BEFORE considering it production standard:
   1. editorial sequence, shot relationships and transformations **before final artwork**, with assets constructed purposefully to support transitions;
   2. procedural drawing judged by output quality, not prohibited by method. Intentional simplification into a clean diagram is often success.
-- Assistant recorded these in further separate writing-block refinements. Still NO approval of video quality nor formal adoption of Bible v1.4. Consolidated draft in `02_CREATIVE_DIRECTION_AND_DRAFT_V14.md`.
+- Assistant recorded these in a separate refined writing-block proposal. The owner later explicitly instructed: "i believe i already approved the 1.4 bible earlier along with the two changes suggested. please update this now and provide the export again". **The revised creative Bible is thus formally adopted as v1.4** on `main`; no V1–V4 video was approved. Earlier draft in `02_CREATIVE_DIRECTION_AND_DRAFT_V14.md`, full binding chapter in `production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md`.
 
 ### V4 — 16 seconds: more source imagery/five modes, still a PRESENTATION; REJECTED
 - User uploaded `Curio_Vox_Visual_Match_Creative_Director_Directive(1).md` and attached rejected V3 sample; directive requested new actual 16s animation not plan, five specified modes with exact time windows: photographic tank (0–3.2); directional sound/observer mechanism (3.2–6.2); radio-to-apparent unit diagram (6.2–9.2); full-screen Rhine schematic combining methods (9.2–12.8); accurately encoded 11 vs 300 equal-size squares comparison (12.8–16).
@@ -80,14 +80,14 @@
 ## F. Approvals vs nonapprovals ledger
 **Approved/adopted:**
 - Channel name, tagline, core brand/typography/palette and repo/branch workflow.
-- Bible v1.3 with earlier v1.2/v1.1 dependencies.
+- **Bible v1.4**, including the two user-requested revisions, with all earlier v1.3/v1.2/v1.1 hard requirements preserved.
 - Premium original 2D/2.5D high-craft visual aim; editorial first, physical honesty, source-based object specificity.
-- Conceptual v1.4 framework as **understanding**, including the phrase “continuity of visual thought” and two corrections.
+- **Governing v1.4 creative directing framework**, including “continuity of visual thought”, editorial sequence before polished artwork, method-neutral procedural-art quality and independent artistic QA. Approval is for the STANDARD, not the films.
 - Several original static Ghost Army collage concept stills as **closer to target** than eventual animated outputs.
 - Original SFX libraries as production assets with rights caveats.
 **Not approved:**
 - Any Ghost Army standalone 13/16-second collage V1/V2/V3/V4 output.
-- v1.4 draft as governing adopted Bible.
+- Ghost Army V1–V4 animated proofs as accepted examples of v1.4-quality directing (still rejected).
 - Synthetic noise/whooshes substituted for voice/emotional score; V4 didn't have narration.
 - External third-party videos, screenshots or Vox source art for reposting.
 - Any claim of measured retention effectiveness, exact Vox AE project methods or actual source audio timing.
