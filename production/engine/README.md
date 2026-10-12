@@ -36,7 +36,7 @@ Cache granularity is **whole visual render versus audio**, not per-shot frames. 
 
 ## Outputs and checks
 
-Native `render` encodes H.264 CRF15/AAC 320k and VP9 CRF22/Opus 256k directly from the same native PNG frame stream. It also produces a CRF20 download MP4 with a runtime-based bitrate ceiling and an actual <512 MiB check. No 1080p upscale is used. Browser exports are synchronized review copies; cadence depends on the device, and they do not replace the authoritative fixed-cadence masters.
+Native `render` encodes H.264 CRF15/AAC 320k and VP9 CRF22/Opus 256k directly from the same native PNG frame stream. It also produces a CRF20 download MP4 with a runtime-based bitrate ceiling and an actual <512 MiB check. No 1080p upscale is used. Browser export is supported in the default 1080p studio; `?scale=2` is for native production capture and safely directs users back to standard preview for browser export. Browser exports are synchronized review copies; cadence depends on the device, and they do not replace the authoritative fixed-cadence masters.
 
 Input checks include pinned font hashes, asset presence, caption order/bounds in time, 48k stereo PCM and matching audio/timeline duration. Encode checks independently validate resolution, codecs, frame count, duration, stereo/rate and full decode. These checks do **not** certify factual/rights review, exact spoken word alignment, caption/UI visibility, perceptual SFX quality, loudness or creative approval. Preserve the Bible's complete release gates and run full episode-specific encoded QA before release; never promote a technical pass to FINAL MASTER.
 

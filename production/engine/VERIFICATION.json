@@ -152,5 +152,6 @@
     "cadence": "Device-dependent browser review; not a fixed-cadence master"
   },
   "scope": "Sampled native/moving equality and pipeline integration, not an all-2265-frame comparison or new full master render. No independent listening or caption word verification inferred.",
-  "original_project_changed": false
+  "original_project_changed": false,
+  "native_player_export_guard": "PASS; native capture surface remains unchanged; full browser export uses default preview"
 }
