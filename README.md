@@ -38,3 +38,7 @@ The October 2026 v1.1 audit under `production/bible/v1.1/` documents known gaps:
 5. Review the render and soundtrack, then merge approved work to `main`.
 
 The first production lives on `film/samoa-day-disappeared`.
+
+## Owner-supplied visual material library (October 2026)
+
+[Indieground material catalog and verified local import](assets/visual/indieground/README.md) · [Retro paper/plastic art direction](production/visual-assets/INDIEGROUND_MATERIAL_DIRECTION.md) · [Tutorial-derived focus and finishing effects](production/visual-assets/TUTORIAL_EFFECTS_DIRECTION.md). The catalog registers the owner-supplied high-resolution texture/cutout packs. Licensed source binaries remain private and Git-ignored; finished artwork may use them under the supplier's terms.
