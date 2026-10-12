@@ -13,6 +13,8 @@ OUT.mkdir(exist_ok=True)
 FPS=24
 DURATION=16
 frames=FPS*DURATION
+FRAME_DIR=OUT/"frames"
+FRAME_DIR.mkdir(exist_ok=True)
 silent=OUT/"v3_video_silent.mp4"
 final=OUT/"CURIO_GHOST_ARMY_COLLAGE_V3_REVIEW.mp4"
 montage=Image.new("RGB",(360*4,640*2),(230,219,195))
@@ -20,7 +22,7 @@ checks=[0,1.6,3.1,4.1,5.6,8.3,12.5,15.1]
 positions=[round(f*FPS) for f in checks]
 ff=[
  "ffmpeg","-nostdin","-hide_banner","-loglevel","error","-y",
- "-f","image2pipe","-framerate",str(FPS),"-vcodec","png","-i","-",
+ "-framerate",str(FPS),"-start_number","0","-i",str(FRAME_DIR/"frame_%04d.png"),
  "-c:v","libx264","-pix_fmt","yuv420p","-preset","veryfast",
  "-crf","20","-r",str(FPS),"-movflags","+faststart",str(silent)
 ]
@@ -31,7 +33,6 @@ with sync_playwright() as pw:
     page.wait_for_function("typeof window.renderAt === 'function'")
     errors=[]
     page.on("pageerror",lambda e: errors.append(str(e)))
-    proc=subprocess.Popen(ff,stdin=subprocess.PIPE,stderr=subprocess.PIPE)
     try:
         page.add_style_tag(content="#stage{width:720px!important;height:1280px!important;max-width:none!important}")
         canvas=page.locator("#stage")
@@ -43,18 +44,12 @@ with sync_playwright() as pw:
                 tile=im.resize((360,640),Image.Resampling.LANCZOS)
                 i=positions.index(n)
                 montage.paste(tile,((i%4)*360,(i//4)*640))
-            proc.stdin.write(frame)
+            (FRAME_DIR/f"frame_{n:04d}.png").write_bytes(frame)
             if n%72==0: print(f"frames {n}/{frames}",flush=True)
-        proc.stdin.close()
-        if proc.wait(timeout=180)!=0:
-            raise RuntimeError("ffmpeg video encoder error: "+proc.stderr.read().decode()[-2000:])
-    except Exception:
-        try:proc.kill()
-        except Exception: pass
-        raise
     finally:
         browser.close()
     if errors: raise RuntimeError("browser javascript errors: "+str(errors[:10]))
+subprocess.run(ff,check=True)
 montage.save(OUT/"CURIO_GHOST_ARMY_COLLAGE_V3_CONTACT.jpg",quality=90)
 
 ROOT=HERE.parents[2] # repo root? films/ghost-army-1945/design-tests => parents[2] is films, not repo
