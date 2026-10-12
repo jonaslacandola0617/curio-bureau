@@ -1,5 +1,5 @@
 # CURIO BUREAU — BRAND, WORKFLOW, FILM RELEASE, AND CREATIVE GATES
-**Status:** transfer synopsis of existing adopted `main` Bible v1.3 and repository `AGENTS.md`, plus the user's later unadopted Ghost Army art direction. Where there is any mismatch, read the COMPLETE canonical Bible and current user direction; this synopsis does not supersede them.
+**Status:** transfer synopsis of the adopted `main` Bible **v1.4**, which binds the refined Ghost Army-derived editorial art/motion directing principles, and repository `AGENTS.md`. Where there is any mismatch, read the COMPLETE canonical Bible and current user direction; this synopsis does not supersede them.
 
 ## 1. Channel identity and audience promise
 **Name:** CURIO BUREAU. **Tagline:** *Stories, systems, and surprises.* Derived from rebranding prior 404 Files tech-internet-lore channel; fresh broad short educational documentary identity.
@@ -39,7 +39,7 @@ Word/phrase boundaries must align to actual verified narration. Estimate-only ca
 ## 4. Actual delivery workflow
 **Repository:** `https://github.com/jonaslacandola0617/curio-bureau`. `main` = stable adopted docs/approved infrastructure, episode `film/<slug>` branches, review experiments on separate `design/<name>` or analogous branch. Do NOT change/force-push main or adopted Bible without explicit user approval. Meaningful milestones committed. GitHub Actions handles repeatable browser render and media QA; upload resulting MP4/WebM to artifacts/releases rather than committing large binaries to main.
 **Authoring:** original editable HTML/Canvas/SVG/JavaScript animation, absolute deterministic time per frame (`renderFrame(frame)` / `renderAt(t)`), appropriate Web Audio/MediaRecorder, play/pause/scrub/replay and preferably built-in **full-length, synchronized WebM export**. Scene graph local+camera+screen coordinate systems; semantic masks; camera/occluder depth; attach annotation to parent object; no indiscriminate transition preset.
-**Review stages (for actual authorized episode):** source lock → script/voice emotion map → alternative hook/voice auditions → 5 difficult first/middle/end styleframes → audio scene cue map → animated hardest-motion preflight → offline frame renders actual native output → narration captions and sound mastering → objective QA and subjective playthrough. Approved visual treatment isn't necessarily the same as an executable render.
+**Review stages (for actual authorized episode):** source lock → script/voice emotion map → **editorial shot-to-shot relationships, invariants, transitions and intermediate states BEFORE final images** → alternative hook/voice auditions → purpose-built component/layer assets → 5 difficult first/middle/end styleframes → audio scene cue map → animated hardest-motion preflight → offline frame renders actual native output → narration captions and sound mastering → objective QA and subjective playthrough. Approved visual treatment isn't necessarily the same as an executable render.
 **Don't build another Ghost Army video from this handoff alone**: the current user specifically requested export; next agent should await explicit production request.
 
 ### Native final masters (STRICT)
@@ -72,10 +72,10 @@ Approx target -14 to -12 LUFS integrated, final true peak <= -1 dBTP by project 
 - Bible v1.1 foundations: `production/bible/v1.1/*` visual, motion, audio/caption, hook, workflow, QA, anti-repetition audits.
 - v1.2: `production/motion-lab/v1/` nine tutorial/demo sources, generic acquired mechanics, 5 styleframes and difficult moving QA.
 - v1.3: `production/motion-lab/v2/` five **actual Vox-titled films** with graphics-only isolation, 20 adopted generics / 12 proposed, eight neutral graphics technical test renders. No evidence of precise source project curves/effects/audio.
-- Proposed v1.4: user-approved **conceptual** vision corrected 12 Oct, **not adopted** because no artist-approved completed moving film.
+- **Adopted v1.4:** user-approved visual-thought and art/motion standard with the two explicit refinements: storyboard editorial sequence before polished art, and assess procedural graphics on specificity and explanatory craft rather than method. Adopted 12 Oct on owner's explicit authorization. This does NOT make rejected V1–V4 videos approved.
 - Most recent owner rejection: V4 “just another presentation.” This outranks assistant “success” claims based on codec verification.
 
 ## 6. Why artistic approval is a separate test
 Never confuse: “animation applied,” “source imagery downloaded,” “correct unit counts,” “media format verified,” “technically valid parallax,” or “camera matched another shot” with an elegant, inventive visual argument. An amazing infographic can still be dull when the next shot is just another similar infographic. Art direction must solve rich compositions, credible identity, purposeful transformations, semantic attention and connecting imagery. The user shouldn't be expected to critique the same template repeatedly.
 
-**Handoff status:** Existing v1.3, repo workflows and references are intact. No permission has been given to adopt v1.4 or continue creating videos simply as a consequence of export.
+**Handoff status:** Official canonical Bible is now **v1.4 adopted** and previous v1.3/v1.2/v1.1 safeguards survive. Export/update was explicitly authorized; making a new Ghost Army video is NOT authorized as a consequence of the transfer.
