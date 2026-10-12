@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "id": "pig-war",
+  "title": "The Pig That Nearly Started a War",
+  "description": "Approved Pig War choreography, extracted into the shared Curio engine.",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "fonts": [
+    {
+      "file": "Manrope.ttf",
+      "family": "Manrope",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "file": "PlayfairDisplay.ttf",
+      "family": "Playfair Display",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+    }
+  ],
+  "images": {
+    "pig": "pig.png",
+    "garden": "garden.png",
+    "mountains": "mountains.png",
+    "field": "field.png",
+    "paper": "paper_material.jpg",
+    "ink": "ink_density.png",
+    "treaty": "treaty_article1.jpg",
+    "ship": "ship.png",
+    "american_camp": "american_camp.jpg",
+    "english_camp": "english_camp.jpg"
+  },
+  "data_files": [
+    "land.json",
+    "channel_paths.json",
+    "timing.json"
+  ],
+  "data_loader": "data.py",
+  "scripts": [
+    "style.js",
+    "map.js",
+    "scenes.js"
+  ],
+  "mix": "preflight_mix.wav",
+  "voice": "voice_full.wav",
+  "sfx_cues": "SFX_CUE_SHEET.json",
+  "audio_builder": "audio.py",
+  "audio_inputs": [
+    "assets/voice_full.wav",
+    "assets/score_r2_stem.wav",
+    "assets/sfx_r2_stem.wav",
+    "assets/timing.json",
+    "baseline/SFX_CUE_SHEET_R2.json",
+    "assets/camera_move.mp3",
+    "assets/garden_foley.mp3",
+    "assets/ink.mp3",
+    "assets/marker_bold.mp3",
+    "assets/paper.mp3",
+    "assets/pencil.mp3",
+    "assets/projector.mp3",
+    "assets/wood_stress.flac",
+    "assets/evidence_lock.flac",
+    "assets/quiet_resolution.flac",
+    "assets/page_heavy.flac",
+    "assets/doubt_tick.flac"
+  ],
+  "release_status": "RENDER CANDIDATE",
+  "creative_note": "Owner approved R2 and subsequently posted the full film. Full caption word verification and independent headphone listening are not inferred from posting.",
+  "audio_builder_location": "episode"
+}

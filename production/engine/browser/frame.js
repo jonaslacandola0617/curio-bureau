@@ -1,0 +1,2 @@
+function renderAt(t){t=clamp(t,0,DURATION);ctx.setTransform(RENDER_SCALE,0,0,RENDER_SCALE,0,0);ctx.globalAlpha=1;ctx.clearRect(0,0,W,H);renderScene(t);film(t);captions(t);furniture(t);document.getElementById('clock').textContent=`${t.toFixed(2)} / ${DURATION.toFixed(2)} s`;document.getElementById('scrub').value=t;window.currentTime=t;}
+window.renderAt=renderAt;window.getDuration=()=>DURATION;window.setFrame=f=>renderAt(f/FPS);window.motionState=t=>typeof episodeMotionState==='function'?episodeMotionState(t):{native:[canvas.width,canvas.height]};

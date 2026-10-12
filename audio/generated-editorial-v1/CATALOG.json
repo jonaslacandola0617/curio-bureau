@@ -5,7 +5,13 @@
     "task_id": "cdabcb99-d966-4557-8673-132cac513bb4",
     "provenance": "Generated designed sound; not authentic historical recording",
     "approval": "Owner approved in Pig War R2 moving mix, 12 October 2026",
-    "reuse": "Search existing catalog and these approved assets before generation"
+    "reuse": "Search existing catalog and these approved assets before generation",
+    "source_audio": {
+      "codec": "mp3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 4.04898
+    }
   },
   {
     "file": "camera_move.mp3",
@@ -13,7 +19,13 @@
     "task_id": "662f8480-133e-4b1a-a5e5-f0e3639d5f0f",
     "provenance": "Generated designed sound; not authentic historical recording",
     "approval": "Owner approved in Pig War R2 moving mix, 12 October 2026",
-    "reuse": "Search existing catalog and these approved assets before generation"
+    "reuse": "Search existing catalog and these approved assets before generation",
+    "source_audio": {
+      "codec": "mp3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 3.030204
+    }
   },
   {
     "file": "projector.mp3",
@@ -21,7 +33,13 @@
     "task_id": "8af3171c-2c37-4871-aabe-be31683e0fa4",
     "provenance": "Generated designed sound; not authentic historical recording",
     "approval": "Owner approved in Pig War R2 moving mix, 12 October 2026",
-    "reuse": "Search existing catalog and these approved assets before generation"
+    "reuse": "Search existing catalog and these approved assets before generation",
+    "source_audio": {
+      "codec": "mp3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 6.034286
+    }
   },
   {
     "file": "garden_foley.mp3",
@@ -29,7 +47,13 @@
     "task_id": "f2790346-0a2e-4bb0-aa5f-cf8d833b435e",
     "provenance": "Generated designed sound; not authentic historical recording",
     "approval": "Owner approved in Pig War R2 moving mix, 12 October 2026",
-    "reuse": "Search existing catalog and these approved assets before generation"
+    "reuse": "Search existing catalog and these approved assets before generation",
+    "source_audio": {
+      "codec": "mp3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 3.030204
+    }
   },
   {
     "file": "paper.mp3",
@@ -37,7 +61,13 @@
     "task_id": null,
     "provenance": "Generated designed sound; not authentic historical recording",
     "approval": "Owner approved in Pig War R2 moving mix, 12 October 2026",
-    "reuse": "Search existing catalog and these approved assets before generation"
+    "reuse": "Search existing catalog and these approved assets before generation",
+    "source_audio": {
+      "codec": "mp3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 3.030204
+    }
   },
   {
     "file": "pencil.mp3",
@@ -45,7 +75,13 @@
     "task_id": null,
     "provenance": "Generated designed sound; not authentic historical recording",
     "approval": "Owner approved in Pig War R2 moving mix, 12 October 2026",
-    "reuse": "Search existing catalog and these approved assets before generation"
+    "reuse": "Search existing catalog and these approved assets before generation",
+    "source_audio": {
+      "codec": "mp3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 3.030204
+    }
   },
   {
     "file": "ink.mp3",
@@ -53,6 +89,12 @@
     "task_id": null,
     "provenance": "Generated designed sound; not authentic historical recording",
     "approval": "Owner approved in Pig War R2 moving mix, 12 October 2026",
-    "reuse": "Search existing catalog and these approved assets before generation"
+    "reuse": "Search existing catalog and these approved assets before generation",
+    "source_audio": {
+      "codec": "mp3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "duration": 2.037551
+    }
   }
 ]
