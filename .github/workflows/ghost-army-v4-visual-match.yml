@@ -18,6 +18,15 @@ jobs:
     timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
+      - name: Record render start
+        run: |
+          mkdir -p films/ghost-army-1945/design-tests/v4/review
+          echo '{"status":"rendering","note":"Not an exported film. The workflow has begun."}' > films/ghost-army-1945/design-tests/v4/review/BUILD_STATUS.json
+          git config user.name 'curio-bureau-motion-review[bot]'
+          git config user.email 'actions@users.noreply.github.com'
+          git add films/ghost-army-1945/design-tests/v4/review/BUILD_STATUS.json
+          git commit -m 'ci(v4): review rendering started' || true
+          git push origin HEAD:refs/heads/design/ghost-army-visual-match-v4
       - name: Install browser renderer and media tools
         run: |
           set -euo pipefail
@@ -44,6 +53,7 @@ jobs:
           mkdir -p films/ghost-army-1945/design-tests/v4/review
           cp films/ghost-army-1945/design-tests/v4/output/CURIO_GHOST_ARMY_V4_FRAME_REVIEW.jpg films/ghost-army-1945/design-tests/v4/review/FRAME_REVIEW.jpg
           cp films/ghost-army-1945/design-tests/v4/output/CURIO_GHOST_ARMY_V4_QA.json films/ghost-army-1945/design-tests/v4/review/QA.json
+          echo '{"status":"completed","note":"QA file and contact sheet are committed. Media release follows."}' > films/ghost-army-1945/design-tests/v4/review/BUILD_STATUS.json
           git add films/ghost-army-1945/design-tests/v4/review/
           git commit -m 'render(v4): independently verified full-HD storyboard and video QA' || true
           git push origin HEAD:refs/heads/design/ghost-army-visual-match-v4
@@ -73,3 +83,14 @@ jobs:
           else
             gh release create "$TAG" "${ASSETS[@]}" --repo "${{ github.repository }}" --target "${{ github.sha }}" --title 'Ghost Army V4 — visual-match review (not approved)' --notes 'Five distinct visual modes, 16s, 1080x1920 24fps, sourced rights-checked photos, original explanatory graphics and sound (no voiceover). This is NOT a native-4K final film or an artist-approved motion proof. Credits and reconstruction caveats in source ZIP.' --prerelease
           fi
+
+      - name: Mark an unsuccessful review render
+        if: failure()
+        run: |
+          mkdir -p films/ghost-army-1945/design-tests/v4/review
+          echo '{"status":"failed","note":"One of the CI rendering or publication steps failed. See Actions log."}' > films/ghost-army-1945/design-tests/v4/review/BUILD_STATUS.json
+          git config user.name 'curio-bureau-motion-review[bot]'
+          git config user.email 'actions@users.noreply.github.com'
+          git add films/ghost-army-1945/design-tests/v4/review/BUILD_STATUS.json
+          git commit -m 'ci(v4): review build failed' || true
+          git push origin HEAD:refs/heads/design/ghost-army-visual-match-v4
