@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Curio Bureau 009 / Collage Motion V3 / 16-second moving proof</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Manrope:wght@400;600;700;800"/>
+<style>/*INLINE_RENDER_FONTS*/html,body{margin:0;min-height:100%;background:#0d1c2b;color:#f5f0e7;font:14px Manrope,sans-serif}main{max-width:740px;margin:auto;padding:20px}canvas{width:min(100%,540px);aspect-ratio:9/16;box-shadow:0 24px 80px #000b;display:block;margin:auto}button,input{accent-color:#c8a26b;margin:8px;border-radius:5px;padding:7px}small{color:#c9bca1}</style></head><body><main>
+<canvas id="film" width="540" height="960" aria-label="Four-beat Ghost Army collage motion proof"></canvas>
+<div><button onclick="playToggle()">Play / pause</button><button onclick="seek(0)">Replay</button><input type="range" id="scrub" min="0" max="16" step=".02" value="0" style="width:48%" oninput="seek(+this.value)"><span id="time">00:00</span></div>
+<small>Original Curio Bureau illustrative reconstruction. All moving shapes are original compositions; no Vox frames or source footage embedded. No narration in this experimental sequence.</small>
+</main><script>
+const C=document.getElementById('film'),K=C.getContext('2d',{alpha:false,willReadFrequently:false});
+/*LEGACY_FUNCTIONS*/
+const R={TANK:0,SPEAKER:3.6,RADIO:7.4,MAP:11.25,END:16};
+const E=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),ease=(x)=>{let k=E(x);return k*k*(3-2*k)},fast=(x)=>{let k=E(x);return 1-Math.pow(1-k,4)},arc=(x)=>{let k=E(x);return k*k*(2-k)};
+const N='#0d1c2b',P='#f0e7d3',O='#c8a26b',RED='#b65d50',GREEN='#768672';
+let time=0,playing=false,last=0;
+function paper(x,y,w,h,seed=1,c='#eadfc8',ang=0){
+ K.save();K.translate(x,y);K.rotate(ang);K.shadowColor='rgba(11,20,22,.45)';K.shadowBlur=18;K.shadowOffsetY=12;
+ K.beginPath();let s=12;K.moveTo(0,6);for(let xx=0;xx<w;xx+=s)K.lineTo(xx,(rnd(seed+xx*.37)-.5)*14);K.lineTo(w-3,2);for(let yy=0;yy<h;yy+=s)K.lineTo(w+(rnd(seed+yy*.47)-.5)*12,yy);K.lineTo(w,h);for(let xx=w;xx>0;xx-=s)K.lineTo(xx,h+(rnd(seed+xx*.6)-.5)*15);K.lineTo(0,h);for(let yy=h;yy>0;yy-=s)K.lineTo((rnd(seed+yy*.53)-.5)*13,yy);K.closePath();K.fillStyle=c;K.fill();K.shadowBlur=0;K.shadowOffsetY=0;
+ K.clip();K.globalAlpha=.07;for(let i=0;i<110;i++){let dx=rnd(i*6+seed)*w,dy=rnd(i*8+seed)*h;line(dx,dy,dx+13+rnd(i+6)*40,dy+1,'#3c443d',.9)}K.restore();
+}
+function imgClip(cx,cy,s,typ,alpha=1,angle=0){
+ K.save();K.translate(cx,cy);K.rotate(angle);K.globalAlpha*=alpha;K.scale(s,s);
+ K.shadowColor='rgba(4,12,15,.6)';K.shadowBlur=20;K.shadowOffsetY=16;
+ // cut matte: object shapes generated within a torn silhouette rather than rectangular slide
+ poly([[-435,165],[-415,-160],[-300,-220],[-117,-212],[88,-235],[342,-175],[456,-75],[443,249],[252,284],[-130,278]],'#eee5d0');
+ K.shadowBlur=0;K.shadowOffsetY=0;
+ K.translate(0,5);if(typ==='tank')ww2Tank(0,8,.88,0,1,1);
+ if(typ==='speaker')speakerVehicle(0,18,.96,0);
+ if(typ==='radio')radioBox(0,0,.85,0);
+ K.restore();
+}
+function inkPath(points,portion=1,color=RED,width=6){
+ let n=Math.max(0,Math.min(points.length-1,(points.length-1)*E(portion)));if(n<.01)return;
+ K.save();K.strokeStyle=color;K.lineWidth=width;K.lineJoin='round';K.lineCap='round';K.beginPath();K.moveTo(...points[0]);
+ for(let i=1;i<=Math.floor(n);i++)K.lineTo(...points[i]);
+ if(n%1 && Math.floor(n)+1<points.length){let i=Math.floor(n),q=n%1;K.lineTo(mix(points[i][0],points[i+1][0],q),mix(points[i][1],points[i+1][1],q))}
+ K.stroke();K.restore();
+}
+function label(s,x,y,sz=25,col=N,align='left',boldness=800){
+ txt(s,x,y,sz,col,boldness,align);
+}
+function tag(s,x,y,w=390){K.save();K.fillStyle='#0d1c2bef';K.fillRect(x,y,w,47);K.fillStyle=O;K.fillRect(x,y,6,47);label(s,x+16,y+32,20,'#f3eddf','left',800);K.restore()}
+function pin(x,y,r=6,c=RED){circ(x,y,r,c);circ(x,y,Math.max(1,r*.4),'#faf0d8')}
+function backdrop(t,depth=0){
+ fillrect(0,0,W,H,'#1a2c33');paper(-80,-80,1240,2100,11,'#e8dfcb',-.01);
+ // archive's world map — distant plane changes only slightly during limited tank parallax
+ let shift=depth?18*Math.sin((t+1)*.75):0;
+ K.save();K.translate(shift,0);K.globalAlpha=.21;
+ for(let i=0;i<30;i++){let y=98+i*64;line(-50,y,1140,y,'#697c71',i%5===0?2:1)}
+ for(let i=0;i<25;i++){let x=i*48;line(x,-40,x,1970,'#697c71',i%5===0?2:1)}
+ for(let i=0;i<9;i++) {let x=130+rnd(42+i)*820,y=350+rnd(i+39)*1180;K.beginPath();K.arc(x,y,35+i*9,0,2*PI);K.lineWidth=1;K.strokeStyle='#415650';K.stroke()}
+ K.restore();
+ K.save();K.globalAlpha=.19;K.translate(120,220);K.rotate(-.08);
+ for(let i=0;i<5;i++){K.beginPath();K.moveTo(-40+i*25,360);K.bezierCurveTo(75+i*24,210,365+i*22,450,800+i*16,60);K.strokeStyle='#446d72';K.lineWidth=12-i;K.stroke()}
+ K.restore();
+ K.save();K.globalAlpha=.12;for(let i=0;i<480;i++){let x=rnd(i+70)*W,y=rnd(i+930)*H;circ(x,y,rnd(i+23)*1.6,'#403f37')}K.restore();
+}
+function decoTop(number,s){K.save();K.globalAlpha=.85;label('C U R I O   B U R E A U  /  0 0 9',65,112,16,N);line(65,136,1014,136,'#6d6658',1.6);label('FIELD NOTES  /  '+number,72,183,17,'#74594c');label(s,1011,180,18,'#74594c','right');K.restore()}
+function matShadow(cx,cy,w,h){K.save();K.globalAlpha=.20;ellipse(cx+17,cy+33,w,h,'#162522');K.restore()}
+function caption(s,x,y,sz=63){ser(s,x,y,sz,N)}
+function tank(t){
+ let k=t/3.6;backdrop(t,1);decoTop('01','FABRICATED ARMOR');
+ // foreground loose edge drifts faster than map but only during first beat
+ K.save();K.translate(58*ease(k/.44),-35*ease(k/.44));paper(-65,1393,494,390,144,'#cec4aa',-.07);K.restore();
+ paper(84,267,930,1245,23,'#f7e9ce',-.04);
+ K.save();K.translate(23*ease(k/.42),17*ease(k/.42));
+ matShadow(548,1000,414,233);
+ imgClip(535,1013,1.16,'tank',1,-.019);
+ K.restore();
+ paper(600,344,353,175,65,'#dad0ba',.038);tag('23RD HEADQUARTERS',617,382,321);
+ caption('An army',90,606,107);caption('made of air.',93,715,103);line(88,741,895,741,O,4);
+ label('1944 — 1945 / ORIGINAL RECONSTRUCTION',97,789,22,'#746350');
+ K.save();K.globalAlpha=ease((t-.9)/.7);
+ inkPath([[723,995],[826,871],[922,827]],1,RED,7);pin(723,995,9);
+ paper(710,803,273,93,4,'#f6eddb',-.02);label('INFLATABLE',731,862,29,RED);
+ K.restore();
+ // valve paper-disc focal zoom *out of the object* into camera; match its center to following horn
+ if(t>2.82){let p=E((t-2.82)/.78),s=1+23*fast(p);
+ K.save();K.translate(744,982);K.scale(s,s);circ(0,0,33,'#2a3932','#b99761',5);circ(0,0,19,'#121d1c','#c8a26b',3);for(let j=0;j<8;j++){let a=j*PI/4;line(23*Math.cos(a),23*Math.sin(a),31*Math.cos(a),31*Math.sin(a),O,2)}K.restore();
+ }
+}
+function speaker(t){
+ let u=t-3.6;backdrop(t);decoTop('02','SONIC DECEPTION');
+ paper(81,224,928,1181,13,'#eee3ce',.025);
+ // meaningful reversal of camera rush: close-up cone resolves into mounted speakers, then STOP camera.
+ let p=fast(u/.8),sc=1+6*(1-p);
+ K.save();K.translate(540,870);K.scale(sc,sc);imgClip(0,0,.99,'speaker',1,-.014);K.restore();
+ paper(92,350,390,132,18,'#e8d5ba',-.05);caption('The army',120,412,68);
+ caption('had a voice.',115,568,99);
+ tag('SPEAKER DECEPTION',115,629,362);
+ if(u>.7){
+ K.save();K.globalAlpha=ease((u-.6)/.6);
+ for(let j=0;j<3;j++){
+ let cx=500,cy=940,r=80+98*j+10*Math.sin(4*u-j),a=ease((u-1+j*.12)/.65);
+ K.beginPath();K.arc(cx,cy,r,-.72,.74);K.strokeStyle=j%2?O:RED;K.lineWidth=5;K.globalAlpha=.8*a;K.stroke();
+ }K.restore();}
+ // one sound-wave is selected and transforms to persistent thin radio trace
+ if(u>2.1){let q=E((u-2.1)/1.7);
+ inkPath([[510,971],[606,919],[710,978],[827,910],[954,960],[1028,917],[1099,956]],q,RED,11);
+ K.save();K.globalAlpha=q*.8;label('RECORDED SOLDIER SOUNDS',150,1285,22,N);K.restore();}
+ paper(51,1410,970,240,39,'#c9d1bd',.026);
+ label('AUDIO  /  ARTIFICIAL FIELD ACTIVITY',92,1515,27,N);
+ label('NOT REAL TROOPS',92,1572,20,RED);
+}
+function radio(t){
+ let u=t-7.4;backdrop(t);decoTop('03','FALSE RADIO TRAFFIC');
+ paper(60,235,976,1337,84,'#ddd3bd',-.012);
+ K.save();K.rotate(.01);imgClip(548,1004,1.13,'radio',1,.01);K.restore();
+ paper(122,320,815,208,25,'#e9e3d3',.016);
+ caption('Signals from',157,416,78);caption('nobody.',166,510,104);
+ tag('FALSE RADIO TRAFFIC',135,582,435);
+ let p=E((u-.4)/1.2);
+ inkPath([[169,766],[226,736],[290,787],[354,739],[418,787],[491,728],[566,783],[639,732],[705,785],[776,735],[865,765]],p,RED,7);
+ // dial’s turn and line attach to radio, object-local motion not global parallax
+ K.save();K.translate(540,1010);K.rotate(Math.sin((u-.5)*1.4)*.046*ease(u/1));for(let j=0;j<9;j++){let a=(j/9)*PI*2;line(60*Math.cos(a),60*Math.sin(a),90*Math.cos(a),90*Math.sin(a),O,3)}K.restore();
+ paper(107,1400,844,173,42,'#f5e9cc',-.028);label('ONE SIGNAL',150,1467,40,N);label('BECOMES AN ENTIRE UNIT',150,1534,29,RED);
+ if(u>2.8){
+ let q=ease((u-2.8)/1.05);
+ K.save();K.strokeStyle='#1b3c47';K.lineWidth=35+140*q;K.lineCap='round';K.beginPath();K.moveTo(1021,-50);K.bezierCurveTo(800,520,620,980,440,2080);K.stroke();K.restore();
+ }
+}
+function map(t){
+ let u=t-11.25;backdrop(t);decoTop('04','OPERATION VIERSEN');
+ paper(63,242,956,1344,34,'#ded8bd',-.023);
+ // Original schematic instead of pretending exact historic survey cartography
+ K.save();K.translate(100,385);K.rotate(-.022);
+ K.fillStyle='#c6c5ac';K.fillRect(0,0,880,1050);
+ for(let i=0;i<20;i++){line(0,i*52,880,i*52,'rgba(58,78,77,.20)',1);line(i*46,0,i*46,1050,'rgba(58,78,77,.20)',1)}
+ // no fake geographic territorial contours: abstract route field with Rhine as a winding ink river.
+ K.beginPath();K.moveTo(627,-50);K.bezierCurveTo(475,148,665,320,516,504);K.bezierCurveTo(401,723,611,840,399,1099);K.strokeStyle='#447e89';K.lineWidth=85;K.stroke();
+ K.beginPath();K.moveTo(627,-50);K.bezierCurveTo(475,148,665,320,516,504);K.bezierCurveTo(401,723,611,840,399,1099);K.strokeStyle='#aad1c6';K.lineWidth=4;K.stroke();
+ label('RHINE',680,230,33,'#2d636d');label('WESTERN EUROPE',57,145,23,'#495c51');
+ for(let j=0;j<2;j++){let x=126+j*104,y=514+j*70;poly([[x-40,y-21],[x+40,y-21],[x+50,y+22],[x-45,y+22]],'#687969','#1e3635',4);circ(x-25,y+22,9,'#1b2f2e');circ(x+28,y+22,9,'#1b2f2e')}
+ K.restore();
+ // map spotlight moves from source node to crossing only here
+ let f=ease((u-.4)/1.55),sx=mix(380,645,f),sy=mix(1110,950,f);
+ K.save();let g=K.createRadialGradient(sx,sy,100,sx,sy,580);g.addColorStop(0,'rgba(248,239,211,0)');g.addColorStop(.45,'rgba(31,46,46,.12)');g.addColorStop(1,'rgba(19,30,33,.50)');K.fillStyle=g;K.fillRect(60,240,960,1355);K.restore();
+ let q=ease((u-1.2)/1.2);
+ inkPath([[327,954],[410,998],[493,967],[578,1023],[666,1000]],q,RED,10);if(q>.9)pin(666,1000,10);
+ paper(92,299,830,220,99,'#f9ebcc',.028);
+ caption('The illusion',120,405,83);caption('of scale.',124,495,98);
+ if(u>2.22){
+ let a=ease((u-2.22)/.5);K.save();K.globalAlpha=a;
+ paper(119,1142,814,272,13,'#f8f0df',-.015);label('1,100',154,1233,78,N);
+ label('SPECIALISTS',489,1226,27,N);line(156,1258,905,1258,O,4);
+ label('≈30,000',155,1362,80,RED);label('THE ILLUSION',553,1362,24,N);
+ K.restore();
+ }
+ tag('TWO DIVISIONS • ILLUSTRATIVE',127,1478,787);
+ label('MARCH 1945 • NOT A HISTORICAL BATTLE MAP',115,1662,20,'#655d51');
+}
+// Custom, external render direction. Deterministic regardless of playback cadence.
+window.renderAt=(t)=>{
+ time=E(t,0,16);K.setTransform(.5,0,0,.5,0,0);K.globalAlpha=1;K.shadowBlur=0;K.clearRect(0,0,W,H);
+ if(time<3.6)tank(time);
+ else if(time<7.4)speaker(time);
+ else if(time<11.25)radio(time);
+ else map(time);
+ // very subtle deliberate print registration noise; texture never substitutes for composed content
+ K.save();K.globalAlpha=.055;for(let i=0;i<90;i++){let x=rnd(i+31)*W,y=rnd(i+2)*H;circ(x,y,1.1,'#0d1c2b')}K.restore();
+ document.getElementById('time').textContent='00:'+String(Math.floor(time)).padStart(2,'0');
+ document.getElementById('scrub').value=time;
+};
+function seek(t){window.renderAt(t)}
+function playToggle(){playing=!playing;last=performance.now();if(playing)requestAnimationFrame(step)}
+function step(now){if(!playing)return;let d=Math.min(.075,(now-last)/1000);last=now;window.renderAt((time+d)%16);requestAnimationFrame(step)}
+document.fonts.ready.then(()=>{window.renderAt(0);window.renderReady=true});
+</script></body></html>
