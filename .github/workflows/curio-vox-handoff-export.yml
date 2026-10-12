@@ -1,0 +1,102 @@
+name: Curio Bureau | complete Vox handoff portable archive
+on:
+  push:
+    branches: [handoff/curio-vox-complete-20261012]
+    paths:
+      - '.github/workflows/curio-vox-handoff-export.yml'
+      - 'HANDOFF_2026-10-12/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: curio-vox-handoff-20261012
+  cancel-in-progress: true
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Assemble portable handoff from source and episode branches
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git fetch origin '+refs/heads/main:refs/remotes/origin/main' '+refs/heads/film/ghost-army-1945:refs/remotes/origin/film/ghost-army-1945' '+refs/heads/design/ghost-army-editorial-collage-v3:refs/remotes/origin/design/ghost-army-editorial-collage-v3' '+refs/heads/design/ghost-army-visual-match-v4:refs/remotes/origin/design/ghost-army-visual-match-v4'
+          ROOT="$RUNNER_TEMP/Curio_Bureau_Vox_Transfer"
+          mkdir -p "$ROOT/repository_snapshots/main_governing" "$ROOT/repository_snapshots/episode_009" "$ROOT/repository_snapshots/rejected_v3" "$ROOT/repository_snapshots/rejected_v4" "$ROOT/rejected_video_review/v3" "$ROOT/rejected_video_review/v4"
+          cp -a HANDOFF_2026-10-12 "$ROOT/HANDOFF_2026-10-12"
+          git archive --format=tar origin/main AGENTS.md README.md production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md production/CURIO_BUREAU_CENTER_CAPTION_STANDARD.md production/bible/v1.1 production/bible/v1.3 production/motion-lab/v1 production/motion-lab/v2 production/prompts production/audio/README.md audio/curio_sfx_v1/CATALOG.csv audio/curio_sfx_v1/CATALOG.json | tar -xf - -C "$ROOT/repository_snapshots/main_governing"
+          git archive --format=tar origin/film/ghost-army-1945 films/ghost-army-1945 .github/workflows/ep009-ghost-army-full-film.yml .github/workflows/ep009-ghost-army-preflight.yml | tar -xf - -C "$ROOT/repository_snapshots/episode_009"
+          git archive --format=tar origin/design/ghost-army-editorial-collage-v3 films/ghost-army-1945/design-tests | tar -xf - -C "$ROOT/repository_snapshots/rejected_v3"
+          git archive --format=tar origin/design/ghost-army-visual-match-v4 films/ghost-army-1945/design-tests/v4 .github/workflows/ghost-army-v4-visual-match.yml | tar -xf - -C "$ROOT/repository_snapshots/rejected_v4"
+          gh release download ghost-army-collage-v3-motion-review-20261012 --repo "$GITHUB_REPOSITORY" --dir "$ROOT/rejected_video_review/v3" --pattern 'CURIO_GHOST_ARMY_*'
+          gh release download ghost-army-visual-match-v4-review-20261012 --repo "$GITHUB_REPOSITORY" --dir "$ROOT/rejected_video_review/v4" --pattern 'CURIO_GHOST_ARMY_*'
+          cat > "$ROOT/READ_ME_FIRST.txt" <<'TXT'
+          CURIO BUREAU — COMPLETE VOX STUDY + PRODUCTION TRANSFER, 2026-10-12
+
+          FIRST READ HANDOFF_2026-10-12/00_START_HERE.md, THEN THE CHRONOLOGY.
+          The two FULL user-supplied research manuals and director's directive are in
+          HANDOFF_2026-10-12/01_SOURCE_MANUALS/. Official production Bible v1.3 remains
+          unchanged in repository_snapshots/main_governing/.
+
+          Rejected V3 and V4 MP4/WebM demos are included FOR FAILURE REVIEW ONLY;
+          owner explicitly rejected both aesthetics. V1/V2 and the originally approved
+          concept-still PNGs are referenced by exact filenames/opaque attachment IDs but
+          aren't guaranteed as portable media copies. Original copyrighted Vox films and
+          creator tutorial videos are NOT redistributed in this archive. Read
+          07_ARCHIVE_INTEGRITY_AND_LIMITS.md for precise exclusions.
+
+          This archive includes NO new approved moving creative result and NO adoption of
+          the proposed v1.4 art direction draft.
+          TXT
+          echo "$ROOT" > "$RUNNER_TEMP/handoff_root.txt"
+      - name: Generate checksums and zipped downloadable archive
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json,os,pathlib,zipfile
+          root=pathlib.Path(os.environ['RUNNER_TEMP'])/'Curio_Bureau_Vox_Transfer'
+          out=pathlib.Path(os.environ['GITHUB_WORKSPACE'])/'CURIO_BUREAU_VOX_COMPLETE_AGENT_HANDOFF_2026-10-12.zip'
+          files=sorted(p for p in root.rglob('*') if p.is_file())
+          manifest={'archive':'Curio Bureau Vox Complete Agent Handoff','created':'2026-10-12','format':'ZIP','contains_copyrighted_source_Vox_video':False,'all_V1-V4_video_assets_present':False,'official_bible_adopted_version':'v1.3','v1.4_status':'proposed only','owner_status_V1_to_V4':'ALL REJECTED','files':[]}
+          for p in files:
+              b=p.read_bytes()
+              manifest['files'].append({'path':str(p.relative_to(root)),'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()})
+          (root/'CHECKSUM_MANIFEST.json').write_text(json.dumps(manifest,indent=2),encoding='utf8')
+          with zipfile.ZipFile(out,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=7,allowZip64=True) as z:
+              for p in sorted(root.rglob('*')):
+                  if p.is_file():z.write(p,'Curio_Bureau_Vox_Transfer/'+str(p.relative_to(root)))
+          with zipfile.ZipFile(out) as z:
+              bad=z.testzip()
+              if bad:raise RuntimeError('zip CRC error '+bad)
+              assert any(x.endswith('00_START_HERE.md') for x in z.namelist())
+              assert any(x.endswith('Vox_Inspired_Editorial_Animation_Manual_USER_SUPPLIED.md') for x in z.namelist())
+              assert any(x.endswith('Vox_Style_Motion_Design_Editing_Techniques_Bible_USER_SUPPLIED.md') for x in z.namelist())
+              assert any(x.endswith('CURIO_GHOST_ARMY_VISUAL_MATCH_V4_WITH_AUDIO.mp4') for x in z.namelist())
+              print('CHECKED_ARCHIVE',len(z.namelist()),'files',out.stat().st_size,'bytes')
+          (pathlib.Path(os.environ['GITHUB_WORKSPACE'])/'CURIO_BUREAU_VOX_COMPLETE_AGENT_HANDOFF_2026-10-12.sha256').write_text(hashlib.sha256(out.read_bytes()).hexdigest()+'  '+out.name+'\n')
+          PY
+      - name: Upload verified handoff as Actions artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: curio-bureau-complete-agent-handoff-20261012
+          path: |
+            CURIO_BUREAU_VOX_COMPLETE_AGENT_HANDOFF_2026-10-12.zip
+            CURIO_BUREAU_VOX_COMPLETE_AGENT_HANDOFF_2026-10-12.sha256
+          retention-days: 90
+          if-no-files-found: error
+      - name: Publish downloadable handoff release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG='curio-bureau-vox-complete-agent-handoff-20261012'
+          NOTE='Portable owner-requested agent handoff: full user-supplied visual and technique manuals; authority, timeline, brand, tech, asset register; governing v1.3 docs and source branches; rejected V3/V4 previews with source. Note: NOT verbatim raw chat transcript. No copyrighted original Vox MP4s or currently inaccessible approved-still PNGs. All V1–V4 demo aesthetics rejected; v1.4 NOT adopted.'
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" CURIO_BUREAU_VOX_COMPLETE_AGENT_HANDOFF_2026-10-12.zip CURIO_BUREAU_VOX_COMPLETE_AGENT_HANDOFF_2026-10-12.sha256 --clobber --repo "$GITHUB_REPOSITORY"
+          else
+            gh release create "$TAG" CURIO_BUREAU_VOX_COMPLETE_AGENT_HANDOFF_2026-10-12.zip CURIO_BUREAU_VOX_COMPLETE_AGENT_HANDOFF_2026-10-12.sha256 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title 'Curio Bureau — complete Vox research + agent handoff (12 Oct 2026)' --notes "$NOTE" --prerelease
+          fi
