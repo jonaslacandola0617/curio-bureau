@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "london-bridge",
+  "title": "How London Bridge Ended Up in Arizona",
+  "description": "Curio Bureau \u2022 Original editorial reconstruction \u2022 creative preview",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "fonts": [
+    {
+      "file": "Manrope.ttf",
+      "family": "Manrope",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "file": "PlayfairDisplay.ttf",
+      "family": "Playfair Display",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+    }
+  ],
+  "images": {
+    "paper": "paper_material.jpg",
+    "ink": "ink_density.png"
+  },
+  "data_files": [
+    "land.json",
+    "timing.json"
+  ],
+  "data_loader": "data.py",
+  "scripts": [
+    "scenes.js"
+  ],
+  "mix": "preflight_mix.wav",
+  "voice": "voice_full.wav",
+  "sfx_cues": "SFX_CUE_SHEET.json",
+  "audio_builder": "audio.py",
+  "audio_inputs": [],
+  "release_status": "RENDER CANDIDATE",
+  "creative_note": "New film; human creative and listening approval open.",
+  "audio_builder_location": "episode",
+  "optics": {
+    "enabled": false
+  }
+}
