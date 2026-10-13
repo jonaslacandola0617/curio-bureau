@@ -20,7 +20,11 @@
   ],
   "images": {
     "paper": "paper_material.jpg",
-    "ink": "ink_density.png"
+    "ink": "ink_density.png",
+    "bridgePhoto": "bridge_photo_2011.jpg",
+    "paperFiber": "fiber_paper.jpg",
+    "plastic": "photo_plastic.jpg",
+    "photocopy": "photocopy_noise.jpg"
   },
   "data_files": [
     "land.json",
@@ -28,6 +32,7 @@
   ],
   "data_loader": "data.py",
   "scripts": [
+    "media.js",
     "scenes.js"
   ],
   "mix": "preflight_mix.wav",
@@ -36,9 +41,11 @@
   "audio_builder": "audio.py",
   "audio_inputs": [],
   "release_status": "RENDER CANDIDATE",
-  "creative_note": "New film; human creative and listening approval open.",
+  "creative_note": "R1 audio, motion and ending positively reviewed; R2 adds cleared photo/paper and stronger materials.",
   "audio_builder_location": "episode",
   "optics": {
     "enabled": false
-  }
+  },
+  "brand_ending": "london-bridge-v1",
+  "material_profile": "strong-mixed-media-v1"
 }

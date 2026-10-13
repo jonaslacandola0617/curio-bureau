@@ -16,3 +16,8 @@ Map: Natural Earth world land, public domain. Reviewed draft revealed blurred he
 Complete London_Bridge_Review.mp4 saved: 1080x1920, 30fps, 1575 frames, 52.5s, H264/AAC 48kHz stereo, full decode PASS, encoded mix -13.07 LUFS / -1.45 dBTP. SHA256 135501696c9c1994a1b11fadda658062b9a70057be1b372637625569dfb7324f. Browser Studio, seven native 2160x3840 representative PNGs and private source bundle also delivered. Raw third-party sounds excluded from source bundle.
 
 Next action: owner moving-art/listening preflight review, then caption word-listening verification and native 4K MP4/WebM render. Do not regenerate Bernard voice or SFX unless a specific review correction requires it.
+
+## Owner-directed R2 revision — 13 October 2026
+Owner praised movement, Bernard narration, SFX and original score; requests stronger material texture and mixed photography/paper/drawn graphics. R1 audio is retained byte-for-byte. Opening now uses S. Winkvist's real 2011 CC0 Arizona bridge aerial with independent source-image planes. Purchase uses the actual 24 April 1968 Parliamentary sale record, labeled transcript excerpt, plus a separately labeled editorial purchase summary. No authenticated purchase receipt was located in the bounded search. Preserve bridge mechanism and construction choreography.
+
+Exact R1 ending promoted to shared CurioBrand london-bridge-v1, with strong-mixed-media-v1 material profile required for new episodes. Native RGBA equality against R1 at 52.0, 52.1 and 52.4667 seconds PASS. Infrastructure adopted on main commit 3065a5a88ff5e73d994105346b6884adcaad9a9b. Full R2 creative preview rendering; this is not final 4K delivery or completed caption listening approval.

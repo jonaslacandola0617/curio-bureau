@@ -4,7 +4,7 @@ from pathlib import Path
 import argparse,base64,hashlib,html,importlib.util,json,os,shutil,subprocess,sys,wave,zipfile,inspect
 
 ENGINE=Path(__file__).resolve().parent
-BROWSER=['motion.js','optics.js','finishing.js','focus.js','runtime.js','materials.js','drawing.js','typography.js']
+BROWSER=['motion.js','optics.js','finishing.js','focus.js','runtime.js','materials.js','material-profile.js','brand.js','drawing.js','typography.js']
 
 def digest(p):
  h=hashlib.sha256()
@@ -39,6 +39,8 @@ class Project:
   for name,expected in lock.items():
    canonical=ENGINE.parent.parent/name
    if canonical.exists() and digest(canonical)!=expected:raise ValueError('Production requirement changed; read and reconcile before rebuilding: '+name)
+  if c['id'] not in ['pig-war','tutorial-optics-test'] and c.get('brand_ending')!='london-bridge-v1':raise ValueError('New episodes must use the owner-locked London Bridge endcard')
+  if c['id'] not in ['pig-war','tutorial-optics-test'] and c.get('material_profile')!='strong-mixed-media-v1':raise ValueError('New episodes must declare the owner-adopted strong mixed-media material profile')
   if (c['width'],c['height'],c['fps'])!=(1080,1920,30):raise ValueError('v1 engine requires the existing Curio 9:16/30fps profile')
   required=list(c['images'].values())+c['data_files']+[c['mix'],c['voice']]+[f['file'] for f in c['fonts']]
   missing=[n for n in required if not (self.assets/n).is_file()]

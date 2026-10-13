@@ -22,4 +22,9 @@ Read this file, engine README, episode manifest, current verification/status and
 Maintain one current status file with decisions, missing inputs, source ledger locations, asset IDs/rights, actual timing, changed files, completed checks and next action. Load relevant sections instead of replaying the entire conversation. Keep large generated HTML/base64 and frame dumps out of tool output. Save intermediate expensive work and hashes; don't run a full render to test a packaging or player-control change.
 
 ## Current owner priorities
-The three tutorials have been analyzed and their controls integrated in v1.1. The 12.8-second tutorial-optics-test is awaiting owner creative/listening review. See TUTORIAL_OPTICS_2026_10_13.md and OPTICS_TEST_VERIFICATION.json for specific scope. After the test review, research and collect free, license-cleared material SFX. No such new collection has been completed.
+The owner accepted the v1.1 tutorial test as good enough. All 70 free editorial SFX were collected, auditioned by the owner, and retained. Catalog/retrieval metadata lives in production/audio/free-editorial-20261013; raw audio stays private under provider licensing.
+
+New commissioned episode: London Bridge in Arizona, on film/london-bridge-arizona-1968. Full 52.5-second 1080p creative preview in progress, actual Bernard recording, existing SFX, original bridge/core/channel illustrations. Human moving-art, listening and caption approval remains open before expensive native 4K masters. See production/episodes/london-bridge/STATUS.md.
+
+## Owner-locked brand and material direction — 13 October 2026
+Every future episode uses brand_ending: london-bridge-v1. The shared component preserves the approved London Bridge R1 ending exactly. Current material_profile: strong-mixed-media-v1 uses private owner fiber-paper, plastic and photocopy assets by object role. Use the adopted benchmark direction; keep source honesty and caption clarity. London Bridge R1 audio/motion/music are positively reviewed; R2 photo/paper revision in progress.

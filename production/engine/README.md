@@ -52,3 +52,6 @@ Private assets and generated studios/packages must never enter this public repos
 
 ## Opt-in tutorial controls
 See [tutorial integration](TUTORIAL_OPTICS_2026_10_13.md) and the tutorial-optics-test episode. These add timing curves, registered peak cuts, focus envelopes and padded chromatic separation. Original Pig War defaults remain unchanged. Two-pass audio normalization is available without changing the historical single-pass helper.
+
+## Owner-locked ending and mixed-media material profile
+New episode manifests require brand_ending: london-bridge-v1; historical pig-war and tutorial-optics-test remain unchanged. browser/brand.js draws the exact approved full-opacity plate after finishing and captions. browser/material-profile.js provides object-local paper/print/noise treatments; supply private licensed image slots paperFiber/plastic/photocopy where used. Shared recipes do not substitute for scene-specific photo masks and choreography.

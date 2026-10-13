@@ -297,3 +297,9 @@ Read the full adopted **v1.4 chapter**, the complete user visual-analysis manual
 **Adopted predecessors preserved:** \`production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md\` v1.3, v1.2, v1.1 and the \`production/motion-lab/v1\` and \`v2\` evidence-qualified appendices. v1.4 governs future creative decisions while older factual/technical hard requirements continue.
 
 **No proprietary Vox pixels, audio, project rigs or source font binaries** are part of this adopted chapter.
+
+
+## Owner-adopted mixed-media, visible materials and locked ending — 13 October 2026
+The exact London Bridge R1 ending is now the mandatory ending for every future episode: use production/engine/browser/brand.js, id london-bridge-v1. Preserve its navy/ivory colors, wording, pinned Playfair/Manrope sizes and positions, 1.1-second tail and original smooth fade. No redesign or extra texture on the ending.
+
+Use cleared photography and documentary paper when they improve subject identity/evidence, and original drawn animation when it explains construction, systems or change. Texture must be visibly intentional at phone scale: object-local paper fibers and edge character, photo-print/plastic surface, diagram ink/photocopy material. Layer treatments according to their material and explanatory purpose; retain readable text and crisp source details. Follow production/approved-benchmarks/LONDON_BRIDGE_MIXED_MEDIA_OWNER_DIRECTION.md. This owner directive qualifies the earlier default material restraint without changing truthful sourcing, native 4K, audio, captions or human QA gates.
