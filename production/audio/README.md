@@ -32,3 +32,6 @@ Reuse existing sound libraries before generating new effects. [Approved generate
 
 ## Vox sound research, 13 October 2026
 Use the [source-backed research and audition brief](VOX_SOUND_RESEARCH_2026_10_13.md) when selecting the next recorded Foley additions. It separates historical creator testimony, provider claims, third-party tutorial techniques and original Curio criteria. Music editing, material fit and timing are assessed together. No new downloaded pack or exact Vox sample matches have been certified by this research pass.
+
+## Owner-retained free collection — 13 October 2026
+All 70 auditioned sounds were retained by the owner. Use the [catalog and private retrieval helper](free-editorial-20261013/README.md) for future episodes before generating new effects. Metadata and hashes are committed; raw third-party audio remains private due to source redistribution restrictions.
