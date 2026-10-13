@@ -699,3 +699,9 @@ Art director annotates shot ledger `distinct / justified-repeat / harmful-repeat
 ## Implementation reference — tutorial motion and optics, 13 October 2026
 
 Reusable engine v1.1 now provides opt-in timing curves, registered cuts at peak velocity, short focus hunts, padded radial chromatic separation, long settles and local ink cadence. See [tutorial analysis and implementation](engine/TUTORIAL_OPTICS_2026_10_13.md), [tested scope](engine/OPTICS_TEST_VERIFICATION.json) and the [review episode](episodes/tutorial-optics-test/README.md). These are original Canvas adaptations of the three supplied tutorials, not recovered proprietary Vox settings. Original Pig War R2 remains the approved benchmark; the new 12.8-second technique test awaits owner creative and listening approval. This implementation note does not alter the governing editorial/artwork approval principles.
+
+
+## Owner-adopted mixed-media, visible materials and locked ending — 13 October 2026
+The exact London Bridge R1 ending is now the mandatory ending for every future episode: use production/engine/browser/brand.js, id london-bridge-v1. Preserve its navy/ivory colors, wording, pinned Playfair/Manrope sizes and positions, 1.1-second tail and original smooth fade. No redesign or extra texture on the ending.
+
+Use cleared photography and documentary paper when they improve subject identity/evidence, and original drawn animation when it explains construction, systems or change. Texture must be visibly intentional at phone scale: object-local paper fibers and edge character, photo-print/plastic surface, diagram ink/photocopy material. Layer treatments according to their material and explanatory purpose; retain readable text and crisp source details. Follow production/approved-benchmarks/LONDON_BRIDGE_MIXED_MEDIA_OWNER_DIRECTION.md. This owner directive qualifies the earlier default material restraint without changing truthful sourcing, native 4K, audio, captions or human QA gates.

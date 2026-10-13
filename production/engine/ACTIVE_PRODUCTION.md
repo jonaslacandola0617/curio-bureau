@@ -25,3 +25,6 @@ Maintain one current status file with decisions, missing inputs, source ledger l
 The owner accepted the v1.1 tutorial test as good enough. All 70 free editorial SFX were collected, auditioned by the owner, and retained. Catalog/retrieval metadata lives in production/audio/free-editorial-20261013; raw audio stays private under provider licensing.
 
 New commissioned episode: London Bridge in Arizona, on film/london-bridge-arizona-1968. Full 52.5-second 1080p creative preview in progress, actual Bernard recording, existing SFX, original bridge/core/channel illustrations. Human moving-art, listening and caption approval remains open before expensive native 4K masters. See production/episodes/london-bridge/STATUS.md.
+
+## Owner-locked brand and material direction — 13 October 2026
+Every future episode uses brand_ending: london-bridge-v1. The shared component preserves the approved London Bridge R1 ending exactly. Current material_profile: strong-mixed-media-v1 uses private owner fiber-paper, plastic and photocopy assets by object role. Use the adopted benchmark direction; keep source honesty and caption clarity. London Bridge R1 audio/motion/music are positively reviewed; R2 photo/paper revision in progress.
