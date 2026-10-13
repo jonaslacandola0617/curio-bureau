@@ -1,0 +1,92 @@
+[
+  {
+    "file": "earth_atmosphere.jpg",
+    "bytes": 1278827,
+    "sha256": "279297058eafc09c9340b005cf13eb77da9d74b06c00ee4a108172805ab41b48"
+  },
+  {
+    "file": "sky_sunset_browser.png",
+    "bytes": 9066299,
+    "sha256": "e40afa8b785e0cc16500effe183566cb863132ff29ff01dab5255247230fac1a"
+  },
+  {
+    "file": "paper_material.jpg",
+    "bytes": 2005942,
+    "sha256": "d5d130fa2e1f31880984f8b947f6a0ff7e6b6b4160fcec1f9168b5ab9c9f48a5"
+  },
+  {
+    "file": "sdo.jpg",
+    "bytes": 1913757,
+    "sha256": "3829c7c2757b30010974a74613b5d37a0ea9047b26541f1adc18a509406d7ee5"
+  },
+  {
+    "file": "photocopy_noise.jpg",
+    "bytes": 8946407,
+    "sha256": "0d80901df647faf880acdfff9eda7d97d281bdcc69f0d9999aebc78e5f26ae7c"
+  },
+  {
+    "file": "sky_sunset_browser.jpg",
+    "bytes": 801825,
+    "sha256": "3a94406a6a0c00f1a4a09bfb83e1c768c53985dc1bdca4b5cba02b870381bcb7"
+  },
+  {
+    "file": "ink_density.png",
+    "bytes": 1015107,
+    "sha256": "c063f670d98da5a0658b89f0ad82a56e80e4fbf7efaa60e41f4b32abaf769fbf"
+  },
+  {
+    "file": "fiber_browser.jpg",
+    "bytes": 1028098,
+    "sha256": "239a165a44c6a3de2ba1ba005e74af04bc848e1133a05db4f681db92c7d63997"
+  },
+  {
+    "file": "PlayfairDisplay.ttf",
+    "bytes": 300724,
+    "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+  },
+  {
+    "file": "fiber_paper.jpg",
+    "bytes": 11991681,
+    "sha256": "bf6f4076f48f79d470a037d1a6ca2f390ac25cb46730da41a375b76ba5cb26b8"
+  },
+  {
+    "file": "sky_sunset.jpg",
+    "bytes": 3203328,
+    "sha256": "e13b832dd432b3cf1b7d27a276ce9c63e4e51a2531392a794186d725000072a9"
+  },
+  {
+    "file": "sunset.jpg",
+    "bytes": 1382620,
+    "sha256": "eb3eb9b01a05df3264e71a53f0f0c56cfa83e1dcf5e81164437cd33e2cc088dc"
+  },
+  {
+    "file": "Manrope.ttf",
+    "bytes": 164700,
+    "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+  },
+  {
+    "file": "photo_plastic.jpg",
+    "bytes": 4916621,
+    "sha256": "7aa6425d4b5435fa12d3e2f04a010a789a381a3d42a59d7097ac7e8b27eaf9c1"
+  },
+  {
+    "file": "photocopy_browser.jpg",
+    "bytes": 1249416,
+    "sha256": "7ceb7d5cf5046f00a1d9d5e5858f7c689328d7e1efa54bbb6cf66629641db6e1"
+  },
+  {
+    "file": "earth_atmosphere_browser.jpg",
+    "bytes": 1010920,
+    "sha256": "dfdecfa9fe05671a6f6a38cc4eab2fed0cfa91c5674609393467d948edca6d9e"
+  },
+  {
+    "file": "plastic_browser.jpg",
+    "bytes": 128725,
+    "sha256": "27c8712e0a20f2189db8d4f53a028996b50a7274d81640407bffea49fd82f961"
+  },
+  {
+    "file": "earth_atmosphere_browser.png",
+    "bytes": 13805629,
+    "sha256": "769c7f992d1b27a65f4d4c946ba5df4aaa0a429e62f166ffa205cfd02292e963"
+  }
+]

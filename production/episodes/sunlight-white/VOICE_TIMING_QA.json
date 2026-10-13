@@ -1,0 +1,47 @@
+{
+  "original_duration": 52.72,
+  "duration": 51.3,
+  "silence_edits": [
+    [
+      3.62483,
+      4.06125
+    ],
+    [
+      9.3781,
+      9.64755
+    ],
+    [
+      12.3806,
+      12.627
+    ],
+    [
+      22.5189,
+      22.7943
+    ],
+    [
+      30.445,
+      30.6784
+    ],
+    [
+      35.5667,
+      35.8072
+    ],
+    [
+      46.020599999999995,
+      46.4268
+    ]
+  ],
+  "method": "Measured quiet trimmed to .32s; speech not accelerated",
+  "events": {
+    "white": 3.68358,
+    "prism": 9.134129999999999,
+    "atmosphere": 11.827729999999997,
+    "scatter": 16.547729999999998,
+    "sky": 21.712329999999998,
+    "low": 25.672329999999995,
+    "warm": 34.17842999999999,
+    "instrument": 38.59842999999999,
+    "resolve": 44.319029999999984
+  },
+  "caption_review": "Actual-audio machine ASR word timestamps; script punctuation and possessive reconciled. Not independently word-listening certified."
+}

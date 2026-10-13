@@ -1,0 +1,178 @@
+[
+  {
+    "event": "print_camera_open",
+    "time": 0.03,
+    "duration": 0.6,
+    "source": "035_Camera_Vintage_camera_shutter.wav",
+    "provider": "Mixkit",
+    "sha256": "60c7af7e21efc8595edcb8b97c9f913c6b95ba2c27c99fad86d46e478b85728a",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.17,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "sun_camera_approach",
+    "time": 1.25,
+    "duration": 0.72,
+    "source": "044_Transition_Air_woosh.wav",
+    "provider": "Mixkit",
+    "sha256": "fdc4f87eb2c6d29ec3567b299fdc3b2aeea2432afe27801db80c496bda084499",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.15,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "paper_white",
+    "time": 3.28358,
+    "duration": 1.0,
+    "source": "001_Paper_Paper_slide.wav",
+    "provider": "Mixkit",
+    "sha256": "2e945267f56208884153867d062838888e6bddc92b512e130aa9566255ad36bb",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.17,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "paper_prism",
+    "time": 8.734129999999999,
+    "duration": 1.0,
+    "source": "001_Paper_Paper_slide.wav",
+    "provider": "Mixkit",
+    "sha256": "2e945267f56208884153867d062838888e6bddc92b512e130aa9566255ad36bb",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.17,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "paper_atmosphere",
+    "time": 11.427729999999997,
+    "duration": 1.0,
+    "source": "001_Paper_Paper_slide.wav",
+    "provider": "Mixkit",
+    "sha256": "2e945267f56208884153867d062838888e6bddc92b512e130aa9566255ad36bb",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.17,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "paper_scatter",
+    "time": 16.14773,
+    "duration": 1.0,
+    "source": "001_Paper_Paper_slide.wav",
+    "provider": "Mixkit",
+    "sha256": "2e945267f56208884153867d062838888e6bddc92b512e130aa9566255ad36bb",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.17,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "paper_low",
+    "time": 25.272329999999997,
+    "duration": 1.0,
+    "source": "001_Paper_Paper_slide.wav",
+    "provider": "Mixkit",
+    "sha256": "2e945267f56208884153867d062838888e6bddc92b512e130aa9566255ad36bb",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.17,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "paper_instrument",
+    "time": 38.198429999999995,
+    "duration": 1.0,
+    "source": "001_Paper_Paper_slide.wav",
+    "provider": "Mixkit",
+    "sha256": "2e945267f56208884153867d062838888e6bddc92b512e130aa9566255ad36bb",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.17,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "paper_resolve",
+    "time": 43.919029999999985,
+    "duration": 1.0,
+    "source": "001_Paper_Paper_slide.wav",
+    "provider": "Mixkit",
+    "sha256": "2e945267f56208884153867d062838888e6bddc92b512e130aa9566255ad36bb",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.17,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "white_quote_marker",
+    "time": 5.88358,
+    "duration": 1,
+    "source": "023_Writing_Pen_marker_line.wav",
+    "provider": "Mixkit",
+    "sha256": "ba627a9ea31f17c6e725b3bd85d673bc59169a992aec4cde8d18445e3894ee8d",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.19,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "white_focus",
+    "time": 4.88358,
+    "duration": 0.65,
+    "source": "041_Camera_Camera_lens_autofocus.wav",
+    "provider": "Mixkit",
+    "sha256": "a4f6e7a7a2fb3a2083409c91d4582edca0c532cc518289c2e6e00f1131bc64ed",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.09,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "prism_ray",
+    "time": 9.334129999999998,
+    "duration": 0.7,
+    "source": "047_Transition_Fast_whoosh_transition.wav",
+    "provider": "Mixkit",
+    "sha256": "2f914dcec1276107b888557e2e33043396cff10adad9e7b6f6adf93cc011c08b",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.16,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "scattering_traces",
+    "time": 17.59773,
+    "duration": 0.915125,
+    "source": "021_Writing_Short_pencil_writing.wav",
+    "provider": "Mixkit",
+    "sha256": "1aeef66740048783fc5209bc100af47789a5db507a810f1a602cbb515d07259b",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.13,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "longer_path_marker",
+    "time": 26.122329999999994,
+    "duration": 1,
+    "source": "023_Writing_Pen_marker_line.wav",
+    "provider": "Mixkit",
+    "sha256": "ba627a9ea31f17c6e725b3bd85d673bc59169a992aec4cde8d18445e3894ee8d",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.18,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "instrument_macro",
+    "time": 39.59842999999999,
+    "duration": 0.7,
+    "source": "044_Transition_Air_woosh.wav",
+    "provider": "Mixkit",
+    "sha256": "fdc4f87eb2c6d29ec3567b299fdc3b2aeea2432afe27801db80c496bda084499",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.15,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  },
+  {
+    "event": "white_resolution_marker",
+    "time": 44.819029999999984,
+    "duration": 1,
+    "source": "023_Writing_Pen_marker_line.wav",
+    "provider": "Mixkit",
+    "sha256": "ba627a9ea31f17c6e725b3bd85d673bc59169a992aec4cde8d18445e3894ee8d",
+    "license_url": "https://mixkit.co/license/modal/sfxFree/",
+    "gain_peak": 0.15,
+    "status": "Creative Foley; not science field recordings; owner in-context listening pending"
+  }
+]

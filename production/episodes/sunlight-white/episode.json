@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "sunlight-white",
+  "title": "Why the Sun Looks Yellow \u2014 Curio Bureau",
+  "description": "Paper-and-image science film \u2022 full moving review \u2022 NASA-backed explanation",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "fonts": [
+    {
+      "file": "Manrope.ttf",
+      "family": "Manrope",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "file": "PlayfairDisplay.ttf",
+      "family": "Playfair Display",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+    }
+  ],
+  "images": {
+    "paper": "paper_material.jpg",
+    "ink": "ink_density.png",
+    "paperFiber": "fiber_browser.jpg",
+    "plastic": "plastic_browser.jpg",
+    "photocopy": "photocopy_browser.jpg",
+    "sunset": "sunset.jpg",
+    "skySunset": "sky_sunset_browser.jpg",
+    "sdo": "sdo.jpg",
+    "earth": "earth_atmosphere_browser.jpg"
+  },
+  "data_files": [
+    "timing.json"
+  ],
+  "data_loader": "data.py",
+  "scripts": [
+    "scenes.js"
+  ],
+  "mix": "preflight_mix.wav",
+  "voice": "voice_full.wav",
+  "sfx_cues": "SFX_CUE_SHEET.json",
+  "audio_builder": "audio.py",
+  "audio_inputs": [
+    "assets/voice_full.wav",
+    "assets/music_full.wav",
+    "assets/sfx_full.wav",
+    "assets/timing.json"
+  ],
+  "release_status": "RENDER CANDIDATE",
+  "creative_note": "New full-paper/image science episode. Owner moving review before native 4K.",
+  "audio_builder_location": "episode",
+  "optics": {
+    "enabled": true
+  },
+  "brand_ending": "london-bridge-v1",
+  "material_profile": "paper-image-v1",
+  "visual_style": "paper-image"
+}

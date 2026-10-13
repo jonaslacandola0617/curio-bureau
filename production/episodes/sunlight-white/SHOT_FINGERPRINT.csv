@@ -1,0 +1,9 @@
+start,end,family,hero,camera,claim,transition,annotation,status
+0,3.684,C01,sunset print,photo approach/parallax,yellow appearance,foreground paper slide,question,moving review candidate
+3.684,9.134,C08,source excerpt,source macro/focus,white sunlight,white ray match,tracked marker,moving review candidate
+9.134,11.828,C02,printed prism figure,figure inspection,visible colors separate,sheet vertical exit,ray reveal,moving review candidate
+11.828,16.548,C05,ISS photographic print,atmosphere inspection,air lies on light path,tracing paper arrival,source anchored callout,moving review candidate
+16.548,25.672,C02,printed scattering figure,registered molecular schematic,blue scatters more,horizontal figure reframe,blue ink traces,moving review candidate
+25.672,38.598,C09,path comparison paper,two ray paths same observer,longer path removes more blue,photo return under sheet,path/highlight,moving review candidate
+38.598,44.319,C10,SDO data print,instrument image macro,assigned wavelengths/colors,contact print clears up,assigned-color label,moving review candidate
+44.319,51.3,C14,source plus sunset,resolved evidence collage,appearance differs from light,locked London ending,answer,moving review candidate
