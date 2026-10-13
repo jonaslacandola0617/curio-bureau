@@ -1,0 +1,40 @@
+{
+  "status": "TECHNICAL PASS / OWNER APPROVED REVIEW",
+  "outputs": {
+    "Sunlight_4K_Master.mp4": {
+      "size": 655992969,
+      "width": 2160,
+      "height": 3840,
+      "frames": 1539,
+      "duration": 51.3,
+      "full_decode": "PASS",
+      "sha256": "020db670de0899424be13a213819a5ac7aa721a398895687e00c5393b4981d0c",
+      "integrated_lufs": -13.09,
+      "true_peak_dbtp": -1.49
+    },
+    "Sunlight_4K.webm": {
+      "size": 352848710,
+      "width": 2160,
+      "height": 3840,
+      "frames": 1539,
+      "duration": 51.308,
+      "full_decode": "PASS",
+      "sha256": "c1e056b6a93b6faa0acc5bb8109f15723e3d117f12ca4516f182ac3ab3d37824",
+      "integrated_lufs": -13.08,
+      "true_peak_dbtp": -1.35
+    },
+    "Sunlight_4K_Upload.mp4": {
+      "size": 309012850,
+      "width": 2160,
+      "height": 3840,
+      "frames": 1539,
+      "duration": 51.3,
+      "full_decode": "PASS",
+      "sha256": "5346787112fce819ccc0f1e4d54cc9a7e84a580adc0a9c1782bbe5384e25d1b3",
+      "integrated_lufs": -13.09,
+      "true_peak_dbtp": -1.49
+    }
+  },
+  "source": "Native 2160x3840 Canvas; lossless RGB archive; no 1080p upscale",
+  "caption_basis": "Actual recording machine ASR, reconciled transcript, as approved review"
+}

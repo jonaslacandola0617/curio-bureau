@@ -1,0 +1,17 @@
+{
+  "approved_scene_code_unchanged": true,
+  "source_frame_count": 1539,
+  "source_dimensions": [
+    2160,
+    3840
+  ],
+  "native_segments": [
+    332,
+    248,
+    959
+  ],
+  "source_render_scale": 2,
+  "raw_materials_and_soundtrack": "RESTORED APPROVED SOURCE",
+  "native_capture": "Native 1:1 capture, lossless RGB storage, original-pixel checks pass at three difficult frames",
+  "owner_approval": "14 October 2026 01:52 Asia/Manila"
+}
