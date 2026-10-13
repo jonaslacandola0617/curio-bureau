@@ -24,3 +24,12 @@ Exact R1 ending promoted to shared CurioBrand london-bridge-v1, with strong-mixe
 
 ## R2 completed creative preview
 52.5s, 1575 frames, 1080x1920/30fps H264/AAC stereo. Full decode PASS; encoded mix -13.07 LUFS / -1.45 dBTP. SHA256 ca109e75dac3c68b15109c659c0a600ba7ce4d2eefa4d31fadb78e9ce13f718a. Actual encoded checkpoints inspected for photo/paper transition, highlighted source, core, excavation and locked ending. Native 4K video remains pending owner review of this revision. Seven native styleframes, browser Studio and private rebuild source supplied.
+
+## Owner-approved native 4K delivery — 13 October 2026
+Owner: “Good enough render rhe 4K now and the post.” Full R2 moving-art/sound review accepted; native release commissioned.
+
+Native Canvas 2160x3840, 30fps, 1575 exact frames. H264/AAC master and upload MP4: 52.5s; VP9/Opus WebM: 52.508s. Every format passed actual frame-count, codec, audio/rate/channel and full-decode checks. MP4 AAC matches approved R2 audio byte-for-byte: -13.07 LUFS / -1.45 dBTP. WebM measured -13.06 LUFS / -1.33 dBTP. Native encoded visual checkpoints inspected. No assets, motion, voice, music or SFX regenerated. Caption method remains actual-audio ASR with transcript reconciliation; no independent word-listening certification is claimed.
+
+Native master SHA256 6ddd07068a271f6e65f262edd0e14c6e59df2533fb42677c867a2d1f33458619; WebM 55780ecfebdf2582916670f54b889ac763dec5a78bf22ef7545005beb0c8b864; upload MP4 615335b50b1250150394ba12c64bb04554a28630897fb098184346ebb2465d92.
+
+Lossless RGBA/Blob transfer replaces browser PNG compression. Native source sample equality and encoded RGB equality passed; the renderer used for this delivery matches the canonical renderer byte-for-byte. Verified native cache retained. See engine/LOSSLESS_TRANSFER_QA.json and private Curio_4K_technical.json. POSTS.md provides TikTok and YouTube copy. Owner uploads the files; no platform publication has been performed.
