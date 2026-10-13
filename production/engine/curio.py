@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Curio production CLI: explicit inputs, stable builds, visual/audio cache separation."""
 from pathlib import Path
-import argparse,base64,hashlib,html,importlib.util,json,os,shutil,subprocess,sys,wave,zipfile
+import argparse,base64,hashlib,html,importlib.util,json,os,shutil,subprocess,sys,wave,zipfile,inspect
 
 ENGINE=Path(__file__).resolve().parent
-BROWSER=['finishing.js','focus.js','runtime.js','materials.js','drawing.js','typography.js']
+BROWSER=['motion.js','optics.js','finishing.js','focus.js','runtime.js','materials.js','drawing.js','typography.js']
 
 def digest(p):
  h=hashlib.sha256()
@@ -59,8 +59,8 @@ class Project:
   # Current browser PCM contract: scipy/FFmpeg canonical 44-byte WAV header.
   with self.mix.open('rb') as f:header=f.read(44)
   if header[:4]!=b'RIFF' or header[36:40]!=b'data':raise ValueError('Canonical PCM WAV required; convert with audio command before build')
-  paths=[ENGINE/'curio.py',self.episode/'episode.json',self.episode/c['data_loader']]+[ENGINE/'browser'/n for n in BROWSER+['frame.js','player.js','player.css','studio.html']]+[self.episode/n for n in c['scripts']]+[self.assets/n for n in list(c['images'].values())+c['data_files']+[f['file'] for f in c['fonts']]]
-  self.visual_key=fingerprint(paths);self.audio_key=digest(self.mix)
+  paths=[self.episode/'episode.json',self.episode/c['data_loader']]+[ENGINE/'browser'/n for n in BROWSER+['frame.js','player.js','player.css','studio.html']]+[self.episode/n for n in c['scripts']]+[self.assets/n for n in list(c['images'].values())+c['data_files']+[f['file'] for f in c['fonts']]]
+  self.visual_key=hashlib.sha256((fingerprint(paths)+inspect.getsource(Project.build)+inspect.getsource(Project.inspect)).encode()).hexdigest();self.audio_key=digest(self.mix);self.render_key=digest(ENGINE/'tools/render.cjs')
   return {'episode':c['id'],'duration':self.duration,'frames':round(self.duration*30),'fonts':'PINNED','inputs':'PASS','visual_key':self.visual_key,'audio_key':self.audio_key,'creative_review':'human review required','caption_review':self.data['timing'].get('caption_status','not independently verified')}
 
  def save(self):write_json(self.state_path,self.state)
@@ -86,7 +86,7 @@ class Project:
 
  def plan(self,profile='native'):
   self.inspect();old=self.state.get(profile,{})
-  if old.get('visual_key')==self.visual_key and all(Path(x).exists() and digest(x)==h for x,h in old.get('outputs',{}).items()) and old.get('outputs'):
+  if old.get('visual_key')==self.visual_key and old.get('render_key')==self.render_key and all(Path(x).exists() and digest(x)==h for x,h in old.get('outputs',{}).items()) and old.get('outputs'):
    return 'reuse' if old.get('audio_key')==self.audio_key else 'remux'
   return 'render'
 
@@ -113,7 +113,7 @@ class Project:
    results[p.name]=verify(p,scale,round(duration*30),duration)
    if kind=='download' and p.stat().st_size>=512*1024*1024:raise ValueError('Download size limit exceeded')
   write_json(self.out/(prefix+'_technical.json'),{'status':'SMOKE TEST' if smoke else 'RENDER CANDIDATE','action':action,'outputs':results,'creative_listening_caption_approval':'not inferred from technical checks'})
-  if not smoke:self.state[profile]={'visual_key':self.visual_key,'audio_key':self.audio_key,'outputs':{str(p):digest(p) for _,p in kinds}};self.save()
+  if not smoke:self.state[profile]={'visual_key':self.visual_key,'audio_key':self.audio_key,'render_key':self.render_key,'outputs':{str(p):digest(p) for _,p in kinds}};self.save()
 
  def audio(self):
   c=self.config;script=(self.episode if c.get('audio_builder_location')=='episode' else self.project)/c['audio_builder'];inputs=[script,ENGINE/'audio.py']+[self.project/n for n in c['audio_inputs']]
@@ -134,13 +134,21 @@ class Project:
    for name in sorted(required):
     p=self.assets/name
     if p.exists():z.write(p,'project/assets/'+name)
-   for name in ['SFX_CUE_SHEET.json','RESEARCH_AND_RIGHTS.md','SEQUENCE_CONTRACT.md','NARRATION_FINAL.txt','README.md']:
+   for name in ['SFX_CUE_SHEET.json','RESEARCH_AND_RIGHTS.md','SEQUENCE_CONTRACT.md','NARRATION_FINAL.txt','README.md','ASSET_MANIFEST.json']:
     p=self.project/name
     if p.exists():z.write(p,'project/'+name)
+   for source in self.project.glob('*.srt'):z.write(source,'project/'+source.name)
    p=self.project/'baseline/SFX_CUE_SHEET_R2.json'
    if p.exists():z.write(p,'project/baseline/'+p.name)
    for p in self.out.glob('*.json'):z.write(p,'checks/'+p.name)
    z.write(self.studio,'Studio.html')
+   z.writestr('PRIVATE_MATERIAL_NOTICE.txt','Private rebuild bundle. Contains owner materials, licensed fonts and geography notices. Do not publish raw materials.\n')
+   for name in ['AGENTS.md','production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md','production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md','production/approved-benchmarks/PIG_WAR_R2_OWNER_APPROVAL.md']:
+    source=ENGINE.parent.parent/name
+    if source.exists():z.write(source,'governance/'+name)
+   for source in (self.out/'qa').glob('*.json'):z.write(source,'checks/qa/'+source.name)
+   source=self.out/'qa/pipeline/pipeline-test.json'
+   if source.exists():z.write(source,'checks/qa/pipeline-test.json')
   with zipfile.ZipFile(target) as z:
    if z.testzip():raise ValueError('ZIP integrity failed')
   print('Packaged',target,'PRIVATE: contains licensed project assets')

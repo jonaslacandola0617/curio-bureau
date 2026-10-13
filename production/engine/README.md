@@ -1,4 +1,4 @@
-# Curio production engine v1
+# Curio production engine v1.1
 
 Working extraction of the approved Pig War implementation, not a new creative Bible. Shared browser functions preserve the existing pixel behavior. Original episode source and published movies remain untouched.
 
@@ -25,12 +25,14 @@ The episode owns data preparation, sourced geography, artwork registration, comp
 
 ## Cache correctness
 
-Visual fingerprint includes engine/build code, episode config/code/data, images, pinned fonts and timing. Audio fingerprint is the exact mixed WAV. Output hashes prevent trusting missing/corrupted cache files.
+Visual fingerprint includes build/input-inspection code, episode config/code/data, images, pinned fonts and timing. Audio fingerprint is the exact mixed WAV. Output hashes prevent trusting missing/corrupted cache files.
 
 - Identical fingerprints and outputs: reuse.
 - Same visual fingerprint, changed mix: copy encoded video packets and replace audio in MP4/WebM/download MP4.
 - Timing, artwork, type or animation change: render visuals again.
 - The audio stage has a separate fingerprint for its script, shared audio utilities, stems, cues and timing.
+
+Encoder code has an independent render signature. Packaging-only edits do not invalidate picture renders.
 
 Cache granularity is **whole visual render versus audio**, not per-shot frames. Per-shot transition dependencies, raw-frame transfer optimization and automated shot collision analysis are later extensions. v1 does not claim to shorten an uncached full native render; its gain is preventing unnecessary repeated work.
 
@@ -47,3 +49,6 @@ The WAV embedding contract currently requires a canonical 44-byte PCM16 stereo W
 See `VERIFICATION.json`: 22 exact native RGB checkpoints; 120 exact moving RGBA comparisons over three difficult transitions; unchanged authoritative mix and three stems; native three-format integration test; audio-remux video packet identity; cache/visual-invalidation/font-rejection checks; complete browser review recording with duration/audio validation. Sample comparisons are not a whole-film pixel certification or independent listening approval.
 
 Private assets and generated studios/packages must never enter this public repository. `package` includes required private rebuild inputs and notices, not unrelated old assets or tutorial source pixels. The original Pig War private source bundle remains the historical baseline.
+
+## Opt-in tutorial controls
+See [tutorial integration](TUTORIAL_OPTICS_2026_10_13.md) and the tutorial-optics-test episode. These add timing curves, registered peak cuts, focus envelopes and padded chromatic separation. Original Pig War defaults remain unchanged. Two-pass audio normalization is available without changing the historical single-pass helper.

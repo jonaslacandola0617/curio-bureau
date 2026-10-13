@@ -21,6 +21,5 @@ Read this file, engine README, episode manifest, current verification/status and
 
 Maintain one current status file with decisions, missing inputs, source ledger locations, asset IDs/rights, actual timing, changed files, completed checks and next action. Load relevant sections instead of replaying the entire conversation. Keep large generated HTML/base64 and frame dumps out of tool output. Save intermediate expensive work and hashes; don't run a full render to test a packaging or player-control change.
 
-## Next owner priorities
-
-Finish this engine migration first. Then analyze the owner's three selected tutorials to improve the visual language, followed by research and collection of free, license-cleared SFX with better perceptual/material quality. The three selected tutorials have not yet been identified in this engine task. Do not assume which older tutorials they mean or start generation/research before the engine handoff is complete.
+## Current owner priorities
+The three tutorials have been analyzed and their controls integrated in v1.1. The 12.8-second tutorial-optics-test is awaiting owner creative/listening review. See TUTORIAL_OPTICS_2026_10_13.md and OPTICS_TEST_VERIFICATION.json for specific scope. After the test review, research and collect free, license-cleared material SFX. No such new collection has been completed.

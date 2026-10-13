@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "tutorial-optics-test",
+  "title": "Curio Bureau \u2014 Tutorial Motion and Optics Test",
+  "description": "12.8-second review of peak-velocity cuts, focus hunting and restrained chromatic edges.",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "fonts": [
+    {
+      "file": "Manrope.ttf",
+      "family": "Manrope",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "file": "PlayfairDisplay.ttf",
+      "family": "Playfair Display",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+    }
+  ],
+  "images": {
+    "pig": "pig.png",
+    "mountains": "mountains.png",
+    "field": "field.png",
+    "paper": "paper_material.jpg",
+    "ink": "ink_density.png",
+    "treaty": "treaty_article1.jpg"
+  },
+  "data_files": [
+    "land.json",
+    "channel_paths.json",
+    "timing.json"
+  ],
+  "data_loader": "data.py",
+  "scripts": [
+    "style.js",
+    "map.js",
+    "scenes.js"
+  ],
+  "mix": "preflight_mix.wav",
+  "voice": "voice_full.wav",
+  "sfx_cues": "SFX_CUE_SHEET.json",
+  "audio_builder": "audio.py",
+  "audio_inputs": [
+    "assets/voice_full.wav",
+    "assets/music_full.wav",
+    "assets/timing.json",
+    "assets/projector.mp3",
+    "assets/garden_foley.mp3",
+    "assets/marker_bold.mp3",
+    "assets/paper.mp3",
+    "assets/camera_move.mp3"
+  ],
+  "release_status": "RENDER CANDIDATE",
+  "creative_note": "Technique review; owner approval pending. Original Pig War R2 remains the approved benchmark.",
+  "audio_builder_location": "episode",
+  "optics": {
+    "enabled": true
+  }
+}

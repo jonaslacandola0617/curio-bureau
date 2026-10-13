@@ -25,3 +25,11 @@ def normalize(source,target,rate=48000):
 
 def canonical_pcm(source,target,rate=48000):
  _,pcm=wavfile.read(source);wavfile.write(target,rate,pcm)
+
+def normalize_two_pass(source,target,rate=48000):
+ import json
+ measure=subprocess.run(['ffmpeg','-hide_banner','-i',str(source),'-af','loudnorm=I=-13:TP=-1.5:LRA=8:print_format=json','-f','null','-'],capture_output=True,text=True,check=True)
+ stats=json.loads(measure.stderr[measure.stderr.rfind('{'):])
+ values={'measured_I':'input_i','measured_TP':'input_tp','measured_LRA':'input_lra','measured_thresh':'input_thresh','offset':'target_offset'}
+ filt='loudnorm=I=-13:TP=-1.5:LRA=8:'+':'.join(k+'='+stats[v] for k,v in values.items())+':linear=true'
+ subprocess.run(['ffmpeg','-y','-v','error','-i',str(source),'-af',filt,'-ar',str(rate),'-ac','2','-c:a','pcm_s16le',str(target)],check=True)

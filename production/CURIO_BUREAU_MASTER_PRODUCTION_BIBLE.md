@@ -695,3 +695,7 @@ Art director annotates shot ledger `distinct / justified-repeat / harmful-repeat
 7. Close the episode by recording changes to storytelling, animation and brand fidelity, and by adding any demonstrated new failure/regression check to the rulebook.
 
 **Supplemental audit evidence:** `01_CURIO_BUREAU_COMPLETE_VIDEO_AUDIT.md`; `03_VISUAL_INCONSISTENCY_REPORT.md`; `04_VOX_EDITORIAL_MOTION_BENCHMARK.md`; `05_VIRAL_HOOK_AND_RETENTION_STUDY.md`. These establish observations and limitations. They are NOT alternative conflicting house style rules.
+
+## Implementation reference — tutorial motion and optics, 13 October 2026
+
+Reusable engine v1.1 now provides opt-in timing curves, registered cuts at peak velocity, short focus hunts, padded radial chromatic separation, long settles and local ink cadence. See [tutorial analysis and implementation](engine/TUTORIAL_OPTICS_2026_10_13.md), [tested scope](engine/OPTICS_TEST_VERIFICATION.json) and the [review episode](episodes/tutorial-optics-test/README.md). These are original Canvas adaptations of the three supplied tutorials, not recovered proprietary Vox settings. Original Pig War R2 remains the approved benchmark; the new 12.8-second technique test awaits owner creative and listening approval. This implementation note does not alter the governing editorial/artwork approval principles.
