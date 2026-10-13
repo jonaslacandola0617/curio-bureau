@@ -1,11 +1,13 @@
 # CURIO BUREAU — EDITORIAL ART & MOTION DIRECTION BIBLE
-**ADOPTED v1.4 · 12 October 2026 · Governing creative-direction chapter of the Curio Bureau Master Production Bible**
+**ADOPTED v1.4.1 · Updated 13 October 2026 · Current paper/image owner direction governs representation; v1.4 editorial reasoning and release safeguards remain**
 
 > **Approval record.** The owner reviewed the proposed v1.4 direction, expressly affirmed it accurately captured their visual intent, specified two corrections, and subsequently requested adoption of the corrected version. Both corrections are integrated below as mandatory production standards, not separate optional advice.
 >
 > **Do not misread adoption as approval of test films.** Ghost Army experimental animations V1–V4 remain artistically **REJECTED**. No moving sequence has yet demonstrated successful implementation of the desired style. The approved artifact is the *directing framework*, not a video.
 >
 > **Preservation:** This chapter adds to the already adopted v1.3 graphics research, v1.2 motion/art protections, v1.1 brand/production rules and original deliverable safeguards. It does not weaken the historically sourced script, brand colors/fonts, emotive narration, central captions, sound design, or full-resolution MP4/WebM release requirements.
+
+**Current representation constraint:** The owner requires full paper/image compositions for new films. Analytical graphics are printed figures or source-anchored annotations within that material world. Earlier photo-to-drawn/environment examples are retained as historical/general craft guidance, not permission to restore the superseded mixed-media default.
 
 ## 0. Creative premise and priority
 **Curio Bureau — “Stories, systems, and surprises.”** Original premium short factual documentaries, using beautiful and specific documentary art, imagery, object inspection, geography, diagrams, comparison and intentional motion. The channel's identity is *not* Vox's logo, stock transitions or a paper-texture preset. The objective is the high-quality editorial reasoning embodied in the user's supplied five Vox films, with original Curio subjects and design.
@@ -299,7 +301,18 @@ Read the full adopted **v1.4 chapter**, the complete user visual-analysis manual
 **No proprietary Vox pixels, audio, project rigs or source font binaries** are part of this adopted chapter.
 
 
-## Owner-adopted mixed-media, visible materials and locked ending — 13 October 2026
-The exact London Bridge R1 ending is now the mandatory ending for every future episode: use production/engine/browser/brand.js, id london-bridge-v1. Preserve its navy/ivory colors, wording, pinned Playfair/Manrope sizes and positions, 1.1-second tail and original smooth fade. No redesign or extra texture on the ending.
+## Current owner direction — full paper and image style, 13 October 2026, 22:04 UTC+8
+The owner explicitly replaced the earlier mixed-media default. All new films use full paper-and-image editorial compositions: cleared photographs, photographic cutouts, documentary pages, printed scientific figures and materially convincing paper environments. Do not alternate into freestanding vector illustration, generic geometric scenes or drawn-mechanism environments. Necessary maps, data, diagrams, labels and explanatory paths live as printed-paper evidence or source-anchored image annotations. Canvas/SVG/JavaScript remain implementation tools; this is a visual-direction requirement, not a software ban.
 
-Use cleared photography and documentary paper when they improve subject identity/evidence, and original drawn animation when it explains construction, systems or change. Texture must be visibly intentional at phone scale: object-local paper fibers and edge character, photo-print/plastic surface, diagram ink/photocopy material. Layer treatments according to their material and explanatory purpose; retain readable text and crisp source details. Follow production/approved-benchmarks/LONDON_BRIDGE_MIXED_MEDIA_OWNER_DIRECTION.md. This owner directive qualifies the earlier default material restraint without changing truthful sourcing, native 4K, audio, captions or human QA gates.
+Plan the visual argument and connected first/intermediate/resolved states before producing assets. Animate images and papers with meaningful object motion, layered parallax and repaired hidden regions, camera inspection, source-local highlights and foreground occlusion. Cut at registered peak velocity where appropriate, allow purposeful settling and reading holds, and preserve continuity of visual thought. This must feel like a directed moving editorial film, not slides or isolated artwork.
+
+Keep compound/selective blur with coordinated gradient exposure, short focus hunts, restrained chromatic separation, mechanical jitter, brightness variation, visible film grain, local edge boil and ink bleed. Choose each effect for the scene; protect factual image color, source detail and caption readability. Paper fibers, edge wear, print density, photocopy and photo/plastic surface are visibly intentional at phone size, layered by material role. Do not apply every effect to every object.
+
+Use material_profile: paper-image-v1 and visual_style: paper-image for all new episode manifests. Supply private paperFiber/plastic/photocopy texture slots. The exact London Bridge R1 ending remains mandatory through brand_ending: london-bridge-v1; its wording, colors, pinned fonts, positions and fade are unchanged, with no extra texture on the ending. Preserve thick Playfair Display 900 headers, Manrope centered captions, Bernard voice, approved original score quality, existing SFX-first selection, meaningful audible action cues and full native 4K MP4/WebM QA.
+
+Scientific claims, quantities and images need primary sources and item-specific rights/credits. Label scientific false-color imagery, schematics and reconstructions. Do not present paper fabrication as an authentic document. The implementation and source analyses are Vox-inspired editorial techniques; no proprietary Vox project settings or source assets are claimed recovered.
+
+Science is the next editorial focus, replacing the proposed Chicago River episode for now. This is an owner-directed content test, not evidence that history inherently performs poorly. Existing approved/published films remain historical records; their rebuild manifests and material appearance are preserved. The London Bridge mixed-media direction is retained only as superseded episode history, not future production policy.
+
+Governing detail: production/approved-benchmarks/PAPER_IMAGE_OWNER_DIRECTION.md. This explicit later owner instruction supersedes conflicting representation/default material guidance in earlier chapters and episode prompts; factual, rights, audio, caption and native-resolution safeguards remain in force.
+

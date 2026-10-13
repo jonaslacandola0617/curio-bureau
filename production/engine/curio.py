@@ -19,6 +19,14 @@ def load_json(p):return json.loads(Path(p).read_text())
 def write_json(p,d):Path(p).write_text(json.dumps(d,indent=2))
 def run(args):subprocess.run([str(a) for a in args],check=True)
 
+def validate_visual_direction(c):
+ # Existing approved films retain their original appearance and rebuild contract.
+ if c['id'] in ['pig-war','tutorial-optics-test','london-bridge']:return
+ if c.get('material_profile')!='paper-image-v1' or c.get('visual_style')!='paper-image':
+  raise ValueError('New episodes require the owner-adopted full paper/image style and paper-image-v1 material profile')
+ missing=set(['paperFiber','plastic','photocopy'])-set(c.get('images',{}))
+ if missing:raise ValueError('Paper/image episodes require private material slots: '+', '.join(sorted(missing)))
+
 class Project:
  def __init__(self,args):
   self.episode=Path(args.episode).resolve();self.project=Path(args.project).resolve();self.assets=self.project/'assets'
@@ -40,7 +48,7 @@ class Project:
    canonical=ENGINE.parent.parent/name
    if canonical.exists() and digest(canonical)!=expected:raise ValueError('Production requirement changed; read and reconcile before rebuilding: '+name)
   if c['id'] not in ['pig-war','tutorial-optics-test'] and c.get('brand_ending')!='london-bridge-v1':raise ValueError('New episodes must use the owner-locked London Bridge endcard')
-  if c['id'] not in ['pig-war','tutorial-optics-test'] and c.get('material_profile')!='strong-mixed-media-v1':raise ValueError('New episodes must declare the owner-adopted strong mixed-media material profile')
+  validate_visual_direction(c)
   if (c['width'],c['height'],c['fps'])!=(1080,1920,30):raise ValueError('v1 engine requires the existing Curio 9:16/30fps profile')
   required=list(c['images'].values())+c['data_files']+[c['mix'],c['voice']]+[f['file'] for f in c['fonts']]
   missing=[n for n in required if not (self.assets/n).is_file()]
@@ -145,7 +153,7 @@ class Project:
    for p in self.out.glob('*.json'):z.write(p,'checks/'+p.name)
    z.write(self.studio,'Studio.html')
    z.writestr('PRIVATE_MATERIAL_NOTICE.txt','Private rebuild bundle. Contains owner materials, licensed fonts and geography notices. Do not publish raw materials.\n')
-   for name in ['AGENTS.md','production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md','production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md','production/approved-benchmarks/PIG_WAR_R2_OWNER_APPROVAL.md']:
+   for name in ['AGENTS.md','production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md','production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md','production/approved-benchmarks/PIG_WAR_R2_OWNER_APPROVAL.md','production/approved-benchmarks/PAPER_IMAGE_OWNER_DIRECTION.md']:
     source=ENGINE.parent.parent/name
     if source.exists():z.write(source,'governance/'+name)
    for source in (self.out/'qa').glob('*.json'):z.write(source,'checks/qa/'+source.name)

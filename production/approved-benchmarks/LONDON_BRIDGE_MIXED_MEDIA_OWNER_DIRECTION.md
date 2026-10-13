@@ -1,3 +1,5 @@
+> HISTORICAL / SUPERSEDED FOR FUTURE FILMS. This records the approved London Bridge episode only. The owner replaced the mixed-media default at 22:04 UTC+8 on 13 October 2026. All new films follow [full paper/image direction](PAPER_IMAGE_OWNER_DIRECTION.md). Do not use this record as a current default.
+
 # Owner direction — 13 October 2026
 
 The owner positively reviewed London Bridge R1's motion, animation, narration, SFX and background score. Visual approval was conditional: add actual bridge photography and paper treatment where helpful, retain the drawn bridge construction, and make material texture clearly visible. Preserve the exact London Bridge R1 ending card for EVERY future film.
@@ -11,4 +13,4 @@ Use real cleared photographs or documentary paper for identity and evidence; ori
 ## Strong material rule
 Texture is a visible part of the artwork at phone scale. Assign object-local material roles: paper fiber, edge wear and print density for documents; subtle plastic/print surface for photographs; photocopy/ink grain for diagrams. Layer different textures when each has a purpose. Do not stack arbitrary dirt over every frame. Protect source text, caption readability and recognizable bridge details; keep the locked endcard identical. Approved source texture families remain owner-provided Indieground assets, privately stored; do not publicly redistribute raw texture packs.
 
-New episode manifests must use brand_ending: london-bridge-v1 and declare an intentional material profile. The engine protects legacy Pig War/tutorial manifests and enforces the ending for subsequent episodes. Recipe values remain original Curio choices, not proprietary Vox parameters.
+At the time of this London Bridge approval, the manifest used brand_ending: london-bridge-v1 with its historical material profile. The engine protects legacy Pig War/tutorial manifests and enforces the ending for subsequent episodes. Recipe values remain original Curio choices, not proprietary Vox parameters.
