@@ -19,7 +19,7 @@ Dependencies: Python (NumPy/SciPy for audio), FFmpeg/ffprobe, Node, Playwright a
 
 ## Shared versus authored
 
-`browser/` owns runtime buffers, easing/drawing utilities, typography, captions, grain/material finishing, native focus, player and explicit HTML/CSS templates. `audio.py` owns sample decode, placement and mastering utilities. `tools/render.cjs` renders lossless PNGs at fixed frame times. `curio.py` validates inputs, builds, tracks dependencies, encodes/remuxes and packages.
+`browser/` owns runtime buffers, easing/drawing utilities, typography, captions, grain/material finishing, native focus, player and explicit HTML/CSS templates. `audio.py` owns sample decode, placement and mastering utilities. `tools/render.cjs` streams lossless RGBA pixels at fixed frame times. `curio.py` validates inputs, builds, tracks dependencies, encodes/remuxes and packages.
 
 The episode owns data preparation, sourced geography, artwork registration, composition, objects, choreography, source labels, narration events, score direction and cue selection. `episode.json` declares those inputs. Required adapter functions: `renderScene(t)`, `furniture(t)` and optional `episodeMotionState(t)`. The supported v1 frame profile is 1080×1920 logical, native ×2, 30 fps. Materials use named `paper` and `ink` image slots. Data includes duration, phrase captions and episode-owned events. This is intentionally an extraction, not a universal declarative storyboard language.
 
@@ -34,11 +34,11 @@ Visual fingerprint includes build/input-inspection code, episode config/code/dat
 
 Encoder code has an independent render signature. Packaging-only edits do not invalidate picture renders.
 
-Cache granularity is **whole visual render versus audio**, not per-shot frames. Per-shot transition dependencies, raw-frame transfer optimization and automated shot collision analysis are later extensions. v1 does not claim to shorten an uncached full native render; its gain is preventing unnecessary repeated work.
+Cache granularity is **whole visual render versus audio**, not per-shot frames. Per-shot transition dependencies and automated shot collision analysis are later extensions. v1 does not claim to shorten an uncached full native render; its gain is preventing unnecessary repeated work.
 
 ## Outputs and checks
 
-Native `render` encodes H.264 CRF15/AAC 320k and VP9 CRF22/Opus 256k directly from the same native PNG frame stream. It also produces a CRF20 download MP4 with a runtime-based bitrate ceiling and an actual <512 MiB check. No 1080p upscale is used. Browser export is supported in the default 1080p studio; `?scale=2` is for native production capture and safely directs users back to standard preview for browser export. Browser exports are synchronized review copies; cadence depends on the device, and they do not replace the authoritative fixed-cadence masters.
+Native `render` encodes H.264 CRF15/AAC 320k and VP9 CRF22/Opus 256k directly from the same native lossless RGBA frame stream. It also produces a CRF20 download MP4 with a runtime-based bitrate ceiling and an actual <512 MiB check. No 1080p upscale is used. Browser export is supported in the default 1080p studio; `?scale=2` is for native production capture and safely directs users back to standard preview for browser export. Browser exports are synchronized review copies; cadence depends on the device, and they do not replace the authoritative fixed-cadence masters.
 
 Input checks include pinned font hashes, asset presence, caption order/bounds in time, 48k stereo PCM and matching audio/timeline duration. Encode checks independently validate resolution, codecs, frame count, duration, stereo/rate and full decode. These checks do **not** certify factual/rights review, exact spoken word alignment, caption/UI visibility, perceptual SFX quality, loudness or creative approval. Preserve the Bible's complete release gates and run full episode-specific encoded QA before release; never promote a technical pass to FINAL MASTER.
 
@@ -55,3 +55,6 @@ See [tutorial integration](TUTORIAL_OPTICS_2026_10_13.md) and the tutorial-optic
 
 ## Owner-locked ending and mixed-media material profile
 New episode manifests require brand_ending: london-bridge-v1; historical pig-war and tutorial-optics-test remain unchanged. browser/brand.js draws the exact approved full-opacity plate after finishing and captions. browser/material-profile.js provides object-local paper/print/noise treatments; supply private licensed image slots paperFiber/plastic/photocopy where used. Shared recipes do not substitute for scene-specific photo masks and choreography.
+
+## Lossless transfer update — 13 October 2026
+The frame streamer now reads native Canvas RGBA and transfers it with Blob/FileReader, avoiding browser PNG compression and encoder PNG decoding. Explicit BT.709 primaries and sRGB transfer tags preserve the former PNG metadata; output codec/quality settings are unchanged. Native source RGBA equality against PNG at three London Bridge states and decoded native H264 RGB equality at a mechanism state passed. See LOSSLESS_TRANSFER_QA.json. These are sample comparisons, not a whole-film perceptual certification.
