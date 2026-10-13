@@ -29,3 +29,6 @@ User feedback on Episode 008: animations and presentability were good, but **nar
 
 ## Owner directive, 12 October 2026
 Reuse existing sound libraries before generating new effects. [Approved generated editorial cues](../../audio/generated-editorial-v1/README.md) now preserve the Pig War R2 sounds. Every new generated SFX must be saved, indexed and pushed for reuse.
+
+## Vox sound research, 13 October 2026
+Use the [source-backed research and audition brief](VOX_SOUND_RESEARCH_2026_10_13.md) when selecting the next recorded Foley additions. It separates historical creator testimony, provider claims, third-party tutorial techniques and original Curio criteria. Music editing, material fit and timing are assessed together. No new downloaded pack or exact Vox sample matches have been certified by this research pass.
