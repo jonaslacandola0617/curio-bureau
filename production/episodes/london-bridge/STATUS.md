@@ -7,3 +7,7 @@ Bernard remains the approved voice. Source lock: Sundt's construction account is
 Target: complete synchronized 1080p creative preview, five native styleframes and hard mechanism preflight. Human creative and listening approval open. Native final MP4/WebM follow approval. Captions will be labeled with actual alignment method and limitations.
 
 Private media stays outside public repo. Third-party raw SFX cannot enter public code or downloadable source bundles. Use approved 70-cue collection and preserved original editorial cues first. No new SFX generation authorized by a library gap so far.
+
+Measured timing: 52.5s / 1575 frames; silent intervals shortened only inside measured silence, no speech acceleration. Voice gap detection (-38dB) has no internal >0.85s silence, deliberate end tail 1.123s. Mix WAV -13.06 LUFS / -1.50 dBTP. ASR timestamps from actual audio are transcript-reconciled but not independently word-listening verified.
+
+Map: Natural Earth world land, public domain. Reviewed draft revealed blurred headline spill; map focus is now isolated before crisp editorial title. Dry-land hold corrected to actual “Only afterward” onset 39.61145s. Local fixed-cadence replacement ranges preserve original full soundtrack and unchanged shots.
