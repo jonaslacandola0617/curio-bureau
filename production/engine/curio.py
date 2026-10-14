@@ -20,12 +20,12 @@ def write_json(p,d):Path(p).write_text(json.dumps(d,indent=2))
 def run(args):subprocess.run([str(a) for a in args],check=True)
 
 def validate_visual_direction(c):
- # Existing approved films retain their original appearance and rebuild contract.
- if c['id'] in ['pig-war','tutorial-optics-test','london-bridge']:return
- if c.get('material_profile')!='paper-image-v1' or c.get('visual_style')!='paper-image':
-  raise ValueError('New episodes require the owner-adopted full paper/image style and paper-image-v1 material profile')
+ # Approved historical sources preserve their original render contracts.
+ if c['id'] in ['pig-war','tutorial-optics-test','london-bridge','sunlight-white','astronaut-height']:return
+ if c.get('material_profile')!='image-led-v1' or c.get('visual_style')!='image-led':
+  raise ValueError('New episodes require the owner-adopted image-led style and image-led-v1 material profile')
  missing=set(['paperFiber','plastic','photocopy'])-set(c.get('images',{}))
- if missing:raise ValueError('Paper/image episodes require private material slots: '+', '.join(sorted(missing)))
+ if missing:raise ValueError('Image-led episodes require private material slots: '+', '.join(sorted(missing)))
 
 class Project:
  def __init__(self,args):
@@ -89,7 +89,7 @@ class Project:
   js+='\n'.join((ENGINE/'browser'/n).read_text() for n in BROWSER)
   js+='\n'+'\n'.join((self.episode/n).read_text() for n in c['scripts'])
   js+='\n'+(ENGINE/'browser/frame.js').read_text()+'\n'+(ENGINE/'browser/player.js').read_text()
-  js+="\ndocument.getElementById('scrub').max=DURATION;Promise.all([document.fonts.ready,...Object.values(imgs).map(i=>i.decode())]).then(()=>{if(!document.fonts.check('900 100px \\\"Playfair Display\\\"')||!document.fonts.check('700 36px Manrope'))throw Error('Font loading failed');setupMaterials();renderAt(0);window.renderReady=true;});"
+  js+="\ndocument.getElementById('scrub').max=DURATION;Promise.all([document.fonts.ready,...Object.values(imgs).map(i=>i.decode().catch(error=>{if(!i.complete||!i.naturalWidth||!i.naturalHeight)throw error;const probe=document.createElement('canvas');probe.width=probe.height=1;const q=probe.getContext('2d');q.drawImage(i,0,0,1,1);q.getImageData(0,0,1,1);} ))]).then(()=>{if(!document.fonts.check('900 100px \\\"Playfair Display\\\"')||!document.fonts.check('700 36px Manrope'))throw Error('Font loading failed');setupMaterials();renderAt(0);window.renderReady=true;});"
   template=(ENGINE/'browser/studio.html').read_text();values={'TITLE':html.escape(c['title']),'DESCRIPTION':html.escape(c['description']),'DURATION':str(self.duration),'CSS':font_css+(ENGINE/'browser/player.css').read_text(),'SCRIPT':js.replace('</script','<\\/script')}
   for name,value in values.items():template=template.replace('@@'+name+'@@',value)
   self.studio.write_text(template);self.state['build']={'key':key,'sha256':digest(self.studio)};self.save();write_json(self.out/'input-check.json',report);print('Built',self.studio)

@@ -1,8 +1,10 @@
 {
-  "production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md": "17d16d6a5a399af8d971a083e38e628607e8a4219775884048d6aac943d17b27",
-  "production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md": "66dfa644e154eab25753d098c0ece66e6bdfafa432223ae4310de03836e3bd73",
+  "production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md": "230643b45a0cb01f05d9a9519740488cc536f30f75f8bbbdf06dbac6c17dceb5",
+  "production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md": "101d8787d42c231fcc46c815358045ac2cda4e69d10cf56535184bd3142abff5",
   "production/approved-benchmarks/PIG_WAR_R2_OWNER_APPROVAL.md": "d907744c101b7afc79cfff7c05d8870a584c57dcefa8ec1c010fbc803aaef6f0",
-  "production/approved-benchmarks/PAPER_IMAGE_OWNER_DIRECTION.md": "c6adcf37bc7b27afe53cd9b5876bfc1e8ef0c412c0a7d303c9d78176f643f87f",
-  "production/art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md": "d87d52c167d063aacce860380e5067e1994f10ed6765e2f0a08630513ff28488",
-  "production/art-direction/SCIENCE_SHOT_ART_CONTRACT.md": "6e37c3e9bfa59bf5bf218e96c6ac83889bc27efaff95bfddf2cc5ed1f2b91e0c"
+  "production/approved-benchmarks/PAPER_IMAGE_OWNER_DIRECTION.md": "d03471db2c8769c26e222b11182945e91ff0d669e980260b13ef5d6bab04a1e4",
+  "production/art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md": "aabf9784a6290bcbfec5ddaf7ebbda55df22addd642cfbe64d26e72a78bb0c28",
+  "production/art-direction/SCIENCE_SHOT_ART_CONTRACT.md": "9467e22358da64e4b850f12924bf5c124899e6a3467b9d33dcbc2187bb702dde",
+  "production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md": "81f87d819ddb7c52b9c50103fdca7f52757c3e06f2fedf3069d0462209a42fe4",
+  "production/approved-benchmarks/ASTRONAUT_HEIGHT_R2_OWNER_APPROVAL.md": "e4daf9bf476521b2b324a023780f83bf8caf6c1f60cb19caab48a6d8741a7756"
 }

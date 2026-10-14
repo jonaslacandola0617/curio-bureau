@@ -1,5 +1,7 @@
 # CURIO BUREAU — EDITORIAL ART & MOTION DIRECTION BIBLE
-**ADOPTED v1.4.2 · Updated 14 October 2026 · Current paper/image owner direction governs representation; v1.4 editorial reasoning and release safeguards remain**
+**Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
+
+**ADOPTED v1.4.3 · Updated 14 October 2026 · Current image-led owner direction governs representation; v1.4 editorial reasoning and release safeguards remain**
 
 > **Approval record.** The owner reviewed the proposed v1.4 direction, expressly affirmed it accurately captured their visual intent, specified two corrections, and subsequently requested adoption of the corrected version. Both corrections are integrated below as mandatory production standards, not separate optional advice.
 >
@@ -7,7 +9,7 @@
 >
 > **Preservation:** This chapter adds to the already adopted v1.3 graphics research, v1.2 motion/art protections, v1.1 brand/production rules and original deliverable safeguards. It does not weaken the historically sourced script, brand colors/fonts, emotive narration, central captions, sound design, or full-resolution MP4/WebM release requirements.
 
-**Current representation constraint:** The owner requires full paper/image compositions for new films. Analytical graphics are printed figures or source-anchored annotations within that material world. Earlier photo-to-drawn/environment examples are retained as historical/general craft guidance, not permission to restore the superseded mixed-media default.
+**Current representation constraint:** The owner requires image-led sequences for new films. Specific photographs/cutouts are the visual actors; paper and analytical graphics support image-led explanation. Earlier photo-to-drawn/environment examples are retained as historical/general craft guidance, not permission to restore the superseded mixed-media default.
 
 ## Visual consistency implementation — 14 October 2026
 
@@ -313,18 +315,6 @@ Read the full adopted **v1.4 chapter**, the complete user visual-analysis manual
 **No proprietary Vox pixels, audio, project rigs or source font binaries** are part of this adopted chapter.
 
 
-## Current owner direction — full paper and image style, 13 October 2026, 22:04 UTC+8
-The owner explicitly replaced the earlier mixed-media default. All new films use full paper-and-image editorial compositions: cleared photographs, photographic cutouts, documentary pages, printed scientific figures and materially convincing paper environments. Do not alternate into freestanding vector illustration, generic geometric scenes or drawn-mechanism environments. Necessary maps, data, diagrams, labels and explanatory paths live as printed-paper evidence or source-anchored image annotations. Canvas/SVG/JavaScript remain implementation tools; this is a visual-direction requirement, not a software ban.
+## Current owner direction — image-led sequences, 14 October 2026
 
-Plan the visual argument and connected first/intermediate/resolved states before producing assets. Animate images and papers with meaningful object motion, layered parallax and repaired hidden regions, camera inspection, source-local highlights and foreground occlusion. Cut at registered peak velocity where appropriate, allow purposeful settling and reading holds, and preserve continuity of visual thought. This must feel like a directed moving editorial film, not slides or isolated artwork.
-
-Keep compound/selective blur with coordinated gradient exposure, short focus hunts, restrained chromatic separation, mechanical jitter, brightness variation, visible film grain, local edge boil and ink bleed. Choose each effect for the scene; protect factual image color, source detail and caption readability. Paper fibers, edge wear, print density, photocopy and photo/plastic surface are visibly intentional at phone size, layered by material role. Do not apply every effect to every object.
-
-Use material_profile: paper-image-v1 and visual_style: paper-image for all new episode manifests. Supply private paperFiber/plastic/photocopy texture slots. The exact London Bridge R1 ending remains mandatory through brand_ending: london-bridge-v1; its wording, colors, pinned fonts, positions and fade are unchanged, with no extra texture on the ending. Preserve thick Playfair Display 900 headers, Manrope centered captions, Bernard voice, approved original score quality, existing SFX-first selection, meaningful audible action cues and full native 4K MP4/WebM QA.
-
-Scientific claims, quantities and images need primary sources and item-specific rights/credits. Label scientific false-color imagery, schematics and reconstructions. Do not present paper fabrication as an authentic document. The implementation and source analyses are Vox-inspired editorial techniques; no proprietary Vox project settings or source assets are claimed recovered.
-
-Science is the next editorial focus, replacing the proposed Chicago River episode for now. This is an owner-directed content test, not evidence that history inherently performs poorly. Existing approved/published films remain historical records; their rebuild manifests and material appearance are preserved. The London Bridge mixed-media direction is retained only as superseded episode history, not future production policy.
-
-Governing detail: production/approved-benchmarks/PAPER_IMAGE_OWNER_DIRECTION.md. This explicit later owner instruction supersedes conflicting representation/default material guidance in earlier chapters and episode prompts; factual, rights, audio, caption and native-resolution safeguards remain in force.
-
+The owner approved Astronaut Height R2 and adopted image-led editorial sequences as the new default. Read production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md in full; it governs new film art, motion, textures, optics, sound, typography and delivery. Photographs/photographic cutouts carry the explanation; paper/source pages and drawn annotations support it rather than dominating. Keep strong materials and all earlier approved brand/audio/caption/editorial safeguards. New manifests use visual_style: image-led and material_profile: image-led-v1. Approved historical movies retain their original manifests and appearance. The earlier paper-image directive remains a superseded historical record.
