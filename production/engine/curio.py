@@ -160,7 +160,7 @@ class Project:
    for p in self.out.glob('*.json'):z.write(p,'checks/'+p.name)
    z.write(self.studio,'Studio.html')
    z.writestr('PRIVATE_MATERIAL_NOTICE.txt','Private rebuild bundle. Contains owner materials, licensed fonts and geography notices. Do not publish raw materials.\n')
-   for name in ['AGENTS.md','production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md','production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md','production/approved-benchmarks/PIG_WAR_R2_OWNER_APPROVAL.md','production/approved-benchmarks/PAPER_IMAGE_OWNER_DIRECTION.md']:
+   for name in ['AGENTS.md','production/art-direction/VISUAL_SEQUENCE_DIRECTION.md','production/art-direction/SCIENCE_SHOT_ART_CONTRACT.md','production/art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md','production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md','production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md','production/approved-benchmarks/PIG_WAR_R2_OWNER_APPROVAL.md','production/approved-benchmarks/PAPER_IMAGE_OWNER_DIRECTION.md']:
     source=ENGINE.parent.parent/name
     if source.exists():z.write(source,'governance/'+name)
    for source in (self.out/'qa').glob('*.json'):z.write(source,'checks/qa/'+source.name)
