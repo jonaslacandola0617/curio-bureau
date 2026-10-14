@@ -1,4 +1,4 @@
-# Recorded Voice R1 — review rendered; persistent delivery blocked
+# Recorded Voice R1 — environment loss; review requires reconstruction
 
 The new image-led science movie is assembled: 35.3 seconds, 1080×1920, 30 fps, 1,059 frames, Bernard narration, four cleared source photographs, eighteen reused Foley cues, an existing original Curio music stem adapted for this mix, and the exact London Bridge ending.
 
@@ -9,3 +9,9 @@ Local review: recorded_voice_build/Preview.mp4. Local private source archive: re
 STORAGE_CLEANUP_PROPOSAL.json lists only 39 completed astronaut native frame checkpoint parts, totaling 11,416,949,751 bytes. Any deletion needs explicit owner authorization; keep the saved astronaut master, posting MP4, WebM, original private project, sound libraries and unrelated files. Do not bypass the Drive rejection by sending the private archive elsewhere without authorization.
 
 Narration recovery: Runway task 21ea040d-b8d1-40e6-9b00-660b38f2f0ee; do not regenerate it merely because storage is blocked. Source photos and licenses are in RESEARCH_AND_RIGHTS.md; the original fonts/textures/music are recoverable from the saved astronaut project. Native 4K must wait for new moving approval.
+
+## Recovery update — 14 October 2026 UTC / 15 October Manila
+
+Owner explicitly approved the proposed checkpoint cleanup with “sure”. All 39 exact files in STORAGE_CLEANUP_PROPOSAL.json were successfully moved to trash, totaling 11,416,949,751 bytes. Five additional duplicate-named checkpoint files surfaced in search but were outside this approved list and were left intact. Saved Astronaut 4K Master, Upload, WebM and original private project were found with their original IDs and sizes; no mutation targeted them.
+
+After runtime reconnected, both recorded_voice_build/Preview.mp4 and recorded_voice_project/Recorded_Voice_Private_Source_R1.zip were absent. The entire recorded_voice_src/project/build directories are absent. No Recorded Voice deliverable was found in Library. Thus the earlier render and its local animation code cannot be delivered as an existing file. Planning, narration text, research and rights remain on this branch; original narration remains recoverable from the Runway task above. Existing astronaut source archive remains locally available and in Library. Reconstruction is required and must be reviewed again. Do not represent the earlier machine QA as validation of a future reconstructed render. Native 4K has not started. No Google Drive upload was attempted again.
