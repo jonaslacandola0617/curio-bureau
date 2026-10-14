@@ -1,10 +1,8 @@
-id,start,end,representation_family,camera_state_change,narrative_fact
-hook,0,2.9492100000000003,photographic_cutout,Earth/astronaut/title parallax,Spaceflight context; temporary height question
-evidence,2.9492100000000003,6.74921,source_excerpt,Source-relative marker and camera focus,Up to 3%; not universal
-anatomy,6.74921,9.094629999999999,printed_anatomy,Whole-column to anatomical detail,Spine supplies height change
-earth,9.094629999999999,12.17463,printed_anatomy,Same source with loading arrow,Earth loading
-micro,12.17463,16.01463,tracing_annotation,Loading arrow fades; comparison prepared,Reduced usual loading
-change,16.01463,19.44363,printed_comparison,Conceptual curved/longer overlays; fixed baseline,Straightening/elongation
-research,19.44363,24.02363,photographic_evidence,Photo establishment then probe inspection,Actual spinal-ultrasound investigation
-fit,24.02363,30.219029999999997,photo_source_composition,Technical-summary selection over suit print,Accommodation matters
-return,30.219029999999997,39.06666666666667,photo_measurement_callback,Stable illustrative baseline resolves; exact ending,Temporary height; normal on Earth
+shot,start,end,representation,motion,review_focus
+hook,0,2.94921,Photographic Earth + NASA astronaut cutout,Independent opposing parallax and close helmet approach,Headline clears; no partial highlight exit
+stature,2.94921,6.74921,Registered photographic astronaut pair,Upright comparative silhouette height animation,Exaggerated/non-measurement qualifiers
+identity,6.74921,9.09463,Physical spine model photo + isolated photographic cutout,Cutout peels from unequal overlapping source planes,Model creator/license credit
+loading,9.09463,19.44363,Animated spine photograph + detail/Earth prints,"Load release; illustrative curve straightening, extension, foreground inspection","Source ghost, motion exaggerated"
+research,19.44363,24.02363,Actual NASA ISS ultrasound photograph,Large probe/patient inspection with compound focus,Actual subject/date credited
+fit,24.02363,30.21903,NASA suit macro + ISS photographic prints,Unequal opposing source-plane movements,"NTRS factual excerpt small, images dominant"
+return,30.21903,39.066667,NASA astronaut/Earth photo composite,Height comparison settles; physical-model detail resolves,Exact locked ending after 37.9667

@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "astronaut-height",
   "title": "Why Astronauts Get Taller in Space \u2014 Curio Bureau",
-  "description": "Full paper/image science film \u2022 complete moving review \u2022 temporary spinal elongation",
+  "description": "Image-led R2 training review: stronger parallax, close astronaut, photographic anatomy and forward Foley",
   "width": 1080,
   "height": 1920,
   "fps": 30,
@@ -24,9 +24,13 @@
     "paperFiber": "fiber_browser.jpg",
     "plastic": "plastic_browser.jpg",
     "photocopy": "photocopy_browser.jpg",
-    "hero": "hero_browser.jpg",
+    "hero": "suit_macro.png",
     "ultrasound": "ultrasound_browser.png",
-    "spine": "spine.png"
+    "astro": "astronaut_cutout.png",
+    "earth": "earth_browser.png",
+    "spinePhoto": "spine_photo_cutout.png",
+    "modelFull": "spine_photo_1.png",
+    "modelDetail": "spine_photo_6.png"
   },
   "data_files": [
     "timing.json"
@@ -41,12 +45,12 @@
   "audio_builder": "audio.py",
   "audio_inputs": [
     "assets/voice_full.wav",
-    "assets/music_full.wav",
+    "assets/music_ducked_r2.wav",
     "assets/sfx_full.wav",
     "assets/timing.json"
   ],
   "release_status": "RENDER CANDIDATE",
-  "creative_note": "Bible v1.4.2. Owner full moving review before native 4K.",
+  "creative_note": "Owner revision 14 October: photographs carry the explanation; meaningful larger motion and audible action Foley. Moving owner review pending.",
   "audio_builder_location": "episode",
   "optics": {
     "enabled": true

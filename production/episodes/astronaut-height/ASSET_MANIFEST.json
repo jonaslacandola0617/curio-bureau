@@ -1,66 +1,67 @@
-[
-  {
-    "slot": "paper",
-    "filename": "paper_material.jpg",
-    "sha256": "d5d130fa2e1f31880984f8b947f6a0ff7e6b6b4160fcec1f9168b5ab9c9f48a5",
-    "location": "Private project; not raw public repository asset",
-    "source_context": "See RESEARCH_AND_RIGHTS.md",
-    "review_status": "Source and intended use checked; owner moving review pending"
-  },
-  {
-    "slot": "ink",
-    "filename": "ink_density.png",
-    "sha256": "c063f670d98da5a0658b89f0ad82a56e80e4fbf7efaa60e41f4b32abaf769fbf",
-    "location": "Private project; not raw public repository asset",
-    "source_context": "See RESEARCH_AND_RIGHTS.md",
-    "review_status": "Source and intended use checked; owner moving review pending"
-  },
-  {
-    "slot": "paperFiber",
-    "filename": "fiber_browser.jpg",
-    "sha256": "239a165a44c6a3de2ba1ba005e74af04bc848e1133a05db4f681db92c7d63997",
-    "location": "Private project; not raw public repository asset",
-    "source_context": "See RESEARCH_AND_RIGHTS.md",
-    "review_status": "Source and intended use checked; owner moving review pending"
-  },
-  {
-    "slot": "plastic",
-    "filename": "plastic_browser.jpg",
-    "sha256": "27c8712e0a20f2189db8d4f53a028996b50a7274d81640407bffea49fd82f961",
-    "location": "Private project; not raw public repository asset",
-    "source_context": "See RESEARCH_AND_RIGHTS.md",
-    "review_status": "Source and intended use checked; owner moving review pending"
-  },
-  {
-    "slot": "photocopy",
-    "filename": "photocopy_browser.jpg",
-    "sha256": "7ceb7d5cf5046f00a1d9d5e5858f7c689328d7e1efa54bbb6cf66629641db6e1",
-    "location": "Private project; not raw public repository asset",
-    "source_context": "See RESEARCH_AND_RIGHTS.md",
-    "review_status": "Source and intended use checked; owner moving review pending"
-  },
-  {
-    "slot": "hero",
-    "filename": "hero_browser.jpg",
-    "sha256": "cc709115d340e54b7e0e4be13777e7424a67514b0243a347b1f4e6d097f490dd",
-    "location": "Private project; not raw public repository asset",
-    "source_context": "See RESEARCH_AND_RIGHTS.md",
-    "review_status": "Source and intended use checked; owner moving review pending"
-  },
-  {
-    "slot": "ultrasound",
-    "filename": "ultrasound_browser.png",
-    "sha256": "632fcceb696426eef9b27b1c12d3765e1e94b56d96b412969f1c4ba5805c9f06",
-    "location": "Private project; not raw public repository asset",
-    "source_context": "See RESEARCH_AND_RIGHTS.md",
-    "review_status": "Source and intended use checked; owner moving review pending"
-  },
-  {
-    "slot": "spine",
-    "filename": "spine.png",
-    "sha256": "ec3c6fe35545e08b4e9bea4c426c6c7d792c22d089834ad49698d31c1899d2b2",
-    "location": "Private project; not raw public repository asset",
-    "source_context": "See RESEARCH_AND_RIGHTS.md",
-    "review_status": "Source and intended use checked; owner moving review pending"
-  }
-]
+{
+  "revision": "R2 image-led training review",
+  "files": [
+    {
+      "slot": "paper",
+      "file": "paper_material.jpg",
+      "sha256": "d5d130fa2e1f31880984f8b947f6a0ff7e6b6b4160fcec1f9168b5ab9c9f48a5"
+    },
+    {
+      "slot": "ink",
+      "file": "ink_density.png",
+      "sha256": "c063f670d98da5a0658b89f0ad82a56e80e4fbf7efaa60e41f4b32abaf769fbf"
+    },
+    {
+      "slot": "paperFiber",
+      "file": "fiber_browser.jpg",
+      "sha256": "239a165a44c6a3de2ba1ba005e74af04bc848e1133a05db4f681db92c7d63997"
+    },
+    {
+      "slot": "plastic",
+      "file": "plastic_browser.jpg",
+      "sha256": "27c8712e0a20f2189db8d4f53a028996b50a7274d81640407bffea49fd82f961"
+    },
+    {
+      "slot": "photocopy",
+      "file": "photocopy_browser.jpg",
+      "sha256": "7ceb7d5cf5046f00a1d9d5e5858f7c689328d7e1efa54bbb6cf66629641db6e1"
+    },
+    {
+      "slot": "hero",
+      "file": "suit_macro.png",
+      "sha256": "38097f76560c15f5875ee55ce5c89ec813d90b773665462b638e6185b96f6dec"
+    },
+    {
+      "slot": "ultrasound",
+      "file": "ultrasound_browser.png",
+      "sha256": "632fcceb696426eef9b27b1c12d3765e1e94b56d96b412969f1c4ba5805c9f06"
+    },
+    {
+      "slot": "astro",
+      "file": "astronaut_cutout.png",
+      "sha256": "1d7a547023d48dd10d96ca7140054dc1ebe8e5f136e8aa2cc5f7953d23971ad4"
+    },
+    {
+      "slot": "earth",
+      "file": "earth_browser.png",
+      "sha256": "b004ffe325a13e30b9028c00605773759f8c4e41ba34cd1f8d362ce903d9aecc"
+    },
+    {
+      "slot": "spinePhoto",
+      "file": "spine_photo_cutout.png",
+      "sha256": "c25e81810908114daaf9ba2e8c955e0a060bec05a4cdda1d5a6306ab4c68e946"
+    },
+    {
+      "slot": "modelFull",
+      "file": "spine_photo_1.png",
+      "sha256": "1de8c254741c961a0905de29502df578b8a83ac34e35beed3148de16a5c2c662"
+    },
+    {
+      "slot": "modelDetail",
+      "file": "spine_photo_6.png",
+      "sha256": "0f2f10721e62d8b6811fe9ef09e2562de00fe9995d42254a6dda343ee230c597"
+    }
+  ],
+  "raw_stock_in_public_repository": false,
+  "scientific_motion": "Photographic model/astronaut transformations explicitly illustrative and exaggerated"
+}

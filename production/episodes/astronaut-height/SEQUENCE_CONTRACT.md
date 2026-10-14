@@ -1,21 +1,13 @@
-# Astronaut height — directed paper/image sequence R1
+# R2 photographic sequence contract
 
-Commissioned 14 October 2026. Bible v1.4.2, full paper/image art standard. Initial viewer belief: adult height stays fixed. Final understanding: reduced spinal loading in microgravity permits temporary elongation; this is not permanent skeletal growth. No claim that gravity vanishes in orbit, that everyone gains exactly 3%, or that disc expansion alone is established.
+| Beat | First state → moving development → resolved understanding |
+|---|---|
+| Hook | NASA astronaut/Earth collage → independent counter-travel, approximately 2× astronaut scale toward helmet → temporary height hook |
+| Up to 3% | Same NASA silhouette, registered comparison → exaggerated height animation with qualifiers → temporary stature change, not measured photograph |
+| Spine identity | Actual complete physical-model photo → cutout peels toward viewer while source remains recognizable → photographed spine carries explanation |
+| Loading | Photographic cutout on print surface → load arrow lifts; curved image straightens, extends; camera inspects → illustrative spinal length change |
+| Research | Real NASA ISS ultrasound photo → large inspection toward probe/patient, source-local pointer/focus → actual research context |
+| Fit | Unequal overlapping suit macro and ISS prints → independently moving source planes, small bright fact strip → crew accommodation must account for change |
+| Return | Photographic astronaut/Earth return → illustrated excess height settles, spine model thumbnail returns → temporary, not permanent growth |
 
-## Hook alternatives
-Selected A: actual NASA spacewalk print with independent Earth/background, photographed astronaut cutout and headline planes; movement reveals a paper measurement motif. “Space can make you taller. But you don't get to keep it.” The image establishes spaceflight, not measured stature of the photographed astronaut.
-B: printed height scale and a NASA source excerpt reveal the 3% limit before the astronaut photo. C: actual ultrasound photograph and a printed spine create the question before the numerical reveal. A has strongest immediate recognition and depth. Alternatives are planning concepts; no independent audience retention or hook A/B pass claimed.
-
-## Connected states and asset requirements
-1. **Recognition:** full-sized photographic print, clipped original astronaut, Earth photo plane, large vertical-arriving Playfair 900 title. Camera approach separates planes; titled foreground clears as source paper enters. Background behind the separated astronaut uses only non-evidentiary black space. Full exits required. NASA S84-27017 used as illustrative spaceflight context, not a before/after height measurement.
-2. **Evidence:** source paper established with attribution and explicit EDITORIAL EXCERPT label. Whole-source context → source-local bright marker on “up to three percent” → camera follows, compound focus/gradient isolate phrase → readable hold. The highlighted limit becomes a printed measurement edge in next shot.
-3. **Anatomy recognition:** a refined spine source printed on a distinct figure sheet. Camera inspects the column; anatomy and body-weight support labels enter separately. Caption lane remains clear.
-4. **Loading and change:** same printed anatomical frame and a tracing-paper comparison retain orientation and bottom baseline. Earth loading arrows diminish as microgravity is introduced. A clearly labeled conceptual overlay reduces curvature/lengthens along its retained axis; change exaggerated for readability, not a measured patient image or quantitative simulation. Do not make each vertebra grow or depict the spine as perfectly straight.
-5. **Investigation:** anatomy sheet passes close to camera to reveal the authentic NASA spinal-ultrasound photograph. Establish entire photograph then inspect probe/research action with source-local annotation and focus. No invented ultrasound monitor data.
-6. **Practical implication:** photo remains source context while a NASA technical-report excerpt and a real spacesuit photograph form an unequal evidence composition. “Seats and spacesuits” must refer to verified accommodation considerations, not a claim somebody became trapped.
-7. **Return:** opening print and comparison strip return in a different scale. Earth loading context resolves the temporary measurement; baseline remains stable. Final statement clarifies temporary height, then exact London Bridge ending.
-
-## Craft and review
-Five demanding checkpoints: layered opening, evidence macro, anatomy recognition, hardest changing-curvature intermediate, ultrasound inspection. Inspect phone/native samples and moving joins before full review render. Strong material-specific fibers/print/plastic/ink; source-local annotations; short focus hunt and restrained chromatic separation; visible film grain/jitter; local ink cadence, not photographic wobble. Full camera/object exits and no conflicting title/caption furniture.
-
-Actual Bernard recording is timing authority. Original evolving score plus existing owner-retained catalog Foley; no new generated SFX. Five frames and hard moving joins require separate artistic assessment. Full 1080p review with final audio/captions precedes native 4K. Caption timestamps are actual-audio ASR reconciled to script, not independently word-listening certified.
+Caption lane remains screen fixed. The ending is the shared London Bridge v1 endcard. Bright annotations support source images; they do not replace them. Review full object exits, helmet mask, anatomical source identity, five demanding native frames and the opening moving handoff before delivery.

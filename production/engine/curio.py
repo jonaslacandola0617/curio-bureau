@@ -89,7 +89,7 @@ class Project:
   js+='\n'.join((ENGINE/'browser'/n).read_text() for n in BROWSER)
   js+='\n'+'\n'.join((self.episode/n).read_text() for n in c['scripts'])
   js+='\n'+(ENGINE/'browser/frame.js').read_text()+'\n'+(ENGINE/'browser/player.js').read_text()
-  js+="\ndocument.getElementById('scrub').max=DURATION;Promise.all([document.fonts.ready,...Object.values(imgs).map(i=>i.decode())]).then(()=>{if(!document.fonts.check('900 100px \\\"Playfair Display\\\"')||!document.fonts.check('700 36px Manrope'))throw Error('Font loading failed');setupMaterials();renderAt(0);window.renderReady=true;});"
+  js+="\ndocument.getElementById('scrub').max=DURATION;Promise.all([document.fonts.ready,...Object.values(imgs).map(i=>i.decode().catch(error=>{if(!i.complete||!i.naturalWidth||!i.naturalHeight)throw error;const probe=document.createElement('canvas');probe.width=probe.height=1;const q=probe.getContext('2d');q.drawImage(i,0,0,1,1);q.getImageData(0,0,1,1);} ))]).then(()=>{if(!document.fonts.check('900 100px \\\"Playfair Display\\\"')||!document.fonts.check('700 36px Manrope'))throw Error('Font loading failed');setupMaterials();renderAt(0);window.renderReady=true;});"
   template=(ENGINE/'browser/studio.html').read_text();values={'TITLE':html.escape(c['title']),'DESCRIPTION':html.escape(c['description']),'DURATION':str(self.duration),'CSS':font_css+(ENGINE/'browser/player.css').read_text(),'SCRIPT':js.replace('</script','<\\/script')}
   for name,value in values.items():template=template.replace('@@'+name+'@@',value)
   self.studio.write_text(template);self.state['build']={'key':key,'sha256':digest(self.studio)};self.save();write_json(self.out/'input-check.json',report);print('Built',self.studio)

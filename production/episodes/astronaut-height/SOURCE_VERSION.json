@@ -1,10 +1,14 @@
 {
-  "bible": "1.4.2",
-  "base_commit": "a30a90341a87a864b9dddc332238a5792deb7c8b",
-  "voice": "Bernard",
-  "voice_task": "4b2c852a-fa5a-4ce6-8bdd-500a8cf5a6af",
-  "material_profile": "paper-image-v1",
-  "ending": "london-bridge-v1",
-  "art_standard": "SCIENCE_PAPER_IMAGE_STANDARD v1.0",
-  "status": "REVIEW; owner moving/listening approval before 4K"
+  "revision": "R2",
+  "repository": "jonaslacandola0617/curio-bureau",
+  "branch": "film/astronaut-height",
+  "git_parent": "fba0672699363abfff11a47184a5713e0e7a6f5b",
+  "source_hashes": {
+    "scenes.js": "83e5b59342625c19dedc33fb6ff44481545ac7b6e12784bd3bc596140b296d9c",
+    "episode.json": "30496b07d31e7297d9f4a5170a86a5eed28a07f9eb512f52a4bbb3d133fc712d",
+    "mix.wav": "12f6260a92de4e7999cf42e93e465c5287444f449cea7bc7f965f6a9e45c5f68"
+  },
+  "bible": "v1.4.2",
+  "new_owner_instruction": "OWNER_R2_REVISION.md",
+  "delivery_status": "training review; owner approval pending"
 }

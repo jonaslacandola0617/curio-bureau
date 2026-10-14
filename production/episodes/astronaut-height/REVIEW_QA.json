@@ -1,79 +1,47 @@
 {
-  "status": "FULL MOVING REVIEW; OWNER APPROVAL PENDING",
-  "video": {
-    "width": 1080,
-    "height": 1920,
-    "r_frame_rate": "30/1",
-    "codec_name": "h264",
-    "nb_read_frames": "1172",
-    "duration": "39.066667"
-  },
-  "audio": {
-    "codec_name": "aac",
-    "sample_rate": "48000",
-    "channels": 2,
-    "duration": "39.066000"
-  },
-  "full_decode": "PASS; zero error output",
-  "boxes": [
-    {
-      "offset": 0,
-      "size": 32,
-      "type": "ftyp"
-    },
-    {
-      "offset": 32,
-      "size": 44144,
-      "type": "moov"
-    },
-    {
-      "offset": 44176,
-      "size": 21392,
-      "type": "free"
-    },
-    {
-      "offset": 65568,
-      "size": 8,
-      "type": "free"
-    },
-    {
-      "offset": 65576,
-      "size": 166784406,
-      "type": "mdat"
+  "revision": "R2",
+  "status": "TRAINING REVIEW \u2014 OWNER APPROVAL PENDING",
+  "movie_sha256": "6d477ac6ec57e7f05b80e36a8def9b96de60193b85f07decacb0133a8e3ae853",
+  "movie_size": 117921854,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "frames": 1172,
+  "duration": 39.066667,
+  "full_decode": "PASS",
+  "moov_count": 1,
+  "loudness_LUFS": -14.46,
+  "true_peak_dBTP": -2.66,
+  "narration_source_unchanged": true,
+  "original_score_source_unchanged": true,
+  "action_cues": 20,
+  "new_sfx_generated": false,
+  "audio_only_remux_video_identity": {
+    "video_bitstream_identical": true,
+    "hashes": {
+      "Astronaut_Height_R2_Review_final_unique.mp4": "SHA256=e958b3b147e8a5d49d42e4d968c252216318a9c0b980eb07cfe3f1aeadeca662",
+      "Astronaut_Height_R2_Checked.mp4": "SHA256=e958b3b147e8a5d49d42e4d968c252216318a9c0b980eb07cfe3f1aeadeca662"
     }
-  ],
-  "loudness": {
-    "input_i": "-13.28",
-    "input_tp": "-1.42",
-    "input_lra": "1.90",
-    "input_thresh": "-23.55",
-    "output_i": "-13.18",
-    "output_tp": "-1.50",
-    "output_lra": "1.80",
-    "output_thresh": "-23.39",
-    "normalization_type": "dynamic",
-    "target_offset": "0.18"
   },
-  "scene_sha256": "cd0ad710eb732fae1d2d6bf137d8b6502e04d98a14a6be939df4e2288cf3117c",
-  "canonical_mix_sha256": "4edb4bc1deaec6745ee73f6f882e5569f40c64958c2225a891ab3cd951c844b8",
-  "movie_sha256": "3497fd970af7a442988623c9f56337cf2a13f00fc24f4c73957802a9c1d78d62",
-  "native_4k_video": "NOT RENDERED; owner moving review first",
-  "caption_status": "Actual-audio ASR reconciled, not independently word-listening certified",
-  "creative_listening": "Owner phone/headphone review pending",
-  "export_method": "Unique output path with reserved MP4 header; rejected earlier file excluded",
-  "encoded_contact_samples": [
-    0,
-    1.4,
-    2.82,
-    4.75,
-    7.9,
-    13.3,
-    17.5,
-    21.7,
-    27.2,
-    34.7,
-    37.9,
-    38.9
-  ],
-  "phone_UI_check": "Representative platform envelope and caption bounds inspected; not a certification of every current app configuration"
+  "native_styleframe_checks": {
+    "errors": [],
+    "dimensions": [
+      2160,
+      3840
+    ],
+    "fonts": [
+      true,
+      true
+    ]
+  },
+  "source_hashes": {
+    "scenes.js": "83e5b59342625c19dedc33fb6ff44481545ac7b6e12784bd3bc596140b296d9c",
+    "episode.json": "30496b07d31e7297d9f4a5170a86a5eed28a07f9eb512f52a4bbb3d133fc712d",
+    "mix.wav": "12f6260a92de4e7999cf42e93e465c5287444f449cea7bc7f965f6a9e45c5f68"
+  },
+  "native_4K_rendered": false,
+  "owner_moving_visual_and_listening_review": "PENDING",
+  "captions": "Unchanged actual-audio machine ASR. Not independently word-listening certified."
 }
