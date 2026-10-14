@@ -1,0 +1,14 @@
+{
+  "missing_translation": "Sequence shot 1 requires reference-to-execution translation",
+  "missing_render": "Rendered review requires path and SHA-256 for initial",
+  "fallback": "Unresolved visual fallback findings block motion",
+  "pending_owner": "Owner art/sequence approval must be recorded before moving production",
+  "rejected_owner": "Owner art/sequence approval must be recorded before moving production",
+  "complete_records": {
+    "contract_fields": "PASS",
+    "stage": "motion",
+    "shots": 1,
+    "artistic_quality": "not inferred from validation"
+  },
+  "legacy_preserved": true
+}

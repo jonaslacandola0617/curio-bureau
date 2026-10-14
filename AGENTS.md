@@ -53,3 +53,8 @@ Read production/engine/NARRATION_TAIL_QA.md. The published Astronaut film's last
 
 ## Mandatory visual sequence contract — 15 October 2026
 Read production/art-direction/VISUAL_SEQUENCE_DIRECTION.md before all new creative work. Fill visual operation, subject action, resulting understanding, invariant and connected states in every shot contract. Test the explanation without narration, retaining useful labels; owner art/sequence review precedes moving integration. Do not substitute repeated heading/photo cards, extra texture or camera drift for an operation. The owner approved the appearance of four finished static studies; that is not approval of a new sequence or motion. Current Bible is v1.4.4.
+
+
+## Rendered visual translation safeguard
+
+Apply `production/art-direction/VISUAL_TRANSLATION_REVIEW.md` in full. The rejected Recorded Voice beatboard is not an approved benchmark. One demanding rendered passage and its comparison precede owner art approval and animation.

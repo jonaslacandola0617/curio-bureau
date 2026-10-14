@@ -725,3 +725,8 @@ Reusable engine v1.1 now provides opt-in timing curves, registered cuts at peak 
 ## Current owner direction — image-led sequences, 14 October 2026
 
 The owner approved Astronaut Height R2 and adopted image-led editorial sequences as the new default. Read production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md in full; it governs new film art, motion, textures, optics, sound, typography and delivery. Photographs/photographic cutouts carry the explanation; paper/source pages and drawn annotations support it rather than dominating. Keep strong materials and all earlier approved brand/audio/caption/editorial safeguards. New manifests use visual_style: image-led and material_profile: image-led-v1. Approved historical movies retain their original manifests and appearance. The earlier paper-image directive remains a superseded historical record.
+
+
+## Rendered visual translation safeguard
+
+Apply `production/art-direction/VISUAL_TRANSLATION_REVIEW.md` in full. The rejected Recorded Voice beatboard is not an approved benchmark. One demanding rendered passage and its comparison precede owner art approval and animation.

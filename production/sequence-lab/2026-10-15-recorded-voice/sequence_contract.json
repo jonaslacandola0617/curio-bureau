@@ -94,9 +94,9 @@
     }
   ],
   "owner_sequence_review": {
-    "status": "pending",
-    "date": null,
-    "evidence": null
+    "status": "rejected",
+    "date": "2026-10-15",
+    "evidence": "Owner challenged the new beatboard; assistant identified headline/photo/flowchart fallback. Owner subsequently authorized replacement with one demanding passage."
   },
   "owner_motion_review": {
     "status": "not reviewed",

@@ -52,3 +52,8 @@ Future science videos use the same decision process with subject-specific operat
 The 15 October Epigenetics comparison inspected seven creator-portfolio styleframes and both process GIFs, plus sampled actual Recorded Voice and Astronaut Height review exports. Behance retrieval was blocked; original project image files were obtained through Lucas Mariano's own public portfolio. Process stages are not a verified full-film edit order. No private Vox project files, proprietary curves, full reference-film audio or audience-retention results were recovered.
 
 The observations support varied editorial roles and manipulable components. These requirements are the owner's adoption of original Curio operating rules derived from that analysis. Never clone creator source pixels or treat visual metaphor as experimental evidence.
+
+
+## Rendered visual translation safeguard
+
+Apply `production/art-direction/VISUAL_TRANSLATION_REVIEW.md` in full. The rejected Recorded Voice beatboard is not an approved benchmark. One demanding rendered passage and its comparison precede owner art approval and animation.

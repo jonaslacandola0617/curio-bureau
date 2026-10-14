@@ -16,7 +16,21 @@ def validate_contract(contract,stage='artwork'):
  for i,shot in enumerate(shots):
   missing=[k for k in REQUIRED if not isinstance(shot.get(k),str) or not shot[k].strip() or shot[k].strip().lower() in {'todo','tbd','pending','to complete'}]
   if missing:raise ValueError(f'Sequence shot {i+1} missing decisions: '+', '.join(missing))
+  translation=shot.get('visual_translation',{})
+  keys=('reference_observation','transferable_principle','original_execution','asset_operation')
+  if any(not isinstance(translation.get(k),str) or not translation[k].strip() for k in keys):
+   raise ValueError(f'Sequence shot {i+1} requires reference-to-execution translation')
  if stage in {'motion','release'}:
+  rendered=contract.get('rendered_review',{})
+  for key in ('initial','intermediate','resolved'):
+   item=rendered.get(key,{})
+   digest=item.get('sha256','')
+   if not item.get('path') or len(digest)!=64 or any(c not in '0123456789abcdef' for c in digest):
+    raise ValueError('Rendered review requires path and SHA-256 for '+key)
+  if any(not isinstance(rendered.get(k),str) or not rendered[k].strip() for k in ('heading_hidden_evidence','comparison','remaining_weaknesses')):
+   raise ValueError('Rendered comparison, weaknesses and heading-hidden evidence required')
+  if rendered.get('unresolved_fallbacks')!=[]:
+   raise ValueError('Unresolved visual fallback findings block motion')
   review=contract.get('owner_sequence_review',{})
   if review.get('status')!='approved' or not review.get('date') or not review.get('evidence'):
    raise ValueError('Owner art/sequence approval must be recorded before moving production')

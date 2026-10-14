@@ -68,3 +68,8 @@ The frame streamer now reads native Canvas RGBA and transfers it with Blob/FileR
 Read [visual sequence direction](../art-direction/VISUAL_SEQUENCE_DIRECTION.md). Name each beat’s operation, resulting understanding and inheritance; review connected finished states before moving integration. Preserve approved-source rebuilds and existing art/audio/ending/native gates.
 
 Engine enforcement: new manifests provide `sequence_contract_version: 1` and `sequence_contract` (episode-relative JSON). Input checks validate required decisions; browser moving builds require recorded owner sequence approval; native render requires moving-preflight approval. Existing approved episode sources without a new contract retain their original rebuild route. A reworked sequence uses a new episode ID or supplies a new contract. The validator checks records, not artistic merit.
+
+
+## Rendered visual translation safeguard
+
+Apply `production/art-direction/VISUAL_TRANSLATION_REVIEW.md` in full. The rejected Recorded Voice beatboard is not an approved benchmark. One demanding rendered passage and its comparison precede owner art approval and animation.

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "shots": [
+    {
+      "viewer_before": "Self voice and recorded voice can differ",
+      "factual_proposition": "Normal airborne recording omits the original internally transmitted component; room and microphone also matter",
+      "visual_operation": "select",
+      "subject_action": "A source-exact gold fragment enters the record; coral stays at speaker",
+      "viewer_after": "One represented category is captured, one stays at source",
+      "invariant": "Same portrait, gold print and coral category",
+      "initial_state": "Speaker faces microphone amid external gold field",
+      "difficult_intermediate": "Gold fragment is selected and bent toward record",
+      "resolved_state": "Record retains gold and actual narration envelope",
+      "next_inheritance": "Next passage inherits recorded signal; not built here",
+      "representation_reason": "Direct cutout encounter and material selection serve capture",
+      "source_truth_boundary": "Conceptual categories; generated portrait; no anatomical or amplitude measurement",
+      "caption_clearance": "Guide included; final captions unapproved",
+      "reading_hold": "Static only; reading timing untested",
+      "visual_translation": {
+        "reference_observation": "Epigenetics process examples combine independent subject components and inspection; not a film EDL",
+        "transferable_principle": "Make source components participate in an operation",
+        "original_execution": "Extract matching gold source fragment into record while coral stays",
+        "asset_operation": "Independent portrait, microphone matte, shared field crop, source-associated tint and paper record"
+      }
+    }
+  ],
+  "owner_sequence_review": {
+    "status": "pending",
+    "date": "2026-10-15",
+    "evidence": "New rendered passage awaits owner review"
+  },
+  "rendered_review": {
+    "initial": {
+      "path": "Passage_01.png",
+      "sha256": "a1d856f621f55b95251ddb211d82303886e769366c884163ca31805867f9d7be"
+    },
+    "intermediate": {
+      "path": "Passage_02.png",
+      "sha256": "72b27bdaf4a5ee39d3418faa167333a7d391bf719b72bf7c71fc348cc3d8c4ce"
+    },
+    "resolved": {
+      "path": "Passage_03.png",
+      "sha256": "8d1ec5f825d47bd913c2e40e371d79c371f4302b1d85c4040f7143a59c011e25"
+    },
+    "heading_hidden_evidence": "checks/No_Heading_01.png through 03.png; inspected",
+    "comparison": "Rendered_Comparison.md",
+    "remaining_weaknesses": "Metaphor depends on labels; motion/captions untested",
+    "unresolved_fallbacks": []
+  }
+}
