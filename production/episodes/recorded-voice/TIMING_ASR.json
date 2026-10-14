@@ -1,0 +1,110 @@
+{
+  "duration": 35.266666666666666,
+  "events": {
+    "routes": 3.38,
+    "air": 6.66,
+    "body": 8.88,
+    "extra": 14.2,
+    "mic": 17.82,
+    "playback": 22.82,
+    "conditions": 26.54,
+    "resolve": 29.2
+  },
+  "captions": [
+    {
+      "text": "Why does your voice sound",
+      "start": 0.04,
+      "end": 1.26
+    },
+    {
+      "text": "so different on a recording?",
+      "start": 1.26,
+      "end": 3.36
+    },
+    {
+      "text": "When you speak, you hear",
+      "start": 3.38,
+      "end": 4.62
+    },
+    {
+      "text": "it through two routes. Sound",
+      "start": 4.62,
+      "end": 6.66
+    },
+    {
+      "text": "travels through the air to",
+      "start": 6.66,
+      "end": 7.9
+    },
+    {
+      "text": "your ears. But vibrations also",
+      "start": 7.9,
+      "end": 10.28
+    },
+    {
+      "text": "travel through your skull and",
+      "start": 10.28,
+      "end": 11.66
+    },
+    {
+      "text": "other tissues to your inner",
+      "start": 11.66,
+      "end": 13.12
+    },
+    {
+      "text": "ears. That extra route changes",
+      "start": 13.12,
+      "end": 15.76
+    },
+    {
+      "text": "the sound you're used to.",
+      "start": 15.76,
+      "end": 17.8
+    },
+    {
+      "text": "A normal microphone captures the",
+      "start": 17.82,
+      "end": 19.6
+    },
+    {
+      "text": "sound in the air, not",
+      "start": 19.6,
+      "end": 20.92
+    },
+    {
+      "text": "those internal vibrations. So playback",
+      "start": 20.92,
+      "end": 23.48
+    },
+    {
+      "text": "leaves out part of your",
+      "start": 23.48,
+      "end": 24.98
+    },
+    {
+      "text": "usual experience. The microphone and",
+      "start": 24.98,
+      "end": 27.82
+    },
+    {
+      "text": "room can change it too.",
+      "start": 27.82,
+      "end": 29.2
+    },
+    {
+      "text": "Both versions are you. You're",
+      "start": 29.2,
+      "end": 31.78
+    },
+    {
+      "text": "hearing them through different routes.",
+      "start": 31.78,
+      "end": 33.449999999999996
+    }
+  ],
+  "caption_status": "Actual source ASR reconciled to complete script; independent listening pending",
+  "source_duration": 33.36,
+  "voice_offset": 0.04,
+  "source_speech_end": 33.4,
+  "endcard_start": 34.166666666666664
+}

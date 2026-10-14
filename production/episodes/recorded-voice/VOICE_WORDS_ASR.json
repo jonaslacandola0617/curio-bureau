@@ -1,0 +1,542 @@
+[
+  {
+    "word": "Why",
+    "start": 0.04,
+    "end": 0.36,
+    "probability": 0.72032630443573
+  },
+  {
+    "word": "does",
+    "start": 0.36,
+    "end": 0.52,
+    "probability": 0.9902210235595703
+  },
+  {
+    "word": "your",
+    "start": 0.52,
+    "end": 0.72,
+    "probability": 0.9925379157066345
+  },
+  {
+    "word": "voice",
+    "start": 0.72,
+    "end": 1.0,
+    "probability": 0.9962708950042725
+  },
+  {
+    "word": "sound",
+    "start": 1.0,
+    "end": 1.26,
+    "probability": 0.9623139500617981
+  },
+  {
+    "word": "so",
+    "start": 1.26,
+    "end": 1.52,
+    "probability": 0.9886283278465271
+  },
+  {
+    "word": "different",
+    "start": 1.52,
+    "end": 1.86,
+    "probability": 0.9951847195625305
+  },
+  {
+    "word": "on",
+    "start": 1.86,
+    "end": 2.06,
+    "probability": 0.9697285890579224
+  },
+  {
+    "word": "a",
+    "start": 2.06,
+    "end": 2.22,
+    "probability": 0.994105339050293
+  },
+  {
+    "word": "recording?",
+    "start": 2.22,
+    "end": 2.6,
+    "probability": 0.9991016387939453
+  },
+  {
+    "word": "When",
+    "start": 3.38,
+    "end": 3.54,
+    "probability": 0.9841418862342834
+  },
+  {
+    "word": "you",
+    "start": 3.54,
+    "end": 3.78,
+    "probability": 0.9992451667785645
+  },
+  {
+    "word": "speak,",
+    "start": 3.78,
+    "end": 4.24,
+    "probability": 0.9941146969795227
+  },
+  {
+    "word": "you",
+    "start": 4.34,
+    "end": 4.48,
+    "probability": 0.9970338344573975
+  },
+  {
+    "word": "hear",
+    "start": 4.48,
+    "end": 4.62,
+    "probability": 0.9987586736679077
+  },
+  {
+    "word": "it",
+    "start": 4.62,
+    "end": 5.04,
+    "probability": 0.9886044263839722
+  },
+  {
+    "word": "through",
+    "start": 5.04,
+    "end": 5.04,
+    "probability": 0.9952421188354492
+  },
+  {
+    "word": "two",
+    "start": 5.04,
+    "end": 5.32,
+    "probability": 0.9393314123153687
+  },
+  {
+    "word": "routes.",
+    "start": 5.32,
+    "end": 5.76,
+    "probability": 0.8907809257507324
+  },
+  {
+    "word": "Sound",
+    "start": 6.66,
+    "end": 6.66,
+    "probability": 0.9511735439300537
+  },
+  {
+    "word": "travels",
+    "start": 6.66,
+    "end": 6.98,
+    "probability": 0.9982926249504089
+  },
+  {
+    "word": "through",
+    "start": 6.98,
+    "end": 7.34,
+    "probability": 0.9966697096824646
+  },
+  {
+    "word": "the",
+    "start": 7.34,
+    "end": 7.54,
+    "probability": 0.9917231202125549
+  },
+  {
+    "word": "air",
+    "start": 7.54,
+    "end": 7.72,
+    "probability": 0.9963786005973816
+  },
+  {
+    "word": "to",
+    "start": 7.72,
+    "end": 7.9,
+    "probability": 0.9870522022247314
+  },
+  {
+    "word": "your",
+    "start": 7.9,
+    "end": 8.12,
+    "probability": 0.9984098672866821
+  },
+  {
+    "word": "ears.",
+    "start": 8.12,
+    "end": 8.48,
+    "probability": 0.9986780285835266
+  },
+  {
+    "word": "But",
+    "start": 8.88,
+    "end": 9.04,
+    "probability": 0.9930918216705322
+  },
+  {
+    "word": "vibrations",
+    "start": 9.04,
+    "end": 9.64,
+    "probability": 0.9828586578369141
+  },
+  {
+    "word": "also",
+    "start": 9.64,
+    "end": 10.28,
+    "probability": 0.9984682202339172
+  },
+  {
+    "word": "travel",
+    "start": 10.28,
+    "end": 10.56,
+    "probability": 0.9955079555511475
+  },
+  {
+    "word": "through",
+    "start": 10.56,
+    "end": 10.82,
+    "probability": 0.9967821836471558
+  },
+  {
+    "word": "your",
+    "start": 10.82,
+    "end": 11.08,
+    "probability": 0.9980496168136597
+  },
+  {
+    "word": "skull",
+    "start": 11.08,
+    "end": 11.38,
+    "probability": 0.9957067370414734
+  },
+  {
+    "word": "and",
+    "start": 11.38,
+    "end": 11.66,
+    "probability": 0.9725546836853027
+  },
+  {
+    "word": "other",
+    "start": 11.66,
+    "end": 11.9,
+    "probability": 0.9985972046852112
+  },
+  {
+    "word": "tissues",
+    "start": 11.9,
+    "end": 12.22,
+    "probability": 0.9963726997375488
+  },
+  {
+    "word": "to",
+    "start": 12.22,
+    "end": 12.58,
+    "probability": 0.9887260794639587
+  },
+  {
+    "word": "your",
+    "start": 12.58,
+    "end": 12.9,
+    "probability": 0.9977928400039673
+  },
+  {
+    "word": "inner",
+    "start": 12.9,
+    "end": 13.12,
+    "probability": 0.9992227554321289
+  },
+  {
+    "word": "ears.",
+    "start": 13.12,
+    "end": 13.6,
+    "probability": 0.9985692501068115
+  },
+  {
+    "word": "That",
+    "start": 14.2,
+    "end": 14.54,
+    "probability": 0.994137167930603
+  },
+  {
+    "word": "extra",
+    "start": 14.54,
+    "end": 14.88,
+    "probability": 0.9876154661178589
+  },
+  {
+    "word": "route",
+    "start": 14.88,
+    "end": 15.36,
+    "probability": 0.9871464967727661
+  },
+  {
+    "word": "changes",
+    "start": 15.36,
+    "end": 15.76,
+    "probability": 0.996356725692749
+  },
+  {
+    "word": "the",
+    "start": 15.76,
+    "end": 16.1,
+    "probability": 0.997353196144104
+  },
+  {
+    "word": "sound",
+    "start": 16.1,
+    "end": 16.32,
+    "probability": 0.9995362758636475
+  },
+  {
+    "word": "you're",
+    "start": 16.32,
+    "end": 16.7,
+    "probability": 0.9826573431491852
+  },
+  {
+    "word": "used",
+    "start": 16.7,
+    "end": 16.82,
+    "probability": 0.9982908368110657
+  },
+  {
+    "word": "to.",
+    "start": 16.82,
+    "end": 17.4,
+    "probability": 0.9989439845085144
+  },
+  {
+    "word": "A",
+    "start": 17.82,
+    "end": 17.94,
+    "probability": 0.9728938341140747
+  },
+  {
+    "word": "normal",
+    "start": 17.94,
+    "end": 18.22,
+    "probability": 0.9855507612228394
+  },
+  {
+    "word": "microphone",
+    "start": 18.22,
+    "end": 18.68,
+    "probability": 0.9972630739212036
+  },
+  {
+    "word": "captures",
+    "start": 18.68,
+    "end": 19.2,
+    "probability": 0.9727819561958313
+  },
+  {
+    "word": "the",
+    "start": 19.2,
+    "end": 19.6,
+    "probability": 0.9979972243309021
+  },
+  {
+    "word": "sound",
+    "start": 19.6,
+    "end": 19.82,
+    "probability": 0.9994028806686401
+  },
+  {
+    "word": "in",
+    "start": 19.82,
+    "end": 19.98,
+    "probability": 0.9656570553779602
+  },
+  {
+    "word": "the",
+    "start": 19.98,
+    "end": 20.14,
+    "probability": 0.998955488204956
+  },
+  {
+    "word": "air,",
+    "start": 20.14,
+    "end": 20.38,
+    "probability": 0.9940061569213867
+  },
+  {
+    "word": "not",
+    "start": 20.64,
+    "end": 20.92,
+    "probability": 0.9975460171699524
+  },
+  {
+    "word": "those",
+    "start": 20.92,
+    "end": 21.2,
+    "probability": 0.9986728429794312
+  },
+  {
+    "word": "internal",
+    "start": 21.2,
+    "end": 21.6,
+    "probability": 0.9988422989845276
+  },
+  {
+    "word": "vibrations.",
+    "start": 21.6,
+    "end": 22.2,
+    "probability": 0.9956489205360413
+  },
+  {
+    "word": "So",
+    "start": 22.82,
+    "end": 23.14,
+    "probability": 0.9961339235305786
+  },
+  {
+    "word": "playback",
+    "start": 23.14,
+    "end": 23.48,
+    "probability": 0.8124074935913086
+  },
+  {
+    "word": "leaves",
+    "start": 23.48,
+    "end": 23.9,
+    "probability": 0.9950050711631775
+  },
+  {
+    "word": "out",
+    "start": 23.9,
+    "end": 24.24,
+    "probability": 0.9970138072967529
+  },
+  {
+    "word": "part",
+    "start": 24.24,
+    "end": 24.56,
+    "probability": 0.99159836769104
+  },
+  {
+    "word": "of",
+    "start": 24.56,
+    "end": 24.64,
+    "probability": 0.9993853569030762
+  },
+  {
+    "word": "your",
+    "start": 24.64,
+    "end": 24.98,
+    "probability": 0.9974216222763062
+  },
+  {
+    "word": "usual",
+    "start": 24.98,
+    "end": 25.26,
+    "probability": 0.9923662543296814
+  },
+  {
+    "word": "experience.",
+    "start": 25.26,
+    "end": 25.9,
+    "probability": 0.9994865655899048
+  },
+  {
+    "word": "The",
+    "start": 26.54,
+    "end": 26.8,
+    "probability": 0.9946435689926147
+  },
+  {
+    "word": "microphone",
+    "start": 26.8,
+    "end": 27.28,
+    "probability": 0.9975677132606506
+  },
+  {
+    "word": "and",
+    "start": 27.28,
+    "end": 27.82,
+    "probability": 0.9962618947029114
+  },
+  {
+    "word": "room",
+    "start": 27.82,
+    "end": 28.1,
+    "probability": 0.9877811670303345
+  },
+  {
+    "word": "can",
+    "start": 28.1,
+    "end": 28.34,
+    "probability": 0.9969093203544617
+  },
+  {
+    "word": "change",
+    "start": 28.34,
+    "end": 28.58,
+    "probability": 0.999477207660675
+  },
+  {
+    "word": "it",
+    "start": 28.58,
+    "end": 28.8,
+    "probability": 0.9968624114990234
+  },
+  {
+    "word": "too.",
+    "start": 28.8,
+    "end": 29.2,
+    "probability": 0.7043870687484741
+  },
+  {
+    "word": "Both",
+    "start": 29.2,
+    "end": 29.98,
+    "probability": 0.9475630521774292
+  },
+  {
+    "word": "versions",
+    "start": 29.98,
+    "end": 30.4,
+    "probability": 0.980932354927063
+  },
+  {
+    "word": "are",
+    "start": 30.4,
+    "end": 30.72,
+    "probability": 0.9918604493141174
+  },
+  {
+    "word": "you.",
+    "start": 30.72,
+    "end": 31.2,
+    "probability": 0.9905351996421814
+  },
+  {
+    "word": "You're",
+    "start": 31.42,
+    "end": 31.78,
+    "probability": 0.9305866956710815
+  },
+  {
+    "word": "hearing",
+    "start": 31.78,
+    "end": 32.02,
+    "probability": 0.9959600567817688
+  },
+  {
+    "word": "them",
+    "start": 32.02,
+    "end": 32.28,
+    "probability": 0.9993896484375
+  },
+  {
+    "word": "through",
+    "start": 32.28,
+    "end": 32.62,
+    "probability": 0.9961317777633667
+  },
+  {
+    "word": "different",
+    "start": 32.62,
+    "end": 32.96,
+    "probability": 0.9985938668251038
+  },
+  {
+    "word": "routes.",
+    "start": 32.96,
+    "end": 33.3,
+    "probability": 0.9869367480278015
+  }
+]

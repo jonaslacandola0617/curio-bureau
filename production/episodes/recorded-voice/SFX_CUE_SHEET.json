@@ -1,0 +1,146 @@
+[
+  {
+    "sound_id": "CB_FREE_013",
+    "onset_time": 0.04,
+    "duration": 0.2,
+    "purpose": "record click",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_013.wav"
+  },
+  {
+    "sound_id": "CB_FREE_041",
+    "onset_time": 0.48,
+    "duration": 0.8,
+    "purpose": "close approach",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_041.wav"
+  },
+  {
+    "sound_id": "CB_FREE_001",
+    "onset_time": 2.98,
+    "duration": 0.8,
+    "purpose": "photo handoff",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_001.wav"
+  },
+  {
+    "sound_id": "CB_FREE_002",
+    "onset_time": 3.55,
+    "duration": 0.4,
+    "purpose": "skull photo arrival",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_002.wav"
+  },
+  {
+    "sound_id": "CB_FREE_023",
+    "onset_time": 3.95,
+    "duration": 0.55,
+    "purpose": "two-route reveal",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_023.wav"
+  },
+  {
+    "sound_id": "CB_FREE_021",
+    "onset_time": 6.55,
+    "duration": 0.7,
+    "purpose": "air route stroke",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_021.wav"
+  },
+  {
+    "sound_id": "CB_FREE_044",
+    "onset_time": 8.6,
+    "duration": 0.68,
+    "purpose": "skull inspection",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_044.wav"
+  },
+  {
+    "sound_id": "CB_FREE_001",
+    "onset_time": 9.3,
+    "duration": 0.8,
+    "purpose": "model source arrival",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_001.wav"
+  },
+  {
+    "sound_id": "CB_FREE_021",
+    "onset_time": 10.05,
+    "duration": 0.7,
+    "purpose": "body path annotation",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_021.wav"
+  },
+  {
+    "sound_id": "CB_FREE_035",
+    "onset_time": 14.14,
+    "duration": 0.45,
+    "purpose": "extra route emphasis",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_035.wav"
+  },
+  {
+    "sound_id": "CB_FREE_047",
+    "onset_time": 17.42,
+    "duration": 0.75,
+    "purpose": "microphone closeup",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_047.wav"
+  },
+  {
+    "sound_id": "CB_FREE_049",
+    "onset_time": 18.35,
+    "duration": 0.18010416666666668,
+    "purpose": "air recording cue",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_049.wav"
+  },
+  {
+    "sound_id": "CB_FREE_023",
+    "onset_time": 20.04,
+    "duration": 0.4,
+    "purpose": "missing component reveal",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_023.wav"
+  },
+  {
+    "sound_id": "CB_FREE_002",
+    "onset_time": 22.46,
+    "duration": 0.4,
+    "purpose": "playback print",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_002.wav"
+  },
+  {
+    "sound_id": "CB_FREE_013",
+    "onset_time": 23.03,
+    "duration": 0.2,
+    "purpose": "play click",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_013.wav"
+  },
+  {
+    "sound_id": "CB_FREE_021",
+    "onset_time": 23.35,
+    "duration": 0.65,
+    "purpose": "actual waveform reveal",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_021.wav"
+  },
+  {
+    "sound_id": "CB_FREE_044",
+    "onset_time": 26.46,
+    "duration": 0.55,
+    "purpose": "recording conditions",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_044.wav"
+  },
+  {
+    "sound_id": "CB_FREE_035",
+    "onset_time": 29.26,
+    "duration": 0.45,
+    "purpose": "both versions resolve",
+    "peak_target": 0.57,
+    "source_file": "sfx_private/CB_FREE_035.wav"
+  }
+]

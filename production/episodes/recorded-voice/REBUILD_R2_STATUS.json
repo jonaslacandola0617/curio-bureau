@@ -1,0 +1,28 @@
+{
+  "status": "RECONSTRUCTED REVIEW R2 \u2014 rendering",
+  "duration": 35.266666666666666,
+  "frames": 1058,
+  "narration_task": "21ea040d-b8d1-40e6-9b00-660b38f2f0ee",
+  "narration": "original reused, full script ASR reconciled; no voice fade",
+  "protected_tail_seconds": 0.7666666666666648,
+  "source_bundle": {
+    "library_file_id": "libfile_06b39caebf8c8191b08f220647920aed",
+    "file_id": "file_0000000080d881f5aad4fdeea4266143",
+    "name": "Recorded_Voice_Private_Source_R2.zip",
+    "size": 76265037
+  },
+  "native_frame_checks": {
+    "dimensions": [
+      2160,
+      3840
+    ],
+    "fonts": [
+      true,
+      true
+    ],
+    "duration": 35.266666666666666,
+    "errors": []
+  },
+  "owner_moving_and_listening_approval": "PENDING",
+  "native_4k": "NOT STARTED"
+}

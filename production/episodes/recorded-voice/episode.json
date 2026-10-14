@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "recorded-voice",
+  "title": "Why Your Recorded Voice Sounds Different \u2014 Curio Bureau",
+  "description": "Image-led reconstructed review; owner approval pending",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "fonts": [
+    {
+      "file": "Manrope.ttf",
+      "family": "Manrope",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "file": "PlayfairDisplay.ttf",
+      "family": "Playfair Display",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+    }
+  ],
+  "images": {
+    "paper": "paper_material.jpg",
+    "ink": "ink_density.png",
+    "paperFiber": "fiber_browser.jpg",
+    "plastic": "plastic_browser.jpg",
+    "photocopy": "photocopy_browser.jpg",
+    "mic": "microphone_source.jpg",
+    "ear": "ear_source.jpg",
+    "skull": "skull_source.jpg",
+    "earModel": "earModel_source.jpg"
+  },
+  "data_files": [
+    "timing.json"
+  ],
+  "data_loader": "data.py",
+  "scripts": [
+    "scenes.js",
+    "directed.js"
+  ],
+  "mix": "preflight_mix.wav",
+  "voice": "voice_full.wav",
+  "sfx_cues": "SFX_CUE_SHEET.json",
+  "audio_builder": "audio.py",
+  "audio_inputs": [
+    "assets/voice_full.wav",
+    "assets/music_full.wav",
+    "assets/timing.json"
+  ],
+  "release_status": "RENDER CANDIDATE",
+  "creative_note": "Reconstructed from saved editorial plan; newly rendered review must be approved.",
+  "audio_builder_location": "episode",
+  "optics": {
+    "enabled": true
+  },
+  "brand_ending": "london-bridge-v1",
+  "material_profile": "image-led-v1",
+  "visual_style": "image-led"
+}
