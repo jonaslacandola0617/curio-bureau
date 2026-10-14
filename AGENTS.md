@@ -47,3 +47,6 @@ The owner approved Astronaut Height R2 and adopted image-led editorial sequences
 
 ## Durable rendering — owner directive, 14 October 2026
 Read production/engine/NATIVE_RENDER_RECOVERY.md before native export. Save actual verified render chunks to durable private storage and push small recovery manifests with hashes/frame ranges/file identities to Git. A progress log alone is insufficient. Resume verified saved chunks and render only missing ranges. Preserve approved picture and sound; verify and save final outputs before sharing links.
+
+## Final spoken word — owner feedback, 14 October 2026
+Read production/engine/NARRATION_TAIL_QA.md. The published Astronaut film's last word was reported clipped. Preserve its visual benchmark and published copy, but do not use that ending as an audio standard. Keep the untouched narration; reconcile the entire closing script and caption, protect its complete tail before the locked endcard, and listen to the actual encoded ending. Decoder/duration/ASR passes alone cannot certify a fully audible final word.
