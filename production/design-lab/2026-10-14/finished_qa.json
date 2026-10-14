@@ -1,0 +1,104 @@
+{
+  "fonts": [
+    true,
+    true
+  ],
+  "images": true,
+  "errors": [],
+  "externalRequests": [],
+  "temporalElements": 0,
+  "animations": 0,
+  "layers": [
+    {
+      "chroma": 2,
+      "focus": 2,
+      "print": 2,
+      "grain": 1
+    },
+    {
+      "chroma": 3,
+      "focus": 3,
+      "print": 3,
+      "grain": 1
+    },
+    {
+      "chroma": 1,
+      "focus": 1,
+      "print": 1,
+      "grain": 1
+    },
+    {
+      "chroma": 1,
+      "focus": 1,
+      "print": 1,
+      "grain": 1
+    }
+  ],
+  "boards": [
+    {
+      "id": 1,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "actualDimensions": [
+        1080,
+        1920
+      ],
+      "finishingMeanRGBDifference": [
+        7.25,
+        8.19,
+        8.13
+      ]
+    },
+    {
+      "id": 2,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "actualDimensions": [
+        1080,
+        1920
+      ],
+      "finishingMeanRGBDifference": [
+        8.03,
+        7.91,
+        7.92
+      ]
+    },
+    {
+      "id": 3,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "actualDimensions": [
+        1080,
+        1920
+      ],
+      "finishingMeanRGBDifference": [
+        5.92,
+        5.85,
+        6.08
+      ]
+    },
+    {
+      "id": 4,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "actualDimensions": [
+        1080,
+        1920
+      ],
+      "finishingMeanRGBDifference": [
+        6.21,
+        5.94,
+        4.88
+      ]
+    }
+  ],
+  "phoneWidth": 358
+}

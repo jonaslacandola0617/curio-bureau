@@ -1,0 +1,21 @@
+{
+  "status": "OWNER_REVIEW_PENDING",
+  "still_only": true,
+  "effects": {
+    "chromatic_edge_shift_logical_px": [
+      2.8,
+      -2.4
+    ],
+    "focus_blur_logical_px": {
+      "background_earth": 4.5,
+      "eye_periphery": 4,
+      "other_periphery": 2.6
+    },
+    "ink_contour_displacement_logical_px": 0.8,
+    "ink_softening_px": 0.18,
+    "local_material_gain": 1.35,
+    "film_grain_opacity": 0.3,
+    "photographic_ink_dot_spacing_px": 4
+  },
+  "preserve": "Unshifted photographic centre, factual colours, model identity and legible labels. No temporal jitter/flicker/focus hunt in stills."
+}
