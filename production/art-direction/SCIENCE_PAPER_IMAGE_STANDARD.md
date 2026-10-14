@@ -106,3 +106,6 @@ Use existing indexed evidence without claiming newly watched source footage:
 | Engine tutorial report, 13 October | Peak cuts, brief focus hunt, restrained chromatic edges | Original Canvas implementations; not exact AE/plugin equivalence |
 
 The graphics-only v2 study does **not** certify paper/photo art fidelity. When a visual decision needs new reference evidence, retrieve the supplied originals/manuals and log exact source/time, observed behavior, inferred construction and our proposed adaptation separately. Do not relabel inferences as observations or copy source assets into output. Our goal is a consistently excellent chosen editorial language; no claim of 100% proprietary Vox equivalence.
+
+## Adopted sequence-first implementation — 15 October 2026
+Read [visual sequence direction](VISUAL_SEQUENCE_DIRECTION.md). Name each beat’s operation, resulting understanding and inheritance; review connected finished states before moving integration. Preserve approved-source rebuilds and existing art/audio/ending/native gates.

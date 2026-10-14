@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "exercise": "recorded-voice-sequence-lab",
+  "shots": [
+    {
+      "id": "recognize",
+      "viewer_before": "Viewer knows recordings can sound unfamiliar.",
+      "factual_proposition": "Speaking and recorded self-voice can be heard differently.",
+      "visual_operation": "establish",
+      "subject_action": "Bring the ear/listener and microphone into one question.",
+      "viewer_after": "Viewer recognizes the same voice is being compared.",
+      "invariant": "Same ear photograph and microphone identity.",
+      "initial_state": "Ear establishes the listener.",
+      "difficult_intermediate": "Microphone occupies a separate recording role.",
+      "resolved_state": "Both contexts are identifiable.",
+      "next_inheritance": "Carry the ear/listener into the routes.",
+      "representation_reason": "Specific ear photo introduces listening; actual microphone introduces recording.",
+      "source_truth_boundary": "Conceptual categories, not anatomical routes or equal contributions. Skull photo is a teaching model; signal envelope is the approved narration, not a conduction measurement.",
+      "caption_clearance": "Reserve 42\u201358%; phrase-specific caption and platform-control checks remain pending.",
+      "reading_hold": "Recognition and relation holds to be set from complete approved phrase timing; no word clipping or voice rate change.",
+      "static_state_file": "Sequence_State_01.png"
+    },
+    {
+      "id": "connect",
+      "viewer_before": "Listener and recording contexts are established.",
+      "factual_proposition": "Self-heard speech includes airborne and internally transmitted sound.",
+      "visual_operation": "connect",
+      "subject_action": "Reveal yellow air and coral body routes into the shared hearing endpoint.",
+      "viewer_after": "Two distinct routes contribute while speaking.",
+      "invariant": "Same ear; AIR yellow; BODY coral; common hearing endpoint.",
+      "initial_state": "Keep the listener photograph and voice source.",
+      "difficult_intermediate": "Reveal the second route with the same destination.",
+      "resolved_state": "Both routes converge on the same conceptual hearing node.",
+      "next_inheritance": "Keep the routes for microphone capture.",
+      "representation_reason": "Photographs anchor the subject; a printed relationship diagram shows invisible pathways.",
+      "source_truth_boundary": "Conceptual categories, not anatomical routes or equal contributions. Skull photo is a teaching model; signal envelope is the approved narration, not a conduction measurement.",
+      "caption_clearance": "Reserve 42\u201358%; phrase-specific caption and platform-control checks remain pending.",
+      "reading_hold": "Recognition and relation holds to be set from complete approved phrase timing; no word clipping or voice rate change.",
+      "static_state_file": "Sequence_State_02.png"
+    },
+    {
+      "id": "capture",
+      "viewer_before": "Both speaking routes are visible.",
+      "factual_proposition": "An ordinary microphone captures airborne sound rather than the original internal transmission.",
+      "visual_operation": "capture",
+      "subject_action": "Fork the yellow route into the actual microphone; leave the body route intact toward hearing.",
+      "viewer_after": "The recording samples a different set of routes from self-hearing.",
+      "invariant": "Common source, hearing endpoint and route colours remain fixed.",
+      "initial_state": "Retain the complete two-route diagram.",
+      "difficult_intermediate": "Reveal a branch from AIR to the microphone.",
+      "resolved_state": "Microphone capture and continued self-hearing coexist visibly.",
+      "next_inheritance": "Carry the captured recording into playback.",
+      "representation_reason": "The source-preserving microphone cutout acts on the path rather than merely illustrating a noun.",
+      "source_truth_boundary": "Conceptual categories, not anatomical routes or equal contributions. Skull photo is a teaching model; signal envelope is the approved narration, not a conduction measurement.",
+      "caption_clearance": "Reserve 42\u201358%; phrase-specific caption and platform-control checks remain pending.",
+      "reading_hold": "Recognition and relation holds to be set from complete approved phrase timing; no word clipping or voice rate change.",
+      "static_state_file": "Sequence_State_03.png"
+    },
+    {
+      "id": "remove",
+      "viewer_before": "Microphone capture is distinguished from speaking.",
+      "factual_proposition": "Playback lacks the original self-generated internal route.",
+      "visual_operation": "remove",
+      "subject_action": "Replace the source with playback and terminate the coral route before the hearing node, retaining a faint reference.",
+      "viewer_after": "Viewer sees which original route is absent from playback.",
+      "invariant": "AIR route, ear/listener and hearing endpoint remain recognizable.",
+      "initial_state": "Keep the known route baseline.",
+      "difficult_intermediate": "Body route withdraws while a gap opens; original path remains a faint reference.",
+      "resolved_state": "Air reaches hearing; original internal route is disconnected.",
+      "next_inheritance": "Resolve with an aligned speaking/playback comparison.",
+      "representation_reason": "Removal on an invariant diagram exposes the difference without a false amplitude or pitch measurement.",
+      "source_truth_boundary": "Conceptual categories, not anatomical routes or equal contributions. Skull photo is a teaching model; signal envelope is the approved narration, not a conduction measurement.",
+      "caption_clearance": "Reserve 42\u201358%; phrase-specific caption and platform-control checks remain pending.",
+      "reading_hold": "Recognition and relation holds to be set from complete approved phrase timing; no word clipping or voice rate change.",
+      "static_state_file": "Sequence_State_04.png"
+    },
+    {
+      "id": "resolve",
+      "viewer_before": "The missing original internal route is visible.",
+      "factual_proposition": "Both voices are the same person heard through different routes; microphone and room also affect recording.",
+      "visual_operation": "compare",
+      "subject_action": "Align equal-scale ear images with common AIR rows and an absent internal-route row for playback.",
+      "viewer_after": "Viewer can compare what persists and what changes without relying on a heading.",
+      "invariant": "Same photograph, scale and category colours.",
+      "initial_state": "Carry the common listening subject into two contexts.",
+      "difficult_intermediate": "Arrange route categories on common baselines.",
+      "resolved_state": "Speaking has AIR plus BODY; playback lacks the original internal route.",
+      "next_inheritance": "Return to the episode with the difference understood.",
+      "representation_reason": "Aligned qualitative comparison resolves the question; no quantitative contribution is encoded.",
+      "source_truth_boundary": "Conceptual categories, not anatomical routes or equal contributions. Skull photo is a teaching model; signal envelope is the approved narration, not a conduction measurement.",
+      "caption_clearance": "Reserve 42\u201358%; phrase-specific caption and platform-control checks remain pending.",
+      "reading_hold": "Recognition and relation holds to be set from complete approved phrase timing; no word clipping or voice rate change.",
+      "static_state_file": "Sequence_State_05.png"
+    }
+  ],
+  "owner_sequence_review": {
+    "status": "pending",
+    "date": null,
+    "evidence": null
+  },
+  "owner_motion_review": {
+    "status": "not reviewed",
+    "date": null,
+    "evidence": null
+  },
+  "planned_existing_audio_excerpt": {
+    "ranges_seconds": [
+      [
+        3.38,
+        6.66
+      ],
+      [
+        17.82,
+        29.2
+      ]
+    ],
+    "estimated_spoken_duration": 14.66,
+    "status": "plan only; final-word listening and phrase joins required before movement"
+  },
+  "source_documents": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9929504/",
+    "https://doi.org/10.1038/s41598-020-80095-6",
+    "https://www.nidcd.nih.gov/health/how-do-we-hear"
+  ]
+}

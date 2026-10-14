@@ -4,6 +4,9 @@ from pathlib import Path
 import argparse,base64,hashlib,html,importlib.util,json,os,shutil,subprocess,sys,wave,zipfile,inspect
 
 ENGINE=Path(__file__).resolve().parent
+_sequence_spec=importlib.util.spec_from_file_location('curio_sequence_contract',ENGINE/'sequence.py')
+_sequence=importlib.util.module_from_spec(_sequence_spec);_sequence_spec.loader.exec_module(_sequence)
+validate_episode_sequence=_sequence.validate_episode_sequence
 BROWSER=['motion.js','optics.js','finishing.js','focus.js','runtime.js','materials.js','material-profile.js','brand.js','drawing.js','typography.js']
 
 def digest(p):
@@ -49,6 +52,7 @@ class Project:
    if canonical.exists() and digest(canonical)!=expected:raise ValueError('Production requirement changed; read and reconcile before rebuilding: '+name)
   if c['id'] not in ['pig-war','tutorial-optics-test'] and c.get('brand_ending')!='london-bridge-v1':raise ValueError('New episodes must use the owner-locked London Bridge endcard')
   validate_visual_direction(c)
+  validate_episode_sequence(c,self.episode,'artwork')
   if (c['width'],c['height'],c['fps'])!=(1080,1920,30):raise ValueError('v1 engine requires the existing Curio 9:16/30fps profile')
   required=list(c['images'].values())+c['data_files']+[c['mix'],c['voice']]+[f['file'] for f in c['fonts']]
   missing=[n for n in required if not (self.assets/n).is_file()]
@@ -69,13 +73,15 @@ class Project:
   # Current browser PCM contract: scipy/FFmpeg canonical 44-byte WAV header.
   with self.mix.open('rb') as f:header=f.read(44)
   if header[:4]!=b'RIFF' or header[36:40]!=b'data':raise ValueError('Canonical PCM WAV required; convert with audio command before build')
-  paths=[self.episode/'episode.json',self.episode/c['data_loader']]+[ENGINE/'browser'/n for n in BROWSER+['frame.js','player.js','player.css','studio.html']]+[self.episode/n for n in c['scripts']]+[self.assets/n for n in list(c['images'].values())+c['data_files']+[f['file'] for f in c['fonts']]]
+  paths=[ENGINE/'sequence.py',self.episode/'episode.json',self.episode/c['data_loader']]+[ENGINE/'browser'/n for n in BROWSER+['frame.js','player.js','player.css','studio.html']]+[self.episode/n for n in c['scripts']]+[self.assets/n for n in list(c['images'].values())+c['data_files']+[f['file'] for f in c['fonts']]]
+  if c.get('sequence_contract'):paths.append(self.episode/c['sequence_contract'])
   self.visual_key=hashlib.sha256((fingerprint(paths)+inspect.getsource(Project.build)+inspect.getsource(Project.inspect)).encode()).hexdigest();self.audio_key=digest(self.mix);self.render_key=digest(ENGINE/'tools/render.cjs')
   return {'episode':c['id'],'duration':self.duration,'frames':round(self.duration*30),'fonts':'PINNED','inputs':'PASS','visual_key':self.visual_key,'audio_key':self.audio_key,'creative_review':'human review required','caption_review':self.data['timing'].get('caption_status','not independently verified')}
 
  def save(self):write_json(self.state_path,self.state)
 
  def build(self):
+  validate_episode_sequence(self.config,self.episode,'motion')
   report=self.inspect();key=self.visual_key+'/'+self.audio_key
   if self.state.get('build',{}).get('key')==key and self.studio.exists() and digest(self.studio)==self.state['build']['sha256']:
    print('Build reused: unchanged inputs');return
@@ -101,6 +107,7 @@ class Project:
   return 'render'
 
  def render(self,profile,start=0,seconds=None):
+  if profile=='native':validate_episode_sequence(self.config,self.episode,'release')
   self.build()
   if not self.chrome or not self.node:raise ValueError('Set CURIO_CHROME and install Node/Playwright')
   smoke=seconds is not None;duration=seconds if smoke else self.duration

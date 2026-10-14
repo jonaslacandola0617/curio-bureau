@@ -1,11 +1,16 @@
 # CURIO BUREAU — MASTER CREATIVE, MOTION, AUDIO & PRODUCTION BIBLE
 **Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
 
-**Version 1.4.3 · Updated 14 October 2026 · Owner-adopted image-led direction · v1.4 editorial reasoning and earlier release safeguards preserved**
+**Version 1.4.4 · Updated 15 October 2026 · Owner-adopted image-led direction · v1.4 editorial reasoning and earlier release safeguards preserved**
 
 > **This is the single portable, consolidated bible.** Its governing rules and detailed modules below are included in full, not hidden in other attachments. It remains an evidence-grounded initial system: definitive release-level observations of Episodes 002 and 003 are unavailable, and quantitative audience-retention claims cannot be made without platform analytics. Earlier Vox/viral benchmark research relied on external metadata. A subsequent Motion Mastery Lab directly decoded nine user-supplied third-party Vox-inspired demonstration videos, studying 35 selected motion windows; this is **not** verified direct analysis of full original Vox films or their private project files. **New v2 (12 October):** Five uploaded videos bearing official Vox published titles were independently decoded for authored graphic content only, with photographed/real filmed plates excluded. Details and limits are in the adopted v1.3 chapter; neither study has Vox's editable project files.
 
 **Current style precedence:** production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md governs all new films. Earlier representation examples are historical/general craft guidance; deliver the owner’s image-led sequence direction.
+
+
+## Adopted creative visual sequence direction — 15 October 2026
+
+The owner adopted [creative visual sequence direction](art-direction/VISUAL_SEQUENCE_DIRECTION.md). Every new beat must define a source-supported visual operation, resulting understanding and next-state inheritance before artwork. Review connected finished states without narration, then obtain owner art/sequence approval before the difficult moving test. Image-led work must explain relationships rather than repeat heading/photo-card layouts; accurate printed/source-attached scientific figures remain available. Static craft, explanation, moving integration and release QA have independent review records. This extends the existing sequence-first rule; all brand/audio/caption/ending/native safeguards remain.
 
 ## Visual consistency implementation — 14 October 2026
 

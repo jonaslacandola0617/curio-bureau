@@ -1,0 +1,20 @@
+{
+  "complete_artwork_contract": {
+    "contract_fields": "PASS",
+    "stage": "artwork",
+    "shots": 5,
+    "artistic_quality": "not inferred from validation"
+  },
+  "pending_owner_review_blocks_motion": {
+    "expected_rejection": true,
+    "reason": "Owner art/sequence approval must be recorded before moving production"
+  },
+  "missing_operation_blocks_artwork": {
+    "expected_rejection": true,
+    "reason": "Sequence shot 3 missing decisions: visual_operation"
+  },
+  "approved_historical_source_preserved": {
+    "status": "preserved historical source",
+    "artistic_quality": "not freshly certified"
+  }
+}

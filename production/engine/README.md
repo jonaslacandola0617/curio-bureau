@@ -63,3 +63,8 @@ New episode manifests require brand_ending: london-bridge-v1, visual_style: imag
 
 ## Lossless transfer update — 13 October 2026
 The frame streamer now reads native Canvas RGBA and transfers it with Blob/FileReader, avoiding browser PNG compression and encoder PNG decoding. Explicit BT.709 primaries and sRGB transfer tags preserve the former PNG metadata; output codec/quality settings are unchanged. Native source RGBA equality against PNG at three London Bridge states and decoded native H264 RGB equality at a mechanism state passed. See LOSSLESS_TRANSFER_QA.json. These are sample comparisons, not a whole-film perceptual certification.
+
+## Adopted sequence-first implementation — 15 October 2026
+Read [visual sequence direction](../art-direction/VISUAL_SEQUENCE_DIRECTION.md). Name each beat’s operation, resulting understanding and inheritance; review connected finished states before moving integration. Preserve approved-source rebuilds and existing art/audio/ending/native gates.
+
+Engine enforcement: new manifests provide `sequence_contract_version: 1` and `sequence_contract` (episode-relative JSON). Input checks validate required decisions; browser moving builds require recorded owner sequence approval; native render requires moving-preflight approval. Existing approved episode sources without a new contract retain their original rebuild route. A reworked sequence uses a new episode ID or supplies a new contract. The validator checks records, not artistic merit.

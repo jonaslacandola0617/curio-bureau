@@ -1,0 +1,34 @@
+{
+  "fonts": [
+    true,
+    true
+  ],
+  "errors": [],
+  "external": [],
+  "images": true,
+  "animations": 0,
+  "audioVideo": 0,
+  "owner_sequence_approved": false,
+  "actual_png_dimensions": {
+    "Sequence_State_01.png": [
+      1080,
+      1920
+    ],
+    "Sequence_State_02.png": [
+      1080,
+      1920
+    ],
+    "Sequence_State_03.png": [
+      1080,
+      1920
+    ],
+    "Sequence_State_04.png": [
+      1080,
+      1920
+    ],
+    "Sequence_State_05.png": [
+      1080,
+      1920
+    ]
+  }
+}

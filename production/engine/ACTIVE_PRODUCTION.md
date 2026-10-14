@@ -37,3 +37,8 @@ The owner approved Astronaut Height R2 and adopted image-led editorial sequences
 
 ## Durable native export — adopted 14 October 2026
 Read [native render recovery](NATIVE_RENDER_RECOVERY.md). Save verified chunk bytes to durable private storage and small recovery manifests to Git at least every two completed chunks. Record successful receipts, source/output hashes and integer frame ranges. A local progress log is insufficient. Resume saved ranges; render only missing or invalid frames. Final outputs must pass checks and be durably saved before delivery links are shared.
+
+## Adopted sequence-first implementation — 15 October 2026
+Read [visual sequence direction](../art-direction/VISUAL_SEQUENCE_DIRECTION.md). Name each beat’s operation, resulting understanding and inheritance; review connected finished states before moving integration. Preserve approved-source rebuilds and existing art/audio/ending/native gates.
+
+Engine enforcement: new manifests provide `sequence_contract_version: 1` and `sequence_contract` (episode-relative JSON). Input checks validate required decisions; browser moving builds require recorded owner sequence approval; native render requires moving-preflight approval. Existing approved episode sources without a new contract retain their original rebuild route. A reworked sequence uses a new episode ID or supplies a new contract. The validator checks records, not artistic merit.

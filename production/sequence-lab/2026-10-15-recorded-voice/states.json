@@ -1,0 +1,34 @@
+{
+  "status": "OWNER_SEQUENCE_REVIEW_PENDING",
+  "frames": [
+    {
+      "id": 1,
+      "job": "01 / Recognize",
+      "operation": "The same voice is heard while speaking and on a recording. Establish the listener and question."
+    },
+    {
+      "id": 2,
+      "job": "02 / Connect",
+      "operation": "Reveal two routes converging on one hearing destination. Routes are conceptual, not a physical anatomy trace."
+    },
+    {
+      "id": 3,
+      "job": "03 / Capture",
+      "operation": "Keep the routes recognizable; add the microphone as a branch from airborne sound. The body route continues while speaking."
+    },
+    {
+      "id": 4,
+      "job": "04 / Remove",
+      "operation": "Switch the source to playback. The original internal route stops before the hearing destination; its faint trace preserves the comparison."
+    },
+    {
+      "id": 5,
+      "job": "05 / Resolve",
+      "operation": "Equal-scale listener images and aligned route rows show what persists and what is absent. No invented amplitude or pitch data."
+    }
+  ],
+  "visual_style": "image-led",
+  "movement_implemented": false,
+  "sequence_invariant": "AIR yellow; BODY coral; same listening subject; hearing endpoint common in states 2\u20134",
+  "captions_review": "Guide only; phrase-specific test pending"
+}

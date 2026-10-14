@@ -31,3 +31,15 @@ Complete during editorial planning, before finished artwork. This is a working b
 **Review record:** initial/intermediate/resolved frame times, phone/native samples, moving join, applicable art dimensions PASS/REVISE/NOT REVIEWED, correction, reviewer/date. Technical checks and owner approval recorded separately.
 
 **Reference evidence if used:** source/time; observed result; inferred construction; Curio adaptation; uncertainty. Do not claim an inferred rig was recovered.
+
+## Mandatory creative sequence fields — v1.4.4
+
+**Visual operation / subject action:**
+**Resulting understanding:**
+**Invariant / connected previous state:**
+**Two alternatives and selection reason (hard claims):**
+**Explanation-without-narration review / decorative-heading-hidden check:**
+**Owner art and sequence approval / date:**
+**Moving integration approval / date (separate):**
+
+Use VISUAL_SEQUENCE_DIRECTION.md. These fields are required before finished artwork and before moving work; empty fields are not a passed check.
