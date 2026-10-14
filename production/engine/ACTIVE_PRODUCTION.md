@@ -1,6 +1,9 @@
 # Active production entry point
 
-The Master Bible v1.4.1 governs. This document is an operational index, not a substitute creative Bible. Owner's later Pig War direction in AGENTS and the approval record takes precedence where explicitly applicable.
+## Required visual art review — 14 October 2026
+Before new science artwork, use [science paper/image art direction](../art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md) and its shot contract. They operationalize the owner's existing direction: specific images, deliberate crop/hierarchy, distinct physical materials, strong source-local textures, repaired layers, refined printed figures and intentional intermediate states. Five demanding frames and the hardest moving join require explicit art review; manifest/codec passes are not art approval. No new film is authorized by an infrastructure review.
+
+The Master Bible v1.4.2 governs. This document is an operational index, not a substitute creative Bible. Owner's later Pig War direction in AGENTS and the approval record takes precedence where explicitly applicable.
 
 ## Maintenance of approved work
 
@@ -24,7 +27,7 @@ Maintain one current status file with decisions, missing inputs, source ledger l
 ## Current owner priorities
 The owner accepted the v1.1 tutorial test as good enough. All 70 free editorial SFX were collected, auditioned by the owner, and retained. Catalog/retrieval metadata lives in production/audio/free-editorial-20261013; raw audio stays private under provider licensing.
 
-New commissioned episode: London Bridge in Arizona, on film/london-bridge-arizona-1968. The owner approved the full R2 moving preview and ordered native 4K on 13 October 2026. Existing Bernard recording, SFX and original score are retained; photo/paper and stronger material treatments are approved. Caption timestamps remain actual-audio machine ASR with a reconciled transcript, without independent word-listening certification. Native 2160x3840 MP4/WebM/upload MP4 completed and independently decoded; all technical checks passed. Final files and posting copy supplied. See production/episodes/london-bridge/STATUS.md.
+Latest completed science film: Sunlight, on film/sunlight-white at 260d77668c783636a29f9ffc8df8a9c9dbaaf750. Owner approved the full moving review and ordered native 4K on 14 October 2026, 01:52 Asia/Manila. Native MP4/WebM/upload MP4 completed with independent full decode and technical QA. Actual-audio ASR captions were reconciled, without independent word-listening certification. See that branch's production/episodes/sunlight-white/STATUS.md and NATIVE_4K_QA.json. London Bridge is an earlier completed benchmark; its exact ending remains locked. Current task is infrastructure/art-direction review, not a new episode.
 
 ## Current owner direction — full paper and image style, 13 October 2026, 22:04 UTC+8
 The owner explicitly replaced the earlier mixed-media default. All new films use full paper-and-image editorial compositions: cleared photographs, photographic cutouts, documentary pages, printed scientific figures and materially convincing paper environments. Do not alternate into freestanding vector illustration, generic geometric scenes or drawn-mechanism environments. Necessary maps, data, diagrams, labels and explanatory paths live as printed-paper evidence or source-anchored image annotations. Canvas/SVG/JavaScript remain implementation tools; this is a visual-direction requirement, not a software ban.

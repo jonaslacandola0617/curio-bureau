@@ -1,5 +1,8 @@
 # Curio Bureau — full paper and image direction
 
+## Required visual art review — 14 October 2026
+Before new science artwork, use [science paper/image art direction](../art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md) and its shot contract. They operationalize the owner's existing direction: specific images, deliberate crop/hierarchy, distinct physical materials, strong source-local textures, repaired layers, refined printed figures and intentional intermediate states. Five demanding frames and the hardest moving join require explicit art review; manifest/codec passes are not art approval. No new film is authorized by an infrastructure review.
+
 Status: ADOPTED by explicit owner instruction on 13 October 2026.
 
 ## Current owner direction — full paper and image style, 13 October 2026, 22:04 UTC+8

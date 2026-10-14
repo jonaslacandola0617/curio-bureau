@@ -1,9 +1,21 @@
 # CURIO BUREAU — MASTER CREATIVE, MOTION, AUDIO & PRODUCTION BIBLE
-**Version 1.4.1 · Updated 13 October 2026 · Owner-adopted full paper/image direction · v1.4 editorial reasoning and earlier release safeguards preserved**
+**Version 1.4.2 · Updated 14 October 2026 · Owner-adopted full paper/image direction · v1.4 editorial reasoning and earlier release safeguards preserved**
 
 > **This is the single portable, consolidated bible.** Its governing rules and detailed modules below are included in full, not hidden in other attachments. It remains an evidence-grounded initial system: definitive release-level observations of Episodes 002 and 003 are unavailable, and quantitative audience-retention claims cannot be made without platform analytics. Earlier Vox/viral benchmark research relied on external metadata. A subsequent Motion Mastery Lab directly decoded nine user-supplied third-party Vox-inspired demonstration videos, studying 35 selected motion windows; this is **not** verified direct analysis of full original Vox films or their private project files. **New v2 (12 October):** Five uploaded videos bearing official Vox published titles were independently decoded for authored graphic content only, with photographed/real filmed plates excluded. Details and limits are in the adopted v1.3 chapter; neither study has Vox's editable project files.
 
 **Current style precedence:** production/approved-benchmarks/PAPER_IMAGE_OWNER_DIRECTION.md governs all new films. Earlier representation examples are historical/general craft guidance; deliver the owner’s full paper-and-image look.
+
+## Visual consistency implementation — 14 October 2026
+
+The owner's current review request is implemented by the [science paper/image standard](art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md) and [shot art contract](art-direction/SCIENCE_SHOT_ART_CONTRACT.md). These operational rules clarify the adopted direction; they do not claim new Vox footage analysis or alter approved films.
+
+- Science remains the current topic focus. Choose subject-specific cleared photographs, source pages and refined printed figures that reveal the actual fact; all explanatory graphics remain within the paper/image world.
+- Design initial/intermediate/resolved compositions and next-shot inheritance before obtaining finished assets. Specify crop resolution at maximum zoom, semantic masks and hidden-region repairs.
+- Review image selection, hierarchy, physical paper/print/ink treatment, strong object-local texture, source-local annotations, motion and meaningful audio independently. Texture declarations do not certify visual fidelity.
+- Editorial titles/headers use pinned Playfair Display 900. Selective evidence highlights are bright yellow/red when appropriate; preserve scientific color meaning. The exact shared London Bridge ending replaces older variable-outro instructions. Bernard remains the approved default; no routine repeat A/B voice selection.
+- Five demanding art frames include a difficult intermediate composition, then the hardest moving join is reviewed at phone scale before full animation/native production. Record PASS/REVISE/NOT REVIEWED per applicable art dimension; a failed shot cannot be hidden by an average score.
+- Approved benchmarks: Pig War R2 (subject to recorded corrections), London Bridge and Sunlight, for their documented roles. Ghost Army V1–V4 remain rejected. Existing approval is not a fresh playback audit.
+- Existing graphics-only reference research does not certify photograph/paper art fidelity. Keep observed source behavior, inferred rig and Curio implementation distinct; no overall “100% Vox match” claim.
 
 ## Adopted v1.4 — Editorial Art, Visual Thought and Purpose-Built Motion (12 October 2026)
 
@@ -129,7 +141,7 @@ An attractive video file is only a RENDER CANDIDATE until technical, editorial, 
 
 **Fonts:** Playfair Display for major editorial statements and final revelation, Manrope for labels, data, captions and source info. Pin OFL font files internally, verify families, hashes and actual raster specimens, do not rely on visual resemblance or network load. Primary title 76–108 logical px, captions 42–55 logical px, support labels 18–36 logical px based on role.
 
-**Folio:** restrained C/B mark and source/location markers, not a permanent header plus large headline plus bottom dark caption bar. **Closing:** final story geometry merges into concise Curio Bureau mark; 0.8–1.8s branded tail.
+**Folio:** restrained C/B mark and source/location markers, not a permanent header plus large headline plus bottom dark caption bar. **Closing:** exact shared `london-bridge-v1` ending; its original wording, coordinates, fonts, colors and fade are locked.
 
 **Caption discipline:** narration phrase text centered in normalized vertical band 42–58% with dynamic in-band placement; scenes are composed AROUND its footprint. Must survive TikTok and YouTube Shorts UI masks. Actual word alignment required for FINAL; estimated captions = WIP.
 
@@ -226,9 +238,9 @@ Store this Bible under repo `production/` with version ID, revision date, author
 ### Practical master styles (1080×1920 logical; native 4K is exactly ×2)
 | Style | Family / weight | Baseline logical size | Use / line limit |
 |---|---|---|---|
-| Display Hero | Playfair 600–700 | 76–108px | first-frame startling fact; ≤3 lines; width ≤920px |
-| Section Heading | Playfair 600 | 58–76px | evidence/mechanism act heading; 1–2 lines |
-| Final Insight | Playfair 600–700 | 64–88px | 1–3 compact lines; over active subject, no blank logo cut |
+| Display Hero | Playfair 900 | 76–108px | first-frame startling fact; ≤3 lines; width ≤920px |
+| Section Heading | Playfair 900 | 58–76px | evidence/mechanism act heading; 1–2 lines |
+| Final Insight | Playfair 900 | 64–88px | 1–3 compact lines; over active subject, no blank logo cut |
 | Body Fact | Manrope 600–700 | 26–42px | only when screen can carry context; never paragraph cards |
 | Data Hero | Manrope 750–850 | 66–125px | isolated sourced 21 / 82.9% / 6,000 |
 | Map Place | Manrope 700 | 24–36px | font size increases during geographical zoom |
@@ -250,7 +262,7 @@ Store this Bible under repo `production/` with version ID, revision date, author
 ## 5. Visual component system (never a page template)
 **Folio stamp:** hairline rule + C/B or full Curio Bureau wordmark. Choose ONE official system for each running film; 001/004 full wordmark and 005–007 abbreviated 'C/B' varied. Standard proposed: small 'C / B' 24px upper-left with episode no./research file upper-right; complete `CURIO BUREAU` only on end card and occasional genuine source title reveal. Film-specific slug can vary.
 
-**Document pointer:** fine gold line ends in a tick, not oversized yellow box; quote highlighted only while spoken; source credit attaches to source card.
+**Document pointer:** source-local bright selective yellow/red emphasis when it aids evidence reading; camera may follow the marker, then hold. Source credit attaches to the page. Preserve scientific color semantics and actual quote context.
 
 **Map pointer:** navy-on-ivory or ivory-on-navy; one highlighted location then an additional causal layer. Avoid random “island blob”; use sourced map data or label as abstract relationship.
 
@@ -258,7 +270,7 @@ Store this Bible under repo `production/` with version ID, revision date, author
 
 **Archival distinction:** ivory hairline top label 'HISTORICAL PHOTO / YEAR / ARCHIVE' vs reconstruction footer 'ORIGINAL ILLUSTRATION / NOT DOCUMENTARY FOOTAGE'. Filmic texture does not transform generated material into historical proof.
 
-**End card:** image/motion continues behind mark; Curio Bureau two-line masthead in Playfair + brand line in Manrope, gold line integrated with real story geometry; 0.8–1.8s tail, no hard black reset.
+**End card:** use the exact owner-locked `london-bridge-v1` shared module; preserve its wording, coordinates, pinned fonts, colors and fade. No alternative story-specific ending or extra ending texture.
 
 ## 6. A recognizable channel without visual monotony
 **Keep:** type hierarchy, color roles, research folio, evidence ethics, caption system, audio tonality, note of wonder, timing precision, calibrated camera and clean graphics. **Change every episode:** hero mechanism, environment palette, three major camera angles, transition motif, archival mix, microtexture, music instrumentation and narrative pivot. Distinct identity is the *way Curio Bureau explains facts*, not 'every film has exactly the same title on exactly the same navy card'.
@@ -269,8 +281,8 @@ Store this Bible under repo `production/` with version ID, revision date, author
 
 ## 8. Font verification checklist (must become automatic)
 1. Resolve font file legally, pin version and SHA-256 in build manifest.
-2. Load Playfair 600/700 and Manrope 500/700/800 before first rendered frame.
-3. Canvas/browser: `document.fonts.check('700 88px "Playfair Display"')` and analogous Manrope check, record method-specific fallback limitations.
+2. Load Playfair 900 and Manrope 500/700/800 before first rendered frame.
+3. Canvas/browser: `document.fonts.check('900 88px "Playfair Display"')` and analogous Manrope check, record method-specific fallback limitations.
 4. PIL renderer: load exact TTF font path, log basename/hash for each font role; test single-page glyph render. If wrong font, FAIL render instead of falling back to Georgia/DejaVu.
 5. Take source-generated glyph specimens and compare exported cropped pixels at 100%; verify no unstyled fallback during scene transitions.
 6. Enumerate screenshots for Episode 001–007: source-verified/appearance-only/missing. Older films cannot be 'certified' from visual style alone.
@@ -478,7 +490,7 @@ Three alternative hooks should look materially different—not three headlines o
 High views can reflect creator reach, topic, packaging, paid distribution or algorithm conditions. Views are **not** measured retention. Private YouTube/TikTok analytics are required to answer which exact 1–5s frames make viewers stay; use hypotheses, A/B-ish tests and coded post-mortems until those metrics become accessible.
 
 ## 8. Outro
-No generic 'subscribe' before factual resolution. Last spoken clause should answer the first question while revealing a larger system. Integrate 'Curio Bureau' for a short 0.8–1.8s branded tail on a still-moving appropriate environment; make rewatch loop ethical, not confusing. Sound must conclude just after the final word, never 4–5s later.
+No generic 'subscribe' before factual resolution. Last spoken clause should answer the first question while revealing a larger system. Finish with the exact shared `london-bridge-v1` ending; make any preceding rewatch callback ethical and clear. Sound must conclude just after the final word, never 4–5s later.
 
 
 
@@ -700,7 +712,7 @@ Art director annotates shot ledger `distinct / justified-repeat / harmful-repeat
 
 ## Implementation reference — tutorial motion and optics, 13 October 2026
 
-Reusable engine v1.1 now provides opt-in timing curves, registered cuts at peak velocity, short focus hunts, padded radial chromatic separation, long settles and local ink cadence. See [tutorial analysis and implementation](engine/TUTORIAL_OPTICS_2026_10_13.md), [tested scope](engine/OPTICS_TEST_VERIFICATION.json) and the [review episode](episodes/tutorial-optics-test/README.md). These are original Canvas adaptations of the three supplied tutorials, not recovered proprietary Vox settings. Original Pig War R2 remains the approved benchmark; the new 12.8-second technique test awaits owner creative and listening approval. This implementation note does not alter the governing editorial/artwork approval principles.
+Reusable engine v1.1 now provides opt-in timing curves, registered cuts at peak velocity, short focus hunts, padded radial chromatic separation, long settles and local ink cadence. See [tutorial analysis and implementation](engine/TUTORIAL_OPTICS_2026_10_13.md), [tested scope](engine/OPTICS_TEST_VERIFICATION.json) and the [review episode](episodes/tutorial-optics-test/README.md). These are original Canvas adaptations of the three supplied tutorials, not recovered proprietary Vox settings. Original Pig War R2 remains the approved benchmark; the 12.8-second technique test was accepted by the owner as good enough; this does not independently certify every technique or listening criterion. This implementation note does not alter the governing editorial/artwork approval principles.
 
 
 ## Current owner direction — full paper and image style, 13 October 2026, 22:04 UTC+8

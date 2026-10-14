@@ -1,5 +1,8 @@
 # Future-episode Motion Graphics v1.3 adapter (NOT a retroactive Episode 009 rebuild)
 
+## Required visual art review — 14 October 2026
+Before new science artwork, use [science paper/image art direction](../art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md) and its shot contract. They operationalize the owner's existing direction: specific images, deliberate crop/hierarchy, distinct physical materials, strong source-local textures, repaired layers, refined printed figures and intentional intermediate states. Five demanding frames and the hardest moving join require explicit art review; manifest/codec passes are not art approval. No new film is authorized by an infrastructure review.
+
 Starting after this research adoption, read the v1.3 governing Bible and [Motion Lab v2](../motion-lab/v2/README.md) before choosing animation style. The 32-entry technique index contains 20 adopted rules and 12 proposals. Adapt **information jobs**, not iconic Vox layouts.
 
 Required preproduction augmentations for subsequent commissioned new films:

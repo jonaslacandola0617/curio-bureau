@@ -1,13 +1,25 @@
 # CURIO BUREAU — EDITORIAL ART & MOTION DIRECTION BIBLE
-**ADOPTED v1.4.1 · Updated 13 October 2026 · Current paper/image owner direction governs representation; v1.4 editorial reasoning and release safeguards remain**
+**ADOPTED v1.4.2 · Updated 14 October 2026 · Current paper/image owner direction governs representation; v1.4 editorial reasoning and release safeguards remain**
 
 > **Approval record.** The owner reviewed the proposed v1.4 direction, expressly affirmed it accurately captured their visual intent, specified two corrections, and subsequently requested adoption of the corrected version. Both corrections are integrated below as mandatory production standards, not separate optional advice.
 >
-> **Do not misread adoption as approval of test films.** Ghost Army experimental animations V1–V4 remain artistically **REJECTED**. No moving sequence has yet demonstrated successful implementation of the desired style. The approved artifact is the *directing framework*, not a video.
+> **Do not misread adoption as approval of test films.** Ghost Army experimental animations V1–V4 remain artistically **REJECTED**. This historical rejection applies to Ghost Army V1–V4. Later owner-approved Pig War R2, London Bridge and Sunlight are positive benchmarks for their documented roles; they do not certify every future film.
 >
 > **Preservation:** This chapter adds to the already adopted v1.3 graphics research, v1.2 motion/art protections, v1.1 brand/production rules and original deliverable safeguards. It does not weaken the historically sourced script, brand colors/fonts, emotive narration, central captions, sound design, or full-resolution MP4/WebM release requirements.
 
 **Current representation constraint:** The owner requires full paper/image compositions for new films. Analytical graphics are printed figures or source-anchored annotations within that material world. Earlier photo-to-drawn/environment examples are retained as historical/general craft guidance, not permission to restore the superseded mixed-media default.
+
+## Visual consistency implementation — 14 October 2026
+
+The owner's current review request is implemented by the [science paper/image standard](../../art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md) and [shot art contract](../../art-direction/SCIENCE_SHOT_ART_CONTRACT.md). These operational rules clarify the adopted direction; they do not claim new Vox footage analysis or alter approved films.
+
+- Science remains the current topic focus. Choose subject-specific cleared photographs, source pages and refined printed figures that reveal the actual fact; all explanatory graphics remain within the paper/image world.
+- Design initial/intermediate/resolved compositions and next-shot inheritance before obtaining finished assets. Specify crop resolution at maximum zoom, semantic masks and hidden-region repairs.
+- Review image selection, hierarchy, physical paper/print/ink treatment, strong object-local texture, source-local annotations, motion and meaningful audio independently. Texture declarations do not certify visual fidelity.
+- Editorial titles/headers use pinned Playfair Display 900. Selective evidence highlights are bright yellow/red when appropriate; preserve scientific color meaning. The exact shared London Bridge ending replaces older variable-outro instructions. Bernard remains the approved default; no routine repeat A/B voice selection.
+- Five demanding art frames include a difficult intermediate composition, then the hardest moving join is reviewed at phone scale before full animation/native production. Record PASS/REVISE/NOT REVIEWED per applicable art dimension; a failed shot cannot be hidden by an average score.
+- Approved benchmarks: Pig War R2 (subject to recorded corrections), London Bridge and Sunlight, for their documented roles. Ghost Army V1–V4 remain rejected. Existing approval is not a fresh playback audit.
+- Existing graphics-only reference research does not certify photograph/paper art fidelity. Keep observed source behavior, inferred rig and Curio implementation distinct; no overall “100% Vox match” claim.
 
 ## 0. Creative premise and priority
 **Curio Bureau — “Stories, systems, and surprises.”** Original premium short factual documentaries, using beautiful and specific documentary art, imagery, object inspection, geography, diagrams, comparison and intentional motion. The channel's identity is *not* Vox's logo, stock transitions or a paper-texture preset. The objective is the high-quality editorial reasoning embodied in the user's supplied five Vox films, with original Curio subjects and design.

@@ -1,4 +1,7 @@
 # CURIO BUREAU — EPISODE 009 MASTER PRODUCTION DIRECTIVE
+
+## Required visual art review — 14 October 2026
+Before new science artwork, use [science paper/image art direction](../art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md) and its shot contract. They operationalize the owner's existing direction: specific images, deliberate crop/hierarchy, distinct physical materials, strong source-local textures, repaired layers, refined printed figures and intentional intermediate states. Five demanding frames and the hardest moving join require explicit art review; manifest/codec passes are not art approval. No new film is authorized by an infrastructure review.
 ## Governed by Master Production Bible v1.2, Motion Mastery Lab, and Original SFX Library (11 October 2026)
 
 **TASK MODE WHEN THIS PROMPT IS INVOKED FOR PRODUCTION:** Research, design, preproduce, animate, render, inspect, correct, and deliver a new, ORIGINAL Curio Bureau documentary episode. This prompt itself is a production specification, not an authorization for its writer to start rendering now. **Do not execute it merely because you are asked to write, read, or update a prompt.**
@@ -52,7 +55,7 @@ The mandate is **uniform craft quality with subject-specific creative variety**,
 
 **Semantic core colors:** Midnight navy `#0D1C2B`, ivory `#F5F0E7`, muted gold `#C8A26B`, restrained coral `#D57864`. Historical subject accents may add materials/environment palettes; never flatten all environments into one four-color illustration style. Keep enough channel signature in the typography, typography motion, annotation and evidence treatment.
 
-**Fonts:** Actual, verified **Playfair Display** for large editorial headings, significant dates, conceptual statements and insight; **Manrope** for captions, numeric/data text, maps, source and diagram labels. Do not claim fonts loaded because CSS specifies them. Await actual font loading, check effective face/metrics and inspect export pixels. Never distribute font binaries to users.
+**Fonts:** Actual, verified **Playfair Display 900** for large editorial headings, significant dates, conceptual statements and insight; **Manrope** for captions, numeric/data text, maps, source and diagram labels. Do not claim fonts loaded because CSS specifies them. Await actual font loading, check effective face/metrics and inspect export pixels. Never distribute font binaries to users.
 
 **Aspect and master:** 9:16, **2160×3840 native** at **30fps** for BOTH separate downloadable masters. MP4 = H.264/yuv420p with high-quality native-rendered picture, 48kHz AAC stereo (normally ~320 kb/s). WebM = VP9 / 48kHz Opus stereo. The primary MP4 must NOT be 1080p while WebM is 4K. Upscaled 1080p artwork is not native-detail 4K just because container pixels read 2160×3840. Keep sufficiently resolved bitmaps and vector text at maximum camera magnification. Lossless full-resolution source frames are the default authoritative pipeline; JPEG intermediary frames are not a substitute for a lossless PNG frame master unless distinctly approved and disclosed.
 
@@ -72,7 +75,7 @@ The mandate is **uniform craft quality with subject-specific creative variety**,
 
 Curio Bureau's existing **eight** subjects: Samoa's calendar shift; Centralia mine fire; Niagara Falls 1969 dewatering; Lake Peigneur drilling/lake disaster; Boston Molasses Flood; Dagen H Sweden traffic-direction conversion; Chicago's nineteenth-century building lifts; and **Mars Climate Orbiter (1999)**, the navigation-unit mismatch and overlooked verification failures. Episode 009 must not simply reuse Episode 008's Mars/digital-unit/trajectory styling, or repeat the most recent physics/data-reveal composition unless the source material specifically earns it.
 
-Find **three distinct, historically sourced curiosity stories** that can sustain ~55–75s of escalating causal explanation and offer a subject-specific original visual mechanism. Prefer one fascinating observable contradiction, one convincing system/cause and one surprising, correctly evidenced payoff. Reject repeats of floods, draining lakes, engineering-lifted buildings, road-switching or other near-duplicates unless there is an exceptional genuinely different angle.
+While science is the current focus, find **three distinct, primary-source-supported science stories** that can sustain ~55–75s of escalating causal explanation and offer a subject-specific original visual mechanism. Prefer one fascinating observable contradiction, one convincing system/cause and one surprising, correctly evidenced payoff. Reject repeats of floods, draining lakes, engineering-lifted buildings, road-switching or other near-duplicates unless there is an exceptional genuinely different angle.
 
 For EACH candidate provide:
 - A true first-frame event visible without voice and free from invented catastrophe.
@@ -228,8 +231,8 @@ The user's primary critique of Episode 008 was not poor graphic rendering: **its
 
 For every narration scene create a table: `scene_id | verbatim line | dramatic function | intended viewer emotion | narrator attitude | delivery energy 1–5 | key stressed words | pitch rise/fall | timing of anticipatory pause | vocal texture/pace | score state | SFX to leave room for`. Begin with an expressive story premise; avoid a flat inventory of historical facts. Use **curiosity with upward movement** for the open question, **contained urgency** as consequences approach, **restrained astonishment** for the strange mechanism and **earned clarity or reflection** for the conclusion. No artificial screaming or melodramatic exaggeration of tragic events.
 
-Voice audition BEFORE final asset lock:
-1. Produce two **real, independently rendered** performances for the first five seconds, preferably with different phrasing/voice characterization rather than just resampled speed/pitch, and a second A/B for the mid-film twist/payoff. If synthetic voice tools do not support true prosody controls, state the limitation and audition a different engine/voice/script approach instead of claiming successful direction.
+Bernard performance review BEFORE final asset lock:
+1. Use the approved Bernard default. Review the first five seconds and the pivotal payoff for expressive delivery. Produce alternative readings only to resolve a concrete performance problem; do not routinely repeat voice A/B selection. If tools cannot realize required direction, state the limitation and revise phrasing/performance before claiming a pass.
 2. Assess natural consonants, precise pronunciation, meaning-based emphasis, contrast between tension and release, spoken numbers, conversational spontaneity, and whether there is **real human-sounding variation between lines**. Keep the narration authentic and credible, not an exaggerated movie trailer.
 3. Use the best delivery to lock the **recorded waveform** and its word/phrase boundaries. Build the actual visual timeline from those speech recordings; do not invent timestamp alignment and do not mask unplanned dead air with music.
 4. Compare the rendered Episode 009 **voice-only** stem against Episode 008 on dynamic/subjective expression. Do not assert private retention improvement without analytics. If two auditory passes independently find it monotonous, revise before full render.
@@ -264,7 +267,7 @@ Create an **audio emotional-trajectory sheet** charting *narration energy, music
 
 ### 8D. AUDIO-BEFORE-PICTURE APPROVAL, MIX, AND LISTENING TESTS
 
-Hard preflight before complete 4K render: produce a **5–10-second A/B AUDIO + draft-image hook** and at least one **mechanism/twist audio vignette** with actual chosen narration, rhythmic/music cues and at least two deliberately timed context-relevant sound details where the story supports them. Listen and select the strongest variant. If human listening access is unavailable, preserve candidates and label creative audio approval open; DO NOT call it final-ready.
+Hard preflight before complete 4K render: produce a **5–10-second Bernard AUDIO + draft-image hook** and at least one **mechanism/twist audio vignette** with actual chosen narration, rhythmic/music cues and at least two deliberately timed context-relevant sound details where the story supports them. Listen and select the strongest variant. If human listening access is unavailable, preserve candidates and label creative audio approval open; DO NOT call it final-ready.
 
 Maintain separate stems/buses: `VOICE / MUSIC / AMBIENCE / PHYSICAL FOLEY / EDITORIAL INFORMATION / TRANSITIONS / SUB-IMPACTS / MASTER`. The `audio_cue_sheet.csv` schema MUST include `cue_id, exact file path, SHA256, source provider, license/rights status, real-vs-designed flag, narrative_word_id, animation_event_id, cue_onset_s, duration_s, bus, target_gain, automation/ducking, pan, source rationale, final audible-check verdict`. For major shots, also track `narration_performance_map`, `music_transition_event` and `sfx_sync_frame`. Include recorded Foley only where the licensing status permits the intended platform and distribution; do not copy third-party raw files into a public code repo.
 
@@ -281,16 +284,16 @@ Keep a `sound_fingerprint.csv`: `scene_id, lead_sound_material, musical_motif, S
 Required artifacts:
 - `research.md` — event facts, sources, publication date vs event date, primary/secondary evidence, confidence, rights.
 - `topic_lock.md` if needed; `story_thesis.md`; `three_hook_variants.md`; `first_frame_phone_tests.md`.
-- `narration_script.md` with hook and every claim sourced; `narration_performance_map.md`/`narration_emotion_map.csv` describing per-line vocal direction, stress and emotional intent; A/B opening and twist voice auditions; approved expressive voice-master and vocal-QA report; final measured speech files; voice-gap QA JSON and true word-boundary alignment.
+- `narration_script.md` with hook and every claim sourced; `narration_performance_map.md`/`narration_emotion_map.csv` describing per-line vocal direction, stress and emotional intent; opening and twist performance review, with alternatives only when needed; approved expressive voice-master and vocal-QA report; final measured speech files; voice-gap QA JSON and true word-boundary alignment.
 - `retention_map.md` — what's surprising, what question is pending, what is new at each beat; distinguish creative expectation from real metrics.
 - `style_frames/` — FIVE demanding, distinct production-grade frames; `asset_manifest.md`, sources and rights.
 - `visual_beat_sheet.csv` — claim→art objects→camera→local movement→transition→cue→caption→evidence.
 - `storyboard.md` and `animatic.html` — actual moving beat timing to the voice; a full shot fingerprint ledger.
 - `motion_rig_spec.md` — scene nodes, camera, masks, anchor points, animation curves, font loading.
-- `score_concept.md`, `music_license_manifest.md`, `audio_emotional_trajectory.csv`, `sound_library_selection.csv` (exact catalog names, file hashes, listening decisions and rights), `audio_cue_sheet.csv` with exact narration-word/event sync, `sound_fingerprint.csv`, two short audible A/B hook tests and a pivotal mechanism/twist audio vignette, fully separately mixed VO/music/physical-foley/ambience/editorial-impact stems, `sound_mix_report.md`, **human-listening_QA.md** or an explicit inability-to-listen release blocker.
+- `score_concept.md`, `music_license_manifest.md`, `audio_emotional_trajectory.csv`, `sound_library_selection.csv` (exact catalog names, file hashes, listening decisions and rights), `audio_cue_sheet.csv` with exact narration-word/event sync, `sound_fingerprint.csv`, short audible hook review, with alternative readings only when needed and a pivotal mechanism/twist audio vignette, fully separately mixed VO/music/physical-foley/ambience/editorial-impact stems, `sound_mix_report.md`, **human-listening_QA.md** or an explicit inability-to-listen release blocker.
 - `caption_alignment_report.md`, `captions.srt`, and actual UI-overlay image QA tests.
 
-**Explicit blocking phases:** RESEARCH LOCK → **HOOK VOICE/AUDIO A/B** → HOOK APPROVAL → ART ASSET APPROVAL → MOVING ANIMATIC APPROVAL → **VOICE PERFORMANCE APPROVAL + MUSIC/SFX VIGNETTE APPROVAL** → AUDIO LOCK → FULL NATIVE 4K FRAME RENDER. NO prematurely committing hundreds of frames of simplistic animation because the exporter works.
+**Explicit blocking phases:** RESEARCH LOCK → **BERNARD HOOK PERFORMANCE/SOUND REVIEW** → HOOK APPROVAL → ART ASSET APPROVAL → MOVING ANIMATIC APPROVAL → **VOICE PERFORMANCE APPROVAL + MUSIC/SFX VIGNETTE APPROVAL** → AUDIO LOCK → FULL NATIVE 4K FRAME RENDER. NO prematurely committing hundreds of frames of simplistic animation because the exporter works.
 
 ---
 
@@ -313,7 +316,7 @@ Required artifacts:
 - View every different caption arrangement with actual TikTok AND Shorts UI-overlay mockups; no center captions hiding explanatory content.
 - Record creative, technical, audio, historical rights and platform QA decisions independently. **RENDER CANDIDATE** if human aesthetic review or subjective listening could not be completed; no invented “FINAL” status.
 
-**End card:** identity unfolds inside the subject's final visual, not an abrupt generic separate card; short enough to prevent unplanned voice tail. A conceptually coherent loop is welcome but never worth breaking factual clarity.
+**End card:** use the exact owner-locked `london-bridge-v1` shared module, with unchanged wording, coordinates, pinned fonts, colors and fade, composited after finishing. Do not substitute a different ending or add ending texture.
 
 ---
 

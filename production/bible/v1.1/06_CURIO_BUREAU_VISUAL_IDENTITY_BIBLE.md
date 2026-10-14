@@ -30,9 +30,9 @@
 ### Practical master styles (1080×1920 logical; native 4K is exactly ×2)
 | Style | Family / weight | Baseline logical size | Use / line limit |
 |---|---|---|---|
-| Display Hero | Playfair 600–700 | 76–108px | first-frame startling fact; ≤3 lines; width ≤920px |
-| Section Heading | Playfair 600 | 58–76px | evidence/mechanism act heading; 1–2 lines |
-| Final Insight | Playfair 600–700 | 64–88px | 1–3 compact lines; over active subject, no blank logo cut |
+| Display Hero | Playfair 900 | 76–108px | first-frame startling fact; ≤3 lines; width ≤920px |
+| Section Heading | Playfair 900 | 58–76px | evidence/mechanism act heading; 1–2 lines |
+| Final Insight | Playfair 900 | 64–88px | 1–3 compact lines; over active subject, no blank logo cut |
 | Body Fact | Manrope 600–700 | 26–42px | only when screen can carry context; never paragraph cards |
 | Data Hero | Manrope 750–850 | 66–125px | isolated sourced 21 / 82.9% / 6,000 |
 | Map Place | Manrope 700 | 24–36px | font size increases during geographical zoom |
@@ -54,7 +54,7 @@
 ## 5. Visual component system (never a page template)
 **Folio stamp:** hairline rule + C/B or full Curio Bureau wordmark. Choose ONE official system for each running film; 001/004 full wordmark and 005–007 abbreviated 'C/B' varied. Standard proposed: small 'C / B' 24px upper-left with episode no./research file upper-right; complete `CURIO BUREAU` only on end card and occasional genuine source title reveal. Film-specific slug can vary.
 
-**Document pointer:** fine gold line ends in a tick, not oversized yellow box; quote highlighted only while spoken; source credit attaches to source card.
+**Document pointer:** source-local bright selective yellow/red emphasis when it aids evidence reading; camera may follow the marker, then hold. Source credit attaches to the page. Preserve scientific color semantics and actual quote context.
 
 **Map pointer:** navy-on-ivory or ivory-on-navy; one highlighted location then an additional causal layer. Avoid random “island blob”; use sourced map data or label as abstract relationship.
 
@@ -62,7 +62,7 @@
 
 **Archival distinction:** ivory hairline top label 'HISTORICAL PHOTO / YEAR / ARCHIVE' vs reconstruction footer 'ORIGINAL ILLUSTRATION / NOT DOCUMENTARY FOOTAGE'. Filmic texture does not transform generated material into historical proof.
 
-**End card:** image/motion continues behind mark; Curio Bureau two-line masthead in Playfair + brand line in Manrope, gold line integrated with real story geometry; 0.8–1.8s tail, no hard black reset.
+**End card:** use the exact owner-locked `london-bridge-v1` shared module; preserve its wording, coordinates, pinned fonts, colors and fade. No alternative story-specific ending or extra ending texture.
 
 ## 6. A recognizable channel without visual monotony
 **Keep:** type hierarchy, color roles, research folio, evidence ethics, caption system, audio tonality, note of wonder, timing precision, calibrated camera and clean graphics. **Change every episode:** hero mechanism, environment palette, three major camera angles, transition motif, archival mix, microtexture, music instrumentation and narrative pivot. Distinct identity is the *way Curio Bureau explains facts*, not 'every film has exactly the same title on exactly the same navy card'.
@@ -73,8 +73,8 @@
 
 ## 8. Font verification checklist (must become automatic)
 1. Resolve font file legally, pin version and SHA-256 in build manifest.
-2. Load Playfair 600/700 and Manrope 500/700/800 before first rendered frame.
-3. Canvas/browser: `document.fonts.check('700 88px "Playfair Display"')` and analogous Manrope check, record method-specific fallback limitations.
+2. Load Playfair 900 and Manrope 500/700/800 before first rendered frame.
+3. Canvas/browser: `document.fonts.check('900 88px "Playfair Display"')` and analogous Manrope check, record method-specific fallback limitations.
 4. PIL renderer: load exact TTF font path, log basename/hash for each font role; test single-page glyph render. If wrong font, FAIL render instead of falling back to Georgia/DejaVu.
 5. Take source-generated glyph specimens and compare exported cropped pixels at 100%; verify no unstyled fallback during scene transitions.
 6. Enumerate screenshots for Episode 001–007: source-verified/appearance-only/missing. Older films cannot be 'certified' from visual style alone.

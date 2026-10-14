@@ -1,6 +1,6 @@
 # Curio Bureau — Governing Creative Production System
 
-**Current authority: v1.1, adopted 11 October 2026.**
+**Historical supporting modules: v1.1, adopted 11 October 2026. Current authority: Master Bible v1.4.2 and the later owner full-paper/image direction.**
 
 This folder stores the cross-episode audit and supporting design, motion, audio, hook, anti-repetition, and technical standards. The **one governing document** is [Master Production Bible](../../CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md); supporting studies provide context, rationale and evidence but do not silently override it.
 
@@ -44,3 +44,5 @@ The initial audit is **evidence-qualified**, not a claim to have watched every r
 - [SHOT_FINGERPRINT_OBSERVED_EXAMPLES.csv](SHOT_FINGERPRINT_OBSERVED_EXAMPLES.csv)
 
 The XLSX scorecard, visual contact sheets and technical QA script were in the original conversation ZIP; the text-based reports here and the master bible remain readable without those binaries. Reference images are not proof of comprehensive playback. Do not claim the binary package was fully mirrored if it has not been committed.
+
+For current science visual review, use [paper/image art direction](../../art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md). Older lighter font weights, muted-only highlight and variable-outro examples are superseded.
