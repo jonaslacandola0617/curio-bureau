@@ -44,3 +44,6 @@ Read [Pig War R2 owner approval](production/approved-benchmarks/PIG_WAR_R2_OWNER
 ## Current owner direction — image-led sequences, 14 October 2026
 
 The owner approved Astronaut Height R2 and adopted image-led editorial sequences as the new default. Read production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md in full; it governs new film art, motion, textures, optics, sound, typography and delivery. Photographs/photographic cutouts carry the explanation; paper/source pages and drawn annotations support it rather than dominating. Keep strong materials and all earlier approved brand/audio/caption/editorial safeguards. New manifests use visual_style: image-led and material_profile: image-led-v1. Approved historical movies retain their original manifests and appearance. The earlier paper-image directive remains a superseded historical record.
+
+## Durable rendering — owner directive, 14 October 2026
+Read production/engine/NATIVE_RENDER_RECOVERY.md before native export. Save actual verified render chunks to durable private storage and push small recovery manifests with hashes/frame ranges/file identities to Git. A progress log alone is insufficient. Resume verified saved chunks and render only missing ranges. Preserve approved picture and sound; verify and save final outputs before sharing links.
