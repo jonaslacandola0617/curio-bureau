@@ -33,7 +33,7 @@ Does hearing your recorded voice still surprise you?
 
 Science sources:
 Orepic et al., Bone conduction facilitates self-other voice discrimination (2023): https://pmc.ncbi.nlm.nih.gov/articles/PMC9929504/
-Kimura & Yotsumoto, Neural representations of own-voice in the human auditory cortex (2021): https://www.nature.com/articles/s41598-020-80095-6
+Hosaka, Kimura & Yotsumoto, Neural representations of own-voice in the human auditory cortex (2021): https://www.nature.com/articles/s41598-020-80095-6
 NIDCD, How Do We Hear?: https://www.nidcd.nih.gov/health/how-do-we-hear
 
 Photographs cropped, composited and animated. Anatomical images show teaching models; vibration paths are conceptual, not measurements.

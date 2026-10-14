@@ -1,7 +1,7 @@
 # Evidence and rights — Recorded Voice
 ## Primary science
 - Orepic et al., 2023, Bone conduction facilitates self-other voice discrimination: https://pmc.ncbi.nlm.nih.gov/articles/PMC9929504/ . Speaking involves air and skull-conducted sound; skull and other tissues affect self-voice, with sensory/vibrotactile contributions. EQ alone is not a validated exact recreation.
-- Kimura and Yotsumoto, 2021, Neural representations of own-voice in the human auditory cortex: https://www.nature.com/articles/s41598-020-80095-6 . Self-heard voice involves air and bone conduction; ordinary recorded voice lacks that internally generated component.
+- Hosaka, Kimura and Yotsumoto, 2021, Neural representations of own-voice in the human auditory cortex: https://www.nature.com/articles/s41598-020-80095-6 . Self-heard voice involves air and bone conduction; ordinary recorded voice lacks that internally generated component.
 - NIDCD, How Do We Hear?: https://www.nidcd.nih.gov/health/how-do-we-hear . Reference for accurate anatomical routing, not a license for arbitrary location annotations.
 Keep microphone/room effects in the explanation. No fake study percentages, universal pitch reduction, diagnosis, or real-voice deception hook.
 
@@ -13,3 +13,5 @@ Keep microphone/room effects in the explanation. No fake study percentages, univ
 Preserve required author/credit lines, source/license links and changes descriptions in the source bundle and post copy. The latter two anatomical photographs are teaching models, not patient images, modern measurements or recordings of vibration.
 Licenses: https://creativecommons.org/licenses/by/2.0/ and https://creativecommons.org/licenses/by/4.0/ .
 Sourced, cropped/staged/annotated photographic transformations must be described truthfully. Existing owner textures and pinned fonts are reused. Raw restricted Foley stays private; original repo cues and provider catalog are consulted before new sounds.
+
+Citation verification: PubMed PMID33436798 lists Taishi Hosaka, Marino Kimura and Yuko Yotsumoto. The post/source citation now credits all three authors. https://pubmed.ncbi.nlm.nih.gov/33436798/
