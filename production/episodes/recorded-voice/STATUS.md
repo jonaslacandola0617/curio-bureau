@@ -1,0 +1,11 @@
+# Recorded Voice R1 — review rendered; persistent delivery blocked
+
+The new image-led science movie is assembled: 35.3 seconds, 1080×1920, 30 fps, 1,059 frames, Bernard narration, four cleared source photographs, eighteen reused Foley cues, an existing original Curio music stem adapted for this mix, and the exact London Bridge ending.
+
+Complete normalized intended script matches the actual-source ASR transcript. The encoded closing sentence is recognized through the final word routes. Source speech is preserved with no voice fade and a 0.8-second protected hold before the endcard. Delivered audio measured -13.40 LUFS / -1.28 dBTP. Font and native-size browser checks passed with no page errors. Five demanding native states and the hardest opening join were inspected; microphone isolation and headline focus were corrected. New owner moving/listening review remains pending; machine recognition is not an independent phonetic listening certificate.
+
+Local review: recorded_voice_build/Preview.mp4. Local private source archive: recorded_voice_project/Recorded_Voice_Private_Source_R1.zip (76,248,278 bytes). Neither has been saved for durable delivery. Library returned library_storage_limit_exceeded. Automatic approval review rejected a private Google Drive backup upload because the payload/destination was not explicitly authorized and connected-account ownership was unverified. No Drive file was created and no saved files were deleted.
+
+STORAGE_CLEANUP_PROPOSAL.json lists only 39 completed astronaut native frame checkpoint parts, totaling 11,416,949,751 bytes. Any deletion needs explicit owner authorization; keep the saved astronaut master, posting MP4, WebM, original private project, sound libraries and unrelated files. Do not bypass the Drive rejection by sending the private archive elsewhere without authorization.
+
+Narration recovery: Runway task 21ea040d-b8d1-40e6-9b00-660b38f2f0ee; do not regenerate it merely because storage is blocked. Source photos and licenses are in RESEARCH_AND_RIGHTS.md; the original fonts/textures/music are recoverable from the saved astronaut project. Native 4K must wait for new moving approval.
