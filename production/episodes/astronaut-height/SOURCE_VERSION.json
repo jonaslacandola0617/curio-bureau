@@ -1,0 +1,10 @@
+{
+  "bible": "1.4.2",
+  "base_commit": "a30a90341a87a864b9dddc332238a5792deb7c8b",
+  "voice": "Bernard",
+  "voice_task": "4b2c852a-fa5a-4ce6-8bdd-500a8cf5a6af",
+  "material_profile": "paper-image-v1",
+  "ending": "london-bridge-v1",
+  "art_standard": "SCIENCE_PAPER_IMAGE_STANDARD v1.0",
+  "status": "REVIEW; owner moving/listening approval before 4K"
+}

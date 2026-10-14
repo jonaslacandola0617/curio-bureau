@@ -1,0 +1,10 @@
+id,start,end,representation_family,camera_state_change,narrative_fact
+hook,0,2.9492100000000003,photographic_cutout,Earth/astronaut/title parallax,Spaceflight context; temporary height question
+evidence,2.9492100000000003,6.74921,source_excerpt,Source-relative marker and camera focus,Up to 3%; not universal
+anatomy,6.74921,9.094629999999999,printed_anatomy,Whole-column to anatomical detail,Spine supplies height change
+earth,9.094629999999999,12.17463,printed_anatomy,Same source with loading arrow,Earth loading
+micro,12.17463,16.01463,tracing_annotation,Loading arrow fades; comparison prepared,Reduced usual loading
+change,16.01463,19.44363,printed_comparison,Conceptual curved/longer overlays; fixed baseline,Straightening/elongation
+research,19.44363,24.02363,photographic_evidence,Photo establishment then probe inspection,Actual spinal-ultrasound investigation
+fit,24.02363,30.219029999999997,photo_source_composition,Technical-summary selection over suit print,Accommodation matters
+return,30.219029999999997,39.06666666666667,photo_measurement_callback,Stable illustrative baseline resolves; exact ending,Temporary height; normal on Earth

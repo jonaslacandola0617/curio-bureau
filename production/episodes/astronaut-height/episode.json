@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "id": "astronaut-height",
+  "title": "Why Astronauts Get Taller in Space \u2014 Curio Bureau",
+  "description": "Full paper/image science film \u2022 complete moving review \u2022 temporary spinal elongation",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "fonts": [
+    {
+      "file": "Manrope.ttf",
+      "family": "Manrope",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "file": "PlayfairDisplay.ttf",
+      "family": "Playfair Display",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+    }
+  ],
+  "images": {
+    "paper": "paper_material.jpg",
+    "ink": "ink_density.png",
+    "paperFiber": "fiber_browser.jpg",
+    "plastic": "plastic_browser.jpg",
+    "photocopy": "photocopy_browser.jpg",
+    "hero": "hero_browser.jpg",
+    "ultrasound": "ultrasound_browser.png",
+    "spine": "spine.png"
+  },
+  "data_files": [
+    "timing.json"
+  ],
+  "data_loader": "data.py",
+  "scripts": [
+    "scenes.js"
+  ],
+  "mix": "preflight_mix.wav",
+  "voice": "voice_full.wav",
+  "sfx_cues": "SFX_CUE_SHEET.json",
+  "audio_builder": "audio.py",
+  "audio_inputs": [
+    "assets/voice_full.wav",
+    "assets/music_full.wav",
+    "assets/sfx_full.wav",
+    "assets/timing.json"
+  ],
+  "release_status": "RENDER CANDIDATE",
+  "creative_note": "Bible v1.4.2. Owner full moving review before native 4K.",
+  "audio_builder_location": "episode",
+  "optics": {
+    "enabled": true
+  },
+  "brand_ending": "london-bridge-v1",
+  "material_profile": "paper-image-v1",
+  "visual_style": "paper-image"
+}

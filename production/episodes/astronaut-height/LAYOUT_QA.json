@@ -1,0 +1,405 @@
+{
+  "rows": [
+    {
+      "text": "Space can make you",
+      "start": 0,
+      "end": 0.775,
+      "font_size": 42,
+      "left": 307.5,
+      "right": 772.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "taller,",
+      "start": 0.78,
+      "end": 1.04,
+      "font_size": 42,
+      "left": 453,
+      "right": 627,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "but you don't get",
+      "start": 1.5,
+      "end": 2.095,
+      "font_size": 42,
+      "left": 340,
+      "right": 740,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "to keep it.",
+      "start": 2.1,
+      "end": 2.64,
+      "font_size": 42,
+      "left": 412,
+      "right": 668,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "Astronauts can gain up",
+      "start": 2.9492100000000003,
+      "end": 4.0442100000000005,
+      "font_size": 42,
+      "left": 278.5,
+      "right": 801.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "to three percent in",
+      "start": 4.04921,
+      "end": 5.084210000000001,
+      "font_size": 42,
+      "left": 324.5,
+      "right": 755.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "height while in orbit.",
+      "start": 5.0892100000000005,
+      "end": 5.96921,
+      "font_size": 42,
+      "left": 304,
+      "right": 776,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "Most of that change",
+      "start": 6.74921,
+      "end": 7.44421,
+      "font_size": 42,
+      "left": 309.5,
+      "right": 770.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "happens in the spine.",
+      "start": 7.44921,
+      "end": 8.48921,
+      "font_size": 42,
+      "left": 297,
+      "right": 783,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "On Earth,",
+      "start": 9.094629999999999,
+      "end": 9.574629999999999,
+      "font_size": 42,
+      "left": 418,
+      "right": 662,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "your spine supports your",
+      "start": 9.85463,
+      "end": 10.889629999999999,
+      "font_size": 42,
+      "left": 259.5,
+      "right": 820.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "body's weight.",
+      "start": 10.89463,
+      "end": 11.51463,
+      "font_size": 42,
+      "left": 365,
+      "right": 715,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "In microgravity,",
+      "start": 12.17463,
+      "end": 12.954629999999998,
+      "font_size": 42,
+      "left": 355,
+      "right": 725,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "that normal loading is",
+      "start": 13.39463,
+      "end": 14.769629999999998,
+      "font_size": 42,
+      "left": 292,
+      "right": 788,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "reduced.",
+      "start": 14.774629999999998,
+      "end": 15.01463,
+      "font_size": 42,
+      "left": 421.5,
+      "right": 658.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "The spine can straighten",
+      "start": 16.01463,
+      "end": 17.149630000000002,
+      "font_size": 42,
+      "left": 263,
+      "right": 817,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "and lengthen,",
+      "start": 17.15463,
+      "end": 18.01463,
+      "font_size": 42,
+      "left": 372.5,
+      "right": 707.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "adding height.",
+      "start": 18.25463,
+      "end": 18.89463,
+      "font_size": 42,
+      "left": 365,
+      "right": 715,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "NASA researchers have even",
+      "start": 19.44363,
+      "end": 20.89863,
+      "font_size": 42,
+      "left": 225,
+      "right": 855,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "used ultrasound aboard the",
+      "start": 20.90363,
+      "end": 22.37863,
+      "font_size": 42,
+      "left": 232.5,
+      "right": 847.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "space station to study",
+      "start": 22.38363,
+      "end": 23.53863,
+      "font_size": 42,
+      "left": 286,
+      "right": 794,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "the change.",
+      "start": 23.54363,
+      "end": 24.01863,
+      "font_size": 42,
+      "left": 392,
+      "right": 688,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "It matters because spacecraft",
+      "start": 24.02363,
+      "end": 26.00293,
+      "font_size": 42,
+      "left": 209,
+      "right": 871,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "seats and spacesuits have",
+      "start": 26.007929999999998,
+      "end": 27.882929999999998,
+      "font_size": 42,
+      "left": 246,
+      "right": 834,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "to fit a body",
+      "start": 27.887929999999997,
+      "end": 28.60293,
+      "font_size": 42,
+      "left": 392.5,
+      "right": 687.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "that changes in flight.",
+      "start": 28.60793,
+      "end": 29.80793,
+      "font_size": 42,
+      "left": 289,
+      "right": 791,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "Back on Earth,",
+      "start": 30.219029999999997,
+      "end": 30.95903,
+      "font_size": 42,
+      "left": 367.5,
+      "right": 712.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "astronauts return to their",
+      "start": 31.339029999999994,
+      "end": 32.47402999999999,
+      "font_size": 42,
+      "left": 252.5,
+      "right": 827.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "normal height.",
+      "start": 32.479029999999995,
+      "end": 33.079029999999996,
+      "font_size": 42,
+      "left": 363.5,
+      "right": 716.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "So this isn't a",
+      "start": 33.67903,
+      "end": 34.27402999999999,
+      "font_size": 42,
+      "left": 377,
+      "right": 703,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "permanent growth spurt.",
+      "start": 34.27902999999999,
+      "end": 35.519029999999994,
+      "font_size": 42,
+      "left": 257.5,
+      "right": 822.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "It's a temporary change",
+      "start": 36.03903,
+      "end": 36.994029999999995,
+      "font_size": 42,
+      "left": 276.5,
+      "right": 803.5,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    },
+    {
+      "text": "in your spine.",
+      "start": 36.99903,
+      "end": 37.939029999999995,
+      "font_size": 42,
+      "left": 377,
+      "right": 703,
+      "vertical_band": [
+        1021,
+        1112
+      ]
+    }
+  ],
+  "max_caption_right": 871,
+  "min_caption_left": 209,
+  "mean_source_frame_ms": 285.4916666666589,
+  "caption_status": "Actual-audio machine ASR timestamps; full transcript and numerical spelling reconciled. Not independently word-listening certified.",
+  "errors": []
+}

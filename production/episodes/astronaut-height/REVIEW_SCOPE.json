@@ -1,0 +1,19 @@
+{
+  "primary_sources": [
+    "https://www.nasa.gov/reference/risk-of-spaceflight-induced-bone-changes/",
+    "https://ntrs.nasa.gov/citations/20110023150",
+    "https://www.nasa.gov/image-article/spinal-ultrasound-investigation/"
+  ],
+  "reference_use": "Retained source studies and retrieved manuals; source-qualified techniques applied to original Curio assets. No fresh full Vox soundtrack audition or proprietary project reconstruction.",
+  "representation": "Paper/photo/printed anatomy with source-local annotations. Conceptual spine overlay explicitly labeled; native source SVG rasterized at 4000px height.",
+  "review_scope": [
+    "Native sampled frames",
+    "Phone-sized contact sheet",
+    "Source/caption geometry",
+    "Actual narration waveform and ASR transcript",
+    "Encoded full decode and frame count pending safe export completion"
+  ],
+  "owner_moving_listening_approval": "PENDING",
+  "independent_word_listening": "NOT CERTIFIED",
+  "native_video": "NOT YET RENDERED"
+}

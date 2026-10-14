@@ -1,0 +1,44 @@
+{
+  "original_duration": 40.16,
+  "duration": 39.06666666666667,
+  "silence_edits": [
+    [
+      2.85345,
+      3.24424
+    ],
+    [
+      9.44338,
+      9.83796
+    ],
+    [
+      20.0851,
+      20.4161
+    ],
+    [
+      25.6285,
+      26.0042
+    ],
+    [
+      31.6728,
+      32.0617
+    ]
+  ],
+  "method": "Measured quiet trimmed to .32s; no speech acceleration",
+  "events": {
+    "evidence": 2.9492100000000003,
+    "limit": 3.8892100000000003,
+    "anatomy": 6.74921,
+    "earth": 9.094629999999999,
+    "micro": 12.17463,
+    "straighten": 16.01463,
+    "lengthen": 17.15463,
+    "research": 19.44363,
+    "ultrasound": 20.90363,
+    "fit": 24.02363,
+    "suits": 26.62793,
+    "return": 30.219029999999997,
+    "resolve": 33.67903,
+    "temporary": 36.03903
+  },
+  "caption_review": "Actual-audio machine ASR timestamps; full transcript and numerical spelling reconciled. Not independently word-listening certified."
+}
