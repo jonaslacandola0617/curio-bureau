@@ -50,3 +50,8 @@ Read production/engine/NATIVE_RENDER_RECOVERY.md before native export. Save actu
 
 ## Final spoken word — owner feedback, 14 October 2026
 Read production/engine/NARRATION_TAIL_QA.md. The published Astronaut film's last word was reported clipped. Preserve its visual benchmark and published copy, but do not use that ending as an audio standard. Keep the untouched narration; reconcile the entire closing script and caption, protect its complete tail before the locked endcard, and listen to the actual encoded ending. Decoder/duration/ASR passes alone cannot certify a fully audible final word.
+
+
+## Owner-requested static design gate — 14 October 2026
+
+For the active visual-design upgrade, read [the static design lab](production/design-lab/2026-10-14/README.md), its source audit, ingestion prompt and instruction draft. Produce/revise four original static artworks and obtain owner artistic approval **before** animation. The gate is an owner instruction; the new studies and experimental palettes remain proposals. Preserve current image-led direction, approved audio/caption/ending locks and Bible v1.4.3. Do not treat browser checks as art approval or claim paid lessons/proprietary Vox rigs were accessed.

@@ -1,0 +1,72 @@
+{
+  "status": "OWNER_REVIEW_PENDING",
+  "private_assets_required": true,
+  "reference_art_in_public_git": false,
+  "assets": [
+    {
+      "name": "plastic_browser.jpg",
+      "bytes": 128725,
+      "sha256": "27c8712e0a20f2189db8d4f53a028996b50a7274d81640407bffea49fd82f961"
+    },
+    {
+      "name": "photocopy_browser.jpg",
+      "bytes": 1249416,
+      "sha256": "7ceb7d5cf5046f00a1d9d5e5858f7c689328d7e1efa54bbb6cf66629641db6e1"
+    },
+    {
+      "name": "microphone_source.jpg",
+      "bytes": 1395063,
+      "sha256": "8ccdba473e5c9cff460425e4062c75afde03b39ccc9f1f168bebe79d816e14a7"
+    },
+    {
+      "name": "fiber_browser.jpg",
+      "bytes": 1028098,
+      "sha256": "239a165a44c6a3de2ba1ba005e74af04bc848e1133a05db4f681db92c7d63997"
+    },
+    {
+      "name": "prism.jpg",
+      "bytes": 118628,
+      "sha256": "d0db87dcd15951352e8ab27f2842980b3fda57ed53fe0fb7feb2708ec9ebebda"
+    },
+    {
+      "name": "eye.jpg",
+      "bytes": 478950,
+      "sha256": "9e310ecd30a4ca7d18310944b2c36ae61d51ac77b04c7ec198cca10381fb7856"
+    },
+    {
+      "name": "spine_photo_cutout.png",
+      "bytes": 7294893,
+      "sha256": "c25e81810908114daaf9ba2e8c955e0a060bec05a4cdda1d5a6306ab4c68e946"
+    },
+    {
+      "name": "earth_browser.png",
+      "bytes": 22917529,
+      "sha256": "b004ffe325a13e30b9028c00605773759f8c4e41ba34cd1f8d362ce903d9aecc"
+    },
+    {
+      "name": "Manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "name": "paper_material.jpg",
+      "bytes": 2005942,
+      "sha256": "d5d130fa2e1f31880984f8b947f6a0ff7e6b6b4160fcec1f9168b5ab9c9f48a5"
+    },
+    {
+      "name": "ear_source.jpg",
+      "bytes": 10839266,
+      "sha256": "f3de3f6ca9c99a240d577b67ecf42bc6ac11970de331d64831811044dbbddece"
+    },
+    {
+      "name": "astronaut_cutout.png",
+      "bytes": 8705605,
+      "sha256": "1d7a547023d48dd10d96ca7140054dc1ebe8e5f136e8aa2cc5f7953d23971ad4"
+    },
+    {
+      "name": "PlayfairDisplay.ttf",
+      "bytes": 300724,
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+    }
+  ]
+}

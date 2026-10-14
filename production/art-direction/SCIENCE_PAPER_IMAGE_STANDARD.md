@@ -106,3 +106,8 @@ Use existing indexed evidence without claiming newly watched source footage:
 | Engine tutorial report, 13 October | Peak cuts, brief focus hunt, restrained chromatic edges | Original Canvas implementations; not exact AE/plugin equivalence |
 
 The graphics-only v2 study does **not** certify paper/photo art fidelity. When a visual decision needs new reference evidence, retrieve the supplied originals/manuals and log exact source/time, observed behavior, inferred construction and our proposed adaptation separately. Do not relabel inferences as observations or copy source assets into output. Our goal is a consistently excellent chosen editorial language; no claim of 100% proprietary Vox equivalence.
+
+
+## Active static-design upgrade — owner review gate
+
+The [14 October static-art lab](../design-lab/2026-10-14/README.md) adds a review-draft design instruction and four independent image-led studies. Owner approval of the static artworks precedes motion testing. The study does not adopt its experimental palette or replace the current Bible/approved films. Source audit and owner response must accompany any later adoption.
