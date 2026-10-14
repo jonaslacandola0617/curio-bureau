@@ -1,0 +1,183 @@
+{
+  "episode": "astronaut-height-r2",
+  "approved_source_commit": "0dc0cfb6d943938ce33f527c5990dd92ae0e4bbf",
+  "approved_mix_sha256": "12f6260a92de4e7999cf42e93e465c5287444f449cea7bc7f965f6a9e45c5f68",
+  "resolution": [
+    2160,
+    3840
+  ],
+  "fps": 30,
+  "total_frames": 1172,
+  "durable_frames": 480,
+  "segments": [
+    {
+      "start_frame": 0,
+      "count": 80,
+      "source_sha256": "15496ef60bda21f074487153bd54da7d1f858c526f20f3d6c1226aae5e0d53bf",
+      "parts": [
+        {
+          "sha256": "2519dc4d60c5f0193fc9296f777c7a42b11a3f740f16071c55f4f1904e5b7d8f",
+          "bytes": 367001600,
+          "library_file_id": "libfile_962b98d12ea48191b58c9d8ae4c8a65a",
+          "file_id": "file_00000000f9f081f8a37033317610fe4a",
+          "file_name": "Astronaut_R2_Native_Frames_0000.mkv.part00",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "b54c6f5fccf6d836e5fb3a12827dd466333ef1dac88b60d17ec84388108d8cdf",
+          "bytes": 367001600,
+          "library_file_id": "libfile_8feb14d010988191a364df0c2cbec877",
+          "file_id": "file_00000000420081f59e7eeeddd4e97996",
+          "file_name": "Astronaut_R2_Native_Frames_0000.mkv.part01",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "12d530957506962e7debaf285578f0b13d1e1069b98a7ea914bd696413bf6fda",
+          "bytes": 144572428,
+          "library_file_id": "libfile_3633061c7aa8819192c53396fd4ee733",
+          "file_id": "file_00000000aa7881f5acf6d7d208626320",
+          "file_name": "Astronaut_R2_Native_Frames_0000.mkv.part02",
+          "current_version_number": 0
+        }
+      ],
+      "status": "durable verified native frames"
+    },
+    {
+      "start_frame": 80,
+      "count": 80,
+      "source_sha256": "022eb8214ee294bb4784c0bfa1ca657a2b71cb68b39dfc9df1d8baede5032029",
+      "parts": [
+        {
+          "sha256": "a55f5c324e28666a5475068ec8521111a9760c2c42500689a08f4b3e8d512242",
+          "bytes": 367001600,
+          "library_file_id": "libfile_25dcd6b9845c8191bd41e426a15058be",
+          "file_id": "file_00000000422c820da3d541e1b8746232",
+          "file_name": "Astronaut_R2_Native_Frames_0080.mkv.part00",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "6c00675df17028e28a6a3b7dddbccba98fd4ed11db753f369c2ad7e91b0e3d1f",
+          "bytes": 367001600,
+          "library_file_id": "libfile_374f7320a5e881918ff6c74d4cb4687a",
+          "file_id": "file_00000000152881f5b8325fd468e0358e",
+          "file_name": "Astronaut_R2_Native_Frames_0080.mkv.part01",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "8096c6a486bf860025ce8da8ac7faef0082eeaffeb02d6923fd79b54be2abd5b",
+          "bytes": 139233960,
+          "library_file_id": "libfile_7cba8252d3dc819194675a82f48c7e75",
+          "file_id": "file_00000000822481f5a412c66950287f3f",
+          "file_name": "Astronaut_R2_Native_Frames_0080.mkv.part02",
+          "current_version_number": 0
+        }
+      ],
+      "status": "durable verified native frames"
+    },
+    {
+      "start_frame": 160,
+      "count": 80,
+      "source_sha256": "9bdc25d86d008b1f983dc9afa95ed190fa7f783b6992876d6968bbe9a8d94f3f",
+      "parts": [
+        {
+          "sha256": "b7522c4bcf25d4a1cca861835ce56036a63ac076b46fec6daa1bfa3fd390e0de",
+          "bytes": 367001600,
+          "library_file_id": "libfile_9c1ee5a76bbc8191a81cd06431ac5b79",
+          "file_id": "file_000000001dd882468ab9a2befb57dbbf",
+          "file_name": "Astronaut_R2_Native_Frames_0160.mkv.part00",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "536ae3f21ee309b6a5dd33e507988e82939e53eee7a1e3494e5207f751388a66",
+          "bytes": 367001600,
+          "library_file_id": "libfile_cf1e2095ff608191a1ee8e88077fb23e",
+          "file_id": "file_000000005e10820cbb85bfde8c1a3cfe",
+          "file_name": "Astronaut_R2_Native_Frames_0160.mkv.part01",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "7b97e183ccb04cf4576a0b6446a55b9de4a461eb177f74ba051d978b5b9fcebb",
+          "bytes": 108835570,
+          "library_file_id": "libfile_e09db6423cac8191b935763edbae9323",
+          "file_id": "file_00000000c84481fb8fbc3680ea77f197",
+          "file_name": "Astronaut_R2_Native_Frames_0160.mkv.part02",
+          "current_version_number": 0
+        }
+      ],
+      "status": "durable verified native frames"
+    },
+    {
+      "start_frame": 240,
+      "count": 80,
+      "source_sha256": "1ce0808f08ea6bf8c908dfe963b1d1b33568648df6fd94353ebb453017b5de16",
+      "parts": [
+        {
+          "sha256": "2aacf0dbf52b9df8dcaec5c661232a2d7b1c90eeb7c353f2a08c9d45e475c202",
+          "bytes": 367001600,
+          "library_file_id": "libfile_f71a7918a3e48191b188ffa5f73f9d90",
+          "file_id": "file_00000000aaf081f487f1b6dc80a458f2",
+          "file_name": "Astronaut_R2_Native_Frames_0240.mkv.part00",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "015ce067080bb3a01fcdf922e5591d9fdcd16b954c2a04a8762c498955654c6e",
+          "bytes": 340587699,
+          "library_file_id": "libfile_47e8a2b4dbb48191a2d5b2fe41e96db3",
+          "file_id": "file_0000000057648230b3fc70d3c854316c",
+          "file_name": "Astronaut_R2_Native_Frames_0240.mkv.part01",
+          "current_version_number": 0
+        }
+      ],
+      "status": "durable verified native frames"
+    },
+    {
+      "start_frame": 320,
+      "count": 80,
+      "source_sha256": "cb906cc6756e1db5baa5deb1be8872c9cb2c9a7dd4d50d7d6cd10f0c1257e62e",
+      "parts": [
+        {
+          "sha256": "b7a2da78665c1c2e81ac76b34b0a4770e0b4f5e2c15b97a7fd43ddcc98359f2a",
+          "bytes": 367001600,
+          "library_file_id": "libfile_ed99aba0840881918459e9adc2dd20e9",
+          "file_id": "file_000000009c7481f6a0b7d2e85812aae4",
+          "file_name": "Astronaut_R2_Native_Frames_0320.mkv.part00",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "abf48830dae2c2c26e29a6ac31f8aa1c0f41f94ecacbb5c29fa70c59c4080e04",
+          "bytes": 339478539,
+          "library_file_id": "libfile_9a49464b9c548191b4f0cf50f0a7abfb",
+          "file_id": "file_00000000ffb481f59c5c66baebf5ab05",
+          "file_name": "Astronaut_R2_Native_Frames_0320.mkv.part01",
+          "current_version_number": 0
+        }
+      ],
+      "status": "durable verified native frames"
+    },
+    {
+      "start_frame": 400,
+      "count": 80,
+      "source_sha256": "740448bdc307ee257dc45d353437929e0586a1e9b89ac9c2cc85fcfc131a46f6",
+      "parts": [
+        {
+          "sha256": "3208a43c1d6caefe13110cbd6661c016d8efbd8335782f073d19e330434e63b9",
+          "bytes": 367001600,
+          "library_file_id": "libfile_e45aa674d5548191bcf629075accdce6",
+          "file_id": "file_0000000046c0820db7ea29d71aae10d9",
+          "file_name": "Astronaut_R2_Native_Frames_0400.mkv.part00",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "fc3de2d614ecd555d52592fb7f06c97fcd3ebb92009b6d557f0887c9f37e9493",
+          "bytes": 321813352,
+          "library_file_id": "libfile_b92e7a67c8088191b6233a1310baa4bc",
+          "file_id": "file_000000004b2081f5a3d6c1effc1c426e",
+          "file_name": "Astronaut_R2_Native_Frames_0400.mkv.part01",
+          "current_version_number": 0
+        }
+      ],
+      "status": "durable verified native frames"
+    }
+  ],
+  "recovery": "Materialize each saved part, concatenate in listed order, verify source_sha256, decode/count native frames, and resume missing ranges. Final outputs not completed yet."
+}
