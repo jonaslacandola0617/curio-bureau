@@ -443,5 +443,25 @@
       "status": "durable verified native frames"
     }
   ],
-  "recovery": "Materialize each saved part, concatenate in listed order, verify source_sha256, decode/count native frames, and resume missing ranges. Final outputs not completed yet."
+  "recovery": "All native frames and all three verified delivery formats are durably saved. Resume using IDs and hashes; no re-render is required for a broken download link.",
+  "delivery_files": [
+    {
+      "file_name": "Astronaut_Height_4K_Master.mp4",
+      "file_id": "file_0000000058048230bde59699d9f0bf89",
+      "library_file_id": "libfile_6d3e421ef8808191936bb3261e3072bb",
+      "current_version_number": 0
+    },
+    {
+      "file_name": "Astronaut_Height_4K.webm",
+      "file_id": "file_00000000df688230b430103256ea169a",
+      "library_file_id": "libfile_33be78c3b20881919fc7a7681ce5ba5b",
+      "current_version_number": 0
+    },
+    {
+      "file_name": "Astronaut_Height_4K_Upload.mp4",
+      "file_id": "file_0000000092cc8230a52c74559e058dbb",
+      "library_file_id": "libfile_5067fee7743081918642c0a7247cbbc1",
+      "current_version_number": 0
+    }
+  ]
 }
