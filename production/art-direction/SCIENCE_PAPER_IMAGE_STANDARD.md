@@ -1,4 +1,6 @@
 # Science paper-and-image art direction
+**Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
+
 
 **Operational standard v1.0 · 14 October 2026 · Implements the owner's existing full-paper/image direction and current request for consistency.** Applies to new science films; existing approved films retain their approved appearance. This is Curio's chosen Vox-inspired visual language, not a claim that every Vox film uses paper collage.
 

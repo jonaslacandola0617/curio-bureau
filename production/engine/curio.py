@@ -20,12 +20,12 @@ def write_json(p,d):Path(p).write_text(json.dumps(d,indent=2))
 def run(args):subprocess.run([str(a) for a in args],check=True)
 
 def validate_visual_direction(c):
- # Existing approved films retain their original appearance and rebuild contract.
- if c['id'] in ['pig-war','tutorial-optics-test','london-bridge']:return
- if c.get('material_profile')!='paper-image-v1' or c.get('visual_style')!='paper-image':
-  raise ValueError('New episodes require the owner-adopted full paper/image style and paper-image-v1 material profile')
+ # Approved historical sources preserve their original render contracts.
+ if c['id'] in ['pig-war','tutorial-optics-test','london-bridge','sunlight-white','astronaut-height']:return
+ if c.get('material_profile')!='image-led-v1' or c.get('visual_style')!='image-led':
+  raise ValueError('New episodes require the owner-adopted image-led style and image-led-v1 material profile')
  missing=set(['paperFiber','plastic','photocopy'])-set(c.get('images',{}))
- if missing:raise ValueError('Paper/image episodes require private material slots: '+', '.join(sorted(missing)))
+ if missing:raise ValueError('Image-led episodes require private material slots: '+', '.join(sorted(missing)))
 
 class Project:
  def __init__(self,args):

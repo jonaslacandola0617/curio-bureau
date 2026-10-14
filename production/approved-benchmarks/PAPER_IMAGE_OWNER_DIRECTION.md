@@ -1,3 +1,5 @@
+> Superseded as the new-film staging default on 14 October 2026 by IMAGE_LED_OWNER_DIRECTION.md. Preserve this record for historical rebuilds.
+
 # Curio Bureau — full paper and image direction
 
 ## Required visual art review — 14 October 2026
