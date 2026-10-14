@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "time": "0",
+      "native_rgb_pixels": "exact match between direct approved Canvas and lossless native intermediate"
+    },
+    {
+      "time": "17.8",
+      "native_rgb_pixels": "exact match between direct approved Canvas and lossless native intermediate"
+    },
+    {
+      "time": "38.8",
+      "native_rgb_pixels": "exact match between direct approved Canvas and lossless native intermediate"
+    }
+  ],
+  "browser": {
+    "dimensions": [
+      2160,
+      3840
+    ],
+    "fonts": [
+      true,
+      true
+    ],
+    "errors": []
+  },
+  "scope": "Three sampled native states; no claim of whole-film pixel comparison or lossy-output pixel equality"
+}

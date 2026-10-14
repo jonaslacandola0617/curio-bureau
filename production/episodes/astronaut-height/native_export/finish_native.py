@@ -10,10 +10,10 @@ for seg in segments:
   dest=Path(seg['path']).with_name(Path(seg['path']).stem+'_closed.mkv');subprocess.run(['ffmpeg','-y','-v','error','-i',seg['path'],'-map','0:v:0','-c:v','copy',str(dest)],check=True);seg['path']=str(dest);seg['status']='closed, recovered native prefix'
 SRC.write_text('\n'.join("file '"+s['path']+"'" for s in segments)+'\n');(B/'SEGMENT_QA.json').write_text(json.dumps(segments,indent=2))
 for kind,name in [('master','Astronaut_Height_4K_Master.mp4'),('webm','Astronaut_Height_4K.webm'),('upload','Astronaut_Height_4K_Upload.mp4')]:
- p=B/name;args=['ffmpeg','-y','-v','error','-threads','2','-f','concat','-safe','0','-i',str(SRC),'-i',str(MIX),'-map','0:v:0','-map','1:a:0','-vf','setpts=N/(30*TB)','-r','30','-t',str(D),'-color_primaries','bt709','-color_trc','iec61966-2-1']
+ p=B/name;args=['ffmpeg','-y','-v','error','-filter_threads','2','-threads','2','-f','concat','-safe','0','-i',str(SRC),'-i',str(MIX),'-map','0:v:0','-map','1:a:0','-vf','setpts=N/(30*TB)','-r','30','-t',str(D),'-color_primaries','bt709','-color_trc','iec61966-2-1']
  if kind=='webm':args+=['-c:v','libvpx-vp9','-deadline','realtime','-cpu-used','6','-threads','2','-row-mt','1','-crf','22','-b:v','0','-pix_fmt','yuv420p','-c:a','libopus','-b:a','256k','-ar','48000','-ac','2']
  else:
-  args+=['-c:v','libx264','-preset','fast','-threads','2','-crf','15' if kind=='master' else '20','-pix_fmt','yuv420p']
+  args+=['-c:v','libx264','-preset','fast','-threads','4','-rc-lookahead','10','-x264-params','sync-lookahead=0','-crf','15' if kind=='master' else '20','-pix_fmt','yuv420p']
   if kind=='upload':args+=['-maxrate','48000k','-bufsize','96000k']
   args+=['-c:a','aac','-b:a','320k','-ar','48000','-ac','2','-moov_size','65536']
  print('Encoding',name,flush=True);subprocess.run(args+[str(p)],check=True)

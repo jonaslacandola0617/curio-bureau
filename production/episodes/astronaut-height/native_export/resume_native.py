@@ -17,6 +17,12 @@ def task(start):
  fd=os.open(out,os.O_RDONLY);os.fsync(fd);os.posix_fadvise(fd,0,0,os.POSIX_FADV_DONTNEED);os.close(fd)
  print('Verified native range',start,count,flush=True)
  return dict(start_frame=start,count=count,path=str(out),status='closed native frames')
+def digest(p):
+ h=hashlib.sha256()
+ with p.open('rb') as f:
+  while x:=f.read(8*1024*1024):h.update(x)
+ return h.hexdigest()
+assert digest(B/'Studio.html')=='69876677b1fcdca871a7c48e9f41255a23d943d1f5ff94c0cc6a796166b6a0a4'
 assert hashlib.sha256((B/'project/assets/preflight_mix.wav').read_bytes()).hexdigest()=='12f6260a92de4e7999cf42e93e465c5287444f449cea7bc7f965f6a9e45c5f68'
 with ThreadPoolExecutor(max_workers=2) as pool:segments=list(pool.map(task,range(0,1172,80)))
 assert sum(s['count'] for s in segments)==1172
