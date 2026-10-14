@@ -8,7 +8,7 @@
   ],
   "fps": 30,
   "total_frames": 1172,
-  "durable_frames": 800,
+  "durable_frames": 960,
   "segments": [
     {
       "start_frame": 0,
@@ -285,6 +285,70 @@
           "library_file_id": "libfile_f6c1501de7348191a4fcf461273f2940",
           "file_id": "file_000000001470822f99d201785568748d",
           "file_name": "Astronaut_R2_Native_Frames_0720.mkv.part02",
+          "current_version_number": 0
+        }
+      ],
+      "status": "durable verified native frames"
+    },
+    {
+      "start_frame": 800,
+      "count": 80,
+      "source_sha256": "e643d090e03db4c88cec0905dcaf0e829b655a812dec7a623fef97af6f306688",
+      "parts": [
+        {
+          "sha256": "02cb4fa51614b16921139dc1871fcf5a0fb057bef48c94ac74e6f775a152018b",
+          "bytes": 367001600,
+          "library_file_id": "libfile_775a7cdc02748191b024bbdefb7d0788",
+          "file_id": "file_000000006b9481fdbead6f480c57570a",
+          "file_name": "Astronaut_R2_Native_Frames_0800.mkv.part00",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "bab5598bdd5c2bcf796eed7fed94e8dffdb5b9cbb266aaffb1982ceba470cca8",
+          "bytes": 367001600,
+          "library_file_id": "libfile_9a899288168c81919a2c44baa6dc4e02",
+          "file_id": "file_00000000a4ec81fd87ab30b828d7c809",
+          "file_name": "Astronaut_R2_Native_Frames_0800.mkv.part01",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "80d7607c45a2b0af9e3154d28dc467b74f3b480b393ea0fcd4c2c17b2558f96d",
+          "bytes": 18644852,
+          "library_file_id": "libfile_a4930dc6daa881918f4428746b377e22",
+          "file_id": "file_000000009e9c81fba34e4f25b61e2621",
+          "file_name": "Astronaut_R2_Native_Frames_0800.mkv.part02",
+          "current_version_number": 0
+        }
+      ],
+      "status": "durable verified native frames"
+    },
+    {
+      "start_frame": 880,
+      "count": 80,
+      "source_sha256": "500fffe04e26ef2ddaa6fb8f163837b6ab4d2832f0de4f3510a799121ff86af2",
+      "parts": [
+        {
+          "sha256": "3834c561fe0cecc2f48d4c45c3b4cd6bac9163533a9678300388cf365400b2eb",
+          "bytes": 367001600,
+          "library_file_id": "libfile_579947b8083881918f7320432166fdf7",
+          "file_id": "file_0000000047ec81fd93b5cdc248252ba3",
+          "file_name": "Astronaut_R2_Native_Frames_0880.mkv.part00",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "6ba0b14455d685d36f1cfd9a0f359a70c8fac9214b3e787b8aa98e3c5f37cc7f",
+          "bytes": 367001600,
+          "library_file_id": "libfile_b0a53432943881918c90cd30be396c3e",
+          "file_id": "file_00000000413081fb926c247651123163",
+          "file_name": "Astronaut_R2_Native_Frames_0880.mkv.part01",
+          "current_version_number": 0
+        },
+        {
+          "sha256": "e9d09c05fd9308eeeca752591d076c71363c9aa8f34c78ca814c173016f4fac1",
+          "bytes": 137820024,
+          "library_file_id": "libfile_32843625cef08191bf9e349d5c1aed3e",
+          "file_id": "file_00000000029c8230af8f6ef3c5efcc03",
+          "file_name": "Astronaut_R2_Native_Frames_0880.mkv.part02",
           "current_version_number": 0
         }
       ],
