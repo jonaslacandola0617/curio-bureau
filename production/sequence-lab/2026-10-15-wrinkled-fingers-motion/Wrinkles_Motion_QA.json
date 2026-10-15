@@ -1,0 +1,69 @@
+{
+  "errors": [],
+  "externalRuntimeRequests": [],
+  "fonts": [
+    true,
+    true
+  ],
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 360,
+  "duration": 12,
+  "ownerArtApproved": true,
+  "ownerMotionApproved": false,
+  "photoMorph": false,
+  "photoScale": "same as approved 1080p study",
+  "captionTiming": "phrase estimates, not word aligned",
+  "captionLane": "screen fixed 42\u201358%",
+  "encoded": {
+    "mp4": {
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1080,
+      "height": 1920,
+      "frames": 360,
+      "fps": "30/1",
+      "duration": 12.0,
+      "audio_sample_rate": 48000,
+      "channels": 2,
+      "full_decode": "passed",
+      "integrated_LUFS": -14.0,
+      "true_peak_dBTP": -2.4,
+      "sha256": "8944e4c439781e69c9129f9fd9d91d101392e5f5fe6d6b56ddd96928a124c11c"
+    },
+    "webm": {
+      "video_codec": "vp9",
+      "audio_codec": "opus",
+      "width": 1080,
+      "height": 1920,
+      "frames": 360,
+      "fps": "30/1",
+      "duration": 12.008,
+      "audio_sample_rate": 48000,
+      "channels": 2,
+      "full_decode": "passed",
+      "integrated_LUFS": -14.0,
+      "true_peak_dBTP": -2.3,
+      "sha256": "b5b11a6d6a1bf68fb5c2bde4e8a638b5746c05105a2edb60b76ad232be3fe5d6"
+    }
+  },
+  "browserDownloads": "2/2 byte-identical to verified full-frame WebM",
+  "listening_review": "Owner review pending; no independent word/listening certification inferred from measurements",
+  "audio_trim": "Measured +0.8 dB overall correction after first loudness check; video streams copied without recapture",
+  "source_finger_image_sha256": "d38c8c7fe05777a0fe80ef2e9acc9adf8fe49a45e85ba6eff4b4aa38008ff723",
+  "narration_tail": {
+    "source_sha256": "1fca8fb372b3898e4bb5d99670ea1f8dacf03bf3d20b0b2544240c613f107ecb",
+    "source_duration": 10.4,
+    "onset_time": 0.35,
+    "all_source_samples_preserved": true,
+    "voice_fade": false,
+    "decoded_source_end_on_timeline": 10.75,
+    "closing_word": "folds",
+    "final_caption_end": 11.7,
+    "duration": 12,
+    "endcard": "not part of this isolated moving study",
+    "listening_approval": "pending owner review; no independent word verification claimed",
+    "caption_timing": "estimated phrases; source sentence pause at 4.361\u20134.895s used"
+  }
+}

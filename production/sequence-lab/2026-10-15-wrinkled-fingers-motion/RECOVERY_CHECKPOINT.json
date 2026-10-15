@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE LOCKED / 1080p moving review rendering",
+  "status": "MOVING REVIEW READY / owner motion and listening approval pending",
   "ownerArtApproval": "2026-10-15T11:25:57+08:00",
   "ownerMotionApproval": "pending new review",
   "source_checkpoint": {
@@ -15,5 +15,49 @@
     "frames": 360,
     "duration": 12
   },
-  "native_4k_photo_crop": "unresolved, not waived by art approval"
+  "native_4k_photo_crop": "unresolved, not waived by art approval",
+  "final_files": [
+    {
+      "name": "Wrinkles_Motion_Review.mp4",
+      "library_file_id": "libfile_a0dcebbabad48191a51eb6fbb055ebc2",
+      "file_id": "file_000000005d4481f9995e1b430ce03c65",
+      "sha256": "8944e4c439781e69c9129f9fd9d91d101392e5f5fe6d6b56ddd96928a124c11c"
+    },
+    {
+      "name": "Wrinkles_Motion_Review.webm",
+      "library_file_id": "libfile_126596665e6481918c4d7e2d74d6a8e5",
+      "file_id": "file_000000001ee081f8981eac720aafbcdb",
+      "sha256": "b5b11a6d6a1bf68fb5c2bde4e8a638b5746c05105a2edb60b76ad232be3fe5d6"
+    },
+    {
+      "name": "Wrinkles_Motion_Review.html",
+      "library_file_id": "libfile_58dc55f67d648191a29b57fafc2a9636",
+      "file_id": "file_00000000b74881f598d28d707726000c",
+      "sha256": "c35fe495c23c3e589ec1ba0e23a85d3f667c837f46cf04e0c19793c02f94e663"
+    },
+    {
+      "name": "Wrinkles_Motion_Source.zip",
+      "library_file_id": "libfile_0173cdbee64c81918236e7de76779685",
+      "file_id": "file_00000000377481f5be4c934df4a738f9",
+      "sha256": "a0039c0fe9e7921ecefdc736558ce6e8ac8afc1beb8358179ad07bdcfa20f121"
+    },
+    {
+      "name": "Wrinkles_Motion_Notes.md",
+      "library_file_id": "libfile_86049b5311888191a5a3851c52877e50",
+      "file_id": "file_00000000291081f59c274436e9f9a7cf",
+      "sha256": "a138d3dae07fd23a4c93129363cbbb83f5591d193a0fc5b0a942d3625da6bdbe"
+    },
+    {
+      "name": "Wrinkles_Motion_QA.json",
+      "library_file_id": "libfile_343f0139750481919c62283b9aff2d26",
+      "file_id": "file_00000000703081f5ab9dacf789a76628",
+      "sha256": "d4695b515a12f65fd28fdc4a9b35dd41cb69ece88acbab9e388e18940775cf6b"
+    },
+    {
+      "name": "Wrinkles_Motion_Contact_Sheet.jpg",
+      "library_file_id": "libfile_307987a1efec8191835a272a4d3d53c3",
+      "file_id": "file_00000000d76081f8ab65a1d152ef0464",
+      "sha256": "b66dc3a4be1b681a9982e4fec1ee5d8b6cccf814bf249e1a9073e53f92f6f7ed"
+    }
+  ]
 }
