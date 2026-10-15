@@ -1,6 +1,6 @@
 {
   "revision": "R2",
-  "status": "TECHNICAL AND BROWSER QA PASSED; OWNER REVIEW PENDING; GITHUB ASSET UPLOAD PENDING",
+  "status": "RECOVERY REVIEW AVAILABLE LOCALLY; GITHUB RELEASE UPLOAD BLOCKED ON SIGN-IN; OWNER REVIEW PENDING",
   "profile": {
     "width": 2160,
     "height": 3840,
@@ -49,7 +49,27 @@
   "browser_player": "PASSED on restored exports; see PLAYER_QA.json",
   "native_capture": "1089 native lossless frames locally verified; first160 durably lossless in prior storage; remaining native CRF15 recovery proxies saved separately and explicitly not lossless",
   "owner_approved_storage": "GitHub repository / Releases",
-  "github_release": "NOT YET UPLOADED \u2014 connector lacks Release upload action; browser sign-in required",
+  "github_release": "Not created/uploaded; connected GitHub tools lack release upload and browser sign-in timed out. Do not claim a permanent video URL.",
   "previous_workspace_loss": "Recovered exact source/mix and160saved native frames; captured missing929frames. Master SHA256 exactly matches prior verified master.",
-  "source_and_mix_unchanged": true
+  "source_and_mix_unchanged": true,
+  "availability_note": "Previous exact master/posting/WebM/player were verified but lost again when the authentication timeout reset the workspace. Historical QA remains evidence for those earlier bytes, not for archive availability.",
+  "current_review": {
+    "revision": "R2",
+    "artifact": "4K recovery review copy",
+    "name": "Wrinkled_Fingers_R2_4K_Recovery_Review.mp4",
+    "bytes": 466636654,
+    "sha256": "08e8010c4ee0782c5b52934953499c15c683b5b13ce0f843ed1a3f4393a9aa54",
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "frames": 1089,
+    "duration": 36.3,
+    "full_decode": "passed with -xerror",
+    "lufs": -13.8,
+    "true_peak_dbfs": -1.7,
+    "provenance": "Frames0–159 encoded from verified original lossless chunks. Frames160–1088 stream-copied from hash-verified native CRF15 recovery clips; these are lossy master-quality checkpoints, not lossless chunks. Original approved PCM full mix reused without generation. Not the earlier bit-identical master file.",
+    "archive_status": "GitHub Release asset upload pending browser sign-in; this local review link is temporary",
+    "owner_review": "PENDING",
+    "prior_local_outputs": "Previous exact master/posting/WebM/player were verified but lost again when the authentication timeout reset the workspace. Historical QA remains evidence for those earlier bytes, not for archive availability."
+  }
 }
