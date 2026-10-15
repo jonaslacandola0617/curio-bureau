@@ -1,5 +1,5 @@
 {
-  "status": "NATIVE CAPTURE COMPLETE / ENCODING AND QA PENDING",
+  "status": "FINAL VERIFIED AND DURABLY SAVED",
   "width": 2160,
   "height": 3840,
   "fps": 30,
@@ -234,5 +234,70 @@
       "file_id": "file_00000000c4b081fd8f09595025521981"
     }
   ],
-  "durable_frames": 1089
+  "durable_frames": 1089,
+  "outputs": [
+    {
+      "name": "Wrinkled_Fingers_4K_Master.mp4",
+      "library_file_id": "libfile_624505236b24819185ec6103ffec5500",
+      "file_id": "file_0000000034f881fd90730f9a95cdc94d",
+      "sha256": "936984478890010ddefc500d75847386f18539fd14631495834400c8271c635a",
+      "bytes": 66346635
+    },
+    {
+      "name": "Wrinkled_Fingers_4K_Posting.mp4",
+      "library_file_id": "libfile_b5573ebab54c8191ac0bdec793b0c9af",
+      "file_id": "file_000000005a7c81fd98f7ff49f5562c02",
+      "sha256": "65632ec2978a65c0ae3c078d216074de903b59fa79235d29da904e3aad33ba30",
+      "bytes": 29975634
+    },
+    {
+      "name": "Wrinkled_Fingers_4K.webm",
+      "library_file_id": "libfile_f68c8dd5dc98819186627ad6f4c59348",
+      "file_id": "file_000000003c7081fdb070ec211acdee9a",
+      "sha256": "7cfe4c1e306a4736324b985e31fe5094364725e3f7725be3a07fdbd36700550d",
+      "bytes": 33538307
+    },
+    {
+      "name": "Wrinkled_Fingers_Player.html",
+      "library_file_id": "libfile_0f285a9e17948191a7b5f83234f8b0e2",
+      "file_id": "file_000000005fac81fd8ed598d4ccc15853",
+      "sha256": "ad530bfedd2616a2e1e932d6a93025a96ca42840d75b2b6a69415347b84e2655",
+      "bytes": 44719991
+    },
+    {
+      "name": "Wrinkled_Fingers_Posts.txt",
+      "library_file_id": "libfile_ad2fa6a18d508191acc18c0e2506fb74",
+      "file_id": "file_00000000f6a081fdbef558f8e520c542",
+      "sha256": "9f90af0063341b00ac51ebe43d916ae78fb08351f892db1deeae11b5e48f551a",
+      "bytes": 3261
+    },
+    {
+      "name": "Wrinkled_Fingers_Source.zip",
+      "library_file_id": "libfile_44bc959aef98819182ed9f41c12ce02b",
+      "file_id": "file_00000000326c81fdb73aa06ab73488e6",
+      "sha256": "b9b06f7371c3b8d31a87f5f47bb941ef12f6f98944d9a8a7cb1b9549bc084a6f",
+      "bytes": 63108659
+    },
+    {
+      "name": "Wrinkled_Fingers_QA.json",
+      "library_file_id": "libfile_4ae51fe9fa8481918a6693b81ace7355",
+      "file_id": "file_000000007adc81fd98b2238f3c912ee5",
+      "sha256": "b952005a97eb5c35530e519de7bd12dd5f4d87149f1955157ed6de8217963b48",
+      "bytes": 2952
+    },
+    {
+      "name": "Production_Notes.md",
+      "library_file_id": "libfile_2fd6544d3e308191abc93308405e3997",
+      "file_id": "file_0000000032548230b5c82ac764a8a97c",
+      "sha256": "96350aff40e9ae87a42f5d4c84f6f16fbc43d85acea0234b20b10bc640bda359",
+      "bytes": 2284
+    },
+    {
+      "name": "SHA256.json",
+      "library_file_id": "libfile_7241dd96981881918072c1f1e1e560f3",
+      "file_id": "file_00000000f07881fdbfa69d2b671701f2",
+      "sha256": "1ec275a243994033a1122966be4e346979931083120d93515c392254a0bf8a43",
+      "bytes": 803
+    }
+  ]
 }

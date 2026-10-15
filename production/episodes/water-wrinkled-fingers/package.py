@@ -10,7 +10,7 @@ with zipfile.ZipFile(out/'Wrinkled_Fingers_Source.zip','w',zipfile.ZIP_DEFLATED)
  for p in [r.parent/'curio_wrinkle_full/production/engine/browser/brand.js']:z.write(p,'shared/brand.js')
  for n in ['1.5','24','34.1']:
   p=r/f'checks/frame_{n}.png';z.write(p,p.relative_to(r))
- for p in [r/'checks/player_qa.json',r/'checks/browser.json']:
+ for p in [r/'checks/player_qa.json',r/'checks/browser.json',r/'checks/encoded_contact.jpg']:
   if p.exists():z.write(p,p.relative_to(r))
 (out/'SHA256.json').write_text(json.dumps({p.name:hashlib.sha256(p.read_bytes()).hexdigest()for p in out.iterdir()if p.is_file()and p.name!='SHA256.json'},indent=2))
 uploads=[{'local_path':str(out/n),'purpose':'create_library_file','library_artifact_type':'other'}for n in ['Wrinkled_Fingers_4K_Master.mp4','Wrinkled_Fingers_4K_Posting.mp4','Wrinkled_Fingers_4K.webm','Wrinkled_Fingers_Player.html','Wrinkled_Fingers_Posts.txt','Wrinkled_Fingers_Source.zip','Wrinkled_Fingers_QA.json','Production_Notes.md','SHA256.json']];(r/'final_upload.json').write_text(json.dumps({'uploads':uploads}));print('Packaged full film and exact browser playback')

@@ -1,6 +1,6 @@
 # Why fingers wrinkle in water
 
-Owner approved the mechanism moving passage and authorized the whole film, 4K and posts on 15 October 2026 at 12:27:20 Asia/Manila. Source checkpoint and native recovery are in RECOVERY.json. New surrounding footage has internal composition/source review; it has not separately received owner listening review. Full film: 36.3 seconds, 1089 native frames at 2160×3840/30 fps. No upscaled review movie is used.
+Owner approved the mechanism moving passage and authorized the whole film, 4K and posts on 15 October 2026 at 12:27:20 Asia/Manila. Final native master MP4, posting MP4, WebM, synchronized browser player, posts and private source package are verified and durably saved; identities, hashes and all1089 recoverable native frames are in RECOVERY.json. New surrounding footage has internal composition/source review; it has not separately received owner listening review. Full film: 36.3 seconds, 1089 native frames at 2160×3840/30 fps. No upscaled review movie is used.
 
 Original Bernard mechanism voice source retained. New intro and qualified grip ending recorded once. Existing cues reused and original score evolved across the complete film. All voice samples are retained with no voice fade. Last source ends34.04; locked London Bridge endcard starts35.2. Caption timing uses phrase estimates, not word-aligned transcript. Source-sized research imagery is deliberately soft; no synthetic 4K detail is implied. Actual context photograph and grip apparatus photo carry new beats; study statements distinguish task and outcome.
 

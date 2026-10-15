@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "duration": 36.308,
+    "width": 2160,
+    "height": 3840
+  },
+  "downloads": [
+    {
+      "sha256": "7cfe4c1e306a4736324b985e31fe5094364725e3f7725be3a07fdbd36700550d",
+      "bytes": 33538307
+    },
+    {
+      "sha256": "7cfe4c1e306a4736324b985e31fe5094364725e3f7725be3a07fdbd36700550d",
+      "bytes": 33538307
+    }
+  ],
+  "errors": [],
+  "externalRuntimeRequests": [],
+  "seek": {
+    "time": 24,
+    "error": null
+  }
+}
