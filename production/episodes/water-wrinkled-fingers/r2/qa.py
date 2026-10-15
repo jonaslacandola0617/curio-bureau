@@ -1,6 +1,6 @@
 from pathlib import Path
 import subprocess,json,hashlib,re
-r=Path(__file__).parent.resolve();qa={'profile':{'width':2160,'height':3840,'fps':30,'frames':1089,'duration':36.3},'files':[],'narration':json.loads((r/'NARRATION_TAIL_QA.json').read_text()),'scope':'Technical checks do not substitute for owner listening or artistic judgment. Owner approved mechanism passage; full-film execution authorized.'}
+r=Path(__file__).parent.resolve();qa={'profile':{'width':2160,'height':3840,'fps':30,'frames':1089,'duration':36.3},'files':[],'narration':json.loads((r/'NARRATION_TAIL_QA.json').read_text()),'scope':'Technical checks do not substitute for owner listening or artistic judgment. R2 finishing correction explicitly ordered; original audio preserved. R1 finishing rejected; new R2 not yet owner-reviewed.'}
 for p in (r/'delivered').iterdir():
  if p.suffix not in ['.mp4','.webm']:continue
  d=json.loads(subprocess.check_output(['ffprobe','-v','error','-count_frames','-show_streams','-show_format','-of','json',str(p)]));v=next(s for s in d['streams']if s['codec_type']=='video');a=next(s for s in d['streams']if s['codec_type']=='audio');assert(v['width'],v['height'],v['r_frame_rate'],int(v['nb_read_frames']))==(2160,3840,'30/1',1089);assert a['sample_rate']=='48000'and a['channels']==2

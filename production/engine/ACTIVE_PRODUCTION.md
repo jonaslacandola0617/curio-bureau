@@ -46,3 +46,7 @@ Engine enforcement: new manifests provide `sequence_contract_version: 1` and `se
 
 ## Current film — water-wrinkled fingers
 Complete native4K film and posts delivered:1089 frames/30fps/36.3seconds. Master MP4, posting MP4, WebM, verified synchronized browser player and private source package all durably saved after full decode/format/loudness/browser-export checks. All14 native lossless chunks are verified and durably recoverable. See production/episodes/water-wrinkled-fingers/RECOVERY.json and OUTPUT_QA.json. Reuse those bytes to repair downloads; do not regenerate voice/assets/music or repeat capture. Whole-film execution authorized15 October2026 after mechanism motion approval. New surrounding narration has no separately claimed owner listening approval. No social-account publication performed.
+
+
+## Wrinkled Fingers R2 — finishing correction,15 October2026
+Owner rejected R1 texture/optics at15:50 Asia/Manila and explicitly ordered infrastructure review and native4K rerender. See FINISHING_OUTPUT_CONTRACT.md and production/episodes/water-wrinkled-fingers/r2. R1 remains historical and its finishing is not approved. R2 uses moving grain, role-specific material, source-local focus/shading, camera/transition blur, RGB separation, jitter/exposure and local ink bleed/boil. Original full mix retained exactly. Native capture/source recovery is in r2/RECOVERY.json. Final R2 outputs are not yet delivered or owner-reviewed.

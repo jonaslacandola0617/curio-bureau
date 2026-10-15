@@ -14,6 +14,79 @@
     "file_id": "file_00000000123c81f6a83138174a4d3370",
     "sha256": "0936619bf5f9d0f23761cabf8c4d0f71e0287ae0f74340e52e95ce04a885653b"
   },
-  "chunks": [],
-  "durable_frames": 0
+  "chunks": [
+    {
+      "path": "frames_0000.mkv",
+      "start_frame": 0,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "a2f1a9b4144fb6072896bcae389af0710fb3d8ce6f3a2804d682e23a235d8738",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "durable",
+      "parts": [
+        {
+          "name": "frames_0000.mkv.part000",
+          "bytes": 251658240,
+          "sha256": "fb3e6ab21a6029c0007b8ee2c7ec1b839ffb34b8042270d89d9be28c1f22999d",
+          "library_file_id": "libfile_009f8a31b2a8819180a3d6f657662159",
+          "file_id": "file_00000000376881f9bd62d3e7cd796f2a"
+        },
+        {
+          "name": "frames_0000.mkv.part001",
+          "bytes": 251658240,
+          "sha256": "d86eb089cc7fc59bd519445c4fe39092e7371e9298eb33c7abeb07afe73cbfcd",
+          "library_file_id": "libfile_b9a04993537c8191aa2301c21be8cdab",
+          "file_id": "file_00000000176881f69d14090f64cfd77e"
+        },
+        {
+          "name": "frames_0000.mkv.part002",
+          "bytes": 134629752,
+          "sha256": "9d4b2fce371923762564879c646d5b9677a5e97f82def9f82a4a7586ce434543",
+          "library_file_id": "libfile_bc3dc2819ce881918eaba6c10f48d0a1",
+          "file_id": "file_00000000a1e481f58219096f429aa90d"
+        }
+      ]
+    },
+    {
+      "path": "frames_0080.mkv",
+      "start_frame": 80,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "b2d4167d11052d72d1694451d27c743a345234cd941670a3f1a7bef2bc3e1178",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "durable",
+      "parts": [
+        {
+          "name": "frames_0080.mkv.part000",
+          "bytes": 251658240,
+          "sha256": "bd817da7bb0586e5dba164edf140f6a97523ffbb7ae32395b54da22e11cf480e",
+          "library_file_id": "libfile_7b8dda1fd7288191a29de34fbf6c4ff3",
+          "file_id": "file_00000000524881f8a54afed96b23e37b"
+        },
+        {
+          "name": "frames_0080.mkv.part001",
+          "bytes": 251658240,
+          "sha256": "00a70d7229e88dd6244c8549620a7add609977cffd13f04bbc16c1cd73decfbb",
+          "library_file_id": "libfile_611fd957ccd8819194b1643f2e1287af",
+          "file_id": "file_0000000014848230a8aa0add1a975e28"
+        },
+        {
+          "name": "frames_0080.mkv.part002",
+          "bytes": 127837337,
+          "sha256": "590f6c64fb277ac264067664a594a2b3a4c7e923a73061f4360943ebf3df6136",
+          "library_file_id": "libfile_e6449786223c819185862a11d5ef978b",
+          "file_id": "file_00000000262c81f5b30c9d5be28b0f9f"
+        }
+      ]
+    }
+  ],
+  "durable_frames": 160
 }

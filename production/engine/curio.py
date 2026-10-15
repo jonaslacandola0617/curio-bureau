@@ -10,7 +10,7 @@ validate_episode_sequence=_sequence.validate_episode_sequence
 _finishing_spec=importlib.util.spec_from_file_location('curio_finishing_contract',ENGINE/'finishing_contract.py')
 _finishing=importlib.util.module_from_spec(_finishing_spec);_finishing_spec.loader.exec_module(_finishing)
 validate_finishing=_finishing.validate_finishing
-BROWSER=['motion.js','optics.js','finishing.js','focus.js','runtime.js','materials.js','material-profile.js','brand.js','drawing.js','typography.js']
+BROWSER=['motion.js','optics.js','finishing.js','editorial-finish.js','focus.js','runtime.js','materials.js','material-profile.js','brand.js','drawing.js','typography.js']
 
 def digest(p):
  h=hashlib.sha256()
