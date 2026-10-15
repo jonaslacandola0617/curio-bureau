@@ -1,0 +1,18 @@
+{
+  "revision": "R2",
+  "file": "R2_Review_Download_1080p.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1089,
+  "duration": "36.300000",
+  "bytes": 74372796,
+  "sha256": "98b2d3b3577846f74a8911183b1d342e97255354a661bc081bb730ed9962dd52",
+  "lufs": -13.8,
+  "true_peak_dbfs": -1.7,
+  "full_decode": "passed",
+  "scope": "1080p review preview from verified R2 native checkpoints, not a4K master; exact approved full PCM mix reused",
+  "remote_delivery": "NOT UPLOADED — automatic approval review rejected the Drive delivery mirror; explicit new approval required under latest GitHub export storage instruction.",
+  "working_local_copy": "/workspace/scratch/292e697b57ab/r2_restore/R2_Review_Download_1080p.mp4",
+  "github_release": "Still pending authenticated upload capability; no video release URL claimed."
+}
