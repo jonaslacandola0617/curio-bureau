@@ -15,6 +15,7 @@ def validate_finishing(config,episode,stage='artwork',studio_path=None):
   d=json.loads(p.read_text());cases=d.get('cases',[])
   if d.get('errors') or d.get('native')!=[2160,3840]or d.get('deterministic')is not True:raise ValueError('Native finishing execution proof failed')
   if len(cases)<3 or not any(x.get('meanRedDifference',0)>2 for x in cases)or not any(x.get('opaqueCaptionDifference')==0 for x in cases)or not any(x.get('t',0)>30 and x.get('meanRedDifference')==0 for x in cases):raise ValueError('Finishing proof lacks picture effect/caption/ending coverage')
+  if d.get('temporal_grain',{}).get('changed_mean_abs',0)<=.1:raise ValueError('Moving grain did not execute at phone size')
   studio=Path(studio_path) if studio_path is not None else Path(episode)/f.get('studio','studio.html')
   if not studio.is_file()or hashlib.sha256(studio.read_bytes()).hexdigest()!=d.get('studio_sha256'):raise ValueError('Finishing proof does not match this rendered studio')
  return {'status':'PASS','stage':stage,'artistic_quality':'not inferred from execution proof'}

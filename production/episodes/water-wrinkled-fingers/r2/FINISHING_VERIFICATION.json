@@ -120,5 +120,19 @@
     }
   ],
   "deterministic": true,
-  "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8"
+  "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+  "temporal_grain": {
+    "times": [
+      5.3,
+      5.39
+    ],
+    "controlled_source": "constant midgray; same exposure bucket and no focus/cut; center excludes jitter edges",
+    "phone_size": [
+      540,
+      960
+    ],
+    "changed_mean_abs": 4.5829,
+    "phone_grain_standard_deviation": 2.515751529861431,
+    "grain_fps": 12
+  }
 }
