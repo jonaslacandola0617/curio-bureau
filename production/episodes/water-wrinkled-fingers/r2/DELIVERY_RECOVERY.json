@@ -1,0 +1,18 @@
+{
+  "revision": "R2",
+  "state": "Recovery underway after temporary workspace reset",
+  "user_authorization": {
+    "date": "2026-10-15",
+    "scope": "User confirmed ownership and approved R2 upload to previously identified Drive folder.",
+    "folder_id": "1yG2FO9rRVaNGyKD4TV7V2lgwkVga4Bwe"
+  },
+  "source_backup": {
+    "drive_file_id": "1_EdIvm3WkU46l6FSyw9WrakjuS748OUu",
+    "bytes": 99262606,
+    "metadata_verified": true
+  },
+  "restored_native_frames": 160,
+  "total_frames": 1089,
+  "studio_and_audio_hashes_verified": true,
+  "final_exports": "Prior local exports lost; not uploaded. Rebuilding missing native ranges; do not use R1 links as R2."
+}
