@@ -45,4 +45,4 @@ Engine enforcement: new manifests provide `sequence_contract_version: 1` and `se
 
 
 ## Current film — water-wrinkled fingers
-Owner approved mechanism motion and authorized complete film/native 4K/posts on15 October2026 at12:27:20 Asia/Manila. Full-film native capture in progress; 800 of1089 frames verified and durably saved. See production/episodes/water-wrinkled-fingers/RECOVERY.json. Bernard mechanism source retained; final complete mix -13.8 LUFS / -1.7 dBTP. Final outputs must still pass encoding and independent QA before delivery.
+Owner approved mechanism motion and authorized complete film/native 4K/posts on15 October2026 at12:27:20 Asia/Manila. Full-film native capture in progress; 960 of1089 frames verified and durably saved. See production/episodes/water-wrinkled-fingers/RECOVERY.json. Bernard mechanism source retained; final complete mix -13.8 LUFS / -1.7 dBTP. Final outputs must still pass encoding and independent QA before delivery.
