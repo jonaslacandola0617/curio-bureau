@@ -1,0 +1,39 @@
+{
+  "voice": "Bernard",
+  "model": "eleven_v3",
+  "sources": [
+    {
+      "file": "intro.mp3",
+      "sha256": "86a76046c8af982450ee60b135676e6f79df08b1946689bc574ce07dc838f8be",
+      "task_id": "9afd560e-3695-4a79-b065-094445c0de25",
+      "onset": 0.2,
+      "duration": 6.4,
+      "end": 6.6000000000000005,
+      "text": "These wrinkles aren't just water soaking into your skin. Your nervous system helps create them.",
+      "all_source_samples_preserved": true,
+      "voice_fade": false
+    },
+    {
+      "file": "voice_source.wav",
+      "sha256": "1fca8fb372b3898e4bb5d99670ea1f8dacf03bf3d20b0b2544240c613f107ecb",
+      "task_id": "9b86ae1d-f0da-492b-83f1-e69c38b82c4c",
+      "onset": 6.95,
+      "duration": 10.4,
+      "end": 17.35,
+      "text": "When your fingers stay in water, nerves help narrow blood vessels underneath. The leading explanation is that the tissue loses volume, pulling the skin into folds.",
+      "all_source_samples_preserved": true,
+      "voice_fade": false
+    },
+    {
+      "file": "outro.mp3",
+      "sha256": "43c15f94ac02dea17a6569d37401937d808764046fb50782643a224dfc2b3829",
+      "task_id": "3586bf29-0f65-4b07-b652-1e8976f391b7",
+      "onset": 18.6,
+      "duration": 15.44,
+      "end": 34.04,
+      "text": "Could that help you grip wet objects? Some experiments found a benefit. Others didn't. So better grip is a possibility, not a proven evolutionary purpose. A familiar wrinkle, with an active response underneath.",
+      "all_source_samples_preserved": true,
+      "voice_fade": false
+    }
+  ]
+}

@@ -30,8 +30,9 @@
     "evidence": "Owner responded Good proceed to the delivered three-state visual review. This authorizes the moving passage; native-4K photo crop remains unresolved."
   },
   "owner_motion_review": {
-    "status": "not reviewed",
-    "evidence": "No moving result produced."
+    "status": "approved",
+    "date": "2026-10-15T12:27:20+08:00",
+    "evidence": "Owner: Good render rhe whole video and write post, following delivery of the 12-second moving mechanism."
   },
   "rendered_review": {
     "initial": {

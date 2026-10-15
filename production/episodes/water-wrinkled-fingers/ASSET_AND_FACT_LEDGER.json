@@ -1,0 +1,15 @@
+{
+ "photos":[
+ {"file":"study_pair.jpg","credit":"Guy German / Binghamton University","source":"https://www.eurekalert.org/multimedia/1072667","permission":"Can share with credit to Guy German","use":"Approved source-preserving A/B registered comparison; crop, grayscale, masks, annotation. Low-resolution research print, not new 4K evidence."},
+ {"file":"wrinkled_photo.jpg","credit":"Sebastian Wallroth","source":"https://commons.wikimedia.org/wiki/File:Wrinkly_Fingers_001.JPG","license":"https://creativecommons.org/licenses/by/3.0/","use":"Contextual photo, cropped, rotated, textured, repeated registration and annotated; not same subject as study comparison."},
+ {"file":"grip_study.png","credit":"Nick J. Davis, 2021 / PLOS ONE Fig.1","source":"https://doi.org/10.1371/journal.pone.0253185.g001","license":"https://creativecommons.org/licenses/by/4.0/","use":"Actual experimental apparatus, cropped, rotated, selected with annotation. Displayed trace belongs to the source photo, no invented quantitative result."}
+ ],
+ "claims":[
+ {"claim":"Sympathetic control and vasoconstriction help cause water-induced wrinkling","source":"https://doi.org/10.1002/mus.10323"},
+ {"claim":"Leading mechanism: volume loss and skin folding","source":"https://pubmed.ncbi.nlm.nih.gov/15095056/","boundary":"qualitative mechanism schematic, not anatomy scan or measured change"},
+ {"claim":"Wet-grip benefits differ across tasks/studies","sources":["https://doi.org/10.1098/rsbl.2012.0999","https://doi.org/10.1371/journal.pone.0084949","https://doi.org/10.1371/journal.pone.0253185"],"boundary":"No proven evolutionary purpose or universally reproduced benefit claimed."}
+ ],
+ "textures":"Existing owner-supplied private assets, reused. Not committed publicly.",
+ "audio":"Bernard intro and closing generated once; approved mechanism source reused; existing SFX library used, none generated; original evolving musical construction.",
+ "brand_ending":"Exact shared london-bridge-v1 source; no alterations"
+}

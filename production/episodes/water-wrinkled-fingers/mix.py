@@ -1,0 +1,23 @@
+from pathlib import Path
+import subprocess,json,hashlib
+import numpy as np
+from scipy.io import wavfile
+r=Path(__file__).parent;sr=48000;duration=36.3;n=round(sr*duration)
+def load(p):return np.frombuffer(subprocess.check_output(['ffmpeg','-v','error','-i',str(p),'-f','f32le','-ar','48000','-ac','2','-']),np.float32).reshape(-1,2).copy()
+t=np.arange(n)/sr;vo=np.zeros((n,2));sources=[]
+for name,on,task,words in [('intro.mp3',.2,'9afd560e-3695-4a79-b065-094445c0de25',"These wrinkles aren't just water soaking into your skin. Your nervous system helps create them."),('voice_source.wav',6.95,'9b86ae1d-f0da-492b-83f1-e69c38b82c4c','When your fingers stay in water, nerves help narrow blood vessels underneath. The leading explanation is that the tissue loses volume, pulling the skin into folds.'),('outro.mp3',18.6,'3586bf29-0f65-4b07-b652-1e8976f391b7',"Could that help you grip wet objects? Some experiments found a benefit. Others didn't. So better grip is a possibility, not a proven evolutionary purpose. A familiar wrinkle, with an active response underneath.")]:
+ p=r/'audio'/name;v=load(p);v*=.58/max(np.max(np.abs(v)),.001);at=round(on*sr);vo[at:at+len(v)]+=v;sources.append({'file':name,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'task_id':task,'onset':on,'duration':len(v)/sr,'end':on+len(v)/sr,'text':words,'all_source_samples_preserved':True,'voice_fade':False})
+mu=np.zeros_like(vo)
+chords=[[146.832,220,261.626],[130.813,196,246.942],[164.814,220,293.665],[130.813,196,261.626]]
+for i in range(10):
+ tt=t-i*3.8;env=np.where(tt>=0,np.minimum(np.maximum(tt,0)/.7,1)*np.exp(-np.maximum(tt,0)/3.7),0)
+ for f in chords[i%4]:mu[:,0]+=.008*np.sin(2*np.pi*f*t)*env;mu[:,1]+=.008*np.sin(2*np.pi*f*t+.1)*env
+for k in range(26):
+ f=[587.33,440,523.25,659.25,587.33,440,392,523.25][k%8];tt=t-(.18+k*1.34);env=np.where(tt>=0,np.exp(-np.maximum(tt,0)*3.6)*np.minimum(np.maximum(tt,0)/.015,1),0);v=(np.sin(2*np.pi*f*tt)+.25*np.sin(2*np.pi*2*f*tt))*.031*env;mu[:,0]+=v;mu[:,1]+=v*.88
+mu*=np.minimum(t/.18,1)[:,None]*np.minimum((duration-t)/.7,1)[:,None];fx=np.zeros_like(mu);sheet=[]
+cues=[('camera_move.mp3',0,.65,.20,'hook_approach'),('marker_bold.mp3',.6,.55,.30,'real_crease_selection'),('paper_turn.flac',6.2,.65,.28,'inherit_research_comparison'),('paper.mp3',7.2,.95,.32,'photo_comparison'),('micro_emphasis.flac',8.845,.6,.27,'vessel_narrowing'),('paper_turn.flac',13.1,.85,.29,'volume_change'),('marker_bold.mp3',15.55,.65,.35,'crease_selection'),('resolution.flac',17,.65,.21,'fold_settle'),('camera_move.mp3',18.6,.65,.24,'grip_apparatus_inspection'),('marker_bold.mp3',19,.55,.30,'actual_contact_selection'),('paper.mp3',21.42,.6,.30,'positive_study'),('paper_turn.flac',23.42,.65,.30,'negative_study'),('micro_emphasis.flac',24.78,.5,.23,'qualification'),('camera_move.mp3',30.15,.65,.24,'return_to_finger'),('resolution.flac',35.2,.65,.23,'locked_brand_resolution')]
+for name,on,dur,peak,event in cues:
+ p=r/'audio'/name;raw=load(p);en=np.sqrt(np.mean(raw*raw,axis=1));active=np.where(en>max(.0005,np.max(en)*.03))[0];offset=max(0,int(active[0])-480) if len(active) else 0;v=raw[offset:offset+round(dur*sr)].copy();v*=peak/max(np.max(np.abs(v)),.001);fade=min(864,len(v)//3);v[:fade]*=np.linspace(0,1,fade)[:,None];v[-fade:]*=np.linspace(1,0,fade)[:,None];at=round(on*sr);fx[at:at+len(v)]+=v;mu[max(0,at-2400):min(n,at+len(v)+6000)]*=.65;sheet.append({'source':name,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'onset':on,'duration':len(v)/sr,'peak_target':peak,'event':event,'provenance':'Existing Curio designed cue. Editorial sound, not authentic physiology recording.'})
+for name,a in [('voice_full.wav',vo),('music_full.wav',mu),('sfx_full.wav',fx),('raw_full.wav',vo+mu+fx)]:wavfile.write(r/'audio'/name,sr,np.int16(np.clip(a,-1,1)*32767))
+subprocess.run(['ffmpeg','-y','-v','error','-i',str(r/'audio/raw_full.wav'),'-af','loudnorm=I=-14:TP=-1.5:LRA=8','-ar','48000','-ac','2','-c:a','pcm_s24le',str(r/'audio/full_mix.wav')],check=True)
+(r/'NARRATION_SOURCE.json').write_text(json.dumps({'voice':'Bernard','model':'eleven_v3','sources':sources},indent=2));(r/'NARRATION.txt').write_text('\n\n'.join(x['text']for x in sources));(r/'SFX_CUE_SHEET.json').write_text(json.dumps(sheet,indent=2));(r/'NARRATION_TAIL_QA.json').write_text(json.dumps({'all_source_samples_preserved':True,'last_source_end':sources[-1]['end'],'brand_fade_start':35.2,'protected_tail':35.2-sources[-1]['end'],'duration':duration,'no_voice_fade':True,'caption_timing':'estimated phrases informed by source pauses','mechanism_owner_approval':'2026-10-15T12:27:20+08:00','new_intro_outro':'internal review, no claim of new owner listening approval'},indent=2));print(sources)

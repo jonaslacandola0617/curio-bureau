@@ -37,3 +37,7 @@ Do not turn absence of wrinkles into a home diagnostic claim. Exact triggering d
 ## Next execution gate
 
 Source truthful matched fingertip imagery and suitable anatomy references; lock rights and maximum crop; fill the complete shot/translation contract. Produce one finished three-state mechanism passage, inspect without decorative heading, compare actual renders, and obtain owner art approval before animation. Approval of the earlier film does not approve this new artwork automatically.
+
+
+## Full-film authorization — 15 October 2026
+Owner approved mechanism motion and ordered whole film/native 4K/posts at 12:27:20 Asia/Manila. Full-film source and render recovery: production/episodes/water-wrinkled-fingers. No social-account publication is authorized.

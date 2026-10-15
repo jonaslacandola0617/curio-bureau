@@ -1,0 +1,137 @@
+[
+  {
+    "source": "camera_move.mp3",
+    "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "onset": 0,
+    "duration": 0.65,
+    "peak_target": 0.2,
+    "event": "hook_approach",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "marker_bold.mp3",
+    "sha256": "bb62cf4a6d88c51408424ac78776ef8316c06a4a8ee5e01a4495c201e862d183",
+    "onset": 0.6,
+    "duration": 0.55,
+    "peak_target": 0.3,
+    "event": "real_crease_selection",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "paper_turn.flac",
+    "sha256": "0b9b2381d6591354351c8a512a042ff38bc2edac529cd7d66575e0b54f8b345f",
+    "onset": 6.2,
+    "duration": 0.65,
+    "peak_target": 0.28,
+    "event": "inherit_research_comparison",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "paper.mp3",
+    "sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+    "onset": 7.2,
+    "duration": 0.95,
+    "peak_target": 0.32,
+    "event": "photo_comparison",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "micro_emphasis.flac",
+    "sha256": "477c33e0caa4313d8cb7bc0e1decdfc2fd15b161c7c2b8bcb719f16b84adc1b2",
+    "onset": 8.845,
+    "duration": 0.6,
+    "peak_target": 0.27,
+    "event": "vessel_narrowing",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "paper_turn.flac",
+    "sha256": "0b9b2381d6591354351c8a512a042ff38bc2edac529cd7d66575e0b54f8b345f",
+    "onset": 13.1,
+    "duration": 0.85,
+    "peak_target": 0.29,
+    "event": "volume_change",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "marker_bold.mp3",
+    "sha256": "bb62cf4a6d88c51408424ac78776ef8316c06a4a8ee5e01a4495c201e862d183",
+    "onset": 15.55,
+    "duration": 0.65,
+    "peak_target": 0.35,
+    "event": "crease_selection",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "resolution.flac",
+    "sha256": "722a3e6056cbc743dd18138d2708f796c838278bbb3f0ff1cb1ab79ab79a5a5b",
+    "onset": 17,
+    "duration": 0.65,
+    "peak_target": 0.21,
+    "event": "fold_settle",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "camera_move.mp3",
+    "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "onset": 18.6,
+    "duration": 0.65,
+    "peak_target": 0.24,
+    "event": "grip_apparatus_inspection",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "marker_bold.mp3",
+    "sha256": "bb62cf4a6d88c51408424ac78776ef8316c06a4a8ee5e01a4495c201e862d183",
+    "onset": 19,
+    "duration": 0.55,
+    "peak_target": 0.3,
+    "event": "actual_contact_selection",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "paper.mp3",
+    "sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+    "onset": 21.42,
+    "duration": 0.6,
+    "peak_target": 0.3,
+    "event": "positive_study",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "paper_turn.flac",
+    "sha256": "0b9b2381d6591354351c8a512a042ff38bc2edac529cd7d66575e0b54f8b345f",
+    "onset": 23.42,
+    "duration": 0.65,
+    "peak_target": 0.3,
+    "event": "negative_study",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "micro_emphasis.flac",
+    "sha256": "477c33e0caa4313d8cb7bc0e1decdfc2fd15b161c7c2b8bcb719f16b84adc1b2",
+    "onset": 24.78,
+    "duration": 0.5,
+    "peak_target": 0.23,
+    "event": "qualification",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "camera_move.mp3",
+    "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "onset": 30.15,
+    "duration": 0.65,
+    "peak_target": 0.24,
+    "event": "return_to_finger",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  },
+  {
+    "source": "resolution.flac",
+    "sha256": "722a3e6056cbc743dd18138d2708f796c838278bbb3f0ff1cb1ab79ab79a5a5b",
+    "onset": 35.2,
+    "duration": 0.65,
+    "peak_target": 0.23,
+    "event": "locked_brand_resolution",
+    "provenance": "Existing Curio designed cue. Editorial sound, not authentic physiology recording."
+  }
+]
