@@ -86,7 +86,69 @@
           "file_id": "file_00000000262c81f5b30c9d5be28b0f9f"
         }
       ]
+    },
+    {
+      "path": "frames_0160.mkv",
+      "start_frame": 160,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "38f96013a9a5dfba9f3df7fc8aed094632cb09362bec7e8e69b9020f1aa520d1",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "locally_verified_only_storage_quota",
+      "parts": [
+        {
+          "name": "frames_0160.mkv.part000",
+          "bytes": 251658240,
+          "sha256": "a0f3949e10b8f168d82446d30a433b95e83c183e9e04d4f18bac7d7ad4bd6099"
+        },
+        {
+          "name": "frames_0160.mkv.part001",
+          "bytes": 251658240,
+          "sha256": "2dcc7c27f8db4db05f9a81a359b55f8476e4cccfca85960f61492141d9aff472"
+        },
+        {
+          "name": "frames_0160.mkv.part002",
+          "bytes": 178570963,
+          "sha256": "518a53c41ea47d7d050b1f75e71ee7d5fa940e9b61c83226e2716bc6509198cf"
+        }
+      ]
+    },
+    {
+      "path": "frames_0240.mkv",
+      "start_frame": 240,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "07d3c033b06fc402d7fa6577782f49b5b2cd84c447c89d7d9e9b2d012bb06109",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "locally_verified_only_storage_quota",
+      "parts": [
+        {
+          "name": "frames_0240.mkv.part000",
+          "bytes": 251658240,
+          "sha256": "96682c49862749c72c9f6762ac8f46934854a089b0776379ac595223cddfa03a"
+        },
+        {
+          "name": "frames_0240.mkv.part001",
+          "bytes": 251658240,
+          "sha256": "8d92815252b32447eaa0fe4cf9e8b55adc4c5e9c4155929dc212e89c4beccfb0"
+        },
+        {
+          "name": "frames_0240.mkv.part002",
+          "bytes": 211942722,
+          "sha256": "2382a57971cdfe1b6232a69e41359a133a07de45049a882c0d91eb74e529f558"
+        }
+      ]
     }
   ],
-  "durable_frames": 160
+  "durable_frames": 160,
+  "locally_verified_frames": 320,
+  "storage_block": "Library storage limit exceeded; no user files deleted. Unsaved native ranges explicitly marked."
 }

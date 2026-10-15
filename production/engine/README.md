@@ -73,3 +73,7 @@ Engine enforcement: new manifests provide `sequence_contract_version: 1` and `se
 ## Rendered visual translation safeguard
 
 Apply `production/art-direction/VISUAL_TRANSLATION_REVIEW.md` in full. The rejected Recorded Voice beatboard is not an approved benchmark. One demanding rendered passage and its comparison precede owner art approval and animation.
+
+
+## Required finishing execution proof
+Read [FINISHING_OUTPUT_CONTRACT.md](FINISHING_OUTPUT_CONTRACT.md). New image-led builds declare active material/optical finishing; native release verifies proof against the actual rebuilt studio. A profile label or imported effect is insufficient. Custom renderers use the same native picture/caption/ending proof contract. Wrinkled Fingers R1 exposed a custom-renderer bypass; R2 implements and demonstrates the missing grain, focus, transition and print treatment. Preserve historical approved source rebuilds and the exact ending.

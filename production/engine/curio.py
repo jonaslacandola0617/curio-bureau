@@ -113,8 +113,8 @@ class Project:
  def render(self,profile,start=0,seconds=None):
   if profile=='native':
    validate_episode_sequence(self.config,self.episode,'release')
-   validate_finishing(self.config,self.episode,'release')
   self.build()
+  if profile=='native':validate_finishing(self.config,self.episode,'release',studio_path=self.studio)
   if not self.chrome or not self.node:raise ValueError('Set CURIO_CHROME and install Node/Playwright')
   smoke=seconds is not None;duration=seconds if smoke else self.duration
   if start<0 or start+duration>self.duration+.001:raise ValueError('Render range outside episode')
