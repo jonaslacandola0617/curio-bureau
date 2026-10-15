@@ -7,6 +7,9 @@ ENGINE=Path(__file__).resolve().parent
 _sequence_spec=importlib.util.spec_from_file_location('curio_sequence_contract',ENGINE/'sequence.py')
 _sequence=importlib.util.module_from_spec(_sequence_spec);_sequence_spec.loader.exec_module(_sequence)
 validate_episode_sequence=_sequence.validate_episode_sequence
+_finishing_spec=importlib.util.spec_from_file_location('curio_finishing_contract',ENGINE/'finishing_contract.py')
+_finishing=importlib.util.module_from_spec(_finishing_spec);_finishing_spec.loader.exec_module(_finishing)
+validate_finishing=_finishing.validate_finishing
 BROWSER=['motion.js','optics.js','finishing.js','focus.js','runtime.js','materials.js','material-profile.js','brand.js','drawing.js','typography.js']
 
 def digest(p):
@@ -53,6 +56,7 @@ class Project:
   if c['id'] not in ['pig-war','tutorial-optics-test'] and c.get('brand_ending')!='london-bridge-v1':raise ValueError('New episodes must use the owner-locked London Bridge endcard')
   validate_visual_direction(c)
   validate_episode_sequence(c,self.episode,'artwork')
+  validate_finishing(c,self.episode,'artwork')
   if (c['width'],c['height'],c['fps'])!=(1080,1920,30):raise ValueError('v1 engine requires the existing Curio 9:16/30fps profile')
   required=list(c['images'].values())+c['data_files']+[c['mix'],c['voice']]+[f['file'] for f in c['fonts']]
   missing=[n for n in required if not (self.assets/n).is_file()]
@@ -107,7 +111,9 @@ class Project:
   return 'render'
 
  def render(self,profile,start=0,seconds=None):
-  if profile=='native':validate_episode_sequence(self.config,self.episode,'release')
+  if profile=='native':
+   validate_episode_sequence(self.config,self.episode,'release')
+   validate_finishing(self.config,self.episode,'release')
   self.build()
   if not self.chrome or not self.node:raise ValueError('Set CURIO_CHROME and install Node/Playwright')
   smoke=seconds is not None;duration=seconds if smoke else self.duration

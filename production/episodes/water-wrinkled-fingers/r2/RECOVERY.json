@@ -1,0 +1,19 @@
+{
+  "revision": "R2",
+  "status": "NATIVE CAPTURE / FINISHING CORRECTION",
+  "width": 2160,
+  "height": 3840,
+  "fps": 30,
+  "frames": 1089,
+  "duration": 36.3,
+  "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+  "mix_sha256": "cd403a93f5032a6cf89cdbc92f33d92a9529d6932d911320a728155985b38dea",
+  "audio": "Exact R1 full mix, no regeneration",
+  "source": {
+    "library_file_id": "libfile_d97f1f9862b08191822fb0a5e118535b",
+    "file_id": "file_00000000123c81f6a83138174a4d3370",
+    "sha256": "0936619bf5f9d0f23761cabf8c4d0f71e0287ae0f74340e52e95ce04a885653b"
+  },
+  "chunks": [],
+  "durable_frames": 0
+}

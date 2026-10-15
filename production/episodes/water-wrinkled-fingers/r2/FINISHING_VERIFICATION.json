@@ -1,0 +1,124 @@
+{
+  "errors": [],
+  "native": [
+    2160,
+    3840
+  ],
+  "cases": [
+    {
+      "t": 1.5,
+      "meanRedDifference": 7.201620129243827,
+      "opaqueCaptionDifference": 0,
+      "state": {
+        "cut": 0,
+        "dx": 0,
+        "hunt": 0,
+        "focus": {
+          "strength": 0.41700960219478733,
+          "cx": 650,
+          "cy": 1130,
+          "rx": 300,
+          "ry": 470,
+          "blur": 5
+        },
+        "grainStrength": 0.23,
+        "grainFps": 12,
+        "jitterPx": 0.72,
+        "exposureStops": 0.065,
+        "fringePx": 0.72
+      }
+    },
+    {
+      "t": 6.6,
+      "meanRedDifference": 20.302779103973766,
+      "opaqueCaptionDifference": null,
+      "state": {
+        "cut": 1,
+        "dx": 32,
+        "hunt": 0,
+        "focus": {
+          "strength": 0,
+          "cx": 650,
+          "cy": 1160,
+          "rx": 290,
+          "ry": 490
+        },
+        "grainStrength": 0.23,
+        "grainFps": 12,
+        "jitterPx": 0.72,
+        "exposureStops": 0.065,
+        "fringePx": 1.3199999999999998
+      }
+    },
+    {
+      "t": 9.6,
+      "meanRedDifference": 28.90147593557099,
+      "opaqueCaptionDifference": null,
+      "state": {
+        "cut": 0,
+        "dx": 0,
+        "hunt": 0,
+        "focus": {
+          "strength": 1,
+          "cx": 540,
+          "cy": 1390,
+          "rx": 450,
+          "ry": 230,
+          "blur": 6
+        },
+        "grainStrength": 0.23,
+        "grainFps": 12,
+        "jitterPx": 0.72,
+        "exposureStops": 0.065,
+        "fringePx": 0.72
+      }
+    },
+    {
+      "t": 19.6,
+      "meanRedDifference": 28.741020688657407,
+      "opaqueCaptionDifference": null,
+      "state": {
+        "cut": 0,
+        "dx": 0,
+        "hunt": 0,
+        "focus": {
+          "strength": 1,
+          "cx": 840,
+          "cy": 660,
+          "rx": 220,
+          "ry": 190,
+          "blur": 6
+        },
+        "grainStrength": 0.23,
+        "grainFps": 12,
+        "jitterPx": 0.72,
+        "exposureStops": 0.065,
+        "fringePx": 0.72
+      }
+    },
+    {
+      "t": 35.9,
+      "meanRedDifference": 0,
+      "opaqueCaptionDifference": null,
+      "state": {
+        "cut": 0,
+        "dx": 0,
+        "hunt": 0,
+        "focus": {
+          "strength": 0,
+          "cx": 650,
+          "cy": 1160,
+          "rx": 290,
+          "ry": 490
+        },
+        "grainStrength": 0.23,
+        "grainFps": 12,
+        "jitterPx": 0.72,
+        "exposureStops": 0.065,
+        "fringePx": 0.72
+      }
+    }
+  ],
+  "deterministic": true,
+  "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8"
+}
