@@ -3,6 +3,16 @@
   "width": 2160,
   "height": 3840,
   "fps": 30,
+  "encoder_profile": {
+    "intermediate": "libx264rgb / crf0 / ultrafast / RGB lossless",
+    "master": "H264 CRF15 fast / AAC320k",
+    "posting": "H264 CRF20 fast / AAC320k",
+    "webm": "VP9 CRF22 / Opus256k"
+  },
+  "fonts": {
+    "PlayfairDisplay.ttf": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+    "Manrope.ttf": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+  },
   "frames": 1089,
   "duration": 36.3,
   "source_sha256": "7e378e9dbdb3aeed540f95d11bc87cd6ddc921c962084c4a8971512c00e545b1",
@@ -72,7 +82,37 @@
       "status": "durable",
       "library_file_id": "libfile_722cd380a584819191fbe71ecd6665b7",
       "file_id": "file_00000000890c82308196f810cb16eb76"
+    },
+    {
+      "path": "frames_0320.mkv",
+      "start_frame": 320,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "7e7386c003401ae25a867319784c7503180e1817101e40947b7bd98a12b95bc6",
+      "studio_sha256": "7e378e9dbdb3aeed540f95d11bc87cd6ddc921c962084c4a8971512c00e545b1",
+      "status": "durable",
+      "library_file_id": "libfile_172b743b50c48191a134e25c06178959",
+      "file_id": "file_00000000cc3c81f58432116a9b7fd87c"
+    },
+    {
+      "path": "frames_0400.mkv",
+      "start_frame": 400,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "ae8d684df9e722824ef2037e72dfc5fd72e340761aadfc6eb7dfd8ad0412d07d",
+      "studio_sha256": "7e378e9dbdb3aeed540f95d11bc87cd6ddc921c962084c4a8971512c00e545b1",
+      "status": "durable",
+      "library_file_id": "libfile_dc39aec3da4881919bbe26a52600a9e5",
+      "file_id": "file_00000000ac7481f5a15b80aa4367a734"
     }
   ],
-  "durable_frames": 320
+  "durable_frames": 480
 }

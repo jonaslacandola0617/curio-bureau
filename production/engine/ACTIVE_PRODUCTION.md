@@ -42,3 +42,7 @@ Read [native render recovery](NATIVE_RENDER_RECOVERY.md). Save verified chunk by
 Read [visual sequence direction](../art-direction/VISUAL_SEQUENCE_DIRECTION.md). Name each beat’s operation, resulting understanding and inheritance; review connected finished states before moving integration. Preserve approved-source rebuilds and existing art/audio/ending/native gates.
 
 Engine enforcement: new manifests provide `sequence_contract_version: 1` and `sequence_contract` (episode-relative JSON). Input checks validate required decisions; browser moving builds require recorded owner sequence approval; native render requires moving-preflight approval. Existing approved episode sources without a new contract retain their original rebuild route. A reworked sequence uses a new episode ID or supplies a new contract. The validator checks records, not artistic merit.
+
+
+## Current film — water-wrinkled fingers
+Owner approved mechanism motion and authorized complete film/native 4K/posts on15 October2026 at12:27:20 Asia/Manila. Full-film native capture in progress; 480 of1089 frames verified and durably saved. See production/episodes/water-wrinkled-fingers/RECOVERY.json. Bernard mechanism source retained; final complete mix -13.8 LUFS / -1.7 dBTP. Final outputs must still pass encoding and independent QA before delivery.
