@@ -1,0 +1,84 @@
+{
+  "profile": {
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "frames": 1089,
+    "duration": 36.3
+  },
+  "files": [
+    {
+      "name": "Wrinkled_Fingers_4K_Master.mp4",
+      "size": 467317790,
+      "sha256": "2185cdd4bea354cd3b3c2a04f37fe385a421bfe9d1f4cac87b697584f8a2775e",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decoded_frames": 1089,
+      "full_decode": "passed",
+      "lufs": -13.8,
+      "true_peak_dbfs": -1.7,
+      "duration": "36.300000"
+    },
+    {
+      "name": "Wrinkled_Fingers_4K.webm",
+      "size": 315023650,
+      "sha256": "46af48a59bdd6aa0904e98edd1578c356c843bcefacd04eacdb18127c8ab80e5",
+      "video_codec": "vp9",
+      "audio_codec": "opus",
+      "decoded_frames": 1089,
+      "full_decode": "passed",
+      "lufs": -13.8,
+      "true_peak_dbfs": -1.6,
+      "duration": "36.308000"
+    },
+    {
+      "name": "Wrinkled_Fingers_4K_Posting.mp4",
+      "size": 275344295,
+      "sha256": "e232c3047f4f2d1ab3ce656f55314c1768fdabb24b105903afda4a90ac8b23fa",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decoded_frames": 1089,
+      "full_decode": "passed",
+      "lufs": -13.8,
+      "true_peak_dbfs": -1.7,
+      "duration": "36.300000"
+    }
+  ],
+  "narration": {
+    "all_source_samples_preserved": true,
+    "last_source_end": 34.04,
+    "brand_fade_start": 35.2,
+    "protected_tail": 1.1600000000000037,
+    "duration": 36.3,
+    "no_voice_fade": true,
+    "caption_timing": "estimated phrases informed by source pauses",
+    "mechanism_owner_approval": "2026-10-15T12:27:20+08:00",
+    "new_intro_outro": "internal review, no claim of new owner listening approval"
+  },
+  "scope": "Technical checks do not substitute for owner listening or artistic judgment. Owner approved mechanism passage; full-film execution authorized.",
+  "revision": "R2",
+  "owner_full_film_review": "PENDING",
+  "browser_player": {
+    "metadata": {
+      "duration": 36.308,
+      "width": 2160,
+      "height": 3840
+    },
+    "downloads": [
+      {
+        "sha256": "7cfe4c1e306a4736324b985e31fe5094364725e3f7725be3a07fdbd36700550d",
+        "bytes": 33538307
+      },
+      {
+        "sha256": "7cfe4c1e306a4736324b985e31fe5094364725e3f7725be3a07fdbd36700550d",
+        "bytes": 33538307
+      }
+    ],
+    "errors": [],
+    "externalRuntimeRequests": [],
+    "seek": {
+      "time": 24,
+      "error": null
+    }
+  }
+}

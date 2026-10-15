@@ -1,0 +1,42 @@
+{
+  "revision": "R2",
+  "status": "TECHNICAL AND BROWSER QA PASSED; OWNER REVIEW PENDING; GITHUB ASSET UPLOAD PENDING",
+  "repository": "jonaslacandola0617/curio-bureau",
+  "files": [
+    {
+      "name": "Wrinkled_Fingers_R2_4K.webm",
+      "bytes": 315023650,
+      "sha256": "46af48a59bdd6aa0904e98edd1578c356c843bcefacd04eacdb18127c8ab80e5"
+    },
+    {
+      "name": "Wrinkled_Fingers_R2_4K_Master.mp4",
+      "bytes": 467317790,
+      "sha256": "2185cdd4bea354cd3b3c2a04f37fe385a421bfe9d1f4cac87b697584f8a2775e"
+    },
+    {
+      "name": "Wrinkled_Fingers_R2_4K_Posting.mp4",
+      "bytes": 275344295,
+      "sha256": "e232c3047f4f2d1ab3ce656f55314c1768fdabb24b105903afda4a90ac8b23fa"
+    },
+    {
+      "name": "Wrinkled_Fingers_R2_Notes.txt",
+      "bytes": 1480,
+      "sha256": "9692ec2720f952967512d9aa35560a20eeac9279c9eaad0bef846af367f2cd31"
+    },
+    {
+      "name": "Wrinkled_Fingers_R2_Player.html",
+      "bytes": 420034482,
+      "sha256": "2d7eace008c42f7c481603192b10b7a17e11357a9608f920a8c331ee850192fd"
+    },
+    {
+      "name": "Wrinkled_Fingers_R2_Posts.txt",
+      "bytes": 3278,
+      "sha256": "82ec2e4dec4b991f0842190763086dcdfd612e6e05b4a2e783897beda36b986f"
+    },
+    {
+      "name": "Wrinkled_Fingers_R2_QA.json",
+      "bytes": 2394,
+      "sha256": "f51176d2702b55b5d7056946d15f2b88a9a1e1b8ead1f7467cceddbe4d6d0546"
+    }
+  ]
+}

@@ -40,3 +40,7 @@ The October 2026 v1.1 audit under `production/bible/v1.1/` documents known gaps:
 5. Review the render and soundtrack, then merge approved work to `main`.
 
 The first production lives on `film/samoa-day-disappeared`.
+
+
+## Proprietary export archive — 15 October 2026
+All Curio Bureau proprietary exports belong in this repository assets / versioned GitHub Releases. Large rendered videos and recovery binaries go to Release assets; source, original reusable assets and small manifests/posts/QA go to Git. Actions artifacts alone are temporary. See [archive requirements](production/engine/GITHUB_EXPORT_STORAGE.md).

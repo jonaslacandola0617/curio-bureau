@@ -5,7 +5,7 @@
 ## Required visual art review — 14 October 2026
 Before new science artwork, use [science paper/image art direction](../art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md) and its shot contract. They operationalize the owner's existing direction: specific images, deliberate crop/hierarchy, distinct physical materials, strong source-local textures, repaired layers, refined printed figures and intentional intermediate states. Five demanding frames and the hardest moving join require explicit art review; manifest/codec passes are not art approval. No new film is authorized by an infrastructure review.
 
-The Master Bible v1.4.3 governs. This document is an operational index, not a substitute creative Bible. Owner's later Pig War direction in AGENTS and the approval record takes precedence where explicitly applicable.
+The Master Bible v1.4.5 governs. This document is an operational index, not a substitute creative Bible. Owner's later Pig War direction in AGENTS and the approval record takes precedence where explicitly applicable.
 
 ## Maintenance of approved work
 
@@ -50,3 +50,6 @@ Complete native4K film and posts delivered:1089 frames/30fps/36.3seconds. Master
 
 ## Wrinkled Fingers R2 — finishing correction,15 October2026
 Owner rejected R1 texture/optics at15:50 Asia/Manila and explicitly ordered infrastructure review and native4K rerender. See FINISHING_OUTPUT_CONTRACT.md and production/episodes/water-wrinkled-fingers/r2. R1 remains historical and its finishing is not approved. R2 uses moving grain, role-specific material, source-local focus/shading, camera/transition blur, RGB separation, jitter/exposure and local ink bleed/boil. Original full mix retained exactly. Native capture/source recovery is in r2/RECOVERY.json. Final R2 outputs are not yet delivered or owner-reviewed.
+
+
+Export storage: apply GITHUB_EXPORT_STORAGE.md. Proprietary exports require verified GitHub repository/Release asset storage; a local file, temporary link or expiring workflow artifact is not the archive.

@@ -1,5 +1,6 @@
 {
-  "status": "VIDEO EXPORTS VERIFIED LOCALLY; NOT DURABLY DELIVERED; WORKSPACE DISCONNECTED",
+  "revision": "R2",
+  "status": "TECHNICAL AND BROWSER QA PASSED; OWNER REVIEW PENDING; GITHUB ASSET UPLOAD PENDING",
   "profile": {
     "width": 2160,
     "height": 3840,
@@ -10,47 +11,45 @@
   "files": [
     {
       "name": "Wrinkled_Fingers_4K_Master.mp4",
-      "bytes": 467317790,
+      "size": 467317790,
       "sha256": "2185cdd4bea354cd3b3c2a04f37fe385a421bfe9d1f4cac87b697584f8a2775e",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decoded_frames": 1089,
+      "full_decode": "passed",
       "lufs": -13.8,
       "true_peak_dbfs": -1.7,
-      "full_decode": "passed"
-    },
-    {
-      "name": "Wrinkled_Fingers_4K_Posting.mp4",
-      "bytes": 275350028,
-      "sha256": "acf4deea05777ed76fc77887cc6ef976ea64f003d690ca665513851e2986dd1d",
-      "lufs": -13.8,
-      "true_peak_dbfs": -1.7,
-      "full_decode": "passed"
+      "duration": "36.300000"
     },
     {
       "name": "Wrinkled_Fingers_4K.webm",
-      "bytes": 315023650,
-      "sha256": "dbe5cbd3b7d239bcf7af341a2c1182d903affd77b42290599dcca3e5f9370419",
+      "size": 315023650,
+      "sha256": "46af48a59bdd6aa0904e98edd1578c356c843bcefacd04eacdb18127c8ab80e5",
+      "video_codec": "vp9",
+      "audio_codec": "opus",
+      "decoded_frames": 1089,
+      "full_decode": "passed",
       "lufs": -13.8,
-      "true_peak_dbfs": -1.5,
-      "full_decode": "passed"
+      "true_peak_dbfs": -1.6,
+      "duration": "36.308000"
+    },
+    {
+      "name": "Wrinkled_Fingers_4K_Posting.mp4",
+      "size": 275344295,
+      "sha256": "e232c3047f4f2d1ab3ce656f55314c1768fdabb24b105903afda4a90ac8b23fa",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decoded_frames": 1089,
+      "full_decode": "passed",
+      "lufs": -13.8,
+      "true_peak_dbfs": -1.7,
+      "duration": "36.300000"
     }
   ],
-  "native_capture": {
-    "locally_verified_frames": 1089,
-    "durable_frames": 160,
-    "remaining_ranges": "Verified locally but not saved because Library storage limit was reached; do not claim they survive workspace loss."
-  },
-  "source_checkpoint": {
-    "library_file_id": "libfile_d97f1f9862b08191822fb0a5e118535b",
-    "file_id": "file_00000000123c81f6a83138174a4d3370",
-    "name": "Wrinkled_Fingers_R2_Checkpoint.zip"
-  },
-  "browser_player": "Large embedded 4K export click timed out. Packaging fix/recheck was interrupted by environment going offline; no passing R2 browser report is established. The copied old R1 player_qa.json must not be used as R2 evidence.",
-  "library": "prepare_uploads failed: library_storage_limit_exceeded; no Library files deleted",
-  "drive": "Automatic approval review rejected private-video upload because destination account ownership and explicit user authorization were not established; no video uploaded; do not bypass rejection.",
-  "drive_folder": {
-    "id": "1yG2FO9rRVaNGyKD4TV7V2lgwkVga4Bwe",
-    "url": "https://drive.google.com/drive/folders/1yG2FO9rRVaNGyKD4TV7V2lgwkVga4Bwe",
-    "name": "Curio_Bureau_Wrinkled_Fingers_R2_2026-10-15",
-    "content": "Empty folder only; no video uploaded"
-  },
-  "next": "Obtain explicit authorization/ownership confirmation for the connected Drive destination, then recover workspace access. Transfer existing verified exports if available. Otherwise recover source plus durable ranges and render only missing ranges. No voice/music/SFX regeneration. Alternative: owner-approved removal of only the 14 R1 native intermediates listed in PROPOSED_CLEANUP.json (3,875,231,456 bytes), preserving R1 finished exports/source/assets, then save via Library. Never delete without authorization."
+  "browser_player": "PASSED on restored exports; see PLAYER_QA.json",
+  "native_capture": "1089 native lossless frames locally verified; first160 durably lossless in prior storage; remaining native CRF15 recovery proxies saved separately and explicitly not lossless",
+  "owner_approved_storage": "GitHub repository / Releases",
+  "github_release": "NOT YET UPLOADED \u2014 connector lacks Release upload action; browser sign-in required",
+  "previous_workspace_loss": "Recovered exact source/mix and160saved native frames; captured missing929frames. Master SHA256 exactly matches prior verified master.",
+  "source_and_mix_unchanged": true
 }

@@ -1,7 +1,7 @@
 # CURIO BUREAU — MASTER CREATIVE, MOTION, AUDIO & PRODUCTION BIBLE
 **Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
 
-**Version 1.4.4 · Updated 15 October 2026 · Owner-adopted image-led direction · v1.4 editorial reasoning and earlier release safeguards preserved**
+**Version 1.4.5 · Updated 15 October 2026 · Owner-adopted image-led direction · v1.4 editorial reasoning and earlier release safeguards preserved**
 
 > **This is the single portable, consolidated bible.** Its governing rules and detailed modules below are included in full, not hidden in other attachments. It remains an evidence-grounded initial system: definitive release-level observations of Episodes 002 and 003 are unavailable, and quantitative audience-retention claims cannot be made without platform analytics. Earlier Vox/viral benchmark research relied on external metadata. A subsequent Motion Mastery Lab directly decoded nine user-supplied third-party Vox-inspired demonstration videos, studying 35 selected motion windows; this is **not** verified direct analysis of full original Vox films or their private project files. **New v2 (12 October):** Five uploaded videos bearing official Vox published titles were independently decoded for authored graphic content only, with photographed/real filmed plates excluded. Details and limits are in the adopted v1.3 chapter; neither study has Vox's editable project files.
 
@@ -730,3 +730,8 @@ The owner approved Astronaut Height R2 and adopted image-led editorial sequences
 ## Rendered visual translation safeguard
 
 Apply `production/art-direction/VISUAL_TRANSLATION_REVIEW.md` in full. The rejected Recorded Voice beatboard is not an approved benchmark. One demanding rendered passage and its comparison precede owner art approval and animation.
+
+
+## Adopted GitHub export archive — 15 October 2026 (v1.4.5)
+
+The owner requires all Curio Bureau proprietary exports in the GitHub repository assets / Releases for persistent storage and backup. Apply [GitHub export storage](engine/GITHUB_EXPORT_STORAGE.md): source and small original assets/records in Git; large native masters, posting files, WebM/browser exports and verified recovery bytes in versioned Releases. Expiring Actions artifacts, temporary workspace links and manifests without their referenced bytes do not satisfy the archive gate. Preserve third-party item-level rights and all existing backups. Verify uploaded assets and record observed IDs, sizes, hashes and links before reporting durable delivery. This storage-only amendment preserves every creative, audio, caption, evidence, ending and native-format safeguard.
