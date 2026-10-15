@@ -6,11 +6,11 @@
   "frames": 1089,
   "duration": 36.3,
   "source_sha256": "7e378e9dbdb3aeed540f95d11bc87cd6ddc921c962084c4a8971512c00e545b1",
-  "mix_sha256": "f30fce277c67e052c65ac900371fe885b1d45e4d5e36352a31a4b775b31032af",
+  "mix_sha256": "cd403a93f5032a6cf89cdbc92f33d92a9529d6932d911320a728155985b38dea",
   "source_checkpoint": {
-    "library_file_id": "libfile_43199449c9b48191a1e3ebb92a535474",
-    "file_id": "file_000000000e5081f8834e2dc1c212249a",
-    "sha256": "76f197e9a70a5672a89efa7cdb443b00734979b372cdaa8da57b22f369465c9b"
+    "library_file_id": "libfile_e298dcf427988191943ba8eb4bd585d6",
+    "file_id": "file_000000003a1481fda35741d2eb763fbc",
+    "sha256": "7b88f4637a1e6a12a93885f82b10cbaad439e67b927ff8840c34e34242a5d5a8"
   },
   "chunks": [
     {
@@ -42,7 +42,37 @@
       "status": "durable",
       "library_file_id": "libfile_7669dcb0bde0819196656b196d3646a4",
       "file_id": "file_000000003cc48210adeb0785f05cbfed"
+    },
+    {
+      "path": "frames_0160.mkv",
+      "start_frame": 160,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "e3e72c2ec9b1ba98b3173a99db759ebb709cad90935daf2a43dda3a2652d954a",
+      "studio_sha256": "7e378e9dbdb3aeed540f95d11bc87cd6ddc921c962084c4a8971512c00e545b1",
+      "status": "durable",
+      "library_file_id": "libfile_af7fffb561e0819194016cfcc2e81e81",
+      "file_id": "file_00000000ea24820c913c93de450a45b0"
+    },
+    {
+      "path": "frames_0240.mkv",
+      "start_frame": 240,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "b23abb443d537f711c600c1c5bb8356b827bf8fb9fe13b5b14fe8fc851448a7a",
+      "studio_sha256": "7e378e9dbdb3aeed540f95d11bc87cd6ddc921c962084c4a8971512c00e545b1",
+      "status": "durable",
+      "library_file_id": "libfile_722cd380a584819191fbe71ecd6665b7",
+      "file_id": "file_00000000890c82308196f810cb16eb76"
     }
   ],
-  "durable_frames": 160
+  "durable_frames": 320
 }
