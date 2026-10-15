@@ -1,5 +1,5 @@
 {
-  "status": "STATIC ART REVIEW READY / owner approval pending",
+  "status": "STATIC ART APPROVED / moving test authorized",
   "width": 1080,
   "height": 1920,
   "states": 3,
@@ -48,5 +48,6 @@
       "file_id": "file_0000000074f081f5beaeb38858282da6",
       "sha256": "d0f6dfaa5214c406b71f3c749a606f5d7b8087ccba0c1908211065d1d0a8ec2e"
     }
-  ]
+  ],
+  "ownerArtApproval": "2026-10-15T11:25:57+08:00"
 }

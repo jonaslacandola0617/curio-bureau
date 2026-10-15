@@ -1,0 +1,19 @@
+{
+  "status": "SOURCE LOCKED / 1080p moving review rendering",
+  "ownerArtApproval": "2026-10-15T11:25:57+08:00",
+  "ownerMotionApproval": "pending new review",
+  "source_checkpoint": {
+    "name": "Wrinkles_Motion_Checkpoint.zip",
+    "library_file_id": "libfile_df73432e46b48191842c55d53714f26b",
+    "file_id": "file_00000000bb58820cbfe60cfe295c17bf",
+    "sha256": "d709cac47d68e6c7fa39d7135860442c5b942455e68e31826853f287fa21a119"
+  },
+  "profile": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 360,
+    "duration": 12
+  },
+  "native_4k_photo_crop": "unresolved, not waived by art approval"
+}

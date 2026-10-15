@@ -1,0 +1,19 @@
+{
+  "errors": [],
+  "externalRuntimeRequests": [],
+  "fonts": [
+    true,
+    true
+  ],
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 360,
+  "duration": 12,
+  "ownerArtApproved": true,
+  "ownerMotionApproved": false,
+  "photoMorph": false,
+  "photoScale": "same as approved 1080p study",
+  "captionTiming": "phrase estimates, not word aligned",
+  "captionLane": "screen fixed 42–58%"
+}

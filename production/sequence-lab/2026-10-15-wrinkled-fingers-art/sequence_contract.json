@@ -25,9 +25,9 @@
     }
   ],
   "owner_sequence_review": {
-    "status": "pending",
-    "date": "2026-10-15",
-    "evidence": "New rendered art passage has not been reviewed by owner."
+    "status": "approved",
+    "date": "2026-10-15T11:25:57+08:00",
+    "evidence": "Owner responded Good proceed to the delivered three-state visual review. This authorizes the moving passage; native-4K photo crop remains unresolved."
   },
   "owner_motion_review": {
     "status": "not reviewed",

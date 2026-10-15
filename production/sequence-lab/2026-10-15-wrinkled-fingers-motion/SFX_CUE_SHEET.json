@@ -1,0 +1,80 @@
+[
+  {
+    "sound_id": "camera_move.mp3",
+    "source_sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "source_offset_seconds": 0.0630625,
+    "onset_time": 0,
+    "duration": 0.65,
+    "peak_target": 0.2,
+    "animation_event_id": "intro_approach",
+    "narrative_word_id": "phrase-estimate; not word-aligned",
+    "purpose": "Photo and heading establish",
+    "mix_bus": "physical/editorial",
+    "provenance": "Existing Curio designed cue, reused. Not an authentic body or field recording."
+  },
+  {
+    "sound_id": "paper.mp3",
+    "source_sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+    "source_offset_seconds": 0.0,
+    "onset_time": 0.6,
+    "duration": 0.95,
+    "peak_target": 0.32,
+    "animation_event_id": "photo_comparison",
+    "narrative_word_id": "phrase-estimate; not word-aligned",
+    "purpose": "Source A/B comparison reveal",
+    "mix_bus": "physical/editorial",
+    "provenance": "Existing Curio designed cue, reused. Not an authentic body or field recording."
+  },
+  {
+    "sound_id": "micro_emphasis.flac",
+    "source_sha256": "477c33e0caa4313d8cb7bc0e1decdfc2fd15b161c7c2b8bcb719f16b84adc1b2",
+    "source_offset_seconds": 0.0,
+    "onset_time": 2.245,
+    "duration": 0.6,
+    "peak_target": 0.27,
+    "animation_event_id": "vessel_narrowing",
+    "narrative_word_id": "phrase-estimate; not word-aligned",
+    "purpose": "Editorial accent on represented narrowing",
+    "mix_bus": "physical/editorial",
+    "provenance": "Existing Curio designed cue, reused. Not an authentic body or field recording."
+  },
+  {
+    "sound_id": "paper_turn.flac",
+    "source_sha256": "0b9b2381d6591354351c8a512a042ff38bc2edac529cd7d66575e0b54f8b345f",
+    "source_offset_seconds": 0.0,
+    "onset_time": 6.5,
+    "duration": 0.85,
+    "peak_target": 0.29,
+    "animation_event_id": "volume_change",
+    "narrative_word_id": "phrase-estimate; not word-aligned",
+    "purpose": "Printed mechanism shifts",
+    "mix_bus": "physical/editorial",
+    "provenance": "Existing Curio designed cue, reused. Not an authentic body or field recording."
+  },
+  {
+    "sound_id": "marker_bold.mp3",
+    "source_sha256": "bb62cf4a6d88c51408424ac78776ef8316c06a4a8ee5e01a4495c201e862d183",
+    "source_offset_seconds": 0.1851875,
+    "onset_time": 8.95,
+    "duration": 0.65,
+    "peak_target": 0.35,
+    "animation_event_id": "crease_selection",
+    "narrative_word_id": "phrase-estimate; not word-aligned",
+    "purpose": "Printed crease marks and surface fold",
+    "mix_bus": "physical/editorial",
+    "provenance": "Existing Curio designed cue, reused. Not an authentic body or field recording."
+  },
+  {
+    "sound_id": "resolution.flac",
+    "source_sha256": "722a3e6056cbc743dd18138d2708f796c838278bbb3f0ff1cb1ab79ab79a5a5b",
+    "source_offset_seconds": 0.0,
+    "onset_time": 10.4,
+    "duration": 0.65,
+    "peak_target": 0.21,
+    "animation_event_id": "fold_settle",
+    "narrative_word_id": "phrase-estimate; not word-aligned",
+    "purpose": "Resolved explanatory hold",
+    "mix_bus": "physical/editorial",
+    "provenance": "Existing Curio designed cue, reused. Not an authentic body or field recording."
+  }
+]
