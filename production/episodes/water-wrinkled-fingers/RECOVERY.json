@@ -1,5 +1,5 @@
 {
-  "status": "NATIVE CAPTURE IN PROGRESS",
+  "status": "NATIVE CAPTURE COMPLETE / ENCODING AND QA PENDING",
   "width": 2160,
   "height": 3840,
   "fps": 30,
@@ -202,7 +202,37 @@
       "status": "durable",
       "library_file_id": "libfile_9c4b26d6d55c8191b224d5cfa5c7140a",
       "file_id": "file_00000000f7248230b0906ae5f8e715ce"
+    },
+    {
+      "path": "frames_0960.mkv",
+      "start_frame": 960,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "910f5e5fb2bd09e61665333f3f4e956031802f400341a27b997355ca94e235aa",
+      "studio_sha256": "7e378e9dbdb3aeed540f95d11bc87cd6ddc921c962084c4a8971512c00e545b1",
+      "status": "durable",
+      "library_file_id": "libfile_83feb0d552388191bdc5705049cc20e1",
+      "file_id": "file_00000000095481f5887b8670fbd22148"
+    },
+    {
+      "path": "frames_1040.mkv",
+      "start_frame": 1040,
+      "count": 49,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "3b10c19fa67bb48310deb47922c0bf698fb310f3d486d752c6a40c7ed78f4d6c",
+      "studio_sha256": "7e378e9dbdb3aeed540f95d11bc87cd6ddc921c962084c4a8971512c00e545b1",
+      "status": "durable",
+      "library_file_id": "libfile_993181700b948191bc6fa6f85f1f45ea",
+      "file_id": "file_00000000c4b081fd8f09595025521981"
     }
   ],
-  "durable_frames": 960
+  "durable_frames": 1089
 }

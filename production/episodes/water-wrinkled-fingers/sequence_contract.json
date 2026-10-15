@@ -103,15 +103,15 @@
   "rendered_review": {
     "initial": {
       "path": "checks/frame_1.5.png",
-      "sha256": "3f78448576ef103c187e8687a6f93c9d3adf7c7c4deeba412099588a5e1a9f65"
+      "sha256": "f65cb744e827530139f441d0aab880f79b32caa6d1c3183f70c730b4da6c6fe7"
     },
     "intermediate": {
       "path": "checks/frame_24.png",
-      "sha256": "12d830080d75f93e2daafcf706c2d6538ac82ede4570433a74cd75b766497641"
+      "sha256": "18de4e389e590ca5563f6a44160934f3a707edb9e696ac4f2dc852ec3c79cae5"
     },
     "resolved": {
       "path": "checks/frame_34.1.png",
-      "sha256": "f029feabab9f2aae2b87017c97fcb9ffe19011d8fe79d16a5e984896b7644c98"
+      "sha256": "c7f0e36f2df31a85f87c128b8be8c5968c581581f1cbd75da4cdc47e91bfe01d"
     },
     "heading_hidden_evidence": "Actual image/groove, mechanism and apparatus retain identity without the title; typography in evidence summaries is itself information.",
     "comparison": "Internally inspected 14 states and native encoded opening. Mechanism retains owner-approved layout.",
