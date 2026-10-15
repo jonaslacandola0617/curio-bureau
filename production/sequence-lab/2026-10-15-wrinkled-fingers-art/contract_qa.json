@@ -1,0 +1,7 @@
+{
+  "contract_fields": "PASS",
+  "stage": "artwork",
+  "shots": 1,
+  "artistic_quality": "not inferred from validation",
+  "moving_gate": "Owner art/sequence approval must be recorded before moving production"
+}

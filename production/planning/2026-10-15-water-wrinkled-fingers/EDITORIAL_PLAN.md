@@ -1,6 +1,6 @@
 # Why fingers wrinkle in water — next-film proposal
 
-Status: research and editorial plan drafted following owner’s request to move to the next science video. Topic and new artwork are not yet owner-reviewed. No assets, voice, SFX or full render generated. Target approximately 35–45 seconds; final length follows complete Bernard speech.
+Status: owner approved the topic and authorized the three-state study at 10:20 Asia/Manila on 15 October 2026. The new static artwork is now prepared for review; it is not yet owner-approved. See production/sequence-lab/2026-10-15-wrinkled-fingers-art. No voice, SFX, animation or full video generated. Target approximately 35–45 seconds; final length follows complete Bernard speech.
 
 ## Hook and central argument
 

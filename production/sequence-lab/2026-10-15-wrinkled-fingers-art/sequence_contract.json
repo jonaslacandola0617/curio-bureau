@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "shots": [
+    {
+      "viewer_before": "Water wrinkling may appear to be merely passive soaking.",
+      "factual_proposition": "Sympathetic neurovascular constriction contributes to immersion wrinkling; a qualitative volume-loss account connects it to surface folding.",
+      "visual_operation": "Compare observed surface states, then inspect a separate causal schematic.",
+      "subject_action": "The photo wipe selects actual A/B states; independent printed vessel caliber and tissue/surface profiles change.",
+      "viewer_after": "The surface observation and the proposed-underlying mechanism are distinguishable; this is an active response rather than only absorption.",
+      "invariant": "Same supplied research figure, same image crop box, stable category identity and printed mechanism coordinate frame.",
+      "initial_state": "Large control crop A, small observed B counter-reference, wider vessel and nearly smooth printed surface.",
+      "difficult_intermediate": "Shared A/B crop box divided by comparison boundary; narrower vessel and developing surface folds; independent source/photo and mechanism roles.",
+      "resolved_state": "Observed B dominates with selected creases; narrow vessel and folded printed surface remain visible.",
+      "next_inheritance": "Observed wet fingertip passes into the separate, qualified wet-grip evidence beat.",
+      "representation_reason": "Actual matched source photographs show observations; a distinct labeled printed construction explains an invisible relation without fabricating anatomy.",
+      "source_truth_boundary": "Original photograph colors are converted to grayscale; no invented photo morph; schematic is qualitative, not anatomy/scan/measurement or a map beneath this finger.",
+      "caption_clearance": "Screen-fixed example phrases at y954 and y1012 remain in 42\u201358%; critical photo features end above the lane and mechanism begins below it.",
+      "reading_hold": "Static review only; later voice drives a recognition hold, comparison hold and resolved-mechanism hold without clipping speech.",
+      "visual_translation": {
+        "reference_observation": "Owner-approved capture passage transferred a source-identical selected component while retaining source identity and the excluded category.",
+        "transferable_principle": "Make independent source components perform the explanation rather than adding decorative camera drift.",
+        "original_execution": "Align actual fingertip A/B crops, expose the surface change and inspect a separate evolving printed vascular mechanism.",
+        "asset_operation": "Source photo comparison clip, source-local crease annotations, independent vessel caliber, tissue-field extent and surface-profile states."
+      }
+    }
+  ],
+  "owner_sequence_review": {
+    "status": "pending",
+    "date": "2026-10-15",
+    "evidence": "New rendered art passage has not been reviewed by owner."
+  },
+  "owner_motion_review": {
+    "status": "not reviewed",
+    "evidence": "No moving result produced."
+  },
+  "rendered_review": {
+    "initial": {
+      "path": "Wrinkles_State_01.png",
+      "sha256": "2e686c9b60ee23313f6b05e7900f03f1a7b08aee3d399cec48dc5cd0a9240b2c"
+    },
+    "intermediate": {
+      "path": "Wrinkles_State_02.png",
+      "sha256": "7901441489097797ca4a884a282633c448a2c99c416d6d388d234e513e66f7a8"
+    },
+    "resolved": {
+      "path": "Wrinkles_State_03.png",
+      "sha256": "00ee60135d9b3cd5d481ed2735fd874e75cda8d9166b7973b2dfd523b8e998c6"
+    },
+    "heading_hidden_evidence": "checks/heading-hidden_1.png through 3; visual-only versions inspected",
+    "comparison": "Wrinkles_Art_Review_Notes.md",
+    "remaining_weaknesses": "Source resolution limits, print-edge refinement, schematic simplification; motion and audio untested.",
+    "unresolved_fallbacks": []
+  }
+}

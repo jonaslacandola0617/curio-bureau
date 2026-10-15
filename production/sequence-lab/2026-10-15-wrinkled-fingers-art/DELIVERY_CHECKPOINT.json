@@ -1,0 +1,52 @@
+{
+  "status": "STATIC ART REVIEW READY / owner approval pending",
+  "width": 1080,
+  "height": 1920,
+  "states": 3,
+  "animationProduced": false,
+  "source_macro_4k": "not approved; source size or footprint must be resolved",
+  "files": [
+    {
+      "name": "Wrinkles_Three_State_Review.html",
+      "library_file_id": "libfile_204efdc0c7d081918fa16ead7937281d",
+      "file_id": "file_00000000f52c8246be7e4107d5440b56",
+      "sha256": "7de712938e055902e83455cef79a206c48c037b490f092d57fabae3f1fae0488"
+    },
+    {
+      "name": "Wrinkles_Three_States.jpg",
+      "library_file_id": "libfile_13ea7e2b7d248191b9b534e2759d9c73",
+      "file_id": "file_00000000dc0c820ba2fd2ed2bb924257",
+      "sha256": "e704f03ed33b1e98f43f268d6c1565d7726d3706018b17224d1a86a8375ec52e"
+    },
+    {
+      "name": "Wrinkles_State_01.png",
+      "library_file_id": "libfile_a6e8b576f7988191ad7b5c55e9bf64dc",
+      "file_id": "file_00000000151c820e9e2cce39c8221bcc",
+      "sha256": "2e686c9b60ee23313f6b05e7900f03f1a7b08aee3d399cec48dc5cd0a9240b2c"
+    },
+    {
+      "name": "Wrinkles_State_02.png",
+      "library_file_id": "libfile_c60c036141c4819196e164ef4d393927",
+      "file_id": "file_00000000b3a0824685be0a259f23a5d4",
+      "sha256": "7901441489097797ca4a884a282633c448a2c99c416d6d388d234e513e66f7a8"
+    },
+    {
+      "name": "Wrinkles_State_03.png",
+      "library_file_id": "libfile_df4a77b037f88191869268f4e52102f7",
+      "file_id": "file_0000000047d481f4add769a1294c260d",
+      "sha256": "00ee60135d9b3cd5d481ed2735fd874e75cda8d9166b7973b2dfd523b8e998c6"
+    },
+    {
+      "name": "Wrinkles_Art_Source.zip",
+      "library_file_id": "libfile_0cef6dbf145c8191b9982e53f5f5aa49",
+      "file_id": "file_000000003b8081f584771855b0d89a62",
+      "sha256": "5898f02c4882d7238e8e7601cd862561f9c6b1111f1ef16909e65a7425753d46"
+    },
+    {
+      "name": "Wrinkles_Art_Review_Notes.md",
+      "library_file_id": "libfile_da3c1e40060881918a5020f5835ce80a",
+      "file_id": "file_0000000074f081f5beaeb38858282da6",
+      "sha256": "d0f6dfaa5214c406b71f3c749a606f5d7b8087ccba0c1908211065d1d0a8ec2e"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "selected_asset": "study_pair.jpg",
+  "creator": "Guy German",
+  "supplying_institution": "Binghamton University",
+  "source_page": "https://www.eurekalert.org/multimedia/1072667",
+  "download_url": "https://mediasvc.eurekalert.org/Api/v1/Multimedia/57bde54c-737f-4cc1-bf81-344254726b1f/Rendition/low-res/Content/Public",
+  "usage_statement": "Can share with credit to Guy German",
+  "license_label": "Original content; supplier statement, not a blanket Creative Commons license",
+  "context": "A: control before exposure. B: after 30 min water exposure on Day 0. C: repeat immersion at least 24h later; not used.",
+  "modifications": "Source-preserving crop/mask, grayscale/contrast, same-size display, before/after wipe and selected crease annotations; no photographic deformation or invented observations.",
+  "image_dimensions": [
+    700,
+    282
+  ],
+  "crop_dimensions": [
+    203,
+    282
+  ],
+  "max_review_crop_width": 380,
+  "review_source_magnification": 1.8719211822660098,
+  "native_4k_macro_coverage": "unapproved: reduce crop size or obtain a larger exact source before production",
+  "sha256": "d38c8c7fe05777a0fe80ef2e9acc9adf8fe49a45e85ba6eff4b4aa38008ff723",
+  "excluded_candidates": [
+    "study_original.jpg is a different figure with repeated wrinkled states, not the control/water comparison; never label it as before/after.",
+    "wrinkled_photo.jpg is an unrelated licensed illustrative photograph; not used as paired evidence."
+  ],
+  "fact_sources": [
+    {
+      "id": "W03",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12635117/",
+      "supports": "Vasoconstriction associated with immersion wrinkling"
+    },
+    {
+      "id": "W04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15095056/",
+      "supports": "Review describes volume loss, negative digit-pulp pressure and downward skin distortion"
+    },
+    {
+      "id": "H14",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3885627/",
+      "supports": "Sympathetic control and neurovascular account; mixed wet-grip evidence"
+    },
+    {
+      "id": "L25",
+      "url": "https://doi.org/10.1016/j.jmbbm.2025.106935",
+      "supports": "Published context of the supplied actual comparison photographs; not a claim of proven evolutionary purpose"
+    }
+  ]
+}
