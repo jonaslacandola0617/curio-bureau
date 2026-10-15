@@ -1,0 +1,20 @@
+{
+  "file": "Wrinkled_Fingers_R2_4K.mp4",
+  "bytes": 466636654,
+  "sha256": "08e8010c4ee0782c5b52934953499c15c683b5b13ce0f843ed1a3f4393a9aa54",
+  "width": 2160,
+  "height": 3840,
+  "fps": 30,
+  "frames": 1089,
+  "duration": 36.3,
+  "lufs": -13.8,
+  "true_peak_dbfs": -1.7,
+  "full_decode": "passed",
+  "provenance": "Native 4K recovery export: frames 0..159 encoded from saved lossless chunks; frames 160..1088 stream-copied from hash-verified native CRF15 recovery clips. Not an upscaled preview or bit-identical historical master.",
+  "audio": "Approved original full_mix.wav; AAC 320k; no new generation",
+  "github_video_uploaded": false,
+  "storage_destination": "GitHub repository / Releases only, per owner instruction",
+  "archive_status": "VIDEO NOT UPLOADED. Connected GitHub tools cannot upload Release assets; browser observed signed out. QA record and posts in Git are not a saved video.",
+  "local_copy": "/workspace/scratch/292e697b57ab/r2_restore/Wrinkled_Fingers_R2_4K.mp4",
+  "posts": "production/episodes/water-wrinkled-fingers/r2/POSTS.txt"
+}
