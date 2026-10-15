@@ -25,9 +25,9 @@
     }
   ],
   "owner_sequence_review": {
-    "status": "pending",
-    "date": "2026-10-15",
-    "evidence": "New rendered passage awaits owner review"
+    "status": "approved",
+    "date": "2026-10-15T08:28:08+08:00",
+    "evidence": "Owner: Thats perfect, yep thats more like it. Follow-up Proceed at 08:30:43 Asia/Manila authorizes moving test of this composition."
   },
   "rendered_review": {
     "initial": {
@@ -46,5 +46,9 @@
     "comparison": "Rendered_Comparison.md",
     "remaining_weaknesses": "Metaphor depends on labels; motion/captions untested",
     "unresolved_fallbacks": []
+  },
+  "owner_motion_review": {
+    "status": "pending",
+    "evidence": "New moving passage awaiting review"
   }
 }

@@ -58,3 +58,8 @@ Read production/art-direction/VISUAL_SEQUENCE_DIRECTION.md before all new creati
 ## Rendered visual translation safeguard
 
 Apply `production/art-direction/VISUAL_TRANSLATION_REVIEW.md` in full. The rejected Recorded Voice beatboard is not an approved benchmark. One demanding rendered passage and its comparison precede owner art approval and animation.
+
+
+## Approved capture-passage composition — 15 October 2026
+
+Read production/sequence-lab/2026-10-15-capture-proof/OWNER_ART_APPROVAL.md. The three-state construction is owner-approved for visual storytelling and authorized for a moving test. It is a benchmark for image-owned operations, not a universal layout. Motion approval remains separate; the old five-state beatboard remains rejected.

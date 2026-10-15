@@ -1,0 +1,56 @@
+{
+  "errors": [],
+  "externalRequests": [],
+  "fonts": [
+    true,
+    true
+  ],
+  "duration": 13.2,
+  "frames": 396,
+  "ownerArtApproved": true,
+  "ownerMotionApproved": false,
+  "captionTiming": "Source-phrase estimate; not word aligned",
+  "captionPosition": "Upper quiet area for lab only; full-film centered safe-zone pending",
+  "browserExport": "Default uses embedded verified fixed-frame WebM; repeated downloads checked byte-identical. Canvas MediaRecorder code retained as source fallback; live recording dropped frames on this runtime.",
+  "encoded": {
+    "mp4": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 396,
+      "fps": "30/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "audioRate": 48000,
+      "channels": 2,
+      "duration": "13.200000",
+      "sha256": "96051efd5a744c0afd8db9add365c0e7b5a5018c90c560145152010b742fad6b",
+      "fullDecode": "passed",
+      "LUFS": -14.1,
+      "truePeakDBTP": -1.5
+    },
+    "webm": {
+      "width": 1080,
+      "height": 1920,
+      "frames": 396,
+      "fps": "30/1",
+      "videoCodec": "vp9",
+      "audioCodec": "opus",
+      "audioRate": 48000,
+      "channels": 2,
+      "duration": "13.208000",
+      "sha256": "02463a0694700d881d714d8ab1c0fe7dccc1e13932e59bc2e6c41a8b0a26463d",
+      "fullDecode": "passed",
+      "LUFS": -14.0,
+      "truePeakDBTP": -1.3
+    }
+  },
+  "repeatedBrowserDownloads": "2/2 byte-identical to verified 396-frame WebM",
+  "listeningApproval": "pending owner review; not inferred from loudness",
+  "sourceFiles": {
+    "scene.js": "f4a27e577e90ae9676639aa75caf9724c034123595bcd4497f42a67d9d92da76",
+    "motion.js": "964c158161175829fb5ea35d4b261df4970d56a779ad3da8e1eedb883f8fb6a5",
+    "envelope.json": "d9a6cfa615fc839c07f95214044879a82b6d365a18e83077a537f0ffc0f2a746",
+    "mix.wav": "aebc6b424e885b6fd5f93c31abbdb9f18cfcbe84d3100d188bde36d39bb5516e",
+    "voice_source.wav": "77cf463337d0d02b66091d374c95b94d79327814f1287de3b074ca547fd64fcc"
+  }
+}

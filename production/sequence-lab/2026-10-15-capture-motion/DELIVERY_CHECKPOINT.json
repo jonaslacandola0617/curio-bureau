@@ -1,0 +1,53 @@
+{
+  "status": "REVIEW READY; owner motion approval pending",
+  "artOwnerApproval": "2026-10-15T08:28:08+08:00",
+  "duration": 13.2,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 396,
+  "files": [
+    {
+      "name": "Capture_Motion_Review.mp4",
+      "library_file_id": "libfile_39f6258954608191b6b000479bafafa8",
+      "file_id": "file_00000000b7a081fd90b3e8339a9bfdc4",
+      "sha256": "96051efd5a744c0afd8db9add365c0e7b5a5018c90c560145152010b742fad6b"
+    },
+    {
+      "name": "Capture_Motion_Review.webm",
+      "library_file_id": "libfile_829438900f4c8191906415df8761ceb9",
+      "file_id": "file_000000009f6c8230a57f86aa60c70f20",
+      "sha256": "02463a0694700d881d714d8ab1c0fe7dccc1e13932e59bc2e6c41a8b0a26463d"
+    },
+    {
+      "name": "Capture_Motion_Review.html",
+      "library_file_id": "libfile_288f54a1a2fc8191bc7fcd31fa93e41b",
+      "file_id": "file_00000000c05c8230831b99021ace16a4",
+      "sha256": "b8cc714ef87aab95785ebd388cbb0df968fe5fa86bd4c61885b6142c849b17b9"
+    },
+    {
+      "name": "Capture_Motion_Source.zip",
+      "library_file_id": "libfile_d0155e420b6081918ea78ae6eba46d90",
+      "file_id": "file_00000000eec081fd9fba75ef9d23b576",
+      "sha256": "41b2e935a75bbf506db16bcbf5e67274cbde2964894fd55fbc791c12c1788b39"
+    },
+    {
+      "name": "Motion_Review_Notes.md",
+      "library_file_id": "libfile_642d8d0ade2c8191a181d5c7fe9f61e9",
+      "file_id": "file_0000000012088230a83c65101c7b9310",
+      "sha256": "0349030964b43b6788cec6eaf617c18684e0149a0ff09beea2443f5accd18db8"
+    },
+    {
+      "name": "Motion_QA.json",
+      "library_file_id": "libfile_a74d56cbf69c8191b0f91c1db521341c",
+      "file_id": "file_00000000f14081fd8a9ed548f0f9bd63",
+      "sha256": "2f7894c4b7868fd0aee9b1e1b171d7349f6fde46c783d34fc9d67433eefd400c"
+    },
+    {
+      "name": "Motion_Contact_Sheet.jpg",
+      "library_file_id": "libfile_dd723dd4c82c8191b747bf71254833c9",
+      "file_id": "file_00000000321c81fdab54d48b6a1e5de3",
+      "sha256": "7e81e5b8350f8d73554d2a1a7e29f6816efd4cbb5808895a7ab82b2dc7e14e3f"
+    }
+  ]
+}
