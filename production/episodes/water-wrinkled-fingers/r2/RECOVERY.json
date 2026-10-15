@@ -186,9 +186,129 @@
           "sha256": "c04eb0e983cbc512d3d91aa779bbd7299d9e6aac3653b0808fdd3e06583b1155"
         }
       ]
+    },
+    {
+      "path": "frames_0480.mkv",
+      "start_frame": 480,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "37886154f839e42e8b0e1d5f1ace55d5edeae1d930a2c79deaeacca64377ed1a",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "locally_verified_only_storage_quota",
+      "parts": [
+        {
+          "name": "frames_0480.mkv",
+          "bytes": 754272430,
+          "sha256": "37886154f839e42e8b0e1d5f1ace55d5edeae1d930a2c79deaeacca64377ed1a"
+        }
+      ]
+    },
+    {
+      "path": "frames_0560.mkv",
+      "start_frame": 560,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "bcdc540455614310d6794e9035fcc0ed33c7ff38b0696ef0d9aab4860bc36b5e",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "locally_verified_only_storage_quota",
+      "parts": [
+        {
+          "name": "frames_0560.mkv",
+          "bytes": 668790994,
+          "sha256": "bcdc540455614310d6794e9035fcc0ed33c7ff38b0696ef0d9aab4860bc36b5e"
+        }
+      ]
+    },
+    {
+      "path": "frames_0640.mkv",
+      "start_frame": 640,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "5b4ad66cd65c40d88dfab7182387cf2b36cd73e576138d49eb96fd5cf6da3d61",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "locally_verified_only_storage_quota",
+      "parts": [
+        {
+          "name": "frames_0640.mkv",
+          "bytes": 762177877,
+          "sha256": "5b4ad66cd65c40d88dfab7182387cf2b36cd73e576138d49eb96fd5cf6da3d61"
+        }
+      ]
+    },
+    {
+      "path": "frames_0720.mkv",
+      "start_frame": 720,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "cccddf803fb48749aee59a2c91032c6bf32ca4f7e985b7aa0a49541ce3e3ca27",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "locally_verified_only_storage_quota",
+      "parts": [
+        {
+          "name": "frames_0720.mkv",
+          "bytes": 759131216,
+          "sha256": "cccddf803fb48749aee59a2c91032c6bf32ca4f7e985b7aa0a49541ce3e3ca27"
+        }
+      ]
+    },
+    {
+      "path": "frames_0800.mkv",
+      "start_frame": 800,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "defe3b984a4c3d785bbb0b115ce1f4946bb35343ba9d959199df75854d120fa0",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "locally_verified_only_storage_quota",
+      "parts": [
+        {
+          "name": "frames_0800.mkv",
+          "bytes": 859509605,
+          "sha256": "defe3b984a4c3d785bbb0b115ce1f4946bb35343ba9d959199df75854d120fa0"
+        }
+      ]
+    },
+    {
+      "path": "frames_0880.mkv",
+      "start_frame": 880,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "30e2ddcb7cbf45c1b04fc326ea710c72349ceca6eaa404479f5266ac7198166a",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "locally_verified_only_storage_quota",
+      "parts": [
+        {
+          "name": "frames_0880.mkv",
+          "bytes": 705451377,
+          "sha256": "30e2ddcb7cbf45c1b04fc326ea710c72349ceca6eaa404479f5266ac7198166a"
+        }
+      ]
     }
   ],
   "durable_frames": 160,
-  "locally_verified_frames": 480,
+  "locally_verified_frames": 960,
   "storage_block": "Library storage limit exceeded; no user files deleted. Unsaved native ranges explicitly marked."
 }

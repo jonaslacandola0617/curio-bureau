@@ -22,4 +22,13 @@ d={'revision':'R2','status':'NATIVE CAPTURE / FINISHING CORRECTION','width':2160
 if d['durable_frames']==1089:d['status']='NATIVE CAPTURE COMPLETE / FINAL ENCODE PENDING'
 d['storage_block']='Library storage limit exceeded; no user files deleted. Unsaved native ranges explicitly marked.'
 (r/'recovery.json').write_text(json.dumps(d,indent=2));(pub/'RECOVERY.json').write_text(json.dumps(d,indent=2));(pub/'STATUS.md').write_text('# Wrinkled Fingers R2 status\n\n'+str(d['locally_verified_frames'])+' frames locally verified; '+str(d['durable_frames'])+' durably saved out of1089. Library storage limit blocks further saves; no user files deleted. Native capture continues locally by explicit current render request, with source/private project already saved and code/recovery status in Git. Unsaved ranges are not claimed recoverable after workspace loss. R1 completed videos/source remain saved. Proposed cleanup of14 R1 lossless chunks(3.88GB) requires owner authorization.\n');print('DURABLE_FRAMES',d['durable_frames'],'LOCAL_FRAMES',d['locally_verified_frames'],flush=True)
+# Reclaim only redundant local copies after the canonical lossless file is verified.
+# Canonical intermediates and all persistent Library files remain untouched.
+for meta in (r/'chunks').glob('frames_*.mkv.json'):
+ item=json.loads(meta.read_text());canonical=Path(item['path'])
+ duplicates=list(canonical.parent.glob('.'+canonical.name+'.*'))
+ if not duplicates:continue
+ if hashlib.sha256(canonical.read_bytes()).hexdigest()!=item['sha256']:raise ValueError('Canonical native chunk changed')
+ for copy in duplicates:
+  if copy.is_file():copy.unlink()
 paths=subprocess.check_output(['git','-C',str(repo),'diff','--name-only'],text=True).splitlines()+subprocess.check_output(['git','-C',str(repo),'ls-files','--others','--exclude-standard'],text=True).splitlines();(r/'git_changes.json').write_text(json.dumps([{'path':p,'mode':'100644','type':'blob','content':(repo/p).read_text()}for p in paths if p.startswith(('production/episodes/water-wrinkled-fingers/r2/','production/engine/')) and Path(p).suffix in {'.py','.js','.cjs','.md','.json','.txt'}]))

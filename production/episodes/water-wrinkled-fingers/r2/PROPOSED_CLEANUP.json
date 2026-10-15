@@ -1,0 +1,91 @@
+{
+  "status": "PROPOSAL ONLY — NOT AUTHORIZED; no deletions performed",
+  "reason": "Library storage limit exceeded",
+  "files": [
+    {
+      "library_file_id": "libfile_83feb0d552388191bdc5705049cc20e1",
+      "file_id": "file_00000000095481f5887b8670fbd22148",
+      "name": "frames_0960.mkv",
+      "bytes": 429020938
+    },
+    {
+      "library_file_id": "libfile_993181700b948191bc6fa6f85f1f45ea",
+      "file_id": "file_00000000c4b081fd8f09595025521981",
+      "name": "frames_1040.mkv",
+      "bytes": 142594083
+    },
+    {
+      "library_file_id": "libfile_9ae3a1f3fbe88191b78cac4be82a7b56",
+      "file_id": "file_00000000a5188230bb5991520fa8b8a5",
+      "name": "frames_0800.mkv",
+      "bytes": 238367328
+    },
+    {
+      "library_file_id": "libfile_9c4b26d6d55c8191b224d5cfa5c7140a",
+      "file_id": "file_00000000f7248230b0906ae5f8e715ce",
+      "name": "frames_0880.mkv",
+      "bytes": 445931701
+    },
+    {
+      "library_file_id": "libfile_8bac644a5fc08191902d5885fb560310",
+      "file_id": "file_00000000ca1081fb97af4a06ee0973b0",
+      "name": "frames_0640.mkv",
+      "bytes": 245179518
+    },
+    {
+      "library_file_id": "libfile_4d16a26b66fc8191990a128d23ed2e4f",
+      "file_id": "file_00000000ef0881fdaf37b58253fce9fb",
+      "name": "frames_0720.mkv",
+      "bytes": 76223921
+    },
+    {
+      "library_file_id": "libfile_18366a087ad081918d3cf769bf868f37",
+      "file_id": "file_00000000b7f481f7976efea0c947f994",
+      "name": "frames_0480.mkv",
+      "bytes": 248267203
+    },
+    {
+      "library_file_id": "libfile_e52fb95b7c988191aec5c001cb2e8dd0",
+      "file_id": "file_0000000098708230a6cc02d1e7c56748",
+      "name": "frames_0560.mkv",
+      "bytes": 361183039
+    },
+    {
+      "library_file_id": "libfile_dc39aec3da4881919bbe26a52600a9e5",
+      "file_id": "file_00000000ac7481f5a15b80aa4367a734",
+      "name": "frames_0400.mkv",
+      "bytes": 284905169
+    },
+    {
+      "library_file_id": "libfile_172b743b50c48191a134e25c06178959",
+      "file_id": "file_00000000cc3c81f58432116a9b7fd87c",
+      "name": "frames_0320.mkv",
+      "bytes": 237770478
+    },
+    {
+      "library_file_id": "libfile_af7fffb561e0819194016cfcc2e81e81",
+      "file_id": "file_00000000ea24820c913c93de450a45b0",
+      "name": "frames_0160.mkv",
+      "bytes": 149820466
+    },
+    {
+      "library_file_id": "libfile_722cd380a584819191fbe71ecd6665b7",
+      "file_id": "file_00000000890c82308196f810cb16eb76",
+      "name": "frames_0240.mkv",
+      "bytes": 266187916
+    },
+    {
+      "library_file_id": "libfile_7669dcb0bde0819196656b196d3646a4",
+      "file_id": "file_000000003cc48210adeb0785f05cbfed",
+      "name": "frames_0080.mkv",
+      "bytes": 247904401
+    },
+    {
+      "library_file_id": "libfile_3ca63d43e44481919130d93d7e20188c",
+      "file_id": "file_00000000ffe081f6abe7471449807e61",
+      "name": "frames_0000.mkv",
+      "bytes": 501875295
+    }
+  ],
+  "total_bytes": 3875231456
+}
