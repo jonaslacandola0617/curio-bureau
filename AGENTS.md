@@ -63,3 +63,8 @@ Apply `production/art-direction/VISUAL_TRANSLATION_REVIEW.md` in full. The rejec
 ## Approved capture-passage composition — 15 October 2026
 
 Read production/sequence-lab/2026-10-15-capture-proof/OWNER_ART_APPROVAL.md. The three-state construction is owner-approved for visual storytelling and authorized for a moving test. It is a benchmark for image-owned operations, not a universal layout. Motion approval remains separate; the old five-state beatboard remains rejected.
+
+
+## Owner-approved moving capture passage — 15 October 2026
+
+The owner approved the delivered moving picture, animation and sound at 08:51 Asia/Manila. Read production/sequence-lab/2026-10-15-capture-motion/OWNER_MOTION_APPROVAL.md and preserve its exact delivery hashes. Apply its image-owned operations and integrated craft to subject-specific new compositions. Do not treat its upper lab caption placement as an adopted posting standard.

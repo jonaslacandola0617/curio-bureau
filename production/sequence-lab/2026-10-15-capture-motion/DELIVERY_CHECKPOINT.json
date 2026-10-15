@@ -1,5 +1,5 @@
 {
-  "status": "REVIEW READY; owner motion approval pending",
+  "status": "OWNER APPROVED moving passage",
   "artOwnerApproval": "2026-10-15T08:28:08+08:00",
   "duration": 13.2,
   "width": 1080,
@@ -49,5 +49,6 @@
       "file_id": "file_00000000321c81fdab54d48b6a1e5de3",
       "sha256": "7e81e5b8350f8d73554d2a1a7e29f6816efd4cbb5808895a7ab82b2dc7e14e3f"
     }
-  ]
+  ],
+  "ownerMotionApproval": "2026-10-15T08:51:56+08:00"
 }
