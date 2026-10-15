@@ -1,0 +1,15 @@
+# Curio Bureau — water-wrinkled fingers
+
+This private project contains the image-led full film, exact source photos, owner texture assets, fonts/notices, original narration clips, reused sound cues and locked mixed soundtrack. Public Git contains code, provenance and durable recovery identities; it intentionally omits private raw assets.
+
+Film: 1089 frames, 30 fps, 36.3 seconds, native2160×3840. Main source: film.js plus the unchanged approved mechanism construction in static_scene.js/animate.js. Fonts and imagery are embedded by build.py; browser code makes no external content requests. Reuse the final full_mix.wav when recovering this finished render rather than regenerating voice or sounds.
+
+Build: python3 build.py. Python dependencies: numpy and scipy for optional audio reconstruction. FFmpeg/FFprobe required for capture, encoding and QA. Set CODEX_PRIMARY_RUNTIME_NODE_MODULES to an installed Playwright package root and CURIO_CHROME to a compatible headless Chromium binary. The original run used Chromium headless-shell build1148. Use the runtime Node executable to run render_chunks.cjs with batch0–6. It captures two80-frame ranges per batch except the last shorter range. Each closed lossless chunk is checked for native dimensions, exact count and SHA256.
+
+Prefer recovering the already-saved lossless ranges in the current public RECOVERY.json rather than capturing them again. Restore their bytes, validate each SHA256 and contiguous frame coverage[0,1089). Resolve absolute paths in the local metadata for the new workspace before reuse. A chunk is durable only after its actual bytes have a successful private file receipt. The Library skill supplies current authenticated helpers; do not reuse stale downloaded helpers from this package. checkpoint.py/continue_render.py describe the original orchestration and may require workspace-path and current receipt metadata adaptation.
+
+encode.py assembles native lossless chunks, sets integer frame timestamps, and encodes master MP4, posting MP4 and WebM with the exact full_mix.wav. qa.py checks actual dimensions,30fps,1089 decoded frames,48k stereo, complete decode, integrated loudness and true peak. It does not certify artistic merit, word recognition or audience performance. package.py embeds the verified WebM in a browser player and packages source. test_player.cjs verifies metadata, seeking and byte-identical repeat downloads.
+
+Whole-film production was explicitly authorized after approval of the12-second mechanism passage. New surrounding shots were internally reviewed; do not invent a separate owner listening approval. The last narration source ends34.04; the locked ending begins35.2. No voice fade or shortening to fit a planned duration. Caption timing remains estimated phrases.
+
+Source limitations and rights are in ASSET_AND_FACT_LEDGER.json. Research photo prints are intentionally source-limited; no generated anatomy, photo morph or synthetic 4K detail is evidence. Keep attribution with posting. Font OFL notices remain in font_notices. Private source assets do not become public-domain assets by being included here.
