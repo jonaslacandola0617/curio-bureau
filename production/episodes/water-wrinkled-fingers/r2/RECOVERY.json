@@ -146,9 +146,49 @@
           "sha256": "2382a57971cdfe1b6232a69e41359a133a07de45049a882c0d91eb74e529f558"
         }
       ]
+    },
+    {
+      "path": "frames_0320.mkv",
+      "start_frame": 320,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "d4fb0c695283f25b7d19e5d10ac8fdb5a841954232b4e6a729a2cb0784412d03",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "locally_verified_only_storage_quota",
+      "parts": [
+        {
+          "name": "frames_0320.mkv",
+          "bytes": 834435812,
+          "sha256": "d4fb0c695283f25b7d19e5d10ac8fdb5a841954232b4e6a729a2cb0784412d03"
+        }
+      ]
+    },
+    {
+      "path": "frames_0400.mkv",
+      "start_frame": 400,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "c04eb0e983cbc512d3d91aa779bbd7299d9e6aac3653b0808fdd3e06583b1155",
+      "studio_sha256": "1285adadec9743d53a4bd36cf5ab2950aacb7556d9d65c2e1aa8551c2a3f74d8",
+      "status": "locally_verified_only_storage_quota",
+      "parts": [
+        {
+          "name": "frames_0400.mkv",
+          "bytes": 732810235,
+          "sha256": "c04eb0e983cbc512d3d91aa779bbd7299d9e6aac3653b0808fdd3e06583b1155"
+        }
+      ]
     }
   ],
   "durable_frames": 160,
-  "locally_verified_frames": 320,
+  "locally_verified_frames": 480,
   "storage_block": "Library storage limit exceeded; no user files deleted. Unsaved native ranges explicitly marked."
 }
