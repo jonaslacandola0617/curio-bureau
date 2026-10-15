@@ -112,7 +112,37 @@
       "status": "durable",
       "library_file_id": "libfile_dc39aec3da4881919bbe26a52600a9e5",
       "file_id": "file_00000000ac7481f5a15b80aa4367a734"
+    },
+    {
+      "path": "frames_0480.mkv",
+      "start_frame": 480,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "2273c343fbfe402a1ce690eb90cb09d5b35a935a0ace18b6f3d96d72cb4ed365",
+      "studio_sha256": "7e378e9dbdb3aeed540f95d11bc87cd6ddc921c962084c4a8971512c00e545b1",
+      "status": "durable",
+      "library_file_id": "libfile_18366a087ad081918d3cf769bf868f37",
+      "file_id": "file_00000000b7f481f7976efea0c947f994"
+    },
+    {
+      "path": "frames_0560.mkv",
+      "start_frame": 560,
+      "count": 80,
+      "width": 2160,
+      "height": 3840,
+      "fps": "30/1",
+      "codec": "h264",
+      "pix_fmt": "gbrp",
+      "sha256": "bf48be532e290b211b552656efd12d7d59a1c15f25365fd8d102b78ffc249393",
+      "studio_sha256": "7e378e9dbdb3aeed540f95d11bc87cd6ddc921c962084c4a8971512c00e545b1",
+      "status": "durable",
+      "library_file_id": "libfile_e52fb95b7c988191aec5c001cb2e8dd0",
+      "file_id": "file_0000000098708230a6cc02d1e7c56748"
     }
   ],
-  "durable_frames": 480
+  "durable_frames": 640
 }

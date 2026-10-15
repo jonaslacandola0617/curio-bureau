@@ -1,0 +1,23 @@
+{
+ "id":"water-wrinkled-fingers",
+ "title":"Your Nerves Help Make These Wrinkles",
+ "visual_style":"image-led",
+ "material_profile":"image-led-v1",
+ "brand_ending":"london-bridge-v1",
+ "sequence_contract_version":1,
+ "sequence_contract":"sequence_contract.json",
+ "renderer":"custom fixed-time Canvas; build.py + render_chunks.cjs",
+ "render":{"width":2160,"height":3840,"scale":2,"fps":30,"frames":1089,"duration":36.3,"native_capture":true,"intermediate":"lossless RGB H264; at most80 frames per browser and2 capture workers"},
+ "audio":{"mix":"audio/full_mix.wav","voice":"Bernard","source_ledger":"NARRATION_SOURCE.json","sfx":"SFX_CUE_SHEET.json","new_sfx_generated":false,"music":"original evolving harmonic construction","integrated_loudness_lufs":-13.8,"true_peak_dbfs":-1.7,"voice_fade":false},
+ "caption_profile":"Manrope800 /43 logical px /screen-fixed42–58% /estimated phrases",
+ "headline_profile":"Playfair900 /native scale",
+ "shots":[
+ {"id":"observe","start":0,"end":6.6,"operation":"photographic approach and source-local groove selection","inheritance":"cut to distinct matched research subject"},
+ {"id":"mechanism","start":6.6,"end":18.6,"operation":"approved A/B comparison and independently moving vascular/tissue/surface schematic","approved_source":"2026-10-15-wrinkled-fingers-motion","inheritance":"wet finger leads to grip-function question"},
+ {"id":"grip_evidence","start":18.6,"end":30.6,"operation":"actual apparatus inspection and task-specific evidence comparison","inheritance":"qualified purpose returns to active mechanism"},
+ {"id":"resolve","start":30.6,"end":36.3,"operation":"return to original contextual photo; complete final speech; exact locked ending","brand_fade_start":35.2}
+ ],
+ "owner_authorization":{"date":"2026-10-15T12:27:20+08:00","quote":"Good render rhe whole video and write post","scope":"Mechanism motion approved; whole-film completion/native4K/posts ordered. No separate owner listening approval of new surrounding narration claimed; no account posting authorized."},
+ "rights":"ASSET_AND_FACT_LEDGER.json",
+ "recovery":"RECOVERY.json"
+}
