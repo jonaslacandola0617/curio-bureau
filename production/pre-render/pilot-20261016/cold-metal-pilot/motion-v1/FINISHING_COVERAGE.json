@@ -8,7 +8,7 @@
     },
     {
       "path": "scene-core.cjs",
-      "sha256": "5da553e540bb19dbde72b8bb6287b8aa9f6c36d0403e5900a94c375de117d992"
+      "sha256": "e6e3764efd01bc40545de79de7ab78bad5166f2df598a8c301bda75e28fb9449"
     },
     {
       "path": "editorial-finish.cjs",
@@ -16,11 +16,11 @@
     },
     {
       "path": "proof.cjs",
-      "sha256": "50acfda55e3c3c7e7a91f5f61a202f4650e15fdbc2cbf9416c9ab9eb0eb0b776"
+      "sha256": "7fe944743e45384c02efe28a871a77126603841f8863ebb1895d3cba4e9ccfe8"
     },
     {
       "path": "mix.py",
-      "sha256": "524d3d076ce6dc97849a38b9ce97b6cc3669646a35d4c36edf0941473954200b"
+      "sha256": "a6575b85afa4fc42ec15cb00d694da5500db587fbbe5a3532a2ed2bdd41753c3"
     },
     {
       "path": "timeline.json",
@@ -32,7 +32,7 @@
     },
     {
       "path": "audio/mix.wav",
-      "sha256": "1a7584350852551fc1ca12bf2272bf9b6cf44c4c3d518007ff87e3b1c3a9f3bf"
+      "sha256": "1b211fd07441b111ecb38e7e9ab7dcc1db03f75529a8e6277e7d91d57edeb423"
     },
     {
       "path": "../art-v1/assets/steel-spoon.png",
@@ -60,7 +60,19 @@
     },
     {
       "path": "preflight.py",
-      "sha256": "1b135958c99eca69d95a63f70bc51810b38a902b00f06b0bfe3c3093bf462982"
+      "sha256": "ee87cb3ebcdc345c468725164938b400c21b00d45a1848851bcaa9139b25b110"
+    },
+    {
+      "path": "../../../../engine/finishing_audit.py",
+      "sha256": "969e420f08f683200ec119c223e97804161addb57ef4a79a1062e437af305915"
+    },
+    {
+      "path": "../../../../engine/sequence.py",
+      "sha256": "a58b8ab578ac31e2ec2816d005cc359d30ec8dd3e386794570e8510962a8c155"
+    },
+    {
+      "path": "../../../../engine/finishing_contract.py",
+      "sha256": "391a75597e26a5d657efd0a29e4f8b69d79dff45842738c243fefa09bfb26b25"
     }
   ],
   "coverage": {
@@ -72,15 +84,15 @@
       "evidence": [
         {
           "path": "proof/material_texture_on.jpg",
-          "sha256": "841d51809f77d4b7a4ddb138b9e2dab6398666c877ec0eada63a4a793839dc56"
+          "sha256": "b10022c3514dfbe592ed603769f81c01da9df9f5c9c5b4cfccb0e6e433488f3f"
         },
         {
           "path": "proof/material_texture_off.jpg",
-          "sha256": "647168c35d7d84e786715aebee1bd0b4fe9a6a39f4b5322dcfd187a817b10e11"
+          "sha256": "31be7adad9ac995440cf86aa032406c63bd81388f105fd51e58d3d7f5516811a"
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -100,7 +112,7 @@
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -120,7 +132,7 @@
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -140,7 +152,7 @@
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -160,7 +172,7 @@
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -172,15 +184,15 @@
       "evidence": [
         {
           "path": "proof/focus_hunt_on.jpg",
-          "sha256": "2c39c5b603411e3bf008aa651e0f08921646ae7252ee0ce8ec23507710704027"
+          "sha256": "34516ff3577f9675dd2924ba42e6ff7a0cefef1226e6a9de47fc66cb5a71e0d5"
         },
         {
           "path": "proof/focus_hunt_off.jpg",
-          "sha256": "f75b021aa954a3bbd6d84f9c7ee5bf8df655764c439cf7923a6ee02f4b3726c6"
+          "sha256": "a51bf8154932bd5c57c97fbaece973e8abf0ae3cc38c96f2583bfafdd8a8523e"
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -200,7 +212,7 @@
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -220,7 +232,7 @@
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -240,7 +252,7 @@
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -260,7 +272,7 @@
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -280,7 +292,7 @@
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -292,7 +304,7 @@
       "evidence": [
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },
@@ -304,11 +316,11 @@
       "evidence": [
         {
           "path": "scene-core.cjs",
-          "sha256": "5da553e540bb19dbde72b8bb6287b8aa9f6c36d0403e5900a94c375de117d992"
+          "sha256": "e6e3764efd01bc40545de79de7ab78bad5166f2df598a8c301bda75e28fb9449"
         },
         {
           "path": "RUNTIME_PROOF.json",
-          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+          "sha256": "8490f2bcdaa8c1474611d3fd10d5becd9de1a01e467f385842171f26131d4720"
         }
       ]
     },

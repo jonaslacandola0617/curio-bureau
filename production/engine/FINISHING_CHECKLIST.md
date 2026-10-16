@@ -17,3 +17,5 @@ Before delivery:
 5. Save coverage, proof files, source and actual exports in GitHub with byte receipts. A warning or REVISE finding blocks FINAL; previews can be delivered explicitly for review with findings visible.
 
 The cold-metal motion-v1 passage is the first execution example. This adds a reusable audit and evidence path; it does not silently replace existing native release validation or authorize bypassing the pre-render freeze gate. Both the existing native contract and this coverage audit apply where declared. User-facing videos contain the story, not debug checklists or internal workflow labels.
+
+Proof freshness safeguard: starting a new cold-metal proof run removes the previous runtime report. A successful report binds the exact picture renderer, source scene, finishing adapter and proof script hashes. Preflight checks those bindings independently of the coverage manifest. A failed proof run or source drift cannot inherit an older green result. The hidden-panel pixel test also verifies that an unrevealed source plane draws nothing.

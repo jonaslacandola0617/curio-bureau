@@ -14,6 +14,7 @@ def check(path):
  for name in sorted(REQUIRED):
   item=effects.get(name,{})
   if item.get('applicable') is False:
+   if name in {'material_texture','moving_grain','caption_protection','sequence_continuity','audio_tail','sound_music'}:errors.append('Required treatment cannot be excluded: '+name)
    if not item.get('reason'):errors.append('Unexplained exclusion: '+name)
    continue
   if item.get('applicable') is not True:errors.append('Missing coverage: '+name);continue

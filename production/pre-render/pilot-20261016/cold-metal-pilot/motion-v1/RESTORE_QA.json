@@ -1,0 +1,10 @@
+{
+  "zip_integrity": "PASS",
+  "files_verified": 101,
+  "all_file_hashes_match": true,
+  "clean_extracted_preflight": "PASS",
+  "new_voice_or_sfx_generation": false,
+  "path_layout": "repo-relative, preserving source references",
+  "zip_sha256": "279b4651def462d6cfa650c2d266ff613213966304780579f0a066f5f2f8a91e",
+  "zip_bytes": 66368084
+}

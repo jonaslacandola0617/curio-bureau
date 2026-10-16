@@ -1,0 +1,43 @@
+{
+  "scope": "13.9s 1080p review passage; not a native 4K release",
+  "files": {
+    "Cold_Metal_Sequence.mp4": {
+      "sha256": "a2d66d21424a15039eb61ce2c4864c97519cfa004ff942d889e0efd4fc28adb7",
+      "bytes": 29504643,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "frames": 417,
+      "duration": 13.9,
+      "decoded_audio_duration": 13.909333333333333,
+      "full_decode": "PASS",
+      "loudness_lufs": -13.83,
+      "true_peak_dbtp": -1.37
+    },
+    "Cold_Metal_Sequence.webm": {
+      "sha256": "962a51a1787df80c39b62256a691df3dacc52814953e82d10fa23506e37a25a1",
+      "bytes": 13983558,
+      "video_codec": "vp9",
+      "audio_codec": "opus",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "frames": 417,
+      "duration": 13.917,
+      "decoded_audio_duration": 13.909333333333333,
+      "full_decode": "PASS",
+      "loudness_lufs": -13.83,
+      "true_peak_dbtp": -1.13
+    }
+  },
+  "subjective_listening": "OWNER REVIEW PENDING",
+  "owner_motion_review": "NOT REVIEWED",
+  "encoded_phone_texture_mean_abs_highpass": 0.7549194991055456,
+  "encoded_phone_texture_scope": "Visible high-frequency texture survives MP4 phone downsample; not an isolated proof of artistic quality or grain alone."
+}

@@ -7,3 +7,5 @@ At 3.0–6.35 seconds the selected contact detail remains sharp while the same f
 Subpixel RGB separation and coherent 18fps mechanical jitter/5fps exposure are picture-only. Printed heat-flow strokes use anchored 12fps boil and local bleed; physical subject identity and arrow endpoints remain fixed. Captions composite after all picture finishing. The full-film endcard is not included in this isolated passage and is not certified here.
 
 The local editorial-finish.cjs preserves the shared EditorialFinish implementation with one parameterization: focus.shadeStrength can be independently disabled for evidence comparisons. This does not change legacy film code or claim exact After Effects plugin equivalence.
+
+Native adapter: explicit pixel snapshots prevent deferred-buffer aliasing; the shared explicit FocusPass implements the same feathered selection in native Skia. Blur-edge matte preserves opacity. Source image alpha inherits the parent paper-plane reveal, verified by the hidden-panel regression proof.

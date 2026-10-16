@@ -9,7 +9,7 @@ function lines(ss,x,y,size,color=C.cream){if(!heading)return;ss.forEach((s,i)=>t
 function line(x1,y1,x2,y2,color=C.ink,width=3){ctx.beginPath();ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.strokeStyle=color;ctx.lineWidth=width;ctx.stroke()}
 function arrow(x1,y1,x2,y2,color,width=7){line(x1,y1,x2,y2,color,width);let a=Math.atan2(y2-y1,x2-x1);ctx.beginPath();ctx.moveTo(x2-19*Math.cos(a-.6),y2-19*Math.sin(a-.6));ctx.lineTo(x2,y2);ctx.lineTo(x2-19*Math.cos(a+.6),y2-19*Math.sin(a+.6));ctx.stroke()}
 function image(name,x,y,w,rotation=0,alpha=1){const im=images[name],h=w*im.height/im.width;ctx.save();ctx.globalAlpha=alpha;ctx.translate(x+w/2,y+h/2);ctx.rotate(rotation);ctx.shadowColor='rgba(0,0,0,.35)';ctx.shadowBlur=18;ctx.shadowOffsetY=12;ctx.drawImage(im,-w/2,-h/2,w,h);ctx.shadowColor='rgba(246,105,76,.35)';ctx.shadowBlur=0;ctx.shadowOffsetY=0;ctx.shadowOffsetX=1.2;ctx.globalAlpha=alpha*.16;ctx.drawImage(im,-w/2,-h/2,w,h);ctx.restore()}
-function grain(x,y,w,h,light=false,strength=.07){ctx.save();ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();let r=seed(36415),tile=createCanvas(180,180),q=tile.getContext('2d'),d=q.createImageData(180,180);for(let i=0;i<d.data.length;i+=4){let v=r()>.5?255:0;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=Math.floor(r()*255*strength)}q.putImageData(d,0,0);ctx.fillStyle=ctx.createPattern(tile,'repeat');ctx.fillRect(x,y,w,h);ctx.globalAlpha=.12;ctx.strokeStyle=light?'#fff':'#05131f';ctx.lineWidth=.7;for(let i=0;i<150;i++){let a=x+r()*w,b=y+r()*h;ctx.beginPath();ctx.moveTo(a,b);ctx.lineTo(a+r()*65,b+(r()-.5)*5);ctx.stroke()}ctx.restore()}
+function grain(x,y,w,h,light=false,strength=.07){ctx.save();ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();let r=seed(36415),tile=createCanvas(180,180),q=tile.getContext('2d'),d=q.createImageData(180,180);for(let i=0;i<d.data.length;i+=4){let v=r()>.5?255:0;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=Math.floor(r()*255*strength)}q.putImageData(d,0,0);ctx.fillStyle=ctx.createPattern(tile,'repeat');ctx.fillRect(x,y,w,h);ctx.globalAlpha*=.12;ctx.strokeStyle=light?'#fff':'#05131f';ctx.lineWidth=.7;for(let i=0;i<150;i++){let a=x+r()*w,b=y+r()*h;ctx.beginPath();ctx.moveTo(a,b);ctx.lineTo(a+r()*65,b+(r()-.5)*5);ctx.stroke()}ctx.restore()}
 function bg(light=false){ctx.fillStyle=light?C.cream:C.navy;ctx.fillRect(0,0,W,H);let g=ctx.createRadialGradient(520,700,0,520,850,1100);g.addColorStop(0,light?'rgba(255,255,255,.28)':'rgba(73,116,137,.32)');g.addColorStop(1,'rgba(0,0,0,.10)');ctx.fillStyle=g;ctx.fillRect(0,0,W,H);grain(0,0,W,H,light,.10);text('CURIO BUREAU',72,80,24,light?C.ink:C.cream);line(72,108,1008,108,light?'#bdb9ac':'#67808c',1.5);text('SCIENCE / EVERYDAY SYSTEMS',1008,80,19,light?C.ink:C.blue,'Manrope',700,'right')}
 function foot(light=false){text('PHOTOGRAPHIC ILLUSTRATION · NOT A MEASURED EXPERIMENT',72,1810,17,light?'#4e5a5d':'#a7b5ba');text('Evidence: OpenStax · Temperature / Conduction',72,1845,17,light?'#4e5a5d':'#a7b5ba');void 0}
 function tag(s,x,y,w=285,color=C.yellow){ctx.save();ctx.translate(x,y);ctx.rotate(-.025);ctx.fillStyle=color;ctx.fillRect(0,0,w,55);grain(0,0,w,55,true,.045);text(s,w/2,37,24,C.ink,'Manrope',800,'center');ctx.restore()}
@@ -36,6 +36,7 @@ const E=v=>{v=Math.max(0,Math.min(1,v));return v*v*(3-2*v)};
 const oldImage=image,oldGrain=grain,oldLines=lines,oldTag=tag,oldHeat=heatPrint;
 grain=function(...args){if(flags.material_texture!==false)oldGrain(...args)};
 image=function(name,x,y,w,rotation=0,alpha=1){
+ alpha*=ctx.globalAlpha;
  let isFigure=(name==='hand'&&w===920)||(name==='steel'&&w===1050);
  ctx.save();
  if(!isFigure&&time<6.8){const z=1+.12*E(time/3.3);ctx.translate(368,650);ctx.scale(z,z);ctx.translate(-368,-650);
@@ -46,7 +47,7 @@ image=function(name,x,y,w,rotation=0,alpha=1){
  ctx.restore();
 };
 lines=function(ss,x,y,size,color){ctx.save();ctx.translate(0,-65*(1-E((time-.1)/.85)));oldLines(ss,x,y,size,color);ctx.restore()};
-heatPrint=function(level){ctx.save();ctx.translate(0,460*(1-E((time-3.3)/.9)));ctx.globalAlpha=E((time-3.3)/.5);oldHeat(level);ctx.restore()};
+heatPrint=function(level){if(flags.inspection_panel===false||time<=3.3)return;ctx.save();ctx.translate(0,460*(1-E((time-3.3)/.9)));ctx.globalAlpha=E((time-3.3)/.5);oldHeat(level);ctx.restore()};
 arrow=function(x1,y1,x2,y2,color,width=7){let index=arrowIndex++,amount=E((time-(4.15+index*.36))/.55);if(time>=6.8)amount=E((time-7.0)/.6);if(amount<=0)return;
  x2=x1+(x2-x1)*amount;y2=y1+(y2-y1)*amount;
  let pts=Array.from({length:18},(_,i)=>[x1+(x2-x1)*i/17,y1+(y2-y1)*i/17]);

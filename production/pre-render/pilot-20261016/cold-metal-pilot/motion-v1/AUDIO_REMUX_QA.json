@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "mp4": {
+      "before": "SHA256=3aa65564372de05c7fd0d96f6cdf62c76a44c28bfcc4a1ea495da48ea7ebd31e",
+      "after": "SHA256=3aa65564372de05c7fd0d96f6cdf62c76a44c28bfcc4a1ea495da48ea7ebd31e",
+      "video_packets_unchanged": true
+    },
+    "webm": {
+      "before": "SHA256=49d07181556eec51739ef0660dfaf9064dd1d2169a91074185a4844f962b6e7e",
+      "after": "SHA256=49d07181556eec51739ef0660dfaf9064dd1d2169a91074185a4844f962b6e7e",
+      "video_packets_unchanged": true
+    }
+  },
+  "reason": "Complete canonical mix restored and final mix gain/peak corrected; no picture frames recaptured.",
+  "new_mix_duration": 13.9,
+  "scope": "Earlier draft audio repair; historical proof of picture reuse during audio correction, not the final picture revision fingerprint."
+}

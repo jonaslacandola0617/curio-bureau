@@ -1,8 +1,15 @@
 {
+  "execution_complete": true,
+  "source_fingerprints": {
+    "render.cjs": "3bb42bcc0c26149b73d8d9c9dff8b07c2c380e8dd13b53a15b0f07065d25f6ba",
+    "scene-core.cjs": "e6e3764efd01bc40545de79de7ab78bad5166f2df598a8c301bda75e28fb9449",
+    "editorial-finish.cjs": "4c783ed158f4bb52fc9db05e35b9e68157f36cb6916f27c2d7e48fbc70c1d432",
+    "proof.cjs": "7fe944743e45384c02efe28a871a77126603841f8863ebb1895d3cba4e9ccfe8"
+  },
   "cases": {
     "material_texture": {
       "time": 0.6,
-      "mean_absolute_rgb_difference": 3.9860742991255145,
+      "mean_absolute_rgb_difference": 4.029159272119341,
       "execution": "PASS"
     },
     "moving_grain": {
@@ -27,7 +34,7 @@
     },
     "focus_hunt": {
       "time": 3.4,
-      "mean_absolute_rgb_difference": 0.6886498521090535,
+      "mean_absolute_rgb_difference": 0.6806812628600823,
       "execution": "PASS"
     },
     "chromatic": {
@@ -64,6 +71,7 @@
   "settled_transient_blur": 0,
   "min_alpha": 255,
   "ending_protection": "Not applicable: isolated passage does not include full-film endcard",
-  "runtime_seconds": 12.824,
+  "hidden_panel_mean_difference": 0,
+  "runtime_seconds": 16.775,
   "scope": "Actual runtime execution; owner motion and subjective audio review remain open"
 }

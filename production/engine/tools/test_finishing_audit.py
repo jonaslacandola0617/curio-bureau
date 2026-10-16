@@ -12,5 +12,6 @@ class AuditTests(unittest.TestCase):
  def test_changed_proof(self):(self.r/'proof').write_text('changed');self.assertFalse(self.check()['execution_records_pass'])
  def test_na_needs_reason(self):self.d['coverage']['ending_protection']={'applicable':False};self.assertFalse(self.check()['execution_records_pass'])
  def test_documented_exclusion(self):self.d['coverage']['ending_protection']={'applicable':False,'reason':'isolated passage does not contain the full film endcard'};self.assertTrue(self.check()['execution_records_pass'])
+ def test_texture_cannot_be_excluded(self):self.d['coverage']['material_texture']={'applicable':False,'reason':'omitted'};self.assertFalse(self.check()['execution_records_pass'])
  def test_enabled_is_not_execution(self):self.d['coverage']['motion_blur']['execution']='enabled';self.assertFalse(self.check()['execution_records_pass'])
 if __name__=='__main__':unittest.main()

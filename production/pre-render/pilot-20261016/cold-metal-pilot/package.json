@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "episode_id": "cold-metal-pilot",
-  "status": "ART_REVIEW",
+  "status": "MOTION_REVIEW",
   "settings": {
     "width": 2160,
     "height": 3840,
@@ -38,7 +38,7 @@
     {
       "path": "sequence_contract.json",
       "role": "sequence",
-      "sha256": "8cab13dd7a2482ff66bf0df808ac21f0497f04bbffb6eba8022b884ef32007a6",
+      "sha256": "a21e34a3374f6efd60dacb1a3a5a9b9bb9fafb6161ae9a047148d53f6ceb6372",
       "archive": {
         "kind": "git"
       }
@@ -46,11 +46,10 @@
   ],
   "gates": {},
   "unresolved_findings": [
-    "Owner art/sequence review pending on actual art-v1 renders",
-    "Final native crop-resolution corrections pending",
-    "Moving proof and owner motion review absent",
-    "Final voice/music/SFX/captions, exact ending restoration and full preview absent",
-    "Restoration rehearsal and frozen archive receipts absent"
+    "Owner moving/listening review pending on 13.9s motion-v1",
+    "Full episode beyond representative passage not produced",
+    "Native source crop-detail fixes and exact ending restoration pending",
+    "Full-film aligned captions/audio/whole-preview review and freeze pending"
   ],
   "frozen_fingerprint": null
 }

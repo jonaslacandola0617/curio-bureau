@@ -7,10 +7,10 @@
       "priority": 1,
       "episode_id": "cold-metal-pilot",
       "manifest": "cold-metal-pilot/package.json",
-      "status": "ART_REVIEW",
-      "next_action": "Owner review of rendered art-v1; then fix native crop-detail limits and implement moving proof",
+      "status": "MOTION_REVIEW",
+      "next_action": "Owner moving/listening review; then complete full-film production and native-detail fixes before freeze",
       "research_hold": false,
-      "review": "cold-metal-pilot/art-v1/README.md"
+      "review": "cold-metal-pilot/motion-v1/README.md"
     },
     {
       "priority": 2,

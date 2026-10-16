@@ -9,11 +9,11 @@
   "projects": [
     {
       "episode_id": "cold-metal-pilot",
-      "stage": "ART_REVIEW",
+      "stage": "MOTION_REVIEW",
       "ready": false,
       "blocking_checks": 29,
       "sequence_decision_fields": "PASS",
-      "motion_gate": "BLOCKED as expected; actual art proof/owner review absent"
+      "motion_gate": "Owner art approval recorded; 1080p motion-v1 available; owner motion/listening review pending"
     },
     {
       "episode_id": "recorded-voice-pilot",
@@ -50,10 +50,13 @@
   ],
   "render_ready_count": 0,
   "artworks_generated": 3,
-  "audio_generations": 0,
+  "audio_generations": 1,
   "native_frames_rendered": 0,
   "owner_approvals_created": 0,
   "static_art_states_rendered": 7,
   "heading_hidden_states_rendered": 3,
-  "cold_metal_art_qa": "cold-metal-pilot/art-v1/QA.json"
+  "cold_metal_art_qa": "cold-metal-pilot/art-v1/QA.json",
+  "preview_frames_rendered": 417,
+  "finishing_audit_tests": 8,
+  "motion_runtime_proof": "cold-metal-pilot/motion-v1/RUNTIME_PROOF.json"
 }
