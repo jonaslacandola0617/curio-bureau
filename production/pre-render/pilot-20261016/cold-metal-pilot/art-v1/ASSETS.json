@@ -1,0 +1,81 @@
+{
+  "assets": [
+    {
+      "path": "assets/Manrope-OFL.txt",
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "bytes": 4387,
+      "provenance": "Google Fonts OFL or derived static font instance",
+      "public_distribution": "original generated asset or OFL-covered font; not third-party archival evidence"
+    },
+    {
+      "path": "assets/Manrope.ttf",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "bytes": 164700,
+      "provenance": "Google Fonts OFL or derived static font instance",
+      "public_distribution": "original generated asset or OFL-covered font; not third-party archival evidence"
+    },
+    {
+      "path": "assets/Manrope800.ttf",
+      "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105",
+      "bytes": 98080,
+      "provenance": "Google Fonts OFL or derived static font instance",
+      "public_distribution": "original generated asset or OFL-covered font; not third-party archival evidence"
+    },
+    {
+      "path": "assets/Playfair-OFL.txt",
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "bytes": 4449,
+      "provenance": "Google Fonts OFL or derived static font instance",
+      "public_distribution": "original generated asset or OFL-covered font; not third-party archival evidence"
+    },
+    {
+      "path": "assets/Playfair900.ttf",
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38",
+      "bytes": 194772,
+      "provenance": "Google Fonts OFL or derived static font instance",
+      "public_distribution": "original generated asset or OFL-covered font; not third-party archival evidence"
+    },
+    {
+      "path": "assets/PlayfairDisplay.ttf",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+      "bytes": 300724,
+      "provenance": "Google Fonts OFL or derived static font instance",
+      "public_distribution": "original generated asset or OFL-covered font; not third-party archival evidence"
+    },
+    {
+      "path": "assets/hand.png",
+      "sha256": "be35402c5161a5deb586ee82750f6920b7ada41c91c8c9b679a2d6d660541365",
+      "bytes": 1198569,
+      "provenance": "original image_gen photographic illustration",
+      "public_distribution": "original generated asset or OFL-covered font; not third-party archival evidence",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/steel-spoon.png",
+      "sha256": "5386e5afce644c16565e42dafad201b17775a475870a2f446bef45f6fb62e7f9",
+      "bytes": 645766,
+      "provenance": "original image_gen photographic illustration",
+      "public_distribution": "original generated asset or OFL-covered font; not third-party archival evidence",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/wood-spoon.png",
+      "sha256": "902193bc33f9322736ecd2facab6bd2f2c3b431c5990623c1031be93d79ebac1",
+      "bytes": 718888,
+      "provenance": "original image_gen photographic illustration",
+      "public_distribution": "original generated asset or OFL-covered font; not third-party archival evidence",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA"
+    }
+  ],
+  "font_sources": {
+    "Playfair": "https://github.com/google/fonts/tree/main/ofl/playfairdisplay",
+    "Manrope": "https://github.com/google/fonts/tree/main/ofl/manrope"
+  },
+  "texture_source": "original deterministic code, not recovered owner-private textures"
+}

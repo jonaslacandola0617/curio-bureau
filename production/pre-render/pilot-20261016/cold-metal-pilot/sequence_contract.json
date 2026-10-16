@@ -1,7 +1,7 @@
 {
   "version": 1,
   "episode_id": "cold-metal-pilot",
-  "status": "STORY_SEQUENCE_DRAFT",
+  "status": "ART_REVIEW",
   "shots": [
     {
       "id": "S01",
@@ -38,14 +38,14 @@
         "T1"
       ],
       "visual_operation": "Establish",
-      "subject_action": "A room-scale pullback briefly establishes both spoons sharing the same environment before the hand enters.",
+      "subject_action": "Keep actual spoon cutouts on one deliberately illustrative comparison surface. Establish the same-room equilibrium condition in attached labels; no filmed experiment or separate room photo is implied.",
       "viewer_after": "Equilibrium is a condition, not an automatic claim about any objects.",
       "invariant": "Same spoons and equal baseline",
-      "initial_state": "Different sensations need not mean different starting temperatures.",
-      "difficult_intermediate": "Both spoons remain registered as camera scale changes.",
-      "resolved_state": "Equilibrium is a condition, not an automatic claim about any objects. Keep the source-owned subjects visible long enough to compare.",
+      "initial_state": "Upper metal spoon and lower wooden spoon share one ivory comparison surface; both full photographic silhouettes are visible.",
+      "difficult_intermediate": "Both image masks stay intact around the reserved central caption band; the equilibrium condition label is below that band.",
+      "resolved_state": "Both spoons remain distinct with the explicitly illustrative same-room starting condition.",
       "next_inheritance": "Hand enters toward the two marked contact sites.",
-      "representation_reason": "Room photo supports the condition; do not introduce a generic room card.",
+      "representation_reason": "Matched photo cutouts under a declared starting condition; no photo asserts an actual measured room experiment.",
       "source_truth_boundary": "Specify initial equilibrium, ordinary indoor conditions and warmer hand. Identical temperature tags are a labeled illustrative setup, not measured footage. Do not use an infrared camera on shiny bare metal as unqualified proof; emissivity can mislead. Contact heat flow depends on more than conductivity alone; no numeric rate ratio.",
       "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
       "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
@@ -53,8 +53,8 @@
       "visual_translation": {
         "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
         "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "A room-scale pullback briefly establishes both spoons sharing the same environment before the hand enters.",
-        "asset_operation": "Both spoons remain registered as camera scale changes."
+        "original_execution": "Keep actual spoon cutouts on one deliberately illustrative comparison surface. Establish the same-room equilibrium condition in attached labels; no filmed experiment or separate room photo is implied.",
+        "asset_operation": "Both image masks stay intact around the reserved central caption band; the equilibrium condition label is below that band."
       }
     },
     {
@@ -145,5 +145,25 @@
   },
   "owner_motion_review": {
     "status": "not_reviewed"
+  },
+  "rendered_review": {
+    "initial": {
+      "path": "art-v1/rendered/03_contact_initial.jpg",
+      "sha256": "f161002fff39eb014be5e841453998a0f12f96f73b8c8724cf9765ae90788fd9"
+    },
+    "intermediate": {
+      "path": "art-v1/rendered/04_contact_intermediate.jpg",
+      "sha256": "c4f555d72c45ec932cd87bdd69aeec384aabefb49ab93097e32112ea1aa82bc6"
+    },
+    "resolved": {
+      "path": "art-v1/rendered/05_contact_resolved.jpg",
+      "sha256": "27a88d562a0d41186af6f23aa1fa52991bf3bb7182652e648ef22f19cc65529a"
+    },
+    "heading_hidden_evidence": "art-v1/Cold_Metal_Passage_Review.jpg",
+    "comparison": "art-v1/README.md: subject-owned contact, explicit illustrative print and retained anchor; original capture benchmark transfers the operation principle, not layout.",
+    "remaining_weaknesses": "Source zoom limits require final asset-detail correction; motion/temporal finishing and audio are not produced; owner review pending.",
+    "unresolved_fallbacks": [
+      "Final native crop-resolution audit outstanding"
+    ]
   }
 }

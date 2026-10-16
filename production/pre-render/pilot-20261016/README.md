@@ -1,10 +1,10 @@
 # Science pre-render pilot 01 — review packet
 
-**Checkpoint: 16 October 2026. Five story/sequence proposals prepared; 0/5 render-ready.** The infrastructure and story planning stage is complete. Finished visual art and moving production have not begun. No posting or background render is running.
+**Checkpoint: 16 October 2026. One rendered art review and four story/sequence proposals; 0/5 render-ready.** The cold-metal art-v1 review now contains seven actual rendered story states and heading-hidden proofs. Moving production, final audio and native-film rendering have not begun. No posting or background render is running.
 
 | Order | Candidate | Distinct explanatory operation | Current limit | Packet |
 |---|---|---|---|---|
-| 1 | Cold-feeling metal | Compare matched photographic surfaces at equal starting temperature, then inspect contact heat flow | Actual source images/rights and finished art pending | [Review](cold-metal-pilot/REVIEW.md) · [Narration](cold-metal-pilot/NARRATION.md) · [Evidence](cold-metal-pilot/RESEARCH.md) |
+| 1 | Cold-feeling metal | Compare matched photographic surfaces at equal starting temperature, then inspect contact heat flow | Original photographic-style assets and rendered art-v1 ready for owner art review; final crop-detail corrections pending | [Rendered art](cold-metal-pilot/art-v1/README.md) · [Plan](cold-metal-pilot/REVIEW.md) · [Narration](cold-metal-pilot/NARRATION.md) · [Evidence](cold-metal-pilot/RESEARCH.md) |
 | 2 | Recorded voice | Select the airborne contribution while retaining internal vibration as a comparison | Reuse/calibration candidate, not automatically a new post; recover exact approved capture bytes | [Review](recorded-voice-pilot/REVIEW.md) · [Narration](recorded-voice-pilot/NARRATION.md) · [Evidence](recorded-voice-pilot/RESEARCH.md) |
 | 3 | Mint feels cold | Converge two different inputs on one accurately labeled supporting receptor print | Verify final source wording and acquire actual images | [Review](mint-cold-pilot/REVIEW.md) · [Narration](mint-cold-pilot/NARRATION.md) · [Evidence](mint-cold-pilot/RESEARCH.md) |
 | 4 | Onion tears | Connect the damaged onion, chemical conversion and distant eye in one spatial relationship | Asset acquisition and rights pending | [Review](onion-tears-pilot/REVIEW.md) · [Narration](onion-tears-pilot/NARRATION.md) · [Evidence](onion-tears-pilot/RESEARCH.md) |

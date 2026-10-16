@@ -1,0 +1,17 @@
+{
+  "method": "built-in image_gen",
+  "assets": [
+    {
+      "file": "steel-spoon.png",
+      "prompt": "Use case: product-mockup. Asset type: photographic cutout for an original science explainer, not a diagram. Generate one complete stainless steel eating spoon isolated on genuinely transparent background. Portrait 1536 by 3072 if available, high native detail. Exact top-down orthographic product photography: bowl at top, handle straight down, whole silhouette with generous clear margins, 75 percent of canvas height. Real brushed stainless steel, small fine scratches and coherent soft upper-left studio illumination, silver-grey neutral reflections and dark edge contrast. Slim functional gently tapered handle; no decoration. No typography, no labels, no background, no floor, no drop shadow, no watermark, no hand. This source will be compared beside a separately generated wooden spoon. Preserve full silhouette and believable metal geometry."
+    },
+    {
+      "file": "wood-spoon.png",
+      "prompt": "Use case: product-mockup. Photographic cutout asset for original educational editorial animation. Single entire wooden eating spoon, straight top-down view, bowl at top and handle straight downward, isolated with real alpha transparency. Portrait high-resolution 1536x3072 if available, whole object with clear margins occupying 80 percent height. Beautiful believable medium brown beechwood, visible long continuous wood grain, subtly worn oiled matte surface, slim functional tapered handle, oval shallow bowl. Match neutral soft studio light from upper left. No other objects, no text, no shadows outside object, no background, no hand, no carved decoration. Clear realistic silhouette; this is a photographed-style illustration, not measurement evidence."
+    },
+    {
+      "file": "hand.png",
+      "prompt": "Use case: photorealistic-natural. Photographic isolated cutout of one anatomically correct adult human right hand and wrist, index finger extended horizontally pointing LEFT, fingers gently curled naturally, seen from slightly above, natural warm skin colour with realistic pores, nail and creases. The leftmost index fingertip is the contact point and must be completely visible with space around it. Wrist extends to right edge. Entire hand intact and all five digits anatomically credible. Intended for an educational image-led contact heat-flow explanation; no object in hand and no object underneath. Soft neutral studio lighting from upper left. Wide landscape high-resolution 3072x1536 if available. Genuine transparent background, no text, no labels, no shadow outside hand, no jewellery, no sleeve."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "status": "static art technically rendered; OWNER REVIEW PENDING",
+  "renderer": "native Skia / @napi-rs/canvas",
+  "node": "v24.19.0",
+  "canvas": "0.1.100",
+  "checks": [
+    {
+      "path": "rendered/01_same_start.jpg",
+      "sha256": "3788e2fba6da16b4f797e74de7dddbed9ac6289123c0b0f0005378935543aa1c",
+      "bytes": 1416483,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "decode": "PASS"
+    },
+    {
+      "path": "rendered/02_equilibrium.jpg",
+      "sha256": "12c04df493e5d4345072496ad2e86ae22b93546f8ae40f7ff7a54e5f413054f7",
+      "bytes": 1429844,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "decode": "PASS"
+    },
+    {
+      "path": "rendered/03_contact_initial.jpg",
+      "sha256": "f161002fff39eb014be5e841453998a0f12f96f73b8c8724cf9765ae90788fd9",
+      "bytes": 1418028,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "decode": "PASS"
+    },
+    {
+      "path": "rendered/03_contact_initial_no_heading.jpg",
+      "sha256": "004402e6a8bff1c7875b60ddb33267daa54d1fa8bdf8f1c99fbc951b5bb701a7",
+      "bytes": 1399595,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "decode": "PASS"
+    },
+    {
+      "path": "rendered/04_contact_intermediate.jpg",
+      "sha256": "c4f555d72c45ec932cd87bdd69aeec384aabefb49ab93097e32112ea1aa82bc6",
+      "bytes": 1420848,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "decode": "PASS"
+    },
+    {
+      "path": "rendered/04_contact_intermediate_no_heading.jpg",
+      "sha256": "84ef3792c809bbb2fa820808344e63700783132801c03e39069c00329d3e37b1",
+      "bytes": 1408750,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "decode": "PASS"
+    },
+    {
+      "path": "rendered/05_contact_resolved.jpg",
+      "sha256": "27a88d562a0d41186af6f23aa1fa52991bf3bb7182652e648ef22f19cc65529a",
+      "bytes": 1416281,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "decode": "PASS"
+    },
+    {
+      "path": "rendered/05_contact_resolved_no_heading.jpg",
+      "sha256": "e670b0e25e04117c770bd601ee4a971018967079df295a6f43b465c658d4391c",
+      "bytes": 1396470,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "decode": "PASS"
+    },
+    {
+      "path": "rendered/06_rate_comparison.jpg",
+      "sha256": "8c070237f798bfef0f9f0b5bbf440b119c16f4751c99585dd5a37d75e2252d93",
+      "bytes": 1436746,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "decode": "PASS"
+    },
+    {
+      "path": "rendered/07_payoff.jpg",
+      "sha256": "cf8434d650f3e230df5d00cf7b91b41b086783499ff8c59b398b276df8ba4bf6",
+      "bytes": 1453219,
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "decode": "PASS"
+    }
+  ],
+  "static_states": 7,
+  "heading_hidden_states": 3,
+  "jpeg_decode": "PASS",
+  "native_canvas": [
+    2160,
+    3840
+  ],
+  "browser_test": "NOT RUN; Chromium download failed; gallery relative links checked separately",
+  "artistic_quality": "owner not yet reviewed",
+  "motion_audio": "NOT PRODUCED",
+  "final_native_asset_fitness": "not passed; crop magnifications documented in README",
+  "repeat_render_hashes": "PASS: all 10 native review stills byte-identical on repeated render"
+}

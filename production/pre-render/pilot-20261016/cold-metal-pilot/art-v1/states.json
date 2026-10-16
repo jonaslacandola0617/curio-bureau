@@ -1,0 +1,44 @@
+[
+  {
+    "name": "01_same_start",
+    "width": 2160,
+    "height": 3840,
+    "file": "rendered/01_same_start.jpg"
+  },
+  {
+    "name": "02_equilibrium",
+    "width": 2160,
+    "height": 3840,
+    "file": "rendered/02_equilibrium.jpg"
+  },
+  {
+    "name": "03_contact_initial",
+    "width": 2160,
+    "height": 3840,
+    "file": "rendered/03_contact_initial.jpg"
+  },
+  {
+    "name": "04_contact_intermediate",
+    "width": 2160,
+    "height": 3840,
+    "file": "rendered/04_contact_intermediate.jpg"
+  },
+  {
+    "name": "05_contact_resolved",
+    "width": 2160,
+    "height": 3840,
+    "file": "rendered/05_contact_resolved.jpg"
+  },
+  {
+    "name": "06_rate_comparison",
+    "width": 2160,
+    "height": 3840,
+    "file": "rendered/06_rate_comparison.jpg"
+  },
+  {
+    "name": "07_payoff",
+    "width": 2160,
+    "height": 3840,
+    "file": "rendered/07_payoff.jpg"
+  }
+]
