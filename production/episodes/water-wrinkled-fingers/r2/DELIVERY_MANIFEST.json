@@ -1,42 +1,147 @@
 {
   "revision": "R2",
-  "status": "TECHNICAL AND BROWSER QA PASSED; OWNER REVIEW PENDING; GITHUB ASSET UPLOAD PENDING",
+  "status": "Native CRF15 recovery MP4 archived in GitHub Releases; owner full-film creative review pending",
   "repository": "jonaslacandola0617/curio-bureau",
+  "github_delivery": {
+    "release_id": 414481470,
+    "tag": "water-wrinkled-fingers-r2-4k-download-20261016",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/water-wrinkled-fingers-r2-4k-download-20261016",
+    "published_at": "2026-10-16T02:47:12Z",
+    "draft": false,
+    "prerelease": true,
+    "assets": [
+      {
+        "id": 645916287,
+        "name": "DELIVERY_4K_QA.json",
+        "state": "uploaded",
+        "bytes": 608,
+        "sha256": "6dbe4a885219ec323044494ba798f9e0d5e86809074adc1154be02ae3c32af65",
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/DELIVERY_4K_QA.json"
+      },
+      {
+        "id": 645916274,
+        "name": "POSTS.txt",
+        "state": "uploaded",
+        "bytes": 3279,
+        "sha256": "1b87f929fd2d7d0a2c916d26992da4a9e7b17fefa502d62a66a9c91d409f4e26",
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/POSTS.txt"
+      },
+      {
+        "id": 645916294,
+        "name": "PUBLIC_SHA256SUMS.txt",
+        "state": "uploaded",
+        "bytes": 255,
+        "sha256": "810ff29091b846a7fe7d411fa788770c143955d424e9ccb81bee4bc5b3bc4f1a",
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/PUBLIC_SHA256SUMS.txt"
+      },
+      {
+        "id": 645915423,
+        "name": "Wrinkled_Fingers_R2_4K.mp4",
+        "state": "uploaded",
+        "bytes": 466636654,
+        "sha256": "08e8010c4ee0782c5b52934953499c15c683b5b13ce0f843ed1a3f4393a9aa54",
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/Wrinkled_Fingers_R2_4K.mp4"
+      }
+    ],
+    "verification": "Every uploaded asset size and GitHub SHA256 digest matches local bytes",
+    "source_backup": {
+      "release_id": 414475574,
+      "visibility": "owner-only draft",
+      "filename": "Wrinkled_Fingers_R2_Checkpoint.zip",
+      "asset_id": 645897082,
+      "bytes": 99262606,
+      "sha256": "0936619bf5f9d0f23761cabf8c4d0f71e0287ae0f74340e52e95ce04a885653b",
+      "restriction": "Includes raw owner textures marked private. Keep this full source archive in the owner-only draft; do not publish it as a public Release asset."
+    }
+  },
   "files": [
     {
-      "name": "Wrinkled_Fingers_R2_4K.webm",
-      "bytes": 315023650,
-      "sha256": "46af48a59bdd6aa0904e98edd1578c356c843bcefacd04eacdb18127c8ab80e5"
+      "id": 645916287,
+      "name": "DELIVERY_4K_QA.json",
+      "state": "uploaded",
+      "bytes": 608,
+      "sha256": "6dbe4a885219ec323044494ba798f9e0d5e86809074adc1154be02ae3c32af65",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/DELIVERY_4K_QA.json"
     },
     {
-      "name": "Wrinkled_Fingers_R2_4K_Master.mp4",
-      "bytes": 467317790,
-      "sha256": "2185cdd4bea354cd3b3c2a04f37fe385a421bfe9d1f4cac87b697584f8a2775e"
+      "id": 645916274,
+      "name": "POSTS.txt",
+      "state": "uploaded",
+      "bytes": 3279,
+      "sha256": "1b87f929fd2d7d0a2c916d26992da4a9e7b17fefa502d62a66a9c91d409f4e26",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/POSTS.txt"
     },
     {
-      "name": "Wrinkled_Fingers_R2_4K_Posting.mp4",
-      "bytes": 275344295,
-      "sha256": "e232c3047f4f2d1ab3ce656f55314c1768fdabb24b105903afda4a90ac8b23fa"
+      "id": 645916294,
+      "name": "PUBLIC_SHA256SUMS.txt",
+      "state": "uploaded",
+      "bytes": 255,
+      "sha256": "810ff29091b846a7fe7d411fa788770c143955d424e9ccb81bee4bc5b3bc4f1a",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/PUBLIC_SHA256SUMS.txt"
     },
     {
-      "name": "Wrinkled_Fingers_R2_Notes.txt",
-      "bytes": 1480,
-      "sha256": "9692ec2720f952967512d9aa35560a20eeac9279c9eaad0bef846af367f2cd31"
-    },
-    {
-      "name": "Wrinkled_Fingers_R2_Player.html",
-      "bytes": 420034482,
-      "sha256": "2d7eace008c42f7c481603192b10b7a17e11357a9608f920a8c331ee850192fd"
-    },
-    {
-      "name": "Wrinkled_Fingers_R2_Posts.txt",
-      "bytes": 3278,
-      "sha256": "82ec2e4dec4b991f0842190763086dcdfd612e6e05b4a2e783897beda36b986f"
-    },
-    {
-      "name": "Wrinkled_Fingers_R2_QA.json",
-      "bytes": 2394,
-      "sha256": "f51176d2702b55b5d7056946d15f2b88a9a1e1b8ead1f7467cceddbe4d6d0546"
+      "id": 645915423,
+      "name": "Wrinkled_Fingers_R2_4K.mp4",
+      "state": "uploaded",
+      "bytes": 466636654,
+      "sha256": "08e8010c4ee0782c5b52934953499c15c683b5b13ce0f843ed1a3f4393a9aa54",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/Wrinkled_Fingers_R2_4K.mp4"
     }
-  ]
+  ],
+  "technical_qa": {
+    "file": "Wrinkled_Fingers_R2_4K.mp4",
+    "bytes": 466636654,
+    "sha256": "08e8010c4ee0782c5b52934953499c15c683b5b13ce0f843ed1a3f4393a9aa54",
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "frames": 1089,
+    "duration": 36.3,
+    "lufs": -13.8,
+    "true_peak_dbfs": -1.7,
+    "full_decode": "passed",
+    "provenance": "Native CRF15 recovery export: first160frames encoded from lossless chunks; remaining929frames stream-copied from verified native recovery clips. Byte-identical to previous R2 recovery export; not the historical master.",
+    "audio": "Exact approved full_mix.wav; AAC320k; no new generation"
+  },
+  "historical_exports": {
+    "status": "TECHNICAL AND BROWSER QA PASSED; OWNER REVIEW PENDING; GITHUB ASSET UPLOAD PENDING",
+    "files": [
+      {
+        "name": "Wrinkled_Fingers_R2_4K.webm",
+        "bytes": 315023650,
+        "sha256": "46af48a59bdd6aa0904e98edd1578c356c843bcefacd04eacdb18127c8ab80e5"
+      },
+      {
+        "name": "Wrinkled_Fingers_R2_4K_Master.mp4",
+        "bytes": 467317790,
+        "sha256": "2185cdd4bea354cd3b3c2a04f37fe385a421bfe9d1f4cac87b697584f8a2775e"
+      },
+      {
+        "name": "Wrinkled_Fingers_R2_4K_Posting.mp4",
+        "bytes": 275344295,
+        "sha256": "e232c3047f4f2d1ab3ce656f55314c1768fdabb24b105903afda4a90ac8b23fa"
+      },
+      {
+        "name": "Wrinkled_Fingers_R2_Notes.txt",
+        "bytes": 1480,
+        "sha256": "9692ec2720f952967512d9aa35560a20eeac9279c9eaad0bef846af367f2cd31"
+      },
+      {
+        "name": "Wrinkled_Fingers_R2_Player.html",
+        "bytes": 420034482,
+        "sha256": "2d7eace008c42f7c481603192b10b7a17e11357a9608f920a8c331ee850192fd"
+      },
+      {
+        "name": "Wrinkled_Fingers_R2_Posts.txt",
+        "bytes": 3278,
+        "sha256": "82ec2e4dec4b991f0842190763086dcdfd612e6e05b4a2e783897beda36b986f"
+      },
+      {
+        "name": "Wrinkled_Fingers_R2_QA.json",
+        "bytes": 2394,
+        "sha256": "f51176d2702b55b5d7056946d15f2b88a9a1e1b8ead1f7467cceddbe4d6d0546"
+      }
+    ],
+    "availability": "Historical original master/posting/WebM/player bytes were lost in workspace cleanup; they are not represented by the recovery export."
+  }
 }
