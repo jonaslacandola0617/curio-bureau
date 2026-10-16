@@ -26,7 +26,7 @@ This preview's WebM is a VP9/Opus review transcode from the H.264 review picture
 
 Voice: one approved Bernard voice generation, task `37575f5f-aea2-44d1-9e10-46cbe82388d2`, retained as `audio/voice_original.mp3`. No alternate audition or repeated voice generation. Reused repo camera, paper, marker and pencil cues; no new SFX generated. Music is a new original harmonic miniature with a developing motif and separate stem. SFX cue events/provenance are in SFX_CUE_SHEET.json. Designed sounds are editorial cues, not authentic sounds of physiology or heat.
 
-Small source files and original narration are in Git. Actual movie bytes, complete self-contained review/source package and proof images are in the versioned GitHub review release once delivery receipts are recorded. No Drive destination or temporary link is the primary archive.
+Small source files and original narration are in Git. Actual movie bytes, complete reproducible source package and proof images are in the versioned GitHub review release once delivery receipts are recorded. No Drive destination or temporary link is the primary archive.
 
 ## Reproduce or inspect
 
@@ -37,4 +37,4 @@ Small source files and original narration are in Git. Actual movie bytes, comple
 - `python verify.py` independently decodes the final movies and saves encoded phone evidence.
 - `Review.html` opens the saved movies offline and offers the verified full-length WebM including audio. It downloads the saved export instead of risking a second browser capture. The static HTML links are structurally checked; browser playback has not been independently certified in this environment.
 
-Dependencies: the observed Node/native-canvas runtime used by art-v1, Python NumPy/SciPy and FFmpeg/ffprobe. Original assets, selected SFX, fonts/notices, code, narration, stems, proofs and both movies are included in the review package. The clean extracted package must pass preflight and input hash verification before delivery.
+Dependencies: the observed Node/native-canvas runtime used by art-v1, Python NumPy/SciPy and FFmpeg/ffprobe. Original assets, selected SFX, fonts/notices, code, narration, stems and proofs are included in the source package. The MP4 and WebM are separate release assets. For offline playback, put both movies beside Review.html. The clean extracted package must pass preflight and input hash verification before delivery.
