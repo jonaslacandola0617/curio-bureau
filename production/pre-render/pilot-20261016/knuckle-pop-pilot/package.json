@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "episode_id": "knuckle-pop-pilot",
+  "status": "STORY_SEQUENCE_DRAFT",
+  "settings": {
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "visual_style": "image-led",
+    "material_profile": "image-led-v1",
+    "brand_ending": "london-bridge-v1"
+  },
+  "inputs": [
+    {
+      "path": "NARRATION.md",
+      "role": "story",
+      "sha256": "ca7081f5ddd4b8be1fc2f2ae629203c39e7c4bae566a59c4cbc5c398152e794c",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "RESEARCH.md",
+      "role": "research",
+      "sha256": "865a8366c2b6a72c57fe006f7ec7768a797ba7daeb79d8a11be94677e89831a4",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "REVIEW.md",
+      "role": "story",
+      "sha256": "685e1092185e33370a1468c0228f500b6d045999734237b824621c40947955a7",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "sequence_contract.json",
+      "role": "sequence",
+      "sha256": "d49d9e1e20dd078dae4b2298502d3d15e70061c825f343893f3b5f7a3c39dd6c",
+      "archive": {
+        "kind": "git"
+      }
+    }
+  ],
+  "gates": {},
+  "unresolved_findings": [
+    "Owner story/sequence review pending",
+    "Assets and item-specific rights not acquired/locked",
+    "Finished art and actual rendered translation review absent",
+    "Voice/music/SFX/captions and full preview absent",
+    "K2 primary-text verification / interpretation hold"
+  ],
+  "frozen_fingerprint": null
+}

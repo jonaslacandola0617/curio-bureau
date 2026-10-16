@@ -10,6 +10,8 @@ validate_episode_sequence=_sequence.validate_episode_sequence
 _finishing_spec=importlib.util.spec_from_file_location('curio_finishing_contract',ENGINE/'finishing_contract.py')
 _finishing=importlib.util.module_from_spec(_finishing_spec);_finishing_spec.loader.exec_module(_finishing)
 validate_finishing=_finishing.validate_finishing
+_pre_spec=importlib.util.spec_from_file_location('curio_pre_render',ENGINE/'pre_render.py')
+_pre=importlib.util.module_from_spec(_pre_spec);_pre_spec.loader.exec_module(_pre)
 BROWSER=['motion.js','optics.js','finishing.js','editorial-finish.js','focus.js','runtime.js','materials.js','material-profile.js','brand.js','drawing.js','typography.js']
 
 def digest(p):
@@ -112,6 +114,8 @@ class Project:
 
  def render(self,profile,start=0,seconds=None):
   if profile=='native':
+   if self.config.get('pre_render_manifest'):
+    _pre.require_ready(self.episode/self.config['pre_render_manifest'],self.episode,self.project)
    validate_episode_sequence(self.config,self.episode,'release')
   self.build()
   if profile=='native':validate_finishing(self.config,self.episode,'release',studio_path=self.studio)

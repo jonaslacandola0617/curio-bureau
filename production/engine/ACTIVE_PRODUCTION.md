@@ -49,7 +49,11 @@ Complete native4K film and posts delivered:1089 frames/30fps/36.3seconds. Master
 
 
 ## Wrinkled Fingers R2 — finishing correction,15 October2026
-Owner rejected R1 texture/optics at15:50 Asia/Manila and explicitly ordered infrastructure review and native4K rerender. See FINISHING_OUTPUT_CONTRACT.md and production/episodes/water-wrinkled-fingers/r2. R1 remains historical and its finishing is not approved. R2 uses moving grain, role-specific material, source-local focus/shading, camera/transition blur, RGB separation, jitter/exposure and local ink bleed/boil. Original full mix retained exactly. Native capture/source recovery is in r2/RECOVERY.json. Final R2 outputs are not yet delivered or owner-reviewed.
+Owner rejected R1 texture/optics at15:50 Asia/Manila and explicitly ordered infrastructure review and native4K rerender. See FINISHING_OUTPUT_CONTRACT.md and production/episodes/water-wrinkled-fingers/r2. R1 remains historical and its finishing is not approved. R2 uses moving grain, role-specific material, source-local focus/shading, camera/transition blur, RGB separation, jitter/exposure and local ink bleed/boil. Original full mix retained exactly. Native capture/source recovery is in r2/RECOVERY.json. R2 recovery MP4 and posts were delivered through verified GitHub Release assets on 16 October 2026; see the episode r2/DOWNLOADS.md and PUBLIC_DOWNLOAD_VERIFICATION.json. Historical master/WebM recovery is not newly claimed. Whole-film R2 owner creative review remains separate.
 
 
 Export storage: apply GITHUB_EXPORT_STORAGE.md. Proprietary exports require verified GitHub repository/Release asset storage; a local file, temporary link or expiring workflow artifact is not the archive.
+
+
+## Five-project pre-render pilot — 16 October 2026
+Owner authorized trying a five-project pre-render queue. Read [pilot review](../pre-render/pilot-20261016/README.md) and [operating workflow](../pre-render/README.md). Current checkpoint: five researched story/sequence drafts, zero render-ready packages. Cold-feeling metal is the recommended first full package; Recorded Voice is a calibration/reuse candidate. No new full artwork, audio or native render has been claimed. Pilot adapters must bind `pre_render_manifest`; the native engine guard verifies restored frozen bytes, review records and known input closure before encoding. This is an operational supplement, not a Bible rewrite or an artistic certification.

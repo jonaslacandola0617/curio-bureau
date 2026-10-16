@@ -1,0 +1,6 @@
+episode_id,stage,status,wall_minutes,tool_calls,tokens_observed,new_generated_assets,render_frames,bytes_archived,retries,notes
+cold-metal-pilot,story_sequence,draft,unknown,unknown,unknown,0,0,pending_commit,0,Not production-ready
+recorded-voice-pilot,story_sequence,draft,unknown,unknown,unknown,0,0,pending_commit,0,Calibration/reuse candidate; no duplicate post by default
+mint-cold-pilot,story_sequence,draft,unknown,unknown,unknown,0,0,pending_commit,0,Not production-ready
+onion-tears-pilot,story_sequence,draft,unknown,unknown,unknown,0,0,pending_commit,0,Not production-ready
+knuckle-pop-pilot,story_sequence,research_hold,unknown,unknown,unknown,0,0,pending_commit,0,K2 wording verification pending

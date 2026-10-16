@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "episode_id": "cold-metal-pilot",
+  "status": "STORY_SEQUENCE_DRAFT",
+  "settings": {
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "visual_style": "image-led",
+    "material_profile": "image-led-v1",
+    "brand_ending": "london-bridge-v1"
+  },
+  "inputs": [
+    {
+      "path": "NARRATION.md",
+      "role": "story",
+      "sha256": "8b038c52394fd0c8e48bd495c3b97108496790dc1d4423de0f8343dd179b1b27",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "RESEARCH.md",
+      "role": "research",
+      "sha256": "f9031affbbe9b987d1d0429877aaede5f5cd295c26dba51d8d31c757f12d2a2a",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "REVIEW.md",
+      "role": "story",
+      "sha256": "b5ea0eac711698e7ed8a79397323939a1bccaede7357768b98f835d14b6c47bd",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "sequence_contract.json",
+      "role": "sequence",
+      "sha256": "5926c83d34ccff8c1c73771253cd5997595e51598430a7dfd74e97f309df64c1",
+      "archive": {
+        "kind": "git"
+      }
+    }
+  ],
+  "gates": {},
+  "unresolved_findings": [
+    "Owner story/sequence review pending",
+    "Assets and item-specific rights not acquired/locked",
+    "Finished art and actual rendered translation review absent",
+    "Voice/music/SFX/captions and full preview absent"
+  ],
+  "frozen_fingerprint": null
+}

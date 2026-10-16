@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-10-16",
+  "unit_tests": {
+    "passed": 16,
+    "failed": 0,
+    "command": "python3 -m unittest discover -s production/engine/tools -p test_pre_render.py -v",
+    "scope": "Synthetic fixtures plus real draft rejection; no artistic/remote-byte/native-encode certification"
+  },
+  "projects": [
+    {
+      "episode_id": "cold-metal-pilot",
+      "stage": "STORY_SEQUENCE_DRAFT",
+      "ready": false,
+      "blocking_checks": 29,
+      "sequence_decision_fields": "PASS",
+      "motion_gate": "BLOCKED as expected; actual art proof/owner review absent"
+    },
+    {
+      "episode_id": "recorded-voice-pilot",
+      "stage": "STORY_SEQUENCE_DRAFT",
+      "ready": false,
+      "blocking_checks": 29,
+      "sequence_decision_fields": "PASS",
+      "motion_gate": "BLOCKED as expected; actual art proof/owner review absent"
+    },
+    {
+      "episode_id": "mint-cold-pilot",
+      "stage": "STORY_SEQUENCE_DRAFT",
+      "ready": false,
+      "blocking_checks": 29,
+      "sequence_decision_fields": "PASS",
+      "motion_gate": "BLOCKED as expected; actual art proof/owner review absent"
+    },
+    {
+      "episode_id": "onion-tears-pilot",
+      "stage": "STORY_SEQUENCE_DRAFT",
+      "ready": false,
+      "blocking_checks": 29,
+      "sequence_decision_fields": "PASS",
+      "motion_gate": "BLOCKED as expected; actual art proof/owner review absent"
+    },
+    {
+      "episode_id": "knuckle-pop-pilot",
+      "stage": "STORY_SEQUENCE_DRAFT",
+      "ready": false,
+      "blocking_checks": 29,
+      "sequence_decision_fields": "PASS",
+      "motion_gate": "BLOCKED as expected; actual art proof/owner review absent"
+    }
+  ],
+  "render_ready_count": 0,
+  "artworks_generated": 0,
+  "audio_generations": 0,
+  "native_frames_rendered": 0,
+  "owner_approvals_created": 0
+}

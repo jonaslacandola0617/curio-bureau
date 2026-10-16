@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "episode_id": "recorded-voice-pilot",
+  "status": "STORY_SEQUENCE_DRAFT",
+  "shots": [
+    {
+      "id": "S01",
+      "viewer_before": "Viewer recognizes the everyday subject but has not seen the mechanism.",
+      "factual_proposition": "Two listening situations are visible without a heading.",
+      "source_ids": [
+        "V1"
+      ],
+      "visual_operation": "Question",
+      "subject_action": "A portrait speaks toward a phone; playback peels away from the phone while the same speaker remains behind it.",
+      "viewer_after": "Two listening situations are visible without a heading.",
+      "invariant": "Portrait/phone identity",
+      "initial_state": "A portrait speaks toward a phone",
+      "difficult_intermediate": "Phone grille crosses near camera; portrait remains recognizable through the aperture.",
+      "resolved_state": "Two listening situations are visible without a heading. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "The phone screen becomes the comparison boundary.",
+      "representation_reason": "Photographic portrait and device cutouts; no generic voice-card stack.",
+      "source_truth_boundary": "No universal bass boost, pitch shift or percentage. Any processed before/after audio is explicitly an illustration, not a reconstruction of every viewer\u2019s self-voice. Recover the approved capture source before reuse; old five-state beatboard is rejected.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "A portrait speaks toward a phone; playback peels away from the phone while the same speaker remains behind it.",
+        "asset_operation": "Phone grille crosses near camera; portrait remains recognizable through the aperture."
+      }
+    },
+    {
+      "id": "S02",
+      "viewer_before": "Two listening situations are visible without a heading.",
+      "factual_proposition": "Two contributions coexist during speaking.",
+      "source_ids": [
+        "V1"
+      ],
+      "visual_operation": "Connect",
+      "subject_action": "Reveal the supporting anatomical print inside the portrait; trace air and internal vibration routes to the same ear.",
+      "viewer_after": "Two contributions coexist during speaking.",
+      "invariant": "Ear anchor and route colours",
+      "initial_state": "Two listening situations are visible without a heading.",
+      "difficult_intermediate": "Both routes reach the ear with separate source-local anchors; neither floats loose during scale change.",
+      "resolved_state": "Two contributions coexist during speaking. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Air route leads into the microphone aperture.",
+      "representation_reason": "Anatomy print shows the invisible route; portrait retains subject ownership.",
+      "source_truth_boundary": "No universal bass boost, pitch shift or percentage. Any processed before/after audio is explicitly an illustration, not a reconstruction of every viewer\u2019s self-voice. Recover the approved capture source before reuse; old five-state beatboard is rejected.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Reveal the supporting anatomical print inside the portrait; trace air and internal vibration routes to the same ear.",
+        "asset_operation": "Both routes reach the ear with separate source-local anchors; neither floats loose during scale change."
+      }
+    },
+    {
+      "id": "S03",
+      "viewer_before": "Two contributions coexist during speaking.",
+      "factual_proposition": "Capturing airborne sound differs from hearing oneself speak.",
+      "source_ids": [
+        "V1",
+        "V2"
+      ],
+      "visual_operation": "Select",
+      "subject_action": "The microphone selects the air-route illustration; the internal route stays registered to the head as an absent-on-recording comparison.",
+      "viewer_after": "Capturing airborne sound differs from hearing oneself speak.",
+      "invariant": "Same source and ear",
+      "initial_state": "Two contributions coexist during speaking.",
+      "difficult_intermediate": "Grille crosses the route; retained body route is still legible, not accidentally erased.",
+      "resolved_state": "Capturing airborne sound differs from hearing oneself speak. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Selected air route feeds a recognizable playback device.",
+      "representation_reason": "Adapt the approved capture operation, not its literal layout; retain microphone qualifications.",
+      "source_truth_boundary": "No universal bass boost, pitch shift or percentage. Any processed before/after audio is explicitly an illustration, not a reconstruction of every viewer\u2019s self-voice. Recover the approved capture source before reuse; old five-state beatboard is rejected.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "The microphone selects the air-route illustration; the internal route stays registered to the head as an absent-on-recording comparison.",
+        "asset_operation": "Grille crosses the route; retained body route is still legible, not accidentally erased."
+      }
+    },
+    {
+      "id": "S04",
+      "viewer_before": "Capturing airborne sound differs from hearing oneself speak.",
+      "factual_proposition": "Route balance helps explain unfamiliarity.",
+      "source_ids": [
+        "V1",
+        "V2"
+      ],
+      "visual_operation": "Compare",
+      "subject_action": "Keep the same face and ear; switch speaking to playback and remove the internal contribution from the comparison.",
+      "viewer_after": "Route balance helps explain unfamiliarity.",
+      "invariant": "Face orientation and ear location",
+      "initial_state": "Capturing airborne sound differs from hearing oneself speak.",
+      "difficult_intermediate": "Two source states align at the ear while device position changes.",
+      "resolved_state": "Route balance helps explain unfamiliarity. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Device edge reveals room/microphone/speaker qualifications.",
+      "representation_reason": "Paired photographic states, supporting route annotations; no universal equalizer curve.",
+      "source_truth_boundary": "No universal bass boost, pitch shift or percentage. Any processed before/after audio is explicitly an illustration, not a reconstruction of every viewer\u2019s self-voice. Recover the approved capture source before reuse; old five-state beatboard is rejected.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Keep the same face and ear; switch speaking to playback and remove the internal contribution from the comparison.",
+        "asset_operation": "Two source states align at the ear while device position changes."
+      }
+    },
+    {
+      "id": "S05",
+      "viewer_before": "Route balance helps explain unfamiliarity.",
+      "factual_proposition": "Same voice reaches the listener through a different chain.",
+      "source_ids": [
+        "V1"
+      ],
+      "visual_operation": "Resolve",
+      "subject_action": "Return to the opening phone; reveal room, microphone and speaker as additional influences, then finish the complete final phrase before the locked ending.",
+      "viewer_after": "Same voice reaches the listener through a different chain.",
+      "invariant": "Opening phone",
+      "initial_state": "Route balance helps explain unfamiliarity.",
+      "difficult_intermediate": "Phone remains recognizable as contextual evidence enters around it.",
+      "resolved_state": "Same voice reaches the listener through a different chain. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Exact London Bridge endcard after complete spoken tail.",
+      "representation_reason": "Source-owned devices; labels name equipment influences, not substitute for the route explanation.",
+      "source_truth_boundary": "No universal bass boost, pitch shift or percentage. Any processed before/after audio is explicitly an illustration, not a reconstruction of every viewer\u2019s self-voice. Recover the approved capture source before reuse; old five-state beatboard is rejected.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Return to the opening phone; reveal room, microphone and speaker as additional influences, then finish the complete final phrase before the locked ending.",
+        "asset_operation": "Phone remains recognizable as contextual evidence enters around it."
+      }
+    }
+  ],
+  "owner_sequence_review": {
+    "status": "not_reviewed"
+  },
+  "owner_motion_review": {
+    "status": "not_reviewed"
+  }
+}

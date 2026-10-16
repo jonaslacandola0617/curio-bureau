@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "episode_id": "knuckle-pop-pilot",
+  "status": "STORY_SEQUENCE_DRAFT",
+  "shots": [
+    {
+      "id": "S01",
+      "viewer_before": "Viewer recognizes the everyday subject but has not seen the mechanism.",
+      "factual_proposition": "The internal view is a scan, not a decorative anatomy illustration.",
+      "source_ids": [
+        "K1"
+      ],
+      "visual_operation": "Inspect",
+      "subject_action": "A photographic hand aligns its knuckle with the actual study scan; the scan opens at that location.",
+      "viewer_after": "The internal view is a scan, not a decorative anatomy illustration.",
+      "invariant": "MCP location and orientation",
+      "initial_state": "A photographic hand aligns its knuckle with the actual study scan",
+      "difficult_intermediate": "Hand and scan stay registered while the evidence window enlarges.",
+      "resolved_state": "The internal view is a scan, not a decorative anatomy illustration. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "The same scan region anchors the before/after.",
+      "representation_reason": "Use actual study evidence after rights check, not generated diagnostic imagery.",
+      "source_truth_boundary": "RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "A photographic hand aligns its knuckle with the actual study scan; the scan opens at that location.",
+        "asset_operation": "Hand and scan stay registered while the evidence window enlarges."
+      }
+    },
+    {
+      "id": "S02",
+      "viewer_before": "The internal view is a scan, not a decorative anatomy illustration.",
+      "factual_proposition": "Cavity appearance accompanies separation in this experiment.",
+      "source_ids": [
+        "K1"
+      ],
+      "visual_operation": "Compare",
+      "subject_action": "Show actual consecutive evidence states with their real frame order; separate surfaces and cavity region are annotated locally.",
+      "viewer_after": "Cavity appearance accompanies separation in this experiment.",
+      "invariant": "Original pixels, orientation and frame order",
+      "initial_state": "The internal view is a scan, not a decorative anatomy illustration.",
+      "difficult_intermediate": "Before and after remain available while cavity location is selected.",
+      "resolved_state": "Cavity appearance accompanies separation in this experiment. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Persisting cavity stays under the comparison bracket.",
+      "representation_reason": "No interpolated fake observation; caption states limited source frame rate.",
+      "source_truth_boundary": "RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Show actual consecutive evidence states with their real frame order; separate surfaces and cavity region are annotated locally.",
+        "asset_operation": "Before and after remain available while cavity location is selected."
+      }
+    },
+    {
+      "id": "S03",
+      "viewer_before": "Cavity appearance accompanies separation in this experiment.",
+      "factual_proposition": "The observed cavity did not immediately vanish.",
+      "source_ids": [
+        "K1"
+      ],
+      "visual_operation": "Test",
+      "subject_action": "Advance to the later evidence frame and retain the cavity marker where still supported by the source.",
+      "viewer_after": "The observed cavity did not immediately vanish.",
+      "invariant": "Same cavity region",
+      "initial_state": "Cavity appearance accompanies separation in this experiment.",
+      "difficult_intermediate": "Marker stays attached through the scan update, not drawn at an invented new location.",
+      "resolved_state": "The observed cavity did not immediately vanish. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Question shifts from visible cavity to acoustic mechanism.",
+      "representation_reason": "Retain study sample scope: one participant, ten joints.",
+      "source_truth_boundary": "RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Advance to the later evidence frame and retain the cavity marker where still supported by the source.",
+        "asset_operation": "Marker stays attached through the scan update, not drawn at an invented new location."
+      }
+    },
+    {
+      "id": "S04",
+      "viewer_before": "The observed cavity did not immediately vanish.",
+      "factual_proposition": "Seeing a cavity is different from fully explaining the sound.",
+      "source_ids": [
+        "K1",
+        "K2"
+      ],
+      "visual_operation": "Distinguish",
+      "subject_action": "Place observed scan evidence beside a separately labeled mathematical-model excerpt/print.",
+      "viewer_after": "Seeing a cavity is different from fully explaining the sound.",
+      "invariant": "Observation/model distinction",
+      "initial_state": "The observed cavity did not immediately vanish.",
+      "difficult_intermediate": "Boundary between observation and model remains explicit as the comparison opens.",
+      "resolved_state": "Seeing a cavity is different from fully explaining the sound. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Return to only what the scan directly supports.",
+      "representation_reason": "Research hold blocks finalized model depiction; no debate resolved by attractive animation.",
+      "source_truth_boundary": "RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Place observed scan evidence beside a separately labeled mathematical-model excerpt/print.",
+        "asset_operation": "Boundary between observation and model remains explicit as the comparison opens."
+      }
+    },
+    {
+      "id": "S05",
+      "viewer_before": "Seeing a cavity is different from fully explaining the sound.",
+      "factual_proposition": "The observation is strong within its scope; acoustic interpretation remains qualified.",
+      "source_ids": [
+        "K1",
+        "K2"
+      ],
+      "visual_operation": "Resolve",
+      "subject_action": "Return to the genuine evidence window; preserve a small clear uncertainty statement instead of a definitive bubble-pop picture.",
+      "viewer_after": "The observation is strong within its scope; acoustic interpretation remains qualified.",
+      "invariant": "Opening evidence window",
+      "initial_state": "Seeing a cavity is different from fully explaining the sound.",
+      "difficult_intermediate": "Evidence remains readable with the qualification and centered captions.",
+      "resolved_state": "The observation is strong within its scope; acoustic interpretation remains qualified. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Complete final phrase before locked ending.",
+      "representation_reason": "No health advice, invented sound synchronization or overconfident science headline.",
+      "source_truth_boundary": "RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Return to the genuine evidence window; preserve a small clear uncertainty statement instead of a definitive bubble-pop picture.",
+        "asset_operation": "Evidence remains readable with the qualification and centered captions."
+      }
+    }
+  ],
+  "owner_sequence_review": {
+    "status": "not_reviewed"
+  },
+  "owner_motion_review": {
+    "status": "not_reviewed"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "episode_id": "cold-metal-pilot",
+  "status": "STORY_SEQUENCE_DRAFT",
+  "shots": [
+    {
+      "id": "S01",
+      "viewer_before": "Viewer recognizes the everyday subject but has not seen the mechanism.",
+      "factual_proposition": "Different sensations need not mean different starting temperatures.",
+      "source_ids": [
+        "T1"
+      ],
+      "visual_operation": "Compare",
+      "subject_action": "Two photographic spoons swing into matching orientation with equal illustrative starting-temperature tags.",
+      "viewer_after": "Different sensations need not mean different starting temperatures.",
+      "invariant": "Aligned contact points",
+      "initial_state": "Two photographic spoons swing into matching orientation with equal illustrative starting-temperature tags.",
+      "difficult_intermediate": "The handles approach alignment but remain separately identifiable.",
+      "resolved_state": "Different sensations need not mean different starting temperatures. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Contact points become the next inspection window.",
+      "representation_reason": "Photographic surfaces establish material differences; labels explicitly say illustrative setup.",
+      "source_truth_boundary": "Specify initial equilibrium, ordinary indoor conditions and warmer hand. Identical temperature tags are a labeled illustrative setup, not measured footage. Do not use an infrared camera on shiny bare metal as unqualified proof; emissivity can mislead. Contact heat flow depends on more than conductivity alone; no numeric rate ratio.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Two photographic spoons swing into matching orientation with equal illustrative starting-temperature tags.",
+        "asset_operation": "The handles approach alignment but remain separately identifiable."
+      }
+    },
+    {
+      "id": "S02",
+      "viewer_before": "Different sensations need not mean different starting temperatures.",
+      "factual_proposition": "Equilibrium is a condition, not an automatic claim about any objects.",
+      "source_ids": [
+        "T1"
+      ],
+      "visual_operation": "Establish",
+      "subject_action": "A room-scale pullback briefly establishes both spoons sharing the same environment before the hand enters.",
+      "viewer_after": "Equilibrium is a condition, not an automatic claim about any objects.",
+      "invariant": "Same spoons and equal baseline",
+      "initial_state": "Different sensations need not mean different starting temperatures.",
+      "difficult_intermediate": "Both spoons remain registered as camera scale changes.",
+      "resolved_state": "Equilibrium is a condition, not an automatic claim about any objects. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Hand enters toward the two marked contact sites.",
+      "representation_reason": "Room photo supports the condition; do not introduce a generic room card.",
+      "source_truth_boundary": "Specify initial equilibrium, ordinary indoor conditions and warmer hand. Identical temperature tags are a labeled illustrative setup, not measured footage. Do not use an infrared camera on shiny bare metal as unqualified proof; emissivity can mislead. Contact heat flow depends on more than conductivity alone; no numeric rate ratio.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "A room-scale pullback briefly establishes both spoons sharing the same environment before the hand enters.",
+        "asset_operation": "Both spoons remain registered as camera scale changes."
+      }
+    },
+    {
+      "id": "S03",
+      "viewer_before": "Equilibrium is a condition, not an automatic claim about any objects.",
+      "factual_proposition": "Heat leaves warmer skin toward cooler objects.",
+      "source_ids": [
+        "T2"
+      ],
+      "visual_operation": "Inspect",
+      "subject_action": "Hand contacts each handle; an attached printed cutaway reveals warmer skin and outward heat-transfer arrows.",
+      "viewer_after": "Heat leaves warmer skin toward cooler objects.",
+      "invariant": "Contact anchor and warm-to-cool direction",
+      "initial_state": "Equilibrium is a condition, not an automatic claim about any objects.",
+      "difficult_intermediate": "Finger/handle occlusion is exact while the inspection window opens.",
+      "resolved_state": "Heat leaves warmer skin toward cooler objects. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Carry both contact windows into a matched comparison.",
+      "representation_reason": "Invisible heat flow requires an identified explanatory print, not fake thermal footage.",
+      "source_truth_boundary": "Specify initial equilibrium, ordinary indoor conditions and warmer hand. Identical temperature tags are a labeled illustrative setup, not measured footage. Do not use an infrared camera on shiny bare metal as unqualified proof; emissivity can mislead. Contact heat flow depends on more than conductivity alone; no numeric rate ratio.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Hand contacts each handle; an attached printed cutaway reveals warmer skin and outward heat-transfer arrows.",
+        "asset_operation": "Finger/handle occlusion is exact while the inspection window opens."
+      }
+    },
+    {
+      "id": "S04",
+      "viewer_before": "Heat leaves warmer skin toward cooler objects.",
+      "factual_proposition": "The rate differs while starting temperature was equal.",
+      "source_ids": [
+        "T2"
+      ],
+      "visual_operation": "Measure qualitatively",
+      "subject_action": "Keep paired photographic contact sites fixed while the metal-side transfer indication progresses faster.",
+      "viewer_after": "The rate differs while starting temperature was equal.",
+      "invariant": "Same elapsed comparison and direction",
+      "initial_state": "Heat leaves warmer skin toward cooler objects.",
+      "difficult_intermediate": "Both remain visible at the same comparison moment.",
+      "resolved_state": "The rate differs while starting temperature was equal. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Transfer cues retract to reveal unchanged initial-temperature tags.",
+      "representation_reason": "Qualitative rate illustration; no invented numeric graph or measured time labels.",
+      "source_truth_boundary": "Specify initial equilibrium, ordinary indoor conditions and warmer hand. Identical temperature tags are a labeled illustrative setup, not measured footage. Do not use an infrared camera on shiny bare metal as unqualified proof; emissivity can mislead. Contact heat flow depends on more than conductivity alone; no numeric rate ratio.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Keep paired photographic contact sites fixed while the metal-side transfer indication progresses faster.",
+        "asset_operation": "Both remain visible at the same comparison moment."
+      }
+    },
+    {
+      "id": "S05",
+      "viewer_before": "The rate differs while starting temperature was equal.",
+      "factual_proposition": "Touch senses a transfer process as well as temperature.",
+      "source_ids": [
+        "T1",
+        "T2"
+      ],
+      "visual_operation": "Resolve",
+      "subject_action": "Recompose the opening aligned handles with equal starting tags and different skin-cooling annotations.",
+      "viewer_after": "Touch senses a transfer process as well as temperature.",
+      "invariant": "Original handles",
+      "initial_state": "The rate differs while starting temperature was equal.",
+      "difficult_intermediate": "Tags and contact markers remain readable as the two states reconcile.",
+      "resolved_state": "Touch senses a transfer process as well as temperature. Keep the source-owned subjects visible long enough to compare.",
+      "next_inheritance": "Complete closing words, then exact locked ending.",
+      "representation_reason": "Opening photograph now supports a changed interpretation, not a repeated decorative still.",
+      "source_truth_boundary": "Specify initial equilibrium, ordinary indoor conditions and warmer hand. Identical temperature tags are a labeled illustrative setup, not measured footage. Do not use an infrared camera on shiny bare metal as unqualified proof; emissivity can mislead. Contact heat flow depends on more than conductivity alone; no numeric rate ratio.",
+      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
+      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
+        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
+        "original_execution": "Recompose the opening aligned handles with equal starting tags and different skin-cooling annotations.",
+        "asset_operation": "Tags and contact markers remain readable as the two states reconcile."
+      }
+    }
+  ],
+  "owner_sequence_review": {
+    "status": "not_reviewed"
+  },
+  "owner_motion_review": {
+    "status": "not_reviewed"
+  }
+}

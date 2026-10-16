@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "created": "2026-10-16",
+  "batch_id": "science-pre-render-pilot-01",
+  "items": [
+    {
+      "priority": 1,
+      "episode_id": "cold-metal-pilot",
+      "manifest": "cold-metal-pilot/package.json",
+      "status": "STORY_SEQUENCE_DRAFT",
+      "next_action": "story/sequence review; then source and render demanding art passage",
+      "research_hold": false
+    },
+    {
+      "priority": 2,
+      "episode_id": "recorded-voice-pilot",
+      "manifest": "recorded-voice-pilot/package.json",
+      "status": "STORY_SEQUENCE_DRAFT",
+      "next_action": "story/sequence review; then source and render demanding art passage",
+      "research_hold": false
+    },
+    {
+      "priority": 3,
+      "episode_id": "mint-cold-pilot",
+      "manifest": "mint-cold-pilot/package.json",
+      "status": "STORY_SEQUENCE_DRAFT",
+      "next_action": "story/sequence review; then source and render demanding art passage",
+      "research_hold": false
+    },
+    {
+      "priority": 4,
+      "episode_id": "onion-tears-pilot",
+      "manifest": "onion-tears-pilot/package.json",
+      "status": "STORY_SEQUENCE_DRAFT",
+      "next_action": "story/sequence review; then source and render demanding art passage",
+      "research_hold": false
+    },
+    {
+      "priority": 5,
+      "episode_id": "knuckle-pop-pilot",
+      "manifest": "knuckle-pop-pilot/package.json",
+      "status": "STORY_SEQUENCE_DRAFT",
+      "next_action": "story/sequence review; then source and render demanding art passage",
+      "research_hold": true
+    }
+  ],
+  "scale_up_gate": "Complete and approve one full restored render-ready package, render it without creative edits, compare delivered film to approved preview, measure labor/cost/recovery, then expand."
+}

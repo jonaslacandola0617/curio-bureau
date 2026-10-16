@@ -77,3 +77,7 @@ Apply `production/art-direction/VISUAL_TRANSLATION_REVIEW.md` in full. The rejec
 
 ## Required finishing execution proof
 Read [FINISHING_OUTPUT_CONTRACT.md](FINISHING_OUTPUT_CONTRACT.md). New image-led builds declare active material/optical finishing; native release verifies proof against the actual rebuilt studio. A profile label or imported effect is insufficient. Custom renderers use the same native picture/caption/ending proof contract. Wrinkled Fingers R1 exposed a custom-renderer bypass; R2 implements and demonstrates the missing grain, focus, transition and print treatment. Preserve historical approved source rebuilds and the exact ending.
+
+
+## Pre-render pilot
+See [pre-render workflow](../pre-render/README.md) and [five-project pilot](../pre-render/pilot-20261016/README.md). New pilot adapters bind `pre_render_manifest` relative to their episode folder. Native production checks the frozen package before build/encoding. Historical approved adapters without this field retain their existing route. Tests: `python3 -m unittest discover -s production/engine/tools -p test_pre_render.py -v`. This gate checks restored input bytes/records and renderer dependencies; owner artistic/listening approval and actual GitHub receipt verification remain human/source-backed duties.

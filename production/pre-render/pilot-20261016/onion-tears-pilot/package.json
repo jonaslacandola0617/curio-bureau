@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "episode_id": "onion-tears-pilot",
+  "status": "STORY_SEQUENCE_DRAFT",
+  "settings": {
+    "width": 2160,
+    "height": 3840,
+    "fps": 30,
+    "visual_style": "image-led",
+    "material_profile": "image-led-v1",
+    "brand_ending": "london-bridge-v1"
+  },
+  "inputs": [
+    {
+      "path": "NARRATION.md",
+      "role": "story",
+      "sha256": "16c19490a4642909494b6596e160cd9dd9d8f3af45a635893f62a326e2e6f377",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "RESEARCH.md",
+      "role": "research",
+      "sha256": "af7d7dd91af8d73ef0103a94ffcf8af2af8065c9fa61f025026c2a2d6775eb3c",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "REVIEW.md",
+      "role": "story",
+      "sha256": "b5427796e7ffe0bacfed4553e65ab7da02a9127b41194bc41753e0ff0a85ab4a",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "sequence_contract.json",
+      "role": "sequence",
+      "sha256": "ffd95081936bcb08debd840f029a8d9bb5d95421fd8caf71cd62e7c91f1ba096",
+      "archive": {
+        "kind": "git"
+      }
+    }
+  ],
+  "gates": {},
+  "unresolved_findings": [
+    "Owner story/sequence review pending",
+    "Assets and item-specific rights not acquired/locked",
+    "Finished art and actual rendered translation review absent",
+    "Voice/music/SFX/captions and full preview absent"
+  ],
+  "frozen_fingerprint": null
+}
