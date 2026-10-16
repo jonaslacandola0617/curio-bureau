@@ -1,6 +1,6 @@
 {
   "revision": "R2",
-  "status": "NATIVE 4K RECOVERY REBUILT AND VERIFIED; GITHUB VIDEO UPLOAD BLOCKED BY BROWSER RUNTIME ERROR AFTER SUCCESSFUL SIGN-IN",
+  "status": "NATIVE 4K RECOVERY EXPORT ARCHIVED IN GITHUB; PUBLIC DOWNLOAD AVAILABLE; OWNER CREATIVE REVIEW PENDING",
   "profile": {
     "width": 2160,
     "height": 3840,
@@ -47,12 +47,12 @@
     }
   ],
   "browser_player": "PASSED on restored exports; see PLAYER_QA.json",
-  "native_capture": "1089 native lossless frames locally verified; first160 durably lossless in prior storage; remaining native CRF15 recovery proxies saved separately and explicitly not lossless",
+  "native_capture": "Current recovery uses first160 verified original lossless frames plus929 hash-verified native CRF15 frames. Original lossless capture of all1089frames is not currently archived as one complete lossless sequence.",
   "owner_approved_storage": "GitHub repository / Releases",
-  "github_release": "No R2 video release published. GitHub sign-in and two-factor succeeded; signed-in owner dashboard and Release form verified. File chooser failed with retained native credential state restriction; fresh runtime also refused access. No asset upload receipt obtained.",
+  "github_release": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/water-wrinkled-fingers-r2-4k-download-20261016",
   "previous_workspace_loss": "Recovered exact source/mix and160saved native frames; captured missing929frames. Master SHA256 exactly matches prior verified master.",
   "source_and_mix_unchanged": true,
-  "availability_note": "Historical original master/posting/WebM/player files were lost in workspace cleanup. Current native recovery export was restored and passed decode/frame/audio/hash checks; this record does not archive the video bytes.",
+  "availability_note": "Historical exact master/posting/WebM/player outputs were lost in workspace cleanup. The current native CRF15 recovery MP4 is archived on GitHub and matches its previous verified recovery hash. Reuse this archived file before rebuilding.",
   "current_review": {
     "file": "Wrinkled_Fingers_R2_4K.mp4",
     "bytes": 466636654,
@@ -65,10 +65,62 @@
     "lufs": -13.8,
     "true_peak_dbfs": -1.7,
     "full_decode": "passed",
-    "provenance": "Native 4K recovery export: first160frames encoded from lossless chunks; remaining929frames stream-copied from hash-verified CRF15 native recovery clips. Byte-identical to previously verified R2 recovery export. Not the historical master.",
+    "provenance": "Native CRF15 recovery export: first160frames encoded from lossless chunks; remaining929frames stream-copied from verified native recovery clips. Byte-identical to previous R2 recovery export; not the historical master.",
     "audio": "Exact approved full_mix.wav; AAC320k; no new generation",
-    "local_copy": "/workspace/scratch/292e697b57ab/release_restore/Wrinkled_Fingers_R2_4K.mp4",
-    "archive_status": "Not uploaded; local only",
+    "archive_status": "Archived; uploaded GitHub asset size and SHA256 verified",
+    "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/Wrinkled_Fingers_R2_4K.mp4",
     "owner_review": "PENDING"
+  },
+  "github_delivery": {
+    "release_id": 414481470,
+    "tag": "water-wrinkled-fingers-r2-4k-download-20261016",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/water-wrinkled-fingers-r2-4k-download-20261016",
+    "published_at": "2026-10-16T02:47:12Z",
+    "draft": false,
+    "prerelease": true,
+    "assets": [
+      {
+        "id": 645916287,
+        "name": "DELIVERY_4K_QA.json",
+        "state": "uploaded",
+        "bytes": 608,
+        "sha256": "6dbe4a885219ec323044494ba798f9e0d5e86809074adc1154be02ae3c32af65",
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/DELIVERY_4K_QA.json"
+      },
+      {
+        "id": 645916274,
+        "name": "POSTS.txt",
+        "state": "uploaded",
+        "bytes": 3279,
+        "sha256": "1b87f929fd2d7d0a2c916d26992da4a9e7b17fefa502d62a66a9c91d409f4e26",
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/POSTS.txt"
+      },
+      {
+        "id": 645916294,
+        "name": "PUBLIC_SHA256SUMS.txt",
+        "state": "uploaded",
+        "bytes": 255,
+        "sha256": "810ff29091b846a7fe7d411fa788770c143955d424e9ccb81bee4bc5b3bc4f1a",
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/PUBLIC_SHA256SUMS.txt"
+      },
+      {
+        "id": 645915423,
+        "name": "Wrinkled_Fingers_R2_4K.mp4",
+        "state": "uploaded",
+        "bytes": 466636654,
+        "sha256": "08e8010c4ee0782c5b52934953499c15c683b5b13ce0f843ed1a3f4393a9aa54",
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/Wrinkled_Fingers_R2_4K.mp4"
+      }
+    ],
+    "verification": "Every uploaded asset size and GitHub SHA256 digest matches local bytes",
+    "source_backup": {
+      "release_id": 414475574,
+      "visibility": "owner-only draft",
+      "filename": "Wrinkled_Fingers_R2_Checkpoint.zip",
+      "asset_id": 645897082,
+      "bytes": 99262606,
+      "sha256": "0936619bf5f9d0f23761cabf8c4d0f71e0287ae0f74340e52e95ce04a885653b",
+      "restriction": "Includes raw owner textures marked private. Keep this full source archive in the owner-only draft; do not publish it as a public Release asset."
+    }
   }
 }
