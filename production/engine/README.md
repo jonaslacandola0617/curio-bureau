@@ -81,3 +81,7 @@ Read [FINISHING_OUTPUT_CONTRACT.md](FINISHING_OUTPUT_CONTRACT.md). New image-led
 
 ## Pre-render pilot
 See [pre-render workflow](../pre-render/README.md) and [five-project pilot](../pre-render/pilot-20261016/README.md). New pilot adapters bind `pre_render_manifest` relative to their episode folder. Native production checks the frozen package before build/encoding. Removing the binding from a registered pilot ID also blocks native production. Historical approved adapters without this field retain their existing route. Tests: `python3 -m unittest discover -s production/engine/tools -p test_pre_render.py -v`. This gate checks restored input bytes/records and renderer dependencies; owner artistic/listening approval and actual GitHub receipt verification remain human/source-backed duties.
+
+
+## Finishing coverage and evidence
+Use [FINISHING_CHECKLIST.md](FINISHING_CHECKLIST.md) for a short shot-specific coverage audit before capture and after encoding. `finishing_audit.py` rejects missing effect coverage, stale source/evidence hashes and unexplained exclusions; it does not infer artistic quality or listening approval. The cold-metal motion-v1 custom capture command calls its preflight before FFmpeg. Existing native-release validation remains independently required.

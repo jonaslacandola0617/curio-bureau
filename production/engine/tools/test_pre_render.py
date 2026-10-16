@@ -85,7 +85,7 @@ class GateTests(unittest.TestCase):
         p=object.__new__(curio.Project);p.config={'id':'cold-metal-pilot'}
         with patch.object(curio.Project,'build',side_effect=AssertionError('must not build')):
             with self.assertRaisesRegex(ValueError,'requires pre_render_manifest'): p.render('native')
-    def test_pilot_has_five_valid_proposals_and_zero_ready(self):
+    def test_pilot_has_five_valid_contracts_and_zero_ready(self):
         spec=importlib.util.spec_from_file_location('seq',ENGINE/'sequence.py')
         seq=importlib.util.module_from_spec(spec);spec.loader.exec_module(seq)
         batch=ENGINE.parent/'pre-render/pilot-20261016'
@@ -96,6 +96,10 @@ class GateTests(unittest.TestCase):
             self.assertFalse(pre.validate_package(manifest)['ready'])
             contract=json.loads((manifest.parent/'sequence_contract.json').read_text())
             self.assertEqual(seq.validate_contract(contract)['shots'],5)
-            with self.assertRaises(ValueError): seq.validate_contract(contract,'motion')
+            if contract.get('owner_sequence_review',{}).get('status')=='approved':
+                seq.validate_contract(contract,'motion')
+                with self.assertRaises(ValueError): seq.validate_contract(contract,'release')
+            else:
+                with self.assertRaises(ValueError): seq.validate_contract(contract,'motion')
 
 if __name__=='__main__': unittest.main()

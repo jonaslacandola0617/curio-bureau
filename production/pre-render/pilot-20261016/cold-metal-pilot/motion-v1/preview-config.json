@@ -1,0 +1,9 @@
+{
+  "id": "cold-metal-pilot",
+  "visual_style": "image-led",
+  "finishing": {
+    "enabled": true,
+    "implementation": "editorial-finish.cjs",
+    "contract": "FINISHING_DIRECTION.md"
+  }
+}

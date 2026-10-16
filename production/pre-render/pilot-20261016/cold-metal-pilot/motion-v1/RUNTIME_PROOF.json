@@ -1,0 +1,69 @@
+{
+  "cases": {
+    "material_texture": {
+      "time": 0.6,
+      "mean_absolute_rgb_difference": 3.9860742991255145,
+      "execution": "PASS"
+    },
+    "moving_grain": {
+      "time": 8.2,
+      "mean_absolute_rgb_difference": 1.9820383230452674,
+      "execution": "PASS"
+    },
+    "motion_blur": {
+      "time": 6.6,
+      "mean_absolute_rgb_difference": 17.09249469521605,
+      "execution": "PASS"
+    },
+    "selective_focus": {
+      "time": 4.9,
+      "mean_absolute_rgb_difference": 8.53311567644033,
+      "execution": "PASS"
+    },
+    "focus_shading": {
+      "time": 4.9,
+      "mean_absolute_rgb_difference": 7.195283082561728,
+      "execution": "PASS"
+    },
+    "focus_hunt": {
+      "time": 3.4,
+      "mean_absolute_rgb_difference": 0.6886498521090535,
+      "execution": "PASS"
+    },
+    "chromatic": {
+      "time": 7.5,
+      "mean_absolute_rgb_difference": 2.3426261895576133,
+      "execution": "PASS"
+    },
+    "mechanical_jitter": {
+      "time": 7.5,
+      "mean_absolute_rgb_difference": 1.9216002764917695,
+      "execution": "PASS"
+    },
+    "exposure": {
+      "time": 7.5,
+      "mean_absolute_rgb_difference": 0.06898324974279835,
+      "execution": "PASS"
+    },
+    "ink_bleed": {
+      "time": 5.2,
+      "mean_absolute_rgb_difference": 0.012579893261316873,
+      "execution": "PASS"
+    },
+    "edge_boil": {
+      "time": 5.2,
+      "mean_absolute_rgb_difference": 0.0036967914094650205,
+      "execution": "PASS"
+    }
+  },
+  "deterministic": true,
+  "temporal_grain_constant_source_mean_difference": 2.8325147890946503,
+  "caption_opaque_pixel_max_difference": 0,
+  "focus_selected_mean_difference": 0,
+  "focus_peripheral_mean_difference": 6.676947916666666,
+  "settled_transient_blur": 0,
+  "min_alpha": 255,
+  "ending_protection": "Not applicable: isolated passage does not include full-film endcard",
+  "runtime_seconds": 12.824,
+  "scope": "Actual runtime execution; owner motion and subjective audio review remain open"
+}

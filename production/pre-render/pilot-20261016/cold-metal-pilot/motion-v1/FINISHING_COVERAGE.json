@@ -1,0 +1,350 @@
+{
+  "schema": 1,
+  "scope": "1080p representative moving passage, not a native release",
+  "sources": [
+    {
+      "path": "render.cjs",
+      "sha256": "3bb42bcc0c26149b73d8d9c9dff8b07c2c380e8dd13b53a15b0f07065d25f6ba"
+    },
+    {
+      "path": "scene-core.cjs",
+      "sha256": "5da553e540bb19dbde72b8bb6287b8aa9f6c36d0403e5900a94c375de117d992"
+    },
+    {
+      "path": "editorial-finish.cjs",
+      "sha256": "4c783ed158f4bb52fc9db05e35b9e68157f36cb6916f27c2d7e48fbc70c1d432"
+    },
+    {
+      "path": "proof.cjs",
+      "sha256": "50acfda55e3c3c7e7a91f5f61a202f4650e15fdbc2cbf9416c9ab9eb0eb0b776"
+    },
+    {
+      "path": "mix.py",
+      "sha256": "524d3d076ce6dc97849a38b9ce97b6cc3669646a35d4c36edf0941473954200b"
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "acd9a9802459aeba12834936afc251e2d2b86a636d3411916abed10ac3bd5a9a"
+    },
+    {
+      "path": "audio/voice_original.mp3",
+      "sha256": "5d78d8a7bc8b7fc3735163e81397771cc04e2d74b030098c93eaf3e7e87364d1"
+    },
+    {
+      "path": "audio/mix.wav",
+      "sha256": "1a7584350852551fc1ca12bf2272bf9b6cf44c4c3d518007ff87e3b1c3a9f3bf"
+    },
+    {
+      "path": "../art-v1/assets/steel-spoon.png",
+      "sha256": "5386e5afce644c16565e42dafad201b17775a475870a2f446bef45f6fb62e7f9"
+    },
+    {
+      "path": "../art-v1/assets/wood-spoon.png",
+      "sha256": "902193bc33f9322736ecd2facab6bd2f2c3b431c5990623c1031be93d79ebac1"
+    },
+    {
+      "path": "../art-v1/assets/hand.png",
+      "sha256": "be35402c5161a5deb586ee82750f6920b7ada41c91c8c9b679a2d6d660541365"
+    },
+    {
+      "path": "../art-v1/assets/Manrope800.ttf",
+      "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105"
+    },
+    {
+      "path": "../art-v1/assets/Playfair900.ttf",
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38"
+    },
+    {
+      "path": "../../../../engine/browser/finishing.js",
+      "sha256": "ae6217e3ac3b5872d8e17a86727797432c2e29c16242ed3a2e6a2f6c9716a380"
+    },
+    {
+      "path": "preflight.py",
+      "sha256": "1b135958c99eca69d95a63f70bc51810b38a902b00f06b0bfe3c3093bf462982"
+    }
+  ],
+  "coverage": {
+    "material_texture": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "0\u201313.9s, substrate / print / masked photo varnish",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/material_texture_on.jpg",
+          "sha256": "841d51809f77d4b7a4ddb138b9e2dab6398666c877ec0eada63a4a793839dc56"
+        },
+        {
+          "path": "proof/material_texture_off.jpg",
+          "sha256": "647168c35d7d84e786715aebee1bd0b4fe9a6a39f4b5322dcfd187a817b10e11"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "moving_grain": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "0\u201313.9s, 12fps changing film banks",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/moving_grain_on.jpg",
+          "sha256": "1b69817d5cf5d3ced3bd455d405405196c72ec9a3f5a07b308e10e3bd9ec418e"
+        },
+        {
+          "path": "proof/moving_grain_off.jpg",
+          "sha256": "181f081ff7c44daa10ca278359e21ce93be6e2713de69596cff94c0bfa4b72f9"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "motion_blur": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "6.38\u20137.02s",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/motion_blur_on.jpg",
+          "sha256": "381bf5b2e2abdd8b147a6d02b282f0a604dafca87899465d32d9699e79011b4b"
+        },
+        {
+          "path": "proof/motion_blur_off.jpg",
+          "sha256": "69f2fbcdaee718a50243641921ae33d442c755e17a42f4c0d3cc26a5fbbd0feb"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "selective_focus": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "3.0\u20136.35s",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/selective_focus_on.jpg",
+          "sha256": "c4c4c26fad62f170611ed925079d2ae57dbb656a7c924e3dd87b1d040e9b1a36"
+        },
+        {
+          "path": "proof/selective_focus_off.jpg",
+          "sha256": "05a37ed16b850ede5909b524605a3838d5c6d43fb231371a200c8a163c90ee2f"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "focus_shading": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "3.0\u20136.35s, same feathered spatial field",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/focus_shading_on.jpg",
+          "sha256": "c4c4c26fad62f170611ed925079d2ae57dbb656a7c924e3dd87b1d040e9b1a36"
+        },
+        {
+          "path": "proof/focus_shading_off.jpg",
+          "sha256": "803ed13786ff093d8faff4245f9a6cdec5fe32c7f3fe23a039a2f3dda5d929bd"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "focus_hunt": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "3.2\u20133.76s",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/focus_hunt_on.jpg",
+          "sha256": "2c39c5b603411e3bf008aa651e0f08921646ae7252ee0ce8ec23507710704027"
+        },
+        {
+          "path": "proof/focus_hunt_off.jpg",
+          "sha256": "f75b021aa954a3bbd6d84f9c7ee5bf8df655764c439cf7923a6ee02f4b3726c6"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "chromatic": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "picture only, entire passage",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/chromatic_on.jpg",
+          "sha256": "683adf7fe479bb45ca17a9bcd348cb99affe7b9e7137a324bdf21e9ad6a2275a"
+        },
+        {
+          "path": "proof/chromatic_off.jpg",
+          "sha256": "ba34db8e87713ed2e102124423393beb3b39d61c596816f4a01aa3545f4b0e05"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "mechanical_jitter": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "picture only, 18fps sampled subpixel motion",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/mechanical_jitter_on.jpg",
+          "sha256": "683adf7fe479bb45ca17a9bcd348cb99affe7b9e7137a324bdf21e9ad6a2275a"
+        },
+        {
+          "path": "proof/mechanical_jitter_off.jpg",
+          "sha256": "ef82df8edaaf7fb8235ed2f5db768ee8d95bdc2638c5e428e2fe04082eb58c5e"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "exposure": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "picture only, 5fps small shifts",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/exposure_on.jpg",
+          "sha256": "683adf7fe479bb45ca17a9bcd348cb99affe7b9e7137a324bdf21e9ad6a2275a"
+        },
+        {
+          "path": "proof/exposure_off.jpg",
+          "sha256": "9aa11bc59972ae6b46fd54895310a1fdf5bb4be3395b933021b98134d555ef19"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "ink_bleed": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "4.15\u20136.6s, heat-flow strokes",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/ink_bleed_on.jpg",
+          "sha256": "6c4cf93e8e3f3a515033f4772b5cdca3c90be05a1ae7764651014bd5879d5223"
+        },
+        {
+          "path": "proof/ink_bleed_off.jpg",
+          "sha256": "653bf6ce8c3dd84f121e38fb27d56420bd4ed89a7f66f2eed123822b404ab095"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "edge_boil": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "4.15\u20136.6s, anchored 12fps ink strokes",
+      "expected_result": "Actual independently toggled effect changes picture pixels; see runtime metrics and A/B rendered proof. Artistic usefulness is reviewed separately.",
+      "evidence": [
+        {
+          "path": "proof/edge_boil_on.jpg",
+          "sha256": "6c4cf93e8e3f3a515033f4772b5cdca3c90be05a1ae7764651014bd5879d5223"
+        },
+        {
+          "path": "proof/edge_boil_off.jpg",
+          "sha256": "a0fa6c64b7f77a391a3e1322ea5bbf066108f744a10b2b96d63343238bf5c091"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "caption_protection": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "all caption phrases",
+      "expected_result": "Opaque caption pixels identical with picture finishing toggled.",
+      "evidence": [
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "sequence_continuity": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "contact \u2192 print \u2192 paired comparison",
+      "expected_result": "Shared subject/contact identity and complete source replacement; readable settled hold and opaque frame checks.",
+      "evidence": [
+        {
+          "path": "scene-core.cjs",
+          "sha256": "5da553e540bb19dbde72b8bb6287b8aa9f6c36d0403e5900a94c375de117d992"
+        },
+        {
+          "path": "RUNTIME_PROOF.json",
+          "sha256": "edafa8442ebbba0db6bc7989e3c7fe790aa8a4e8a6410e5cb656e37e28da1985"
+        }
+      ]
+    },
+    "audio_tail": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "source through final complete phrase and 0.92s protected tail",
+      "expected_result": "All decoded voice samples retained without voice fade; final subjective ending review open.",
+      "evidence": [
+        {
+          "path": "NARRATION_TAIL_QA.json",
+          "sha256": "7cf0e1d9f187884e0ef57c35e99d098c6b0ded135d88feb3d258f5a5399d5df8"
+        }
+      ]
+    },
+    "sound_music": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "timecoded action cues and original harmonic miniature",
+      "expected_result": "Existing cues assigned to visible actions; distinct voice/music/SFX buses and final mix present. Listening is not certified by records.",
+      "evidence": [
+        {
+          "path": "SFX_CUE_SHEET.json",
+          "sha256": "ec46ca5d9ce97c83f97857daceab4c2fd1a8ea7204b6f1c77d2ac984d1f6badc"
+        },
+        {
+          "path": "timeline.json",
+          "sha256": "acd9a9802459aeba12834936afc251e2d2b86a636d3411916abed10ac3bd5a9a"
+        }
+      ]
+    },
+    "ending_protection": {
+      "applicable": false,
+      "reason": "This 13.9s isolated moving passage does not include the exact full-film endcard. It must be restored and separately tested in the full film."
+    }
+  },
+  "owner_motion_review": "NOT REVIEWED",
+  "subjective_listening": "OWNER REVIEW PENDING"
+}

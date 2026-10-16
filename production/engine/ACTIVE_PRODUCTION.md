@@ -57,3 +57,7 @@ Export storage: apply GITHUB_EXPORT_STORAGE.md. Proprietary exports require veri
 
 ## Five-project pre-render pilot — 16 October 2026
 Owner authorized trying a five-project pre-render queue. Read [pilot review](../pre-render/pilot-20261016/README.md) and [operating workflow](../pre-render/README.md). Current checkpoint: five researched story/sequence drafts, zero render-ready packages. Cold-feeling metal is the recommended first full package; Recorded Voice is a calibration/reuse candidate. No new full artwork, audio or native render has been claimed. Pilot adapters must bind `pre_render_manifest`; the native engine guard verifies restored frozen bytes, review records and known input closure before encoding. This is an operational supplement, not a Bible rewrite or an artistic certification.
+
+
+## Cold-metal moving passage — 16 October 2026
+Owner accepted art-v1 and explicitly authorized the sequence test, conditioned on retaining texture and applicable finishing. See cold-metal-pilot/OWNER_ART_APPROVAL.md. Use [finishing checklist](FINISHING_CHECKLIST.md) and the sequence FINISHING_COVERAGE.json instead of rereading unchanged full manuals. Actual rendered A/B and temporal-grain/caption proof precedes capture; encoded-phone review follows it. This is a short 1080p moving study; the complete episode is not render-ready and owner motion/listening approval remains open.

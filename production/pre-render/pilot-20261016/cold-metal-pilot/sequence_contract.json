@@ -1,7 +1,7 @@
 {
   "version": 1,
   "episode_id": "cold-metal-pilot",
-  "status": "ART_REVIEW",
+  "status": "MOTION_IN_PROGRESS",
   "shots": [
     {
       "id": "S01",
@@ -141,7 +141,10 @@
     }
   ],
   "owner_sequence_review": {
-    "status": "not_reviewed"
+    "status": "approved",
+    "date": "2026-10-16T20:18:18+08:00",
+    "evidence": "OWNER_ART_APPROVAL.md; exact reviewed outputs pinned in art-v1/QA.json",
+    "condition": "Preserve textures and all applicable finishing in actual moving output"
   },
   "owner_motion_review": {
     "status": "not_reviewed"
@@ -161,9 +164,7 @@
     },
     "heading_hidden_evidence": "art-v1/Cold_Metal_Passage_Review.jpg",
     "comparison": "art-v1/README.md: subject-owned contact, explicit illustrative print and retained anchor; original capture benchmark transfers the operation principle, not layout.",
-    "remaining_weaknesses": "Source zoom limits require final asset-detail correction; motion/temporal finishing and audio are not produced; owner review pending.",
-    "unresolved_fallbacks": [
-      "Final native crop-resolution audit outstanding"
-    ]
+    "remaining_weaknesses": "Owner approved the appearance and contact construction on 16 October. Crop magnifications remain a native-final-detail limitation, not a placeholder fallback; moving test is 1080p. Motion/audio/finishing require this moving review.",
+    "unresolved_fallbacks": []
   }
 }
