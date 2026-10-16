@@ -1,0 +1,10 @@
+{
+  "release_id": 414481470,
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/Wrinkled_Fingers_R2_4K.mp4",
+  "method": "Unauthenticated HTTPS GET of public Release download; complete returned bytes checked locally",
+  "result": "passed",
+  "bytes": 466636654,
+  "sha256": "08e8010c4ee0782c5b52934953499c15c683b5b13ce0f843ed1a3f4393a9aa54",
+  "github_digest_matches": true,
+  "verified_at": "2026-10-16"
+}
