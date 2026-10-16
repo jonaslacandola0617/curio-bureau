@@ -114,7 +114,8 @@ class Project:
 
  def render(self,profile,start=0,seconds=None):
   if profile=='native':
-   if self.config.get('pre_render_manifest'):
+   if self.config.get('pre_render_manifest') or self.config.get('id') in _pre.PILOT_IDS:
+    if not self.config.get('pre_render_manifest'):raise ValueError('Pilot episode requires pre_render_manifest')
     _pre.require_ready(self.episode/self.config['pre_render_manifest'],self.episode,self.project)
    validate_episode_sequence(self.config,self.episode,'release')
   self.build()

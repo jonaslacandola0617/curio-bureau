@@ -79,6 +79,12 @@ class GateTests(unittest.TestCase):
         self.m['status']='STORY_SEQUENCE_DRAFT';self.path.write_text(json.dumps(self.m))
         with patch.object(curio.Project,'build',side_effect=AssertionError('must not build')):
             with self.assertRaisesRegex(ValueError,'Pre-render blocked'): p.render('native')
+    def test_pilot_cannot_bypass_by_removing_binding(self):
+        spec=importlib.util.spec_from_file_location('curio_fixture',ENGINE/'curio.py')
+        curio=importlib.util.module_from_spec(spec);spec.loader.exec_module(curio)
+        p=object.__new__(curio.Project);p.config={'id':'cold-metal-pilot'}
+        with patch.object(curio.Project,'build',side_effect=AssertionError('must not build')):
+            with self.assertRaisesRegex(ValueError,'requires pre_render_manifest'): p.render('native')
     def test_pilot_has_five_valid_proposals_and_zero_ready(self):
         spec=importlib.util.spec_from_file_location('seq',ENGINE/'sequence.py')
         seq=importlib.util.module_from_spec(spec);spec.loader.exec_module(seq)

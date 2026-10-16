@@ -1,7 +1,7 @@
 {
   "checked_at": "2026-10-16",
   "unit_tests": {
-    "passed": 16,
+    "passed": 17,
     "failed": 0,
     "command": "python3 -m unittest discover -s production/engine/tools -p test_pre_render.py -v",
     "scope": "Synthetic fixtures plus real draft rejection; no artistic/remote-byte/native-encode certification"

@@ -11,6 +11,8 @@ REQUIRED_ROLES = {'story', 'research', 'sequence', 'source', 'asset', 'font', 'v
                   'mix', 'captions', 'finishing', 'ending', 'requirements', 'preview'}
 GATES = ('facts_rights', 'owner_art_sequence', 'owner_motion', 'owner_full_preview',
          'phone_captions', 'audio_listening_tail', 'technical_preflight', 'restore_rehearsal')
+PILOT_IDS = frozenset({'cold-metal-pilot', 'recorded-voice-pilot', 'mint-cold-pilot',
+                       'onion-tears-pilot', 'knuckle-pop-pilot'})
 OWNER_GATES = {'owner_art_sequence', 'owner_motion', 'owner_full_preview'}
 
 def digest(path):
