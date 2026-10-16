@@ -1,0 +1,74 @@
+{
+  "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/cold-metal-motion-v1-review-20261016",
+  "release_id": 414967191,
+  "source_commit": "12f2b873ae0001b3f0ae81354f08b70be12102bd",
+  "review_status": "owner motion/listening review pending",
+  "assets": [
+    {
+      "name": "CHECKSUMS.sha256",
+      "id": 647346931,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-motion-v1-review-20261016/CHECKSUMS.sha256",
+      "size": 443,
+      "sha256": "a2c6251d67dde0883c5e57ad5662238a2196e197abe0846e3ddcfb1df5683202"
+    },
+    {
+      "name": "Cold_Metal_Review.jpg",
+      "id": 647346888,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-motion-v1-review-20261016/Cold_Metal_Review.jpg",
+      "size": 188607,
+      "sha256": "e94caee35be9d218340acb59ad0b68032095c1d70c33db17988b872b8396b514"
+    },
+    {
+      "name": "Cold_Metal_Sequence.mp4",
+      "id": 647346686,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-motion-v1-review-20261016/Cold_Metal_Sequence.mp4",
+      "size": 29504643,
+      "sha256": "a2d66d21424a15039eb61ce2c4864c97519cfa004ff942d889e0efd4fc28adb7"
+    },
+    {
+      "name": "Cold_Metal_Sequence.webm",
+      "id": 647346774,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-motion-v1-review-20261016/Cold_Metal_Sequence.webm",
+      "size": 13983558,
+      "sha256": "962a51a1787df80c39b62256a691df3dacc52814953e82d10fa23506e37a25a1"
+    },
+    {
+      "name": "Cold_Metal_Source_Package.zip",
+      "id": 647346814,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-motion-v1-review-20261016/Cold_Metal_Source_Package.zip",
+      "size": 23062453,
+      "sha256": "d57233052b78c47f85f610e87b35f681c49c9503cebcc7e8b6874bc2639c1995"
+    },
+    {
+      "name": "Review.html",
+      "id": 647346913,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-motion-v1-review-20261016/Review.html",
+      "size": 1585,
+      "sha256": "52a8201f1534d7b16dfb82a8d3ed2f702b9facba7016ac40b6e76e1085f845d8"
+    }
+  ],
+  "public_download_verification": [
+    {
+      "name": "Cold_Metal_Sequence.mp4",
+      "bytes": 29504643,
+      "sha256": "a2d66d21424a15039eb61ce2c4864c97519cfa004ff942d889e0efd4fc28adb7",
+      "public_download": "PASS",
+      "zip_contents": null
+    },
+    {
+      "name": "Cold_Metal_Sequence.webm",
+      "bytes": 13983558,
+      "sha256": "962a51a1787df80c39b62256a691df3dacc52814953e82d10fa23506e37a25a1",
+      "public_download": "PASS",
+      "zip_contents": null
+    },
+    {
+      "name": "Cold_Metal_Source_Package.zip",
+      "bytes": 23062453,
+      "sha256": "d57233052b78c47f85f610e87b35f681c49c9503cebcc7e8b6874bc2639c1995",
+      "public_download": "PASS",
+      "zip_contents": "PASS"
+    }
+  ],
+  "scope": "13.9-second 1080x1920 30fps moving review; not a full-film or native 4K master"
+}
