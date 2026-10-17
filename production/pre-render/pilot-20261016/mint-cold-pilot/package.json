@@ -161,8 +161,8 @@
   "publish_intent": "NEW POST / batch slot 1",
   "sequence_revision": 2,
   "full_review": {
-    "path": "full-v1/00-Mint-1080p-Review-v1.mp4",
-    "sha256": "2d7511700d441dc31281ba5d20deb4575eb81403b617d96a3e88c88fe8adfe59",
+    "path": "full-v2/00-Mint-1080p-Review-v2.mp4",
+    "sha256": "5197edccd418eb6739eb43022f02b737a825b514047700b9b1cfd2a29ca19400",
     "duration": 40.033333,
     "frames": 1201,
     "native": [
@@ -170,11 +170,12 @@
       1920
     ],
     "fps": 30,
-    "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/00-Mint-1080p-Review-v1.mp4",
-    "archive_asset_id": 650258246,
-    "technical_qa": "full-v1/OUTPUT_QA.json",
-    "source_restore": "full-v1/FROZEN_FRAME_RESTORE_QA.json",
+    "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v2-review-20261017/00-Mint-1080p-Review-v2.mp4",
+    "archive_asset_id": 650316519,
+    "technical_qa": "full-v2/OUTPUT_QA.json",
+    "source_restore": "full-v2/FROZEN_FRAME_RESTORE_QA.json",
     "owner_motion_approval": "PENDING",
     "owner_full_film_approval": "PENDING"
-  }
+  },
+  "finishing_feedback": "full-v2/OWNER_FINISHING_FEEDBACK.md"
 }
