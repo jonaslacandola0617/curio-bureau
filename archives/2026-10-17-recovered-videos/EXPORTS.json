@@ -1,0 +1,109 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "film/lake-peigneur-1980",
+  "previous_branch_head": "15175f67bf32d9f86b19e18d495370811ccc87c4",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "Curio_Bureau_004_4K_INSTRUMENTAL_AUDIO_REPAIR.mp4",
+      "size": 192937984,
+      "sha256": "adf3b696384e64bd0081c710bee2c923cecfcd07dd5fdea86b1074106c68d0d0",
+      "group": "lake-peigneur",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "75.000000",
+          "nb_frames": "2250"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "75.000000",
+          "nb_frames": "3517"
+        }
+      ],
+      "duration": "75.000000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/lake-peigneur-1980"
+    },
+    {
+      "name": "CURIO_BUREAU_004_4K_NATURAL_VOICE_REVISION.mp4",
+      "size": 197132288,
+      "sha256": "c9200feee39cf865c661b4f2182c373ff5c2c30735162cfd33efbc69005544ab",
+      "group": "lake-peigneur",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "75.000000",
+          "nb_frames": "2250"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "75.000000",
+          "nb_frames": "3517"
+        }
+      ],
+      "duration": "75.000000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/lake-peigneur-1980"
+    },
+    {
+      "name": "Curio_Bureau_EP004_4K_MOTION_WIP.mp4",
+      "size": 240383327,
+      "sha256": "e7fcfa87d734bfbad1480749ddb0864aef25c01c23d47f69363ea16766ec2c19",
+      "group": "lake-peigneur",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "75.000000",
+          "nb_frames": "2250"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "75.000000",
+          "nb_frames": "3517"
+        }
+      ],
+      "duration": "75.000000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/lake-peigneur-1980"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
