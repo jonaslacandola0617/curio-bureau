@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "episode_id": "mint-cold-pilot",
-  "status": "ART_REVIEW",
+  "status": "MOTION_IN_PROGRESS",
   "settings": {
     "width": 1080,
     "height": 1920,
@@ -38,7 +38,7 @@
     {
       "path": "sequence_contract.json",
       "role": "sequence",
-      "sha256": "8dbf8da10dcf53b38202e747bcf999429f76912ca70b8ca71f6f44c69b76ea50",
+      "sha256": "964fba7b68a1d23574947383b17143ce769c702546b0f8b1fe907387b98074cc",
       "archive": {
         "kind": "git"
       }
@@ -142,7 +142,7 @@
     {
       "path": "art-v2/ART_QA.json",
       "role": "proof",
-      "sha256": "4a199c888f8ab98c7b0ed244be6bf942b22412a490ce99f47e57b789a0c873af",
+      "sha256": "7ea835cbdb167c8acf12d3fcbb2d8f8e9b64d193d71a206b22d3d6b6bb2a4190",
       "archive": {
         "kind": "git"
       }

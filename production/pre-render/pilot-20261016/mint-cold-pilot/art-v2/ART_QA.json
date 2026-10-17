@@ -1,6 +1,6 @@
 {
   "scope": "STATIC ART / no whole-film or motion certification",
-  "status": "OWNER ART REVIEW PENDING",
+  "status": "OWNER ART APPROVED",
   "rendered_states": [
     {
       "id": "01_hook",
@@ -80,8 +80,10 @@
   ],
   "unresolved_fallbacks": [],
   "owner_review": {
-    "status": "not_reviewed"
+    "status": "approved",
+    "date": "2026-10-17",
+    "evidence": "Owner: approve, btw every project will have an artwork right? \u2026 then okay, lets proceed with mint. Approval binds art-v2 rendered states; motion/full episode approval remains pending."
   },
-  "motion": "NOT BUILT",
+  "motion": "IN PROGRESS",
   "full_preview": "NOT BUILT"
 }

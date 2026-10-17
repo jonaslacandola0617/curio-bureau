@@ -1,0 +1,763 @@
+{
+  "duration": 40.03333333333333,
+  "frames": 1201,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "voice_end": 38.07,
+  "speech_last_word_end": 38.03,
+  "ending_start": 38.93333333333333,
+  "protected_tail": 0.8633333333333297,
+  "silence_edits": [
+    [
+      4.24,
+      4.89
+    ]
+  ],
+  "captions": [
+    {
+      "start": 0.18,
+      "end": 1.6500000000000001,
+      "text": "Mint can feel cold",
+      "words": [
+        {
+          "text": "Mint",
+          "type": "word",
+          "start": 0.18,
+          "end": 0.4
+        },
+        {
+          "text": "can",
+          "type": "word",
+          "start": 0.5,
+          "end": 0.62
+        },
+        {
+          "text": "feel",
+          "type": "word",
+          "start": 0.74,
+          "end": 0.92
+        },
+        {
+          "text": "cold",
+          "type": "word",
+          "start": 1.1,
+          "end": 1.58
+        }
+      ]
+    },
+    {
+      "start": 1.66,
+      "end": 3.19,
+      "text": "without coming out of a fridge.",
+      "words": [
+        {
+          "text": "without",
+          "type": "word",
+          "start": 1.66,
+          "end": 1.96
+        },
+        {
+          "text": "coming",
+          "type": "word",
+          "start": 2,
+          "end": 2.22
+        },
+        {
+          "text": "out",
+          "type": "word",
+          "start": 2.26,
+          "end": 2.34
+        },
+        {
+          "text": "of",
+          "type": "word",
+          "start": 2.38,
+          "end": 2.44
+        },
+        {
+          "text": "a",
+          "type": "word",
+          "start": 2.48,
+          "end": 2.6
+        },
+        {
+          "text": "fridge.",
+          "type": "word",
+          "start": 2.64,
+          "end": 3.12
+        }
+      ]
+    },
+    {
+      "start": 3.64,
+      "end": 4.1290000000000004,
+      "text": "How?",
+      "words": [
+        {
+          "text": "How?",
+          "type": "word",
+          "start": 3.64,
+          "end": 4.059
+        }
+      ]
+    },
+    {
+      "start": 4.61,
+      "end": 5.120000000000001,
+      "text": "Menthol,",
+      "words": [
+        {
+          "text": "Menthol,",
+          "type": "word",
+          "start": 4.61,
+          "end": 5.050000000000001
+        }
+      ]
+    },
+    {
+      "start": 5.390000000000001,
+      "end": 6.920000000000001,
+      "text": "a compound found in peppermint,",
+      "words": [
+        {
+          "text": "a",
+          "type": "word",
+          "start": 5.390000000000001,
+          "end": 5.45
+        },
+        {
+          "text": "compound",
+          "type": "word",
+          "start": 5.49,
+          "end": 5.91
+        },
+        {
+          "text": "found",
+          "type": "word",
+          "start": 6.010000000000001,
+          "end": 6.23
+        },
+        {
+          "text": "in",
+          "type": "word",
+          "start": 6.250000000000001,
+          "end": 6.330000000000001
+        },
+        {
+          "text": "peppermint,",
+          "type": "word",
+          "start": 6.430000000000001,
+          "end": 6.8500000000000005
+        }
+      ]
+    },
+    {
+      "start": 7.19,
+      "end": 8.0,
+      "text": "can activate a",
+      "words": [
+        {
+          "text": "can",
+          "type": "word",
+          "start": 7.19,
+          "end": 7.330000000000001
+        },
+        {
+          "text": "activate",
+          "type": "word",
+          "start": 7.430000000000001,
+          "end": 7.7700000000000005
+        },
+        {
+          "text": "a",
+          "type": "word",
+          "start": 7.830000000000001,
+          "end": 7.930000000000001
+        }
+      ]
+    },
+    {
+      "start": 8.010000000000002,
+      "end": 11.2,
+      "text": "cold-sensitive channel called TRPM8.",
+      "words": [
+        {
+          "text": "cold-sensitive",
+          "type": "word",
+          "start": 8.010000000000002,
+          "end": 8.75
+        },
+        {
+          "text": "channel",
+          "type": "word",
+          "start": 8.850000000000001,
+          "end": 9.21
+        },
+        {
+          "text": "called",
+          "type": "word",
+          "start": 9.25,
+          "end": 9.490000000000002
+        },
+        {
+          "text": "TRPM8.",
+          "type": "word",
+          "start": 9.73,
+          "end": 11.129999999999999
+        }
+      ]
+    },
+    {
+      "start": 11.93,
+      "end": 13.600000000000001,
+      "text": "Cooling can activate it too.",
+      "words": [
+        {
+          "text": "Cooling",
+          "type": "word",
+          "start": 11.93,
+          "end": 12.41
+        },
+        {
+          "text": "can",
+          "type": "word",
+          "start": 12.45,
+          "end": 12.59
+        },
+        {
+          "text": "activate",
+          "type": "word",
+          "start": 12.670000000000002,
+          "end": 13.030000000000001
+        },
+        {
+          "text": "it",
+          "type": "word",
+          "start": 13.07,
+          "end": 13.170000000000002
+        },
+        {
+          "text": "too.",
+          "type": "word",
+          "start": 13.25,
+          "end": 13.530000000000001
+        }
+      ]
+    },
+    {
+      "start": 14.09,
+      "end": 15.940000000000001,
+      "text": "That gives us two different inputs,",
+      "words": [
+        {
+          "text": "That",
+          "type": "word",
+          "start": 14.09,
+          "end": 14.27
+        },
+        {
+          "text": "gives",
+          "type": "word",
+          "start": 14.310000000000002,
+          "end": 14.510000000000002
+        },
+        {
+          "text": "us",
+          "type": "word",
+          "start": 14.57,
+          "end": 14.75
+        },
+        {
+          "text": "two",
+          "type": "word",
+          "start": 14.830000000000002,
+          "end": 14.990000000000002
+        },
+        {
+          "text": "different",
+          "type": "word",
+          "start": 15.09,
+          "end": 15.350000000000001
+        },
+        {
+          "text": "inputs,",
+          "type": "word",
+          "start": 15.409000000000002,
+          "end": 15.870000000000001
+        }
+      ]
+    },
+    {
+      "start": 16.21,
+      "end": 17.360000000000003,
+      "text": "a temperature change",
+      "words": [
+        {
+          "text": "a",
+          "type": "word",
+          "start": 16.21,
+          "end": 16.290000000000003
+        },
+        {
+          "text": "temperature",
+          "type": "word",
+          "start": 16.35,
+          "end": 16.810000000000002
+        },
+        {
+          "text": "change",
+          "type": "word",
+          "start": 16.93,
+          "end": 17.290000000000003
+        }
+      ]
+    },
+    {
+      "start": 17.55,
+      "end": 18.360000000000003,
+      "text": "and a chemical.",
+      "words": [
+        {
+          "text": "and",
+          "type": "word",
+          "start": 17.55,
+          "end": 17.650000000000002
+        },
+        {
+          "text": "a",
+          "type": "word",
+          "start": 17.69,
+          "end": 17.75
+        },
+        {
+          "text": "chemical.",
+          "type": "word",
+          "start": 17.810000000000002,
+          "end": 18.290000000000003
+        }
+      ]
+    },
+    {
+      "start": 18.73,
+      "end": 19.740000000000002,
+      "text": "Both can stimulate",
+      "words": [
+        {
+          "text": "Both",
+          "type": "word",
+          "start": 18.73,
+          "end": 18.970000000000002
+        },
+        {
+          "text": "can",
+          "type": "word",
+          "start": 19.05,
+          "end": 19.21
+        },
+        {
+          "text": "stimulate",
+          "type": "word",
+          "start": 19.290000000000003,
+          "end": 19.67
+        }
+      ]
+    },
+    {
+      "start": 19.790000000000003,
+      "end": 21.680000000000003,
+      "text": "part of the same sensory machinery.",
+      "words": [
+        {
+          "text": "part",
+          "type": "word",
+          "start": 19.790000000000003,
+          "end": 19.950000000000003
+        },
+        {
+          "text": "of",
+          "type": "word",
+          "start": 19.990000000000002,
+          "end": 20.05
+        },
+        {
+          "text": "the",
+          "type": "word",
+          "start": 20.09,
+          "end": 20.23
+        },
+        {
+          "text": "same",
+          "type": "word",
+          "start": 20.290000000000003,
+          "end": 20.51
+        },
+        {
+          "text": "sensory",
+          "type": "word",
+          "start": 20.650000000000002,
+          "end": 20.970000000000002
+        },
+        {
+          "text": "machinery.",
+          "type": "word",
+          "start": 21.05,
+          "end": 21.610000000000003
+        }
+      ]
+    },
+    {
+      "start": 22.130000000000003,
+      "end": 23.580000000000002,
+      "text": "So a cooling sensation",
+      "words": [
+        {
+          "text": "So",
+          "type": "word",
+          "start": 22.130000000000003,
+          "end": 22.290000000000003
+        },
+        {
+          "text": "a",
+          "type": "word",
+          "start": 22.35,
+          "end": 22.41
+        },
+        {
+          "text": "cooling",
+          "type": "word",
+          "start": 22.490000000000002,
+          "end": 22.830000000000002
+        },
+        {
+          "text": "sensation",
+          "type": "word",
+          "start": 22.93,
+          "end": 23.51
+        }
+      ]
+    },
+    {
+      "start": 23.55,
+      "end": 25.040000000000003,
+      "text": "does not by itself",
+      "words": [
+        {
+          "text": "does",
+          "type": "word",
+          "start": 23.55,
+          "end": 23.73
+        },
+        {
+          "text": "not",
+          "type": "word",
+          "start": 23.790000000000003,
+          "end": 24.19
+        },
+        {
+          "text": "by",
+          "type": "word",
+          "start": 24.23,
+          "end": 24.41
+        },
+        {
+          "text": "itself",
+          "type": "word",
+          "start": 24.450000000000003,
+          "end": 24.970000000000002
+        }
+      ]
+    },
+    {
+      "start": 25.150000000000002,
+      "end": 26.26,
+      "text": "tell you the temperature",
+      "words": [
+        {
+          "text": "tell",
+          "type": "word",
+          "start": 25.150000000000002,
+          "end": 25.310000000000002
+        },
+        {
+          "text": "you",
+          "type": "word",
+          "start": 25.35,
+          "end": 25.43
+        },
+        {
+          "text": "the",
+          "type": "word",
+          "start": 25.470000000000002,
+          "end": 25.57
+        },
+        {
+          "text": "temperature",
+          "type": "word",
+          "start": 25.630000000000003,
+          "end": 26.19
+        }
+      ]
+    },
+    {
+      "start": 26.25,
+      "end": 27.700000000000003,
+      "text": "of what you touched or tasted.",
+      "words": [
+        {
+          "text": "of",
+          "type": "word",
+          "start": 26.25,
+          "end": 26.35
+        },
+        {
+          "text": "what",
+          "type": "word",
+          "start": 26.37,
+          "end": 26.53
+        },
+        {
+          "text": "you",
+          "type": "word",
+          "start": 26.57,
+          "end": 26.67
+        },
+        {
+          "text": "touched",
+          "type": "word",
+          "start": 26.73,
+          "end": 27.01
+        },
+        {
+          "text": "or",
+          "type": "word",
+          "start": 27.05,
+          "end": 27.110000000000003
+        },
+        {
+          "text": "tasted.",
+          "type": "word",
+          "start": 27.21,
+          "end": 27.630000000000003
+        }
+      ]
+    },
+    {
+      "start": 28.43,
+      "end": 30.78,
+      "text": "The mint is not a tiny ice cube.",
+      "words": [
+        {
+          "text": "The",
+          "type": "word",
+          "start": 28.43,
+          "end": 28.53
+        },
+        {
+          "text": "mint",
+          "type": "word",
+          "start": 28.59,
+          "end": 28.89
+        },
+        {
+          "text": "is",
+          "type": "word",
+          "start": 28.970000000000002,
+          "end": 29.150000000000002
+        },
+        {
+          "text": "not",
+          "type": "word",
+          "start": 29.23,
+          "end": 29.55
+        },
+        {
+          "text": "a",
+          "type": "word",
+          "start": 29.610000000000003,
+          "end": 29.67
+        },
+        {
+          "text": "tiny",
+          "type": "word",
+          "start": 29.73,
+          "end": 30.05
+        },
+        {
+          "text": "ice",
+          "type": "word",
+          "start": 30.130000000000003,
+          "end": 30.310000000000002
+        },
+        {
+          "text": "cube.",
+          "type": "word",
+          "start": 30.39,
+          "end": 30.71
+        }
+      ]
+    },
+    {
+      "start": 31.25,
+      "end": 32.82,
+      "text": "Its chemistry can take another",
+      "words": [
+        {
+          "text": "Its",
+          "type": "word",
+          "start": 31.25,
+          "end": 31.43
+        },
+        {
+          "text": "chemistry",
+          "type": "word",
+          "start": 31.469,
+          "end": 31.969
+        },
+        {
+          "text": "can",
+          "type": "word",
+          "start": 32.07,
+          "end": 32.190000000000005
+        },
+        {
+          "text": "take",
+          "type": "word",
+          "start": 32.230000000000004,
+          "end": 32.39
+        },
+        {
+          "text": "another",
+          "type": "word",
+          "start": 32.43,
+          "end": 32.75
+        }
+      ]
+    },
+    {
+      "start": 32.85,
+      "end": 34.54,
+      "text": "route to a cold-sensitive channel.",
+      "words": [
+        {
+          "text": "route",
+          "type": "word",
+          "start": 32.85,
+          "end": 33.11
+        },
+        {
+          "text": "to",
+          "type": "word",
+          "start": 33.15,
+          "end": 33.230000000000004
+        },
+        {
+          "text": "a",
+          "type": "word",
+          "start": 33.27,
+          "end": 33.33
+        },
+        {
+          "text": "cold-sensitive",
+          "type": "word",
+          "start": 33.39,
+          "end": 34.03
+        },
+        {
+          "text": "channel.",
+          "type": "word",
+          "start": 34.13,
+          "end": 34.47
+        }
+      ]
+    },
+    {
+      "start": 35.07,
+      "end": 35.96,
+      "text": "Different input,",
+      "words": [
+        {
+          "text": "Different",
+          "type": "word",
+          "start": 35.07,
+          "end": 35.43
+        },
+        {
+          "text": "input,",
+          "type": "word",
+          "start": 35.51,
+          "end": 35.89
+        }
+      ]
+    },
+    {
+      "start": 36.370000000000005,
+      "end": 38.1,
+      "text": "a familiar cold sensation",
+      "words": [
+        {
+          "text": "a",
+          "type": "word",
+          "start": 36.370000000000005,
+          "end": 36.45
+        },
+        {
+          "text": "familiar",
+          "type": "word",
+          "start": 36.49,
+          "end": 36.97
+        },
+        {
+          "text": "cold",
+          "type": "word",
+          "start": 37.11,
+          "end": 37.370000000000005
+        },
+        {
+          "text": "sensation",
+          "type": "word",
+          "start": 37.45,
+          "end": 38.03
+        }
+      ]
+    }
+  ],
+  "word_timing_status": "Scribe measured word events reconciled with script; no duration-estimated words",
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 4.24
+    },
+    {
+      "id": "S02",
+      "start": 4.24,
+      "end": 7.19
+    },
+    {
+      "id": "S03",
+      "start": 7.19,
+      "end": 13.85
+    },
+    {
+      "id": "S04",
+      "start": 13.85,
+      "end": 18.65
+    },
+    {
+      "id": "S05",
+      "start": 18.65,
+      "end": 22.0
+    },
+    {
+      "id": "S06",
+      "start": 22.0,
+      "end": 28.25
+    },
+    {
+      "id": "S07",
+      "start": 28.25,
+      "end": 40.03333333333333
+    }
+  ]
+}
