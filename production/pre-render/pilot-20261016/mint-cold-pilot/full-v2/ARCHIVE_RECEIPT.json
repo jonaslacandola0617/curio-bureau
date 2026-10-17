@@ -1,0 +1,21 @@
+{
+  "release_id": 415764157,
+  "assets": [
+    {
+      "id": 650296388,
+      "name": "Mint-v2-lossless-0000-0239.mkv",
+      "bytes": 759545111,
+      "digest": "sha256:aa99414551e59a42bb62b384623b09eaff661135a9e36c3c84f6f203783c3ef2",
+      "state": "uploaded",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v2-review-20261017/Mint-v2-lossless-0000-0239.mkv"
+    },
+    {
+      "id": 650297297,
+      "name": "Mint-v2-lossless-0240-0479.mkv",
+      "bytes": 696128853,
+      "digest": "sha256:2165fd914160ac35fae8b5d268353ff2be561f1fb9a20a079b396f56b86d0e88",
+      "state": "uploaded",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v2-review-20261017/Mint-v2-lossless-0240-0479.mkv"
+    }
+  ]
+}

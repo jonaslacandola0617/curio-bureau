@@ -1,0 +1,36 @@
+{
+  "source_commit": "0f897eccd22931966f31b3f371608a0945266992",
+  "exact_mix_archive": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-Mix-v1.flac",
+  "files": [
+    {
+      "path": "render.cjs",
+      "bytes": 5945,
+      "sha256": "c9f9ebe7b03adcacb3328886292486c53677b84ea5c1e04709b7e3975d38826a"
+    },
+    {
+      "path": "scene-core.cjs",
+      "bytes": 10929,
+      "sha256": "d065e93fa03cb9ec225bd3bc3fec5a053dbe39deccb2b871d808fffe0cd0c6df"
+    },
+    {
+      "path": "timeline.json",
+      "bytes": 15950,
+      "sha256": "40589392806a1d80e52fc924131f76c8976eb9669a98efb49aa6fcc5a929a358"
+    },
+    {
+      "path": "audio/voice-original.mp3",
+      "bytes": 620712,
+      "sha256": "bcf03d1d22fa1b10380919fb2c2ac9dae2233677575fd8f7c237725840d47d72"
+    },
+    {
+      "path": "audio/mix.wav",
+      "bytes": 7686478,
+      "sha256": "f089911d25da80480a507849ea02395f1cc455c658c0ea4e62e090fdf509a958"
+    },
+    {
+      "path": "audio/Mint-Mix-v1.flac",
+      "bytes": 2644122,
+      "sha256": "75e63b11b890cc4fea5cd1f04e2ceeb90f784e31321a64b84cfc8294d79035a6"
+    }
+  ]
+}

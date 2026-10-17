@@ -1,0 +1,96 @@
+{
+  "source_commit": "0f897eccd22931966f31b3f371608a0945266992",
+  "separate_clean_git_checkout": true,
+  "all_22_native_frames_identical": true,
+  "samples": [
+    {
+      "time": 0.8,
+      "sha256": "5a9ac554ed0bcb71e9e58a4545d1bbbcc6f41acd0a0691e058414198c56f5dab"
+    },
+    {
+      "time": 3.2,
+      "sha256": "e9d3165daa00423615db0e750d761a41f1ea58cdb3bf65e390efe86b70297819"
+    },
+    {
+      "time": 4.14,
+      "sha256": "e88bdb018279f3d361434d964a6c742bdc9e9d67fb0a64c4f5742478be9d88c8"
+    },
+    {
+      "time": 4.34,
+      "sha256": "372822fff49ae70f8001c62bdf1c5ec7a7a018b44ea98b528863669a8587b798"
+    },
+    {
+      "time": 5.7,
+      "sha256": "ccafcb446df56f2523c72fb32c3e0cd8ba982cfdf734218d579dff3715b764f1"
+    },
+    {
+      "time": 7.09,
+      "sha256": "17bf889293eb9cc7f27ce5d7c17516e9e8e437d9b0c047475bbbdabc9eb42ac5"
+    },
+    {
+      "time": 7.29,
+      "sha256": "3df04bd0f4ecec317e8bf371eb980d84b6b8c0df189018c154a8308a53d04f98"
+    },
+    {
+      "time": 10.5,
+      "sha256": "88ebc05c3e240bc2812a6c66c753a70e281e0feabff489b1bce43d40626fc0d7"
+    },
+    {
+      "time": 13.75,
+      "sha256": "c1121491299937465a45256970cf0ec1dd3a5bfbd7d5c4cf6a3950c5d8b95a69"
+    },
+    {
+      "time": 13.95,
+      "sha256": "202d5da1a23a9d01a6d50227cf7e664d00abe9aa9786d1c03419a62a73c619f3"
+    },
+    {
+      "time": 16.8,
+      "sha256": "6821528c36e53066e65442836074d03df2f9fa9bdb081c42c190d4599cb7b92d"
+    },
+    {
+      "time": 18.55,
+      "sha256": "e5ddb38bd0d4a8c952b1183a9dbb4604c975dda1395dc7746b56d94ed6e1d59c"
+    },
+    {
+      "time": 18.75,
+      "sha256": "3dbae3210b0e00887887700a8a58f03a78f0f0db982daf437f687acd81ce24a8"
+    },
+    {
+      "time": 20.5,
+      "sha256": "df77ca67f3291bd2d9005522cf834dec79d5e9177a77b5addf01c56648ff2abf"
+    },
+    {
+      "time": 21.9,
+      "sha256": "60a1f1d4f317d9d92820f91da77c9a25af8c0acbedd7c86509f31c01926ea6e8"
+    },
+    {
+      "time": 22.1,
+      "sha256": "40490dc1644bf26474057784f7c0509fdbf54335785b2a22706db6ce616195d4"
+    },
+    {
+      "time": 25,
+      "sha256": "1488ff37a47bd69473c3cf2f187d9ba6917b104346f4011957bc14da98170ec1"
+    },
+    {
+      "time": 28.15,
+      "sha256": "2074492b8d94361b4deac2f2139ba8b1d61be31f855cb034d97c1adc9b856d50"
+    },
+    {
+      "time": 28.35,
+      "sha256": "3d9937352befa7c67d802801dc9921e9aa6e37e633fd674cb4eb20eacf129043"
+    },
+    {
+      "time": 33,
+      "sha256": "4120cb71937a1eae7b6a68db81d90d8bbe564a4ef1635644b115a5e27178fbe7"
+    },
+    {
+      "time": 37.5,
+      "sha256": "6dfdf9d4d5b512971398b89221a2eb185267e1dffdb3054e80ef0a381b0c8a4a"
+    },
+    {
+      "time": 39.9,
+      "sha256": "bb9dda87e605f3680e86eb5b782cc935ba0076a227a685c644e7a67da97b9085"
+    }
+  ],
+  "scope": "Restored native frames, not a second full encode or owner approval"
+}

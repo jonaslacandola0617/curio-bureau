@@ -1,0 +1,142 @@
+{
+  "native": [
+    1080,
+    1920
+  ],
+  "finishing_samples": [
+    {
+      "time": 1.2,
+      "finishing_on": "511a1e2e32d8a37c66ca0d986aba6b321f96aa6fa56d87f027276437d0773bfc",
+      "finishing_off": "df80393c5652059b2670c7491bd38084b83b32a5e7f1ae9982fc7dba42ba0f6d",
+      "different": true,
+      "settings": {
+        "cut": 0,
+        "focus": {
+          "x": 570,
+          "y": 700,
+          "rx": 510,
+          "ry": 600
+        },
+        "focusStrength": 0.2,
+        "hunt": 0,
+        "grain": 0.29,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.025
+      }
+    },
+    {
+      "time": 4.35,
+      "finishing_on": "ec4e2a2e13272ad49a792db609e9177c60264bc08b94623739d2e70275c4847d",
+      "finishing_off": "ae481f08f4b79e4e0ce0ad7c02841ce1e407d3583a7b14967582f591a84b8e4f",
+      "different": true,
+      "settings": {
+        "cut": 0.7045120000000007,
+        "focus": {
+          "x": 480,
+          "y": 640,
+          "rx": 450,
+          "ry": 470
+        },
+        "focusStrength": 0.2,
+        "hunt": 2.5,
+        "grain": 0.29,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.025
+      }
+    },
+    {
+      "time": 10,
+      "finishing_on": "86608079ba3f98efc01c9a76927095f166de02361aeadf4d2547d5cc6079a4a3",
+      "finishing_off": "f71e789d2cff72e597e85bf9009c095745196d157bf82b5e6bf390b27e9b5eec",
+      "different": true,
+      "settings": {
+        "cut": 0,
+        "focus": {
+          "x": 540,
+          "y": 1475,
+          "rx": 430,
+          "ry": 370
+        },
+        "focusStrength": 0.25,
+        "hunt": 0,
+        "grain": 0.14,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.025
+      }
+    },
+    {
+      "time": 16.7,
+      "finishing_on": "f2ae7759062407b25f7f01485c37640da7e86b1d81a47f37f15714a6def49771",
+      "finishing_off": "6d402b9cd99212f705334d8c9e9a2ed916dcf9bad0bc34ed44bed93511bf9741",
+      "different": true,
+      "settings": {
+        "cut": 0,
+        "focus": {
+          "x": 540,
+          "y": 1475,
+          "rx": 430,
+          "ry": 370
+        },
+        "focusStrength": 0.25,
+        "hunt": 0,
+        "grain": 0.29,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.025
+      }
+    },
+    {
+      "time": 24,
+      "finishing_on": "b093e28ffd79ddc3162ae619fbcd300b5dc3a3e78159b37a3f41b460d5670c6b",
+      "finishing_off": "9cc375bab74941a9a84d4a86143914e403d8785453e32c691fb4f1ad25534107",
+      "different": true,
+      "settings": {
+        "cut": 0,
+        "focus": {
+          "x": 690,
+          "y": 660,
+          "rx": 480,
+          "ry": 470
+        },
+        "focusStrength": 0.2,
+        "hunt": 0,
+        "grain": 0.14,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.025
+      }
+    },
+    {
+      "time": 33,
+      "finishing_on": "4120cb71937a1eae7b6a68db81d90d8bbe564a4ef1635644b115a5e27178fbe7",
+      "finishing_off": "4d4397aa1ed7c3bfa9da71cf07168cf6166fc712ab042b7c1abdbf4dceda715c",
+      "different": true,
+      "settings": {
+        "cut": 0,
+        "focus": {
+          "x": 540,
+          "y": 1510,
+          "rx": 500,
+          "ry": 400
+        },
+        "focusStrength": 0.2,
+        "hunt": 0,
+        "grain": 0.29,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.025
+      }
+    }
+  ],
+  "opaque_ending": {
+    "on": "bb9dda87e605f3680e86eb5b782cc935ba0076a227a685c644e7a67da97b9085",
+    "off": "bb9dda87e605f3680e86eb5b782cc935ba0076a227a685c644e7a67da97b9085",
+    "identical": true
+  },
+  "deterministic_frame": true,
+  "caption_layer": "after optical treatment; screen-fixed center",
+  "status": "Pixel tests establish implementation and deterministic output, not subjective art/listening approval"
+}
