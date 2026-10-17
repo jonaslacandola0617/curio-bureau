@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "film/london-bridge-arizona-1968",
   "previous_branch_head": "8ab7e570ece80bd0cb7d44f1109807078a867c20",
   "original_render_source_commit": "not inferred from archive commit",
@@ -36,7 +36,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/london-bridge-arizona-1968"
+      "branch": "film/london-bridge-arizona-1968",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649802060,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/London_Bridge_Review.mp4",
+        "size": 249336345,
+        "digest": "sha256:ca109e75dac3c68b15109c659c0a600ba7ce4d2eefa4d31fadb78e9ce13f718a",
+        "state": "uploaded"
+      }
     },
     {
       "name": "London_Bridge_4K_Master.mp4",
@@ -71,7 +79,15 @@
         "archive": "London_Bridge_4K_Master_Archive.zip",
         "sha256": "6ddd07068a271f6e65f262edd0e14c6e59df2533fb42677c867a2d1f33458619"
       },
-      "branch": "film/london-bridge-arizona-1968"
+      "branch": "film/london-bridge-arizona-1968",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649806363,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/London_Bridge_4K_Master.mp4",
+        "size": 712870545,
+        "digest": "sha256:6ddd07068a271f6e65f262edd0e14c6e59df2533fb42677c867a2d1f33458619",
+        "state": "uploaded"
+      }
     },
     {
       "name": "London_Bridge_4K.mp4",
@@ -104,7 +120,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/london-bridge-arizona-1968"
+      "branch": "film/london-bridge-arizona-1968",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649813373,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/London_Bridge_4K.mp4",
+        "size": 316068118,
+        "digest": "sha256:615335b50b1250150394ba12c64bb04554a28630897fb098184346ebb2465d92",
+        "state": "uploaded"
+      }
     },
     {
       "name": "London_Bridge_4K.webm",
@@ -133,8 +157,27 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/london-bridge-arizona-1968"
+      "branch": "film/london-bridge-arizona-1968",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649816459,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/London_Bridge_4K.webm",
+        "size": 389565009,
+        "digest": "sha256:55780ecfebdf2582916670f54b889ac763dec5a78bf22ef7545005beb0c8b864",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:05:02.509Z",
+  "recovery_checkpoint_parent": "a76b2be6e663fb69ac415a337bdbf725785a7665",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }
