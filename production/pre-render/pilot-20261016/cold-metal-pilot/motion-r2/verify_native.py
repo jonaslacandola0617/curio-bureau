@@ -7,6 +7,9 @@ for name in ['Cold_Metal_R2_4K.mp4','Cold_Metal_R2_4K.webm','Cold_Metal_R2_Posti
  p=r/name;probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-count_frames','-show_streams','-show_format','-of','json',str(p)]));v=next(s for s in probe['streams']if s['codec_type']=='video');a=next(s for s in probe['streams']if s['codec_type']=='audio')
  assert(v['width'],v['height'],v['avg_frame_rate'],int(v['nb_read_frames']))==(2160,3840,'30/1',417)
  assert a['sample_rate']=='48000' and a['channels']==2
+ assert(v['codec_name'],a['codec_name'])==(('vp9','opus')if name.endswith('.webm')else('h264','aac'))
+ assert v.get('color_primaries')=='bt709' and v.get('color_transfer')=='iec61966-2-1' and v.get('color_space')=='bt709'
+ if 'Posting'in name:assert p.stat().st_size<512*1024*1024,'Posting copy exceeds512MiB'
  assert abs(float(probe['format']['duration'])-13.9)<.08
  subprocess.run(['ffmpeg','-nostdin','-v','error','-xerror','-i',str(p),'-f','null','-'],check=True,capture_output=True)
  loud=subprocess.run(['ffmpeg','-nostdin','-hide_banner','-i',str(p),'-af','loudnorm=I=-14:TP=-1:LRA=8:print_format=json','-f','null','-'],capture_output=True,text=True,check=True).stderr

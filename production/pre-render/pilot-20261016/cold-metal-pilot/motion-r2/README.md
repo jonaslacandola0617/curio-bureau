@@ -20,3 +20,7 @@ Full-film ending is intentionally absent from this isolated passage, and its pro
 6. Encode independently from contiguous verified native FFV1 chunks to H264/AAC MP4 and VP9/Opus WebM. Final format/audio/picture checks and verified GitHub readback follow.
 
 See OWNER_REVISION_ORDER.md, FINISHING_COVERAGE.json, NATIVE_PROOF.json, RECOVERY.json, OUTPUT_QA.json, DOWNLOADS.md and POSTS.md as they become available. None of these records substitutes owner review of the revision.
+
+## Restore a saved render
+
+Before recapturing, retrieve the lossless chunk assets identified by RECOVERY.json from the same GitHub Release, put them under chunks/, and compare every SHA256/frame range. Existing verified frames are reused. The source ZIP intentionally does not duplicate multiple gigabytes of lossless checkpoints. Missing final movie downloads are repaired from saved exports or re-encoded from these chunks; do not regenerate images, voice or SFX.

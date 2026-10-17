@@ -1,0 +1,10 @@
+{
+  "aac": {
+    "lufs": -13.94,
+    "true_peak_dbtp": -1.4
+  },
+  "libopus": {
+    "lufs": -13.94,
+    "true_peak_dbtp": -1.34
+  }
+}
