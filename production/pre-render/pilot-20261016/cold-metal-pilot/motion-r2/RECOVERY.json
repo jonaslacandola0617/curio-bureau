@@ -115,6 +115,34 @@
       "github_release_id": 415535198,
       "github_asset_id": 649324980,
       "github_digest": "sha256:d51c1564a8b1df23197286e5c46df522fe3697d856b0c374f891cf948f72bcea"
+    },
+    {
+      "file": "chunks/chunk_0240_30.mkv",
+      "start_frame": 240,
+      "frame_count": 30,
+      "sha256": "76f74531be162da427761ea0c79431daaa5d2abebdeee0f96a4f7681c278d5c5",
+      "bytes": 195185846,
+      "decode": "PASS",
+      "storage_status": "DURABLE",
+      "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
+      "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
+      "github_release_id": 415535198,
+      "github_asset_id": 649331523,
+      "github_digest": "sha256:76f74531be162da427761ea0c79431daaa5d2abebdeee0f96a4f7681c278d5c5"
+    },
+    {
+      "file": "chunks/chunk_0270_30.mkv",
+      "start_frame": 270,
+      "frame_count": 30,
+      "sha256": "388549e46614537a891444f537a30011b2f39addbc3010e0a27766f7159bbbcd",
+      "bytes": 233850407,
+      "decode": "PASS",
+      "storage_status": "DURABLE",
+      "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
+      "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
+      "github_release_id": 415535198,
+      "github_asset_id": 649332009,
+      "github_digest": "sha256:388549e46614537a891444f537a30011b2f39addbc3010e0a27766f7159bbbcd"
     }
   ]
 }
