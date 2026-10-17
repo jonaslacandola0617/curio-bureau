@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "film/recorded-voice",
   "previous_branch_head": "c3560781d0abcf79347a27b15abfa98854096f84",
   "original_render_source_commit": "not inferred from archive commit",
@@ -36,7 +36,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/recorded-voice"
+      "branch": "film/recorded-voice",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649802640,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Recorded_Voice_Review_1080p.mp4",
+        "size": 162087607,
+        "digest": "sha256:81a69d358b2549fc00c901317f22594fa431014ac4956b5827ffaa360a7fd608",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Recorded_Voice_4K_Upload.mp4",
@@ -69,7 +77,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/recorded-voice"
+      "branch": "film/recorded-voice",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649803818,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Recorded_Voice_4K_Upload.mp4",
+        "size": 241574654,
+        "digest": "sha256:f3a8f3702d1c21a93f6e03e9814efba2b4f717e7e420dfd54e0180a85dab3f59",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Capture_Motion_Review.webm",
@@ -98,7 +114,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/recorded-voice"
+      "branch": "film/recorded-voice",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649806312,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Capture_Motion_Review.webm",
+        "size": 7558351,
+        "digest": "sha256:02463a0694700d881d714d8ab1c0fe7dccc1e13932e59bc2e6c41a8b0a26463d",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Capture_Motion_Review.mp4",
@@ -131,7 +155,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/recorded-voice"
+      "branch": "film/recorded-voice",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649808356,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Capture_Motion_Review.mp4",
+        "size": 11380996,
+        "digest": "sha256:96051efd5a744c0afd8db9add365c0e7b5a5018c90c560145152010b742fad6b",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Recorded_Voice_4K_Master.mp4",
@@ -164,7 +196,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/recorded-voice"
+      "branch": "film/recorded-voice",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649810793,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Recorded_Voice_4K_Master.mp4",
+        "size": 474719560,
+        "digest": "sha256:90586c4fb318ef2a4b90df29c3a277bd3bf231884bd71811729d307e0831f5f1",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Recorded_Voice_4K.webm",
@@ -193,8 +233,27 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/recorded-voice"
+      "branch": "film/recorded-voice",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649815736,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Recorded_Voice_4K.webm",
+        "size": 280259804,
+        "digest": "sha256:fbc93c3d4bc46137dd4b14eb1f69f4625148bd4b26cbc32715c9bafda1dca41b",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:05:08.786Z",
+  "recovery_checkpoint_parent": "93620ac459f5504645dc360e04c45af869cb2214",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }
