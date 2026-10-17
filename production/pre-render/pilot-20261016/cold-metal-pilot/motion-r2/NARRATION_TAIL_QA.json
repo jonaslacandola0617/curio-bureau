@@ -1,0 +1,17 @@
+{
+  "voice": "Bernard",
+  "task_id": "37575f5f-aea2-44d1-9e10-46cbe82388d2",
+  "source_sha256": "5d78d8a7bc8b7fc3735163e81397771cc04e2d74b030098c93eaf3e7e87364d1",
+  "decoded_samples": 614400,
+  "sample_rate": 48000,
+  "source_onset": 0.18,
+  "source_end": 12.98,
+  "duration": 13.9,
+  "preserved_all_decoded_samples": true,
+  "voice_fade": false,
+  "protected_tail": 0.9199999999999999,
+  "closing_phrase": "Different heat transfer.",
+  "final_word": "transfer",
+  "endcard": "Not included in isolated passage",
+  "encoded_ending_listening": "OWNER REVIEW PENDING"
+}

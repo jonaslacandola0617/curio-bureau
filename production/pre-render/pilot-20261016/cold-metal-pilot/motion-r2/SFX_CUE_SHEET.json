@@ -1,0 +1,90 @@
+[
+  {
+    "source": "audio/generated-editorial-v1/camera_move.mp3",
+    "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "onset": 0,
+    "duration": 0.5,
+    "event": "photographic approach",
+    "peak_target": 0.24,
+    "speech_duck_max_db": -7.13,
+    "lowpass_hz": 6500,
+    "provenance": "Existing Curio designed cue; not sound of heat or an actual experiment"
+  },
+  {
+    "source": "audio/generated-editorial-v1/ink.mp3",
+    "sha256": "65cd1bf59d3f2fc71e82b17d30b3d4c082c460caf3707cd6c761214541153331",
+    "onset": 2.64,
+    "duration": 0.12,
+    "event": "contact ring closure",
+    "peak_target": 0.16,
+    "speech_duck_max_db": -7.13,
+    "lowpass_hz": 6500,
+    "provenance": "Existing Curio designed cue; not sound of heat or an actual experiment"
+  },
+  {
+    "source": "audio/generated-editorial-v1/paper.mp3",
+    "sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+    "onset": 2.8,
+    "duration": 0.34,
+    "event": "printed inspection launch and settle",
+    "peak_target": 0.29,
+    "speech_duck_max_db": -7.13,
+    "lowpass_hz": 6500,
+    "provenance": "Existing Curio designed cue; not sound of heat or an actual experiment"
+  },
+  {
+    "source": "audio/generated-editorial-v1/pencil.mp3",
+    "sha256": "561c362d770b268544cfcdc463f4f3a92f15570514f443401118a29637c4369f",
+    "onset": 3.88,
+    "duration": 0.94,
+    "event": "three continuous qualitative heat-flow strokes",
+    "peak_target": 0.24,
+    "speech_duck_max_db": -7.13,
+    "lowpass_hz": 6500,
+    "provenance": "Existing Curio designed cue; not sound of heat or an actual experiment"
+  },
+  {
+    "source": "audio/generated-editorial-v1/camera_move.mp3",
+    "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "onset": 6.43,
+    "duration": 0.4,
+    "event": "registered comparison cut",
+    "peak_target": 0.25,
+    "speech_duck_max_db": -7.13,
+    "lowpass_hz": 6500,
+    "provenance": "Existing Curio designed cue; not sound of heat or an actual experiment"
+  },
+  {
+    "source": "audio/generated-editorial-v1/marker_bold.mp3",
+    "sha256": "bb62cf4a6d88c51408424ac78776ef8316c06a4a8ee5e01a4495c201e862d183",
+    "onset": 7.0,
+    "duration": 0.4,
+    "event": "faster metal transfer",
+    "peak_target": 0.27,
+    "speech_duck_max_db": -7.13,
+    "lowpass_hz": 6500,
+    "provenance": "Existing Curio designed cue; not sound of heat or an actual experiment"
+  },
+  {
+    "source": "audio/generated-editorial-v1/pencil.mp3",
+    "sha256": "561c362d770b268544cfcdc463f4f3a92f15570514f443401118a29637c4369f",
+    "onset": 8.04,
+    "duration": 0.46,
+    "event": "slower wood transfer",
+    "peak_target": 0.25,
+    "speech_duck_max_db": -7.13,
+    "lowpass_hz": 6500,
+    "provenance": "Existing Curio designed cue; not sound of heat or an actual experiment"
+  },
+  {
+    "source": "audio/generated-editorial-v1/paper.mp3",
+    "sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+    "onset": 9.74,
+    "duration": 0.24,
+    "event": "same-starting-condition tag",
+    "peak_target": 0.22,
+    "speech_duck_max_db": -7.13,
+    "lowpass_hz": 6500,
+    "provenance": "Existing Curio designed cue; not sound of heat or an actual experiment"
+  }
+]

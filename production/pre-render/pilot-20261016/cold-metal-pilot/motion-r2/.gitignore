@@ -1,0 +1,14 @@
+audio/*.wav
+audio/*.m4a
+proof/*.jpg
+*.mp4
+*.webm
+*.zip
+Motion_Review_Contact_Sheet.jpg
+RENDER_PROGRESS.json
+proof/*.png
+Encoded_Review.jpg
+Cold_Metal_Review.jpg
+chunks/
+qa/
+*.partial*

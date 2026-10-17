@@ -1,0 +1,3 @@
+# R2 moving-sequence revision order
+
+17 October 2026, Asia/Manila. Owner reported messy overlapping opening cues and unsmooth paper/marker motion around “Touch it,” and explicitly ordered correction, independent quality review, 4K rendering and social posts. This authorizes a native 4K version of the existing 13.9-second passage, not an unreviewed complete episode or social-account publication. V1 is retained unchanged. No full-film ending is present or certified. Photography retains its original source resolution; type, compositing, materials and finishing are evaluated on actual native canvases.

@@ -1,0 +1,77 @@
+{
+  "execution_complete": true,
+  "source_fingerprints": {
+    "render.cjs": "529b88da527ece9af26b0a84bcbaf3f5bfcd8a2a74977ccdfb2dd26621ef80b6",
+    "scene-core.cjs": "26e3c3c2a36361ddbdcb0105e54d8966438ee6c255e0da36697b10d912bfe2e4",
+    "editorial-finish.cjs": "4c783ed158f4bb52fc9db05e35b9e68157f36cb6916f27c2d7e48fbc70c1d432",
+    "proof.cjs": "e7a959c493a093ba552ba3687b4d2da4215a02fe8578d44ecbbb0b0d3282cbd4"
+  },
+  "cases": {
+    "material_texture": {
+      "time": 0.6,
+      "mean_absolute_rgb_difference": 4.029159272119341,
+      "execution": "PASS"
+    },
+    "moving_grain": {
+      "time": 8.2,
+      "mean_absolute_rgb_difference": 2.2850551376028805,
+      "execution": "PASS"
+    },
+    "motion_blur": {
+      "time": 6.6,
+      "mean_absolute_rgb_difference": 17.117026748971192,
+      "execution": "PASS"
+    },
+    "selective_focus": {
+      "time": 4.9,
+      "mean_absolute_rgb_difference": 8.261375064300411,
+      "execution": "PASS"
+    },
+    "focus_shading": {
+      "time": 4.9,
+      "mean_absolute_rgb_difference": 7.164063625257202,
+      "execution": "PASS"
+    },
+    "focus_hunt": {
+      "time": 2.92,
+      "mean_absolute_rgb_difference": 1.551276523919753,
+      "execution": "PASS"
+    },
+    "chromatic": {
+      "time": 7.5,
+      "mean_absolute_rgb_difference": 1.5106775655864197,
+      "execution": "PASS"
+    },
+    "mechanical_jitter": {
+      "time": 7.5,
+      "mean_absolute_rgb_difference": 1.2297413515946503,
+      "execution": "PASS"
+    },
+    "exposure": {
+      "time": 7.5,
+      "mean_absolute_rgb_difference": 0.0741333912037037,
+      "execution": "PASS"
+    },
+    "ink_bleed": {
+      "time": 5.2,
+      "mean_absolute_rgb_difference": 0.014210873199588477,
+      "execution": "PASS"
+    },
+    "edge_boil": {
+      "time": 5.2,
+      "mean_absolute_rgb_difference": 0.003053787294238683,
+      "execution": "PASS"
+    }
+  },
+  "deterministic": true,
+  "temporal_grain_constant_source_mean_difference": 2.832578928755144,
+  "caption_opaque_pixel_max_difference": 0,
+  "focus_selected_mean_difference": 0,
+  "focus_peripheral_mean_difference": 6.676947916666666,
+  "settled_transient_blur": 0,
+  "min_alpha": 255,
+  "ending_protection": "Not applicable: isolated passage does not include full-film endcard",
+  "hidden_panel_mean_difference": 0,
+  "runtime_seconds": 21.871,
+  "scope": "Actual runtime execution; owner motion and subjective audio review remain open"
+}
