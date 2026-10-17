@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "canvas": "0.1.100",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "frame_resolution": [
+    2160,
+    3840
+  ],
+  "fps": 30,
+  "renderer": "Native Skia via @napi-rs/canvas",
+  "audio_dependencies": [
+    "numpy",
+    "scipy"
+  ],
+  "source_pixel_provenance": "Original generated photographic illustrations with original raster resolution; native type/compositing/material/optical layers",
+  "full_movie_upscale": false,
+  "environment_setup": "Set CODEX_PRIMARY_RUNTIME_NODE and CODEX_PRIMARY_RUNTIME_NODE_MODULES to Node24 and a node_modules directory containing @napi-rs/canvas0.1.100; install Python numpy/scipy/Pillow and FFmpeg. Browser review uses saved native exports."
+}

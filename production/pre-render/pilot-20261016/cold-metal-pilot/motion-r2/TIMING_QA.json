@@ -1,0 +1,43 @@
+{
+  "voice_measurement_basis": "FFmpeg silencedetect -30dB, source onset .18s; phrase identification from known script, not independent word alignment",
+  "touch_phrase_measured_activity_onset": 3.24744,
+  "paper_settled": 3.16,
+  "paper_hold_before_touch_seconds": 0.08744,
+  "opening_sfx_intervals": [
+    [
+      "contact ring closure",
+      2.64,
+      2.76
+    ],
+    [
+      "printed inspection launch and settle",
+      2.8,
+      3.14
+    ],
+    [
+      "three continuous qualitative heat-flow strokes",
+      3.88,
+      4.82
+    ]
+  ],
+  "first_reveal_sfx_nonoverlap": "PASS",
+  "gaps": [
+    {
+      "from": "contact ring closure",
+      "to": "printed inspection launch and settle",
+      "gap_seconds": 0.04
+    },
+    {
+      "from": "printed inspection launch and settle",
+      "to": "three continuous qualitative heat-flow strokes",
+      "gap_seconds": 0.74
+    }
+  ],
+  "first_reveal_max_simultaneous_cues": 1,
+  "metal_arrow_onset": 7.0,
+  "wood_arrow_onset": 8.04,
+  "paper_motion": "Quintic trajectory; zero endpoint velocity and acceleration",
+  "heading_transition": "Crossfade 4.65\u20135.09s, same authored placement",
+  "caption_alignment": "phrase-level; not independently word verified",
+  "subjective_listening": "Not claimed from waveform/cue tests"
+}
