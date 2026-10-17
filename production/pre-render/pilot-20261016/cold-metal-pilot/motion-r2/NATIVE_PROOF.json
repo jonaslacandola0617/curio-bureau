@@ -1,0 +1,53 @@
+{
+  "native": [
+    2160,
+    3840
+  ],
+  "fps": 30,
+  "deterministic": true,
+  "cases": [
+    {
+      "t": 2.92,
+      "meanRedDifference": 6.850594175990226,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 3.16,
+      "meanRedDifference": 17.814944259580763,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 4.9,
+      "meanRedDifference": 10.427168732317387,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 6.6,
+      "meanRedDifference": 19.160609005272633,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 7.5,
+      "meanRedDifference": 14.06262393904321,
+      "opaqueCaptionDifference": 0
+    }
+  ],
+  "temporal_grain": {
+    "changed_mean_abs": 2.256900720164609
+  },
+  "source_fingerprints": {
+    "render.cjs": "529b88da527ece9af26b0a84bcbaf3f5bfcd8a2a74977ccdfb2dd26621ef80b6",
+    "scene-core.cjs": "26e3c3c2a36361ddbdcb0105e54d8966438ee6c255e0da36697b10d912bfe2e4",
+    "editorial-finish.cjs": "4c783ed158f4bb52fc9db05e35b9e68157f36cb6916f27c2d7e48fbc70c1d432",
+    "native_proof.cjs": "57794a522cdac3c965a3a8e633f635ca75a7193bb0e7d104a5d87f6fb6662d56",
+    "native_capture.cjs": "62e88003b40613144233416e6a3291f7236f227bfbb2149c25d93904c986f845",
+    "native_worker.cjs": "e8994cb4de848edcee20b1cfa8adc0d8b67eb0798e686e2e86389c3c456d60d9",
+    "timeline.json": "ec43f72eadb479f081ad5e7f8a74a3b24fba1fe5c7b3164127b2124405b3c61a"
+  },
+  "scope": "Native representative passage, no full-film endcard; not a claim of whole-film release approval",
+  "ending_protection": {
+    "applicable": false,
+    "reason": "Owner requested a 13.9s isolated sequence; no ending or >30s film state exists"
+  },
+  "errors": []
+}
