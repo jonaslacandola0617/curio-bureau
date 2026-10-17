@@ -16,6 +16,22 @@
       "digest": "sha256:2165fd914160ac35fae8b5d268353ff2be561f1fb9a20a079b396f56b86d0e88",
       "state": "uploaded",
       "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v2-review-20261017/Mint-v2-lossless-0240-0479.mkv"
+    },
+    {
+      "id": 650301997,
+      "name": "Mint-v2-lossless-0480-0719.mkv",
+      "bytes": 739478780,
+      "digest": "sha256:a82315fc7259c6c2f6273f07efb63a584926b7404b542b68d92bcd8372514c28",
+      "state": "uploaded",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v2-review-20261017/Mint-v2-lossless-0480-0719.mkv"
+    },
+    {
+      "id": 650302992,
+      "name": "Mint-v2-lossless-0720-0959.mkv",
+      "bytes": 729283206,
+      "digest": "sha256:7fa70537a9f9e8a69c01dc9304e1afbe3f18fc28437d8a00f19164a524c941b2",
+      "state": "uploaded",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v2-review-20261017/Mint-v2-lossless-0720-0959.mkv"
     }
   ]
 }
