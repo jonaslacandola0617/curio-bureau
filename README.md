@@ -1,10 +1,13 @@
 # Curio Bureau
+
+> Latest sequence review: [Cold Metal R2 — native4K,17 October2026](https://github.com/jonaslacandola0617/curio-bureau/releases/tag/cold-metal-r2-native4k-20261017). [4K posting MP4](https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/Cold_Metal_R2_Posting.mp4) · [4K master MP4](https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/Cold_Metal_R2_4K.mp4) · [All downloads and verification](production/pre-render/pilot-20261016/cold-metal-pilot/motion-r2/DOWNLOADS.md).
+
 **Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
 
 
 **Stories, systems, and surprises.** A motion-design production repository.
 
-This repository is the **source of truth for production code and technical documentation**, not a replacement for the shared Google Drive sound-effects library.
+This repository is the **source of truth for production code and technical documentation**. Proprietary exports and actual render-recovery bytes are archived in GitHub Release assets; see [export storage policy](production/engine/GITHUB_EXPORT_STORAGE.md). Separately licensed stock inputs retain their existing access and redistribution restrictions.
 
 ## Branch policy
 - `main`: stable project infrastructure and reviewed releases.

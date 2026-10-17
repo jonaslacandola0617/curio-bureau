@@ -17,7 +17,8 @@
       "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
       "github_release_id": 415535198,
       "github_asset_id": 649298965,
-      "github_digest": "sha256:f3bebb852adbf2e09cbe46a8082bff5a6c91998d3f774ff73852df85c129eca4"
+      "github_digest": "sha256:f3bebb852adbf2e09cbe46a8082bff5a6c91998d3f774ff73852df85c129eca4",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0000_30.mkv"
     },
     {
       "file": "chunks/chunk_0030_30.mkv",
@@ -30,7 +31,8 @@
       "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
       "github_release_id": 415535198,
       "github_asset_id": 649301162,
-      "github_digest": "sha256:1a2ffb7b241457b98a64dfdbb6bdc94d182f8ee34f014e5c0862405d0336c9b6"
+      "github_digest": "sha256:1a2ffb7b241457b98a64dfdbb6bdc94d182f8ee34f014e5c0862405d0336c9b6",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0030_30.mkv"
     },
     {
       "file": "chunks/chunk_0060_30.mkv",
@@ -44,7 +46,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649308166,
-      "github_digest": "sha256:c3fb25cec416d67ac280e23138d7f651450f8251a67201036a42127b83580ef8"
+      "github_digest": "sha256:c3fb25cec416d67ac280e23138d7f651450f8251a67201036a42127b83580ef8",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0060_30.mkv"
     },
     {
       "file": "chunks/chunk_0090_30.mkv",
@@ -58,7 +61,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649308450,
-      "github_digest": "sha256:f75fc3aa4c8a24dffd5ced526fa71de9462f6ec09a3f325d18a40956ecc5daf1"
+      "github_digest": "sha256:f75fc3aa4c8a24dffd5ced526fa71de9462f6ec09a3f325d18a40956ecc5daf1",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0090_30.mkv"
     },
     {
       "file": "chunks/chunk_0120_30.mkv",
@@ -72,7 +76,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649316087,
-      "github_digest": "sha256:c126b86a1b9c2dbd069b95cc6459acdce868c6c8cd29e780021e7ff2b6f17444"
+      "github_digest": "sha256:c126b86a1b9c2dbd069b95cc6459acdce868c6c8cd29e780021e7ff2b6f17444",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0120_30.mkv"
     },
     {
       "file": "chunks/chunk_0150_30.mkv",
@@ -86,7 +91,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649316323,
-      "github_digest": "sha256:117102194ba6d9c00bb46e018fd7504c46542b4cdc17816f9a7343ddb23b4a4f"
+      "github_digest": "sha256:117102194ba6d9c00bb46e018fd7504c46542b4cdc17816f9a7343ddb23b4a4f",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0150_30.mkv"
     },
     {
       "file": "chunks/chunk_0180_30.mkv",
@@ -100,7 +106,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649324646,
-      "github_digest": "sha256:3e7c486bb248f1b2b19d1c4036b95eb5b9b9ec3d2c0033d3611dd9b4393d8d97"
+      "github_digest": "sha256:3e7c486bb248f1b2b19d1c4036b95eb5b9b9ec3d2c0033d3611dd9b4393d8d97",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0180_30.mkv"
     },
     {
       "file": "chunks/chunk_0210_30.mkv",
@@ -114,7 +121,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649324980,
-      "github_digest": "sha256:d51c1564a8b1df23197286e5c46df522fe3697d856b0c374f891cf948f72bcea"
+      "github_digest": "sha256:d51c1564a8b1df23197286e5c46df522fe3697d856b0c374f891cf948f72bcea",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0210_30.mkv"
     },
     {
       "file": "chunks/chunk_0240_30.mkv",
@@ -128,7 +136,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649331523,
-      "github_digest": "sha256:76f74531be162da427761ea0c79431daaa5d2abebdeee0f96a4f7681c278d5c5"
+      "github_digest": "sha256:76f74531be162da427761ea0c79431daaa5d2abebdeee0f96a4f7681c278d5c5",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0240_30.mkv"
     },
     {
       "file": "chunks/chunk_0270_30.mkv",
@@ -142,7 +151,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649332009,
-      "github_digest": "sha256:388549e46614537a891444f537a30011b2f39addbc3010e0a27766f7159bbbcd"
+      "github_digest": "sha256:388549e46614537a891444f537a30011b2f39addbc3010e0a27766f7159bbbcd",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0270_30.mkv"
     },
     {
       "file": "chunks/chunk_0300_30.mkv",
@@ -156,7 +166,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649338152,
-      "github_digest": "sha256:89ab91173c72262dc7c3a208493a490b6e068a0a48c25853b0369f516ea73280"
+      "github_digest": "sha256:89ab91173c72262dc7c3a208493a490b6e068a0a48c25853b0369f516ea73280",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0300_30.mkv"
     },
     {
       "file": "chunks/chunk_0330_30.mkv",
@@ -170,7 +181,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649338831,
-      "github_digest": "sha256:acf89e3e7a89e28be55028f41267c176bd682d8ec47050bdcc532b5febd31f1f"
+      "github_digest": "sha256:acf89e3e7a89e28be55028f41267c176bd682d8ec47050bdcc532b5febd31f1f",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0330_30.mkv"
     },
     {
       "file": "chunks/chunk_0360_30.mkv",
@@ -184,7 +196,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649344552,
-      "github_digest": "sha256:ea8b2ce6f6e59999762d04729a9af265fa91743b43ed90cd6cee0780b7f976f3"
+      "github_digest": "sha256:ea8b2ce6f6e59999762d04729a9af265fa91743b43ed90cd6cee0780b7f976f3",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0360_30.mkv"
     },
     {
       "file": "chunks/chunk_0390_27.mkv",
@@ -198,7 +211,8 @@
       "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
       "github_release_id": 415535198,
       "github_asset_id": 649345034,
-      "github_digest": "sha256:399dafb1d63e317ae831165c83f12fa348164d8cefe23fa2cbe29cce2d9517f5"
+      "github_digest": "sha256:399dafb1d63e317ae831165c83f12fa348164d8cefe23fa2cbe29cce2d9517f5",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0390_27.mkv"
     }
   ]
 }

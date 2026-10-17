@@ -1,0 +1,215 @@
+{
+  "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/cold-metal-r2-native4k-20261017",
+  "release_id": 415535198,
+  "source_commit": "34cf1d928c1e8a0091f730811d78a8599b604dfc",
+  "scope": "13.9-second native4K sequence",
+  "assets": [
+    {
+      "name": "CHECKSUMS.sha256",
+      "id": 649402582,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/CHECKSUMS.sha256",
+      "size": 765,
+      "sha256": "221deb540f8ed586ad90efce2cfa598a370eb204e4dd84bdf2f3b28097eefebb"
+    },
+    {
+      "name": "chunk_0000_30.mkv",
+      "id": 649298965,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0000_30.mkv",
+      "size": 237942657,
+      "sha256": "f3bebb852adbf2e09cbe46a8082bff5a6c91998d3f774ff73852df85c129eca4"
+    },
+    {
+      "name": "chunk_0030_30.mkv",
+      "id": 649301162,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0030_30.mkv",
+      "size": 238371515,
+      "sha256": "1a2ffb7b241457b98a64dfdbb6bdc94d182f8ee34f014e5c0862405d0336c9b6"
+    },
+    {
+      "name": "chunk_0060_30.mkv",
+      "id": 649308166,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0060_30.mkv",
+      "size": 215780252,
+      "sha256": "c3fb25cec416d67ac280e23138d7f651450f8251a67201036a42127b83580ef8"
+    },
+    {
+      "name": "chunk_0090_30.mkv",
+      "id": 649308450,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0090_30.mkv",
+      "size": 111866217,
+      "sha256": "f75fc3aa4c8a24dffd5ced526fa71de9462f6ec09a3f325d18a40956ecc5daf1"
+    },
+    {
+      "name": "chunk_0120_30.mkv",
+      "id": 649316087,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0120_30.mkv",
+      "size": 125885481,
+      "sha256": "c126b86a1b9c2dbd069b95cc6459acdce868c6c8cd29e780021e7ff2b6f17444"
+    },
+    {
+      "name": "chunk_0150_30.mkv",
+      "id": 649316323,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0150_30.mkv",
+      "size": 125904387,
+      "sha256": "117102194ba6d9c00bb46e018fd7504c46542b4cdc17816f9a7343ddb23b4a4f"
+    },
+    {
+      "name": "chunk_0180_30.mkv",
+      "id": 649324646,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0180_30.mkv",
+      "size": 154842103,
+      "sha256": "3e7c486bb248f1b2b19d1c4036b95eb5b9b9ec3d2c0033d3611dd9b4393d8d97"
+    },
+    {
+      "name": "chunk_0210_30.mkv",
+      "id": 649324980,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0210_30.mkv",
+      "size": 199038702,
+      "sha256": "d51c1564a8b1df23197286e5c46df522fe3697d856b0c374f891cf948f72bcea"
+    },
+    {
+      "name": "chunk_0240_30.mkv",
+      "id": 649331523,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0240_30.mkv",
+      "size": 195185846,
+      "sha256": "76f74531be162da427761ea0c79431daaa5d2abebdeee0f96a4f7681c278d5c5"
+    },
+    {
+      "name": "chunk_0270_30.mkv",
+      "id": 649332009,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0270_30.mkv",
+      "size": 233850407,
+      "sha256": "388549e46614537a891444f537a30011b2f39addbc3010e0a27766f7159bbbcd"
+    },
+    {
+      "name": "chunk_0300_30.mkv",
+      "id": 649338152,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0300_30.mkv",
+      "size": 237178479,
+      "sha256": "89ab91173c72262dc7c3a208493a490b6e068a0a48c25853b0369f516ea73280"
+    },
+    {
+      "name": "chunk_0330_30.mkv",
+      "id": 649338831,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0330_30.mkv",
+      "size": 238333634,
+      "sha256": "acf89e3e7a89e28be55028f41267c176bd682d8ec47050bdcc532b5febd31f1f"
+    },
+    {
+      "name": "chunk_0360_30.mkv",
+      "id": 649344552,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0360_30.mkv",
+      "size": 237065377,
+      "sha256": "ea8b2ce6f6e59999762d04729a9af265fa91743b43ed90cd6cee0780b7f976f3"
+    },
+    {
+      "name": "chunk_0390_27.mkv",
+      "id": 649345034,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/chunk_0390_27.mkv",
+      "size": 215077902,
+      "sha256": "399dafb1d63e317ae831165c83f12fa348164d8cefe23fa2cbe29cce2d9517f5"
+    },
+    {
+      "name": "Cold_Metal_R2_4K.mp4",
+      "id": 649394470,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/Cold_Metal_R2_4K.mp4",
+      "size": 156697726,
+      "sha256": "8273bbd0f60de4ff3856251d30eca41f381348c1a376da84ee2a6296537da63b"
+    },
+    {
+      "name": "Cold_Metal_R2_4K.webm",
+      "id": 649395012,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/Cold_Metal_R2_4K.webm",
+      "size": 103463753,
+      "sha256": "1529927bf9d5e04a5327a7c69f868d4262ccbaa92ad8eed8fcf7567f10f59965"
+    },
+    {
+      "name": "Cold_Metal_R2_Posting.mp4",
+      "id": 649395236,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/Cold_Metal_R2_Posting.mp4",
+      "size": 69871568,
+      "sha256": "67eeeee206445e34a29dd92d2c557eb3a409a3f1e051b0d93631c7b0b0170698"
+    },
+    {
+      "name": "Cold_Metal_R2_Review.jpg",
+      "id": 649402491,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/Cold_Metal_R2_Review.jpg",
+      "size": 504140,
+      "sha256": "7916019e5907e328d1691658eaceaee958dd34bbbbad6568175946d9c77764e6"
+    },
+    {
+      "name": "Cold_Metal_R2_Source.zip",
+      "id": 649402398,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/Cold_Metal_R2_Source.zip",
+      "size": 37117550,
+      "sha256": "4b06a48630f63a3ea4dab50d3df901d6bb6579dd82bfc77f669a29e8c74ec976"
+    },
+    {
+      "name": "OUTPUT_QA.json",
+      "id": 649402558,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/OUTPUT_QA.json",
+      "size": 2707,
+      "sha256": "07327c4bb7001d13b4cf35a9fe2a5cad5cd11fc4582ec3abe05d6d91358fbe78"
+    },
+    {
+      "name": "POSTS.md",
+      "id": 649402539,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/POSTS.md",
+      "size": 917,
+      "sha256": "45a63bb0c4c1ff370be1701078982091c7c6497834cafdf4dc7e77576f12cb2b"
+    },
+    {
+      "name": "RESTORE_QA.json",
+      "id": 649402568,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/RESTORE_QA.json",
+      "size": 349,
+      "sha256": "5b855bd264c093d2c2a246ea591fc14367327052ae8423d31e706560650f2815"
+    },
+    {
+      "name": "Review.html",
+      "id": 649402516,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-r2-native4k-20261017/Review.html",
+      "size": 1035,
+      "sha256": "b9f6ed89af53b2e1ecc184ae5010763d06de5f1598de0e299c5fb32e5c8315c1"
+    }
+  ],
+  "uploaded_assets_verified_against_preupload_hashes": 24,
+  "public_download_verification": [
+    {
+      "name": "Cold_Metal_R2_4K.mp4",
+      "bytes": 156697726,
+      "sha256": "8273bbd0f60de4ff3856251d30eca41f381348c1a376da84ee2a6296537da63b",
+      "anonymous_public_download": "PASS",
+      "zip_contents": null
+    },
+    {
+      "name": "Cold_Metal_R2_4K.webm",
+      "bytes": 103463753,
+      "sha256": "1529927bf9d5e04a5327a7c69f868d4262ccbaa92ad8eed8fcf7567f10f59965",
+      "anonymous_public_download": "PASS",
+      "zip_contents": null
+    },
+    {
+      "name": "Cold_Metal_R2_Posting.mp4",
+      "bytes": 69871568,
+      "sha256": "67eeeee206445e34a29dd92d2c557eb3a409a3f1e051b0d93631c7b0b0170698",
+      "anonymous_public_download": "PASS",
+      "zip_contents": null
+    },
+    {
+      "name": "Cold_Metal_R2_Source.zip",
+      "bytes": 37117550,
+      "sha256": "4b06a48630f63a3ea4dab50d3df901d6bb6579dd82bfc77f669a29e8c74ec976",
+      "anonymous_public_download": "PASS",
+      "zip_contents": "PASS"
+    }
+  ],
+  "review_status": "Revised R2 owner motion/listening review remains open; native sequence delivered",
+  "dimensions": [
+    2160,
+    3840
+  ],
+  "fps": 30,
+  "frames": 417,
+  "duration": 13.9
+}
