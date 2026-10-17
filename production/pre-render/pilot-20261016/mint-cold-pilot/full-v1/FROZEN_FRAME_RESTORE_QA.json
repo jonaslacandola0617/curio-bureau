@@ -1,0 +1,96 @@
+{
+  "source_commit": "078ab09064cb27641a7999438fee595b300c115d",
+  "separate_clean_git_checkout": true,
+  "all_22_native_frames_identical": true,
+  "samples": [
+    {
+      "time": 0.8,
+      "sha256": "c71079bfff189e458da830dc70c1c1fd32739298e83d3edad7a068b0ce5654e1"
+    },
+    {
+      "time": 3.2,
+      "sha256": "b673421a3d089c873ec7d264959987cbe0ac608cf8915be8aa4f65bf3982837a"
+    },
+    {
+      "time": 4.14,
+      "sha256": "6c8d53483f580cbb9643710ce6e7d2eb3cef96949dc58775be7cee4d339747f3"
+    },
+    {
+      "time": 4.34,
+      "sha256": "4024939d2c544d1020e730be986c40aada76f82af109e72e7922ba4a807a553d"
+    },
+    {
+      "time": 5.7,
+      "sha256": "4754efe8ee353d4ce7111566e83eb2669174a83b0cf7f4d04eaca35b8703fb1d"
+    },
+    {
+      "time": 7.09,
+      "sha256": "f7eb49451726ef905ccc7e939387c85375e9d700ae331051fc995af8b3cbf5ef"
+    },
+    {
+      "time": 7.29,
+      "sha256": "337b502c50f4dcad5da84b757f72cbcf709d5c8cb6087e9a1f2f722b945a4574"
+    },
+    {
+      "time": 10.5,
+      "sha256": "56af54146edd864b7e50ec02a2da85f29396e0182080467689c1465d94dacaa7"
+    },
+    {
+      "time": 13.75,
+      "sha256": "10b1704af406b562bdb9e53ae4dd356e66334d68f631d74c36bc41668d64565c"
+    },
+    {
+      "time": 13.95,
+      "sha256": "202d5da1a23a9d01a6d50227cf7e664d00abe9aa9786d1c03419a62a73c619f3"
+    },
+    {
+      "time": 16.8,
+      "sha256": "6821528c36e53066e65442836074d03df2f9fa9bdb081c42c190d4599cb7b92d"
+    },
+    {
+      "time": 18.55,
+      "sha256": "e5ddb38bd0d4a8c952b1183a9dbb4604c975dda1395dc7746b56d94ed6e1d59c"
+    },
+    {
+      "time": 18.75,
+      "sha256": "3dbae3210b0e00887887700a8a58f03a78f0f0db982daf437f687acd81ce24a8"
+    },
+    {
+      "time": 20.5,
+      "sha256": "df77ca67f3291bd2d9005522cf834dec79d5e9177a77b5addf01c56648ff2abf"
+    },
+    {
+      "time": 21.9,
+      "sha256": "60a1f1d4f317d9d92820f91da77c9a25af8c0acbedd7c86509f31c01926ea6e8"
+    },
+    {
+      "time": 22.1,
+      "sha256": "4c96c6273b76d01fac3e67ebd7f06fe3846b0f96b03475ef16d6c9ab686128c2"
+    },
+    {
+      "time": 25,
+      "sha256": "f3323d0fcc9add8a8a354cdb09e84bfbfd07a5a7c28b61d62a1f4ccdd3b18c7f"
+    },
+    {
+      "time": 28.15,
+      "sha256": "eddfbe74493e11fed1081fb251d316e5b30524dcd7a08997ba7cc37e069b65fa"
+    },
+    {
+      "time": 28.35,
+      "sha256": "0c1759446bcbe0081892a1c64c0b136c1e0605352f41aa6c91204bab549d4473"
+    },
+    {
+      "time": 33,
+      "sha256": "4634d35f4eec60f0e992417dc4fb25798ecb645243880c3e0b0c7dbf89f7eae3"
+    },
+    {
+      "time": 37.5,
+      "sha256": "7114297ec65fb07cb49a68ba3b2189b5c1c586d246e1151bb35dfab8110694a8"
+    },
+    {
+      "time": 39.9,
+      "sha256": "bb9dda87e605f3680e86eb5b782cc935ba0076a227a685c644e7a67da97b9085"
+    }
+  ],
+  "scope": "Source restoration across all7 scenes and joins; not a second full movie encode or owner approval"
+}

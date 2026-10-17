@@ -37,6 +37,61 @@
         "state": "uploaded",
         "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-v1-lossless-0240-0479.mkv"
       }
+    },
+    {
+      "file": "Mint-v1-lossless-0480-0719.mkv",
+      "start_frame": 480,
+      "count": 240,
+      "codec": "ffv1",
+      "lossless": true,
+      "bytes": 754959992,
+      "sha256": "37fdbe625791d863f8d006e122ed6faba1e169e5d0fc1a7c12467bce7d44057c",
+      "archive_status": "DURABLE",
+      "archive": {
+        "id": 650217405,
+        "name": "Mint-v1-lossless-0480-0719.mkv",
+        "bytes": 754959992,
+        "digest": "sha256:37fdbe625791d863f8d006e122ed6faba1e169e5d0fc1a7c12467bce7d44057c",
+        "state": "uploaded",
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-v1-lossless-0480-0719.mkv"
+      }
+    },
+    {
+      "file": "Mint-v1-lossless-0720-0959.mkv",
+      "start_frame": 720,
+      "count": 240,
+      "codec": "ffv1",
+      "lossless": true,
+      "bytes": 749741458,
+      "sha256": "ba88df4469c5e4d65a738ac1a14737c95f63c0d44e047b1e652dc59063a89ecd",
+      "archive_status": "DURABLE",
+      "archive": {
+        "id": 650218201,
+        "name": "Mint-v1-lossless-0720-0959.mkv",
+        "bytes": 749741458,
+        "digest": "sha256:ba88df4469c5e4d65a738ac1a14737c95f63c0d44e047b1e652dc59063a89ecd",
+        "state": "uploaded",
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-v1-lossless-0720-0959.mkv"
+      }
+    },
+    {
+      "file": "Mint-v1-lossless-0960-1200.mkv",
+      "start_frame": 960,
+      "count": 241,
+      "codec": "ffv1",
+      "lossless": true,
+      "bytes": 730210032,
+      "sha256": "cd3a5a283f6285697a5b7fbf6a62e76ecf5fa098e5a328b7be5c89ffc35220c6",
+      "archive_status": "DURABLE",
+      "archive": {
+        "id": 650249052,
+        "name": "Mint-v1-lossless-0960-1200.mkv",
+        "bytes": 730210032,
+        "digest": "sha256:cd3a5a283f6285697a5b7fbf6a62e76ecf5fa098e5a328b7be5c89ffc35220c6",
+        "state": "uploaded",
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-v1-lossless-0960-1200.mkv"
+      }
     }
-  ]
+  ],
+  "status": "ALL_1201_NATIVE_FRAMES_DURABLE"
 }
