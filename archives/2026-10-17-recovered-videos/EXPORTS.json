@@ -1,0 +1,105 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "film/sweden-dagen-h-1967",
+  "previous_branch_head": "f420d5ae0738c5f0a2d15b1b0dbc8264c55d14f2",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "CURIO_BUREAU_EP006_NATIVE4K_H264_REVIEW.mp4",
+      "size": 16974086,
+      "sha256": "2ec01a7443f5ce466799443b6e9c28906249273499f71e636465e319706d1819",
+      "group": "sweden-dagen-h",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "77.933333",
+          "nb_frames": "2338"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "77.925000",
+          "nb_frames": "3654"
+        }
+      ],
+      "duration": "77.933333",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/sweden-dagen-h-1967"
+    },
+    {
+      "name": "CURIO_BUREAU_EP006_NATIVE4K_WEBM_REVIEW.webm",
+      "size": 24135025,
+      "sha256": "3200586514ebe515f138b69fe131df8ce2fc9e578c682421b3d17ae293477ff3",
+      "group": "sweden-dagen-h",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "77.938000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/sweden-dagen-h-1967"
+    },
+    {
+      "name": "EP006_First5s_PHONE_PREVIEW_1080p.mp4",
+      "size": 389708,
+      "sha256": "71fd3e4bca203208004764c457e254626ff8dce22b01dfa38fce3ecbeff87d3a",
+      "group": "sweden-dagen-h",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "5.000000",
+          "nb_frames": "150"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "5.000000",
+          "nb_frames": "236"
+        }
+      ],
+      "duration": "5.000000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/sweden-dagen-h-1967"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
