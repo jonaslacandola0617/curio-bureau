@@ -1,0 +1,32 @@
+{
+  "status": "ARCHIVED_REVIEW_CANDIDATE",
+  "file": "00-Mint-1080p-Review-v1.mp4",
+  "bytes": 60242621,
+  "sha256": "2d7511700d441dc31281ba5d20deb4575eb81403b617d96a3e88c88fe8adfe59",
+  "source_commit": "078ab09064cb27641a7999438fee595b300c115d",
+  "frames": 1201,
+  "duration": "40.033333",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "native": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "owner_motion_review": "PENDING",
+  "owner_whole_film_review": "PENDING",
+  "archive": {
+    "release_id": 415745172,
+    "asset_id": 650258246,
+    "state": "uploaded",
+    "bytes": 60242621,
+    "digest": "sha256:2d7511700d441dc31281ba5d20deb4575eb81403b617d96a3e88c88fe8adfe59",
+    "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/00-Mint-1080p-Review-v1.mp4"
+  },
+  "encode_checkpoint": "b2a78d33601c685f30b4e0dfc9454ea9814061f2",
+  "public_download_verified": {
+    "unauthenticated": true,
+    "bytes": 60242621,
+    "sha256": "2d7511700d441dc31281ba5d20deb4575eb81403b617d96a3e88c88fe8adfe59"
+  }
+}

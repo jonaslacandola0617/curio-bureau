@@ -17,8 +17,8 @@
       "priority": 2,
       "episode_id": "mint-cold-pilot",
       "manifest": "mint-cold-pilot/package.json",
-      "status": "ART_APPROVED_COMPLETE_MOTION_RENDERING",
-      "next_action": "Complete native1080p whole-film review; all7 art-v2 scenes approved. Motion/full-film approval remains pending.",
+      "status": "COMPLETE_REVIEW_READY",
+      "next_action": "Owner review of complete40.03-second native1080p film; motion, sound and whole-film approval pending. Actual GitHub movie, mix, all1201losslessframes archived and public download hash verified.",
       "research_hold": false,
       "publish_intent": "NEW POST / batch slot 1"
     },

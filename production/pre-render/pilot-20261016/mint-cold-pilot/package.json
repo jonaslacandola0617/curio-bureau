@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "episode_id": "mint-cold-pilot",
-  "status": "MOTION_IN_PROGRESS",
+  "status": "COMPLETE_REVIEW_READY",
   "settings": {
     "width": 1080,
     "height": 1920,
@@ -38,7 +38,7 @@
     {
       "path": "sequence_contract.json",
       "role": "sequence",
-      "sha256": "964fba7b68a1d23574947383b17143ce769c702546b0f8b1fe907387b98074cc",
+      "sha256": "301ae79c25b095c35f11b593352906d2df8e0bda54846d8e9cc9f012e1dee96c",
       "archive": {
         "kind": "git"
       }
@@ -159,5 +159,22 @@
   "frozen_fingerprint": null,
   "production_scope": "complete_episode",
   "publish_intent": "NEW POST / batch slot 1",
-  "sequence_revision": 2
+  "sequence_revision": 2,
+  "full_review": {
+    "path": "full-v1/00-Mint-1080p-Review-v1.mp4",
+    "sha256": "2d7511700d441dc31281ba5d20deb4575eb81403b617d96a3e88c88fe8adfe59",
+    "duration": 40.033333,
+    "frames": 1201,
+    "native": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/00-Mint-1080p-Review-v1.mp4",
+    "archive_asset_id": 650258246,
+    "technical_qa": "full-v1/OUTPUT_QA.json",
+    "source_restore": "full-v1/FROZEN_FRAME_RESTORE_QA.json",
+    "owner_motion_approval": "PENDING",
+    "owner_full_film_approval": "PENDING"
+  }
 }

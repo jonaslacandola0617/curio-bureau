@@ -4,6 +4,14 @@
   "source_commit": "078ab09064cb27641a7999438fee595b300c115d",
   "assets": [
     {
+      "id": 650258246,
+      "name": "00-Mint-1080p-Review-v1.mp4",
+      "bytes": 60242621,
+      "digest": "sha256:2d7511700d441dc31281ba5d20deb4575eb81403b617d96a3e88c88fe8adfe59",
+      "state": "uploaded",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/00-Mint-1080p-Review-v1.mp4"
+    },
+    {
       "id": 650204504,
       "name": "Mint-Mix-v1.flac",
       "bytes": 2644122,
@@ -51,5 +59,6 @@
       "state": "uploaded",
       "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-v1-lossless-0960-1200.mkv"
     }
-  ]
+  ],
+  "public_mp4_download_sha256": "2d7511700d441dc31281ba5d20deb4575eb81403b617d96a3e88c88fe8adfe59"
 }

@@ -50,9 +50,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER APPROVED art-v2",
-        "motion": "NOT BUILT",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT IN COMPLETE REVIEW / owner pending",
+        "audio": "RECORDED AND MIXED / listening pending",
+        "full_preview": "ARCHIVED 40.033s native1080p / all7scenes"
       }
     },
     {
@@ -101,9 +101,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER APPROVED art-v2",
-        "motion": "NOT BUILT",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT IN COMPLETE REVIEW / owner pending",
+        "audio": "RECORDED AND MIXED / listening pending",
+        "full_preview": "ARCHIVED 40.033s native1080p / all7scenes"
       }
     },
     {
@@ -152,9 +152,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER APPROVED art-v2",
-        "motion": "NOT BUILT",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT IN COMPLETE REVIEW / owner pending",
+        "audio": "RECORDED AND MIXED / listening pending",
+        "full_preview": "ARCHIVED 40.033s native1080p / all7scenes"
       }
     },
     {
@@ -203,9 +203,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER APPROVED art-v2",
-        "motion": "NOT BUILT",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT IN COMPLETE REVIEW / owner pending",
+        "audio": "RECORDED AND MIXED / listening pending",
+        "full_preview": "ARCHIVED 40.033s native1080p / all7scenes"
       }
     },
     {
@@ -254,9 +254,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER APPROVED art-v2",
-        "motion": "NOT BUILT",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT IN COMPLETE REVIEW / owner pending",
+        "audio": "RECORDED AND MIXED / listening pending",
+        "full_preview": "ARCHIVED 40.033s native1080p / all7scenes"
       }
     },
     {
@@ -305,9 +305,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER APPROVED art-v2",
-        "motion": "NOT BUILT",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT IN COMPLETE REVIEW / owner pending",
+        "audio": "RECORDED AND MIXED / listening pending",
+        "full_preview": "ARCHIVED 40.033s native1080p / all7scenes"
       }
     },
     {
@@ -356,9 +356,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER APPROVED art-v2",
-        "motion": "NOT BUILT",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT IN COMPLETE REVIEW / owner pending",
+        "audio": "RECORDED AND MIXED / listening pending",
+        "full_preview": "ARCHIVED 40.033s native1080p / all7scenes"
       }
     }
   ],
@@ -396,7 +396,7 @@
     "comparison": "Images remain the recognizable origins. Two distinct inputs converge on one anchored supporting channel print; photographic mouth returns for consequence. Not a renamed spoon comparison or a portrait/microphone capture template.",
     "remaining_weaknesses": "Source alpha edges and tightest crop need moving inspection; generated illustration is not a molecular measurement.; A full-frame photographic mouth crop should be checked for distracting crop boundaries during parallax.; No claims of phone listening, word alignment, timing, motion or full preview completion.",
     "unresolved_fallbacks": [],
-    "owner_review": "NOT REVIEWED"
+    "owner_review": "ART APPROVED 2026-10-17; motion review pending"
   },
   "revision": 2
 }
