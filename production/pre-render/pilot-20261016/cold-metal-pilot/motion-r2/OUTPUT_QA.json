@@ -1,0 +1,94 @@
+{
+  "scope": "R2 13.9-second native4K sequence, not a full episode",
+  "files": {
+    "Cold_Metal_R2_4K.mp4": {
+      "bytes": 156697726,
+      "sha256": "8273bbd0f60de4ff3856251d30eca41f381348c1a376da84ee2a6296537da63b",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "fps": 30,
+      "frames": 417,
+      "duration": 13.9,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_rate": 48000,
+      "audio_channels": 2,
+      "decoded_audio_duration": 13.909333333333333,
+      "loudness_lufs": -13.94,
+      "true_peak_dbtp": -1.4,
+      "mix_correlation": 0.9999862672241641,
+      "closing_phrase_correlation": 0.9999747830027772,
+      "full_decode": "PASS"
+    },
+    "Cold_Metal_R2_4K.webm": {
+      "bytes": 103463753,
+      "sha256": "1529927bf9d5e04a5327a7c69f868d4262ccbaa92ad8eed8fcf7567f10f59965",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "fps": 30,
+      "frames": 417,
+      "duration": 13.908,
+      "video_codec": "vp9",
+      "audio_codec": "opus",
+      "audio_rate": 48000,
+      "audio_channels": 2,
+      "decoded_audio_duration": 13.9,
+      "loudness_lufs": -13.94,
+      "true_peak_dbtp": -1.34,
+      "mix_correlation": 0.9997676105135614,
+      "closing_phrase_correlation": 0.9997982792711427,
+      "full_decode": "PASS"
+    },
+    "Cold_Metal_R2_Posting.mp4": {
+      "bytes": 69871568,
+      "sha256": "67eeeee206445e34a29dd92d2c557eb3a409a3f1e051b0d93631c7b0b0170698",
+      "dimensions": [
+        2160,
+        3840
+      ],
+      "fps": 30,
+      "frames": 417,
+      "duration": 13.9,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_rate": 48000,
+      "audio_channels": 2,
+      "decoded_audio_duration": 13.909333333333333,
+      "loudness_lufs": -13.95,
+      "true_peak_dbtp": -1.41,
+      "mix_correlation": 0.999924092448085,
+      "closing_phrase_correlation": 0.9998401521117405,
+      "full_decode": "PASS"
+    }
+  },
+  "owner_motion_review": "R2 correction requested; revised result pending owner review",
+  "subjective_listening": "Owner R1 feedback addressed through cue separation and ducking; independent human phone/headphone listening not claimed",
+  "full_film_ending": "Not present in isolated sequence; not certified",
+  "encoded_phone_review_frame_indices": [
+    75,
+    81,
+    87,
+    95,
+    102,
+    117,
+    126,
+    147,
+    153,
+    194,
+    198,
+    207,
+    222,
+    252,
+    309,
+    366,
+    408
+  ],
+  "phone_texture_mean_abs_highpass": 0.7683363148479427,
+  "settled_native_source_to_encoded_mean_rgb_difference": 1.4622563014403291,
+  "webm_native_source_mean_rgb_difference": 2.3376060956790123,
+  "webm_phone_texture_mean_abs_highpass": 0.518783542039356
+}

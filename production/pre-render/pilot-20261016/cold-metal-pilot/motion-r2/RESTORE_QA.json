@@ -1,0 +1,9 @@
+{
+  "zip_crc": "PASS",
+  "file_hashes": "PASS",
+  "files": 137,
+  "clean_extracted_preflight": "PASS",
+  "bytes": 37117550,
+  "sha256": "4b06a48630f63a3ea4dab50d3df901d6bb6579dd82bfc77f669a29e8c74ec976",
+  "movie_and_lossless_chunk_assets": "Archived separately in the same GitHub Release, referenced by durable GitHub asset IDs in RECOVERY.json"
+}

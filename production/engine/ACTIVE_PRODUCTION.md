@@ -61,3 +61,7 @@ Owner authorized trying a five-project pre-render queue. Read [pilot review](../
 
 ## Cold-metal moving passage — 16 October 2026
 Owner accepted art-v1 and explicitly authorized the sequence test, conditioned on retaining texture and applicable finishing. See cold-metal-pilot/OWNER_ART_APPROVAL.md. Use [finishing checklist](FINISHING_CHECKLIST.md) and the sequence FINISHING_COVERAGE.json instead of rereading unchanged full manuals. Actual rendered A/B and temporal-grain/caption proof precedes capture; encoded-phone review follows it. This is a short 1080p moving study; the complete episode is not render-ready and owner motion/listening approval remains open.
+
+
+## Cold Metal R2 — 17 October 2026
+Owner ordered correction of the opening paper/marker motion and sound overlap, independent infrastructure QA, native4K and posts. The13.9s passage is now captured as417 native2160×3840/30fps frames; all14 lossless chunks have matching GitHub Release asset receipts in motion-r2/RECOVERY.json. Native MP4, independent native WebM, and master-derived posting MP4 passed full decode, frame count, audio levels/tail and encoded picture checks. The source ZIP passed CRC, all137 file hashes and clean-extracted preflight. See motion-r2/OUTPUT_QA.json, RESTORE_QA.json and forthcoming DOWNLOADS.md under production/pre-render/pilot-20261016/cold-metal-pilot/. This is a corrected isolated sequence; it does not mark the full pilot episode render-ready or include/certify the full-film ending. Revised owner motion/listening review remains separate.

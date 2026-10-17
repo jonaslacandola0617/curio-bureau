@@ -1,0 +1,80 @@
+{
+  "Cold_Metal_R2_4K.mp4": {
+    "input_fingerprint": "84726b5d7366109547ca01a9cdc450df2ed426f5d5fbe13373fdb2dae636e02c",
+    "file_sha256": "8273bbd0f60de4ff3856251d30eca41f381348c1a376da84ee2a6296537da63b",
+    "bytes": 156697726,
+    "profile": [
+      "-c:v",
+      "libx264",
+      "-preset",
+      "veryfast",
+      "-crf",
+      "15",
+      "-threads",
+      "6",
+      "-c:a",
+      "aac",
+      "-b:a",
+      "320k",
+      "-ar",
+      "48000",
+      "-movflags",
+      "+faststart"
+    ],
+    "basis": "completed by this encoder"
+  },
+  "Cold_Metal_R2_4K.webm": {
+    "input_fingerprint": "cc5713602419a6ad404a81f970d44a2930428375843c10bfffef651165505107",
+    "file_sha256": "1529927bf9d5e04a5327a7c69f868d4262ccbaa92ad8eed8fcf7567f10f59965",
+    "bytes": 103463753,
+    "profile": [
+      "-c:v",
+      "libvpx-vp9",
+      "-crf",
+      "22",
+      "-b:v",
+      "0",
+      "-deadline",
+      "realtime",
+      "-cpu-used",
+      "8",
+      "-row-mt",
+      "1",
+      "-tile-columns",
+      "2",
+      "-lag-in-frames",
+      "0",
+      "-threads",
+      "6",
+      "-c:a",
+      "libopus",
+      "-b:a",
+      "256k",
+      "-ar",
+      "48000"
+    ],
+    "basis": "completed by this encoder"
+  },
+  "Cold_Metal_R2_Posting.mp4": {
+    "input_fingerprint": "f9911e6f334a320c986df4f39ed7f2a2b1e1c0bc3fec58f1e87e309f7e2ad755",
+    "file_sha256": "67eeeee206445e34a29dd92d2c557eb3a409a3f1e051b0d93631c7b0b0170698",
+    "bytes": 69871568,
+    "profile": [
+      "-c:v",
+      "libx264",
+      "-preset",
+      "veryfast",
+      "-crf",
+      "20",
+      "-threads",
+      "6",
+      "-c:a",
+      "aac",
+      "-b:a",
+      "256k",
+      "-movflags",
+      "+faststart"
+    ],
+    "basis": "completed by this encoder"
+  }
+}

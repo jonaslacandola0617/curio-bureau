@@ -15,6 +15,7 @@ profiles=[('Cold_Metal_R2_4K.mp4',['-c:v','libx264','-preset','veryfast','-crf',
 cache_path=r/'ENCODE_CACHE.json';cache=json.loads(cache_path.read_text())if cache_path.exists()else{};lock=threading.Lock()
 def fingerprint(args):
  material={'native_chunk_hashes':[x['sha256']for x in chunks],'mix_sha256':h(r/'audio/mix.wav'),'frames':417,'native':[2160,3840],'fps':30,'duration':13.9,'colors':'BT709 matrix/primaries, sRGB transfer, full RGB to limited YUV420','profile':args}
+ if args==profiles[2][1]:material['posting_picture_input_master_sha256']=h(r/'Cold_Metal_R2_4K.mp4')
  return hashlib.sha256(json.dumps(material,sort_keys=True,separators=(',',':')).encode()).hexdigest()
 def record_complete(profile,basis='completed by this encoder'):
  name,args=profile;out=r/name;q=json.loads(subprocess.check_output(['ffprobe','-v','error','-count_frames','-select_streams','v:0','-show_entries','stream=width,height,nb_read_frames','-of','json',str(out)]))['streams'][0]
@@ -28,7 +29,11 @@ def encode(profile):
   old=cache.get(name,{})
   assert old.get('input_fingerprint')==expected and old.get('file_sha256')==h(out),'Existing movie has missing/stale source/profile binding: '+name
   print('REUSE verified native encode',name,flush=True);return
- temp=out.with_name(out.stem+'.partial'+out.suffix);subprocess.run(common+args+[str(temp)],check=True);os.replace(temp,out);record_complete(profile);print('ENCODED',name,out.stat().st_size,flush=True)
+ temp=out.with_name(out.stem+'.partial'+out.suffix)
+ command=common
+ if args==profiles[2][1]:
+  command=['ffmpeg','-nostdin','-y','-v','error','-i',str(r/'Cold_Metal_R2_4K.mp4'),'-i',str(r/'audio/mix.wav'),'-map','0:v:0','-map','1:a:0','-r','30','-t','13.9','-pix_fmt','yuv420p','-color_primaries','bt709','-color_trc','iec61966-2-1','-colorspace','bt709']
+ subprocess.run(command+args+[str(temp)],check=True);os.replace(temp,out);record_complete(profile);print('ENCODED',name,out.stat().st_size,flush=True)
 if __name__=='__main__':
  with ThreadPoolExecutor(max_workers=2)as pool:list(pool.map(encode,profiles[:2]))
  encode(profiles[2])

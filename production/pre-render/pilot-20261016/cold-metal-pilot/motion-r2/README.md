@@ -24,3 +24,5 @@ See OWNER_REVISION_ORDER.md, FINISHING_COVERAGE.json, NATIVE_PROOF.json, RECOVER
 ## Restore a saved render
 
 Before recapturing, retrieve the lossless chunk assets identified by RECOVERY.json from the same GitHub Release, put them under chunks/, and compare every SHA256/frame range. Existing verified frames are reused. The source ZIP intentionally does not duplicate multiple gigabytes of lossless checkpoints. Missing final movie downloads are repaired from saved exports or re-encoded from these chunks; do not regenerate images, voice or SFX.
+
+Encoding profiles: native H264 CRF15/veryfast and native VP9 CRF22/realtime use the saved lossless frames independently. The smaller CRF20 posting copy is derived from the completed native H264 master, with the original PCM mix re-encoded directly; it avoids another expensive lossless-source decode. Its input/output hashes are tracked separately. Native masters are never reconstructed from a1080p movie.
