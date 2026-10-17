@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "film/boston-molasses-1919",
   "previous_branch_head": "aeeff750cacf944c0e70e4aa23623f7ee9494473",
   "original_render_source_commit": "not inferred from archive commit",
@@ -36,7 +36,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/boston-molasses-1919"
+      "branch": "film/boston-molasses-1919",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649800552,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/CURIO_BUREAU_EP005_4K_CAPTIONED_REVIEW.mp4",
+        "size": 101733469,
+        "digest": "sha256:f74c066588b795758d61ca9d098533b59f2d7269921e4c553ced3af27e03f37b",
+        "state": "uploaded"
+      }
     },
     {
       "name": "CURIO_BUREAU_EP005_4K_CAPTIONED_REVIEW.webm",
@@ -65,7 +73,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/boston-molasses-1919"
+      "branch": "film/boston-molasses-1919",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649810733,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/CURIO_BUREAU_EP005_4K_CAPTIONED_REVIEW.webm",
+        "size": 40532789,
+        "digest": "sha256:6d4cc40860ad9791c13d892ec8a05bd612339302a818ab245e98a1900ab1e47a",
+        "state": "uploaded"
+      }
     },
     {
       "name": "CURIO_BUREAU_EP005_1080p_MOBILE_REVIEW.mp4",
@@ -98,8 +114,27 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/boston-molasses-1919"
+      "branch": "film/boston-molasses-1919",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649814268,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/CURIO_BUREAU_EP005_1080p_MOBILE_REVIEW.mp4",
+        "size": 18842043,
+        "digest": "sha256:cdce1801aa2e09a0a23e8b265c4492ce5b8994f0422b07071c60e931e499516d",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:05:15.609Z",
+  "recovery_checkpoint_parent": "6d9b5b25f64e1396f5de99d4caa6f9f24cf85a7e",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }
