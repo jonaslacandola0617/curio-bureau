@@ -1,0 +1,138 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "film/astronaut-height",
+  "previous_branch_head": "8322a57141098af51a7e70d6a9a65074ab4fabf0",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "Astronaut_Height_4K_Upload.mp4",
+      "size": 236718286,
+      "sha256": "393c7fe16b1d7dab83498cc17390d46d4158652fcb717e2ab415e91693ece943",
+      "group": "astronaut-height",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "39.066667",
+          "nb_frames": "1172"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "39.066000",
+          "nb_frames": "1833"
+        }
+      ],
+      "duration": "39.066667",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/astronaut-height"
+    },
+    {
+      "name": "Astronaut_Height_Review_1080p.mp4",
+      "size": 117921854,
+      "sha256": "6d477ac6ec57e7f05b80e36a8def9b96de60193b85f07decacb0133a8e3ae853",
+      "group": "astronaut-height",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "39.066667",
+          "nb_frames": "1172"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "39.066000",
+          "nb_frames": "1833"
+        }
+      ],
+      "duration": "39.066667",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/astronaut-height"
+    },
+    {
+      "name": "Astronaut_Height_4K_Master.mp4",
+      "size": 524572612,
+      "sha256": "03ceed9b4b9b9d3c0a72d8c8106f2c45cbff52ccf9fb7741f6d274397023dade",
+      "group": "astronaut-height",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "39.066667",
+          "nb_frames": "1172"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "39.066000",
+          "nb_frames": "1833"
+        }
+      ],
+      "duration": "39.066667",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/astronaut-height"
+    },
+    {
+      "name": "Astronaut_Height_4K.webm",
+      "size": 355848419,
+      "sha256": "d3889942151915f0b139ae5d8ca200bf1c507a99504b214eee7b11898764a910",
+      "group": "astronaut-height",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "39.074000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/astronaut-height"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
