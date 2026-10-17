@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "film/pig-war-1859",
   "previous_branch_head": "d3c35140314deaf6976a0d3cf17f87da003f1d3a",
   "original_render_source_commit": "not inferred from archive commit",
@@ -36,7 +36,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/pig-war-1859"
+      "branch": "film/pig-war-1859",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649799749,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Pig_War_Preview.mp4",
+        "size": 127453981,
+        "digest": "sha256:aa7271789b68f724b54880d58e94ec521a655bb32f76d28c0734bd2890b9a4e7",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Pig_War_Preflight.mp4",
@@ -69,7 +77,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/pig-war-1859"
+      "branch": "film/pig-war-1859",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649800792,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Pig_War_Preflight.mp4",
+        "size": 79497475,
+        "digest": "sha256:491e9580c3d63d6aef20a6d0204e46c517828709fc5d96d0d5fc5c075d3f2a97",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Pig_War_Preflight.webm",
@@ -98,7 +114,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/pig-war-1859"
+      "branch": "film/pig-war-1859",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649802567,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Pig_War_Preflight.webm",
+        "size": 42789571,
+        "digest": "sha256:b470a5d56629f979080422b41f0456e5fafb294c0d84767caf16e0e1b3ab3303",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Pig_War_4K.mp4",
@@ -136,7 +160,15 @@
         ],
         "sha256": "56c6a312903161d0eec191594a454f2e05ebb38cce5895a85d7e6456e76e165e"
       },
-      "branch": "film/pig-war-1859"
+      "branch": "film/pig-war-1859",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649804430,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Pig_War_4K.mp4",
+        "size": 892691834,
+        "digest": "sha256:56c6a312903161d0eec191594a454f2e05ebb38cce5895a85d7e6456e76e165e",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Pig_War_4K.webm",
@@ -170,7 +202,15 @@
         ],
         "sha256": "8a302fa4b51b62d06ea5fd43512a0f1880bdfe6282440159089e25ef721d12e6"
       },
-      "branch": "film/pig-war-1859"
+      "branch": "film/pig-war-1859",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649809564,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Pig_War_4K.webm",
+        "size": 566171943,
+        "digest": "sha256:8a302fa4b51b62d06ea5fd43512a0f1880bdfe6282440159089e25ef721d12e6",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Pig_War_4K_Download.mp4",
@@ -203,8 +243,27 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/pig-war-1859"
+      "branch": "film/pig-war-1859",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649811680,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Pig_War_4K_Download.mp4",
+        "size": 433098179,
+        "digest": "sha256:3f2579d092c745b220319a717f67a743d6aaed850bf01bec37880ec392511ea5",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:04:53.722Z",
+  "recovery_checkpoint_parent": "57873863aa0eed9f171e5c4e6e629f2c92561e56",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }
