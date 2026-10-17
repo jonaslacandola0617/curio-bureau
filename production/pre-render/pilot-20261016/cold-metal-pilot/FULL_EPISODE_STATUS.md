@@ -20,4 +20,6 @@ An excerpt can establish only its own behavior. A render-ready episode requires 
 
 ## State
 
-IN DEVELOPMENT — full-film assembly started. No full preview, completed quality grade, active 4K render or whole-film approval is claimed.
+COMPLETE REVIEW PREVIEW ENCODED — 38.166667 seconds, 1145 frames, 720×1280/30fps. Full decode and format/loudness checks pass. 28 encoded states inspected. GitHub Release 415609182 published with full preview, source ZIP, posts, SRT and QA; owner whole-film creative/listening approval and native 4K remain pending. See full-v1/OUTPUT_QA.json and QUALITY_SCORECARD.json.
+
+Recovery: workspace maintenance removed the local first capture. Source and narration restored from GitHub without regeneration. Two malformed replacement segments were detected and rebuilt. Capture now validates each segment frame count and rejects demux errors during final assembly.
