@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "film/samoa-day-disappeared",
   "previous_branch_head": "2d59f54b3baaa4888c8eb48a8e528c473a2c7226",
   "original_render_source_commit": "not inferred from archive commit",
@@ -32,7 +32,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/samoa-day-disappeared"
+      "branch": "film/samoa-day-disappeared",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649800035,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Bureau_The_Day_That_Disappeared_REBUILT.webm",
+        "size": 30943015,
+        "digest": "sha256:c74a094d3a9b778dfd89a71df4657db87ba8f2dfb936a296b457b884def09c8c",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Bureau_The_Day_That_Disappeared_Pilot.mp4",
@@ -65,8 +73,27 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/samoa-day-disappeared"
+      "branch": "film/samoa-day-disappeared",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649814241,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Bureau_The_Day_That_Disappeared_Pilot.mp4",
+        "size": 4998961,
+        "digest": "sha256:597acabec275968fc23d9c3209dd057fc98d4ab23ff560fb5fe817f46b54ca6d",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:05:32.664Z",
+  "recovery_checkpoint_parent": "2bab48db9f35b110430d48fea5d58b12f6d10f95",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }
