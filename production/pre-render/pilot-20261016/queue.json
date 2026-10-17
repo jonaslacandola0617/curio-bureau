@@ -7,43 +7,51 @@
       "priority": 1,
       "episode_id": "cold-metal-pilot",
       "manifest": "cold-metal-pilot/package.json",
-      "status": "MOTION_REVIEW",
-      "next_action": "Owner moving/listening review; then complete full-film production and native-detail fixes before freeze",
+      "status": "OWNER_ACCEPTED_PUBLISHED_BENCHMARK",
+      "next_action": "Preserve approved full movie; finish source freeze/restoration evidence separately. No rerender requested.",
       "research_hold": false,
-      "review": "cold-metal-pilot/motion-v1/README.md"
+      "review": "cold-metal-pilot/OWNER_FULL_FILM_APPROVAL.md",
+      "publish_intent": "already published"
     },
     {
       "priority": 2,
-      "episode_id": "recorded-voice-pilot",
-      "manifest": "recorded-voice-pilot/package.json",
-      "status": "STORY_SEQUENCE_DRAFT",
-      "next_action": "story/sequence review; then source and render demanding art passage",
-      "research_hold": false
+      "episode_id": "mint-cold-pilot",
+      "manifest": "mint-cold-pilot/package.json",
+      "status": "ART_REVIEW",
+      "next_action": "Finished five-state and hardest-passage art review before motion; full episode preview required.",
+      "research_hold": false,
+      "publish_intent": "NEW POST / batch slot 1"
     },
     {
       "priority": 3,
-      "episode_id": "mint-cold-pilot",
-      "manifest": "mint-cold-pilot/package.json",
-      "status": "STORY_SEQUENCE_DRAFT",
-      "next_action": "story/sequence review; then source and render demanding art passage",
-      "research_hold": false
-    },
-    {
-      "priority": 4,
       "episode_id": "onion-tears-pilot",
       "manifest": "onion-tears-pilot/package.json",
       "status": "STORY_SEQUENCE_DRAFT",
-      "next_action": "story/sequence review; then source and render demanding art passage",
-      "research_hold": false
+      "next_action": "Finished five-state and hardest-passage art review before motion; full episode preview required.",
+      "research_hold": false,
+      "publish_intent": "NEW POST / batch slot 2"
     },
     {
-      "priority": 5,
+      "priority": 4,
       "episode_id": "knuckle-pop-pilot",
       "manifest": "knuckle-pop-pilot/package.json",
       "status": "STORY_SEQUENCE_DRAFT",
-      "next_action": "story/sequence review; then source and render demanding art passage",
-      "research_hold": true
+      "next_action": "Finished five-state and hardest-passage art review before motion; full episode preview required.",
+      "research_hold": false,
+      "publish_intent": "NEW POST / batch slot 3; observational scope",
+      "excluded_research_hold": "Detailed acoustic-model claims excluded; full K2 text/latest debate not verified."
+    },
+    {
+      "priority": 5,
+      "episode_id": "recorded-voice-pilot",
+      "manifest": "recorded-voice-pilot/package.json",
+      "status": "STORY_SEQUENCE_DRAFT",
+      "next_action": "Finished five-state and hardest-passage art review before motion; full episode preview required.",
+      "research_hold": false,
+      "publish_intent": "CALIBRATION / REUSE ONLY; exclude from new-post count"
     }
   ],
-  "scale_up_gate": "Complete and approve one full restored render-ready package, render it without creative edits, compare delivered film to approved preview, measure labor/cost/recovery, then expand."
+  "scale_up_gate": "Finish three complete episodes one at a time with art/motion/full-preview owner reviews, verified GitHub archives and clean source restoration. Measure real labor/revisions; no assumed 50/day capacity.",
+  "updated": "2026-10-17",
+  "batch_scope": "Three new complete science episodes; one reuse/calibration project; Cold Metal accepted benchmark."
 }

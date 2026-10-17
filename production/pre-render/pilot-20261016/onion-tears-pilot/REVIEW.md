@@ -1,46 +1,43 @@
-# Pilot 04 — How a cut onion reaches your eyes
+# How a cut onion reaches your eyes — complete episode preparation v2
 
-**STORY / SEQUENCE DRAFT. No finished artwork, recorded audio, moving preflight or render-ready claim.**
+**NEW POST / batch slot 2.** Story/sequence and image requirements are concrete; this is not a render-ready source package.
 
-## Three distinct hook approaches
+## Hook decision
 
-A. Cut here. Tear up here. How does an onion reach your eyes?
+A — Knife already separating an onion layer in the lower foreground; eye close-up beyond it. Selected: spatial question, two places in one environment.
 
-B. One cut opens a continuous path from onion tissue to a real eye close-up.
+B — Uncut onion versus sliced onion with the eye reacting only on the sliced side. Good contrast; avoid staging as controlled experiment.
 
-C. Start at a watery eye and track the explanatory path backward to the damaged onion.
+C — Eye macro first, camera retreats along an illustrative path to the cut surface. More mystery; must reveal onion by three seconds.
 
-A is the provisional narration opening, not a tested winner. Each requires its own actual first-frame and 0–5s sound-led proof before final hook selection; views/retention are unknown.
+Selected hook is a creative hypothesis, not a retention result. Rendered and muted phone review still required.
 
-## Sequence and asset decisions
+## Whole-film sequence
 
-| Beat | Operation | Subject-owned action | Difficult intermediate | Next inheritance |
-|---|---|---|---|---|
-| 1 | Question | A knife slices a photographic onion; the cut axis aligns with an eye close-up farther back in the composition. | Blade occludes only the cut plane; the eye remains visible. | Follow the cut line into tissue inspection. |
-| 2 | Reveal | Open the damaged onion image at the cut; reveal a supporting chemistry print anchored inside the tissue. | Inner print becomes readable while real tissue boundaries remain. | The pathway leads to a named LF output. |
-| 3 | Convert | Walk through precursor/alliinase then LFS to LF on the attached print, removing irrelevant branches for this explanation. | Prior step remains visible as the LF output is selected. | LF marker exits along the established onion-to-eye axis. |
-| 4 | Connect | Carry a clearly illustrative LF marker from onion edge through air to the eye image. | The onion and eye both stay identifiable across the crossing. | Eye response resolves the consequence. |
-| 5 | Resolve | Revisit the cut and eye together; keep the chemical bridge visible as the complete closing sentence finishes. | No exit leaves a sliver of the previous composition onscreen. | Locked ending only after full narration tail. |
+| Beat | Complete narration | Image operation / difficult intermediate | Next inheritance |
+|---|---|---|---|
+| S01 | Cut here. Tear up here. How does an onion reach your eyes? | Connect: One incision opens a visible separation between onion layers as the eye becomes the focal destination. | Retain cut edge for macro inspection. |
+| S02 | The knife damages the onion’s tissue, starting a chain of chemical reactions. | Reveal: Cut edge opens a small source-attached explanatory inset while intact neighboring layers stay visible. | Inset edge becomes the reaction-strip baseline. |
+| S03 | One step uses an enzyme called lachrymatory factor synthase. | Inspect: Highlight just the LFS-assisted conversion, retaining a smaller preceding-step context. | Product label LF leaves the strip as the next category. |
+| S04 | It helps make a volatile compound called the lachrymatory factor. | Produce: LF category marks emerge from the product side into space above the cut. | Same LF marks cross from source to air. |
+| S05 | Volatile means it can enter the air. | Transfer: Sparse labeled LF marks cross the otherwise empty shared space; no colored fog. | Follow the leading mark to the eye crop. |
+| S06 | That compound causes the familiar eye irritation associated with chopping onions. | Locate: Focus selects eye as the LF cue arrives; restrained IRRITATION label, no burn/acid imagery. | Reopen the entire shared space. |
+| S07 | So the slice and the irritation happen in different places, connected by an airborne chemical. The knife never touched your eye. It started a reaction that could reach it. | Resolve: Retrace the full source-to-air-to-eye relationship, ending on the same two subjects as frame zero. | Complete last word, musical arrival, exact locked ending. |
 
-## Asset shopping / construction list
+## Purpose-built image assets
 
-- Cleared whole/sliced onion macro photos matched for orientation
-- Knife cutout and repaired onion tissue behind blade
-- Cleared photographic eye/face close-up with consent/license
-- Original supporting pathway print with precursor/alliinase/LFS/LF correctly separated
+- Cleared or original photographic onion section with intact/cut layer variants and separate knife/hand masks.
+- Separate anonymous eye/tear-context photograph; no medical diagnosis or invented before/after result.
+- Original labeled reaction strip, damaged-cell boundary and sparse LF path marks; chemistry is support attached to the cut image.
 
-Assets are requirements, not acquired or rights-cleared inventory. Before artwork: choose the strongest difficult-claim approach above, source actual images, record effective native resolution at the closest crop, separate masks, repair hidden pixels and keep source/rights provenance per item.
+## Craft carried from approved Cold Metal
 
-## Craft and sound
+Photographic objects own the explanation; bold pinned Playfair900, fixed central Manrope captions, visible print/photo grain and motivated fibers/plastic, focus plus gradient shading, transition blur, selective chromatic edges, local ink/line boil. Mechanical jitter/exposure vary by material, not global shake. True parallax needs independent planes and repaired revealed regions. No repeated paper-photo cards or a grain overlay used as a substitute for explanation. Keep exact shared ending, Bernard, clear existing action SFX and evolving original score.
 
-Image-led; photographic subjects act, compare or reveal. Use strong source-local photographic print grain, paper fibers only on print surfaces, plastic only where motivated. Chromatic separation, focus hunt, source-local focus/shade and transition blur must support inspection; do not blur source evidence or captions. Mechanical jitter/exposure should feel material, not shake every layer. Local ink bleed/edge boil belongs to printed marks. Playfair Display 900 titles; fixed centered Manrope captions; exact London Bridge ending.
+## Full-film acceptance
 
-Reuse approved Bernard; do not generate voice during a queue check. Search existing SFX catalogs before making new audio. Author a cue on each meaningful physical/editorial action (contact, cut, selection, magnification, reveal); camera drift does not need an incessant whoosh. Use evolving original music and independent voice/music/effects buses. Choose gains by actual listening and ducking, not a blanket percentage. Protect evidence clips from implied authentic synthesized audio.
+One complete 1080×1920/30 MP4 preview covers every clause and all joins, payoff and ending. No excerpt may stand in for unseen scenes. Inspect at opening, 25%, hardest intermediate, 75%, payoff and every transition; listen to entire encoded output and final word, test actual word-aligned captions/UI, facts, rights, texture/focus and native detail. Record PASS/REVISE/NOT REVIEWED per scene and category; any failed category blocks approval. Preserve source before capture, archive each completed output on GitHub immediately, retain verified chunks and rehearse clean restore.
 
-## Next review gate
+## Current next gate
 
-Review the story, factual scope and two visual approaches first. Then build five demanding finished checkpoints and the three-state hardest passage, including heading-hidden and phone-size comparisons. Owner art/sequence approval precedes the moving proof; moving proof approval precedes full film, final audio/captions and whole 1080p preview. Reconcile final freeze records before native 4K.
-
-## Repetition check
-
-Compare the six-shot strip with Astronaut Height, Recorded Voice and Wrinkled Fingers actual exports once restored. This text proposal cannot pass that visual check. Reuse brand/craft and cleared resources, not prior compositions. No finished frame or owner review has been fabricated.
+Five demanding finished art states and initial/intermediate/resolved hardest passage, including heading-hidden and phone-size comparison, then owner decision tied to actual image hashes. Motion only follows that decision. No owner approval is inferred from queue authorization.

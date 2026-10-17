@@ -1,3 +1,9 @@
+# Current status — owner accepted complete film
+
+17 October 2026: owner explicitly confirmed Cold Metal passed quality and production. See [artifact-bound approval](OWNER_FULL_FILM_APPROVAL.md). Preserve the published 38.17-second movie unchanged. This updates the earlier pending owner-review status below; the historical technical records remain unchanged. Reproducible-package freeze is still incomplete.
+
+---
+
 # Cold Metal — complete-film validation
 
 Owner direction: 17 October 2026, 11:41 Asia/Manila. Complete and validate this episode first, then revise the remaining pilot projects, then expand batches.

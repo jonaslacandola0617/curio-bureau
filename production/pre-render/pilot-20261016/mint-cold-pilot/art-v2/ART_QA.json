@@ -1,0 +1,87 @@
+{
+  "scope": "STATIC ART / no whole-film or motion certification",
+  "status": "OWNER ART REVIEW PENDING",
+  "rendered_states": [
+    {
+      "id": "01_hook",
+      "path": "rendered/01_hook.jpg",
+      "sha256": "fb4ef612171297f2ec72458fe5d808dd937c56b13e398813592a9f68d5f72c02",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "02_menthol",
+      "path": "rendered/02_menthol.jpg",
+      "sha256": "5c36844c0270b242f2492945cdcc2f1f28533fac1f9c0ebc676b1de467c7619a",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "03_input_initial",
+      "path": "rendered/03_input_initial.jpg",
+      "sha256": "1b471ccb8397e9dad5d5be3645f58cbdba4105abe650f11a561adc0f1442c9d1",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "04_input_intermediate",
+      "path": "rendered/04_input_intermediate.jpg",
+      "sha256": "b909cc9e4d62cfc9c519f9542894c82b9543260dd81e6f2006819c420144423d",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "05_input_resolved",
+      "path": "rendered/05_input_resolved.jpg",
+      "sha256": "ff7d85905fafe7b46b472452e171bb6033eb479cac2477aa8e762fce8bd46174",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "06_sensation",
+      "path": "rendered/06_sensation.jpg",
+      "sha256": "3d8f4b4957ac23fac67350180825e3e0a15af1d8da70bd792d438a81f6074892",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "07_payoff",
+      "path": "rendered/07_payoff.jpg",
+      "sha256": "29f8b8f971be55cb6b0772cb12c8950417a7483e934fd4d28f37dc09248bd219",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
+  "heading_hidden": [
+    {
+      "path": "rendered/03_input_initial_no_heading.jpg",
+      "sha256": "0e3919f9d8992734a68d59871a8841fb94560f0fec4e0a94a6d669eb1e2fa166"
+    },
+    {
+      "path": "rendered/04_input_intermediate_no_heading.jpg",
+      "sha256": "cf25547c3c0bfa9b944b92b4fe47898ecf86ab02ccccb1660fee94cd3a9cc5c1"
+    },
+    {
+      "path": "rendered/05_input_resolved_no_heading.jpg",
+      "sha256": "12d4d4084855c592a20da2a62382b8ca543ff4c98a51cb81439402dfd40f04b2"
+    }
+  ],
+  "internal_comparison": "Images remain the recognizable origins. Two distinct inputs converge on one anchored supporting channel print; photographic mouth returns for consequence. Not a renamed spoon comparison or a portrait/microphone capture template.",
+  "corrected_findings": [
+    "Removed hard rectangular caption-quiet-zone edges; used a full-width gradient and reintroduced grain.",
+    "Moved channel path endpoints from the heading to the channel geometry.",
+    "Removed low-contrast body text over the mint leaf.",
+    "Moved payoff print clear of footer and routed paths to its channel."
+  ],
+  "remaining_weaknesses": [
+    "Source alpha edges and tightest crop need moving inspection; generated illustration is not a molecular measurement.",
+    "A full-frame photographic mouth crop should be checked for distracting crop boundaries during parallax.",
+    "No claims of phone listening, word alignment, timing, motion or full preview completion."
+  ],
+  "unresolved_fallbacks": [],
+  "owner_review": {
+    "status": "not_reviewed"
+  },
+  "motion": "NOT BUILT",
+  "full_preview": "NOT BUILT"
+}

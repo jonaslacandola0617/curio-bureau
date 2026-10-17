@@ -1,0 +1,36 @@
+{
+  "assets": [
+    {
+      "id": "mint",
+      "path": "assets/mint.png",
+      "sha256": "073fc5e5086853e1caabd8df42495d325fd892fee55dcbb0f3b1289d3e7fc76d",
+      "bytes": 2331783,
+      "provenance": "Original photographic-style illustration generated with built-in image_gen, 17 October 2026; no real person identity or observed experiment asserted.",
+      "rights_status": "original-generated",
+      "role": "recognizable independent image plane",
+      "inspection": "Visually inspected; real max-crop audit and motion-edge/repair checks still pending."
+    },
+    {
+      "id": "ice",
+      "path": "assets/ice.png",
+      "sha256": "60af73236dc34790c01fdee6b762151222d47228535e55e203b261cb29ca1131",
+      "bytes": 2534278,
+      "provenance": "Original photographic-style illustration generated with built-in image_gen, 17 October 2026; no real person identity or observed experiment asserted.",
+      "rights_status": "original-generated",
+      "role": "recognizable independent image plane",
+      "inspection": "Visually inspected; real max-crop audit and motion-edge/repair checks still pending."
+    },
+    {
+      "id": "mouth",
+      "path": "assets/mouth.png",
+      "sha256": "f883f8ff370ec8f89dea6619669b95b4d0d5c9c309ea02c864acd39933dfdc72",
+      "bytes": 2365854,
+      "provenance": "Original photographic-style illustration generated with built-in image_gen, 17 October 2026; no real person identity or observed experiment asserted.",
+      "rights_status": "original-generated",
+      "role": "recognizable independent image plane",
+      "inspection": "Visually inspected; real max-crop audit and motion-edge/repair checks still pending."
+    }
+  ],
+  "fonts": "Pinned existing Cold Metal art-v1 OFL fonts, referenced by art.cjs; include exact bytes/hashes in eventual freeze.",
+  "scientific_figure": "Original conceptual TRPM8 channel/membrane figure, not recovered structure or true geometry."
+}

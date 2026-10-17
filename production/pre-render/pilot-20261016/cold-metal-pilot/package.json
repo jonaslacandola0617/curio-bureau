@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "episode_id": "cold-metal-pilot",
-  "status": "MOTION_REVIEW",
+  "status": "OWNER_ACCEPTED_PUBLISHED_BENCHMARK",
   "settings": {
     "width": 1080,
     "height": 1920,
@@ -42,6 +42,14 @@
       "archive": {
         "kind": "git"
       }
+    },
+    {
+      "path": "OWNER_FULL_FILM_APPROVAL.md",
+      "role": "proof",
+      "sha256": "41ed4bc6ea07d7af710a5d738897ee1c55806afe05bc0807216dba0d7c0a01c3",
+      "archive": {
+        "kind": "git"
+      }
     }
   ],
   "gates": {},
@@ -51,5 +59,12 @@
     "Native source crop-detail fixes and exact ending restoration pending",
     "Full-film aligned captions/audio/whole-preview review and freeze pending"
   ],
-  "frozen_fingerprint": null
+  "frozen_fingerprint": null,
+  "owner_full_film_acceptance": {
+    "date": "2026-10-17",
+    "reviewer": "owner",
+    "evidence": "OWNER_FULL_FILM_APPROVAL.md",
+    "reviewed_video_sha256": "fc403b9e2c906d4adbbb8cc8704f2b400326871925e2d1d3c31eab0bfe831d81",
+    "scope": "whole-film creative and production acceptance; no unperformed technical checks inferred"
+  }
 }

@@ -1,0 +1,59 @@
+{
+  "scope": "Text/source integrity only; not artistic approval",
+  "episodes": [
+    {
+      "episode": "mint-cold-pilot",
+      "artwork_contract": {
+        "contract_fields": "PASS",
+        "stage": "artwork",
+        "shots": 7,
+        "artistic_quality": "not inferred from validation"
+      },
+      "narration_coverage": true,
+      "stale_input_hashes": [],
+      "unapproved_motion_blocked": true,
+      "render_ready": false
+    },
+    {
+      "episode": "onion-tears-pilot",
+      "artwork_contract": {
+        "contract_fields": "PASS",
+        "stage": "artwork",
+        "shots": 7,
+        "artistic_quality": "not inferred from validation"
+      },
+      "narration_coverage": true,
+      "stale_input_hashes": [],
+      "unapproved_motion_blocked": true,
+      "render_ready": false
+    },
+    {
+      "episode": "knuckle-pop-pilot",
+      "artwork_contract": {
+        "contract_fields": "PASS",
+        "stage": "artwork",
+        "shots": 7,
+        "artistic_quality": "not inferred from validation"
+      },
+      "narration_coverage": true,
+      "stale_input_hashes": [],
+      "unapproved_motion_blocked": true,
+      "render_ready": false
+    },
+    {
+      "episode": "recorded-voice-pilot",
+      "artwork_contract": {
+        "contract_fields": "PASS",
+        "stage": "artwork",
+        "shots": 7,
+        "artistic_quality": "not inferred from validation"
+      },
+      "narration_coverage": true,
+      "stale_input_hashes": [],
+      "unapproved_motion_blocked": true,
+      "render_ready": false
+    }
+  ],
+  "all_pass": true,
+  "complete_new_movies": 0
+}

@@ -1,46 +1,43 @@
-# Pilot 05 — What imaging reveals inside a cracking knuckle
+# Inside a knuckle crack — complete episode preparation v2
 
-**STORY / SEQUENCE DRAFT. No finished artwork, recorded audio, moving preflight or render-ready claim.**
+**NEW POST / batch slot 3; observational scope.** Story/sequence and image requirements are concrete; this is not a render-ready source package.
 
-## Three distinct hook approaches
+## Hook decision
 
-A. This scan caught a knuckle crack. Watch what appears inside the joint.
+A — Genuine study before/after joint images share one anatomical registration; select the appearing dark region. Selected: evidence-led and honest about temporal limits.
 
-B. A photographic hand aligns directly with the corresponding MRI joint location.
+B — Hand exterior gives way to the actual MRI with matching finger orientation. Strong recognition; requires a clean scale handoff.
 
-C. Start on actual pre/post scan evidence, then reveal the hand and experiment context.
+C — A giant crack waveform beside scan frames. Rejected for now: waveform can imply synchronized measurement we do not have.
 
-A is the provisional narration opening, not a tested winner. Each requires its own actual first-frame and 0–5s sound-led proof before final hook selection; views/retention are unknown.
+Selected hook is a creative hypothesis, not a retention result. Rendered and muted phone review still required.
 
-## Sequence and asset decisions
+## Whole-film sequence
 
-| Beat | Operation | Subject-owned action | Difficult intermediate | Next inheritance |
-|---|---|---|---|---|
-| 1 | Inspect | A photographic hand aligns its knuckle with the actual study scan; the scan opens at that location. | Hand and scan stay registered while the evidence window enlarges. | The same scan region anchors the before/after. |
-| 2 | Compare | Show actual consecutive evidence states with their real frame order; separate surfaces and cavity region are annotated locally. | Before and after remain available while cavity location is selected. | Persisting cavity stays under the comparison bracket. |
-| 3 | Test | Advance to the later evidence frame and retain the cavity marker where still supported by the source. | Marker stays attached through the scan update, not drawn at an invented new location. | Question shifts from visible cavity to acoustic mechanism. |
-| 4 | Distinguish | Place observed scan evidence beside a separately labeled mathematical-model excerpt/print. | Boundary between observation and model remains explicit as the comparison opens. | Return to only what the scan directly supports. |
-| 5 | Resolve | Return to the genuine evidence window; preserve a small clear uncertainty statement instead of a definitive bubble-pop picture. | Evidence remains readable with the qualification and centered captions. | Complete final phrase before locked ending. |
+| Beat | Complete narration | Image operation / difficult intermediate | Next inheritance |
+|---|---|---|---|
+| S01 | What does a knuckle crack look like inside? | Inspect: A source-bound inspection window selects the joint space without obscuring the underlying scan. | Same anatomical anchors establish before state. |
+| S02 | In 2015, researchers used MRI to watch ten finger joints in one volunteer. | Contextualize: Source credit and 10 JOINTS / 1 VOLUNTEER appear beside the study setup detail. | Return along same finger axis. |
+| S03 | As a joint separated, a dark cavity appeared. | Reveal: Next real source frame replaces it at honest source timing; only a source-local contour marks the changed region. | Keep the same image orientation for persistence. |
+| S04 | And afterward, it was still visible. | Compare: A later real frame enters beside it with the same joint orientation and matching callout position. | Source-frame spacing motivates acquisition-rate clarification. |
+| S05 | That matters: the image is not simply showing a bubble disappearing. It shows a cavity forming and remaining in the joint. | Distinguish: Select the cavity on the later image, leaving BEFORE context visible rather than animating a fabricated pop. | Keep scan as a smaller anchor as rate strip appears. |
+| S06 | But the scan captured just three point two frames each second. It could not reveal every tiny stage of the cracking sound. | Limit: Discrete actual frame positions are shown on a conceptual one-second strip, explicitly non-audio-synchronized. | Restore cavity image as final evidence anchor. |
+| S07 | So keep two things separate: what the images show, and the explanation for the sound. The visible clue is a cavity that stays. | Resolve: The observed side resolves to the real persisting cavity while the interpretation remains qualified. | Protect stays completely; no loud fake joint pop; exact ending. |
 
-## Asset shopping / construction list
+## Purpose-built image assets
 
-- K1 Figure 3 and supporting MRI clip candidates; inspect item-specific credits and CC BY attribution before download/use
-- Cleared hand photo matched to correct MCP joint orientation
-- Evidence-window masks preserving original scan pixels and scale
-- A separate original labeled modelling comparison; never morph one experiment into another
+- Actual K1 scan figure or supporting clip, exact credit/license and original bytes; scientific evidence may be resolution limited. No generative replacement.
+- Original hand photograph for context and orientation, separate anatomical registration marks.
+- Labeled BEFORE / AFTER image registration and acquisition-rate strip; K2 model geometry is not needed for selected film.
 
-Assets are requirements, not acquired or rights-cleared inventory. Before artwork: choose the strongest difficult-claim approach above, source actual images, record effective native resolution at the closest crop, separate masks, repair hidden pixels and keep source/rights provenance per item.
+## Craft carried from approved Cold Metal
 
-## Craft and sound
+Photographic objects own the explanation; bold pinned Playfair900, fixed central Manrope captions, visible print/photo grain and motivated fibers/plastic, focus plus gradient shading, transition blur, selective chromatic edges, local ink/line boil. Mechanical jitter/exposure vary by material, not global shake. True parallax needs independent planes and repaired revealed regions. No repeated paper-photo cards or a grain overlay used as a substitute for explanation. Keep exact shared ending, Bernard, clear existing action SFX and evolving original score.
 
-Image-led; photographic subjects act, compare or reveal. Use strong source-local photographic print grain, paper fibers only on print surfaces, plastic only where motivated. Chromatic separation, focus hunt, source-local focus/shade and transition blur must support inspection; do not blur source evidence or captions. Mechanical jitter/exposure should feel material, not shake every layer. Local ink bleed/edge boil belongs to printed marks. Playfair Display 900 titles; fixed centered Manrope captions; exact London Bridge ending.
+## Full-film acceptance
 
-Reuse approved Bernard; do not generate voice during a queue check. Search existing SFX catalogs before making new audio. Author a cue on each meaningful physical/editorial action (contact, cut, selection, magnification, reveal); camera drift does not need an incessant whoosh. Use evolving original music and independent voice/music/effects buses. Choose gains by actual listening and ducking, not a blanket percentage. Protect evidence clips from implied authentic synthesized audio.
+One complete 1080×1920/30 MP4 preview covers every clause and all joins, payoff and ending. No excerpt may stand in for unseen scenes. Inspect at opening, 25%, hardest intermediate, 75%, payoff and every transition; listen to entire encoded output and final word, test actual word-aligned captions/UI, facts, rights, texture/focus and native detail. Record PASS/REVISE/NOT REVIEWED per scene and category; any failed category blocks approval. Preserve source before capture, archive each completed output on GitHub immediately, retain verified chunks and rehearse clean restore.
 
-## Next review gate
+## Current next gate
 
-Review the story, factual scope and two visual approaches first. Then build five demanding finished checkpoints and the three-state hardest passage, including heading-hidden and phone-size comparisons. Owner art/sequence approval precedes the moving proof; moving proof approval precedes full film, final audio/captions and whole 1080p preview. Reconcile final freeze records before native 4K.
-
-## Repetition check
-
-Compare the six-shot strip with Astronaut Height, Recorded Voice and Wrinkled Fingers actual exports once restored. This text proposal cannot pass that visual check. Reuse brand/craft and cleared resources, not prior compositions. No finished frame or owner review has been fabricated.
+Five demanding finished art states and initial/intermediate/resolved hardest passage, including heading-hidden and phone-size comparison, then owner decision tied to actual image hashes. Motion only follows that decision. No owner approval is inferred from queue authorization.

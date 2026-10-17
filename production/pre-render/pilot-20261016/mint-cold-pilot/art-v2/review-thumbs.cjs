@@ -1,0 +1,3 @@
+const fs=require('fs'),path=require('path');
+const {createCanvas,loadImage}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/@napi-rs/canvas');
+(async()=>{const dest=path.join(__dirname,'review-thumbs');fs.mkdirSync(dest,{recursive:true});for(const f of fs.readdirSync(path.join(__dirname,'rendered')).filter(f=>f.endsWith('.jpg'))){const im=await loadImage(path.join(__dirname,'rendered',f)),c=createCanvas(540,960);c.getContext('2d').drawImage(im,0,0,540,960);fs.writeFileSync(path.join(dest,f),c.toBuffer('image/jpeg',84));}console.log('Offline review thumbnails generated; full-size art retained separately.');})().catch(e=>{console.error(e);process.exit(1)});

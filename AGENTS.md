@@ -79,3 +79,7 @@ The owner approved the delivered moving picture, animation and sound at 08:51 As
 
 ## GitHub export archive — owner directive, 15 October 2026
 Read production/engine/GITHUB_EXPORT_STORAGE.md. All proprietary exports must be saved as repository assets or versioned GitHub Release assets. Git stores source, reusable original assets and small records; Releases hold large masters, posting videos, WebM/browser outputs and recovery bytes. Actions artifacts and temporary links are not the sole persistent archive. Verify actual asset bytes/receipts before claiming backup or permanent delivery. Preserve item-specific third-party restrictions and existing backups.
+
+## Latest complete-film benchmark — 17 October 2026
+
+The owner explicitly accepted the complete Cold Metal film as quality-passed production. Read [artifact-bound approval](production/approved-benchmarks/COLD_METAL_FULL_OWNER_APPROVAL.md) and the [revised pilot queue](production/pre-render/pilot-20261016/README.md). Preserve historical export/QA bytes. Mint, Onion Tears and the observational Knuckle episode are the next new-post batch; Recorded Voice is reuse/calibration. Each new episode still needs exact-art approval, moving review and one complete native1080p preview; no excerpt substitutes for unseen scenes. Cold Metal acceptance does not invent missing caption measurements or frozen-source restoration.

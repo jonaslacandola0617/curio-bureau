@@ -2,142 +2,356 @@
   "version": 1,
   "episode_id": "knuckle-pop-pilot",
   "status": "STORY_SEQUENCE_DRAFT",
+  "scope": "ENTIRE EPISODE: seven connected narrated beats plus exact ending",
   "shots": [
     {
       "id": "S01",
-      "viewer_before": "Viewer recognizes the everyday subject but has not seen the mechanism.",
-      "factual_proposition": "The internal view is a scan, not a decorative anatomy illustration.",
+      "narration_phrase": "What does a knuckle crack look like inside?",
+      "viewer_before": "Viewer recognizes the ordinary subject but does not yet know this relationship.",
+      "factual_proposition": "Imaging can reveal an internal change.",
       "source_ids": [
         "K1"
       ],
       "visual_operation": "Inspect",
-      "subject_action": "A photographic hand aligns its knuckle with the actual study scan; the scan opens at that location.",
-      "viewer_after": "The internal view is a scan, not a decorative anatomy illustration.",
-      "invariant": "MCP location and orientation",
-      "initial_state": "A photographic hand aligns its knuckle with the actual study scan",
-      "difficult_intermediate": "Hand and scan stay registered while the evidence window enlarges.",
-      "resolved_state": "The internal view is a scan, not a decorative anatomy illustration. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "The same scan region anchors the before/after.",
-      "representation_reason": "Use actual study evidence after rights check, not generated diagnostic imagery.",
-      "source_truth_boundary": "RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "subject_action": "A source-bound inspection window selects the joint space without obscuring the underlying scan.",
+      "viewer_after": "Viewer knows the question concerns internal evidence.",
+      "invariant": "Actual MCP joint landmarks",
+      "initial_state": "Actual study scan and finger orientation are visible from the first frame.",
+      "difficult_intermediate": "A source-bound inspection window selects the joint space without obscuring the underlying scan.",
+      "resolved_state": "Viewer knows the question concerns internal evidence.",
+      "next_inheritance": "Same anatomical anchors establish before state.",
+      "representation_reason": "C05 scientific evidence chosen to make imaging can reveal an internal change.",
+      "source_truth_boundary": "The new film asks what the scan shows, not which acoustic mechanism is finally settled. No arthritis/safety/treatment claims. No invented MRI, interpolation marketed as captured evidence, or synchronized synthetic crack implying measured frame-exact audio. Keep 3.2-fps acquisition visible. K2 acoustic-model details remain excluded pending full-text verification.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "A photographic hand aligns its knuckle with the actual study scan; the scan opens at that location.",
-        "asset_operation": "Hand and scan stay registered while the evidence window enlarges."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Actual study scan and finger orientation are visible from the first frame. Viewer knows the question concerns internal evidence.",
+        "asset_operation": "A source-bound inspection window selects the joint space without obscuring the underlying scan."
+      },
+      "motion": {
+        "entry": "Actual study scan and finger orientation are visible from the first frame.",
+        "primary_action": "A source-bound inspection window selects the joint space without obscuring the underlying scan.",
+        "settle": "Viewer knows the question concerns internal evidence.",
+        "exit_reason": "Same anatomical anchors establish before state.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "document_focus",
+        "trigger": "Inspect event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C05 scientific evidence",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
       "id": "S02",
-      "viewer_before": "The internal view is a scan, not a decorative anatomy illustration.",
-      "factual_proposition": "Cavity appearance accompanies separation in this experiment.",
+      "narration_phrase": "In 2015, researchers used MRI to watch ten finger joints in one volunteer.",
+      "viewer_before": "Viewer knows the question concerns internal evidence.",
+      "factual_proposition": "Study scope was small and specific.",
       "source_ids": [
         "K1"
       ],
-      "visual_operation": "Compare",
-      "subject_action": "Show actual consecutive evidence states with their real frame order; separate surfaces and cavity region are annotated locally.",
-      "viewer_after": "Cavity appearance accompanies separation in this experiment.",
-      "invariant": "Original pixels, orientation and frame order",
-      "initial_state": "The internal view is a scan, not a decorative anatomy illustration.",
-      "difficult_intermediate": "Before and after remain available while cavity location is selected.",
-      "resolved_state": "Cavity appearance accompanies separation in this experiment. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Persisting cavity stays under the comparison bracket.",
-      "representation_reason": "No interpolated fake observation; caption states limited source frame rate.",
-      "source_truth_boundary": "RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "visual_operation": "Contextualize",
+      "subject_action": "Source credit and 10 JOINTS / 1 VOLUNTEER appear beside the study setup detail.",
+      "viewer_after": "Scope is legible; no population-wide inference.",
+      "invariant": "Study identity and selected joint",
+      "initial_state": "Selected joint stays anchored.",
+      "difficult_intermediate": "Source credit and 10 JOINTS / 1 VOLUNTEER appear beside the study setup detail.",
+      "resolved_state": "Scope is legible; no population-wide inference.",
+      "next_inheritance": "Return along same finger axis.",
+      "representation_reason": "C08 source/context chosen to make study scope was small and specific.",
+      "source_truth_boundary": "The new film asks what the scan shows, not which acoustic mechanism is finally settled. No arthritis/safety/treatment claims. No invented MRI, interpolation marketed as captured evidence, or synchronized synthetic crack implying measured frame-exact audio. Keep 3.2-fps acquisition visible. K2 acoustic-model details remain excluded pending full-text verification.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Show actual consecutive evidence states with their real frame order; separate surfaces and cavity region are annotated locally.",
-        "asset_operation": "Before and after remain available while cavity location is selected."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Selected joint stays anchored. Scope is legible; no population-wide inference.",
+        "asset_operation": "Source credit and 10 JOINTS / 1 VOLUNTEER appear beside the study setup detail."
+      },
+      "motion": {
+        "entry": "Selected joint stays anchored.",
+        "primary_action": "Source credit and 10 JOINTS / 1 VOLUNTEER appear beside the study setup detail.",
+        "settle": "Scope is legible; no population-wide inference.",
+        "exit_reason": "Return along same finger axis.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "evidence_lock",
+        "trigger": "Contextualize event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C08 source/context",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
       "id": "S03",
-      "viewer_before": "Cavity appearance accompanies separation in this experiment.",
-      "factual_proposition": "The observed cavity did not immediately vanish.",
+      "narration_phrase": "As a joint separated, a dark cavity appeared.",
+      "viewer_before": "Scope is legible; no population-wide inference.",
+      "factual_proposition": "Cavity appeared during separation.",
       "source_ids": [
         "K1"
       ],
-      "visual_operation": "Test",
-      "subject_action": "Advance to the later evidence frame and retain the cavity marker where still supported by the source.",
-      "viewer_after": "The observed cavity did not immediately vanish.",
-      "invariant": "Same cavity region",
-      "initial_state": "Cavity appearance accompanies separation in this experiment.",
-      "difficult_intermediate": "Marker stays attached through the scan update, not drawn at an invented new location.",
-      "resolved_state": "The observed cavity did not immediately vanish. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Question shifts from visible cavity to acoustic mechanism.",
-      "representation_reason": "Retain study sample scope: one participant, ten joints.",
-      "source_truth_boundary": "RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "visual_operation": "Reveal",
+      "subject_action": "Next real source frame replaces it at honest source timing; only a source-local contour marks the changed region.",
+      "viewer_after": "Post-event cavity remains visible in actual evidence.",
+      "invariant": "Registered articular surfaces",
+      "initial_state": "Actual pre-event image is registered by joint landmarks.",
+      "difficult_intermediate": "Next real source frame replaces it at honest source timing; only a source-local contour marks the changed region.",
+      "resolved_state": "Post-event cavity remains visible in actual evidence.",
+      "next_inheritance": "Keep the same image orientation for persistence.",
+      "representation_reason": "C09 registered before/after chosen to make cavity appeared during separation.",
+      "source_truth_boundary": "The new film asks what the scan shows, not which acoustic mechanism is finally settled. No arthritis/safety/treatment claims. No invented MRI, interpolation marketed as captured evidence, or synchronized synthetic crack implying measured frame-exact audio. Keep 3.2-fps acquisition visible. K2 acoustic-model details remain excluded pending full-text verification.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Advance to the later evidence frame and retain the cavity marker where still supported by the source.",
-        "asset_operation": "Marker stays attached through the scan update, not drawn at an invented new location."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Actual pre-event image is registered by joint landmarks. Post-event cavity remains visible in actual evidence.",
+        "asset_operation": "Next real source frame replaces it at honest source timing; only a source-local contour marks the changed region."
+      },
+      "motion": {
+        "entry": "Actual pre-event image is registered by joint landmarks.",
+        "primary_action": "Next real source frame replaces it at honest source timing; only a source-local contour marks the changed region.",
+        "settle": "Post-event cavity remains visible in actual evidence.",
+        "exit_reason": "Keep the same image orientation for persistence.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "tiny_mask_reveal",
+        "trigger": "Reveal event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C09 registered before/after",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
       "id": "S04",
-      "viewer_before": "The observed cavity did not immediately vanish.",
-      "factual_proposition": "Seeing a cavity is different from fully explaining the sound.",
+      "narration_phrase": "And afterward, it was still visible.",
+      "viewer_before": "Post-event cavity remains visible in actual evidence.",
+      "factual_proposition": "Cavity persisted after the event.",
       "source_ids": [
-        "K1",
-        "K2"
+        "K1"
       ],
-      "visual_operation": "Distinguish",
-      "subject_action": "Place observed scan evidence beside a separately labeled mathematical-model excerpt/print.",
-      "viewer_after": "Seeing a cavity is different from fully explaining the sound.",
-      "invariant": "Observation/model distinction",
-      "initial_state": "The observed cavity did not immediately vanish.",
-      "difficult_intermediate": "Boundary between observation and model remains explicit as the comparison opens.",
-      "resolved_state": "Seeing a cavity is different from fully explaining the sound. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Return to only what the scan directly supports.",
-      "representation_reason": "Research hold blocks finalized model depiction; no debate resolved by attractive animation.",
-      "source_truth_boundary": "RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "visual_operation": "Compare",
+      "subject_action": "A later real frame enters beside it with the same joint orientation and matching callout position.",
+      "viewer_after": "The dark region remains across observed frames.",
+      "invariant": "Same cavity location across real frames",
+      "initial_state": "Post-separation source image remains full and readable.",
+      "difficult_intermediate": "A later real frame enters beside it with the same joint orientation and matching callout position.",
+      "resolved_state": "The dark region remains across observed frames.",
+      "next_inheritance": "Source-frame spacing motivates acquisition-rate clarification.",
+      "representation_reason": "C07 evidence comparison chosen to make cavity persisted after the event.",
+      "source_truth_boundary": "The new film asks what the scan shows, not which acoustic mechanism is finally settled. No arthritis/safety/treatment claims. No invented MRI, interpolation marketed as captured evidence, or synchronized synthetic crack implying measured frame-exact audio. Keep 3.2-fps acquisition visible. K2 acoustic-model details remain excluded pending full-text verification.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Place observed scan evidence beside a separately labeled mathematical-model excerpt/print.",
-        "asset_operation": "Boundary between observation and model remains explicit as the comparison opens."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Post-separation source image remains full and readable. The dark region remains across observed frames.",
+        "asset_operation": "A later real frame enters beside it with the same joint orientation and matching callout position."
+      },
+      "motion": {
+        "entry": "Post-separation source image remains full and readable.",
+        "primary_action": "A later real frame enters beside it with the same joint orientation and matching callout position.",
+        "settle": "The dark region remains across observed frames.",
+        "exit_reason": "Source-frame spacing motivates acquisition-rate clarification.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "quiet_resolution",
+        "trigger": "Compare event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C07 evidence comparison",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
       "id": "S05",
-      "viewer_before": "Seeing a cavity is different from fully explaining the sound.",
-      "factual_proposition": "The observation is strong within its scope; acoustic interpretation remains qualified.",
+      "narration_phrase": "That matters: the image is not simply showing a bubble disappearing. It shows a cavity forming and remaining in the joint.",
+      "viewer_before": "The dark region remains across observed frames.",
+      "factual_proposition": "The observation is formation/persistence.",
       "source_ids": [
-        "K1",
-        "K2"
+        "K1"
       ],
-      "visual_operation": "Resolve",
-      "subject_action": "Return to the genuine evidence window; preserve a small clear uncertainty statement instead of a definitive bubble-pop picture.",
-      "viewer_after": "The observation is strong within its scope; acoustic interpretation remains qualified.",
-      "invariant": "Opening evidence window",
-      "initial_state": "Seeing a cavity is different from fully explaining the sound.",
-      "difficult_intermediate": "Evidence remains readable with the qualification and centered captions.",
-      "resolved_state": "The observation is strong within its scope; acoustic interpretation remains qualified. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Complete final phrase before locked ending.",
-      "representation_reason": "No health advice, invented sound synchronization or overconfident science headline.",
-      "source_truth_boundary": "RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "visual_operation": "Distinguish",
+      "subject_action": "Select the cavity on the later image, leaving BEFORE context visible rather than animating a fabricated pop.",
+      "viewer_after": "Observation is stated at the strength of the recorded images.",
+      "invariant": "Before/after orientation",
+      "initial_state": "Before and later source images remain registered.",
+      "difficult_intermediate": "Select the cavity on the later image, leaving BEFORE context visible rather than animating a fabricated pop.",
+      "resolved_state": "Observation is stated at the strength of the recorded images.",
+      "next_inheritance": "Keep scan as a smaller anchor as rate strip appears.",
+      "representation_reason": "C05 evidence interpretation chosen to make the observation is formation/persistence.",
+      "source_truth_boundary": "The new film asks what the scan shows, not which acoustic mechanism is finally settled. No arthritis/safety/treatment claims. No invented MRI, interpolation marketed as captured evidence, or synchronized synthetic crack implying measured frame-exact audio. Keep 3.2-fps acquisition visible. K2 acoustic-model details remain excluded pending full-text verification.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Return to the genuine evidence window; preserve a small clear uncertainty statement instead of a definitive bubble-pop picture.",
-        "asset_operation": "Evidence remains readable with the qualification and centered captions."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Before and later source images remain registered. Observation is stated at the strength of the recorded images.",
+        "asset_operation": "Select the cavity on the later image, leaving BEFORE context visible rather than animating a fabricated pop."
+      },
+      "motion": {
+        "entry": "Before and later source images remain registered.",
+        "primary_action": "Select the cavity on the later image, leaving BEFORE context visible rather than animating a fabricated pop.",
+        "settle": "Observation is stated at the strength of the recorded images.",
+        "exit_reason": "Keep scan as a smaller anchor as rate strip appears.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "pencil_marks",
+        "trigger": "Distinguish event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C05 evidence interpretation",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S06",
+      "narration_phrase": "But the scan captured just three point two frames each second. It could not reveal every tiny stage of the cracking sound.",
+      "viewer_before": "Observation is stated at the strength of the recorded images.",
+      "factual_proposition": "Acquisition limits acoustic inference.",
+      "source_ids": [
+        "K1"
+      ],
+      "visual_operation": "Limit",
+      "subject_action": "Discrete actual frame positions are shown on a conceptual one-second strip, explicitly non-audio-synchronized.",
+      "viewer_after": "Sampling gaps are visible; no invented intermediate data.",
+      "invariant": "Scan identity and acquisition-rate qualification",
+      "initial_state": "A clear 3.2 FRAMES / SECOND label is attached to the source.",
+      "difficult_intermediate": "Discrete actual frame positions are shown on a conceptual one-second strip, explicitly non-audio-synchronized.",
+      "resolved_state": "Sampling gaps are visible; no invented intermediate data.",
+      "next_inheritance": "Restore cavity image as final evidence anchor.",
+      "representation_reason": "C07 acquisition comparison chosen to make acquisition limits acoustic inference.",
+      "source_truth_boundary": "The new film asks what the scan shows, not which acoustic mechanism is finally settled. No arthritis/safety/treatment claims. No invented MRI, interpolation marketed as captured evidence, or synchronized synthetic crack implying measured frame-exact audio. Keep 3.2-fps acquisition visible. K2 acoustic-model details remain excluded pending full-text verification.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "A clear 3.2 FRAMES / SECOND label is attached to the source. Sampling gaps are visible; no invented intermediate data.",
+        "asset_operation": "Discrete actual frame positions are shown on a conceptual one-second strip, explicitly non-audio-synchronized."
+      },
+      "motion": {
+        "entry": "A clear 3.2 FRAMES / SECOND label is attached to the source.",
+        "primary_action": "Discrete actual frame positions are shown on a conceptual one-second strip, explicitly non-audio-synchronized.",
+        "settle": "Sampling gaps are visible; no invented intermediate data.",
+        "exit_reason": "Restore cavity image as final evidence anchor.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "doubt_tick",
+        "trigger": "Limit event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C07 acquisition comparison",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S07",
+      "narration_phrase": "So keep two things separate: what the images show, and the explanation for the sound. The visible clue is a cavity that stays.",
+      "viewer_before": "Sampling gaps are visible; no invented intermediate data.",
+      "factual_proposition": "Observation and acoustic interpretation are distinct.",
+      "source_ids": [
+        "K1"
+      ],
+      "visual_operation": "Resolve",
+      "subject_action": "The observed side resolves to the real persisting cavity while the interpretation remains qualified.",
+      "viewer_after": "Final image returns to the original scan with its observed change clearly selected.",
+      "invariant": "Same observed cavity",
+      "initial_state": "Observed image and an unfilled SOUND QUESTION label occupy different regions.",
+      "difficult_intermediate": "The observed side resolves to the real persisting cavity while the interpretation remains qualified.",
+      "resolved_state": "Final image returns to the original scan with its observed change clearly selected.",
+      "next_inheritance": "Protect stays completely; no loud fake joint pop; exact ending.",
+      "representation_reason": "C14 evidence resolution chosen to make observation and acoustic interpretation are distinct.",
+      "source_truth_boundary": "The new film asks what the scan shows, not which acoustic mechanism is finally settled. No arthritis/safety/treatment claims. No invented MRI, interpolation marketed as captured evidence, or synchronized synthetic crack implying measured frame-exact audio. Keep 3.2-fps acquisition visible. K2 acoustic-model details remain excluded pending full-text verification.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Observed image and an unfilled SOUND QUESTION label occupy different regions. Final image returns to the original scan with its observed change clearly selected.",
+        "asset_operation": "The observed side resolves to the real persisting cavity while the interpretation remains qualified."
+      },
+      "motion": {
+        "entry": "Observed image and an unfilled SOUND QUESTION label occupy different regions.",
+        "primary_action": "The observed side resolves to the real persisting cavity while the interpretation remains qualified.",
+        "settle": "Final image returns to the original scan with its observed change clearly selected.",
+        "exit_reason": "Protect stays completely; no loud fake joint pop; exact ending.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "warm_resolution",
+        "trigger": "Resolve event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C14 evidence resolution",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     }
   ],
@@ -146,5 +360,6 @@
   },
   "owner_motion_review": {
     "status": "not_reviewed"
-  }
+  },
+  "revision": 2
 }

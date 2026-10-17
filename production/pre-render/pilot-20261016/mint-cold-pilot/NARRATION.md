@@ -1,7 +1,7 @@
-# Why mint feels cold
+# Why mint feels cold — complete narration v2
 
-DRAFT — not recorded or owner-approved. Timing follows complete Bernard speech, never fixed scene slots.
+Production draft, 17 October 2026. Complete story; recording and owner review remain pending. Provisional 35–50-second envelope is a planning range, never fixed scene slots. Exact duration follows Bernard and reading holds.
 
-Why does mint feel cold even when it is not chilled? Menthol, a compound in mint, can activate a cold-sensitive channel called TRPM8. Cooling can activate that channel too. So a chemical and a temperature change can stimulate part of the same sensory machinery. That is why mint can produce a cooling sensation without being a piece of ice. The important distinction is between the temperature of something and the signal your sensory system responds to. The leaf is not a tiny freezer. Its chemistry is taking another route to a cold-sensitive channel.
+Mint can feel cold without coming out of a fridge. How? Menthol, a compound found in peppermint, can activate a cold-sensitive channel called TRPM8. Cooling can activate it too. That gives us two different inputs: a temperature change, and a chemical. Both can stimulate part of the same sensory machinery. So a cooling sensation does not, by itself, tell you the temperature of what you touched or tasted. The mint is not a tiny ice cube. Its chemistry can take another route to a cold-sensitive channel. Different input. A familiar cold sensation.
 
-Protect the entire last word and decay before the exact locked ending.
+Last phrase must complete before the exact ending; never cut voice to fit the target.

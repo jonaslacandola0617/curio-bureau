@@ -1,0 +1,34 @@
+{
+  "scope": "entire episode, no excerpt substitution",
+  "benchmark": "../../../approved-benchmarks/COLD_METAL_FULL_OWNER_APPROVAL.md",
+  "checkpoints": [
+    "opening",
+    "25%",
+    "hardest intermediate",
+    "75%",
+    "payoff",
+    "every join",
+    "final spoken word",
+    "exact endcard"
+  ],
+  "categories": [
+    "source_truth",
+    "visual_operation",
+    "image_craft",
+    "motion",
+    "materials_optics",
+    "audio_music_sfx",
+    "word_alignment_ui",
+    "delivery",
+    "github_archive",
+    "clean_restore"
+  ],
+  "rule": "No failed category or unreviewed scene can be averaged away. Owner approval never implies unperformed technical measurements.",
+  "preview": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "coverage": "all narration clauses and ending"
+  },
+  "status": "NOT PERFORMED"
+}

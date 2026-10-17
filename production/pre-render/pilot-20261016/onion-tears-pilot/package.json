@@ -14,7 +14,7 @@
     {
       "path": "NARRATION.md",
       "role": "story",
-      "sha256": "16c19490a4642909494b6596e160cd9dd9d8f3af45a635893f62a326e2e6f377",
+      "sha256": "298488e3baa821b8d680e8be59f775c242bcf6ea6a78bb532acf204b5954cc62",
       "archive": {
         "kind": "git"
       }
@@ -22,7 +22,7 @@
     {
       "path": "RESEARCH.md",
       "role": "research",
-      "sha256": "af7d7dd91af8d73ef0103a94ffcf8af2af8065c9fa61f025026c2a2d6775eb3c",
+      "sha256": "58e8b498dc24a10c5734dae4f2237f14212ede8f8f43c87bcb79ad59bda234b9",
       "archive": {
         "kind": "git"
       }
@@ -30,7 +30,7 @@
     {
       "path": "REVIEW.md",
       "role": "story",
-      "sha256": "b5427796e7ffe0bacfed4553e65ab7da02a9127b41194bc41753e0ff0a85ab4a",
+      "sha256": "ef7d3b819e0f6dec99755bec798ba43f7c1a867194e0e2ad0badd6309c9285db",
       "archive": {
         "kind": "git"
       }
@@ -38,7 +38,23 @@
     {
       "path": "sequence_contract.json",
       "role": "sequence",
-      "sha256": "ffd95081936bcb08debd840f029a8d9bb5d95421fd8caf71cd62e7c91f1ba096",
+      "sha256": "09ef6b3344a25db397331a12177efe0e72758c7be62c3a7fc2356957d84b9b2c",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "FULL_FILM_QA_PLAN.json",
+      "role": "proof",
+      "sha256": "d3667320da00735e2eeb25ad97b6532297255aa58f8dc61f8bf8394f1733c1e6",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "SHOT_FINGERPRINT.csv",
+      "role": "sequence",
+      "sha256": "0d1b9f5c79e4bef574b86e49961e27a0d7d4dc8c814f484c3377580ee89aeadd",
       "archive": {
         "kind": "git"
       }
@@ -46,10 +62,14 @@
   ],
   "gates": {},
   "unresolved_findings": [
-    "Owner story/sequence review pending",
-    "Assets and item-specific rights not acquired/locked",
-    "Finished art and actual rendered translation review absent",
-    "Voice/music/SFX/captions and full preview absent"
+    "Actual finished art/sequence owner review pending",
+    "Remaining asset rights and max-crop quality not locked",
+    "Natural Bernard speech, word alignment and final score/SFX mix pending",
+    "Complete native1080p movie and per-scene/whole-film owner review pending",
+    "Frozen dependency closure, GitHub input receipts and clean restore pending"
   ],
-  "frozen_fingerprint": null
+  "frozen_fingerprint": null,
+  "production_scope": "complete_episode",
+  "publish_intent": "NEW POST / batch slot 2",
+  "sequence_revision": 2
 }

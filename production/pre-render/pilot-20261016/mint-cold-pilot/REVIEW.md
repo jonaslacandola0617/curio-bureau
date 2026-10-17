@@ -1,46 +1,43 @@
-# Pilot 03 — Why mint feels cold
+# Why mint feels cold — complete episode preparation v2
 
-**STORY / SEQUENCE DRAFT. No finished artwork, recorded audio, moving preflight or render-ready claim.**
+**NEW POST / batch slot 1.** Story/sequence and image requirements are concrete; this is not a render-ready source package.
 
-## Three distinct hook approaches
+## Hook decision
 
-A. Why does mint feel cold even when it is not chilled?
+A — A large mint sprig approaches a mouth; a small NOT CHILLED tag contradicts the expected cold object. Selected: recognizably everyday, no fake instrument.
 
-B. A mint leaf and an ice cube converge on one labeled receptor print through distinct paths.
+B — Ice and mint arrive from opposing edges at the same receptor print. Clear mechanism but gives away the answer too early.
 
-C. Begin with a mouth photo and split sensation from a restrained illustrative temperature baseline.
+C — An enlarged mouth appears above two distinct input paths. More abstract recognition burden; reserve for the explanation.
 
-A is the provisional narration opening, not a tested winner. Each requires its own actual first-frame and 0–5s sound-led proof before final hook selection; views/retention are unknown.
+Selected hook is a creative hypothesis, not a retention result. Rendered and muted phone review still required.
 
-## Sequence and asset decisions
+## Whole-film sequence
 
-| Beat | Operation | Subject-owned action | Difficult intermediate | Next inheritance |
-|---|---|---|---|---|
-| 1 | Question | A recognizable mint leaf moves toward a photographic mouth; no ice or frost is present. | Leaf crosses foreground while mouth stays visible beyond it. | Leaf vein leads into the inspection detail. |
-| 2 | Inspect | Magnify from the leaf into a supporting printed menthol identifier, retaining the leaf edge as origin. | The scale bridge keeps origin visible while the print becomes readable. | Chemical identifier is carried to the channel figure. |
-| 3 | Activate | Bring a menthol cue and a separate cool-temperature cue to one anchored TRPM8 figure. | Both distinct input paths remain visible as the same channel responds. | Channel response leads back to the mouth sensation. |
-| 4 | Distinguish | Return to the mouth image; a sensation label appears while a separate illustrative temperature reference is kept distinct. | Reference and sensory cue never merge into a false measured graph. | Separate paths reconcile at the opening leaf. |
-| 5 | Resolve | Leaf and ice remain different photographic objects; their paths meet at the same labeled sensory figure. | Both origins survive the convergence without covering captions. | Full final word, musical resolution, locked ending. |
+| Beat | Complete narration | Image operation / difficult intermediate | Next inheritance |
+|---|---|---|---|
+| S01 | Mint can feel cold without coming out of a fridge. How? | Question: Sprig crosses in front of the mouth without covering lips; NOT CHILLED tag remains attached to sprig. | Retain the same sprig and push into its vein. |
+| S02 | Menthol, a compound found in peppermint, | Inspect: Close inspection retains the edge and reveals a small printed MENTHOL specimen identifier. | MENTHOL identifier follows its source into the next comparison. |
+| S03 | can activate a cold-sensitive channel called TRPM8. | Connect: A source-bound pathway reaches the single labeled channel while most leaf remains visible. | Hold the channel position as the alternative input appears. |
+| S04 | Cooling can activate it too. | Compare: The ice cue reaches the same TRPM8 print through its own path; both origins stay visible. | Keep both origins for the difficult two-input state. |
+| S05 | That gives us two different inputs: a temperature change, and a chemical. Both can stimulate part of the same sensory machinery. | Distinguish: Select cooling path then menthol path while the inactive source defocuses; the channel remains anchored. | Return by the retained mouth profile. |
+| S06 | So a cooling sensation does not, by itself, tell you the temperature of what you touched or tasted. | Reinterpret: A small COOL SENSATION label registers to lips; the two input origins remain separated below. | Leaf crosses near lens to reveal final comparison. |
+| S07 | The mint is not a tiny ice cube. Its chemistry can take another route to a cold-sensitive channel. Different input. A familiar cold sensation. | Resolve: Both attach to a single supporting print, then hold while the final phrase completes. | Full final word, short decay, exact london-bridge-v1 ending. |
 
-## Asset shopping / construction list
+## Purpose-built image assets
 
-- Cleared macro mint-leaf photo with separated edge/detail
-- Cleared ice photograph and photographic mouth/face crop
-- Accurate original printed TRPM8 explanatory figure, channel and membrane separable
-- Separate leaf/ice source masks; material grain belongs to specimen labels and printed figure
+- Independent macro mint sprig, ice cube and anonymous lower-face photographic illustrations; generated asset provenance must remain explicit.
+- Original receptor/membrane explanatory print with independent input paths, channel response, label and paper mask; no claimed true molecular geometry.
+- Pinned Playfair900 and Manrope; local print fibers/photographic grain; masks and actual max-crop detail records.
 
-Assets are requirements, not acquired or rights-cleared inventory. Before artwork: choose the strongest difficult-claim approach above, source actual images, record effective native resolution at the closest crop, separate masks, repair hidden pixels and keep source/rights provenance per item.
+## Craft carried from approved Cold Metal
 
-## Craft and sound
+Photographic objects own the explanation; bold pinned Playfair900, fixed central Manrope captions, visible print/photo grain and motivated fibers/plastic, focus plus gradient shading, transition blur, selective chromatic edges, local ink/line boil. Mechanical jitter/exposure vary by material, not global shake. True parallax needs independent planes and repaired revealed regions. No repeated paper-photo cards or a grain overlay used as a substitute for explanation. Keep exact shared ending, Bernard, clear existing action SFX and evolving original score.
 
-Image-led; photographic subjects act, compare or reveal. Use strong source-local photographic print grain, paper fibers only on print surfaces, plastic only where motivated. Chromatic separation, focus hunt, source-local focus/shade and transition blur must support inspection; do not blur source evidence or captions. Mechanical jitter/exposure should feel material, not shake every layer. Local ink bleed/edge boil belongs to printed marks. Playfair Display 900 titles; fixed centered Manrope captions; exact London Bridge ending.
+## Full-film acceptance
 
-Reuse approved Bernard; do not generate voice during a queue check. Search existing SFX catalogs before making new audio. Author a cue on each meaningful physical/editorial action (contact, cut, selection, magnification, reveal); camera drift does not need an incessant whoosh. Use evolving original music and independent voice/music/effects buses. Choose gains by actual listening and ducking, not a blanket percentage. Protect evidence clips from implied authentic synthesized audio.
+One complete 1080×1920/30 MP4 preview covers every clause and all joins, payoff and ending. No excerpt may stand in for unseen scenes. Inspect at opening, 25%, hardest intermediate, 75%, payoff and every transition; listen to entire encoded output and final word, test actual word-aligned captions/UI, facts, rights, texture/focus and native detail. Record PASS/REVISE/NOT REVIEWED per scene and category; any failed category blocks approval. Preserve source before capture, archive each completed output on GitHub immediately, retain verified chunks and rehearse clean restore.
 
-## Next review gate
+## Current next gate
 
-Review the story, factual scope and two visual approaches first. Then build five demanding finished checkpoints and the three-state hardest passage, including heading-hidden and phone-size comparisons. Owner art/sequence approval precedes the moving proof; moving proof approval precedes full film, final audio/captions and whole 1080p preview. Reconcile final freeze records before native 4K.
-
-## Repetition check
-
-Compare the six-shot strip with Astronaut Height, Recorded Voice and Wrinkled Fingers actual exports once restored. This text proposal cannot pass that visual check. Reuse brand/craft and cleared resources, not prior compositions. No finished frame or owner review has been fabricated.
+Five demanding finished art states and initial/intermediate/resolved hardest passage, including heading-hidden and phone-size comparison, then owner decision tied to actual image hashes. Motion only follows that decision. No owner approval is inferred from queue authorization.

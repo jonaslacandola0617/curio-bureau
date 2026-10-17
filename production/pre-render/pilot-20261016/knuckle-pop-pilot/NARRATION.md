@@ -1,7 +1,7 @@
-# What imaging reveals inside a cracking knuckle
+# Inside a knuckle crack — complete narration v2
 
-DRAFT — not recorded or owner-approved. Timing follows complete Bernard speech, never fixed scene slots.
+Production draft, 17 October 2026. Complete story; recording and owner review remain pending. Provisional 35–50-second envelope is a planning range, never fixed scene slots. Exact duration follows Bernard and reading holds.
 
-This scan caught a knuckle crack. Watch what appears inside the joint. In a 2015 study, researchers imaged ten finger joints in one volunteer. As the joint surfaces separated, a dark cavity appeared around the cracking event. The cavity stayed visible afterward. That observation supported an explanation involving cavity formation. But it did not settle every detail of the sound. A later mathematical model showed how partial bubble collapse could produce a similar sound. The scan gives us evidence of a cavity forming. The exact acoustic explanation needs more care than saying a bubble simply pops.
+What does a knuckle crack look like inside? In 2015, researchers used MRI to watch ten finger joints in one volunteer. As a joint separated, a dark cavity appeared. And afterward, it was still visible. That matters: the image is not simply showing a bubble disappearing. It shows a cavity forming and remaining in the joint. But the scan captured just three point two frames each second. It could not reveal every tiny stage of the cracking sound. So keep two things separate: what the images show, and the explanation for the sound. The visible clue is a cavity that stays.
 
-Protect the entire last word and decay before the exact locked ending.
+Last phrase must complete before the exact ending; never cut voice to fit the target.

@@ -1,48 +1,43 @@
-# Pilot 02 — Why your recorded voice sounds unfamiliar
+# Why your recorded voice sounds unfamiliar — complete episode preparation v2
 
-**STORY / SEQUENCE DRAFT. No finished artwork, recorded audio, moving preflight or render-ready claim.**
+**CALIBRATION / REUSE ONLY; exclude from new-post count.** Story/sequence and image requirements are concrete; this is not a render-ready source package.
 
-## Three distinct hook approaches
+## Hook decision
 
-A. Your phone records your voice. So why does it sound like someone else?
+A — Microphone selects the airborne route while body-conducted reference stays outside the capture. Reuse approved capture construction.
 
-B. Start inside a head: two routes reach the listener; remove one on playback.
+B — Speaking listener versus playback listener with different visible routes. Requires correct whole-film recovered assets.
 
-C. Begin with a microphone selecting the airborne route, then reveal what it never captured.
+C — Waveforms labeled YOU / EVERYONE ELSE. Rejected: falsely implies measured universal self/other sound.
 
-A is the provisional narration opening, not a tested winner. Each requires its own actual first-frame and 0–5s sound-led proof before final hook selection; views/retention are unknown.
+Selected hook is a creative hypothesis, not a retention result. Rendered and muted phone review still required.
 
-## Sequence and asset decisions
+## Whole-film sequence
 
-| Beat | Operation | Subject-owned action | Difficult intermediate | Next inheritance |
-|---|---|---|---|---|
-| 1 | Question | A portrait speaks toward a phone; playback peels away from the phone while the same speaker remains behind it. | Phone grille crosses near camera; portrait remains recognizable through the aperture. | The phone screen becomes the comparison boundary. |
-| 2 | Connect | Reveal the supporting anatomical print inside the portrait; trace air and internal vibration routes to the same ear. | Both routes reach the ear with separate source-local anchors; neither floats loose during scale change. | Air route leads into the microphone aperture. |
-| 3 | Select | The microphone selects the air-route illustration; the internal route stays registered to the head as an absent-on-recording comparison. | Grille crosses the route; retained body route is still legible, not accidentally erased. | Selected air route feeds a recognizable playback device. |
-| 4 | Compare | Keep the same face and ear; switch speaking to playback and remove the internal contribution from the comparison. | Two source states align at the ear while device position changes. | Device edge reveals room/microphone/speaker qualifications. |
-| 5 | Resolve | Return to the opening phone; reveal room, microphone and speaker as additional influences, then finish the complete final phrase before the locked ending. | Phone remains recognizable as contextual evidence enters around it. | Exact London Bridge endcard after complete spoken tail. |
+| Beat | Complete narration | Image operation / difficult intermediate | Next inheritance |
+|---|---|---|---|
+| S01 | Your phone records your voice. So why does it sound unfamiliar? | Question: Capture device selects an airborne contribution while speaking source remains visible. | Portrait identity persists. |
+| S02 | When you speak, sound reaches your ears through the air. | Connect: Airborne path reaches the source-local ear anchor. | Hold mouth/ear anchors for body route. |
+| S03 | Vibrations through your head also contribute to what you hear. | Add: Second source-attached category enters without invented amplitudes. | Microphone capture boundary takes over. |
+| S04 | An ordinary microphone captures airborne sound, not that same internal contribution. | Select: Reuse approved passage’s actual selection while retaining absent-route reference. | Recorded track persists into playback. |
+| S05 | Play it back, and the balance is different. That helps explain why a familiar voice can sound strange. | Compare: Switch route emphasis to speaker-to-ear, retaining speaking context in the background. | Keep device image for qualification. |
+| S06 | But a recording is not a perfect copy of what everyone else hears either. The room, microphone and speaker can change it too. | Qualify: Select each factor briefly with no invented frequency trace. | Return to original listener. |
+| S07 | Same voice. Different routes to your ears. | Resolve: Two route categories settle with clear source/destination labels. | Complete ears and exact ending; no duplicate post by default. |
 
-## Asset shopping / construction list
+## Purpose-built image assets
 
-- Licensed side-profile photographic portrait, ear visible; repair silhouette behind removed microphone
-- Cleared anatomical skull/ear plate; correct relative routes, supporting print only
-- Microphone and phone photographic cutouts with separate grille/screen masks
-- Recover approved 13.2s capture passage bytes from recorded checkpoint, verify hashes, migrate cleared proprietary outputs to GitHub; do not assert the old Library receipt satisfies new GitHub storage
+- Recover approved capture-motion source and actual movie, validate its recorded SHA-256 rather than redrawing it.
+- Recover existing full Recorded Voice master and private source package from retained backups; compare claims and avoid duplicate post.
+- Keep portrait/microphone anchors, real Bernard source, cleared audio and exact captions where genuinely reusable.
 
-Assets are requirements, not acquired or rights-cleared inventory. Before artwork: choose the strongest difficult-claim approach above, source actual images, record effective native resolution at the closest crop, separate masks, repair hidden pixels and keep source/rights provenance per item.
+## Craft carried from approved Cold Metal
 
-## Craft and sound
+Photographic objects own the explanation; bold pinned Playfair900, fixed central Manrope captions, visible print/photo grain and motivated fibers/plastic, focus plus gradient shading, transition blur, selective chromatic edges, local ink/line boil. Mechanical jitter/exposure vary by material, not global shake. True parallax needs independent planes and repaired revealed regions. No repeated paper-photo cards or a grain overlay used as a substitute for explanation. Keep exact shared ending, Bernard, clear existing action SFX and evolving original score.
 
-Image-led; photographic subjects act, compare or reveal. Use strong source-local photographic print grain, paper fibers only on print surfaces, plastic only where motivated. Chromatic separation, focus hunt, source-local focus/shade and transition blur must support inspection; do not blur source evidence or captions. Mechanical jitter/exposure should feel material, not shake every layer. Local ink bleed/edge boil belongs to printed marks. Playfair Display 900 titles; fixed centered Manrope captions; exact London Bridge ending.
+## Full-film acceptance
 
-Reuse approved Bernard; do not generate voice during a queue check. Search existing SFX catalogs before making new audio. Author a cue on each meaningful physical/editorial action (contact, cut, selection, magnification, reveal); camera drift does not need an incessant whoosh. Use evolving original music and independent voice/music/effects buses. Choose gains by actual listening and ducking, not a blanket percentage. Protect evidence clips from implied authentic synthesized audio.
+One complete 1080×1920/30 MP4 preview covers every clause and all joins, payoff and ending. No excerpt may stand in for unseen scenes. Inspect at opening, 25%, hardest intermediate, 75%, payoff and every transition; listen to entire encoded output and final word, test actual word-aligned captions/UI, facts, rights, texture/focus and native detail. Record PASS/REVISE/NOT REVIEWED per scene and category; any failed category blocks approval. Preserve source before capture, archive each completed output on GitHub immediately, retain verified chunks and rehearse clean restore.
 
-## Next review gate
+## Current next gate
 
-Review the story, factual scope and two visual approaches first. Then build five demanding finished checkpoints and the three-state hardest passage, including heading-hidden and phone-size comparisons. Owner art/sequence approval precedes the moving proof; moving proof approval precedes full film, final audio/captions and whole 1080p preview. Reconcile final freeze records before native 4K.
-
-## Repetition check
-
-Compare the six-shot strip with Astronaut Height, Recorded Voice and Wrinkled Fingers actual exports once restored. This text proposal cannot pass that visual check. Reuse brand/craft and cleared resources, not prior compositions. No finished frame or owner review has been fabricated.
-
-Existing approved capture MP4 SHA-256: `96051efd5a744c0afd8db9add365c0e7b5a5018c90c560145152010b742fad6b`. Source ZIP SHA-256: `41b2e935a75bbf506db16bcbf5e67274cbde2964894fd55fbc791c12c1788b39`. These identify historical approved bytes; they do not approve this entire draft or prove GitHub byte recovery.
+Five demanding finished art states and initial/intermediate/resolved hardest passage, including heading-hidden and phone-size comparison, then owner decision tied to actual image hashes. Motion only follows that decision. No owner approval is inferred from queue authorization.

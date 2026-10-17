@@ -2,142 +2,363 @@
   "version": 1,
   "episode_id": "recorded-voice-pilot",
   "status": "STORY_SEQUENCE_DRAFT",
+  "scope": "ENTIRE EPISODE: seven connected narrated beats plus exact ending",
   "shots": [
     {
       "id": "S01",
-      "viewer_before": "Viewer recognizes the everyday subject but has not seen the mechanism.",
-      "factual_proposition": "Two listening situations are visible without a heading.",
+      "narration_phrase": "Your phone records your voice. So why does it sound unfamiliar?",
+      "viewer_before": "Viewer recognizes the ordinary subject but does not yet know this relationship.",
+      "factual_proposition": "Playback differs from speaking self-perception.",
       "source_ids": [
-        "V1"
+        "V1",
+        "V2"
       ],
       "visual_operation": "Question",
-      "subject_action": "A portrait speaks toward a phone; playback peels away from the phone while the same speaker remains behind it.",
-      "viewer_after": "Two listening situations are visible without a heading.",
-      "invariant": "Portrait/phone identity",
-      "initial_state": "A portrait speaks toward a phone",
-      "difficult_intermediate": "Phone grille crosses near camera; portrait remains recognizable through the aperture.",
-      "resolved_state": "Two listening situations are visible without a heading. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "The phone screen becomes the comparison boundary.",
-      "representation_reason": "Photographic portrait and device cutouts; no generic voice-card stack.",
-      "source_truth_boundary": "No universal bass boost, pitch shift or percentage. Any processed before/after audio is explicitly an illustration, not a reconstruction of every viewer\u2019s self-voice. Recover the approved capture source before reuse; old five-state beatboard is rejected.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "subject_action": "Capture device selects an airborne contribution while speaking source remains visible.",
+      "viewer_after": "Viewer sees a recording selects a route.",
+      "invariant": "Speaker identity",
+      "initial_state": "Known speaker portrait and phone/microphone are present.",
+      "difficult_intermediate": "Capture device selects an airborne contribution while speaking source remains visible.",
+      "resolved_state": "Viewer sees a recording selects a route.",
+      "next_inheritance": "Portrait identity persists.",
+      "representation_reason": "C04 speaking context chosen to make playback differs from speaking self-perception.",
+      "source_truth_boundary": "Reuse only after hash-matching approved source and actual full film. The 13.2-second approved capture passage is not a whole-film approval. A recording is not precisely what everyone else hears; microphone, room and playback affect it. No universal bass boost/pitch shift or synthetic demo marketed as the viewer\u2019s real internal voice.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "A portrait speaks toward a phone; playback peels away from the phone while the same speaker remains behind it.",
-        "asset_operation": "Phone grille crosses near camera; portrait remains recognizable through the aperture."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Known speaker portrait and phone/microphone are present. Viewer sees a recording selects a route.",
+        "asset_operation": "Capture device selects an airborne contribution while speaking source remains visible."
+      },
+      "motion": {
+        "entry": "Known speaker portrait and phone/microphone are present.",
+        "primary_action": "Capture device selects an airborne contribution while speaking source remains visible.",
+        "settle": "Viewer sees a recording selects a route.",
+        "exit_reason": "Portrait identity persists.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "tiny_mask_reveal",
+        "trigger": "Question event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C04 speaking context",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
       "id": "S02",
-      "viewer_before": "Two listening situations are visible without a heading.",
-      "factual_proposition": "Two contributions coexist during speaking.",
+      "narration_phrase": "When you speak, sound reaches your ears through the air.",
+      "viewer_before": "Viewer sees a recording selects a route.",
+      "factual_proposition": "Airborne sound contributes to self-voice.",
       "source_ids": [
-        "V1"
+        "V1",
+        "V2"
       ],
       "visual_operation": "Connect",
-      "subject_action": "Reveal the supporting anatomical print inside the portrait; trace air and internal vibration routes to the same ear.",
-      "viewer_after": "Two contributions coexist during speaking.",
-      "invariant": "Ear anchor and route colours",
-      "initial_state": "Two listening situations are visible without a heading.",
-      "difficult_intermediate": "Both routes reach the ear with separate source-local anchors; neither floats loose during scale change.",
-      "resolved_state": "Two contributions coexist during speaking. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Air route leads into the microphone aperture.",
-      "representation_reason": "Anatomy print shows the invisible route; portrait retains subject ownership.",
-      "source_truth_boundary": "No universal bass boost, pitch shift or percentage. Any processed before/after audio is explicitly an illustration, not a reconstruction of every viewer\u2019s self-voice. Recover the approved capture source before reuse; old five-state beatboard is rejected.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "subject_action": "Airborne path reaches the source-local ear anchor.",
+      "viewer_after": "One route is readable before adding another.",
+      "invariant": "Mouth and ear anchors",
+      "initial_state": "Source mouth and ear positions are established.",
+      "difficult_intermediate": "Airborne path reaches the source-local ear anchor.",
+      "resolved_state": "One route is readable before adding another.",
+      "next_inheritance": "Hold mouth/ear anchors for body route.",
+      "representation_reason": "C02 source-attached anatomy support chosen to make airborne sound contributes to self-voice.",
+      "source_truth_boundary": "Reuse only after hash-matching approved source and actual full film. The 13.2-second approved capture passage is not a whole-film approval. A recording is not precisely what everyone else hears; microphone, room and playback affect it. No universal bass boost/pitch shift or synthetic demo marketed as the viewer\u2019s real internal voice.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Reveal the supporting anatomical print inside the portrait; trace air and internal vibration routes to the same ear.",
-        "asset_operation": "Both routes reach the ear with separate source-local anchors; neither floats loose during scale change."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Source mouth and ear positions are established. One route is readable before adding another.",
+        "asset_operation": "Airborne path reaches the source-local ear anchor."
+      },
+      "motion": {
+        "entry": "Source mouth and ear positions are established.",
+        "primary_action": "Airborne path reaches the source-local ear anchor.",
+        "settle": "One route is readable before adding another.",
+        "exit_reason": "Hold mouth/ear anchors for body route.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "pencil_marks",
+        "trigger": "Connect event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C02 source-attached anatomy support",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
       "id": "S03",
-      "viewer_before": "Two contributions coexist during speaking.",
-      "factual_proposition": "Capturing airborne sound differs from hearing oneself speak.",
+      "narration_phrase": "Vibrations through your head also contribute to what you hear.",
+      "viewer_before": "One route is readable before adding another.",
+      "factual_proposition": "Body conduction contributes as well.",
+      "source_ids": [
+        "V1",
+        "V2"
+      ],
+      "visual_operation": "Add",
+      "subject_action": "Second source-attached category enters without invented amplitudes.",
+      "viewer_after": "Two contributions are distinguishable.",
+      "invariant": "Same mouth/ear; distinct route categories",
+      "initial_state": "Air route stays as context.",
+      "difficult_intermediate": "Second source-attached category enters without invented amplitudes.",
+      "resolved_state": "Two contributions are distinguishable.",
+      "next_inheritance": "Microphone capture boundary takes over.",
+      "representation_reason": "C10 dual-route relation chosen to make body conduction contributes as well.",
+      "source_truth_boundary": "Reuse only after hash-matching approved source and actual full film. The 13.2-second approved capture passage is not a whole-film approval. A recording is not precisely what everyone else hears; microphone, room and playback affect it. No universal bass boost/pitch shift or synthetic demo marketed as the viewer\u2019s real internal voice.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Air route stays as context. Two contributions are distinguishable.",
+        "asset_operation": "Second source-attached category enters without invented amplitudes."
+      },
+      "motion": {
+        "entry": "Air route stays as context.",
+        "primary_action": "Second source-attached category enters without invented amplitudes.",
+        "settle": "Two contributions are distinguishable.",
+        "exit_reason": "Microphone capture boundary takes over.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "causal_reveal",
+        "trigger": "Add event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C10 dual-route relation",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S04",
+      "narration_phrase": "An ordinary microphone captures airborne sound, not that same internal contribution.",
+      "viewer_before": "Two contributions are distinguishable.",
+      "factual_proposition": "Ordinary microphone capture differs from internal self-hearing.",
       "source_ids": [
         "V1",
         "V2"
       ],
       "visual_operation": "Select",
-      "subject_action": "The microphone selects the air-route illustration; the internal route stays registered to the head as an absent-on-recording comparison.",
-      "viewer_after": "Capturing airborne sound differs from hearing oneself speak.",
-      "invariant": "Same source and ear",
-      "initial_state": "Two contributions coexist during speaking.",
-      "difficult_intermediate": "Grille crosses the route; retained body route is still legible, not accidentally erased.",
-      "resolved_state": "Capturing airborne sound differs from hearing oneself speak. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Selected air route feeds a recognizable playback device.",
-      "representation_reason": "Adapt the approved capture operation, not its literal layout; retain microphone qualifications.",
-      "source_truth_boundary": "No universal bass boost, pitch shift or percentage. Any processed before/after audio is explicitly an illustration, not a reconstruction of every viewer\u2019s self-voice. Recover the approved capture source before reuse; old five-state beatboard is rejected.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "subject_action": "Reuse approved passage\u2019s actual selection while retaining absent-route reference.",
+      "viewer_after": "Captured contribution is distinguished from internal comparison.",
+      "invariant": "Portrait, microphone and route identity",
+      "initial_state": "Both routes coexist beside microphone.",
+      "difficult_intermediate": "Reuse approved passage\u2019s actual selection while retaining absent-route reference.",
+      "resolved_state": "Captured contribution is distinguished from internal comparison.",
+      "next_inheritance": "Recorded track persists into playback.",
+      "representation_reason": "C10 approved capture operation chosen to make ordinary microphone capture differs from internal self-hearing.",
+      "source_truth_boundary": "Reuse only after hash-matching approved source and actual full film. The 13.2-second approved capture passage is not a whole-film approval. A recording is not precisely what everyone else hears; microphone, room and playback affect it. No universal bass boost/pitch shift or synthetic demo marketed as the viewer\u2019s real internal voice.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "The microphone selects the air-route illustration; the internal route stays registered to the head as an absent-on-recording comparison.",
-        "asset_operation": "Grille crosses the route; retained body route is still legible, not accidentally erased."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Both routes coexist beside microphone. Captured contribution is distinguished from internal comparison.",
+        "asset_operation": "Reuse approved passage\u2019s actual selection while retaining absent-route reference."
+      },
+      "motion": {
+        "entry": "Both routes coexist beside microphone.",
+        "primary_action": "Reuse approved passage\u2019s actual selection while retaining absent-route reference.",
+        "settle": "Captured contribution is distinguished from internal comparison.",
+        "exit_reason": "Recorded track persists into playback.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "evidence_lock",
+        "trigger": "Select event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C10 approved capture operation",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
-      "id": "S04",
-      "viewer_before": "Capturing airborne sound differs from hearing oneself speak.",
-      "factual_proposition": "Route balance helps explain unfamiliarity.",
+      "id": "S05",
+      "narration_phrase": "Play it back, and the balance is different. That helps explain why a familiar voice can sound strange.",
+      "viewer_before": "Captured contribution is distinguished from internal comparison.",
+      "factual_proposition": "Playback provides a different balance.",
       "source_ids": [
         "V1",
         "V2"
       ],
       "visual_operation": "Compare",
-      "subject_action": "Keep the same face and ear; switch speaking to playback and remove the internal contribution from the comparison.",
-      "viewer_after": "Route balance helps explain unfamiliarity.",
-      "invariant": "Face orientation and ear location",
-      "initial_state": "Capturing airborne sound differs from hearing oneself speak.",
-      "difficult_intermediate": "Two source states align at the ear while device position changes.",
-      "resolved_state": "Route balance helps explain unfamiliarity. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Device edge reveals room/microphone/speaker qualifications.",
-      "representation_reason": "Paired photographic states, supporting route annotations; no universal equalizer curve.",
-      "source_truth_boundary": "No universal bass boost, pitch shift or percentage. Any processed before/after audio is explicitly an illustration, not a reconstruction of every viewer\u2019s self-voice. Recover the approved capture source before reuse; old five-state beatboard is rejected.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "subject_action": "Switch route emphasis to speaker-to-ear, retaining speaking context in the background.",
+      "viewer_after": "The unfamiliar result follows a different route.",
+      "invariant": "Same listener across speaking/playback",
+      "initial_state": "Playback device and listener share the original portrait identity.",
+      "difficult_intermediate": "Switch route emphasis to speaker-to-ear, retaining speaking context in the background.",
+      "resolved_state": "The unfamiliar result follows a different route.",
+      "next_inheritance": "Keep device image for qualification.",
+      "representation_reason": "C09 speaking/playback comparison chosen to make playback provides a different balance.",
+      "source_truth_boundary": "Reuse only after hash-matching approved source and actual full film. The 13.2-second approved capture passage is not a whole-film approval. A recording is not precisely what everyone else hears; microphone, room and playback affect it. No universal bass boost/pitch shift or synthetic demo marketed as the viewer\u2019s real internal voice.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Keep the same face and ear; switch speaking to playback and remove the internal contribution from the comparison.",
-        "asset_operation": "Two source states align at the ear while device position changes."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Playback device and listener share the original portrait identity. The unfamiliar result follows a different route.",
+        "asset_operation": "Switch route emphasis to speaker-to-ear, retaining speaking context in the background."
+      },
+      "motion": {
+        "entry": "Playback device and listener share the original portrait identity.",
+        "primary_action": "Switch route emphasis to speaker-to-ear, retaining speaking context in the background.",
+        "settle": "The unfamiliar result follows a different route.",
+        "exit_reason": "Keep device image for qualification.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "cut_match",
+        "trigger": "Compare event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C09 speaking/playback comparison",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
-      "id": "S05",
-      "viewer_before": "Route balance helps explain unfamiliarity.",
-      "factual_proposition": "Same voice reaches the listener through a different chain.",
+      "id": "S06",
+      "narration_phrase": "But a recording is not a perfect copy of what everyone else hears either. The room, microphone and speaker can change it too.",
+      "viewer_before": "The unfamiliar result follows a different route.",
+      "factual_proposition": "Equipment and environment qualify the comparison.",
       "source_ids": [
-        "V1"
+        "V1",
+        "V2"
       ],
-      "visual_operation": "Resolve",
-      "subject_action": "Return to the opening phone; reveal room, microphone and speaker as additional influences, then finish the complete final phrase before the locked ending.",
-      "viewer_after": "Same voice reaches the listener through a different chain.",
-      "invariant": "Opening phone",
-      "initial_state": "Route balance helps explain unfamiliarity.",
-      "difficult_intermediate": "Phone remains recognizable as contextual evidence enters around it.",
-      "resolved_state": "Same voice reaches the listener through a different chain. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Exact London Bridge endcard after complete spoken tail.",
-      "representation_reason": "Source-owned devices; labels name equipment influences, not substitute for the route explanation.",
-      "source_truth_boundary": "No universal bass boost, pitch shift or percentage. Any processed before/after audio is explicitly an illustration, not a reconstruction of every viewer\u2019s self-voice. Recover the approved capture source before reuse; old five-state beatboard is rejected.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "visual_operation": "Qualify",
+      "subject_action": "Select each factor briefly with no invented frequency trace.",
+      "viewer_after": "Recording is an imperfect representation, not universal truth.",
+      "invariant": "Same equipment context",
+      "initial_state": "Room, microphone and speaker are visible as actual source objects.",
+      "difficult_intermediate": "Select each factor briefly with no invented frequency trace.",
+      "resolved_state": "Recording is an imperfect representation, not universal truth.",
+      "next_inheritance": "Return to original listener.",
+      "representation_reason": "C03 device inspection chosen to make equipment and environment qualify the comparison.",
+      "source_truth_boundary": "Reuse only after hash-matching approved source and actual full film. The 13.2-second approved capture passage is not a whole-film approval. A recording is not precisely what everyone else hears; microphone, room and playback affect it. No universal bass boost/pitch shift or synthetic demo marketed as the viewer\u2019s real internal voice.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Return to the opening phone; reveal room, microphone and speaker as additional influences, then finish the complete final phrase before the locked ending.",
-        "asset_operation": "Phone remains recognizable as contextual evidence enters around it."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Room, microphone and speaker are visible as actual source objects. Recording is an imperfect representation, not universal truth.",
+        "asset_operation": "Select each factor briefly with no invented frequency trace."
+      },
+      "motion": {
+        "entry": "Room, microphone and speaker are visible as actual source objects.",
+        "primary_action": "Select each factor briefly with no invented frequency trace.",
+        "settle": "Recording is an imperfect representation, not universal truth.",
+        "exit_reason": "Return to original listener.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "document_focus",
+        "trigger": "Qualify event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C03 device inspection",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S07",
+      "narration_phrase": "Same voice. Different routes to your ears.",
+      "viewer_before": "Recording is an imperfect representation, not universal truth.",
+      "factual_proposition": "Route difference resolves the hook.",
+      "source_ids": [
+        "V1",
+        "V2"
+      ],
+      "visual_operation": "Resolve",
+      "subject_action": "Two route categories settle with clear source/destination labels.",
+      "viewer_after": "Opening recording now has an explained difference.",
+      "invariant": "Same portrait and route labels",
+      "initial_state": "Same portrait anchors final comparison.",
+      "difficult_intermediate": "Two route categories settle with clear source/destination labels.",
+      "resolved_state": "Opening recording now has an explained difference.",
+      "next_inheritance": "Complete ears and exact ending; no duplicate post by default.",
+      "representation_reason": "C14 payoff chosen to make route difference resolves the hook.",
+      "source_truth_boundary": "Reuse only after hash-matching approved source and actual full film. The 13.2-second approved capture passage is not a whole-film approval. A recording is not precisely what everyone else hears; microphone, room and playback affect it. No universal bass boost/pitch shift or synthetic demo marketed as the viewer\u2019s real internal voice.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Same portrait anchors final comparison. Opening recording now has an explained difference.",
+        "asset_operation": "Two route categories settle with clear source/destination labels."
+      },
+      "motion": {
+        "entry": "Same portrait anchors final comparison.",
+        "primary_action": "Two route categories settle with clear source/destination labels.",
+        "settle": "Opening recording now has an explained difference.",
+        "exit_reason": "Complete ears and exact ending; no duplicate post by default.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "quiet_resolution",
+        "trigger": "Resolve event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C14 payoff",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     }
   ],
@@ -146,5 +367,6 @@
   },
   "owner_motion_review": {
     "status": "not_reviewed"
-  }
+  },
+  "revision": 2
 }

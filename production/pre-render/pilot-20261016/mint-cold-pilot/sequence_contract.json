@@ -1,142 +1,364 @@
 {
   "version": 1,
   "episode_id": "mint-cold-pilot",
-  "status": "STORY_SEQUENCE_DRAFT",
+  "status": "ART_REVIEW",
+  "scope": "ENTIRE EPISODE: seven connected narrated beats plus exact ending",
   "shots": [
     {
       "id": "S01",
-      "viewer_before": "Viewer recognizes the everyday subject but has not seen the mechanism.",
-      "factual_proposition": "Cooling sensation needs explanation beyond chilled objects.",
+      "narration_phrase": "Mint can feel cold without coming out of a fridge. How?",
+      "viewer_before": "Viewer recognizes the ordinary subject but does not yet know this relationship.",
+      "factual_proposition": "The familiar sensation is not restricted to a chilled object.",
       "source_ids": [
-        "M1"
+        "M1",
+        "M2"
       ],
       "visual_operation": "Question",
-      "subject_action": "A recognizable mint leaf moves toward a photographic mouth; no ice or frost is present.",
-      "viewer_after": "Cooling sensation needs explanation beyond chilled objects.",
-      "invariant": "Leaf identity",
-      "initial_state": "A recognizable mint leaf moves toward a photographic mouth",
-      "difficult_intermediate": "Leaf crosses foreground while mouth stays visible beyond it.",
-      "resolved_state": "Cooling sensation needs explanation beyond chilled objects. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Leaf vein leads into the inspection detail.",
-      "representation_reason": "Macro leaf/mouth imagery instead of generic ice-blue text.",
-      "source_truth_boundary": "TRPM8 is part of the system, not its only sensor. Do not assert menthol never changes any tissue temperature or has only one biological target. Receptor gate illustration is a labeled schematic, not observed molecular motion. No health, breathing or treatment claim.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "subject_action": "Sprig crosses in front of the mouth without covering lips; NOT CHILLED tag remains attached to sprig.",
+      "viewer_after": "Leaf and mouth are recognizable with a clear question, no frost or thermometer.",
+      "invariant": "Same mint sprig and mouth profile",
+      "initial_state": "Mouth fills upper-right; mint enters lower-left, its serrated contour already visible.",
+      "difficult_intermediate": "Sprig crosses in front of the mouth without covering lips; NOT CHILLED tag remains attached to sprig.",
+      "resolved_state": "Leaf and mouth are recognizable with a clear question, no frost or thermometer.",
+      "next_inheritance": "Retain the same sprig and push into its vein.",
+      "representation_reason": "C04 human/object encounter chosen to make the familiar sensation is not restricted to a chilled object.",
+      "source_truth_boundary": "TRPM8 participates in cold sensing; it is not the only biological sensor. No claim that menthol never changes tissue temperature, that every mint species has the same menthol content, or that a whole person becomes colder. The channel print is a labeled conceptual figure, not molecular imaging or a literal key-lock shape.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "A recognizable mint leaf moves toward a photographic mouth; no ice or frost is present.",
-        "asset_operation": "Leaf crosses foreground while mouth stays visible beyond it."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Mouth fills upper-right; mint enters lower-left, its serrated contour already visible. Leaf and mouth are recognizable with a clear question, no frost or thermometer.",
+        "asset_operation": "Sprig crosses in front of the mouth without covering lips; NOT CHILLED tag remains attached to sprig."
+      },
+      "motion": {
+        "entry": "Mouth fills upper-right; mint enters lower-left, its serrated contour already visible.",
+        "primary_action": "Sprig crosses in front of the mouth without covering lips; NOT CHILLED tag remains attached to sprig.",
+        "settle": "Leaf and mouth are recognizable with a clear question, no frost or thermometer.",
+        "exit_reason": "Retain the same sprig and push into its vein.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "soft_depth_pass",
+        "trigger": "Question event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C04 human/object encounter",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
       "id": "S02",
-      "viewer_before": "Cooling sensation needs explanation beyond chilled objects.",
-      "factual_proposition": "Menthol supplies a chemical route.",
+      "narration_phrase": "Menthol, a compound found in peppermint,",
+      "viewer_before": "Leaf and mouth are recognizable with a clear question, no frost or thermometer.",
+      "factual_proposition": "Menthol provides a chemical input.",
       "source_ids": [
-        "M1"
+        "M1",
+        "M2"
       ],
       "visual_operation": "Inspect",
-      "subject_action": "Magnify from the leaf into a supporting printed menthol identifier, retaining the leaf edge as origin.",
-      "viewer_after": "Menthol supplies a chemical route.",
-      "invariant": "Leaf edge and chemical identifier",
-      "initial_state": "Cooling sensation needs explanation beyond chilled objects.",
-      "difficult_intermediate": "The scale bridge keeps origin visible while the print becomes readable.",
-      "resolved_state": "Menthol supplies a chemical route. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Chemical identifier is carried to the channel figure.",
-      "representation_reason": "Chemical identity must be accurate; print is an explanatory scale shift, not microscopy.",
-      "source_truth_boundary": "TRPM8 is part of the system, not its only sensor. Do not assert menthol never changes any tissue temperature or has only one biological target. Receptor gate illustration is a labeled schematic, not observed molecular motion. No health, breathing or treatment claim.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "subject_action": "Close inspection retains the edge and reveals a small printed MENTHOL specimen identifier.",
+      "viewer_after": "Leaf image and chemical identity remain distinct; no invented micrograph.",
+      "invariant": "Same mint leaf edge and menthol category",
+      "initial_state": "Same leaf tip occupies the lower-left.",
+      "difficult_intermediate": "Close inspection retains the edge and reveals a small printed MENTHOL specimen identifier.",
+      "resolved_state": "Leaf image and chemical identity remain distinct; no invented micrograph.",
+      "next_inheritance": "MENTHOL identifier follows its source into the next comparison.",
+      "representation_reason": "C03 object macro chosen to make menthol provides a chemical input.",
+      "source_truth_boundary": "TRPM8 participates in cold sensing; it is not the only biological sensor. No claim that menthol never changes tissue temperature, that every mint species has the same menthol content, or that a whole person becomes colder. The channel print is a labeled conceptual figure, not molecular imaging or a literal key-lock shape.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Magnify from the leaf into a supporting printed menthol identifier, retaining the leaf edge as origin.",
-        "asset_operation": "The scale bridge keeps origin visible while the print becomes readable."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Same leaf tip occupies the lower-left. Leaf image and chemical identity remain distinct; no invented micrograph.",
+        "asset_operation": "Close inspection retains the edge and reveals a small printed MENTHOL specimen identifier."
+      },
+      "motion": {
+        "entry": "Same leaf tip occupies the lower-left.",
+        "primary_action": "Close inspection retains the edge and reveals a small printed MENTHOL specimen identifier.",
+        "settle": "Leaf image and chemical identity remain distinct; no invented micrograph.",
+        "exit_reason": "MENTHOL identifier follows its source into the next comparison.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "document_focus",
+        "trigger": "Inspect event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C03 object macro",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
       "id": "S03",
-      "viewer_before": "Menthol supplies a chemical route.",
-      "factual_proposition": "Different stimuli can act on the same cold-sensitive channel.",
+      "narration_phrase": "can activate a cold-sensitive channel called TRPM8.",
+      "viewer_before": "Leaf image and chemical identity remain distinct; no invented micrograph.",
+      "factual_proposition": "Menthol can activate TRPM8.",
       "source_ids": [
-        "M1"
+        "M1",
+        "M2"
       ],
-      "visual_operation": "Activate",
-      "subject_action": "Bring a menthol cue and a separate cool-temperature cue to one anchored TRPM8 figure.",
-      "viewer_after": "Different stimuli can act on the same cold-sensitive channel.",
-      "invariant": "TRPM8 anchor",
-      "initial_state": "Menthol supplies a chemical route.",
-      "difficult_intermediate": "Both distinct input paths remain visible as the same channel responds.",
-      "resolved_state": "Different stimuli can act on the same cold-sensitive channel. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Channel response leads back to the mouth sensation.",
-      "representation_reason": "Source-attached printed figure; no literal key/lock geometry presented as molecular fact.",
-      "source_truth_boundary": "TRPM8 is part of the system, not its only sensor. Do not assert menthol never changes any tissue temperature or has only one biological target. Receptor gate illustration is a labeled schematic, not observed molecular motion. No health, breathing or treatment claim.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "visual_operation": "Connect",
+      "subject_action": "A source-bound pathway reaches the single labeled channel while most leaf remains visible.",
+      "viewer_after": "Chemical input and response point are connected; channel response is marked illustrative.",
+      "invariant": "TRPM8 print position and menthol identity",
+      "initial_state": "Menthol-associated leaf sits above-left of a printed receptor detail.",
+      "difficult_intermediate": "A source-bound pathway reaches the single labeled channel while most leaf remains visible.",
+      "resolved_state": "Chemical input and response point are connected; channel response is marked illustrative.",
+      "next_inheritance": "Hold the channel position as the alternative input appears.",
+      "representation_reason": "C02 printed mechanism chosen to make menthol can activate trpm8.",
+      "source_truth_boundary": "TRPM8 participates in cold sensing; it is not the only biological sensor. No claim that menthol never changes tissue temperature, that every mint species has the same menthol content, or that a whole person becomes colder. The channel print is a labeled conceptual figure, not molecular imaging or a literal key-lock shape.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Bring a menthol cue and a separate cool-temperature cue to one anchored TRPM8 figure.",
-        "asset_operation": "Both distinct input paths remain visible as the same channel responds."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Menthol-associated leaf sits above-left of a printed receptor detail. Chemical input and response point are connected; channel response is marked illustrative.",
+        "asset_operation": "A source-bound pathway reaches the single labeled channel while most leaf remains visible."
+      },
+      "motion": {
+        "entry": "Menthol-associated leaf sits above-left of a printed receptor detail.",
+        "primary_action": "A source-bound pathway reaches the single labeled channel while most leaf remains visible.",
+        "settle": "Chemical input and response point are connected; channel response is marked illustrative.",
+        "exit_reason": "Hold the channel position as the alternative input appears.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "pencil_marks",
+        "trigger": "Connect event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C02 printed mechanism",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
       "id": "S04",
-      "viewer_before": "Different stimuli can act on the same cold-sensitive channel.",
-      "factual_proposition": "Sensation and measured temperature are different concepts.",
+      "narration_phrase": "Cooling can activate it too.",
+      "viewer_before": "Chemical input and response point are connected; channel response is marked illustrative.",
+      "factual_proposition": "Cooling is a distinct input to the same channel.",
+      "source_ids": [
+        "M1",
+        "M2"
+      ],
+      "visual_operation": "Compare",
+      "subject_action": "The ice cue reaches the same TRPM8 print through its own path; both origins stay visible.",
+      "viewer_after": "Two different source objects terminate at one labeled channel, without implying ice travels through tissue.",
+      "invariant": "Same channel, distinct mint/ice origin categories",
+      "initial_state": "Leaf path stays as context; ice enters above-right.",
+      "difficult_intermediate": "The ice cue reaches the same TRPM8 print through its own path; both origins stay visible.",
+      "resolved_state": "Two different source objects terminate at one labeled channel, without implying ice travels through tissue.",
+      "next_inheritance": "Keep both origins for the difficult two-input state.",
+      "representation_reason": "C10 source convergence chosen to make cooling is a distinct input to the same channel.",
+      "source_truth_boundary": "TRPM8 participates in cold sensing; it is not the only biological sensor. No claim that menthol never changes tissue temperature, that every mint species has the same menthol content, or that a whole person becomes colder. The channel print is a labeled conceptual figure, not molecular imaging or a literal key-lock shape.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Leaf path stays as context; ice enters above-right. Two different source objects terminate at one labeled channel, without implying ice travels through tissue.",
+        "asset_operation": "The ice cue reaches the same TRPM8 print through its own path; both origins stay visible."
+      },
+      "motion": {
+        "entry": "Leaf path stays as context; ice enters above-right.",
+        "primary_action": "The ice cue reaches the same TRPM8 print through its own path; both origins stay visible.",
+        "settle": "Two different source objects terminate at one labeled channel, without implying ice travels through tissue.",
+        "exit_reason": "Keep both origins for the difficult two-input state.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "tiny_mask_reveal",
+        "trigger": "Compare event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C10 source convergence",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S05",
+      "narration_phrase": "That gives us two different inputs: a temperature change, and a chemical. Both can stimulate part of the same sensory machinery.",
+      "viewer_before": "Two different source objects terminate at one labeled channel, without implying ice travels through tissue.",
+      "factual_proposition": "Temperature change and chemical input differ, while sharing one response system.",
       "source_ids": [
         "M1",
         "M2"
       ],
       "visual_operation": "Distinguish",
-      "subject_action": "Return to the mouth image; a sensation label appears while a separate illustrative temperature reference is kept distinct.",
-      "viewer_after": "Sensation and measured temperature are different concepts.",
-      "invariant": "Same mouth/leaf",
-      "initial_state": "Different stimuli can act on the same cold-sensitive channel.",
-      "difficult_intermediate": "Reference and sensory cue never merge into a false measured graph.",
-      "resolved_state": "Sensation and measured temperature are different concepts. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Separate paths reconcile at the opening leaf.",
-      "representation_reason": "No fake thermometer readings; baseline is conceptual, not a physiological experiment.",
-      "source_truth_boundary": "TRPM8 is part of the system, not its only sensor. Do not assert menthol never changes any tissue temperature or has only one biological target. Receptor gate illustration is a labeled schematic, not observed molecular motion. No health, breathing or treatment claim.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "subject_action": "Select cooling path then menthol path while the inactive source defocuses; the channel remains anchored.",
+      "viewer_after": "Both labels remain readable alongside the same channel. No measured response amplitudes.",
+      "invariant": "Both input labels and single TRPM8 anchor",
+      "initial_state": "Both paths are visible in the same print coordinates.",
+      "difficult_intermediate": "Select cooling path then menthol path while the inactive source defocuses; the channel remains anchored.",
+      "resolved_state": "Both labels remain readable alongside the same channel. No measured response amplitudes.",
+      "next_inheritance": "Return by the retained mouth profile.",
+      "representation_reason": "C07 qualitative comparison chosen to make temperature change and chemical input differ, while sharing one response system.",
+      "source_truth_boundary": "TRPM8 participates in cold sensing; it is not the only biological sensor. No claim that menthol never changes tissue temperature, that every mint species has the same menthol content, or that a whole person becomes colder. The channel print is a labeled conceptual figure, not molecular imaging or a literal key-lock shape.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Return to the mouth image; a sensation label appears while a separate illustrative temperature reference is kept distinct.",
-        "asset_operation": "Reference and sensory cue never merge into a false measured graph."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Both paths are visible in the same print coordinates. Both labels remain readable alongside the same channel. No measured response amplitudes.",
+        "asset_operation": "Select cooling path then menthol path while the inactive source defocuses; the channel remains anchored."
+      },
+      "motion": {
+        "entry": "Both paths are visible in the same print coordinates.",
+        "primary_action": "Select cooling path then menthol path while the inactive source defocuses; the channel remains anchored.",
+        "settle": "Both labels remain readable alongside the same channel. No measured response amplitudes.",
+        "exit_reason": "Return by the retained mouth profile.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "evidence_lock",
+        "trigger": "Distinguish event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C07 qualitative comparison",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
-      "id": "S05",
-      "viewer_before": "Sensation and measured temperature are different concepts.",
-      "factual_proposition": "Chemistry can stimulate cold-sensitive machinery.",
+      "id": "S06",
+      "narration_phrase": "So a cooling sensation does not, by itself, tell you the temperature of what you touched or tasted.",
+      "viewer_before": "Both labels remain readable alongside the same channel. No measured response amplitudes.",
+      "factual_proposition": "A sensation is not a thermometer measurement.",
       "source_ids": [
-        "M1"
+        "M1",
+        "M2"
       ],
-      "visual_operation": "Resolve",
-      "subject_action": "Leaf and ice remain different photographic objects; their paths meet at the same labeled sensory figure.",
-      "viewer_after": "Chemistry can stimulate cold-sensitive machinery.",
-      "invariant": "Two origins, one labeled channel",
-      "initial_state": "Sensation and measured temperature are different concepts.",
-      "difficult_intermediate": "Both origins survive the convergence without covering captions.",
-      "resolved_state": "Chemistry can stimulate cold-sensitive machinery. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Full final word, musical resolution, locked ending.",
-      "representation_reason": "A comparison explains the first frame; no decorative paper pile.",
-      "source_truth_boundary": "TRPM8 is part of the system, not its only sensor. Do not assert menthol never changes any tissue temperature or has only one biological target. Receptor gate illustration is a labeled schematic, not observed molecular motion. No health, breathing or treatment claim.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "visual_operation": "Reinterpret",
+      "subject_action": "A small COOL SENSATION label registers to lips; the two input origins remain separated below.",
+      "viewer_after": "Same sensation can follow different inputs; there is no fabricated temperature trace.",
+      "invariant": "Same mouth and mint identity",
+      "initial_state": "Mouth profile returns with familiar mint at its edge.",
+      "difficult_intermediate": "A small COOL SENSATION label registers to lips; the two input origins remain separated below.",
+      "resolved_state": "Same sensation can follow different inputs; there is no fabricated temperature trace.",
+      "next_inheritance": "Leaf crosses near lens to reveal final comparison.",
+      "representation_reason": "C04 sensory consequence chosen to make a sensation is not a thermometer measurement.",
+      "source_truth_boundary": "TRPM8 participates in cold sensing; it is not the only biological sensor. No claim that menthol never changes tissue temperature, that every mint species has the same menthol content, or that a whole person becomes colder. The channel print is a labeled conceptual figure, not molecular imaging or a literal key-lock shape.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Leaf and ice remain different photographic objects; their paths meet at the same labeled sensory figure.",
-        "asset_operation": "Both origins survive the convergence without covering captions."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Mouth profile returns with familiar mint at its edge. Same sensation can follow different inputs; there is no fabricated temperature trace.",
+        "asset_operation": "A small COOL SENSATION label registers to lips; the two input origins remain separated below."
+      },
+      "motion": {
+        "entry": "Mouth profile returns with familiar mint at its edge.",
+        "primary_action": "A small COOL SENSATION label registers to lips; the two input origins remain separated below.",
+        "settle": "Same sensation can follow different inputs; there is no fabricated temperature trace.",
+        "exit_reason": "Leaf crosses near lens to reveal final comparison.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "causal_reveal",
+        "trigger": "Reinterpret event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C04 sensory consequence",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S07",
+      "narration_phrase": "The mint is not a tiny ice cube. Its chemistry can take another route to a cold-sensitive channel. Different input. A familiar cold sensation.",
+      "viewer_before": "Same sensation can follow different inputs; there is no fabricated temperature trace.",
+      "factual_proposition": "The starting question resolves through channel activation.",
+      "source_ids": [
+        "M1",
+        "M2"
+      ],
+      "visual_operation": "Resolve",
+      "subject_action": "Both attach to a single supporting print, then hold while the final phrase completes.",
+      "viewer_after": "Headline DIFFERENT INPUT / FAMILIAR SENSATION with two recognizable origins and one labeled response.",
+      "invariant": "Mint, ice and channel identities",
+      "initial_state": "Leaf and cube remain physically different.",
+      "difficult_intermediate": "Both attach to a single supporting print, then hold while the final phrase completes.",
+      "resolved_state": "Headline DIFFERENT INPUT / FAMILIAR SENSATION with two recognizable origins and one labeled response.",
+      "next_inheritance": "Full final word, short decay, exact london-bridge-v1 ending.",
+      "representation_reason": "C14 explanatory payoff chosen to make the starting question resolves through channel activation.",
+      "source_truth_boundary": "TRPM8 participates in cold sensing; it is not the only biological sensor. No claim that menthol never changes tissue temperature, that every mint species has the same menthol content, or that a whole person becomes colder. The channel print is a labeled conceptual figure, not molecular imaging or a literal key-lock shape.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Leaf and cube remain physically different. Headline DIFFERENT INPUT / FAMILIAR SENSATION with two recognizable origins and one labeled response.",
+        "asset_operation": "Both attach to a single supporting print, then hold while the final phrase completes."
+      },
+      "motion": {
+        "entry": "Leaf and cube remain physically different.",
+        "primary_action": "Both attach to a single supporting print, then hold while the final phrase completes.",
+        "settle": "Headline DIFFERENT INPUT / FAMILIAR SENSATION with two recognizable origins and one labeled response.",
+        "exit_reason": "Full final word, short decay, exact london-bridge-v1 ending.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "warm_resolution",
+        "trigger": "Resolve event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C14 explanatory payoff",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     }
   ],
@@ -145,5 +367,34 @@
   },
   "owner_motion_review": {
     "status": "not_reviewed"
-  }
+  },
+  "rendered_review": {
+    "initial": {
+      "id": "03_input_initial",
+      "path": "art-v2/rendered/03_input_initial.jpg",
+      "sha256": "1b471ccb8397e9dad5d5be3645f58cbdba4105abe650f11a561adc0f1442c9d1",
+      "width": 1080,
+      "height": 1920
+    },
+    "intermediate": {
+      "id": "04_input_intermediate",
+      "path": "art-v2/rendered/04_input_intermediate.jpg",
+      "sha256": "b909cc9e4d62cfc9c519f9542894c82b9543260dd81e6f2006819c420144423d",
+      "width": 1080,
+      "height": 1920
+    },
+    "resolved": {
+      "id": "05_input_resolved",
+      "path": "art-v2/rendered/05_input_resolved.jpg",
+      "sha256": "ff7d85905fafe7b46b472452e171bb6033eb479cac2477aa8e762fce8bd46174",
+      "width": 1080,
+      "height": 1920
+    },
+    "heading_hidden_evidence": "art-v2/Mint_Three_State_Passage.jpg; exact heading-hidden image digests in art-v2/ART_QA.json",
+    "comparison": "Images remain the recognizable origins. Two distinct inputs converge on one anchored supporting channel print; photographic mouth returns for consequence. Not a renamed spoon comparison or a portrait/microphone capture template.",
+    "remaining_weaknesses": "Source alpha edges and tightest crop need moving inspection; generated illustration is not a molecular measurement.; A full-frame photographic mouth crop should be checked for distracting crop boundaries during parallax.; No claims of phone listening, word alignment, timing, motion or full preview completion.",
+    "unresolved_fallbacks": [],
+    "owner_review": "NOT REVIEWED"
+  },
+  "revision": 2
 }

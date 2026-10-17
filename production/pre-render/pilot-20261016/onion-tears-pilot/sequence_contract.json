@@ -2,140 +2,356 @@
   "version": 1,
   "episode_id": "onion-tears-pilot",
   "status": "STORY_SEQUENCE_DRAFT",
+  "scope": "ENTIRE EPISODE: seven connected narrated beats plus exact ending",
   "shots": [
     {
       "id": "S01",
-      "viewer_before": "Viewer recognizes the everyday subject but has not seen the mechanism.",
-      "factual_proposition": "The action and its distant consequence form one question.",
-      "source_ids": [
-        "O1"
-      ],
-      "visual_operation": "Question",
-      "subject_action": "A knife slices a photographic onion; the cut axis aligns with an eye close-up farther back in the composition.",
-      "viewer_after": "The action and its distant consequence form one question.",
-      "invariant": "Cut line to eye axis",
-      "initial_state": "A knife slices a photographic onion",
-      "difficult_intermediate": "Blade occludes only the cut plane; the eye remains visible.",
-      "resolved_state": "The action and its distant consequence form one question. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Follow the cut line into tissue inspection.",
-      "representation_reason": "Images establish real objects; no cartoon tears as the whole explanation.",
-      "source_truth_boundary": "Do not depict visible green smoke as documentary footage or sulfuric acid burning the eye. Molecule travel is an identified illustrative overlay. Do not imply LFS alone performs every reaction. No untested life-hack claims.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
-      "owner_review": "NOT REVIEWED",
-      "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "A knife slices a photographic onion; the cut axis aligns with an eye close-up farther back in the composition.",
-        "asset_operation": "Blade occludes only the cut plane; the eye remains visible."
-      }
-    },
-    {
-      "id": "S02",
-      "viewer_before": "The action and its distant consequence form one question.",
-      "factual_proposition": "Damage starts chemistry.",
-      "source_ids": [
-        "O1"
-      ],
-      "visual_operation": "Reveal",
-      "subject_action": "Open the damaged onion image at the cut; reveal a supporting chemistry print anchored inside the tissue.",
-      "viewer_after": "Damage starts chemistry.",
-      "invariant": "Specific cut and onion orientation",
-      "initial_state": "The action and its distant consequence form one question.",
-      "difficult_intermediate": "Inner print becomes readable while real tissue boundaries remain.",
-      "resolved_state": "Damage starts chemistry. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "The pathway leads to a named LF output.",
-      "representation_reason": "Print identifies the invisible reaction rather than pretending a macro photo resolves enzymes.",
-      "source_truth_boundary": "Do not depict visible green smoke as documentary footage or sulfuric acid burning the eye. Molecule travel is an identified illustrative overlay. Do not imply LFS alone performs every reaction. No untested life-hack claims.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
-      "owner_review": "NOT REVIEWED",
-      "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Open the damaged onion image at the cut; reveal a supporting chemistry print anchored inside the tissue.",
-        "asset_operation": "Inner print becomes readable while real tissue boundaries remain."
-      }
-    },
-    {
-      "id": "S03",
-      "viewer_before": "Damage starts chemistry.",
-      "factual_proposition": "The irritant is produced through a sequence, not just released from an arbitrary container.",
-      "source_ids": [
-        "O1"
-      ],
-      "visual_operation": "Convert",
-      "subject_action": "Walk through precursor/alliinase then LFS to LF on the attached print, removing irrelevant branches for this explanation.",
-      "viewer_after": "The irritant is produced through a sequence, not just released from an arbitrary container.",
-      "invariant": "LF output identifier",
-      "initial_state": "Damage starts chemistry.",
-      "difficult_intermediate": "Prior step remains visible as the LF output is selected.",
-      "resolved_state": "The irritant is produced through a sequence, not just released from an arbitrary container. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "LF marker exits along the established onion-to-eye axis.",
-      "representation_reason": "Accurate simplified pathway; no invented enzyme shape or false one-step reaction.",
-      "source_truth_boundary": "Do not depict visible green smoke as documentary footage or sulfuric acid burning the eye. Molecule travel is an identified illustrative overlay. Do not imply LFS alone performs every reaction. No untested life-hack claims.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
-      "owner_review": "NOT REVIEWED",
-      "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Walk through precursor/alliinase then LFS to LF on the attached print, removing irrelevant branches for this explanation.",
-        "asset_operation": "Prior step remains visible as the LF output is selected."
-      }
-    },
-    {
-      "id": "S04",
-      "viewer_before": "The irritant is produced through a sequence, not just released from an arbitrary container.",
-      "factual_proposition": "A volatile product bridges action and irritation.",
+      "narration_phrase": "Cut here. Tear up here. How does an onion reach your eyes?",
+      "viewer_before": "Viewer recognizes the ordinary subject but does not yet know this relationship.",
+      "factual_proposition": "The cause and effect occur in different places.",
       "source_ids": [
         "O1"
       ],
       "visual_operation": "Connect",
-      "subject_action": "Carry a clearly illustrative LF marker from onion edge through air to the eye image.",
-      "viewer_after": "A volatile product bridges action and irritation.",
-      "invariant": "Same LF label and spatial axis",
-      "initial_state": "The irritant is produced through a sequence, not just released from an arbitrary container.",
-      "difficult_intermediate": "The onion and eye both stay identifiable across the crossing.",
-      "resolved_state": "A volatile product bridges action and irritation. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Eye response resolves the consequence.",
-      "representation_reason": "Marker is illustration, not measured particle trajectory or visible coloured gas.",
-      "source_truth_boundary": "Do not depict visible green smoke as documentary footage or sulfuric acid burning the eye. Molecule travel is an identified illustrative overlay. Do not imply LFS alone performs every reaction. No untested life-hack claims.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "subject_action": "One incision opens a visible separation between onion layers as the eye becomes the focal destination.",
+      "viewer_after": "Viewer sees both locations and the gap that needs explanation.",
+      "invariant": "Cut surface and eye location",
+      "initial_state": "Knife and sliced onion occupy lower-left; eye image is distant upper-right.",
+      "difficult_intermediate": "One incision opens a visible separation between onion layers as the eye becomes the focal destination.",
+      "resolved_state": "Viewer sees both locations and the gap that needs explanation.",
+      "next_inheritance": "Retain cut edge for macro inspection.",
+      "representation_reason": "C01 consequence / shared space chosen to make the cause and effect occur in different places.",
+      "source_truth_boundary": "No green smoke, visible actual gas, sulfuric-acid burning-eye animation or health/life-hack advice. Invisible chemistry and airborne travel are explicitly illustrative overlays. LFS is one step, not the entire pathway. Do not label generated photographs as observed experimental footage.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Carry a clearly illustrative LF marker from onion edge through air to the eye image.",
-        "asset_operation": "The onion and eye both stay identifiable across the crossing."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Knife and sliced onion occupy lower-left; eye image is distant upper-right. Viewer sees both locations and the gap that needs explanation.",
+        "asset_operation": "One incision opens a visible separation between onion layers as the eye becomes the focal destination."
+      },
+      "motion": {
+        "entry": "Knife and sliced onion occupy lower-left; eye image is distant upper-right.",
+        "primary_action": "One incision opens a visible separation between onion layers as the eye becomes the focal destination.",
+        "settle": "Viewer sees both locations and the gap that needs explanation.",
+        "exit_reason": "Retain cut edge for macro inspection.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "wood_stress",
+        "trigger": "Connect event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C01 consequence / shared space",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S02",
+      "narration_phrase": "The knife damages the onion\u2019s tissue, starting a chain of chemical reactions.",
+      "viewer_before": "Viewer sees both locations and the gap that needs explanation.",
+      "factual_proposition": "Tissue damage initiates the pathway.",
+      "source_ids": [
+        "O1"
+      ],
+      "visual_operation": "Reveal",
+      "subject_action": "Cut edge opens a small source-attached explanatory inset while intact neighboring layers stay visible.",
+      "viewer_after": "Damaged area, rather than the whole onion, owns the pathway origin.",
+      "invariant": "Same cut onion edge",
+      "initial_state": "Same recognizable onion cross-section.",
+      "difficult_intermediate": "Cut edge opens a small source-attached explanatory inset while intact neighboring layers stay visible.",
+      "resolved_state": "Damaged area, rather than the whole onion, owns the pathway origin.",
+      "next_inheritance": "Inset edge becomes the reaction-strip baseline.",
+      "representation_reason": "C03 object section chosen to make tissue damage initiates the pathway.",
+      "source_truth_boundary": "No green smoke, visible actual gas, sulfuric-acid burning-eye animation or health/life-hack advice. Invisible chemistry and airborne travel are explicitly illustrative overlays. LFS is one step, not the entire pathway. Do not label generated photographs as observed experimental footage.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Same recognizable onion cross-section. Damaged area, rather than the whole onion, owns the pathway origin.",
+        "asset_operation": "Cut edge opens a small source-attached explanatory inset while intact neighboring layers stay visible."
+      },
+      "motion": {
+        "entry": "Same recognizable onion cross-section.",
+        "primary_action": "Cut edge opens a small source-attached explanatory inset while intact neighboring layers stay visible.",
+        "settle": "Damaged area, rather than the whole onion, owns the pathway origin.",
+        "exit_reason": "Inset edge becomes the reaction-strip baseline.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "tiny_mask_reveal",
+        "trigger": "Reveal event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C03 object section",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S03",
+      "narration_phrase": "One step uses an enzyme called lachrymatory factor synthase.",
+      "viewer_before": "Damaged area, rather than the whole onion, owns the pathway origin.",
+      "factual_proposition": "LFS participates in one step.",
+      "source_ids": [
+        "O1"
+      ],
+      "visual_operation": "Inspect",
+      "subject_action": "Highlight just the LFS-assisted conversion, retaining a smaller preceding-step context.",
+      "viewer_after": "One enzyme step is clear without implying it acts alone.",
+      "invariant": "Reaction origin and LFS step",
+      "initial_state": "A compact labeled sequence is attached beside the cut, with intermediate named sulfenic acid.",
+      "difficult_intermediate": "Highlight just the LFS-assisted conversion, retaining a smaller preceding-step context.",
+      "resolved_state": "One enzyme step is clear without implying it acts alone.",
+      "next_inheritance": "Product label LF leaves the strip as the next category.",
+      "representation_reason": "C08 original explanatory print chosen to make lfs participates in one step.",
+      "source_truth_boundary": "No green smoke, visible actual gas, sulfuric-acid burning-eye animation or health/life-hack advice. Invisible chemistry and airborne travel are explicitly illustrative overlays. LFS is one step, not the entire pathway. Do not label generated photographs as observed experimental footage.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "A compact labeled sequence is attached beside the cut, with intermediate named sulfenic acid. One enzyme step is clear without implying it acts alone.",
+        "asset_operation": "Highlight just the LFS-assisted conversion, retaining a smaller preceding-step context."
+      },
+      "motion": {
+        "entry": "A compact labeled sequence is attached beside the cut, with intermediate named sulfenic acid.",
+        "primary_action": "Highlight just the LFS-assisted conversion, retaining a smaller preceding-step context.",
+        "settle": "One enzyme step is clear without implying it acts alone.",
+        "exit_reason": "Product label LF leaves the strip as the next category.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "marker_bold",
+        "trigger": "Inspect event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C08 original explanatory print",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S04",
+      "narration_phrase": "It helps make a volatile compound called the lachrymatory factor.",
+      "viewer_before": "One enzyme step is clear without implying it acts alone.",
+      "factual_proposition": "The reaction produces LF.",
+      "source_ids": [
+        "O1"
+      ],
+      "visual_operation": "Produce",
+      "subject_action": "LF category marks emerge from the product side into space above the cut.",
+      "viewer_after": "New compound is connected to the damaged-tissue origin; molecule marks are illustrative.",
+      "invariant": "LF product identity",
+      "initial_state": "LFS step and substrate are already legible.",
+      "difficult_intermediate": "LF category marks emerge from the product side into space above the cut.",
+      "resolved_state": "New compound is connected to the damaged-tissue origin; molecule marks are illustrative.",
+      "next_inheritance": "Same LF marks cross from source to air.",
+      "representation_reason": "C02 printed mechanism chosen to make the reaction produces lf.",
+      "source_truth_boundary": "No green smoke, visible actual gas, sulfuric-acid burning-eye animation or health/life-hack advice. Invisible chemistry and airborne travel are explicitly illustrative overlays. LFS is one step, not the entire pathway. Do not label generated photographs as observed experimental footage.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "LFS step and substrate are already legible. New compound is connected to the damaged-tissue origin; molecule marks are illustrative.",
+        "asset_operation": "LF category marks emerge from the product side into space above the cut."
+      },
+      "motion": {
+        "entry": "LFS step and substrate are already legible.",
+        "primary_action": "LF category marks emerge from the product side into space above the cut.",
+        "settle": "New compound is connected to the damaged-tissue origin; molecule marks are illustrative.",
+        "exit_reason": "Same LF marks cross from source to air.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "data_pulse",
+        "trigger": "Produce event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C02 printed mechanism",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     },
     {
       "id": "S05",
-      "viewer_before": "A volatile product bridges action and irritation.",
-      "factual_proposition": "Cut, chemistry and irritation connect causally.",
+      "narration_phrase": "Volatile means it can enter the air.",
+      "viewer_before": "New compound is connected to the damaged-tissue origin; molecule marks are illustrative.",
+      "factual_proposition": "LF can enter air.",
+      "source_ids": [
+        "O1"
+      ],
+      "visual_operation": "Transfer",
+      "subject_action": "Sparse labeled LF marks cross the otherwise empty shared space; no colored fog.",
+      "viewer_after": "Path leaves onion and approaches the eye; physical distance remains legible.",
+      "invariant": "Same cutting board-to-eye spatial axis",
+      "initial_state": "Cutting board and distant eye are both established.",
+      "difficult_intermediate": "Sparse labeled LF marks cross the otherwise empty shared space; no colored fog.",
+      "resolved_state": "Path leaves onion and approaches the eye; physical distance remains legible.",
+      "next_inheritance": "Follow the leading mark to the eye crop.",
+      "representation_reason": "C10 spatial connection chosen to make lf can enter air.",
+      "source_truth_boundary": "No green smoke, visible actual gas, sulfuric-acid burning-eye animation or health/life-hack advice. Invisible chemistry and airborne travel are explicitly illustrative overlays. LFS is one step, not the entire pathway. Do not label generated photographs as observed experimental footage.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Cutting board and distant eye are both established. Path leaves onion and approaches the eye; physical distance remains legible.",
+        "asset_operation": "Sparse labeled LF marks cross the otherwise empty shared space; no colored fog."
+      },
+      "motion": {
+        "entry": "Cutting board and distant eye are both established.",
+        "primary_action": "Sparse labeled LF marks cross the otherwise empty shared space; no colored fog.",
+        "settle": "Path leaves onion and approaches the eye; physical distance remains legible.",
+        "exit_reason": "Follow the leading mark to the eye crop.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "soft_depth_pass",
+        "trigger": "Transfer event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C10 spatial connection",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S06",
+      "narration_phrase": "That compound causes the familiar eye irritation associated with chopping onions.",
+      "viewer_before": "Path leaves onion and approaches the eye; physical distance remains legible.",
+      "factual_proposition": "LF accounts for the familiar irritation.",
+      "source_ids": [
+        "O1"
+      ],
+      "visual_operation": "Locate",
+      "subject_action": "Focus selects eye as the LF cue arrives; restrained IRRITATION label, no burn/acid imagery.",
+      "viewer_after": "Distant consequence is linked to its chemical origin.",
+      "invariant": "Same eye and onion origin",
+      "initial_state": "Eye is foreground, onion still recognizable beyond.",
+      "difficult_intermediate": "Focus selects eye as the LF cue arrives; restrained IRRITATION label, no burn/acid imagery.",
+      "resolved_state": "Distant consequence is linked to its chemical origin.",
+      "next_inheritance": "Reopen the entire shared space.",
+      "representation_reason": "C04 human consequence chosen to make lf accounts for the familiar irritation.",
+      "source_truth_boundary": "No green smoke, visible actual gas, sulfuric-acid burning-eye animation or health/life-hack advice. Invisible chemistry and airborne travel are explicitly illustrative overlays. LFS is one step, not the entire pathway. Do not label generated photographs as observed experimental footage.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Eye is foreground, onion still recognizable beyond. Distant consequence is linked to its chemical origin.",
+        "asset_operation": "Focus selects eye as the LF cue arrives; restrained IRRITATION label, no burn/acid imagery."
+      },
+      "motion": {
+        "entry": "Eye is foreground, onion still recognizable beyond.",
+        "primary_action": "Focus selects eye as the LF cue arrives; restrained IRRITATION label, no burn/acid imagery.",
+        "settle": "Distant consequence is linked to its chemical origin.",
+        "exit_reason": "Reopen the entire shared space.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "causal_reveal",
+        "trigger": "Locate event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C04 human consequence",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
+      }
+    },
+    {
+      "id": "S07",
+      "narration_phrase": "So the slice and the irritation happen in different places, connected by an airborne chemical. The knife never touched your eye. It started a reaction that could reach it.",
+      "viewer_before": "Distant consequence is linked to its chemical origin.",
+      "factual_proposition": "Chemistry connects the two locations.",
       "source_ids": [
         "O1"
       ],
       "visual_operation": "Resolve",
-      "subject_action": "Revisit the cut and eye together; keep the chemical bridge visible as the complete closing sentence finishes.",
-      "viewer_after": "Cut, chemistry and irritation connect causally.",
-      "invariant": "Opening cut-to-eye relationship",
-      "initial_state": "A volatile product bridges action and irritation.",
-      "difficult_intermediate": "No exit leaves a sliver of the previous composition onscreen.",
-      "resolved_state": "Cut, chemistry and irritation connect causally. Keep the source-owned subjects visible long enough to compare.",
-      "next_inheritance": "Locked ending only after full narration tail.",
-      "representation_reason": "Connected photographic subjects carry cause and effect; paper supports only the hidden pathway.",
-      "source_truth_boundary": "Do not depict visible green smoke as documentary footage or sulfuric acid burning the eye. Molecule travel is an identified illustrative overlay. Do not imply LFS alone performs every reaction. No untested life-hack claims.",
-      "caption_clearance": "Reserve screen-fixed Manrope phrase area at 42\u201358% height; compose subject detail above/below it and test actual platform UI masks.",
-      "reading_hold": "Determine from recorded phrase and phone-size evidence reading; no assumed seconds. Hold after explanatory change, not continual drift.",
+      "subject_action": "Retrace the full source-to-air-to-eye relationship, ending on the same two subjects as frame zero.",
+      "viewer_after": "CUT \u2192 CHEMISTRY \u2192 AIR \u2192 EYE, with source images still dominant.",
+      "invariant": "Knife stays at onion; eye stays distant",
+      "initial_state": "Knife remains at onion, eye remains separated.",
+      "difficult_intermediate": "Retrace the full source-to-air-to-eye relationship, ending on the same two subjects as frame zero.",
+      "resolved_state": "CUT \u2192 CHEMISTRY \u2192 AIR \u2192 EYE, with source images still dominant.",
+      "next_inheritance": "Complete last word, musical arrival, exact locked ending.",
+      "representation_reason": "C14 environmental resolution chosen to make chemistry connects the two locations.",
+      "source_truth_boundary": "No green smoke, visible actual gas, sulfuric-acid burning-eye animation or health/life-hack advice. Invisible chemistry and airborne travel are explicitly illustrative overlays. LFS is one step, not the entire pathway. Do not label generated photographs as observed experimental footage.",
+      "caption_clearance": "Manrope screen-fixed 42\u201358% y; reserve the entire phrase footprint through intermediate frames and test encoded phone/UI overlays.",
+      "reading_hold": "At least one recognition/inference hold after the operation; determine frame length from real Bernard word events and phone-size reading. No fixed slots.",
       "owner_review": "NOT REVIEWED",
       "visual_translation": {
-        "reference_observation": "Approved capture passage: source images participate in a selection operation and survive its difficult intermediate; not a universal portrait/microphone composition.",
-        "transferable_principle": "A persistent subject or evidence anchor connects the operation to a changed understanding.",
-        "original_execution": "Revisit the cut and eye together; keep the chemical bridge visible as the complete closing sentence finishes.",
-        "asset_operation": "No exit leaves a sliver of the previous composition onscreen."
+        "reference_observation": "Cold Metal complete film is owner accepted; the material images own the contact/comparison and maintain identity through the explanatory change. Capture passage separately demonstrates source-owned selection.",
+        "transferable_principle": "A recognizable source participates in an operation, with intentional initial/intermediate/resolved composition and new understanding.",
+        "original_execution": "Knife remains at onion, eye remains separated. CUT \u2192 CHEMISTRY \u2192 AIR \u2192 EYE, with source images still dominant.",
+        "asset_operation": "Retrace the full source-to-air-to-eye relationship, ending on the same two subjects as frame zero."
+      },
+      "motion": {
+        "entry": "Knife remains at onion, eye remains separated.",
+        "primary_action": "Retrace the full source-to-air-to-eye relationship, ending on the same two subjects as frame zero.",
+        "settle": "CUT \u2192 CHEMISTRY \u2192 AIR \u2192 EYE, with source images still dominant.",
+        "exit_reason": "Complete last word, musical arrival, exact locked ending.",
+        "focus": "Focus follows the active source detail; restore context before the next relation. No blur on labels/captions.",
+        "timing_authority": "complete recorded Bernard word events, pending",
+        "cut_policy": "Cut at measured peak speed only for a justified object handoff; otherwise direct semantic cut."
+      },
+      "sound_cue": {
+        "catalog_search_key": "quiet_resolution",
+        "trigger": "Resolve event, not constant drift",
+        "source": "existing repository SFX first; exact file and rights to be bound before mix"
+      },
+      "shot_family": "C14 environmental resolution",
+      "review_status": {
+        "facts": "SOURCE-SCOPED DRAFT",
+        "art": "NOT REVIEWED",
+        "motion": "NOT BUILT",
+        "audio": "NOT RECORDED",
+        "full_preview": "NOT BUILT"
       }
     }
   ],
@@ -144,5 +360,6 @@
   },
   "owner_motion_review": {
     "status": "not_reviewed"
-  }
+  },
+  "revision": 2
 }

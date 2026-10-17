@@ -1,7 +1,7 @@
-# How a cut onion reaches your eyes
+# How a cut onion reaches your eyes — complete narration v2
 
-DRAFT — not recorded or owner-approved. Timing follows complete Bernard speech, never fixed scene slots.
+Production draft, 17 October 2026. Complete story; recording and owner review remain pending. Provisional 35–50-second envelope is a planning range, never fixed scene slots. Exact duration follows Bernard and reading holds.
 
-Cut here. Tear up here. How does an onion reach your eyes? Cutting damages the onion’s tissue and starts a chain of chemical reactions. One enzyme, called lachrymatory factor synthase, helps make a volatile compound known as the lachrymatory factor. Volatile means it can enter the air. That compound causes the familiar eye irritation associated with chopping onions. So the knife acts in one place, but the effect reaches another. What looks like a simple slice has set off chemistry, created an airborne irritant, and connected a cutting board to your eyes.
+Cut here. Tear up here. How does an onion reach your eyes? The knife damages the onion’s tissue, starting a chain of chemical reactions. One step uses an enzyme called lachrymatory factor synthase. It helps make a volatile compound called the lachrymatory factor. Volatile means it can enter the air. That compound causes the familiar eye irritation associated with chopping onions. So the slice and the irritation happen in different places, connected by an airborne chemical. The knife never touched your eye. It started a reaction that could reach it.
 
-Protect the entire last word and decay before the exact locked ending.
+Last phrase must complete before the exact ending; never cut voice to fit the target.

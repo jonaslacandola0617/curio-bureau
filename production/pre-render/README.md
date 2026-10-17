@@ -9,7 +9,7 @@ A pre-render project is a frozen, restorable production source that can reproduc
 
 This operational pilot implements the existing Bible v1.4.5, image-led direction, rendered-translation safeguard and GitHub archive policy. It does not replace them. **Owner authorized a five-project pilot on 16 October 2026; a 350-project production commitment has not been measured or established.**
 
-Start with [the pilot review](pilot-20261016/README.md). Five story/sequence drafts exist; zero frozen render-ready projects exist at this checkpoint.
+Start with [the updated pilot review](pilot-20261016/README.md). Cold Metal is now owner accepted as a complete published-film benchmark. The remaining four pilots have revised complete-story plans; three are new-post candidates and Recorded Voice is calibration. Zero packages are newly claimed frozen RENDER_READY.
 
 ## Stages and review boundaries
 
@@ -58,7 +58,7 @@ The first command intentionally exits nonzero for today's drafts. Once all gates
 
 ## Daily work, recovery and cost control
 
-Keep five candidates in story research, **one** active finished-art passage, and **one** motion/full-preview item at a time during calibration. Do not build hundreds of moderate scripts and call them production inventory. After one successful freeze → clean restore → render → comparison against the approved preview, complete the other four using the measured workflow.
+Keep five candidates in story research, **one** active finished-art passage, and **one** motion/full-preview item at a time during calibration. Do not build hundreds of moderate scripts and call them production inventory. Cold Metal now has owner complete-film acceptance. Finish its separate freeze/restore evidence; complete Mint, Onion Tears and the observational Knuckle film using full-preview gates. Recorded Voice remains a reuse/calibration candidate. Scale only from measured workflow.
 
 For each project log research, source acquisition, design, revisions, voice/audio, animation, render and QA separately in [the metrics sheet](pilot-20261016/metrics.csv). Enter actual wall time, retries, tool/token usage when observable, asset generation counts and storage sizes. Do not estimate actual token usage from memory. Record missing telemetry as unknown.
 

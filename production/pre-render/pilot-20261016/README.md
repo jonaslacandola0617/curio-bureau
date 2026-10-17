@@ -1,27 +1,17 @@
-# Science pre-render pilot 01 — review packet
+# Science pilot batch — revised 17 October 2026
 
-**Checkpoint: 16 October 2026. One rendered moving passage and four story/sequence proposals; 0/5 complete films render-ready.** Cold-metal art-v1 is owner-approved and its 13.9-second motion-v1 passage is rendered with Bernard, music, SFX and active finishing. Owner moving/listening review remains open. The complete film and native 4K production have not been approved or completed. No social posting is performed.
+Cold Metal is owner accepted as a complete production and reported published. [Exact approval and artifact identity](cold-metal-pilot/OWNER_FULL_FILM_APPROVAL.md). Preserve its original export and historical QA. The incomplete pre-render freeze is not silently upgraded to RENDER_READY.
 
-| Order | Candidate | Distinct explanatory operation | Current limit | Packet |
+| Priority | Project | Purpose | Current concrete output | Next gate |
 |---|---|---|---|---|
-| 1 | Cold-feeling metal | Compare matched photographic surfaces at equal starting temperature, then inspect contact heat flow | Original photographic-style assets and rendered art-v1 ready for owner art review; final crop-detail corrections pending | [Moving review](cold-metal-pilot/motion-v1/README.md) · [Art](cold-metal-pilot/art-v1/README.md) · [Plan](cold-metal-pilot/REVIEW.md) · [Narration](cold-metal-pilot/NARRATION.md) · [Evidence](cold-metal-pilot/RESEARCH.md) |
-| 2 | Recorded voice | Select the airborne contribution while retaining internal vibration as a comparison | Reuse/calibration candidate, not automatically a new post; recover exact approved capture bytes | [Review](recorded-voice-pilot/REVIEW.md) · [Narration](recorded-voice-pilot/NARRATION.md) · [Evidence](recorded-voice-pilot/RESEARCH.md) |
-| 3 | Mint feels cold | Converge two different inputs on one accurately labeled supporting receptor print | Verify final source wording and acquire actual images | [Review](mint-cold-pilot/REVIEW.md) · [Narration](mint-cold-pilot/NARRATION.md) · [Evidence](mint-cold-pilot/RESEARCH.md) |
-| 4 | Onion tears | Connect the damaged onion, chemical conversion and distant eye in one spatial relationship | Asset acquisition and rights pending | [Review](onion-tears-pilot/REVIEW.md) · [Narration](onion-tears-pilot/NARRATION.md) · [Evidence](onion-tears-pilot/RESEARCH.md) |
-| 5 | Inside a knuckle crack | Inspect actual scan evidence and distinguish it from an acoustic model | RESEARCH HOLD: verify K2 primary text and the acoustic interpretation before final script lock | [Review](knuckle-pop-pilot/REVIEW.md) · [Narration](knuckle-pop-pilot/NARRATION.md) · [Evidence](knuckle-pop-pilot/RESEARCH.md) |
+| 1 | Cold Metal | Accepted benchmark | Full 38.17-second movie, archived source and owner confirmation | Separate clean freeze/restore evidence |
+| 2 | [Mint](mint-cold-pilot/REVIEW.md) | New post 1 | Full narration and seven-beat contract; finished art review packet | Review actual art, then moving passage and complete film |
+| 3 | [Onion Tears](onion-tears-pilot/REVIEW.md) | New post 2 | Full narration, seven-beat contract and asset plan | Acquire/finish actual image art |
+| 4 | [Knuckle Cavity](knuckle-pop-pilot/REVIEW.md) | New post 3 | Evidence-led full narration and seven-beat contract | Acquire credited actual scans; art review |
+| 5 | [Recorded Voice](recorded-voice-pilot/REVIEW.md) | Reuse/calibration only | Full sequence plan tied to recovery of approved capture source | Restore exact source; do not duplicate a published post |
 
-**Recommended first complete package: cold-feeling metal.** It has a clear visual comparison, a manageable evidence scope, and a difficult contact/heat-flow passage that tests whether the workflow preserves image-led explanation. This is an editorial/production judgment, not evidence that the topic is trending or will achieve a specific retention rate.
+Every new episode must have a complete 1080p preview with all scenes, joins, complete narration, score, action sounds, real word timings, strong materials/optics, payoff and exact ending. A short passage validates only its own behavior. The five static states and difficult passage art gate remain; they help avoid expensive motion rework but never replace a whole-film review.
 
-Recorded Voice deliberately provides a calibration/reuse case alongside four new candidates; do not publish a duplicate by default. The rejected old beatboard remains rejected. Its later approved 13.2-second capture passage provides a known motion/art reference, not blanket approval of this whole proposed film.
+Cold Metal's craft is the reference, not its spoon layout or its historical 720p/estimated-caption deviation. New outputs use the current native1080p standard, GitHub source checkpoints and immediate versioned export archive. Keep factual scope and image rights separate; no trend/retention prediction is asserted.
 
-Each folder includes `NARRATION.md`, `RESEARCH.md`, `REVIEW.md`, an engine-compatible `sequence_contract.json` and an intentionally incomplete `package.json`. The sequence contracts pass required decision-field checks; all fail the motion/art-evidence gate as expected. Textual visual direction is not finished art approval.
-
-## Review now
-
-The concrete decisions are the proposed stories, hook angles and subject-owned operations in the linked packets. Then develop the cold-metal finished art: opening comparison, equilibrium context, hardest contact-flow intermediate, paired-rate resolution and final insight. Render the hardest passage in initial/intermediate/resolved states and a heading-hidden comparison before motion.
-
-The existing rule requiring an actual owner art/sequence decision before animation is in [VISUAL_SEQUENCE_DIRECTION.md](../../art-direction/VISUAL_SEQUENCE_DIRECTION.md): “Obtain owner art/sequence approval, then animate the hardest representative passage.” It applies to the forthcoming rendered artwork, not as approval inferred from these written plans. The separate moving approval and whole-preview gates remain intact.
-
-## Evidence and checks
-
-See [verification](VERIFICATION.json) and [operating workflow](../README.md). No views or retention prediction, original Vox project access, precise “100% match,” finished asset license, owner approval or native encode has been invented. Research pages with partial/blocked access are labeled in each source ledger.
+Five existing pilot ideas are retained, with three selected for new posting. One active art/motion project at a time; do not expand to hundreds until the small batch completes and measured throughput/revisions are known. No video has been newly rendered by this revision packet.

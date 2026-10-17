@@ -1,0 +1,8 @@
+id,family,operation,invariant,meaningful_change
+"S01","C04 speaking context","Question","Portrait identity persists.","Playback differs from speaking self-perception."
+"S02","C02 source-attached anatomy support","Connect","Hold mouth/ear anchors for body route.","Airborne sound contributes to self-voice."
+"S03","C10 dual-route relation","Add","Microphone capture boundary takes over.","Body conduction contributes as well."
+"S04","C10 approved capture operation","Select","Recorded track persists into playback.","Ordinary microphone capture differs from internal self-hearing."
+"S05","C09 speaking/playback comparison","Compare","Keep device image for qualification.","Playback provides a different balance."
+"S06","C03 device inspection","Qualify","Return to original listener.","Equipment and environment qualify the comparison."
+"S07","C14 payoff","Resolve","Complete ears and exact ending; no duplicate post by default.","Route difference resolves the hook."

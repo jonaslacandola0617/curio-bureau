@@ -1,26 +1,21 @@
-# Evidence and claim boundaries — What imaging reveals inside a cracking knuckle
+# Inside a knuckle crack — evidence v2
 
-Research checked 16 October 2026. Sources support the draft scope below; access limitations are explicit. Source pages are not automatically licensed visual assets. No current trend or retention claim is made.
+Checked 17 October 2026. No trend, virality or retention claim.
 
-## K1 — Kawchuk et al., 2015; DOI 10.1371/journal.pone.0119470
+## K1 — Kawchuk et al. (2015), doi:10.1371/journal.pone.0119470
 
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0119470
 
-Full primary paper read: 10 MCP joints, one participant, 3.2fps cine MRI; cavity persists. Limitations include spatial/temporal coverage and sound amplitude.
+Primary abstract/methods rechecked 17 October 2026: ten MCP joints, one participant, cine MRI 3.2 fps, cavity visible after separation. Source article CC BY; individual figure/clip credits must be retained.
 
-## K2 — Chandran Suja & Barakat, 2018; DOI 10.1038/s41598-018-22664-4
+## K2 — Chandran Suja and Barakat (2018), doi:10.1038/s41598-018-22664-4
 
 https://www.nature.com/articles/s41598-018-22664-4
 
-Primary modelling paper located/opened; cookie rendering limited searchable text. Partial-collapse interpretation requires full abstract/method cross-check before fact lock.
+Primary indexed abstract supports a partial-collapse acoustic model. Publisher/PMC full-text retrieval remains limited. No detailed model result is in the selected narration.
 
-## Claim lock proposal
+## Scope and exclusions
 
-- 2015 images show cavity appearance/persistence in the studied joints. Support: K1
-- Later acoustic modelling provides a partial-collapse interpretation. Support: K2; explicit fact-lock hold until full primary text verified.
+The new film asks what the scan shows, not which acoustic mechanism is finally settled. No arthritis/safety/treatment claims. No invented MRI, interpolation marketed as captured evidence, or synchronized synthetic crack implying measured frame-exact audio. Keep 3.2-fps acquisition visible. K2 acoustic-model details remain excluded pending full-text verification.
 
-## Required boundaries
-
-RESEARCH HOLD on precise K2 wording and latest state of debate. No arthritis, treatment or safety recommendation. Real study clips must retain source timing; 3.2fps imaging cannot resolve a millisecond acoustic event. Do not add synthesized pop to imply measured frame-exact synchronization.
-
-All extra molecular, numerical, health or equipment claims require their own evidence before adoption. This is a draft source ledger, not an independent fact-check approval.
+Image rights are separate from claim support. No source-page access grants figure rights automatically. Record item-specific licenses before motion/production.

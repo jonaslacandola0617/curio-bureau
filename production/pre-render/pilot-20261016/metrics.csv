@@ -5,3 +5,8 @@ mint-cold-pilot,story_sequence,draft,unknown,unknown,unknown,0,0,pending_commit,
 onion-tears-pilot,story_sequence,draft,unknown,unknown,unknown,0,0,pending_commit,0,Not production-ready
 knuckle-pop-pilot,story_sequence,research_hold,unknown,unknown,unknown,0,0,pending_commit,0,K2 wording verification pending
 cold-metal-pilot,art_review,owner_review_pending,unknown,unknown,unknown,3,0,pending_commit,1,Seven native static states plus three heading-hidden proofs; not video frames
+cold-metal-pilot,whole_film_owner_review,accepted,unknown,unknown,unknown,0,0,pending_commit,unknown,Owner accepted existing complete published export; no new render
+mint-cold-pilot,full_sequence_and_finished_art_v2,owner_art_review_pending,unknown,unknown,unknown,3,0,pending_commit,unknown,Seven native1080p static states plus three heading-hidden states; no movie; labor/tool/token telemetry unknown
+onion-tears-pilot,full_sequence_revision_v2,draft,unknown,unknown,unknown,0,0,pending_commit,unknown,All narration clauses mapped; actual art and full movie pending
+knuckle-pop-pilot,full_sequence_revision_v2,draft,unknown,unknown,unknown,0,0,pending_commit,unknown,Observation-only film; detailed acoustic model claims excluded
+recorded-voice-pilot,full_sequence_revision_v2,calibration,unknown,unknown,unknown,0,0,pending_commit,unknown,Reuse only; no duplicate new post

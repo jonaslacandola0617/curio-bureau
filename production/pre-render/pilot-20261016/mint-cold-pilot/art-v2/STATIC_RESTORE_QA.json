@@ -1,0 +1,47 @@
+{
+  "scope": "static art only, not a full-film pre-render restoration",
+  "source_commit": "3c891723f5051dd5d047858ae723acb85e8fb10a",
+  "checks": [
+    {
+      "path": "rendered/03_input_initial.jpg",
+      "match": true
+    },
+    {
+      "path": "rendered/04_input_intermediate_no_heading.jpg",
+      "match": true
+    },
+    {
+      "path": "rendered/04_input_intermediate.jpg",
+      "match": true
+    },
+    {
+      "path": "rendered/07_payoff.jpg",
+      "match": true
+    },
+    {
+      "path": "rendered/05_input_resolved_no_heading.jpg",
+      "match": true
+    },
+    {
+      "path": "rendered/06_sensation.jpg",
+      "match": true
+    },
+    {
+      "path": "rendered/01_hook.jpg",
+      "match": true
+    },
+    {
+      "path": "rendered/05_input_resolved.jpg",
+      "match": true
+    },
+    {
+      "path": "rendered/02_menthol.jpg",
+      "match": true
+    },
+    {
+      "path": "rendered/03_input_initial_no_heading.jpg",
+      "match": true
+    }
+  ],
+  "all_match": true
+}

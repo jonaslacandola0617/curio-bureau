@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "episode_id": "mint-cold-pilot",
-  "status": "STORY_SEQUENCE_DRAFT",
+  "status": "ART_REVIEW",
   "settings": {
     "width": 1080,
     "height": 1920,
@@ -14,7 +14,7 @@
     {
       "path": "NARRATION.md",
       "role": "story",
-      "sha256": "f53b98e39073a3304a7c831ba2c80aae31587e3e839c7effe86c6e24fcf1c63b",
+      "sha256": "26eebbc824e89f7250a9d7a31dff69fac0ee6b049a5f7359d2d60816f8db0570",
       "archive": {
         "kind": "git"
       }
@@ -22,7 +22,7 @@
     {
       "path": "RESEARCH.md",
       "role": "research",
-      "sha256": "d3737e845ac0a8b2ddb81e79754cae3be7659e571cbbfd376c415c8bf61f0551",
+      "sha256": "09877e974aba7bdaa003e0bff83a53e9bc888d088a490631636fa97e5bb4eb9c",
       "archive": {
         "kind": "git"
       }
@@ -30,7 +30,7 @@
     {
       "path": "REVIEW.md",
       "role": "story",
-      "sha256": "64b0a1ffe9760c8b04a97f8911fa81f472cb7d280b94bb16cc75ab94f438e14d",
+      "sha256": "268e1131d324516f335d7bd03f47028f7148d2c52ba3e247343733e61cd9e009",
       "archive": {
         "kind": "git"
       }
@@ -38,7 +38,111 @@
     {
       "path": "sequence_contract.json",
       "role": "sequence",
-      "sha256": "c0d9a2221da401126341c1b79b0131366caeaa9618cd3f58f21a5f0f09d18830",
+      "sha256": "8dbf8da10dcf53b38202e747bcf999429f76912ca70b8ca71f6f44c69b76ea50",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "FULL_FILM_QA_PLAN.json",
+      "role": "proof",
+      "sha256": "d3667320da00735e2eeb25ad97b6532297255aa58f8dc61f8bf8394f1733c1e6",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "SHOT_FINGERPRINT.csv",
+      "role": "sequence",
+      "sha256": "9ae692711c65a3a477587a8bf7d99ac21accd347f544db958c3810cb647b74fc",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/rendered/01_hook.jpg",
+      "role": "proof",
+      "sha256": "fb4ef612171297f2ec72458fe5d808dd937c56b13e398813592a9f68d5f72c02",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/rendered/02_menthol.jpg",
+      "role": "proof",
+      "sha256": "5c36844c0270b242f2492945cdcc2f1f28533fac1f9c0ebc676b1de467c7619a",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/rendered/03_input_initial.jpg",
+      "role": "proof",
+      "sha256": "1b471ccb8397e9dad5d5be3645f58cbdba4105abe650f11a561adc0f1442c9d1",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/rendered/04_input_intermediate.jpg",
+      "role": "proof",
+      "sha256": "b909cc9e4d62cfc9c519f9542894c82b9543260dd81e6f2006819c420144423d",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/rendered/05_input_resolved.jpg",
+      "role": "proof",
+      "sha256": "ff7d85905fafe7b46b472452e171bb6033eb479cac2477aa8e762fce8bd46174",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/rendered/06_sensation.jpg",
+      "role": "proof",
+      "sha256": "3d8f4b4957ac23fac67350180825e3e0a15af1d8da70bd792d438a81f6074892",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/rendered/07_payoff.jpg",
+      "role": "proof",
+      "sha256": "29f8b8f971be55cb6b0772cb12c8950417a7483e934fd4d28f37dc09248bd219",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/art.cjs",
+      "role": "source",
+      "sha256": "0b847e71d2c5f140c328a0dac840eb36a2fe53f09d2f748c41813bcf31ebe5c8",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/ASSETS.json",
+      "role": "proof",
+      "sha256": "f95ed7b48de94c3642782ef78834369bc19459d799551fa6e9713a85d7a1636a",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/GENERATION_PROMPTS.json",
+      "role": "proof",
+      "sha256": "425b554a442ba7af5ccea93e0fbc603aeac0d1eebb82becc0cdb543fc4b96349",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v2/ART_QA.json",
+      "role": "proof",
+      "sha256": "4a199c888f8ab98c7b0ed244be6bf942b22412a490ce99f47e57b789a0c873af",
       "archive": {
         "kind": "git"
       }
@@ -46,10 +150,14 @@
   ],
   "gates": {},
   "unresolved_findings": [
-    "Owner story/sequence review pending",
-    "Assets and item-specific rights not acquired/locked",
-    "Finished art and actual rendered translation review absent",
-    "Voice/music/SFX/captions and full preview absent"
+    "Finished art-v2 images exist; exact image/sequence owner approval remains pending.",
+    "Remaining asset rights and max-crop quality not locked",
+    "Natural Bernard speech, word alignment and final score/SFX mix pending",
+    "Complete native1080p movie and per-scene/whole-film owner review pending",
+    "Frozen dependency closure, GitHub input receipts and clean restore pending"
   ],
-  "frozen_fingerprint": null
+  "frozen_fingerprint": null,
+  "production_scope": "complete_episode",
+  "publish_intent": "NEW POST / batch slot 1",
+  "sequence_revision": 2
 }

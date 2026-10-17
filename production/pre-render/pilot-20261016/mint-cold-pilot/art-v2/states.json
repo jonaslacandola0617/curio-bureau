@@ -1,0 +1,51 @@
+[
+  {
+    "id": "01_hook",
+    "path": "rendered/01_hook.jpg",
+    "sha256": "fb4ef612171297f2ec72458fe5d808dd937c56b13e398813592a9f68d5f72c02",
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "02_menthol",
+    "path": "rendered/02_menthol.jpg",
+    "sha256": "5c36844c0270b242f2492945cdcc2f1f28533fac1f9c0ebc676b1de467c7619a",
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "03_input_initial",
+    "path": "rendered/03_input_initial.jpg",
+    "sha256": "1b471ccb8397e9dad5d5be3645f58cbdba4105abe650f11a561adc0f1442c9d1",
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "04_input_intermediate",
+    "path": "rendered/04_input_intermediate.jpg",
+    "sha256": "b909cc9e4d62cfc9c519f9542894c82b9543260dd81e6f2006819c420144423d",
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "05_input_resolved",
+    "path": "rendered/05_input_resolved.jpg",
+    "sha256": "ff7d85905fafe7b46b472452e171bb6033eb479cac2477aa8e762fce8bd46174",
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "06_sensation",
+    "path": "rendered/06_sensation.jpg",
+    "sha256": "3d8f4b4957ac23fac67350180825e3e0a15af1d8da70bd792d438a81f6074892",
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "07_payoff",
+    "path": "rendered/07_payoff.jpg",
+    "sha256": "29f8b8f971be55cb6b0772cb12c8950417a7483e934fd4d28f37dc09248bd219",
+    "width": 1080,
+    "height": 1920
+  }
+]
