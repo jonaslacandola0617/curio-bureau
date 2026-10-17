@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "film/lake-peigneur-1980",
   "previous_branch_head": "15175f67bf32d9f86b19e18d495370811ccc87c4",
   "original_render_source_commit": "not inferred from archive commit",
@@ -36,7 +36,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/lake-peigneur-1980"
+      "branch": "film/lake-peigneur-1980",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649801625,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Bureau_004_4K_INSTRUMENTAL_AUDIO_REPAIR.mp4",
+        "size": 192937984,
+        "digest": "sha256:adf3b696384e64bd0081c710bee2c923cecfcd07dd5fdea86b1074106c68d0d0",
+        "state": "uploaded"
+      }
     },
     {
       "name": "CURIO_BUREAU_004_4K_NATURAL_VOICE_REVISION.mp4",
@@ -69,7 +77,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/lake-peigneur-1980"
+      "branch": "film/lake-peigneur-1980",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649805906,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/CURIO_BUREAU_004_4K_NATURAL_VOICE_REVISION.mp4",
+        "size": 197132288,
+        "digest": "sha256:c9200feee39cf865c661b4f2182c373ff5c2c30735162cfd33efbc69005544ab",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Bureau_EP004_4K_MOTION_WIP.mp4",
@@ -102,8 +118,27 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/lake-peigneur-1980"
+      "branch": "film/lake-peigneur-1980",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649812904,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Bureau_EP004_4K_MOTION_WIP.mp4",
+        "size": 240383327,
+        "digest": "sha256:e7fcfa87d734bfbad1480749ddb0864aef25c01c23d47f69363ea16766ec2c19",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:05:12.399Z",
+  "recovery_checkpoint_parent": "e62abad322d1c084204a0553622671ee5c58aaf8",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }
