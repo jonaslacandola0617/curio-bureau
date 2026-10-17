@@ -31,4 +31,8 @@ im=Image.open(r/'proof/encoded_7.4.png').convert('L').crop((8,112,60,155));hp=np
 subprocess.run(['ffmpeg','-nostdin','-y','-v','error','-ss','4.9','-i',str(r/'Cold_Metal_R2_4K.mp4'),'-frames:v','1',str(r/'proof/encoded_native_4.9.png')],check=True)
 a=np.asarray(Image.open(r/'proof/native_4.9.jpg').convert('RGB').resize((540,960)),dtype=float);b=np.asarray(Image.open(r/'proof/encoded_native_4.9.png').convert('RGB').resize((540,960)),dtype=float);delta=float(np.mean(abs(a-b)));assert delta<6,('Source/encoded mismatch',delta)
 report['settled_native_source_to_encoded_mean_rgb_difference']=delta
+subprocess.run(['ffmpeg','-nostdin','-y','-v','error','-ss','4.9','-i',str(r/'Cold_Metal_R2_4K.webm'),'-frames:v','1','-vf','scale=540:960',str(r/'proof/webm_native_4.9.png')],check=True)
+w=np.asarray(Image.open(r/'proof/webm_native_4.9.png').convert('RGB'),dtype=float);wd=float(np.mean(abs(a-w)));assert wd<7,('WebM source mismatch',wd)
+report['webm_native_source_mean_rgb_difference']=wd
+webphone=Image.open(r/'proof/webm_native_4.9.png').convert('L').resize((270,480)).crop((8,112,60,155));wh=np.asarray(webphone,dtype=float)-np.asarray(webphone.filter(ImageFilter.GaussianBlur(1)),dtype=float);report['webm_phone_texture_mean_abs_highpass']=float(np.mean(abs(wh)));assert report['webm_phone_texture_mean_abs_highpass']>.15
 (r/'OUTPUT_QA.json').write_text(json.dumps(report,indent=2)+'\n');print('All output checks PASS')
