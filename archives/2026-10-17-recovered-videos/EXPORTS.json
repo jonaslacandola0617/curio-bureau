@@ -1,0 +1,140 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "film/sunlight-white",
+  "previous_branch_head": "260d77668c783636a29f9ffc8df8a9c9dbaaf750",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "Sunlight_4K.webm",
+      "size": 352848710,
+      "sha256": "c1e056b6a93b6faa0acc5bb8109f15723e3d117f12ca4516f182ac3ab3d37824",
+      "group": "sunlight-white",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "51.308000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/sunlight-white"
+    },
+    {
+      "name": "Sunlight_4K_Upload.mp4",
+      "size": 309012850,
+      "sha256": "5346787112fce819ccc0f1e4d54cc9a7e84a580adc0a9c1782bbe5384e25d1b3",
+      "group": "sunlight-white",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "51.300000",
+          "nb_frames": "1539"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "51.300000",
+          "nb_frames": "2406"
+        }
+      ],
+      "duration": "51.300000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/sunlight-white"
+    },
+    {
+      "name": "Sunlight_Review_1080p.mp4",
+      "size": 213307220,
+      "sha256": "3844fbd1cee290de5a8cd7530c6d4a2b08022e3cecbd22f0ab4840157bdbd516",
+      "group": "sunlight-white",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "51.300000",
+          "nb_frames": "1539"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "51.300000",
+          "nb_frames": "2406"
+        }
+      ],
+      "duration": "51.300000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/sunlight-white"
+    },
+    {
+      "name": "Sunlight_4K_Master.mp4",
+      "size": 655992969,
+      "sha256": "020db670de0899424be13a213819a5ac7aa721a398895687e00c5393b4981d0c",
+      "group": "sunlight-white",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "51.300000",
+          "nb_frames": "1539"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "51.300000",
+          "nb_frames": "2406"
+        }
+      ],
+      "duration": "51.300000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "ZIP extraction, no render or re-encode",
+        "archive": "Sunlight_4K_Master.zip",
+        "sha256": "020db670de0899424be13a213819a5ac7aa721a398895687e00c5393b4981d0c"
+      },
+      "branch": "film/sunlight-white"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
