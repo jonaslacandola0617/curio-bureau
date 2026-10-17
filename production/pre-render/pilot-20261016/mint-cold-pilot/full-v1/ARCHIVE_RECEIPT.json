@@ -1,0 +1,31 @@
+{
+  "release_id": 415745172,
+  "tag": "mint-full-v1-review-20261017",
+  "source_commit": "078ab09064cb27641a7999438fee595b300c115d",
+  "assets": [
+    {
+      "id": 650204504,
+      "name": "Mint-Mix-v1.flac",
+      "bytes": 2644122,
+      "digest": "sha256:75e63b11b890cc4fea5cd1f04e2ceeb90f784e31321a64b84cfc8294d79035a6",
+      "state": "uploaded",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-Mix-v1.flac"
+    },
+    {
+      "id": 650209629,
+      "name": "Mint-v1-lossless-0000-0239.mkv",
+      "bytes": 740105843,
+      "digest": "sha256:cc57a12b8c434027d22c7b0af2d0a346b7d837949affbbddb55cf9405bd634da",
+      "state": "uploaded",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-v1-lossless-0000-0239.mkv"
+    },
+    {
+      "id": 650210668,
+      "name": "Mint-v1-lossless-0240-0479.mkv",
+      "bytes": 779416827,
+      "digest": "sha256:d729a7c1d500d34d208ed228f18c1638658023373c7d41bc00476806de66c66e",
+      "state": "uploaded",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-v1-lossless-0240-0479.mkv"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "source_commit": "078ab09064cb27641a7999438fee595b300c115d",
+  "status": "SOURCE_CHECKPOINTED",
+  "files": [
+    {
+      "path": "render.cjs",
+      "bytes": 5902,
+      "sha256": "4feda23ba3326bb2c5cc02ea655a153f68e1beb407c2c72009033ead8567bc30"
+    },
+    {
+      "path": "scene-core.cjs",
+      "bytes": 10891,
+      "sha256": "be438287d393222e3ce214cb63609d0f0b6320983b1d4d8ae126b688508356a0"
+    },
+    {
+      "path": "mix.py",
+      "bytes": 4031,
+      "sha256": "30ebe81ec730a28c8c87abc74d4581b00e6136bb7fcc143c385b791bce73ad92"
+    },
+    {
+      "path": "timeline.json",
+      "bytes": 15950,
+      "sha256": "40589392806a1d80e52fc924131f76c8976eb9669a98efb49aa6fcc5a929a358"
+    },
+    {
+      "path": "audio/voice-original.mp3",
+      "bytes": 620712,
+      "sha256": "bcf03d1d22fa1b10380919fb2c2ac9dae2233677575fd8f7c237725840d47d72"
+    },
+    {
+      "path": "audio/mix.wav",
+      "bytes": 7686478,
+      "sha256": "f089911d25da80480a507849ea02395f1cc455c658c0ea4e62e090fdf509a958"
+    },
+    {
+      "path": "audio/Mint-Mix-v1.flac",
+      "bytes": 2644122,
+      "sha256": "75e63b11b890cc4fea5cd1f04e2ceeb90f784e31321a64b84cfc8294d79035a6"
+    }
+  ]
+}

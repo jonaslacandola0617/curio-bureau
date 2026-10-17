@@ -1,0 +1,42 @@
+{
+  "source_commit": "078ab09064cb27641a7999438fee595b300c115d",
+  "total_frames": 1201,
+  "chunks": [
+    {
+      "file": "Mint-v1-lossless-0000-0239.mkv",
+      "start_frame": 0,
+      "count": 240,
+      "codec": "ffv1",
+      "lossless": true,
+      "bytes": 740105843,
+      "sha256": "cc57a12b8c434027d22c7b0af2d0a346b7d837949affbbddb55cf9405bd634da",
+      "archive_status": "DURABLE",
+      "archive": {
+        "id": 650209629,
+        "name": "Mint-v1-lossless-0000-0239.mkv",
+        "bytes": 740105843,
+        "digest": "sha256:cc57a12b8c434027d22c7b0af2d0a346b7d837949affbbddb55cf9405bd634da",
+        "state": "uploaded",
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-v1-lossless-0000-0239.mkv"
+      }
+    },
+    {
+      "file": "Mint-v1-lossless-0240-0479.mkv",
+      "start_frame": 240,
+      "count": 240,
+      "codec": "ffv1",
+      "lossless": true,
+      "bytes": 779416827,
+      "sha256": "d729a7c1d500d34d208ed228f18c1638658023373c7d41bc00476806de66c66e",
+      "archive_status": "DURABLE",
+      "archive": {
+        "id": 650210668,
+        "name": "Mint-v1-lossless-0240-0479.mkv",
+        "bytes": 779416827,
+        "digest": "sha256:d729a7c1d500d34d208ed228f18c1638658023373c7d41bc00476806de66c66e",
+        "state": "uploaded",
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v1-review-20261017/Mint-v1-lossless-0240-0479.mkv"
+      }
+    }
+  ]
+}
