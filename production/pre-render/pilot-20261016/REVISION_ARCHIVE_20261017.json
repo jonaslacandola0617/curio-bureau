@@ -1,0 +1,398 @@
+{
+  "files_verified": 64,
+  "tree_sha": "e2aae6b97c003c7eccb0dca7231b07bfa1c30ab0",
+  "commit": "fd1e6e1e6af2b0b1f5bfde6cdb3caed89976fd21",
+  "branch": "refs/heads/work/science-batch-v2-20261017",
+  "main_unchanged": true,
+  "verification": "Observed GitHub tree blob identities matched all 64 local file identities; branch ref verified.",
+  "archived_at": "2026-10-17T10:24:38.659Z",
+  "scope": "Cold Metal owner approval; four revised whole-episode plans; Mint static art/source review, not a newly completed video",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 16095,
+      "sha256": "dc37ab5a45bba2c63e31660f3bea66fe159f65f666a7a0734d304357e59731f0",
+      "git_blob_sha": "61ec341cd188cead140f8f342e562f698cbc0c93"
+    },
+    {
+      "path": "production/approved-benchmarks/COLD_METAL_FULL_OWNER_APPROVAL.md",
+      "bytes": 1840,
+      "sha256": "41ed4bc6ea07d7af710a5d738897ee1c55806afe05bc0807216dba0d7c0a01c3",
+      "git_blob_sha": "6270eca1a0c1d34502c93e28af65c85947d703ef"
+    },
+    {
+      "path": "production/pre-render/README.md",
+      "bytes": 9962,
+      "sha256": "43c997c213ab080ee44f5d6a0c4f4ffb8bfc9de23b7a0db2d664653b28fd44cb",
+      "git_blob_sha": "a804915d69094bc3da240a30f0c3031cbd89a242"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/README.md",
+      "bytes": 2258,
+      "sha256": "7837273819bda1616fba6bd662a8416751b3aa487558a5ba3e2c3e145cb5568c",
+      "git_blob_sha": "4515266b5c51301f5ae3f7f1df3d2ea6e1f0c6e5"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/REVISION_20261017.md",
+      "bytes": 1008,
+      "sha256": "46dbf4d06f01d135229c0da1169be5ffa3b6890f714062ada8cfe1c71199eea8",
+      "git_blob_sha": "982ca737ff9a410a2633ac35f49d25c7538d7ec6"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/REVISION_VERIFICATION_20261017.json",
+      "bytes": 1596,
+      "sha256": "878013d3995812ed144aee58d47a385659a604166752eedde7aac39ab8262eb3",
+      "git_blob_sha": "c1afc0bb005f0d432e3aae1256c2906d089cb5ca"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/cold-metal-pilot/FULL_EPISODE_STATUS.md",
+      "bytes": 3272,
+      "sha256": "8508dfb9d486d2f7dbbd5f38246e26c9aa6d57ff13e9085ae0bc5d6dda50ed14",
+      "git_blob_sha": "9e0051102a573dd09b85bd832dc73dbfeae2dfc5"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/cold-metal-pilot/OWNER_FULL_FILM_APPROVAL.md",
+      "bytes": 1840,
+      "sha256": "41ed4bc6ea07d7af710a5d738897ee1c55806afe05bc0807216dba0d7c0a01c3",
+      "git_blob_sha": "6270eca1a0c1d34502c93e28af65c85947d703ef"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/cold-metal-pilot/package.json",
+      "bytes": 2027,
+      "sha256": "9c04343c100d23b9c07c3eb02d3a755a8ba04703ad904be1d60ddf0105a86852",
+      "git_blob_sha": "54eb24aa190accc72aac12fa3a966852564e19d3"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/knuckle-pop-pilot/FULL_FILM_QA_PLAN.json",
+      "bytes": 827,
+      "sha256": "d3667320da00735e2eeb25ad97b6532297255aa58f8dc61f8bf8394f1733c1e6",
+      "git_blob_sha": "71af34219ccf28ea57b0a28df2b2bf24e119e32a"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/knuckle-pop-pilot/NARRATION.md",
+      "bytes": 941,
+      "sha256": "dc5723656bba06bc85fc60e70cb895172b92d6a28cc14a8e74dc4bb264066cea",
+      "git_blob_sha": "b2527f98fa717f074ad659ddfc01b424dc86298b"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/knuckle-pop-pilot/RESEARCH.md",
+      "bytes": 1312,
+      "sha256": "f2ee5288e7897611f698a143c1d8830c0956fe801f51f3b6580707a0aff1da24",
+      "git_blob_sha": "dde8bbfe54f327d57392ea2f36659de56fab5184"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/knuckle-pop-pilot/REVIEW.md",
+      "bytes": 4637,
+      "sha256": "c5d6c175131b7ebd5cc1e50f6b6d4a04f0d4bf0dadba7de7d9cd1eca558a4716",
+      "git_blob_sha": "81ad6bd21314f41cbb58e6199c196bd78b37184d"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/knuckle-pop-pilot/SHOT_FINGERPRINT.csv",
+      "bytes": 1017,
+      "sha256": "c3bddeac78551ea17f5ac019c31e6b45e2eb80b0b00700c87d52cf574b92f2f3",
+      "git_blob_sha": "83529f7d44693ae5317be8bc70c97469e159acb7"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/knuckle-pop-pilot/package.json",
+      "bytes": 2094,
+      "sha256": "ea8674daa79d990dbe8faa2b4e458670503bb6527ac98863b2a2b0fbc1d6ce8f",
+      "git_blob_sha": "3b8d5b3ef228dfd013878f3a150aabaa29035060"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/knuckle-pop-pilot/sequence_contract.json",
+      "bytes": 27387,
+      "sha256": "ce49b7fcecd22577774a8ef6ff08ec7e063273cbc174dbfc0132213e4411aab9",
+      "git_blob_sha": "c620a86e4647165d130c2963c376bbefb2aec44b"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/metrics.csv",
+      "bytes": 1757,
+      "sha256": "7d3b4525c98078d4956dd63c3bda21e0454d3b40a5e614871813e88565c22563",
+      "git_blob_sha": "a478ad72ee7fcc8bda68a0808fa8364b080a4d1a"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/FULL_FILM_QA_PLAN.json",
+      "bytes": 827,
+      "sha256": "d3667320da00735e2eeb25ad97b6532297255aa58f8dc61f8bf8394f1733c1e6",
+      "git_blob_sha": "71af34219ccf28ea57b0a28df2b2bf24e119e32a"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/NARRATION.md",
+      "bytes": 913,
+      "sha256": "26eebbc824e89f7250a9d7a31dff69fac0ee6b049a5f7359d2d60816f8db0570",
+      "git_blob_sha": "49325caab1eecfbc340aa5b65488402cea865f24"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/RESEARCH.md",
+      "bytes": 1042,
+      "sha256": "09877e974aba7bdaa003e0bff83a53e9bc888d088a490631636fa97e5bb4eb9c",
+      "git_blob_sha": "36bfe60b5dd3e2ae870686a821b3f364dd13b81f"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/REVIEW.md",
+      "bytes": 4571,
+      "sha256": "268e1131d324516f335d7bd03f47028f7148d2c52ba3e247343733e61cd9e009",
+      "git_blob_sha": "fe2763223ab00b1ae4e12f6b18d7af5f992a7611"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/SHOT_FINGERPRINT.csv",
+      "bytes": 1107,
+      "sha256": "9ae692711c65a3a477587a8bf7d99ac21accd347f544db958c3810cb647b74fc",
+      "git_blob_sha": "a6965d2663a8a25455329bb49624396035dbd93a"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/ART_QA.json",
+      "bytes": 3224,
+      "sha256": "4a199c888f8ab98c7b0ed244be6bf942b22412a490ce99f47e57b789a0c873af",
+      "git_blob_sha": "5a28436ba771b5c24edfb0e00043a66cc45c121a"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/ASSETS.json",
+      "bytes": 1928,
+      "sha256": "f95ed7b48de94c3642782ef78834369bc19459d799551fa6e9713a85d7a1636a",
+      "git_blob_sha": "bfb0642b572ba242ff838cf500b57a2d6d57e2ae"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/GENERATION_PROMPTS.json",
+      "bytes": 2300,
+      "sha256": "425b554a442ba7af5ccea93e0fbc603aeac0d1eebb82becc0cdb543fc4b96349",
+      "git_blob_sha": "b5d8001f80fc0b0fef64b63667bc5314249275b5"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/Mint_Five_Checkpoints.jpg",
+      "bytes": 489435,
+      "sha256": "4cac2d3e15f6c21d73a9a565d752a36076c0d9b9f7d6c385be83ae745f3d538b",
+      "git_blob_sha": "9f91183ee4167cfe393d593c68c80435b18ef3cc"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/Mint_Three_State_Passage.jpg",
+      "bytes": 1364045,
+      "sha256": "844af2479fe377a5be9e9d5836d24a3dd7005cde1178480a1f304bac03e8f19f",
+      "git_blob_sha": "a7d631d92b063e237d25257dbc7e4871d7011811"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/README.md",
+      "bytes": 1371,
+      "sha256": "8dff2bd3378f3444a13512fbc74bb99b53fec2f5c75fdb8ec41903f319a6010b",
+      "git_blob_sha": "a8e9f6ba1e777f1b6e30384ba350a081dfc854fd"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/REVIEW.html",
+      "bytes": 2163114,
+      "sha256": "05275148ca4d47536eab4bcc2955024a0e0a4b35a1574c3bb4f6acf0022acf4f",
+      "git_blob_sha": "de5f2fbb673312716fd96d47c5bbca7cb4ca639c"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/art.cjs",
+      "bytes": 10395,
+      "sha256": "0b847e71d2c5f140c328a0dac840eb36a2fe53f09d2f748c41813bcf31ebe5c8",
+      "git_blob_sha": "c139a2dbb66467f41a9c185ff5742de3be9ed61b"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/assets/ice.png",
+      "bytes": 2534278,
+      "sha256": "60af73236dc34790c01fdee6b762151222d47228535e55e203b261cb29ca1131",
+      "git_blob_sha": "eca2cdad8ba1402b0b373cf7ff150b6e6f57dbed"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/assets/mint.png",
+      "bytes": 2331783,
+      "sha256": "073fc5e5086853e1caabd8df42495d325fd892fee55dcbb0f3b1289d3e7fc76d",
+      "git_blob_sha": "4785307a1721e8fdf1337c1586b54ef3c5289d96"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/assets/mouth.png",
+      "bytes": 2365854,
+      "sha256": "f883f8ff370ec8f89dea6619669b95b4d0d5c9c309ea02c864acd39933dfdc72",
+      "git_blob_sha": "a3b7061dd70f7a1b0b711d479c19e9ae0b3189d3"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/rendered/01_hook.jpg",
+      "bytes": 951610,
+      "sha256": "fb4ef612171297f2ec72458fe5d808dd937c56b13e398813592a9f68d5f72c02",
+      "git_blob_sha": "c8d1e66cb5ff1dbb780db99fa5413abec20bb673"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/rendered/02_menthol.jpg",
+      "bytes": 980946,
+      "sha256": "5c36844c0270b242f2492945cdcc2f1f28533fac1f9c0ebc676b1de467c7619a",
+      "git_blob_sha": "f4813cf2399e7c09e55781c2043faac3cba004e1"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/rendered/03_input_initial.jpg",
+      "bytes": 1020516,
+      "sha256": "1b471ccb8397e9dad5d5be3645f58cbdba4105abe650f11a561adc0f1442c9d1",
+      "git_blob_sha": "17a17d5b8292baa3b04589a487b804971222135e"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/rendered/03_input_initial_no_heading.jpg",
+      "bytes": 1013121,
+      "sha256": "0e3919f9d8992734a68d59871a8841fb94560f0fec4e0a94a6d669eb1e2fa166",
+      "git_blob_sha": "2840437188f078d41b5f0dfff8ada0c922b8f821"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/rendered/04_input_intermediate.jpg",
+      "bytes": 1022891,
+      "sha256": "b909cc9e4d62cfc9c519f9542894c82b9543260dd81e6f2006819c420144423d",
+      "git_blob_sha": "402632a5807b5636155a8ccb3f24f61080de373b"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/rendered/04_input_intermediate_no_heading.jpg",
+      "bytes": 1015563,
+      "sha256": "cf25547c3c0bfa9b944b92b4fe47898ecf86ab02ccccb1660fee94cd3a9cc5c1",
+      "git_blob_sha": "1791fafe3fc28cfdaac55e891492d3b4245a8d08"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/rendered/05_input_resolved.jpg",
+      "bytes": 1066685,
+      "sha256": "ff7d85905fafe7b46b472452e171bb6033eb479cac2477aa8e762fce8bd46174",
+      "git_blob_sha": "da18f2fbcc4a91895fbb6bbdd01b1dad9a6db213"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/rendered/05_input_resolved_no_heading.jpg",
+      "bytes": 1060036,
+      "sha256": "12d4d4084855c592a20da2a62382b8ca543ff4c98a51cb81439402dfd40f04b2",
+      "git_blob_sha": "a5fa188d2862b7cabdade4eb56b4a8f40033862f"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/rendered/06_sensation.jpg",
+      "bytes": 930481,
+      "sha256": "3d8f4b4957ac23fac67350180825e3e0a15af1d8da70bd792d438a81f6074892",
+      "git_blob_sha": "3a3ff7b3a936e6b53238d6131e11260940152e05"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/rendered/07_payoff.jpg",
+      "bytes": 1009702,
+      "sha256": "29f8b8f971be55cb6b0772cb12c8950417a7483e934fd4d28f37dc09248bd219",
+      "git_blob_sha": "afc6ece3a38e81ea96e531dc1fcd6758429dad64"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/review-thumbs.cjs",
+      "bytes": 673,
+      "sha256": "77b5917cca4ef4075ce909d42377dd737e80e066649649ec09959f6f3fe2c7aa",
+      "git_blob_sha": "66b3a67ca3ffa683f64d9ef7ce090baacd2e46bb"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/states.json",
+      "bytes": 1390,
+      "sha256": "084b249857794f870b3564b6808bcbe97b4ed5bd7f7069ae86ca02bbc064d341",
+      "git_blob_sha": "87a2fc95e27878c31e8e0ee81015529bf5c5c68d"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/package.json",
+      "bytes": 4464,
+      "sha256": "d6e607020edbb4fd8d18008353606eec9a21c60bbf599d7f1241bf3352f83c39",
+      "git_blob_sha": "96e279f184ab7b6d28e6fac8646a6a3e89884ecc"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/sequence_contract.json",
+      "bytes": 29785,
+      "sha256": "8dbf8da10dcf53b38202e747bcf999429f76912ca70b8ca71f6f44c69b76ea50",
+      "git_blob_sha": "270f7a794001628bfd6bc4e6aac1592549ceffee"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/onion-tears-pilot/FULL_FILM_QA_PLAN.json",
+      "bytes": 827,
+      "sha256": "d3667320da00735e2eeb25ad97b6532297255aa58f8dc61f8bf8394f1733c1e6",
+      "git_blob_sha": "71af34219ccf28ea57b0a28df2b2bf24e119e32a"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/onion-tears-pilot/NARRATION.md",
+      "bytes": 934,
+      "sha256": "298488e3baa821b8d680e8be59f775c242bcf6ea6a78bb532acf204b5954cc62",
+      "git_blob_sha": "ff9806c414c508fe72655fa09f1553d5ccabc8be"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/onion-tears-pilot/RESEARCH.md",
+      "bytes": 1020,
+      "sha256": "58e8b498dc24a10c5734dae4f2237f14212ede8f8f43c87bcb79ad59bda234b9",
+      "git_blob_sha": "939ae3d1375e3fd6e55c8ee575d259a5b50603d7"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/onion-tears-pilot/REVIEW.md",
+      "bytes": 4452,
+      "sha256": "ef7d3b819e0f6dec99755bec798ba43f7c1a867194e0e2ad0badd6309c9285db",
+      "git_blob_sha": "6fbb42eef9ab42d083c790a1d27b60f690a15f07"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/onion-tears-pilot/SHOT_FINGERPRINT.csv",
+      "bytes": 929,
+      "sha256": "0d1b9f5c79e4bef574b86e49961e27a0d7d4dc8c814f484c3377580ee89aeadd",
+      "git_blob_sha": "5e918559ec3e41a93a7b4d2782f7e548363f2586"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/onion-tears-pilot/package.json",
+      "bytes": 2073,
+      "sha256": "35695484058911139a73b1d29b1b8329e7e2ca74ac6b45bccb3f424cc55531fd",
+      "git_blob_sha": "c5b224a5542507a60fcfb94fddd3c8e7456bfa4b"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/onion-tears-pilot/sequence_contract.json",
+      "bytes": 26730,
+      "sha256": "09ef6b3344a25db397331a12177efe0e72758c7be62c3a7fc2356957d84b9b2c",
+      "git_blob_sha": "db5145953a118bc12907114ff259e7edf00eae0f"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/queue.json",
+      "bytes": 2557,
+      "sha256": "9c858a122e27168cf64062712f29917a5b27870a7fe6268ec7a62c0057507119",
+      "git_blob_sha": "57bdacba581c29083e75ce4b3913deded4e01253"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/recorded-voice-pilot/FULL_FILM_QA_PLAN.json",
+      "bytes": 827,
+      "sha256": "d3667320da00735e2eeb25ad97b6532297255aa58f8dc61f8bf8394f1733c1e6",
+      "git_blob_sha": "71af34219ccf28ea57b0a28df2b2bf24e119e32a"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/recorded-voice-pilot/NARRATION.md",
+      "bytes": 926,
+      "sha256": "da01676ae65bbb9e94bbd679f5f6fcdadec01e338310578cbe713ebe1222aa7b",
+      "git_blob_sha": "4d59cd7efb6cd7acdc9fb4a597235b19f0d1ddb2"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/recorded-voice-pilot/RESEARCH.md",
+      "bytes": 1152,
+      "sha256": "5803ff1668c6ea96f97c7b43bdbbf6c903c5b6747ebce5a8eaa4dcd34e3a77bb",
+      "git_blob_sha": "91cc2d491cba9f9d3ad680a5bbd95664c8eee7f5"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/recorded-voice-pilot/REVIEW.md",
+      "bytes": 4263,
+      "sha256": "8ada0d309d84a0f8081dcbd3cddef48284c59fe8d398be9ba1d2c11badbfad25",
+      "git_blob_sha": "52154629afd6b02e65426ca0a11c645043f300eb"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/recorded-voice-pilot/SHOT_FINGERPRINT.csv",
+      "bytes": 966,
+      "sha256": "12494683c39a35a3ba973c9246c9c4ecafd6d8cc7c4c917038026080bfab4963",
+      "git_blob_sha": "35798318980123ca46d8b8bf912bc9cad9d6cff3"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/recorded-voice-pilot/package.json",
+      "bytes": 2195,
+      "sha256": "74498553a9855585b5c44b362d049a223dc7b76ec1ecbc7b15392cac2e82ef2e",
+      "git_blob_sha": "e46b2521b98d198f8646a337532e96936b7bdf64"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/recorded-voice-pilot/sequence_contract.json",
+      "bytes": 25929,
+      "sha256": "ddaa5c8075427a41dd9f5b824fb37330a80f77ae24ccf65ada8a1cd73858f102",
+      "git_blob_sha": "ada74a3ea67cdbed15cf2b97af33c63919605aad"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/validate_revision.py",
+      "bytes": 1494,
+      "sha256": "d083322f4c18e129ae465f73d6d1f0e140ea2cccbd4ccb55e289740da84c4162",
+      "git_blob_sha": "9e206c7b8ad1e11d310e7c65dd3159cbd1fd7083"
+    },
+    {
+      "path": "production/pre-render/pilot-20261016/mint-cold-pilot/art-v2/STATIC_RESTORE_QA.json",
+      "bytes": 994,
+      "sha256": "7c226132ae18578b756a5c130d1aa64f1da1b66f19371dfdcabd6f7cc1a858c1",
+      "git_blob_sha": "24a07990473fffe68fb5da6525baedbfa9bc851d"
+    }
+  ],
+  "static_restore": "All ten native art images rebuilt from a clean local committed-source extraction with matching SHA-256. This is static art restoration only; no full-episode RENDER_READY claim.",
+  "main_branch": "Unchanged; automatic review rejected broad default-branch push. Safer production branch archive used."
+}
