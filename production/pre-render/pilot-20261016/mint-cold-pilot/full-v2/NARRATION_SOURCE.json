@@ -1,0 +1,12 @@
+{
+  "provider": "Runway",
+  "model": "eleven_v3",
+  "voice": "Bernard",
+  "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+  "task_id": "99a80bef-7fab-48ff-a89e-28c40e5a67c9",
+  "duration": 38.72,
+  "original": "audio/voice-original.mp3",
+  "sha256": "bcf03d1d22fa1b10380919fb2c2ac9dae2233677575fd8f7c237725840d47d72",
+  "tags": "curious / explaining / lightly amused",
+  "time_stretch": false
+}

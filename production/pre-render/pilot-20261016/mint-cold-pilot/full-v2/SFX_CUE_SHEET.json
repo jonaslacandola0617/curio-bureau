@@ -1,0 +1,122 @@
+[
+  {
+    "source": "audio/generated-editorial-v1/camera_move.mp3",
+    "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "onset": 0.02,
+    "duration": 0.45,
+    "peak_target": 0.25,
+    "event": "mint enters foreground / mouth depth"
+  },
+  {
+    "source": "audio/generated-editorial-v1/marker_bold.mp3",
+    "sha256": "bb62cf4a6d88c51408424ac78776ef8316c06a4a8ee5e01a4495c201e862d183",
+    "onset": 1.7,
+    "duration": 0.24,
+    "peak_target": 0.25,
+    "event": "not chilled label"
+  },
+  {
+    "source": "audio/generated-editorial-v1/camera_move.mp3",
+    "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "onset": 4.15,
+    "duration": 0.4,
+    "peak_target": 0.27,
+    "event": "inspect same mint leaf"
+  },
+  {
+    "source": "audio/generated-editorial-v1/paper.mp3",
+    "sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+    "onset": 5.1,
+    "duration": 0.38,
+    "peak_target": 0.26,
+    "event": "menthol identification print"
+  },
+  {
+    "source": "audio/generated-editorial-v1/paper.mp3",
+    "sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+    "onset": 7.16,
+    "duration": 0.38,
+    "peak_target": 0.27,
+    "event": "channel print establishes comparison"
+  },
+  {
+    "source": "audio/generated-editorial-v1/pencil.mp3",
+    "sha256": "561c362d770b268544cfcdc463f4f3a92f15570514f443401118a29637c4369f",
+    "onset": 11.95,
+    "duration": 0.68,
+    "peak_target": 0.29,
+    "event": "cooling route draws toward channel"
+  },
+  {
+    "source": "audio/generated-editorial-v1/ink.mp3",
+    "sha256": "65cd1bf59d3f2fc71e82b17d30b3d4c082c460caf3707cd6c761214541153331",
+    "onset": 13.05,
+    "duration": 0.2,
+    "peak_target": 0.24,
+    "event": "cooling route arrives"
+  },
+  {
+    "source": "audio/generated-editorial-v1/marker_bold.mp3",
+    "sha256": "bb62cf4a6d88c51408424ac78776ef8316c06a4a8ee5e01a4495c201e862d183",
+    "onset": 17.5,
+    "duration": 0.55,
+    "peak_target": 0.3,
+    "event": "chemical input joins same channel"
+  },
+  {
+    "source": "audio/generated-editorial-v1/ink.mp3",
+    "sha256": "65cd1bf59d3f2fc71e82b17d30b3d4c082c460caf3707cd6c761214541153331",
+    "onset": 18.65,
+    "duration": 0.22,
+    "peak_target": 0.27,
+    "event": "shared channel activation selected"
+  },
+  {
+    "source": "audio/generated-editorial-v1/camera_move.mp3",
+    "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "onset": 22.0,
+    "duration": 0.45,
+    "peak_target": 0.27,
+    "event": "return to sensation in mouth"
+  },
+  {
+    "source": "audio/generated-editorial-v1/marker_bold.mp3",
+    "sha256": "bb62cf4a6d88c51408424ac78776ef8316c06a4a8ee5e01a4495c201e862d183",
+    "onset": 23.6,
+    "duration": 0.32,
+    "peak_target": 0.28,
+    "event": "sensation is not temperature"
+  },
+  {
+    "source": "audio/generated-editorial-v1/camera_move.mp3",
+    "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "onset": 28.25,
+    "duration": 0.42,
+    "peak_target": 0.27,
+    "event": "mint and ice remain distinct"
+  },
+  {
+    "source": "audio/generated-editorial-v1/pencil.mp3",
+    "sha256": "561c362d770b268544cfcdc463f4f3a92f15570514f443401118a29637c4369f",
+    "onset": 31.9,
+    "duration": 0.55,
+    "peak_target": 0.28,
+    "event": "another route recalled"
+  },
+  {
+    "source": "audio/generated-editorial-v1/ink.mp3",
+    "sha256": "65cd1bf59d3f2fc71e82b17d30b3d4c082c460caf3707cd6c761214541153331",
+    "onset": 35.1,
+    "duration": 0.22,
+    "peak_target": 0.26,
+    "event": "different input resolves"
+  },
+  {
+    "source": "audio/generated-editorial-v1/paper.mp3",
+    "sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+    "onset": 38.93333333333333,
+    "duration": 0.28,
+    "peak_target": 0.2,
+    "event": "locked brand arrival"
+  }
+]

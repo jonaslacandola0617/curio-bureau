@@ -1,0 +1,87 @@
+1
+00:00:00,180 --> 00:00:01,650
+Mint can feel cold
+
+2
+00:00:01,660 --> 00:00:03,190
+without coming out of a fridge.
+
+3
+00:00:03,640 --> 00:00:04,129
+How?
+
+4
+00:00:04,610 --> 00:00:05,120
+Menthol,
+
+5
+00:00:05,390 --> 00:00:06,920
+a compound found in peppermint,
+
+6
+00:00:07,190 --> 00:00:08,000
+can activate a
+
+7
+00:00:08,010 --> 00:00:11,200
+cold-sensitive channel called TRPM8.
+
+8
+00:00:11,930 --> 00:00:13,600
+Cooling can activate it too.
+
+9
+00:00:14,090 --> 00:00:15,940
+That gives us two different inputs,
+
+10
+00:00:16,210 --> 00:00:17,360
+a temperature change
+
+11
+00:00:17,550 --> 00:00:18,360
+and a chemical.
+
+12
+00:00:18,730 --> 00:00:19,740
+Both can stimulate
+
+13
+00:00:19,790 --> 00:00:21,680
+part of the same sensory machinery.
+
+14
+00:00:22,130 --> 00:00:23,580
+So a cooling sensation
+
+15
+00:00:23,550 --> 00:00:25,040
+does not by itself
+
+16
+00:00:25,150 --> 00:00:26,260
+tell you the temperature
+
+17
+00:00:26,250 --> 00:00:27,700
+of what you touched or tasted.
+
+18
+00:00:28,430 --> 00:00:30,780
+The mint is not a tiny ice cube.
+
+19
+00:00:31,250 --> 00:00:32,820
+Its chemistry can take another
+
+20
+00:00:32,850 --> 00:00:34,540
+route to a cold-sensitive channel.
+
+21
+00:00:35,070 --> 00:00:35,960
+Different input,
+
+22
+00:00:36,370 --> 00:00:38,100
+a familiar cold sensation

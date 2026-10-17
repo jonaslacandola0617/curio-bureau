@@ -1,0 +1,16 @@
+from pathlib import Path
+import subprocess,json,hashlib,numpy as np
+r=Path(__file__).parent;p=r/'00-Mint-1080p-Review-v2.mp4';tl=json.loads((r/'timeline.json').read_text());out=json.loads((r/'OUTPUT.json').read_text());assert out['status'] in ['ARCHIVED_UNREVIEWED','ARCHIVED_REVIEW_CANDIDATE'], 'Archive exact completed MP4 before extended review'
+subprocess.run(['ffmpeg','-v','error','-xerror','-threads','2','-i',str(p),'-map','0:v:0','-map','0:a:0','-f','null','-'],check=True)
+probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-count_frames','-show_streams','-show_format','-of','json',str(p)]));v=next(x for x in probe['streams']if x['codec_type']=='video');a=next(x for x in probe['streams']if x['codec_type']=='audio');assert int(v['nb_read_frames'])==1201
+load=lambda x:np.frombuffer(subprocess.check_output(['ffmpeg','-v','error','-i',str(x),'-f','f32le','-ar','48000','-ac','2','-']),np.float32).reshape(-1,2).copy()
+ref=load(r/'audio/mix.wav');enc=load(p);n=min(len(ref),len(enc));ref=ref[:n];enc=enc[:n];lo=int(36.8*48000);hi=int(38.07*48000);tail_corr=float(np.corrcoef(ref[lo:hi].ravel(),enc[lo:hi].ravel())[0,1]);assert tail_corr>.97
+qa=r/'qa';qa.mkdir(exist_ok=True)
+times=[.8,3.5,4.34,5.7,7.29,10.5,12.8,13.95,17.8,18.75,20.5,22.1,25,28.35,33,37.5,38.4,39.9]
+for t in times:subprocess.run(['ffmpeg','-y','-v','error','-ss',str(t),'-i',str(p),'-frames:v','1','-vf','scale=360:640','-q:v','2',str(qa/f'{t:05.2f}.jpg')],check=True)
+# Assemble only inspection stills, never an excerpt passed off as a complete episode.
+from PIL import Image,ImageDraw
+sheet=Image.new('RGB',(1080,6*680),'#0D1C2B');draw=ImageDraw.Draw(sheet)
+for k,t in enumerate(times):im=Image.open(qa/f'{t:05.2f}.jpg');x=k%3*360;y=k//3*680;sheet.paste(im,(x,y));draw.text((x+12,y+647),f'{t:.2f}s',fill='white')
+sheet.save(qa/'Encoded-All-Scenes.jpg',quality=94)
+words=[w for c in tl['captions']for w in c['words']];report={'output_sha256':out['sha256'],'native':[v['width'],v['height']],'fps':v['r_frame_rate'],'decoded_frames':int(v['nb_read_frames']),'duration':probe['format']['duration'],'decode_errors':0,'audio':{'codec':a['codec_name'],'sample_rate':a['sample_rate'],'channels':a['channels'],'encoded_tail_vs_exact_mix_correlation':tail_corr,'last_script_word':'sensation','last_word_end':tl['speech_last_word_end'],'endcard_starts':tl['ending_start'],'full_decoded_voice_tail_clearance':tl['protected_tail'],'original_source_kept':True,'vo_tail_fade':False},'caption_words':len(words),'maximum_measured_word_gap':max(b['start']-a['end']for a,b in zip(words,words[1:])),'all_scenes_represented':[s['id']for s in tl['scenes']],'encoded_inspection_still_times':times,'inspection_sheet':'qa/Encoded-All-Scenes.jpg','finishing_proof':'FINISHING_QA.json','frozen_source_restore':'FROZEN_FRAME_RESTORE_QA.json','review_limits':['Owner motion and whole-film approval pending','Technical and ASR checks do not substitute for actual human listening or platform UI review'],'status':'TECHNICALLY_VERIFIED_COMPLETE_REVIEW_CANDIDATE'};(r/'OUTPUT_QA.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({k:v for k,v in report.items()if k not in ['review_limits','encoded_inspection_still_times']}))
