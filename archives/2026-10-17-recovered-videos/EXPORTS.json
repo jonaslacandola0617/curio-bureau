@@ -1,0 +1,200 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "film/recorded-voice",
+  "previous_branch_head": "c3560781d0abcf79347a27b15abfa98854096f84",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "Recorded_Voice_Review_1080p.mp4",
+      "size": 162087607,
+      "sha256": "81a69d358b2549fc00c901317f22594fa431014ac4956b5827ffaa360a7fd608",
+      "group": "recorded-voice",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "35.266667",
+          "nb_frames": "1058"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "35.266000",
+          "nb_frames": "1655"
+        }
+      ],
+      "duration": "35.266667",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/recorded-voice"
+    },
+    {
+      "name": "Recorded_Voice_4K_Upload.mp4",
+      "size": 241574654,
+      "sha256": "f3a8f3702d1c21a93f6e03e9814efba2b4f717e7e420dfd54e0180a85dab3f59",
+      "group": "recorded-voice",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "35.266667",
+          "nb_frames": "1058"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "35.266000",
+          "nb_frames": "1655"
+        }
+      ],
+      "duration": "35.266667",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/recorded-voice"
+    },
+    {
+      "name": "Capture_Motion_Review.webm",
+      "size": 7558351,
+      "sha256": "02463a0694700d881d714d8ab1c0fe7dccc1e13932e59bc2e6c41a8b0a26463d",
+      "group": "recorded-voice",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "13.208000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/recorded-voice"
+    },
+    {
+      "name": "Capture_Motion_Review.mp4",
+      "size": 11380996,
+      "sha256": "96051efd5a744c0afd8db9add365c0e7b5a5018c90c560145152010b742fad6b",
+      "group": "recorded-voice",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "13.200000",
+          "nb_frames": "396"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "13.200000",
+          "nb_frames": "620"
+        }
+      ],
+      "duration": "13.200000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/recorded-voice"
+    },
+    {
+      "name": "Recorded_Voice_4K_Master.mp4",
+      "size": 474719560,
+      "sha256": "90586c4fb318ef2a4b90df29c3a277bd3bf231884bd71811729d307e0831f5f1",
+      "group": "recorded-voice",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "35.266667",
+          "nb_frames": "1058"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "35.266000",
+          "nb_frames": "1655"
+        }
+      ],
+      "duration": "35.266667",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/recorded-voice"
+    },
+    {
+      "name": "Recorded_Voice_4K.webm",
+      "size": 280259804,
+      "sha256": "fbc93c3d4bc46137dd4b14eb1f69f4625148bd4b26cbc32715c9bafda1dca41b",
+      "group": "recorded-voice",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "35.274000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/recorded-voice"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
