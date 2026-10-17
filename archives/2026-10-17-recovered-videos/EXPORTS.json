@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "work/curio-optics-recovery-20261013",
   "previous_branch_head": "de707931c30f9083a83c266e68d475c12b92eb93",
   "original_render_source_commit": "not inferred from archive commit",
@@ -32,7 +32,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "work/curio-optics-recovery-20261013"
+      "branch": "work/curio-optics-recovery-20261013",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649799973,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Map_Focus_03.webm",
+        "size": 18849712,
+        "digest": "sha256:c250a19c4c4d8995dbbc63cd3eefc7321ca090c352d5070d9df8d927fe75b35b",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Map_Finish_02.mp4",
@@ -65,7 +73,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "work/curio-optics-recovery-20261013"
+      "branch": "work/curio-optics-recovery-20261013",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649800722,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Map_Finish_02.mp4",
+        "size": 22282362,
+        "digest": "sha256:fcb21c9ecccf5cbf2fe9c4327af24501a6af0750fc33017077c60dfb2313aec4",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Tutorial_Optics_Test_Preview.mp4",
@@ -98,7 +114,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "work/curio-optics-recovery-20261013"
+      "branch": "work/curio-optics-recovery-20261013",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649801356,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Tutorial_Optics_Test_Preview.mp4",
+        "size": 54480974,
+        "digest": "sha256:074c85a089fd1f609182a7fa1a09acef6523245501f1a275c63bf869f94bd34e",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Map_Study_01.mp4",
@@ -131,7 +155,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "work/curio-optics-recovery-20261013"
+      "branch": "work/curio-optics-recovery-20261013",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649801456,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Map_Study_01.mp4",
+        "size": 17365079,
+        "digest": "sha256:26a0c6896cda6c0cd9bc49d75f420bf8db6186586dbfb69e54250a98d4a152a8",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Map_Finish_02.webm",
@@ -160,7 +192,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "work/curio-optics-recovery-20261013"
+      "branch": "work/curio-optics-recovery-20261013",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649809520,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Map_Finish_02.webm",
+        "size": 14974114,
+        "digest": "sha256:ff935370ff327462a76286c6ab9a7103a287984384a596a480ad3c37199b43e5",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Tutorial_Optics_Test_4K.webm",
@@ -189,7 +229,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "work/curio-optics-recovery-20261013"
+      "branch": "work/curio-optics-recovery-20261013",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649811470,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Tutorial_Optics_Test_4K.webm",
+        "size": 94307585,
+        "digest": "sha256:d4a471496006baab94144110b9585f0352afb94ed87a21ccf3227af87beb7884",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Tutorial_Optics_Test_4K.mp4",
@@ -222,7 +270,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "work/curio-optics-recovery-20261013"
+      "branch": "work/curio-optics-recovery-20261013",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649812573,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Tutorial_Optics_Test_4K.mp4",
+        "size": 158960643,
+        "digest": "sha256:f0b7032b3086141218fdaa55b5a9df2e81e6dff0cab01bd04603a37dd764e1fe",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Map_Focus_03.mp4",
@@ -255,7 +311,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "work/curio-optics-recovery-20261013"
+      "branch": "work/curio-optics-recovery-20261013",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649814311,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Map_Focus_03.mp4",
+        "size": 39876513,
+        "digest": "sha256:7856ac499d44496f16b892a0b0d164c4e640a8e498fa9ed15babd9bd57adbb87",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Curio_Map_Study_01.webm",
@@ -284,8 +348,27 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "work/curio-optics-recovery-20261013"
+      "branch": "work/curio-optics-recovery-20261013",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649817091,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Curio_Map_Study_01.webm",
+        "size": 15296868,
+        "digest": "sha256:4af0ca1e1e0be8da3271839612d54b6a26415314ec7798c80aa3bd4c7639d7a9",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:05:27.055Z",
+  "recovery_checkpoint_parent": "c43157a5f7baebd8b7f6477deb82675794e8054c",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }
