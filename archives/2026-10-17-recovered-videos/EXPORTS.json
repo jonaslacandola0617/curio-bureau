@@ -1,0 +1,210 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "film/pig-war-1859",
+  "previous_branch_head": "d3c35140314deaf6976a0d3cf17f87da003f1d3a",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "Curio_Pig_War_Preview.mp4",
+      "size": 127453981,
+      "sha256": "aa7271789b68f724b54880d58e94ec521a655bb32f76d28c0734bd2890b9a4e7",
+      "group": "pig-war",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "75.500000",
+          "nb_frames": "2265"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "75.520000",
+          "nb_frames": "3541"
+        }
+      ],
+      "duration": "75.520000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/pig-war-1859"
+    },
+    {
+      "name": "Curio_Pig_War_Preflight.mp4",
+      "size": 79497475,
+      "sha256": "491e9580c3d63d6aef20a6d0204e46c517828709fc5d96d0d5fc5c075d3f2a97",
+      "group": "pig-war",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "22.833333",
+          "nb_frames": "685"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "22.833000",
+          "nb_frames": "1072"
+        }
+      ],
+      "duration": "22.833333",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/pig-war-1859"
+    },
+    {
+      "name": "Curio_Pig_War_Preflight.webm",
+      "size": 42789571,
+      "sha256": "b470a5d56629f979080422b41f0456e5fafb294c0d84767caf16e0e1b3ab3303",
+      "group": "pig-war",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "22.856000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/pig-war-1859"
+    },
+    {
+      "name": "Curio_Pig_War_4K.mp4",
+      "size": 892691834,
+      "sha256": "56c6a312903161d0eec191594a454f2e05ebb38cce5895a85d7e6456e76e165e",
+      "group": "pig-war",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "75.500000",
+          "nb_frames": "2265"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "75.500000",
+          "nb_frames": "3541"
+        }
+      ],
+      "duration": "75.500000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "byte concatenation, no render or re-encode",
+        "parts": [
+          "Curio_Pig_War_4K.mp4.part1",
+          "Curio_Pig_War_4K.mp4.part2"
+        ],
+        "sha256": "56c6a312903161d0eec191594a454f2e05ebb38cce5895a85d7e6456e76e165e"
+      },
+      "branch": "film/pig-war-1859"
+    },
+    {
+      "name": "Curio_Pig_War_4K.webm",
+      "size": 566171943,
+      "sha256": "8a302fa4b51b62d06ea5fd43512a0f1880bdfe6282440159089e25ef721d12e6",
+      "group": "pig-war",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "75.508000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "byte concatenation, no render or re-encode",
+        "parts": [
+          "Curio_Pig_War_4K.webm.part1",
+          "Curio_Pig_War_4K.webm.part2"
+        ],
+        "sha256": "8a302fa4b51b62d06ea5fd43512a0f1880bdfe6282440159089e25ef721d12e6"
+      },
+      "branch": "film/pig-war-1859"
+    },
+    {
+      "name": "Curio_Pig_War_4K_Download.mp4",
+      "size": 433098179,
+      "sha256": "3f2579d092c745b220319a717f67a743d6aaed850bf01bec37880ec392511ea5",
+      "group": "pig-war",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "75.500000",
+          "nb_frames": "2265"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "75.500000",
+          "nb_frames": "3541"
+        }
+      ],
+      "duration": "75.500000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/pig-war-1859"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
