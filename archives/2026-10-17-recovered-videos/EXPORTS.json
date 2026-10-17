@@ -1,0 +1,72 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "film/chicago-lifted-buildings-1860",
+  "previous_branch_head": "2d3a64a2404adc8281173b077bb3210084a8c4b2",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "CURIO_BUREAU_EP007_4K_WEBM_REVIEW.webm",
+      "size": 23177994,
+      "sha256": "583972dbd26a2b1fb8ed9fbdd128dbb42c22f1073754094e37924b9b03a21ca1",
+      "group": "chicago-lifted-buildings",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "78.541000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/chicago-lifted-buildings-1860"
+    },
+    {
+      "name": "CURIO_BUREAU_EP007_4K_MP4_REVIEW.mp4",
+      "size": 16575248,
+      "sha256": "c799ef81301faa4772c3034198ea582c852ded2d674aa3cd20b7d7986cda13c9",
+      "group": "chicago-lifted-buildings",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "78.533333",
+          "nb_frames": "2356"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "78.533000",
+          "nb_frames": "3683"
+        }
+      ],
+      "duration": "78.533333",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/chicago-lifted-buildings-1860"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
