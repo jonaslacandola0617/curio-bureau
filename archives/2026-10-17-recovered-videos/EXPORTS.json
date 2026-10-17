@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "film/water-wrinkled-fingers",
   "previous_branch_head": "d3c35140314deaf6976a0d3cf17f87da003f1d3a",
   "original_render_source_commit": "not inferred from archive commit",
@@ -36,7 +36,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/water-wrinkled-fingers"
+      "branch": "film/water-wrinkled-fingers",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649799688,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Wrinkled_Fingers_4K_Posting.mp4",
+        "size": 29975634,
+        "digest": "sha256:65632ec2978a65c0ae3c078d216074de903b59fa79235d29da904e3aad33ba30",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Wrinkled_Fingers_4K.webm",
@@ -65,7 +73,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/water-wrinkled-fingers"
+      "branch": "film/water-wrinkled-fingers",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649801292,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Wrinkled_Fingers_4K.webm",
+        "size": 33538307,
+        "digest": "sha256:7cfe4c1e306a4736324b985e31fe5094364725e3f7725be3a07fdbd36700550d",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Wrinkles_Motion_Review.mp4",
@@ -98,7 +114,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/water-wrinkled-fingers"
+      "branch": "film/water-wrinkled-fingers",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649803018,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Wrinkles_Motion_Review.mp4",
+        "size": 7519931,
+        "digest": "sha256:8944e4c439781e69c9129f9fd9d91d101392e5f5fe6d6b56ddd96928a124c11c",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Wrinkles_Motion_Review.webm",
@@ -127,7 +151,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/water-wrinkled-fingers"
+      "branch": "film/water-wrinkled-fingers",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649808394,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Wrinkles_Motion_Review.webm",
+        "size": 5311347,
+        "digest": "sha256:b5b11a6d6a1bf68fb5c2bde4e8a638b5746c05105a2edb60b76ad232be3fe5d6",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Wrinkled_Fingers_4K_Master.mp4",
@@ -160,8 +192,27 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/water-wrinkled-fingers"
+      "branch": "film/water-wrinkled-fingers",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649816311,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Wrinkled_Fingers_4K_Master.mp4",
+        "size": 66346635,
+        "digest": "sha256:936984478890010ddefc500d75847386f18539fd14631495834400c8271c635a",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:04:56.548Z",
+  "recovery_checkpoint_parent": "2676472bdbb09c53ecb544226c2e152700663bfc",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }

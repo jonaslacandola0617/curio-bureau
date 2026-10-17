@@ -1,13 +1,23 @@
-# wrinkled-fingers — recovered historical movies
+# wrinkled-fingers — recovered movie archive
 
-Status: UPLOAD IN PROGRESS. Movie bytes are being archived to a GitHub Release; this inventory alone is not the archive. No rendering or re-encoding was performed.
+Status: **ARCHIVED**. 5 existing exports; no render or re-encode.
 
-Original episode branch: film/water-wrinkled-fingers. The archive commit is a recovery catalog, not a claim that every movie was rendered from its parent. Original filenames, stream metadata and SHA-256 values are in EXPORTS.json.
+[GitHub release and all episode branches](https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017)
 
-Historical WIP/preview and rejection labels remain applicable. New production follows the current main-branch infrastructure; old branch artwork or old Bible revisions do not silently override it. Ghost Army rejected tests are not positive benchmarks.
+| Existing export | Duration | Resolution | Bytes |
+|---|---:|---:|---:|
+| [Wrinkled_Fingers_4K_Posting.mp4](https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Wrinkled_Fingers_4K_Posting.mp4) | 36.300 s | 2160 × 3840 | 29,975,634 |
+| [Wrinkled_Fingers_4K.webm](https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Wrinkled_Fingers_4K.webm) | 36.308 s | 2160 × 3840 | 33,538,307 |
+| [Wrinkles_Motion_Review.mp4](https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Wrinkles_Motion_Review.mp4) | 12.000 s | 1080 × 1920 | 7,519,931 |
+| [Wrinkles_Motion_Review.webm](https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Wrinkles_Motion_Review.webm) | 12.008 s | 1080 × 1920 | 5,311,347 |
+| [Wrinkled_Fingers_4K_Master.mp4](https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Wrinkled_Fingers_4K_Master.mp4) | 36.300 s | 2160 × 3840 | 66,346,635 |
 
-## Files still required for consistency
+[EXPORTS.json](./EXPORTS.json) records SHA-256 hashes, GitHub asset IDs, observed download URLs and stream metadata.
 
-Retain editable source, semantic image layers/masks, original source images and rights, fonts, strong material textures, approved voice, reusable music/SFX, captions/timing, exact ending code, source versions and a small set of approved complete movies. The written Bible alone is insufficient. Closed intermediate render chunks and duplicate exports are expendable only after the relevant complete source/export is verified and recoverable.
+Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.
 
-Private project bundles and raw licensed assets remain retained in ChatGPT. This recovery does not certify their complete offline restoration or authorize deleting them. Full previews and actual encoded quality review remain necessary for each new film.
+This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.
+
+The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit.
+
+Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.
