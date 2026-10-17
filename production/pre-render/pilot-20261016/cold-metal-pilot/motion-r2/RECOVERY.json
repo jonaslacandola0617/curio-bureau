@@ -1,0 +1,38 @@
+{
+  "scope": "Native 13.9s sequence R2",
+  "width": 2160,
+  "height": 3840,
+  "fps": 30,
+  "total_frames": 417,
+  "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
+  "chunks": [
+    {
+      "file": "chunks/chunk_0000_30.mkv",
+      "start_frame": 0,
+      "frame_count": 30,
+      "sha256": "f3bebb852adbf2e09cbe46a8082bff5a6c91998d3f774ff73852df85c129eca4",
+      "bytes": 237942657,
+      "decode": "PASS",
+      "storage_status": "DURABLE",
+      "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
+      "github_release_id": 415535198,
+      "github_asset_id": 649298965,
+      "github_digest": "sha256:f3bebb852adbf2e09cbe46a8082bff5a6c91998d3f774ff73852df85c129eca4",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/untagged-c3835fec7b2b3c236147/chunk_0000_30.mkv"
+    },
+    {
+      "file": "chunks/chunk_0030_30.mkv",
+      "start_frame": 30,
+      "frame_count": 30,
+      "sha256": "1a2ffb7b241457b98a64dfdbb6bdc94d182f8ee34f014e5c0862405d0336c9b6",
+      "bytes": 238371515,
+      "decode": "PASS",
+      "storage_status": "DURABLE",
+      "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
+      "github_release_id": 415535198,
+      "github_asset_id": 649301162,
+      "github_digest": "sha256:1a2ffb7b241457b98a64dfdbb6bdc94d182f8ee34f014e5c0862405d0336c9b6",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/untagged-c3835fec7b2b3c236147/chunk_0030_30.mkv"
+    }
+  ]
+}
