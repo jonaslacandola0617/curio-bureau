@@ -2,7 +2,7 @@
 from pathlib import Path
 import json,hashlib
 
-def validate_finishing(config,episode,stage='artwork',studio_path=None):
+def validate_finishing(config,episode,stage='artwork',studio_path=None,expected_size=None):
  if config.get('visual_style')!='image-led':return {'status':'not image-led'}
  # Preserve only specifically named historical source rebuilds without a new contract.
  if config.get('id') in {'pig-war','tutorial-optics-test','london-bridge','sunlight-white','astronaut-height','recorded-voice'} and not config.get('revision') and not config.get('finishing'):return {'status':'preserved historical source'}
@@ -13,7 +13,7 @@ def validate_finishing(config,episode,stage='artwork',studio_path=None):
   p=Path(episode)/f.get('runtime_proof','');
   if not p.is_file():raise ValueError('Native release requires actual finishing runtime proof')
   d=json.loads(p.read_text());cases=d.get('cases',[])
-  if d.get('errors') or d.get('native')!=[2160,3840]or d.get('deterministic')is not True:raise ValueError('Native finishing execution proof failed')
+  if d.get('errors') or d.get('native')!=(expected_size or [2160,3840])or d.get('deterministic')is not True:raise ValueError('Native finishing execution proof failed')
   if len(cases)<3 or not any(x.get('meanRedDifference',0)>2 for x in cases)or not any(x.get('opaqueCaptionDifference')==0 for x in cases)or not any(x.get('t',0)>30 and x.get('meanRedDifference')==0 for x in cases):raise ValueError('Finishing proof lacks picture effect/caption/ending coverage')
   if d.get('temporal_grain',{}).get('changed_mean_abs',0)<=.1:raise ValueError('Moving grain did not execute at phone size')
   studio=Path(studio_path) if studio_path is not None else Path(episode)/f.get('studio','studio.html')

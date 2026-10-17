@@ -106,25 +106,28 @@ class Project:
   for name,value in values.items():template=template.replace('@@'+name+'@@',value)
   self.studio.write_text(template);self.state['build']={'key':key,'sha256':digest(self.studio)};self.save();write_json(self.out/'input-check.json',report);print('Built',self.studio)
 
- def plan(self,profile='native'):
+ def plan(self,profile='posting'):
   self.inspect();old=self.state.get(profile,{})
   if old.get('visual_key')==self.visual_key and old.get('render_key')==self.render_key and all(Path(x).exists() and digest(x)==h for x,h in old.get('outputs',{}).items()) and old.get('outputs'):
    return 'reuse' if old.get('audio_key')==self.audio_key else 'remux'
   return 'render'
 
  def render(self,profile,start=0,seconds=None):
-  if profile=='native':
+  if profile in ('native','posting'):
    if self.config.get('pre_render_manifest') or self.config.get('id') in _pre.PILOT_IDS:
     if not self.config.get('pre_render_manifest'):raise ValueError('Pilot episode requires pre_render_manifest')
     _pre.require_ready(self.episode/self.config['pre_render_manifest'],self.episode,self.project)
+    settings=load_json(self.episode/self.config['pre_render_manifest'])['settings']
+    expected=(2160,3840) if profile=='native' else (1080,1920)
+    if (settings['width'],settings['height'])!=expected:raise ValueError('Requested delivery resolution differs from frozen reviewed package')
    validate_episode_sequence(self.config,self.episode,'release')
   self.build()
-  if profile=='native':validate_finishing(self.config,self.episode,'release',studio_path=self.studio)
+  if profile in ('native','posting'):validate_finishing(self.config,self.episode,'release',studio_path=self.studio,expected_size=[2160,3840] if profile=='native' else [1080,1920])
   if not self.chrome or not self.node:raise ValueError('Set CURIO_CHROME and install Node/Playwright')
   smoke=seconds is not None;duration=seconds if smoke else self.duration
   if start<0 or start+duration>self.duration+.001:raise ValueError('Render range outside episode')
-  scale=2 if profile=='native' else 1;prefix='Smoke' if smoke else ('Curio_4K' if profile=='native' else 'Preview')
-  kinds=[('master',self.out/(prefix+'.mp4'))]
+  scale=2 if profile=='native' else 1;prefix='Smoke' if smoke else ('Curio_4K' if profile=='native' else 'Curio_1080p' if profile=='posting' else 'Preview')
+  kinds=[('posting' if profile=='posting' else 'master',self.out/(prefix+'.mp4'))]
   if scale==2:kinds += [('webm',self.out/(prefix+'.webm')),('download',self.out/(prefix+'_Download.mp4'))]
   action='render' if smoke else self.plan(profile)
   if action=='reuse':print('Render reused: verified inputs and output hashes unchanged');return
@@ -190,10 +193,10 @@ def verify(p,scale,frames,duration):
  return {'size':p.stat().st_size,'width':v['width'],'height':v['height'],'frames':frames,'duration':float(probe['format']['duration']),'full_decode':'PASS'}
 
 def main():
- parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('command',choices=['check','preview','render','plan','audio','package']);parser.add_argument('--episode',required=True);parser.add_argument('--project',required=True);parser.add_argument('--out',required=True);parser.add_argument('--chrome');parser.add_argument('--start',type=float,default=0);parser.add_argument('--seconds',type=float);parser.add_argument('--profile',choices=['native','preview'],default='native');args=parser.parse_args();p=Project(args)
+ parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('command',choices=['check','preview','render','plan','audio','package']);parser.add_argument('--episode',required=True);parser.add_argument('--project',required=True);parser.add_argument('--out',required=True);parser.add_argument('--chrome');parser.add_argument('--start',type=float,default=0);parser.add_argument('--seconds',type=float);parser.add_argument('--profile',choices=['posting','native','preview'],default='posting');args=parser.parse_args();p=Project(args)
  if args.command=='check':p.build();print(json.dumps(p.inspect(),indent=2))
  elif args.command=='preview':p.render('preview',args.start,args.seconds)
- elif args.command=='render':p.render('native',args.start,args.seconds)
+ elif args.command=='render':p.render(args.profile,args.start,args.seconds)
  elif args.command=='plan':print(p.plan(args.profile))
  elif args.command=='audio':p.audio()
  elif args.command=='package':p.package()

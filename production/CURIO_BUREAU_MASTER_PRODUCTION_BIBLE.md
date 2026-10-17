@@ -1,7 +1,12 @@
 # CURIO BUREAU — MASTER CREATIVE, MOTION, AUDIO & PRODUCTION BIBLE
+
+## Default delivery — owner update, 17 October 2026
+
+Native **1080 × 1920 at 30 fps** is now the standard final posting format. Use high-quality H.264 MP4 (12 Mbps target,16 Mbps peak ceiling) and AAC 48 kHz stereo 320 kbps.4K is optional when explicitly requested. Apply [the 1080p delivery standard](engine/DELIVERY_1080P_STANDARD.md). Older mandatory 4K statements below are superseded for new production; historical exports remain unchanged. Keep all visual/audio/whole-film quality gates and immediate versioned GitHub archiving.
+
 **Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
 
-**Version 1.4.5 · Updated 15 October 2026 · Owner-adopted image-led direction · v1.4 editorial reasoning and earlier release safeguards preserved**
+**Version 1.4.6 · Updated 17 October 2026 · Owner-adopted image-led direction · v1.4 editorial reasoning and earlier release safeguards preserved**
 
 > **This is the single portable, consolidated bible.** Its governing rules and detailed modules below are included in full, not hidden in other attachments. It remains an evidence-grounded initial system: definitive release-level observations of Episodes 002 and 003 are unavailable, and quantitative audience-retention claims cannot be made without platform analytics. Earlier Vox/viral benchmark research relied on external metadata. A subsequent Motion Mastery Lab directly decoded nine user-supplied third-party Vox-inspired demonstration videos, studying 35 selected motion windows; this is **not** verified direct analysis of full original Vox films or their private project files. **New v2 (12 October):** Five uploaded videos bearing official Vox published titles were independently decoded for authored graphic content only, with photographed/real filmed plates excluded. Details and limits are in the adopted v1.3 chapter; neither study has Vox's editable project files.
 
@@ -35,7 +40,7 @@ The owner's current review request is implemented by the [science paper/image st
 
 **Two independent approvals remain mandatory:** (A) visual/moving editorial quality, including hard intermediate frames, and (B) factual/audio/caption/export QA. An encoded valid MP4 is not proof of an attractive film. User explicitly rejected Ghost Army experimental collage V1–V4; **none is adopted as the Curio animation style or a positive benchmark**. Earlier *static* concept art was closer to the user's preference but not proof that an animation succeeded. Do not ask the owner to repeat the ten tutorial lessons or the five-film analysis. Do not quietly replace previously designed rich material with generic programmatic placeholders.
 
-**Evidence discipline:** v1.4 interprets the user's complete five-film art-direction manual and T01–T10 technical manual, along with v1.3 observations. Neither Vox editable projects nor specific proprietary motion curves/audio were recovered. The user-provided V4 five-shot directive remains a *historical failed-test specification*, NOT automatically a future episode blueprint. Continue honoring all v1.3/v1.2/v1.1 adopted hard rules on sourcing, premium art across the film, Manrope center-safe captions, expressive human narration and musical/SFX listening, and **true native 2160×3840 30fps H264/AAC MP4 plus VP9/Opus WebM final masters**, independently verified.
+**Evidence discipline:** v1.4 interprets the user's complete five-film art-direction manual and T01–T10 technical manual, along with v1.3 observations. Neither Vox editable projects nor specific proprietary motion curves/audio were recovered. The user-provided V4 five-shot directive remains a *historical failed-test specification*, NOT automatically a future episode blueprint. Continue honoring all v1.3/v1.2/v1.1 adopted hard rules on sourcing, premium art across the film, Manrope center-safe captions, expressive human narration and musical/SFX listening, and **true native 2160×3840 30 fps H264/AAC MP4 plus VP9/Opus WebM final masters**, independently verified.
 
 **Reading order for a new AI agent:** this governing master (including its older chapters) → [v1.4 full creative chapter](bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md) → \`AGENTS.md\` → the five-film/tutor manuals in the transferable handoff archive → motion-lab v1/v2 and subject-specific sources. Handoff and rejected proof clips provide history, **not a replacement** for the adopted creative and release rules.
 
@@ -48,7 +53,7 @@ The owner's current review request is implemented by the [science paper/image st
 ### Evidence provenance and limits: FIVE mixed-media first-party Vox videos, not editable projects
 Unlike v1's nine predominantly third-party Vox-style demos, v2 examined five **actual uploaded videos bearing titles matching official Vox films**: V01 *How wildlife trade is linked to coronavirus* (528.24s); V02 *The Electoral College, explained* (488.36s); V03 *The golf ball that made golfers too good* (349.47s); V04 *The Israel-Palestine conflict: a brief, simple history* (618.74s); V05 *Why America still uses Fahrenheit* (290.46s). Uploaded files decoded at 1280×720 H.264, approximately 23.976fps. Source film authorship association is backed by matching official video listings, but the uploaded files were **not hash-matched against all public platform encodes**; do not claim bit-identical official editions.
 
-The study surveyed **96 coarse graphic/footage region windows** at ~5-second interval density, recorded **25 R/P excluded footage/still windows**, constructed **20 X-rays of seven source-frame-indexed graphic states each**, measured three bounded **screen-color pixel occupancy proxies** (not isolated vector alpha masks), and validated **eight independently authored 3.4s 540×960 original moving tech demos (30fps, 102 frames each)**. These are evidence of motion and pipeline feasibility, **not** definitive per-frame cut boundaries for the full ~38 minutes, exact Vox easing/After Effects projects, professional-grade 4K sample art, complete audited Vox audio, or measured viewer retention.
+The study surveyed **96 coarse graphic/footage region windows** at ~5-second interval density, recorded **25 R/P excluded footage/still windows**, constructed **20 X-rays of seven source-frame-indexed graphic states each**, measured three bounded **screen-color pixel occupancy proxies** (not isolated vector alpha masks), and validated **eight independently authored 3.4s 540×960 original moving tech demos (30 fps, 102 frames each)**. These are evidence of motion and pipeline feasibility, **not** definitive per-frame cut boundaries for the full ~38 minutes, exact Vox easing/After Effects projects, professional-grade 4K sample art, complete audited Vox audio, or measured viewer retention.
 
 **Source truth labels:** [O] observed rendered graphic pixel behavior, [M] approximate measured frame-screen color occupancy or coordinate change with stated method, [I] plausible construction/inferred rig, [P] our original Curio engineering proposal, [U] unresolved. Only [O/M] are asserted as Vox *observable graphics*; [I/P] are not recovered Vox proprietary technique parameters.
 
@@ -73,7 +78,7 @@ The v2 [32-entry technique index](motion-lab/v2/08_TRANSFERABLE_GRAPHIC_TECHNIQU
 ### Future-production adoption and quality assurance
 Before any **new authorized** episode, read the v2 lab README, source-backed technique index, original rig QA, [Curio-engine design](motion-lab/v2/10_CURIO_MOTION_GRAPHICS_ENGINE_V2_SPEC.md), and [future-film adapter](prompts/FUTURE_EPISODE_MOTION_GRAPHICS_V13_ADDENDUM.md). Add a `graphic_beat_ledger.csv` recording claim→graphic source→before/after information state→source-/screen-anchor→evidence→sound cue, and apply v2 techniques only where story-appropriate. Use full original art rather than copying the eight prototype aesthetic. **Do not reopen previously completed Episode 009 as a production project** merely because this research is adopted.
 
-**Existing master rules UNCHANGED:** Curio premium illustrations, palette navy `#0D1C2B`, ivory `#F5F0E7`, gold `#C8A26B`, coral `#D57864`, Playfair Display/Manrope, factual/asset licensing integrity, expressive VO and music/SFX, ordinary narration pauses 0.12–0.55s, >0.85s unplanned editorial fail and >1.2s release fail, screen-space center-safe captions, true 2160×3840/30fps independently verified MP4 H.264/AAC and WebM VP9/Opus. Source animation analysis must never weaken the film-release QA gates.
+**Existing master rules UNCHANGED:** Curio premium illustrations, palette navy `#0D1C2B`, ivory `#F5F0E7`, gold `#C8A26B`, coral `#D57864`, Playfair Display/Manrope, factual/asset licensing integrity, expressive VO and music/SFX, ordinary narration pauses 0.12–0.55s, >0.85s unplanned editorial fail and >1.2s release fail, screen-space center-safe captions, true 2160×3840/30 fps independently verified MP4 H.264/AAC and WebM VP9/Opus. Source animation analysis must never weaken the film-release QA gates.
 
 ---
 
@@ -181,7 +186,7 @@ An attractive video file is only a RENDER CANDIDATE until technical, editorial, 
 Only cite historical images actually cleared for the intended use. Never generate fake archival photographs or newspapers with invented words. Author original simulations as reconstruction (and label when ambiguity possible). Maps use credible physical locations; numeric claim uses source and context. Graphs/sections cannot invent exact stress, flow or scale values.
 
 ## Section F — Mandatory two-format native 4K delivery
-Primary authoritative video: **2160×3840 30fps H.264 MP4** encoded with high-quality native vector/PDF/SVG/Canvas frames, AAC ≥~320kbps stereo 48k. Second authoritative file: **2160×3840 30fps VP9 WebM**, Opus 256–320kbps stereo 48k. Burn captions into BOTH; also supply final SRT, original interactive HTML studio and research/QA/stems as project files.
+Primary authoritative video: **2160×3840 30 fps H.264 MP4** encoded with high-quality native vector/PDF/SVG/Canvas frames, AAC ≥~320kbps stereo 48k. Second authoritative file: **2160×3840 30 fps VP9 WebM**, Opus 256–320kbps stereo 48k. Burn captions into BOTH; also supply final SRT, original interactive HTML studio and research/QA/stems as project files.
 
 Native-4K PNG sequence is the pipeline gold standard: each 2160×3840 frame rendered individually from high-resolution originals, **not an upscaled 1080p movie**. High-quality JPEG transfer and pixel-upscaled art should be recorded as deviations and cannot pass strict gold-standard rendering QA. Verify actual pixel quality at 100% in both encodes, not only ffprobe width.
 
@@ -553,7 +558,7 @@ Use deterministic `render(t)`, scene manifest state and single audio timeline. S
 Compose/clear music with real development; use recorded/provenance tracked Foley where appropriate; VOICE/MUSIC/AMB/DETAIL/IMPACT stems; critical listening on headphones AND phone. Re-run measured voice gaps; align captions to approved final audio; check TikTok/Shorts overlays. Music should be audible *as music*, not just as spectrum energy. **Gate:** listeners pass intelligibility and specificity.
 
 ## Stage 9 — PRE-4K QC (mandatory cost saver)
-Render 1080×1920 30fps proof with **final** music/voice/captions. Review entire video, scene joins, headings, 3 shot-family strips, intro/outro and source citations. Any P0 or P1 flaw sends film BACK to edit. Never begin 2,300-frame 4K encode without reviewer signoff.
+Render 1080×1920 30 fps proof with **final** music/voice/captions. Review entire video, scene joins, headings, 3 shot-family strips, intro/outro and source citations. Any P0 or P1 flaw sends film BACK to edit. Never begin 2,300-frame 4K encode without reviewer signoff.
 
 ## Stage 10 — Real native 4K render
 Source HTML/SVG/Canvas renders lossless native 2160×3840 PNGs at exact frame N/30s. Do not resize 1080p video to 4K. Mix stereo 48kHz/24bit WAV; H.264 MP4 CRF~15 AAC ~320k + VP9/Opus WebM. Preserve exact typography and center captions in both.
@@ -580,8 +585,8 @@ A checked automatic condition certifies only that condition; it never certifies 
 ## P0 — Mandatory release gates
 - [ ] HISTORICAL CLAIMS: final script numbers, dates, geographical references and legal/causal language each cite sources; speculation separated from fact.
 - [ ] RIGHTS: original archive/license/provenance register with item-specific permissions; original reconstructions appropriately labeled.
-- [ ] TRUE 4K MP4: actual 2160×3840, 30fps, H.264, AAC stereo 48kHz, original native pixels, no 1080p upscale; ffprobe record.
-- [ ] TRUE 4K WEBM: actual 2160×3840, 30fps, VP9, Opus 48kHz stereo; ffprobe record.
+- [ ] TRUE 4K MP4: actual 2160×3840, 30 fps, H.264, AAC stereo 48kHz, original native pixels, no 1080p upscale; ffprobe record.
+- [ ] TRUE 4K WEBM: actual 2160×3840, 30 fps, VP9, Opus 48kHz stereo; ffprobe record.
 - [ ] COMPLETE: video decodes; all planned frames incl first/last, duration/ending; no truncated sections.
 - [ ] NATURAL VOICE: no eSpeak or unapproved synthetic rate, clipped/mispronounced first/last words or missing segments.
 - [ ] VOICE GAPS: isolated WAV detector report, all intentional/discretionary; >0.85s unplanned editorial FAIL; >1.20s between passages absolute FAIL; no >3s narrative dead zones.

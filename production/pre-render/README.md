@@ -1,5 +1,10 @@
 # Curio Bureau pre-render queue
 
+## Default delivery — owner update, 17 October 2026
+
+Native **1080 × 1920 at 30 fps** is now the standard final posting format. Use high-quality H.264 MP4 (12 Mbps target,16 Mbps peak ceiling) and AAC 48 kHz stereo 320 kbps.4K is optional when explicitly requested. Apply [the 1080p delivery standard](../engine/DELIVERY_1080P_STANDARD.md). Older mandatory 4K statements below are superseded for new production; historical exports remain unchanged. Keep all visual/audio/whole-film quality gates and immediate versioned GitHub archiving.
+
+
 A pre-render project is a frozen, restorable production source that can reproduce its approved film without new creative decisions. A topic list, narration draft or storyboard is not render-ready.
 
 This operational pilot implements the existing Bible v1.4.5, image-led direction, rendered-translation safeguard and GitHub archive policy. It does not replace them. **Owner authorized a five-project pilot on 16 October 2026; a 350-project production commitment has not been measured or established.**
@@ -13,9 +18,9 @@ Start with [the pilot review](pilot-20261016/README.md). Five story/sequence dra
 | STORY_SEQUENCE_DRAFT | Source/uncertainty ledger, three distinct hook approaches, draft narration, connected sequence states, asset requirements | Reviewed claim scope and chosen visual approach; no asset completion claim |
 | ART_REVIEW | Acquired and cleared source images, masks/repairs, five demanding finished checkpoints, hardest passage initial/intermediate/resolved, heading-hidden comparison | Owner art/sequence decision tied to actual reviewed images and hashes |
 | MOTION_REVIEW | Hardest moving passage, actual source-owned actions, sound-led hook, readable holds, active material/optics | Owner motion decision tied to reviewed video/source |
-| FULL_PREVIEW_REVIEW | Whole film at 1080p with final complete Bernard speech, evolving score, audible action SFX, real aligned captions and locked ending | Full-film owner review plus phone/UI, listening/tail, facts/rights and technical evidence |
+| FULL_PREVIEW_REVIEW | Whole film at review resolution (720p early,1080p final output inspection) with final complete Bernard speech, evolving score, audible action SFX, real aligned captions and locked ending | Full-film owner review plus phone/UI, listening/tail, facts/rights and technical evidence |
 | RENDER_READY | Frozen source and dependencies, settings, checksums, evidence records, actual GitHub saved bytes, successful restoration rehearsal | Offline readiness validator passes; live GitHub archive verification remains a separate recorded action |
-| DELIVERED | Actual native MP4 and WebM, posting copy, browser output, QA and permanent download receipts | Encoded artistic/audio/technical review; GitHub download-back hashes match; source/verified chunks recoverable |
+| DELIVERED | Actual native 1080p posting MP4, QA and permanent download receipts;4K/WebM/browser outputs when requested | Encoded artistic/audio/technical review; GitHub download-back hashes match; source/verified chunks recoverable |
 
 Do not mark a stage complete by filling a checkbox or generating a contract. Automated checks inspect bytes and records; the owner supplies actual creative decisions. Existing approvals apply only to their identified artifacts. A changed shot, mix or preview needs the relevant review again.
 

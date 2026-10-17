@@ -19,7 +19,10 @@ async function main(){
    args.push('-map','0:v','-map','1:a','-t',String(duration));
    if(output.kind==='webm') args.push('-c:v','libvpx-vp9','-deadline','realtime','-cpu-used','6','-threads','4','-row-mt','1','-crf','22','-b:v','0','-pix_fmt','yuv420p','-c:a','libopus','-b:a','256k','-ar','48000','-ac','2');
    else {
-    args.push('-c:v','libx264','-preset','fast','-threads','4','-crf',output.kind==='master'?'15':'20','-pix_fmt','yuv420p');
+    args.push('-c:v','libx264','-preset','fast','-threads','4');
+    if(output.kind==='posting') args.push('-profile:v','high','-b:v','12M','-maxrate','16M','-bufsize','24M');
+    else args.push('-crf',output.kind==='master'?'15':'20');
+    args.push('-pix_fmt','yuv420p');
     if(output.kind==='download'){
      const budget=Math.min(48000,Math.floor((450*1024*1024*8/duration-500000)/1000));
      args.push('-maxrate',budget+'k','-bufsize',(budget*2)+'k');

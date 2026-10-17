@@ -3,8 +3,8 @@
   "episode_id": "recorded-voice-pilot",
   "status": "STORY_SEQUENCE_DRAFT",
   "settings": {
-    "width": 2160,
-    "height": 3840,
+    "width": 1080,
+    "height": 1920,
     "fps": 30,
     "visual_style": "image-led",
     "material_profile": "image-led-v1",

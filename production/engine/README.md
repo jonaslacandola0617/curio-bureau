@@ -1,4 +1,9 @@
 # Curio production engine v1.1
+
+## Default delivery — owner update, 17 October 2026
+
+Native **1080 × 1920 at 30 fps** is now the standard final posting format. Use high-quality H.264 MP4 (12 Mbps target,16 Mbps peak ceiling) and AAC 48 kHz stereo 320 kbps.4K is optional when explicitly requested. Apply [the 1080p delivery standard](DELIVERY_1080P_STANDARD.md). Older mandatory 4K statements below are superseded for new production; historical exports remain unchanged. Keep all visual/audio/whole-film quality gates and immediate versioned GitHub archiving.
+
 **Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
 
 

@@ -35,6 +35,21 @@ class GateTests(unittest.TestCase):
         with patch.object(pre,'engine_inputs',return_value=closure or set()):
             return pre.validate_package(self.path,self.episode,self.project)
     def test_complete_synthetic_records_pass(self): self.assertTrue(self.check()['ready'])
+    def test_1080p_frozen_package_passes_with_fresh_bindings(self):
+        self.m['settings'].update(width=1080,height=1920)
+        fp=pre.fingerprint(self.inputs,self.m['settings'])
+        self.m['frozen_fingerprint']=fp
+        for gate in self.m['gates'].values():gate['fingerprint']=fp
+        self.assertTrue(self.check()['ready'])
+    def test_resolution_change_cannot_reuse_old_approvals(self):
+        self.m['settings'].update(width=1080,height=1920)
+        self.assertFalse(self.check()['ready'])
+    def test_720p_is_review_only_not_production_ready(self):
+        self.m['settings'].update(width=720,height=1280)
+        fp=pre.fingerprint(self.inputs,self.m['settings'])
+        self.m['frozen_fingerprint']=fp
+        for gate in self.m['gates'].values():gate['fingerprint']=fp
+        self.assertFalse(self.check()['ready'])
     def test_draft_does_not_pass(self):
         self.m['status']='STORY_SEQUENCE_DRAFT';self.assertFalse(self.check()['ready'])
     def test_changed_bytes_block(self):
@@ -85,6 +100,20 @@ class GateTests(unittest.TestCase):
         p=object.__new__(curio.Project);p.config={'id':'cold-metal-pilot'}
         with patch.object(curio.Project,'build',side_effect=AssertionError('must not build')):
             with self.assertRaisesRegex(ValueError,'requires pre_render_manifest'): p.render('native')
+    def test_posting_cannot_bypass_pilot_binding(self):
+        spec=importlib.util.spec_from_file_location('curio_posting',ENGINE/'curio.py')
+        curio=importlib.util.module_from_spec(spec);spec.loader.exec_module(curio)
+        p=object.__new__(curio.Project);p.config={'id':'cold-metal-pilot'}
+        with patch.object(curio.Project,'build',side_effect=AssertionError('must not build')):
+            with self.assertRaisesRegex(ValueError,'requires pre_render_manifest'):p.render('posting')
+    def test_posting_rejects_frozen_4k_package_before_build(self):
+        spec=importlib.util.spec_from_file_location('curio_posting',ENGINE/'curio.py')
+        curio=importlib.util.module_from_spec(spec);spec.loader.exec_module(curio)
+        p=object.__new__(curio.Project);p.config={'pre_render_manifest':'../package.json'}
+        p.episode=self.episode;p.project=self.project
+        self.path.write_text(json.dumps(self.m))
+        with patch.object(curio._pre,'require_ready'),patch.object(curio.Project,'build',side_effect=AssertionError('must not build')):
+            with self.assertRaisesRegex(ValueError,'resolution differs'):p.render('posting')
     def test_pilot_has_five_valid_contracts_and_zero_ready(self):
         spec=importlib.util.spec_from_file_location('seq',ENGINE/'sequence.py')
         seq=importlib.util.module_from_spec(spec);spec.loader.exec_module(seq)

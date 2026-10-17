@@ -93,9 +93,11 @@ def validate_package(path, episode=None, project=None):
             errors.append('Uncleared asset rights: ' + rel)
         declared.add(rel)
     settings = m.get('settings', {})
-    if settings != {'width':2160, 'height':3840, 'fps':30, 'visual_style':'image-led',
-                    'material_profile':'image-led-v1', 'brand_ending':'london-bridge-v1'}:
-        errors.append('Native settings do not match the approved profile')
+    approved = [{'width':w, 'height':h, 'fps':30, 'visual_style':'image-led',
+                 'material_profile':'image-led-v1', 'brand_ending':'london-bridge-v1'}
+                for w,h in [(1080,1920),(2160,3840)]]
+    if settings not in approved:
+        errors.append('Delivery settings must be native 1080p/30 or explicitly requested 4K/30')
     try: current = fingerprint(inputs, settings)
     except KeyError: current = ''; errors.append('Malformed frozen input record')
     if not current or m.get('frozen_fingerprint') != current:
