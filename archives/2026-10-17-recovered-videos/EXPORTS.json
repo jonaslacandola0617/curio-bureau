@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "film/astronaut-height",
   "previous_branch_head": "8322a57141098af51a7e70d6a9a65074ab4fabf0",
   "original_render_source_commit": "not inferred from archive commit",
@@ -36,7 +36,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/astronaut-height"
+      "branch": "film/astronaut-height",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649800090,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Astronaut_Height_4K_Upload.mp4",
+        "size": 236718286,
+        "digest": "sha256:393c7fe16b1d7dab83498cc17390d46d4158652fcb717e2ab415e91693ece943",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Astronaut_Height_Review_1080p.mp4",
@@ -69,7 +77,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/astronaut-height"
+      "branch": "film/astronaut-height",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649800949,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Astronaut_Height_Review_1080p.mp4",
+        "size": 117921854,
+        "digest": "sha256:6d477ac6ec57e7f05b80e36a8def9b96de60193b85f07decacb0133a8e3ae853",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Astronaut_Height_4K_Master.mp4",
@@ -102,7 +118,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/astronaut-height"
+      "branch": "film/astronaut-height",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649808431,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Astronaut_Height_4K_Master.mp4",
+        "size": 524572612,
+        "digest": "sha256:03ceed9b4b9b9d3c0a72d8c8106f2c45cbff52ccf9fb7741f6d274397023dade",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Astronaut_Height_4K.webm",
@@ -131,8 +155,27 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/astronaut-height"
+      "branch": "film/astronaut-height",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649817117,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Astronaut_Height_4K.webm",
+        "size": 355848419,
+        "digest": "sha256:d3889942151915f0b139ae5d8ca200bf1c507a99504b214eee7b11898764a910",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:04:59.325Z",
+  "recovery_checkpoint_parent": "d3aebd66d2fed58f2abb9c3f3516ad417b0b969e",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }
