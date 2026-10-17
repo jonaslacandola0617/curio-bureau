@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "film/sunlight-white",
   "previous_branch_head": "260d77668c783636a29f9ffc8df8a9c9dbaaf750",
   "original_render_source_commit": "not inferred from archive commit",
@@ -32,7 +32,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/sunlight-white"
+      "branch": "film/sunlight-white",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649803248,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Sunlight_4K.webm",
+        "size": 352848710,
+        "digest": "sha256:c1e056b6a93b6faa0acc5bb8109f15723e3d117f12ca4516f182ac3ab3d37824",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Sunlight_4K_Upload.mp4",
@@ -65,7 +73,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/sunlight-white"
+      "branch": "film/sunlight-white",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649807756,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Sunlight_4K_Upload.mp4",
+        "size": 309012850,
+        "digest": "sha256:5346787112fce819ccc0f1e4d54cc9a7e84a580adc0a9c1782bbe5384e25d1b3",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Sunlight_Review_1080p.mp4",
@@ -98,7 +114,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/sunlight-white"
+      "branch": "film/sunlight-white",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649810441,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Sunlight_Review_1080p.mp4",
+        "size": 213307220,
+        "digest": "sha256:3844fbd1cee290de5a8cd7530c6d4a2b08022e3cecbd22f0ab4840157bdbd516",
+        "state": "uploaded"
+      }
     },
     {
       "name": "Sunlight_4K_Master.mp4",
@@ -133,8 +157,27 @@
         "archive": "Sunlight_4K_Master.zip",
         "sha256": "020db670de0899424be13a213819a5ac7aa721a398895687e00c5393b4981d0c"
       },
-      "branch": "film/sunlight-white"
+      "branch": "film/sunlight-white",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649814414,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/Sunlight_4K_Master.mp4",
+        "size": 655992969,
+        "digest": "sha256:020db670de0899424be13a213819a5ac7aa721a398895687e00c5393b4981d0c",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:05:05.572Z",
+  "recovery_checkpoint_parent": "ae519cdd7021ef23324177a7b79208c6649281a2",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }
