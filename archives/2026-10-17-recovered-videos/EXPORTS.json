@@ -1,0 +1,72 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "film/samoa-day-disappeared",
+  "previous_branch_head": "2d59f54b3baaa4888c8eb48a8e528c473a2c7226",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "Curio_Bureau_The_Day_That_Disappeared_REBUILT.webm",
+      "size": 30943015,
+      "sha256": "c74a094d3a9b778dfd89a71df4657db87ba8f2dfb936a296b457b884def09c8c",
+      "group": "samoa",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "52.408000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/samoa-day-disappeared"
+    },
+    {
+      "name": "Curio_Bureau_The_Day_That_Disappeared_Pilot.mp4",
+      "size": 4998961,
+      "sha256": "597acabec275968fc23d9c3209dd057fc98d4ab23ff560fb5fe817f46b54ca6d",
+      "group": "samoa",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "51.000000",
+          "nb_frames": "1530"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "50.990998",
+          "nb_frames": "2197"
+        }
+      ],
+      "duration": "51.000000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/samoa-day-disappeared"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
