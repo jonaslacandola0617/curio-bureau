@@ -1,0 +1,83 @@
+{
+  "frames": [
+    {
+      "id": "01_hook",
+      "path": "rendered/01_hook.jpg",
+      "sha256": "a4c23781bf0f54ddbbf81741e328113922499290af58c4247c747668ed6f1324",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "02_tissue",
+      "path": "rendered/02_tissue.jpg",
+      "sha256": "eeb1ec1e577d745ca125b0259e7c62ed75c1e5b5269c6b830b6360fc7758ab5b",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "03_lfs_step",
+      "path": "rendered/03_lfs_step.jpg",
+      "sha256": "8173db6d5db9070c8540df420010f6b59c9258d009250f513ac1fbc385cd698c",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "04_lachrymatory_factor",
+      "path": "rendered/04_lachrymatory_factor.jpg",
+      "sha256": "b74b8e6716dd7b8e3fad7c72e21b4e18b3f0578d9930ae6f3472e1b7cef281dd",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "05_airborne",
+      "path": "rendered/05_airborne.jpg",
+      "sha256": "84c0d2f0cace58bf20546d410d29635af522561f0052db1a690373194f8bb622",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "06_eye",
+      "path": "rendered/06_eye.jpg",
+      "sha256": "e4901133a46cd09ac29840c679c1a68d2289a56efd14346b0df3be5b08404e13",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "07_payoff",
+      "path": "rendered/07_payoff.jpg",
+      "sha256": "f758349f6192d28d345d44fb8ba56f73eb3367a2bd7985fa146cf260f9228f33",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
+  "passage": [
+    {
+      "state": "initial",
+      "path": "rendered/passage_0.jpg",
+      "sha256": "413dec228c38dcfe8a67a0932dc4742075631bba5c4f7de1bb0d54d48c97501a",
+      "heading_hidden": {
+        "path": "rendered/passage_0_no_heading.jpg",
+        "sha256": "eafc502890a6eb4947541433103cf229672e39df66705cc8b577693f85d0b3a8"
+      }
+    },
+    {
+      "state": "intermediate",
+      "path": "rendered/passage_1.jpg",
+      "sha256": "24aa556bcc1dfb0a9b771a2ef114ccf4a116af3e4fe317fe2887691ff924c59f",
+      "heading_hidden": {
+        "path": "rendered/passage_1_no_heading.jpg",
+        "sha256": "53f9273b45a45055dc23baab4ccec6a6952dd3afb35f07125f4b5db855a95f68"
+      }
+    },
+    {
+      "state": "resolved",
+      "path": "rendered/passage_2.jpg",
+      "sha256": "84dad0498e0806174d64e450dfaca4ca31fdf89707c810fb31d9554bcbb5900e",
+      "heading_hidden": {
+        "path": "rendered/passage_2_no_heading.jpg",
+        "sha256": "31f3cc515a1b5cc077c4108d7651598eae8ea03b8602dcaffcab744e35a54719"
+      }
+    }
+  ],
+  "approval": "PENDING"
+}

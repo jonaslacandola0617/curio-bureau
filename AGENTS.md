@@ -1,5 +1,9 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
 
+## Current finishing correction — 17 October 2026
+
+Read [Cold Metal finishing standard](production/approved-benchmarks/COLD_METAL_FINISHING_STANDARD.md) for new work. The owner selects Cold Metal's texture/overlay balance and softened, visible caption backdrop. Lower backdrop opacity where needed; do not remove it. Mint v2's reduced haze is not the adopted default. Reject full-frame dusty overlay accumulation; preserve photographic detail. Mint is posted and is not being rebuilt under this instruction.
+
 ## Default delivery — owner update, 17 October 2026
 
 Native **1080 × 1920 at 30 fps** is now the standard final posting format. Use high-quality H.264 MP4 (12 Mbps target,16 Mbps peak ceiling) and AAC 48 kHz stereo 320 kbps.4K is optional when explicitly requested. Apply [the 1080p delivery standard](production/engine/DELIVERY_1080P_STANDARD.md). Older mandatory 4K statements below are superseded for new production; historical exports remain unchanged. Keep all visual/audio/whole-film quality gates and immediate versioned GitHub archiving.

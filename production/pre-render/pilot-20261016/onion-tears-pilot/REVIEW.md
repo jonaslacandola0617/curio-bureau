@@ -41,3 +41,7 @@ One complete 1080×1920/30 MP4 preview covers every clause and all joins, payoff
 ## Current next gate
 
 Five demanding finished art states and initial/intermediate/resolved hardest passage, including heading-hidden and phone-size comparison, then owner decision tied to actual image hashes. Motion only follows that decision. No owner approval is inferred from queue authorization.
+
+## Artwork v1 — 17 October 2026
+
+Seven complete-episode finished states, three-state difficult reveal, heading-hidden variants, native1080p frames and a standalone review are in [art-v1](art-v1/REVIEW.html). Owner art decision PENDING. Cold Metal finishing correction governs. No Onion movie has been rendered.

@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "created": "2026-10-17",
+  "prompts": [
+    {
+      "asset": "assets/onion.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: isolated photographic subject for a layered editorial science collage, not a complete layout. A fresh yellow onion cut vertically in half, its cut face oriented toward the viewer in a slightly elevated three-quarter view, broad beautiful translucent ivory concentric layers with pale yellow centers, rough golden papery skin hugging the outer edge and root fibers at the bottom. One thin vertical section/slice at the right separated from the main half by a small air gap, showing the actual pale cut edge. Main half fills the left 75%, slice right 20%, all completely within frame. Very sharp detailed food macro photograph, naturally imperfect moist layers, soft directional studio light from upper left. Genuine transparent background, no table, no board, no knife, no hands, no shadow baked into background, no graphics, labels, fog or particles. Keep onion halves anatomically believable. Natural restrained color, not glossy 3D."
+    },
+    {
+      "asset": "assets/eye.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: anonymous human-eye photographic crop for an original layered science editorial. Extreme close-up of one adult brown eye, natural medium warm skin, eyebrow and a little upper cheek, frontal angle, looking straight toward camera, mild watery tear film with a tiny clear tear bead just at the lower outer lid, not crying dramatically, no redness or disease. Authentic fine eyelashes and pores, soft diffuse studio light from upper left, tack sharp iris and lid. A photographic cutout shaped by the organic contour of the eyebrow/cheek, fading only at outer skin crop edges, genuine transparent background around the skin, no entire face or extra eye, no rectangular frame, no text, no graphic overlay, no smoke. Entire eye must remain inside the image with generous skin surround. Landscape 3:2 composition. This is illustrative photography, not medical evidence."
+    },
+    {
+      "asset": "assets/knife.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: single isolated kitchen knife photographic cutout for an editorial collage. One ordinary stainless steel chef knife, full silhouette, no branding, long triangular sharp blade pointing lower left, black handle at upper right, diagonal about 35 degrees, broad blade face toward camera slightly turned, realistic brushed steel satin reflections, soft upper-left studio light, neutral exposure. Entire object with generous margin inside landscape frame. Genuine transparent background. No food, no hands, no board, no blood, no text, no multiple knives, no reflection plane, no baked background shadow. A realistic object photo, not a 3D render."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "id": "onion",
+      "path": "assets/onion.png",
+      "sha256": "cb61b5220502f0b8dae8c5cf3469291f01183a82fcb3f9c5cff1682bf14688b2",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "provenance": "Original built-in image_gen photographic illustration, 17 October 2026. Not documentary or measured evidence.",
+      "generation_prompt": "GENERATION_PROMPTS.json",
+      "intended_operation": "Retain cut-face identity through tissue selection, source-attached reaction and airborne handoff. Main half and separated slice occupy different native source regions and can be masked independently.",
+      "rights_note": "Original generated project asset; no third-party source figure, trademark or archival authenticity claim."
+    },
+    {
+      "id": "eye",
+      "path": "assets/eye.png",
+      "sha256": "03c5ad035c12ac9b804b8bad0b3ea6536a93cfb823ad58deb0e9dbcd309b314b",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "provenance": "Original built-in image_gen photographic illustration, 17 October 2026. Not documentary or measured evidence.",
+      "generation_prompt": "GENERATION_PROMPTS.json",
+      "intended_operation": "Same anonymous eye is the distant destination, then the consequence close-up. No patient or before/after claim.",
+      "rights_note": "Original generated project asset; no third-party source figure, trademark or archival authenticity claim."
+    },
+    {
+      "id": "knife",
+      "path": "assets/knife.png",
+      "sha256": "857aa1d09d1f31f68ce048cefed42a3445669c2742ec6b5d40261f471c48075f",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "provenance": "Original built-in image_gen photographic illustration, 17 October 2026. Not documentary or measured evidence.",
+      "generation_prompt": "GENERATION_PROMPTS.json",
+      "intended_operation": "Separate layer; cut/contact then retreat entirely from the composition, never ghost opacity as a substitute for a physical exit.",
+      "rights_note": "Original generated project asset; no third-party source figure, trademark or archival authenticity claim."
+    }
+  ],
+  "font_dependencies": [
+    "../../cold-metal-pilot/art-v1/assets/Playfair900.ttf",
+    "../../cold-metal-pilot/art-v1/assets/Manrope800.ttf"
+  ],
+  "crop_limitations": [
+    "Onion macro is 1580px wide against 1536px source: 1.029x native magnification. Do not increase moving crop without a sharper asset or explicit review.",
+    "Eye close-up 1280px against1536px native. Keep actual source aspect ratio."
+  ],
+  "editable_components": [
+    "independent onion / knife / eye planes",
+    "source-local cut selection ring and leader",
+    "conceptual cell outlines and rupture mask",
+    "alliinase and LFS conversion labels/arrows",
+    "sparse LF category marks",
+    "caption box and separate feathered blur/gradient backdrop"
+  ],
+  "reference_frame": {
+    "path": "Cold_Metal_Reference.jpg",
+    "sha256": "75445954448ad57ce781187c3fcc827096b4f5d6b85bf49ee9be3962425c5ef6",
+    "origin": "Decoded at2s from accepted full Cold Metal movie, not a new styleframe"
+  }
+}

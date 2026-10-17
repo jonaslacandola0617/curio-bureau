@@ -1,0 +1,185 @@
+{
+  "scope": "artwork and project dependencies",
+  "files": [
+    {
+      "path": "ART_QA.json",
+      "bytes": 4689,
+      "sha256": "f116c9fd5cba10fe01410caf12a04f9d7aadd0e6cbcaf8a286c73e9bd9235cc0"
+    },
+    {
+      "path": "ASSETS.json",
+      "bytes": 3312,
+      "sha256": "b38840635093bae6e6dc254fdc609d0752fa05d4de8039fc8c0bfd9732ca515d"
+    },
+    {
+      "path": "Cold_Metal_Reference.jpg",
+      "bytes": 42614,
+      "sha256": "75445954448ad57ce781187c3fcc827096b4f5d6b85bf49ee9be3962425c5ef6"
+    },
+    {
+      "path": "GENERATION_PROMPTS.json",
+      "bytes": 2854,
+      "sha256": "5227892e3ef66db7c97eb4c095b80cae152856b5353bac6775ba112dd594ec90"
+    },
+    {
+      "path": "Onion_All_Scenes.jpg",
+      "bytes": 373417,
+      "sha256": "971a605fbe4378cbab5a11adc198c5fa2e44349d5a155483ac53a28c28eb6f41"
+    },
+    {
+      "path": "Onion_Five_Checkpoints.jpg",
+      "bytes": 270002,
+      "sha256": "585e405d250d0949902c8377f76c7ec73e54e3d718b59affc592a79d17d1d206"
+    },
+    {
+      "path": "Onion_Three_State_Passage.jpg",
+      "bytes": 243171,
+      "sha256": "816a31fd509331cc4e08864e168fd957345b363ee79bbe0f15a4e6c67d9296ce"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1386,
+      "sha256": "d947faa717c16db42666200d4e31d5a2ebf02523878c370a6ab79589c56e45ea"
+    },
+    {
+      "path": "REVIEW.html",
+      "bytes": 2506170,
+      "sha256": "34acc05a08c2c0a7c4704d43004fffd07912bb467f557609d89db801452e8ddd"
+    },
+    {
+      "path": "art.cjs",
+      "bytes": 11082,
+      "sha256": "26640c5e873e2e7c4fed3302e83222ddcdc10e57df0ea0c9a99a6adc8b978b64"
+    },
+    {
+      "path": "assets/eye.png",
+      "bytes": 2741961,
+      "sha256": "03c5ad035c12ac9b804b8bad0b3ea6536a93cfb823ad58deb0e9dbcd309b314b"
+    },
+    {
+      "path": "assets/knife.png",
+      "bytes": 1352946,
+      "sha256": "857aa1d09d1f31f68ce048cefed42a3445669c2742ec6b5d40261f471c48075f"
+    },
+    {
+      "path": "assets/onion.png",
+      "bytes": 2445087,
+      "sha256": "cb61b5220502f0b8dae8c5cf3469291f01183a82fcb3f9c5cff1682bf14688b2"
+    },
+    {
+      "path": "build-review.cjs",
+      "bytes": 5627,
+      "sha256": "640b7fb19f88366aca81c882f7b2222216bb86631562d6e0030b71c12102481b"
+    },
+    {
+      "path": "rendered/01_hook.jpg",
+      "bytes": 639102,
+      "sha256": "a4c23781bf0f54ddbbf81741e328113922499290af58c4247c747668ed6f1324"
+    },
+    {
+      "path": "rendered/01_hook_no_heading.jpg",
+      "bytes": 633007,
+      "sha256": "dee81f099eb4aaaac2eaea10cd107c794b86151d37baf3a88ba784ca7a09469d"
+    },
+    {
+      "path": "rendered/01_hook_without_caption.jpg",
+      "bytes": 687003,
+      "sha256": "3db7fa00435c73a33e9145a8386db717fc531b370f1e1b75cbc8dcdd36144774"
+    },
+    {
+      "path": "rendered/02_tissue.jpg",
+      "bytes": 670035,
+      "sha256": "eeb1ec1e577d745ca125b0259e7c62ed75c1e5b5269c6b830b6360fc7758ab5b"
+    },
+    {
+      "path": "rendered/02_tissue_no_heading.jpg",
+      "bytes": 657523,
+      "sha256": "7b5f090fb7bf58f9b9b8a805a945e57da3c88476e91fd1754ce596cbb106c09e"
+    },
+    {
+      "path": "rendered/03_lfs_step.jpg",
+      "bytes": 678867,
+      "sha256": "8173db6d5db9070c8540df420010f6b59c9258d009250f513ac1fbc385cd698c"
+    },
+    {
+      "path": "rendered/03_lfs_step_no_heading.jpg",
+      "bytes": 666129,
+      "sha256": "de1cc5924d8d2d50695123055340b13b3ba3ac286e1277abab892f2855f3378b"
+    },
+    {
+      "path": "rendered/04_lachrymatory_factor.jpg",
+      "bytes": 654338,
+      "sha256": "b74b8e6716dd7b8e3fad7c72e21b4e18b3f0578d9930ae6f3472e1b7cef281dd"
+    },
+    {
+      "path": "rendered/04_lachrymatory_factor_no_heading.jpg",
+      "bytes": 644705,
+      "sha256": "48741403de1613ea97bf72120c2b662cf33035a87a7ba8447edeace7739d6b7f"
+    },
+    {
+      "path": "rendered/05_airborne.jpg",
+      "bytes": 684987,
+      "sha256": "84c0d2f0cace58bf20546d410d29635af522561f0052db1a690373194f8bb622"
+    },
+    {
+      "path": "rendered/05_airborne_no_heading.jpg",
+      "bytes": 676501,
+      "sha256": "74d7cc954331fae3f868a59c76a4c53c74c1aabe3c63be214e5f66e4d05f97b1"
+    },
+    {
+      "path": "rendered/06_eye.jpg",
+      "bytes": 676664,
+      "sha256": "e4901133a46cd09ac29840c679c1a68d2289a56efd14346b0df3be5b08404e13"
+    },
+    {
+      "path": "rendered/06_eye_no_heading.jpg",
+      "bytes": 664043,
+      "sha256": "3386a5228f754ce183fde64e35bbb3261e12fdb06378e6f873f619ea2e737b7c"
+    },
+    {
+      "path": "rendered/07_payoff.jpg",
+      "bytes": 684997,
+      "sha256": "f758349f6192d28d345d44fb8ba56f73eb3367a2bd7985fa146cf260f9228f33"
+    },
+    {
+      "path": "rendered/07_payoff_no_heading.jpg",
+      "bytes": 674487,
+      "sha256": "54def70c0db0117be5898e45d3cfe20a963bf33716d02555372ab6cba76c3c14"
+    },
+    {
+      "path": "rendered/passage_0.jpg",
+      "bytes": 673648,
+      "sha256": "413dec228c38dcfe8a67a0932dc4742075631bba5c4f7de1bb0d54d48c97501a"
+    },
+    {
+      "path": "rendered/passage_0_no_heading.jpg",
+      "bytes": 662861,
+      "sha256": "eafc502890a6eb4947541433103cf229672e39df66705cc8b577693f85d0b3a8"
+    },
+    {
+      "path": "rendered/passage_1.jpg",
+      "bytes": 676853,
+      "sha256": "24aa556bcc1dfb0a9b771a2ef114ccf4a116af3e4fe317fe2887691ff924c59f"
+    },
+    {
+      "path": "rendered/passage_1_no_heading.jpg",
+      "bytes": 666454,
+      "sha256": "53f9273b45a45055dc23baab4ccec6a6952dd3afb35f07125f4b5db855a95f68"
+    },
+    {
+      "path": "rendered/passage_2.jpg",
+      "bytes": 676345,
+      "sha256": "84dad0498e0806174d64e450dfaca4ca31fdf89707c810fb31d9554bcbb5900e"
+    },
+    {
+      "path": "rendered/passage_2_no_heading.jpg",
+      "bytes": 667396,
+      "sha256": "31f3cc515a1b5cc077c4108d7651598eae8ea03b8602dcaffcab744e35a54719"
+    },
+    {
+      "path": "states.json",
+      "bytes": 2528,
+      "sha256": "2ae52b1cc68cf4d05555f0facf918bbfcda0030411cec6f7482d604f9a451174"
+    }
+  ]
+}

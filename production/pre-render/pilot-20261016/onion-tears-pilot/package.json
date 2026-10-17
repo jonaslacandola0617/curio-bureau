@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "episode_id": "onion-tears-pilot",
-  "status": "STORY_SEQUENCE_DRAFT",
+  "status": "ART_REVIEW",
   "settings": {
     "width": 1080,
     "height": 1920,
@@ -30,7 +30,7 @@
     {
       "path": "REVIEW.md",
       "role": "story",
-      "sha256": "ef7d3b819e0f6dec99755bec798ba43f7c1a867194e0e2ad0badd6309c9285db",
+      "sha256": "04955b637f703803394330da2a9cc7f44669cea9a283dd7bc4c5f240139ae06d",
       "archive": {
         "kind": "git"
       }
@@ -38,7 +38,7 @@
     {
       "path": "sequence_contract.json",
       "role": "sequence",
-      "sha256": "09ef6b3344a25db397331a12177efe0e72758c7be62c3a7fc2356957d84b9b2c",
+      "sha256": "091d5b7f48915ccab7a2392665f4b6b1d44ba7742fcc1c4cb8432d42e4808748",
       "archive": {
         "kind": "git"
       }
@@ -58,12 +58,52 @@
       "archive": {
         "kind": "git"
       }
+    },
+    {
+      "path": "art-v1/art.cjs",
+      "role": "source",
+      "sha256": "26640c5e873e2e7c4fed3302e83222ddcdc10e57df0ea0c9a99a6adc8b978b64",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v1/build-review.cjs",
+      "role": "source",
+      "sha256": "640b7fb19f88366aca81c882f7b2222216bb86631562d6e0030b71c12102481b",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v1/ASSETS.json",
+      "role": "proof",
+      "sha256": "b38840635093bae6e6dc254fdc609d0752fa05d4de8039fc8c0bfd9732ca515d",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v1/ART_QA.json",
+      "role": "proof",
+      "sha256": "f116c9fd5cba10fe01410caf12a04f9d7aadd0e6cbcaf8a286c73e9bd9235cc0",
+      "archive": {
+        "kind": "git"
+      }
+    },
+    {
+      "path": "art-v1/REVIEW.html",
+      "role": "proof",
+      "sha256": "34acc05a08c2c0a7c4704d43004fffd07912bb467f557609d89db801452e8ddd",
+      "archive": {
+        "kind": "git"
+      }
     }
   ],
   "gates": {},
   "unresolved_findings": [
     "Actual finished art/sequence owner review pending",
-    "Remaining asset rights and max-crop quality not locked",
+    "Generated asset provenance recorded; largest moving crop and individual layer exits still need review",
     "Natural Bernard speech, word alignment and final score/SFX mix pending",
     "Complete native1080p movie and per-scene/whole-film owner review pending",
     "Frozen dependency closure, GitHub input receipts and clean restore pending"
@@ -71,5 +111,6 @@
   "frozen_fingerprint": null,
   "production_scope": "complete_episode",
   "publish_intent": "NEW POST / batch slot 2",
-  "sequence_revision": 2
+  "sequence_revision": 3,
+  "finishing_benchmark": "Cold Metal complete accepted movie / owner correction17Oct"
 }
