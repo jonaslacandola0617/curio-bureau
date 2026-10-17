@@ -1,6 +1,6 @@
 {
   "scope": "Existing movie recovery; no render/re-encode",
-  "status": "UPLOAD_IN_PROGRESS",
+  "status": "ARCHIVED",
   "branch": "film/ghost-army-1945",
   "previous_branch_head": "cf8dbcfc3deb614fb9625843a08ff6cf586249e8",
   "original_render_source_commit": "not inferred from archive commit",
@@ -36,7 +36,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/ghost-army-1945"
+      "branch": "film/ghost-army-1945",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649799954,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/CURIO_GHOST_ARMY_PAPER_COLLAGE_MOTION_TEST_WITH_AUDIO.mp4",
+        "size": 8323462,
+        "digest": "sha256:0049cfb8cd37300680d64c1995c0f750b4e102e3a700f49137847af3d30b0c39",
+        "state": "uploaded"
+      }
     },
     {
       "name": "CURIO_GHOST_ARMY_CONTINUOUS_PARALLAX_WITH_SOUND.webm",
@@ -65,7 +73,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/ghost-army-1945"
+      "branch": "film/ghost-army-1945",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649803058,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/CURIO_GHOST_ARMY_CONTINUOUS_PARALLAX_WITH_SOUND.webm",
+        "size": 8578430,
+        "digest": "sha256:d42e95389641318c3a9c36b5f0c83b3b7b68803a77e139dd9bd02908ed2af880",
+        "state": "uploaded"
+      }
     },
     {
       "name": "CURIO_GHOST_ARMY_CONTINUOUS_PARALLAX_WITH_SOUND.mp4",
@@ -98,7 +114,15 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/ghost-army-1945"
+      "branch": "film/ghost-army-1945",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649804372,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/CURIO_GHOST_ARMY_CONTINUOUS_PARALLAX_WITH_SOUND.mp4",
+        "size": 11741900,
+        "digest": "sha256:d8fc8c1c6e84128cc4024aaa2d4b176f07af2a18490b798439976c0acd651db6",
+        "state": "uploaded"
+      }
     },
     {
       "name": "CURIO_GHOST_ARMY_PAPER_COLLAGE_MOTION_TEST_WITH_AUDIO.webm",
@@ -127,8 +151,27 @@
       "recovery": {
         "operation": "original Library bytes, unchanged"
       },
-      "branch": "film/ghost-army-1945"
+      "branch": "film/ghost-army-1945",
+      "archive": {
+        "release_id": 415635236,
+        "asset_id": 649814220,
+        "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/curio-backcatalog-archive-20261017/CURIO_GHOST_ARMY_PAPER_COLLAGE_MOTION_TEST_WITH_AUDIO.webm",
+        "size": 3454029,
+        "digest": "sha256:d588ac386e866e67272fd0880eb3218c5eb9325e7cb13f4bf2f62575c82329f6",
+        "state": "uploaded"
+      }
     }
   ],
-  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+  "retain": "Keep editable project packages, original required assets, exact fonts/branding, reusable SFX/music/voice configuration, references and approved full-video benchmarks. Do not delete unique source packages merely because the export is archived. Duplicate downloads and temporary capture chunks can be removed after backup verification.",
+  "archived_at": "2026-10-17T07:05:29.719Z",
+  "recovery_checkpoint_parent": "a09c1675bb9920beb01d4310eb42bdc0e316dbf9",
+  "release": {
+    "id": 415635236,
+    "tag": "curio-backcatalog-archive-20261017",
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/curio-backcatalog-archive-20261017",
+    "published_at": "2026-10-17T07:04:25Z"
+  },
+  "verification": "Local SHA-256 and file sizes matched GitHub's observed uploaded-asset digest and size. Container/stream metadata was inspected with ffprobe. No video rendering or re-encoding.",
+  "historical_status": "This is a recovery archive, not new owner approval. Preview, WIP and rejected-test designations still apply. Movie durations and stream metadata are recorded; header/hash verification is not a fresh full-film artistic/listening review.",
+  "source_lineage": "The recovery commit and collection tag identify this archive checkpoint. They are not claimed to be the original render source commit."
 }
