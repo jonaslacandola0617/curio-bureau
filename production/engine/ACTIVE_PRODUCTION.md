@@ -1,4 +1,8 @@
 # Active production entry point
+
+## Every render is versioned immediately — 17 October 2026
+
+Owner explicitly reinforced GitHub VERSIONING. Read `GITHUB_EXPORT_STORAGE.md`: source checkpoint before capture; each completed preview/test/master/posting/browser export archived immediately with its source commit, unique version and observed checksum receipt; older versions preserved. Archive closed expensive chunks every two for previews as well as native renders. No next expensive revision or end-of-turn completion claim while archive is pending. An active local job does not establish durable background execution. The policy is mandatory; automatic authenticated upload is not yet implemented by the local preview capture scripts.
 **Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
 
 

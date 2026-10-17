@@ -1,4 +1,6 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
+
+**Mandatory render versioning, owner reinforcement 17 October 2026:** Follow `production/engine/GITHUB_EXPORT_STORAGE.md`. Checkpoint source before capture; immediately archive every completed video output in its own versioned GitHub record before extended review, another revision or ending the turn. Preserve older assets/tags; commit observed byte/hash/download receipts. Archive expensive closed chunks at least every two, including previews. A local running job or source-only commit is not a saved export. If archiving fails, stop at `ENCODED_ARCHIVE_PENDING` and resume saving those bytes before more rendering. This applies to tests and previews as well as final 4K.
 **Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
 
 
