@@ -1,0 +1,167 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "film/water-wrinkled-fingers",
+  "previous_branch_head": "d3c35140314deaf6976a0d3cf17f87da003f1d3a",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "Wrinkled_Fingers_4K_Posting.mp4",
+      "size": 29975634,
+      "sha256": "65632ec2978a65c0ae3c078d216074de903b59fa79235d29da904e3aad33ba30",
+      "group": "wrinkled-fingers",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "36.300000",
+          "nb_frames": "1089"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "36.300000",
+          "nb_frames": "1703"
+        }
+      ],
+      "duration": "36.300000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/water-wrinkled-fingers"
+    },
+    {
+      "name": "Wrinkled_Fingers_4K.webm",
+      "size": 33538307,
+      "sha256": "7cfe4c1e306a4736324b985e31fe5094364725e3f7725be3a07fdbd36700550d",
+      "group": "wrinkled-fingers",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "36.308000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/water-wrinkled-fingers"
+    },
+    {
+      "name": "Wrinkles_Motion_Review.mp4",
+      "size": 7519931,
+      "sha256": "8944e4c439781e69c9129f9fd9d91d101392e5f5fe6d6b56ddd96928a124c11c",
+      "group": "wrinkled-fingers",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "12.000000",
+          "nb_frames": "360"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "12.000000",
+          "nb_frames": "564"
+        }
+      ],
+      "duration": "12.000000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/water-wrinkled-fingers"
+    },
+    {
+      "name": "Wrinkles_Motion_Review.webm",
+      "size": 5311347,
+      "sha256": "b5b11a6d6a1bf68fb5c2bde4e8a638b5746c05105a2edb60b76ad232be3fe5d6",
+      "group": "wrinkled-fingers",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "12.008000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/water-wrinkled-fingers"
+    },
+    {
+      "name": "Wrinkled_Fingers_4K_Master.mp4",
+      "size": 66346635,
+      "sha256": "936984478890010ddefc500d75847386f18539fd14631495834400c8271c635a",
+      "group": "wrinkled-fingers",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "36.300000",
+          "nb_frames": "1089"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "36.300000",
+          "nb_frames": "1703"
+        }
+      ],
+      "duration": "36.300000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/water-wrinkled-fingers"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
