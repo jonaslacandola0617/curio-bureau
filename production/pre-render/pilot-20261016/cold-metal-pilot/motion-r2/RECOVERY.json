@@ -17,8 +17,7 @@
       "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
       "github_release_id": 415535198,
       "github_asset_id": 649298965,
-      "github_digest": "sha256:f3bebb852adbf2e09cbe46a8082bff5a6c91998d3f774ff73852df85c129eca4",
-      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/untagged-c3835fec7b2b3c236147/chunk_0000_30.mkv"
+      "github_digest": "sha256:f3bebb852adbf2e09cbe46a8082bff5a6c91998d3f774ff73852df85c129eca4"
     },
     {
       "file": "chunks/chunk_0030_30.mkv",
@@ -31,8 +30,35 @@
       "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
       "github_release_id": 415535198,
       "github_asset_id": 649301162,
-      "github_digest": "sha256:1a2ffb7b241457b98a64dfdbb6bdc94d182f8ee34f014e5c0862405d0336c9b6",
-      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/untagged-c3835fec7b2b3c236147/chunk_0030_30.mkv"
+      "github_digest": "sha256:1a2ffb7b241457b98a64dfdbb6bdc94d182f8ee34f014e5c0862405d0336c9b6"
+    },
+    {
+      "file": "chunks/chunk_0060_30.mkv",
+      "start_frame": 60,
+      "frame_count": 30,
+      "sha256": "c3fb25cec416d67ac280e23138d7f651450f8251a67201036a42127b83580ef8",
+      "bytes": 215780252,
+      "decode": "PASS",
+      "storage_status": "DURABLE",
+      "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
+      "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
+      "github_release_id": 415535198,
+      "github_asset_id": 649308166,
+      "github_digest": "sha256:c3fb25cec416d67ac280e23138d7f651450f8251a67201036a42127b83580ef8"
+    },
+    {
+      "file": "chunks/chunk_0090_30.mkv",
+      "start_frame": 90,
+      "frame_count": 30,
+      "sha256": "f75fc3aa4c8a24dffd5ced526fa71de9462f6ec09a3f325d18a40956ecc5daf1",
+      "bytes": 111866217,
+      "decode": "PASS",
+      "storage_status": "DURABLE",
+      "source_fingerprint": "97b44bbc883beec83853d257213c109f8590871178cfbbdaa1236df7c0989e60",
+      "runner_sha256": "248ac42e968fbfa840ce3124ed41deed08f5d95bd8939acc81d20c2cb15b44f8",
+      "github_release_id": 415535198,
+      "github_asset_id": 649308450,
+      "github_digest": "sha256:f75fc3aa4c8a24dffd5ced526fa71de9462f6ec09a3f325d18a40956ecc5daf1"
     }
   ]
 }
