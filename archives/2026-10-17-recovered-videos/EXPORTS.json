@@ -1,0 +1,291 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "work/curio-optics-recovery-20261013",
+  "previous_branch_head": "de707931c30f9083a83c266e68d475c12b92eb93",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "Curio_Map_Focus_03.webm",
+      "size": 18849712,
+      "sha256": "c250a19c4c4d8995dbbc63cd3eefc7321ca090c352d5070d9df8d927fe75b35b",
+      "group": "optics-studies",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "12.018000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "work/curio-optics-recovery-20261013"
+    },
+    {
+      "name": "Curio_Map_Finish_02.mp4",
+      "size": 22282362,
+      "sha256": "fcb21c9ecccf5cbf2fe9c4327af24501a6af0750fc33017077c60dfb2313aec4",
+      "group": "optics-studies",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "12.000000",
+          "nb_frames": "360"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "12.000000",
+          "nb_frames": "564"
+        }
+      ],
+      "duration": "12.000000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "work/curio-optics-recovery-20261013"
+    },
+    {
+      "name": "Curio_Tutorial_Optics_Test_Preview.mp4",
+      "size": 54480974,
+      "sha256": "074c85a089fd1f609182a7fa1a09acef6523245501f1a275c63bf869f94bd34e",
+      "group": "optics-studies",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "12.800000",
+          "nb_frames": "384"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "12.800000",
+          "nb_frames": "601"
+        }
+      ],
+      "duration": "12.800000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "work/curio-optics-recovery-20261013"
+    },
+    {
+      "name": "Curio_Map_Study_01.mp4",
+      "size": 17365079,
+      "sha256": "26a0c6896cda6c0cd9bc49d75f420bf8db6186586dbfb69e54250a98d4a152a8",
+      "group": "optics-studies",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "12.000000",
+          "nb_frames": "360"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "12.000000",
+          "nb_frames": "564"
+        }
+      ],
+      "duration": "12.000000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "work/curio-optics-recovery-20261013"
+    },
+    {
+      "name": "Curio_Map_Finish_02.webm",
+      "size": 14974114,
+      "sha256": "ff935370ff327462a76286c6ab9a7103a287984384a596a480ad3c37199b43e5",
+      "group": "optics-studies",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "12.018000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "work/curio-optics-recovery-20261013"
+    },
+    {
+      "name": "Curio_Tutorial_Optics_Test_4K.webm",
+      "size": 94307585,
+      "sha256": "d4a471496006baab94144110b9585f0352afb94ed87a21ccf3227af87beb7884",
+      "group": "optics-studies",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "12.808000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "work/curio-optics-recovery-20261013"
+    },
+    {
+      "name": "Curio_Tutorial_Optics_Test_4K.mp4",
+      "size": 158960643,
+      "sha256": "f0b7032b3086141218fdaa55b5a9df2e81e6dff0cab01bd04603a37dd764e1fe",
+      "group": "optics-studies",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "12.800000",
+          "nb_frames": "384"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "12.800000",
+          "nb_frames": "601"
+        }
+      ],
+      "duration": "12.800000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "work/curio-optics-recovery-20261013"
+    },
+    {
+      "name": "Curio_Map_Focus_03.mp4",
+      "size": 39876513,
+      "sha256": "7856ac499d44496f16b892a0b0d164c4e640a8e498fa9ed15babd9bd57adbb87",
+      "group": "optics-studies",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "12.000000",
+          "nb_frames": "360"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "12.000000",
+          "nb_frames": "564"
+        }
+      ],
+      "duration": "12.000000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "work/curio-optics-recovery-20261013"
+    },
+    {
+      "name": "Curio_Map_Study_01.webm",
+      "size": 15296868,
+      "sha256": "4af0ca1e1e0be8da3271839612d54b6a26415314ec7798c80aa3bd4c7639d7a9",
+      "group": "optics-studies",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "12.018000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "work/curio-optics-recovery-20261013"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
