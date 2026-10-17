@@ -1,0 +1,140 @@
+{
+  "scope": "Existing movie recovery; no render/re-encode",
+  "status": "UPLOAD_IN_PROGRESS",
+  "branch": "film/london-bridge-arizona-1968",
+  "previous_branch_head": "8ab7e570ece80bd0cb7d44f1109807078a867c20",
+  "original_render_source_commit": "not inferred from archive commit",
+  "exports": [
+    {
+      "name": "London_Bridge_Review.mp4",
+      "size": 249336345,
+      "sha256": "ca109e75dac3c68b15109c659c0a600ba7ce4d2eefa4d31fadb78e9ce13f718a",
+      "group": "london-bridge",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "duration": "52.500000",
+          "nb_frames": "1575"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "52.500000",
+          "nb_frames": "2462"
+        }
+      ],
+      "duration": "52.500000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/london-bridge-arizona-1968"
+    },
+    {
+      "name": "London_Bridge_4K_Master.mp4",
+      "size": 712870545,
+      "sha256": "6ddd07068a271f6e65f262edd0e14c6e59df2533fb42677c867a2d1f33458619",
+      "group": "london-bridge",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "52.500000",
+          "nb_frames": "1575"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "52.500000",
+          "nb_frames": "2462"
+        }
+      ],
+      "duration": "52.500000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "ZIP extraction, no render or re-encode",
+        "archive": "London_Bridge_4K_Master_Archive.zip",
+        "sha256": "6ddd07068a271f6e65f262edd0e14c6e59df2533fb42677c867a2d1f33458619"
+      },
+      "branch": "film/london-bridge-arizona-1968"
+    },
+    {
+      "name": "London_Bridge_4K.mp4",
+      "size": 316068118,
+      "sha256": "615335b50b1250150394ba12c64bb04554a28630897fb098184346ebb2465d92",
+      "group": "london-bridge",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1",
+          "duration": "52.500000",
+          "nb_frames": "1575"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "52.500000",
+          "nb_frames": "2462"
+        }
+      ],
+      "duration": "52.500000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/london-bridge-arizona-1968"
+    },
+    {
+      "name": "London_Bridge_4K.webm",
+      "size": 389565009,
+      "sha256": "55780ecfebdf2582916670f54b889ac763dec5a78bf22ef7545005beb0c8b864",
+      "group": "london-bridge",
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 2160,
+          "height": 3840,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "duration": "52.508000",
+      "status": "HEADER_AND_HASH_PASS",
+      "full_decode": "Not rerun for this recovery archive; no new artistic or final-output certification",
+      "recovery": {
+        "operation": "original Library bytes, unchanged"
+      },
+      "branch": "film/london-bridge-arizona-1968"
+    }
+  ],
+  "retain": "Editable source/assets/fonts/audio/tutorials and approved benchmarks remain necessary; no further Library deletion authorized by this archive."
+}
