@@ -1,0 +1,48 @@
+{
+  "native": [
+    1080,
+    1920
+  ],
+  "studio_sha256": "874d053759b908b20c1835aee60263a6ab99ba21f0d6a43562420a55feafa7dd",
+  "cases": [
+    {
+      "t": 0.6,
+      "meanRedDifference": 6.618254726080247,
+      "opaqueCaptionDifference": 0,
+      "opaque_glyph_channel_samples": 16977
+    },
+    {
+      "t": 18.4,
+      "meanRedDifference": 4.044955150462963,
+      "opaqueCaptionDifference": 0,
+      "opaque_glyph_channel_samples": 26808
+    },
+    {
+      "t": 45.61666666666667,
+      "meanRedDifference": 0,
+      "opaqueCaptionDifference": null,
+      "opaque_glyph_channel_samples": 0
+    }
+  ],
+  "temporal_grain": {
+    "changed_mean_abs": 2.4018492798353908,
+    "source_frozen_at": 18.4,
+    "times": [
+      18.41,
+      18.43
+    ],
+    "same_jitter_and_exposure_buckets": true
+  },
+  "errors": [],
+  "status": "PASS",
+  "render_sha256": "874d053759b908b20c1835aee60263a6ab99ba21f0d6a43562420a55feafa7dd",
+  "core_sha256": "ba38f09677a93d3c871f31194ca424424958522eedae293dddc1f2b665fafe41",
+  "changed_pixels": 1860626,
+  "deterministic": true,
+  "opaque_caption_glyph_pixels": 8936,
+  "opaque_caption_glyph_differences": 0,
+  "locked_ending_identical": true,
+  "fixed_source_temporal_grain_changes": true,
+  "no_shadow_or_haze_helpers": true,
+  "scope": "Native runtime pixel checks. Not an owner art/motion or subjective listening approval."
+}

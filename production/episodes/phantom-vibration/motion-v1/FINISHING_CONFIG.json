@@ -1,0 +1,1 @@
+{"id":"phantom-vibration","revision":1,"visual_style":"image-led","finishing":{"enabled":true,"implementation":"native @napi-rs/canvas; render.cjs and scene-core.cjs; all text after picture optics","contract":"FINISHING_CONTRACT.md","runtime_proof":"FINISHING_RUNTIME_PROOF.json","studio":"render.cjs"}}

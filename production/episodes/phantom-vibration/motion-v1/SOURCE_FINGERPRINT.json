@@ -1,0 +1,142 @@
+{
+  "episode": "phantom-vibration",
+  "revision": 1,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1373,
+  "inputs": [
+    {
+      "path": "../../../engine/browser/brand.js",
+      "sha256": "fad97f68e9a2333830e31479d6c86d7585641cde5101c6660ee9a5d7d5c44df8",
+      "bytes": 923
+    },
+    {
+      "path": "../../../engine/requirements.lock.json",
+      "sha256": "3908ba09128c7c2379cc2f7e1a2f92495e61d1165957f3e8b065c0fb1a61fbf7",
+      "bytes": 1957
+    },
+    {
+      "path": "../NARRATION.md",
+      "sha256": "2ca872679f7c8946fe21a9e82bbc0043d3f0599d4363accafcf29fb0eb1a34ea",
+      "bytes": 1179
+    },
+    {
+      "path": "../RESEARCH.md",
+      "sha256": "4e84e7ae9a2958f513420fb5c562be051816189ea7a3df3edce30a3044fc70c1",
+      "bytes": 3548
+    },
+    {
+      "path": "../art-v1/FRAME_MANIFEST.json",
+      "sha256": "3e033c3c5d6490a10bca4120f93be89a0657d7d674086ee85a8224d20a7ab8fd",
+      "bytes": 3450
+    },
+    {
+      "path": "../art-v1/assets/Manrope800.ttf",
+      "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105",
+      "bytes": 98080
+    },
+    {
+      "path": "../art-v1/assets/Playfair900.ttf",
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38",
+      "bytes": 194772
+    },
+    {
+      "path": "../art-v1/assets/hip.png",
+      "sha256": "7b44fc50535c3e70b7542d5ad261ff6d0551f0a5993879a2154c3866d2ddc5f3",
+      "bytes": 3283709
+    },
+    {
+      "path": "../art-v1/assets/phone.png",
+      "sha256": "05abbc4ca752b7f4f8dd0af2e87c9403b4c4f6552c8af7ff99679d29085289e1",
+      "bytes": 1605624
+    },
+    {
+      "path": "FINISHING_CONFIG.json",
+      "sha256": "555be542eff1a44ef310261b96707e5f9921791a3d6dfd571d5d855ac3f8371f",
+      "bytes": 304
+    },
+    {
+      "path": "FINISHING_CONTRACT.md",
+      "sha256": "622c9536f687fe1e007e8b8de4c0a2cbac01e6b2a834f64ed112c8cb58746ed7",
+      "bytes": 1978
+    },
+    {
+      "path": "FINISHING_RUNTIME_PROOF.json",
+      "sha256": "5bc33f0ff5f09d01e6b578f24619152cd7cb3c2996a12f6ceedce48be519ffa0",
+      "bytes": 1363
+    },
+    {
+      "path": "NARRATION_SOURCE.json",
+      "sha256": "82f3aba1c9f540946c3cba5f748189f4098da4aad650e7ed78fb11a8a11672f0",
+      "bytes": 706
+    },
+    {
+      "path": "Phantom-Mix-v1.flac",
+      "sha256": "45d5c0cc26b802cd97e7c6e1363019af29fbe58449d4a39a0f34e580d799c916",
+      "bytes": 2966504
+    },
+    {
+      "path": "SFX_CUE_SHEET.json",
+      "sha256": "abf5433d26428c7f3242e6efbd8830b68baf6006c05a820f8c82e64971bc0ca4",
+      "bytes": 10107
+    },
+    {
+      "path": "audio/voice-original.mp3",
+      "sha256": "d5c2fb2903b53c8a39b3895aaced9f8cd4ee40f201c33b1846e9f1f8ccea74f8",
+      "bytes": 708901
+    },
+    {
+      "path": "captions.srt",
+      "sha256": "046cdc02f1bd9fbf07d102339b8c1d51dffbdc255a8429bf49cde64035276c6e",
+      "bytes": 1422
+    },
+    {
+      "path": "capture.py",
+      "sha256": "68e30fba6b386754a6680a185ae33af19f633b6254c331d2018e6ed3f8ae052b",
+      "bytes": 2039
+    },
+    {
+      "path": "mix.py",
+      "sha256": "f6031350534a4268d86b8ac13847882ead5c87742c04aa3b31659c6e4e273b04",
+      "bytes": 7213
+    },
+    {
+      "path": "prepare-timeline.py",
+      "sha256": "32f97137e4ecaf7fb00905dbfc9e814ff9dc9b8da51e337058b42da93174aab6",
+      "bytes": 4115
+    },
+    {
+      "path": "qa-finishing.cjs",
+      "sha256": "8db8c28324d428abede59cfeda92ff9f4c1dd9e4ce93aabb411c5e4c39c18e59",
+      "bytes": 3713
+    },
+    {
+      "path": "render.cjs",
+      "sha256": "874d053759b908b20c1835aee60263a6ab99ba21f0d6a43562420a55feafa7dd",
+      "bytes": 6472
+    },
+    {
+      "path": "scene-core.cjs",
+      "sha256": "ba38f09677a93d3c871f31194ca424424958522eedae293dddc1f2b665fafe41",
+      "bytes": 8916
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "17f370efa2afb51e3d46445c566069f141d117428f0171632613bb1019a9b66c",
+      "bytes": 23288
+    },
+    {
+      "path": "transcribe.py",
+      "sha256": "880592635a656c9663988e5582034e1c92f843e8f3e8e6564b1f9d3c1eafb0af",
+      "bytes": 1051
+    }
+  ],
+  "render_role": "complete owner-review candidate; not owner production approval",
+  "toolchain": {
+    "node": "v24.19.0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+  },
+  "voice": "Bernard, single source generation; no time stretch"
+}

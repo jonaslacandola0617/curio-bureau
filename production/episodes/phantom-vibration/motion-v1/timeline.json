@@ -1,0 +1,1065 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1373,
+  "duration": 45.766666666666666,
+  "voice_original_duration": 44.24,
+  "voice_edited_duration": 43.84,
+  "voice_silence_edits": [
+    {
+      "start": 12.8,
+      "end": 13.2,
+      "basis": "Inside measured12.5666\u201313.6345 quiet interval, outside ASR spoken words; remove400ms of silence only"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 1.8399999999999999,
+      "source_state": "hook"
+    },
+    {
+      "id": "S02",
+      "start": 1.8399999999999999,
+      "end": 9.48,
+      "source_state": "check"
+    },
+    {
+      "id": "S03",
+      "start": 9.48,
+      "end": 13.02,
+      "source_state": "name"
+    },
+    {
+      "id": "S04",
+      "start": 13.02,
+      "end": 22.299999999999997,
+      "source_state": "candidate"
+    },
+    {
+      "id": "S05",
+      "start": 22.299999999999997,
+      "end": 26.799999999999997,
+      "source_state": "interpretation"
+    },
+    {
+      "id": "S06",
+      "start": 26.799999999999997,
+      "end": 35.64,
+      "source_state": "evidence"
+    },
+    {
+      "id": "S07",
+      "start": 35.64,
+      "end": 45.766666666666666,
+      "source_state": "payoff"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 1.5499999999999998,
+      "text": "You felt your phone vibrate.",
+      "word_start": 0,
+      "word_end": 4
+    },
+    {
+      "start": 1.94,
+      "end": 2.57,
+      "text": "You checked it.",
+      "word_start": 5,
+      "word_end": 7
+    },
+    {
+      "start": 3.0,
+      "end": 3.4099999999999997,
+      "text": "Nothing.",
+      "word_start": 8,
+      "word_end": 8
+    },
+    {
+      "start": 4.02,
+      "end": 6.01,
+      "text": "So what did you actually feel?",
+      "word_start": 9,
+      "word_end": 14
+    },
+    {
+      "start": 6.52,
+      "end": 8.615,
+      "text": "Sometimes the phone never vibrated at",
+      "word_start": 15,
+      "word_end": 20
+    },
+    {
+      "start": 8.64,
+      "end": 8.99,
+      "text": "all.",
+      "word_start": 21,
+      "word_end": 21
+    },
+    {
+      "start": 9.58,
+      "end": 11.514999999999999,
+      "text": "That experience is called a phantom",
+      "word_start": 22,
+      "word_end": 27
+    },
+    {
+      "start": 11.54,
+      "end": 12.21,
+      "text": "vibration.",
+      "word_start": 28,
+      "word_end": 28
+    },
+    {
+      "start": 13.12,
+      "end": 15.435,
+      "text": "One proposed explanation starts with what",
+      "word_start": 29,
+      "word_end": 34
+    },
+    {
+      "start": 15.46,
+      "end": 16.05,
+      "text": "you expect.",
+      "word_start": 35,
+      "word_end": 36
+    },
+    {
+      "start": 16.68,
+      "end": 17.97,
+      "text": "When you're waiting for a call,",
+      "word_start": 37,
+      "word_end": 42
+    },
+    {
+      "start": 18.36,
+      "end": 20.175,
+      "text": "your brain may interpret another sensation",
+      "word_start": 43,
+      "word_end": 48
+    },
+    {
+      "start": 20.2,
+      "end": 21.73,
+      "text": "as the familiar buzz.",
+      "word_start": 49,
+      "word_end": 52
+    },
+    {
+      "start": 22.4,
+      "end": 24.355,
+      "text": "Pressure from clothing or a small",
+      "word_start": 53,
+      "word_end": 58
+    },
+    {
+      "start": 24.38,
+      "end": 26.349999999999998,
+      "text": "muscle movement are possible candidates.",
+      "word_start": 59,
+      "word_end": 63
+    },
+    {
+      "start": 26.9,
+      "end": 29.295,
+      "text": "But researchers haven't pinned down exactly",
+      "word_start": 64,
+      "word_end": 69
+    },
+    {
+      "start": 29.32,
+      "end": 30.689999999999998,
+      "text": "what causes it.",
+      "word_start": 70,
+      "word_end": 72
+    },
+    {
+      "start": 31.16,
+      "end": 33.11,
+      "text": "Surveys document the experience.",
+      "word_start": 73,
+      "word_end": 76
+    },
+    {
+      "start": 33.58,
+      "end": 34.89,
+      "text": "They don't prove that mechanism.",
+      "word_start": 77,
+      "word_end": 81
+    },
+    {
+      "start": 35.74,
+      "end": 37.775,
+      "text": "So a convincing buzz isn't always",
+      "word_start": 82,
+      "word_end": 87
+    },
+    {
+      "start": 37.8,
+      "end": 39.61,
+      "text": "proof that your phone vibrated.",
+      "word_start": 88,
+      "word_end": 92
+    },
+    {
+      "start": 40.12,
+      "end": 41.63,
+      "text": "The sensation can feel real,",
+      "word_start": 93,
+      "word_end": 97
+    },
+    {
+      "start": 42.06,
+      "end": 43.870000000000005,
+      "text": "even when the alert wasn't.",
+      "word_start": 98,
+      "word_end": 102
+    }
+  ],
+  "words": [
+    {
+      "start": 0.0,
+      "end": 0.16,
+      "text": "You",
+      "probability": 0.5696146488189697,
+      "original_start": 0.0,
+      "original_end": 0.16
+    },
+    {
+      "start": 0.16,
+      "end": 0.32,
+      "text": "felt",
+      "probability": 0.9846567511558533,
+      "original_start": 0.16,
+      "original_end": 0.32
+    },
+    {
+      "start": 0.32,
+      "end": 0.48,
+      "text": "your",
+      "probability": 0.9925968647003174,
+      "original_start": 0.32,
+      "original_end": 0.48
+    },
+    {
+      "start": 0.48,
+      "end": 0.82,
+      "text": "phone",
+      "probability": 0.9919540286064148,
+      "original_start": 0.48,
+      "original_end": 0.82
+    },
+    {
+      "start": 0.82,
+      "end": 1.42,
+      "text": "vibrate.",
+      "probability": 0.9989334046840668,
+      "original_start": 0.82,
+      "original_end": 1.42
+    },
+    {
+      "start": 1.94,
+      "end": 2.04,
+      "text": "You",
+      "probability": 0.9907998442649841,
+      "original_start": 1.94,
+      "original_end": 2.04
+    },
+    {
+      "start": 2.04,
+      "end": 2.26,
+      "text": "checked",
+      "probability": 0.9936926364898682,
+      "original_start": 2.04,
+      "original_end": 2.26
+    },
+    {
+      "start": 2.26,
+      "end": 2.44,
+      "text": "it.",
+      "probability": 0.9970394968986511,
+      "original_start": 2.26,
+      "original_end": 2.44
+    },
+    {
+      "start": 3.0,
+      "end": 3.28,
+      "text": "Nothing.",
+      "probability": 0.9760398864746094,
+      "original_start": 3.0,
+      "original_end": 3.28
+    },
+    {
+      "start": 4.02,
+      "end": 4.26,
+      "text": "So",
+      "probability": 0.9855741858482361,
+      "original_start": 4.02,
+      "original_end": 4.26
+    },
+    {
+      "start": 4.26,
+      "end": 4.5,
+      "text": "what",
+      "probability": 0.8269210457801819,
+      "original_start": 4.26,
+      "original_end": 4.5
+    },
+    {
+      "start": 4.5,
+      "end": 4.66,
+      "text": "did",
+      "probability": 0.9984660148620605,
+      "original_start": 4.5,
+      "original_end": 4.66
+    },
+    {
+      "start": 4.66,
+      "end": 4.82,
+      "text": "you",
+      "probability": 0.9981722831726074,
+      "original_start": 4.66,
+      "original_end": 4.82
+    },
+    {
+      "start": 4.82,
+      "end": 5.36,
+      "text": "actually",
+      "probability": 0.9741876125335693,
+      "original_start": 4.82,
+      "original_end": 5.36
+    },
+    {
+      "start": 5.36,
+      "end": 5.88,
+      "text": "feel?",
+      "probability": 0.9993409514427185,
+      "original_start": 5.36,
+      "original_end": 5.88
+    },
+    {
+      "start": 6.52,
+      "end": 7.0,
+      "text": "Sometimes",
+      "probability": 0.983301043510437,
+      "original_start": 6.52,
+      "original_end": 7.0
+    },
+    {
+      "start": 7.0,
+      "end": 7.34,
+      "text": "the",
+      "probability": 0.8990666270256042,
+      "original_start": 7.0,
+      "original_end": 7.34
+    },
+    {
+      "start": 7.34,
+      "end": 7.56,
+      "text": "phone",
+      "probability": 0.9987161159515381,
+      "original_start": 7.34,
+      "original_end": 7.56
+    },
+    {
+      "start": 7.56,
+      "end": 7.84,
+      "text": "never",
+      "probability": 0.9981830716133118,
+      "original_start": 7.56,
+      "original_end": 7.84
+    },
+    {
+      "start": 7.84,
+      "end": 8.44,
+      "text": "vibrated",
+      "probability": 0.9619995653629303,
+      "original_start": 7.84,
+      "original_end": 8.44
+    },
+    {
+      "start": 8.44,
+      "end": 8.64,
+      "text": "at",
+      "probability": 0.9931198358535767,
+      "original_start": 8.44,
+      "original_end": 8.64
+    },
+    {
+      "start": 8.64,
+      "end": 8.86,
+      "text": "all.",
+      "probability": 0.9985156655311584,
+      "original_start": 8.64,
+      "original_end": 8.86
+    },
+    {
+      "start": 9.58,
+      "end": 9.74,
+      "text": "That",
+      "probability": 0.9961332082748413,
+      "original_start": 9.58,
+      "original_end": 9.74
+    },
+    {
+      "start": 9.74,
+      "end": 10.28,
+      "text": "experience",
+      "probability": 0.9993575215339661,
+      "original_start": 9.74,
+      "original_end": 10.28
+    },
+    {
+      "start": 10.28,
+      "end": 10.66,
+      "text": "is",
+      "probability": 0.9965457320213318,
+      "original_start": 10.28,
+      "original_end": 10.66
+    },
+    {
+      "start": 10.66,
+      "end": 10.94,
+      "text": "called",
+      "probability": 0.9976879358291626,
+      "original_start": 10.66,
+      "original_end": 10.94
+    },
+    {
+      "start": 10.94,
+      "end": 11.14,
+      "text": "a",
+      "probability": 0.9850563406944275,
+      "original_start": 10.94,
+      "original_end": 11.14
+    },
+    {
+      "start": 11.14,
+      "end": 11.54,
+      "text": "phantom",
+      "probability": 0.8858774900436401,
+      "original_start": 11.14,
+      "original_end": 11.54
+    },
+    {
+      "start": 11.54,
+      "end": 12.08,
+      "text": "vibration.",
+      "probability": 0.996752917766571,
+      "original_start": 11.54,
+      "original_end": 12.08
+    },
+    {
+      "start": 13.12,
+      "end": 13.38,
+      "text": "One",
+      "probability": 0.961000382900238,
+      "original_start": 13.52,
+      "original_end": 13.78
+    },
+    {
+      "start": 13.38,
+      "end": 13.8,
+      "text": "proposed",
+      "probability": 0.9945726990699768,
+      "original_start": 13.78,
+      "original_end": 14.2
+    },
+    {
+      "start": 13.8,
+      "end": 14.28,
+      "text": "explanation",
+      "probability": 0.9943361878395081,
+      "original_start": 14.2,
+      "original_end": 14.68
+    },
+    {
+      "start": 14.28,
+      "end": 14.9,
+      "text": "starts",
+      "probability": 0.9990804195404053,
+      "original_start": 14.68,
+      "original_end": 15.3
+    },
+    {
+      "start": 14.9,
+      "end": 15.22,
+      "text": "with",
+      "probability": 0.9989264607429504,
+      "original_start": 15.3,
+      "original_end": 15.62
+    },
+    {
+      "start": 15.22,
+      "end": 15.46,
+      "text": "what",
+      "probability": 0.9924294352531433,
+      "original_start": 15.62,
+      "original_end": 15.86
+    },
+    {
+      "start": 15.46,
+      "end": 15.66,
+      "text": "you",
+      "probability": 0.9984909296035767,
+      "original_start": 15.86,
+      "original_end": 16.06
+    },
+    {
+      "start": 15.66,
+      "end": 15.92,
+      "text": "expect.",
+      "probability": 0.9984319806098938,
+      "original_start": 16.06,
+      "original_end": 16.32
+    },
+    {
+      "start": 16.68,
+      "end": 16.88,
+      "text": "When",
+      "probability": 0.9971411228179932,
+      "original_start": 17.08,
+      "original_end": 17.28
+    },
+    {
+      "start": 16.88,
+      "end": 17.02,
+      "text": "you're",
+      "probability": 0.9823624491691589,
+      "original_start": 17.28,
+      "original_end": 17.42
+    },
+    {
+      "start": 17.02,
+      "end": 17.22,
+      "text": "waiting",
+      "probability": 0.9994229078292847,
+      "original_start": 17.42,
+      "original_end": 17.62
+    },
+    {
+      "start": 17.22,
+      "end": 17.48,
+      "text": "for",
+      "probability": 0.9992851614952087,
+      "original_start": 17.62,
+      "original_end": 17.88
+    },
+    {
+      "start": 17.48,
+      "end": 17.58,
+      "text": "a",
+      "probability": 0.9985988736152649,
+      "original_start": 17.88,
+      "original_end": 17.98
+    },
+    {
+      "start": 17.58,
+      "end": 17.84,
+      "text": "call,",
+      "probability": 0.9994187355041504,
+      "original_start": 17.98,
+      "original_end": 18.24
+    },
+    {
+      "start": 18.36,
+      "end": 18.46,
+      "text": "your",
+      "probability": 0.9925944209098816,
+      "original_start": 18.76,
+      "original_end": 18.86
+    },
+    {
+      "start": 18.46,
+      "end": 18.76,
+      "text": "brain",
+      "probability": 0.9994778037071228,
+      "original_start": 18.86,
+      "original_end": 19.16
+    },
+    {
+      "start": 18.76,
+      "end": 18.98,
+      "text": "may",
+      "probability": 0.9944197535514832,
+      "original_start": 19.16,
+      "original_end": 19.38
+    },
+    {
+      "start": 18.98,
+      "end": 19.34,
+      "text": "interpret",
+      "probability": 0.9988632202148438,
+      "original_start": 19.38,
+      "original_end": 19.74
+    },
+    {
+      "start": 19.34,
+      "end": 19.8,
+      "text": "another",
+      "probability": 0.997957706451416,
+      "original_start": 19.74,
+      "original_end": 20.2
+    },
+    {
+      "start": 19.8,
+      "end": 20.2,
+      "text": "sensation",
+      "probability": 0.9940774440765381,
+      "original_start": 20.2,
+      "original_end": 20.6
+    },
+    {
+      "start": 20.2,
+      "end": 20.74,
+      "text": "as",
+      "probability": 0.9962389469146729,
+      "original_start": 20.6,
+      "original_end": 21.14
+    },
+    {
+      "start": 20.74,
+      "end": 20.94,
+      "text": "the",
+      "probability": 0.994891881942749,
+      "original_start": 21.14,
+      "original_end": 21.34
+    },
+    {
+      "start": 20.94,
+      "end": 21.22,
+      "text": "familiar",
+      "probability": 0.9947836995124817,
+      "original_start": 21.34,
+      "original_end": 21.62
+    },
+    {
+      "start": 21.22,
+      "end": 21.6,
+      "text": "buzz.",
+      "probability": 0.9689123034477234,
+      "original_start": 21.62,
+      "original_end": 22.0
+    },
+    {
+      "start": 22.4,
+      "end": 22.76,
+      "text": "Pressure",
+      "probability": 0.9454979300498962,
+      "original_start": 22.8,
+      "original_end": 23.16
+    },
+    {
+      "start": 22.76,
+      "end": 23.14,
+      "text": "from",
+      "probability": 0.9986311793327332,
+      "original_start": 23.16,
+      "original_end": 23.54
+    },
+    {
+      "start": 23.14,
+      "end": 23.44,
+      "text": "clothing",
+      "probability": 0.995973527431488,
+      "original_start": 23.54,
+      "original_end": 23.84
+    },
+    {
+      "start": 23.44,
+      "end": 24.02,
+      "text": "or",
+      "probability": 0.8552994728088379,
+      "original_start": 23.84,
+      "original_end": 24.42
+    },
+    {
+      "start": 24.02,
+      "end": 24.16,
+      "text": "a",
+      "probability": 0.9908377528190613,
+      "original_start": 24.42,
+      "original_end": 24.56
+    },
+    {
+      "start": 24.16,
+      "end": 24.38,
+      "text": "small",
+      "probability": 0.9976339340209961,
+      "original_start": 24.56,
+      "original_end": 24.78
+    },
+    {
+      "start": 24.38,
+      "end": 24.8,
+      "text": "muscle",
+      "probability": 0.9960654377937317,
+      "original_start": 24.78,
+      "original_end": 25.2
+    },
+    {
+      "start": 24.8,
+      "end": 25.1,
+      "text": "movement",
+      "probability": 0.9979017972946167,
+      "original_start": 25.2,
+      "original_end": 25.5
+    },
+    {
+      "start": 25.1,
+      "end": 25.4,
+      "text": "are",
+      "probability": 0.9950514435768127,
+      "original_start": 25.5,
+      "original_end": 25.8
+    },
+    {
+      "start": 25.4,
+      "end": 25.82,
+      "text": "possible",
+      "probability": 0.9985294342041016,
+      "original_start": 25.8,
+      "original_end": 26.22
+    },
+    {
+      "start": 25.82,
+      "end": 26.22,
+      "text": "candidates.",
+      "probability": 0.9990494847297668,
+      "original_start": 26.22,
+      "original_end": 26.62
+    },
+    {
+      "start": 26.9,
+      "end": 27.22,
+      "text": "But",
+      "probability": 0.38305917382240295,
+      "original_start": 27.3,
+      "original_end": 27.62
+    },
+    {
+      "start": 27.22,
+      "end": 27.6,
+      "text": "researchers",
+      "probability": 0.9094333648681641,
+      "original_start": 27.62,
+      "original_end": 28.0
+    },
+    {
+      "start": 27.6,
+      "end": 28.44,
+      "text": "haven't",
+      "probability": 0.9851705431938171,
+      "original_start": 28.0,
+      "original_end": 28.84
+    },
+    {
+      "start": 28.44,
+      "end": 28.64,
+      "text": "pinned",
+      "probability": 0.9978088736534119,
+      "original_start": 28.84,
+      "original_end": 29.04
+    },
+    {
+      "start": 28.64,
+      "end": 29.0,
+      "text": "down",
+      "probability": 0.9826093912124634,
+      "original_start": 29.04,
+      "original_end": 29.4
+    },
+    {
+      "start": 29.0,
+      "end": 29.32,
+      "text": "exactly",
+      "probability": 0.9887198805809021,
+      "original_start": 29.4,
+      "original_end": 29.72
+    },
+    {
+      "start": 29.32,
+      "end": 29.92,
+      "text": "what",
+      "probability": 0.9987967014312744,
+      "original_start": 29.72,
+      "original_end": 30.32
+    },
+    {
+      "start": 29.92,
+      "end": 30.3,
+      "text": "causes",
+      "probability": 0.9954143762588501,
+      "original_start": 30.32,
+      "original_end": 30.7
+    },
+    {
+      "start": 30.3,
+      "end": 30.56,
+      "text": "it.",
+      "probability": 0.9986740350723267,
+      "original_start": 30.7,
+      "original_end": 30.96
+    },
+    {
+      "start": 31.16,
+      "end": 31.8,
+      "text": "Surveys",
+      "probability": 0.9361785352230072,
+      "original_start": 31.56,
+      "original_end": 32.2
+    },
+    {
+      "start": 31.8,
+      "end": 32.22,
+      "text": "document",
+      "probability": 0.993240475654602,
+      "original_start": 32.2,
+      "original_end": 32.62
+    },
+    {
+      "start": 32.22,
+      "end": 32.56,
+      "text": "the",
+      "probability": 0.9984538555145264,
+      "original_start": 32.62,
+      "original_end": 32.96
+    },
+    {
+      "start": 32.56,
+      "end": 32.98,
+      "text": "experience.",
+      "probability": 0.9980487823486328,
+      "original_start": 32.96,
+      "original_end": 33.38
+    },
+    {
+      "start": 33.58,
+      "end": 33.6,
+      "text": "They",
+      "probability": 0.9976198077201843,
+      "original_start": 33.98,
+      "original_end": 34.0
+    },
+    {
+      "start": 33.6,
+      "end": 33.8,
+      "text": "don't",
+      "probability": 0.9986411333084106,
+      "original_start": 34.0,
+      "original_end": 34.2
+    },
+    {
+      "start": 33.8,
+      "end": 34.1,
+      "text": "prove",
+      "probability": 0.9957510232925415,
+      "original_start": 34.2,
+      "original_end": 34.5
+    },
+    {
+      "start": 34.1,
+      "end": 34.38,
+      "text": "that",
+      "probability": 0.9967547059059143,
+      "original_start": 34.5,
+      "original_end": 34.78
+    },
+    {
+      "start": 34.38,
+      "end": 34.76,
+      "text": "mechanism.",
+      "probability": 0.9984934329986572,
+      "original_start": 34.78,
+      "original_end": 35.16
+    },
+    {
+      "start": 35.74,
+      "end": 35.98,
+      "text": "So",
+      "probability": 0.9940272569656372,
+      "original_start": 36.14,
+      "original_end": 36.38
+    },
+    {
+      "start": 35.98,
+      "end": 36.1,
+      "text": "a",
+      "probability": 0.8921751379966736,
+      "original_start": 36.38,
+      "original_end": 36.5
+    },
+    {
+      "start": 36.1,
+      "end": 36.5,
+      "text": "convincing",
+      "probability": 0.9953900575637817,
+      "original_start": 36.5,
+      "original_end": 36.9
+    },
+    {
+      "start": 36.5,
+      "end": 36.86,
+      "text": "buzz",
+      "probability": 0.9908427000045776,
+      "original_start": 36.9,
+      "original_end": 37.26
+    },
+    {
+      "start": 36.86,
+      "end": 37.54,
+      "text": "isn't",
+      "probability": 0.9816731512546539,
+      "original_start": 37.26,
+      "original_end": 37.94
+    },
+    {
+      "start": 37.54,
+      "end": 37.8,
+      "text": "always",
+      "probability": 0.9987220168113708,
+      "original_start": 37.94,
+      "original_end": 38.2
+    },
+    {
+      "start": 37.8,
+      "end": 38.12,
+      "text": "proof",
+      "probability": 0.9620612263679504,
+      "original_start": 38.2,
+      "original_end": 38.52
+    },
+    {
+      "start": 38.12,
+      "end": 38.44,
+      "text": "that",
+      "probability": 0.9900686144828796,
+      "original_start": 38.52,
+      "original_end": 38.84
+    },
+    {
+      "start": 38.44,
+      "end": 38.56,
+      "text": "your",
+      "probability": 0.9656881093978882,
+      "original_start": 38.84,
+      "original_end": 38.96
+    },
+    {
+      "start": 38.56,
+      "end": 38.86,
+      "text": "phone",
+      "probability": 0.9988246560096741,
+      "original_start": 38.96,
+      "original_end": 39.26
+    },
+    {
+      "start": 38.86,
+      "end": 39.48,
+      "text": "vibrated.",
+      "probability": 0.9932032823562622,
+      "original_start": 39.26,
+      "original_end": 39.88
+    },
+    {
+      "start": 40.12,
+      "end": 40.2,
+      "text": "The",
+      "probability": 0.9953911304473877,
+      "original_start": 40.52,
+      "original_end": 40.6
+    },
+    {
+      "start": 40.2,
+      "end": 40.44,
+      "text": "sensation",
+      "probability": 0.9972872734069824,
+      "original_start": 40.6,
+      "original_end": 40.84
+    },
+    {
+      "start": 40.44,
+      "end": 40.92,
+      "text": "can",
+      "probability": 0.9964034557342529,
+      "original_start": 40.84,
+      "original_end": 41.32
+    },
+    {
+      "start": 40.92,
+      "end": 41.18,
+      "text": "feel",
+      "probability": 0.99886155128479,
+      "original_start": 41.32,
+      "original_end": 41.58
+    },
+    {
+      "start": 41.18,
+      "end": 41.5,
+      "text": "real,",
+      "probability": 0.9926142692565918,
+      "original_start": 41.58,
+      "original_end": 41.9
+    },
+    {
+      "start": 42.06,
+      "end": 42.36,
+      "text": "even",
+      "probability": 0.9986703395843506,
+      "original_start": 42.46,
+      "original_end": 42.76
+    },
+    {
+      "start": 42.36,
+      "end": 42.58,
+      "text": "when",
+      "probability": 0.9981073141098022,
+      "original_start": 42.76,
+      "original_end": 42.98
+    },
+    {
+      "start": 42.58,
+      "end": 42.76,
+      "text": "the",
+      "probability": 0.9959912896156311,
+      "original_start": 42.98,
+      "original_end": 43.16
+    },
+    {
+      "start": 42.76,
+      "end": 43.0,
+      "text": "alert",
+      "probability": 0.9972526431083679,
+      "original_start": 43.16,
+      "original_end": 43.4
+    },
+    {
+      "start": 43.0,
+      "end": 43.74,
+      "text": "wasn't.",
+      "probability": 0.9907549321651459,
+      "original_start": 43.4,
+      "original_end": 44.14
+    }
+  ],
+  "events": {
+    "felt": 0.16,
+    "nothing": 3.0,
+    "question": 4.02,
+    "expect": 16.68,
+    "interpret": 18.36,
+    "buzz": 20.2,
+    "pressure": 22.4,
+    "muscle": 24.16,
+    "survey": 31.16,
+    "not_proven": 33.58,
+    "final": 40.12
+  },
+  "ending_start": 44.666666666666664,
+  "protected_tail": 0.8266666666666609,
+  "word_alignment": "Local faster-whisper/base.en; actual-audio ASR word events, not independently verified forced alignment"
+}
