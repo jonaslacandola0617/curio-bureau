@@ -3,21 +3,21 @@
   "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/sun-disappeared-full-v1-review-20261018",
   "checked": [
     {
-      "name": "frames-0960-1199.mkv",
-      "asset_id": 653408151,
-      "bytes": 141994025,
-      "sha256": "1da73bd1afd1ff18fbd8b3517c57cd060a4e2dc092d688582d99e7c5037ea7d0",
-      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/sun-disappeared-full-v1-review-20261018/frames-0960-1199.mkv",
-      "observed_provider_digest": "sha256:1da73bd1afd1ff18fbd8b3517c57cd060a4e2dc092d688582d99e7c5037ea7d0",
+      "name": "00-Sun-Disappeared-1080p-Full-Review-v1.mp4",
+      "asset_id": 653412632,
+      "bytes": 76418429,
+      "sha256": "966628a14ab6df44b978ed6a13b25ac3cf13671dc8d25b1c5e223e347242c9cf",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/sun-disappeared-full-v1-review-20261018/00-Sun-Disappeared-1080p-Full-Review-v1.mp4",
+      "observed_provider_digest": "sha256:966628a14ab6df44b978ed6a13b25ac3cf13671dc8d25b1c5e223e347242c9cf",
       "state": "uploaded"
     },
     {
-      "name": "frames-1200-1484.mkv",
-      "asset_id": 653408265,
-      "bytes": 215486038,
-      "sha256": "d9807c490a3f054ffb6a7ebc1f91133f78c9f0b9cfe89c1d2354939c2d95da39",
-      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/sun-disappeared-full-v1-review-20261018/frames-1200-1484.mkv",
-      "observed_provider_digest": "sha256:d9807c490a3f054ffb6a7ebc1f91133f78c9f0b9cfe89c1d2354939c2d95da39",
+      "name": "captions.srt",
+      "asset_id": 653412725,
+      "bytes": 1742,
+      "sha256": "e1cd011fced2e6c80efae8721141a76582c8f793cafab73e38b1732c74d009d4",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/sun-disappeared-full-v1-review-20261018/captions.srt",
+      "observed_provider_digest": "sha256:e1cd011fced2e6c80efae8721141a76582c8f793cafab73e38b1732c74d009d4",
       "state": "uploaded"
     }
   ]

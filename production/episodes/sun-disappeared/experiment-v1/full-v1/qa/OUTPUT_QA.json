@@ -1,0 +1,26 @@
+{
+  "role": "COMPLETE FULL-FILM REVIEW; owner approval pending",
+  "duration": 49.5,
+  "frames": 1485,
+  "native": [
+    1080,
+    1920
+  ],
+  "source_lossless_frames": 1485,
+  "full_decode": "PASS",
+  "scene_fps": 12,
+  "within12fps_state_changes": [],
+  "ending30fps_exception": [
+    48.4,
+    49.5
+  ],
+  "audio_lufs": "-14.29",
+  "audio_dbtp": "-1.49",
+  "closing_audio_mix_correlation": 0.9998918355836011,
+  "whole_closing_clause": "We'd spend those final minutes living in the sun's past.",
+  "decoded_voice_end": 47.59,
+  "endcard_start": 48.4,
+  "protected_voice_tail": 0.81,
+  "independent_listening": "Owner full playback pending; ASR/correlation are not independent listening",
+  "sha256": "966628a14ab6df44b978ed6a13b25ac3cf13671dc8d25b1c5e223e347242c9cf"
+}

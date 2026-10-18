@@ -122,6 +122,10 @@
       "operation": "Return to opening city print"
     },
     {
+      "t": 40.75,
+      "operation": "First-warning-delayed keyword resolves over the returned city print; actual wordTag onset in scene.cjs"
+    },
+    {
       "t": 42.6,
       "operation": "Emission age revealed"
     },
@@ -137,5 +141,6 @@
   "ending_exception": [
     48.4,
     49.5
-  ]
+  ],
+  "inspection_note": "Includes the actual40.75s warning keyword, which was omitted from the initial inspection list. Rendered scene timing is unchanged."
 }
