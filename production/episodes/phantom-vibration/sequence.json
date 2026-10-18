@@ -1,0 +1,134 @@
+{
+  "episode": "phantom-vibration",
+  "version": 1,
+  "stage": "STORY_SEQUENCE_DRAFT",
+  "visual_style": "image-led",
+  "material_benchmark": "Cold Metal, texture only",
+  "text_backdrops": "none; no shadow/halo/glow/haze",
+  "timing_authority": "pending actual Bernard audio",
+  "beats": [
+    {
+      "id": "01_hook",
+      "claim": "C1",
+      "heading": [
+        "You felt it.",
+        "Your phone didn't."
+      ],
+      "caption": "You felt your phone vibrate.",
+      "operation": "Contrast felt sensation with device state.",
+      "before": "A pocket buzz seems to mean the phone vibrated.",
+      "initial": "Photographic denim hip large in frame; pocket focal point; crisp caption in composed negative space.",
+      "intermediate": "A bright source-local ink mark denotes FELT BUZZ, not physical device displacement.",
+      "resolved": "Phone itself remains registered and motionless; cut to inspection.",
+      "inheritance": "Same black phone and pocket location.",
+      "sound": "Short existing cue for subjective sensation; label as designed sound, not recording.",
+      "risk": "Do not shake the phone; no halo or caption quiet lane."
+    },
+    {
+      "id": "02_check",
+      "claim": "C1",
+      "heading": [
+        "You check.",
+        "Nothing."
+      ],
+      "caption": "Sometimes, the phone never vibrated at all.",
+      "operation": "Inspect a separate photographic hand-held phone; clean original notification status overlay.",
+      "before": "The sensation implied an alert.",
+      "initial": "Phone screen dominates, same black hardware class.",
+      "intermediate": "Camera approaches screen; a crisp empty-status field becomes legible.",
+      "resolved": "Small factual qualifier: an empty screen alone is not proof. Narration identifies the illustrative phantom scenario.",
+      "inheritance": "Phone contour becomes a stable reference for the term.",
+      "sound": "Existing handling cue, small restrained tick on empty status.",
+      "risk": "No fake OS screenshots; no unreadable tiny UI; blank screen alone is not evidence."
+    },
+    {
+      "id": "03_name",
+      "claim": "C1",
+      "heading": [
+        "Phantom",
+        "vibration."
+      ],
+      "caption": "That experience is called a phantom vibration.",
+      "operation": "Separate sensed event from device event using the same photographs.",
+      "before": "An isolated strange event.",
+      "initial": "Hip/photo on one side and phone inspection on the other, unequal scale.",
+      "intermediate": "Two crisp attached labels: FELT / DEVICE STILL.",
+      "resolved": "Name describes the discrepancy; hold to read.",
+      "inheritance": "Distinction FELT versus DEVICE carries into explanation.",
+      "sound": "Existing evidence-lock accent, score expands.",
+      "risk": "No ghost phone glow or blur silhouette; label is conceptual."
+    },
+    {
+      "id": "04_candidate",
+      "claim": "C2,C3",
+      "heading": [
+        "A sensation.",
+        "A familiar guess."
+      ],
+      "caption": "One proposed explanation starts with what you expect.",
+      "operation": "Select pocket fabric detail and change interpretation while retaining the identical underlying image.",
+      "before": "The phone must be the source.",
+      "initial": "Denim/hand macro; original physical source stays sharp.",
+      "intermediate": "A source-local selection isolates fabric contact; label POSSIBLE INPUT.",
+      "resolved": "The candidate acquires the interpreted label PHONE BUZZ? while source pixels remain unchanged.",
+      "inheritance": "Same selected fabric and sensed-event mark.",
+      "sound": "Existing soft cloth/paper movement; no invented electrical zap.",
+      "risk": "Visible PROPOSED EXPLANATION and possible-trigger qualifiers; no deterministic brain pathway."
+    },
+    {
+      "id": "05_interpretation",
+      "claim": "C2,C3",
+      "heading": [
+        "Expected alert.",
+        "Possible false alarm."
+      ],
+      "caption": "Your brain may interpret another sensation as the familiar buzz.",
+      "operation": "Compare the same ambiguous cue under two labels; phone remains still.",
+      "before": "The feeling and source are equivalent.",
+      "initial": "Stable fabric detail plus small stationary phone image.",
+      "intermediate": "Crisp printed label changes from clothing pressure? to phone buzz?; no image deformation.",
+      "resolved": "Expectation and interpretation are explicitly tentative, not measured neural anatomy.",
+      "inheritance": "Question mark persists into evidence qualification.",
+      "sound": "Existing marker cue on changed interpretation; selective music duck.",
+      "risk": "Do not imply experiments proved candidate sensation caused this individual's experience."
+    },
+    {
+      "id": "06_evidence",
+      "claim": "C4,C5",
+      "heading": [
+        "Reported.",
+        "Not explained."
+      ],
+      "caption": "Surveys document the experience; they don't prove that mechanism.",
+      "operation": "Contrast what the survey counted with what it did not test.",
+      "before": "An attractive mechanism animation could look like settled proof.",
+      "initial": "Original summary of study finding, no copied journal imagery.",
+      "intermediate": "115 /169 medical staff respondents appears with denominator context.",
+      "resolved": "Separate explicit line: CAUSE NOT ESTABLISHED BY THIS SURVEY.",
+      "inheritance": "Evidence-versus-inference distinction resolves opening.",
+      "sound": "Existing evidence-lock cue, score briefly thins for qualification.",
+      "risk": "No universal prevalence claim; no fake article page or NC source pixels."
+    },
+    {
+      "id": "07_payoff",
+      "claim": "C1,C2",
+      "heading": [
+        "A real feeling.",
+        "An absent alert."
+      ],
+      "caption": "The sensation can feel real even when the alert wasn't.",
+      "operation": "Return to the opening pocket, keeping felt-event and physical device distinct.",
+      "before": "A convincing sensation means the hardware buzzed.",
+      "initial": "Same pocket/phone identity as opening.",
+      "intermediate": "FELT stays visible; DEVICE VIBRATION is explicitly absent in this illustrative scenario.",
+      "resolved": "Phone cutout remains still; camera resolves on the pocket before exact locked ending.",
+      "inheritance": "Opening image returns with revised understanding; then unchanged london-bridge-v1 ending.",
+      "sound": "Warm existing resolution cue; score cadence follows complete final word.",
+      "risk": "Do not clip wasn't or fade early; no long empty brand tail."
+    }
+  ],
+  "owner_art_sequence": "NOT REVIEWED",
+  "owner_motion": "NOT REVIEWED",
+  "owner_full_preview": "NOT REVIEWED"
+}
+

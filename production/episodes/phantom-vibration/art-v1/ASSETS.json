@@ -1,0 +1,30 @@
+[
+  {
+    "path": "art-v1/assets/Manrope800.ttf",
+    "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105",
+    "bytes": 98080,
+    "source": "Existing approved font",
+    "rights_status": "existing pinned OFL font"
+  },
+  {
+    "path": "art-v1/assets/Playfair900.ttf",
+    "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38",
+    "bytes": 194772,
+    "source": "Existing approved font",
+    "rights_status": "existing pinned OFL font"
+  },
+  {
+    "path": "art-v1/assets/hip.png",
+    "sha256": "7b44fc50535c3e70b7542d5ad261ff6d0551f0a5993879a2154c3866d2ddc5f3",
+    "bytes": 3283709,
+    "source": "Original generated photographic illustration; not documentary evidence",
+    "rights_status": "original generated asset"
+  },
+  {
+    "path": "art-v1/assets/phone.png",
+    "sha256": "05abbc4ca752b7f4f8dd0af2e87c9403b4c4f6552c8af7ff99679d29085289e1",
+    "bytes": 1605624,
+    "source": "Original generated photographic illustration; not documentary evidence",
+    "rights_status": "original generated asset"
+  }
+]

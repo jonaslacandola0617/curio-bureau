@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen",
+  "generation_date": "2026-10-18",
+  "assets": [
+    {
+      "file": "assets/hip.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: original photographic cutout for a Curio Bureau science explainer, not documentary evidence. A highly detailed editorial photograph of the right side of an adult wearing medium-blue denim jeans and an off-white cotton shirt, framed from waist to mid-thigh. The front right jeans pocket and denim weave are clearly visible, a slim unbranded black smartphone is tucked in the pocket with only the top quarter visible. A relaxed adult hand is visible beside the thigh, anatomically correct fingers, not touching or obscuring the pocket. Three-quarter side view with excellent pocket visibility. Isolated on genuinely transparent background; clean complete silhouette. High resolution portrait crop with sufficient space around hip, hand and garment, no cropped fingertips. Natural soft studio lighting, tactile fabric and skin detail, restrained photographic contrast, no dramatic lighting. No text, labels, graphics, fake motion lines, glow, drop shadow, backdrop, haze or halos. The image will be independently composited with actual pinned typography and material finishing later. Do not add a ground shadow.",
+      "notes": "Generated alpha cutout. Clothing/phone are illustrative, not study-participant evidence; preserve source bytes."
+    },
+    {
+      "file": "assets/phone.png",
+      "prompt": "Use case: photorealistic-natural. Original editorial photographic illustration asset for science explainer, not documentary evidence. Portrait 2:3, ultra detailed adult hand with natural skin texture holding one unbranded slim black smartphone upright front-facing. Entire phone and hand visible, the phone screen perfectly plain dark navy-black, flat clean glass with no reflections, no text, no icons, no clock, no interface. Screen a straight frontal rectangle with slight natural perspective under 3 degrees, suitable for an exact original screen overlay added later in code. Hand grips only the bottom and side edges, no finger crossing screen. Neutral soft natural lighting. Off-white cotton sleeve cropped at wrist. Plain flat warm ivory studio background, no scene props. Tactile real photographic hand and device, crisp edges, balanced documentary lighting, no dramatic shadows. NO cast shadows, glow, dark halos, vignette, blurred background, haze or graphic embellishments. Keep generous space around device for compositing. This is a new original illustration, not an advertisement or any branded phone model.",
+      "notes": "Original photographic illustration with blank screen. Original illustrative screen labels added by renderer, not authentic device log."
+    }
+  ]
+}

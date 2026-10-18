@@ -1,0 +1,109 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "kind": "STATIC ART REVIEW; NOT A VIDEO",
+  "shadowBlur": 0,
+  "caption_haze": false,
+  "frames": [
+    {
+      "path": "rendered/01_hook.jpg",
+      "sha256": "c805652b4ba833b8903f2e6cf5a1f6af45a4ca695713146f0ed8918748d486d5",
+      "bytes": 608397
+    },
+    {
+      "path": "rendered/01_hook_no_heading.jpg",
+      "sha256": "6e321418b2dbe66820ee9388110a4ce49a4a9c3b04f2c888dedd8500521fbca6",
+      "bytes": 598350
+    },
+    {
+      "path": "rendered/02_check.jpg",
+      "sha256": "db07761713c74a7ae52dca9b6ce0a9fd151510091a3c063a4ee9cecc2fc8d5f3",
+      "bytes": 351514
+    },
+    {
+      "path": "rendered/02_check_no_heading.jpg",
+      "sha256": "5832cf2bde4619146a2ef456c81521669ff6313bb10013aa08695aad6d88a4b4",
+      "bytes": 329025
+    },
+    {
+      "path": "rendered/03_name.jpg",
+      "sha256": "e2458d0bb0de7e584ff8c9058cba59a223d9adbdce5ad71cfb2ec99b5902f085",
+      "bytes": 567132
+    },
+    {
+      "path": "rendered/03_name_no_heading.jpg",
+      "sha256": "9686fbac5a34ce87be554388cf8cc2b3fa08fd45c9ef10a3b43f11351f66bce8",
+      "bytes": 548676
+    },
+    {
+      "path": "rendered/04_candidate.jpg",
+      "sha256": "0da98c521466cb146a207276dcb44c8901f769bcebee185d12680e51c26c9c52",
+      "bytes": 510121
+    },
+    {
+      "path": "rendered/04_candidate_no_heading.jpg",
+      "sha256": "f550c38f5bbea8f5eed99f434aaf5d7f3170a40c832cc087f74db400bb98116e",
+      "bytes": 489131
+    },
+    {
+      "path": "rendered/05_interpretation.jpg",
+      "sha256": "e2f2c1ac6447ce29a5ffadec8d9f71f95504585067f7133ad3a447b54c335cdc",
+      "bytes": 521087
+    },
+    {
+      "path": "rendered/05_interpretation_no_heading.jpg",
+      "sha256": "e247b122adcef8add66b5b5c8392cf787212d0f4a8d1600aa045de2a858201ea",
+      "bytes": 498910
+    },
+    {
+      "path": "rendered/06_evidence.jpg",
+      "sha256": "248aeaf6e8428b50379015b36db690cb8991f61fea2c0ce75254aee6b8d5ebb4",
+      "bytes": 391734
+    },
+    {
+      "path": "rendered/06_evidence_no_heading.jpg",
+      "sha256": "ab532f7c6b0116161fad0851452b61a7f9457a8dfe3573abcfadcfd7115438ff",
+      "bytes": 363576
+    },
+    {
+      "path": "rendered/07_payoff.jpg",
+      "sha256": "f068d4f7a0de96f05be1b11ba7c5c0e42f432457ff08483c37c758966e352557",
+      "bytes": 618258
+    },
+    {
+      "path": "rendered/07_payoff_no_heading.jpg",
+      "sha256": "b4bf793b525ef01cce9ffb3c119adcce06d8b52369de4426aae0c34f6f2d5b59",
+      "bytes": 591374
+    },
+    {
+      "path": "rendered/passage_0.jpg",
+      "sha256": "0da98c521466cb146a207276dcb44c8901f769bcebee185d12680e51c26c9c52",
+      "bytes": 510121
+    },
+    {
+      "path": "rendered/passage_0_no_heading.jpg",
+      "sha256": "f550c38f5bbea8f5eed99f434aaf5d7f3170a40c832cc087f74db400bb98116e",
+      "bytes": 489131
+    },
+    {
+      "path": "rendered/passage_1.jpg",
+      "sha256": "3bf4ee53742c5a38e6a1e9e31bd6253e1bf347b3a9686a71c7a0c67b7281821d",
+      "bytes": 523086
+    },
+    {
+      "path": "rendered/passage_1_no_heading.jpg",
+      "sha256": "fcde5f08383eccec46fe4ed88a872537c8714bdc38051c37bf0711fb622002b9",
+      "bytes": 500495
+    },
+    {
+      "path": "rendered/passage_2.jpg",
+      "sha256": "e2f2c1ac6447ce29a5ffadec8d9f71f95504585067f7133ad3a447b54c335cdc",
+      "bytes": 521087
+    },
+    {
+      "path": "rendered/passage_2_no_heading.jpg",
+      "sha256": "e247b122adcef8add66b5b5c8392cf787212d0f4a8d1600aa045de2a858201ea",
+      "bytes": 498910
+    }
+  ]
+}

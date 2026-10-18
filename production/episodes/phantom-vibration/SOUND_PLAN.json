@@ -1,0 +1,67 @@
+{
+  "voice": "approved Bernard; not yet generated",
+  "score": "original light tactile plucks and soft rhythmic pulse, question/interpretation/qualification/resolution sections; not yet composed",
+  "sfx_candidates": [
+    {
+      "beat": "01_hook",
+      "trigger": "felt buzz versus device state",
+      "asset": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+      "sha256": "3037b29ca0dd9f8414de398b2db402d825039da4ff15946350064bcdb5fd94e1",
+      "status": "CANDIDATE; not auditioned in this episode mix",
+      "time_seconds": null,
+      "gain_db": null,
+      "provenance": "DESIGNED/SYNTHESIZED, not authentic recorded Foley"
+    },
+    {
+      "beat": "06_evidence",
+      "trigger": "survey boundary becomes readable",
+      "asset": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_evidence_lock_v1.flac",
+      "sha256": "aead89bf782fdbb66e266828cecd9c7535e49a59476df368e31d9eb05fdd4262",
+      "status": "CANDIDATE; not auditioned in this episode mix",
+      "time_seconds": null,
+      "gain_db": null,
+      "provenance": "DESIGNED/SYNTHESIZED, not authentic recorded Foley"
+    },
+    {
+      "beat": "02_check",
+      "trigger": "hand-held phone inspection",
+      "asset": "audio/curio_sfx_v1/archive/CB_ARCHIVE_photo_slide_v1.flac",
+      "sha256": "94b14a03751ed3c2840faa74f1423e5a7692802e0542ef43a2ec9437227535a3",
+      "status": "CANDIDATE; not auditioned in this episode mix",
+      "time_seconds": null,
+      "gain_db": null,
+      "provenance": "DESIGNED/SYNTHESIZED, not authentic recorded Foley"
+    },
+    {
+      "beat": "04_candidate",
+      "trigger": "candidate input selection",
+      "asset": "audio/curio_sfx_v1/archive/CB_ARCHIVE_pencil_marks_v1.flac",
+      "sha256": "9d968f49a8b8218125552cddc71770376f9d18d638c07fab6dcdf57526792f10",
+      "status": "CANDIDATE; not auditioned in this episode mix",
+      "time_seconds": null,
+      "gain_db": null,
+      "provenance": "DESIGNED/SYNTHESIZED, not authentic recorded Foley"
+    },
+    {
+      "beat": "05_interpretation",
+      "trigger": "source detail inspection, if useful",
+      "asset": "audio/curio_sfx_v1/motion/CB_MOTION_document_focus_v1.flac",
+      "sha256": "59b641d105683bff434cdfc54592ebee1cff0f33ea0c62927161580687e87846",
+      "status": "CANDIDATE; not auditioned in this episode mix",
+      "time_seconds": null,
+      "gain_db": null,
+      "provenance": "DESIGNED/SYNTHESIZED, not authentic recorded Foley"
+    },
+    {
+      "beat": "07_payoff",
+      "trigger": "complete final spoken clause",
+      "asset": "audio/curio_sfx_v1/cinematic/CB_CINEMATIC_warm_resolution_v1.flac",
+      "sha256": "a4d570c121795464235f6f888b42beda1a162a5937c3c527e6141ab2534be27a",
+      "status": "CANDIDATE; not auditioned in this episode mix",
+      "time_seconds": null,
+      "gain_db": null,
+      "provenance": "DESIGNED/SYNTHESIZED, not authentic recorded Foley"
+    }
+  ],
+  "mix_policy": "Audible cues with speech intelligibility and codec headroom; no blind global80\u201390% slider. Final levels and timing follow actual audio."
+}
