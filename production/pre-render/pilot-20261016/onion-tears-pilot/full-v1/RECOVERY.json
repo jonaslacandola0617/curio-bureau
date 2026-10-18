@@ -38,6 +38,40 @@
         "digest": "sha256:777ee50486671fcaac827d86af2b11a6995a1064559fc925405882e937ad400c",
         "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/onion-tears-full-v1-review-20261018/Onion-lossless-00240-00479.mkv"
       }
+    },
+    {
+      "file": "Onion-lossless-00480-00719.mkv",
+      "start_frame": 480,
+      "count": 240,
+      "bytes": 636717975,
+      "sha256": "fc0bd09728fc928e31d1224ea615cc98aea3e51926d4bbc84c9864b37d3a07ee",
+      "archive_status": "DURABLE",
+      "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+      "github_asset": {
+        "id": 652241478,
+        "name": "Onion-lossless-00480-00719.mkv",
+        "state": "uploaded",
+        "bytes": 636717975,
+        "digest": "sha256:fc0bd09728fc928e31d1224ea615cc98aea3e51926d4bbc84c9864b37d3a07ee",
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/onion-tears-full-v1-review-20261018/Onion-lossless-00480-00719.mkv"
+      }
+    },
+    {
+      "file": "Onion-lossless-00720-00959.mkv",
+      "start_frame": 720,
+      "count": 240,
+      "bytes": 661227551,
+      "sha256": "9118dd41670becfd6950ac4c03fb72232c94f1c18973339db5c5f4f51ad725d2",
+      "archive_status": "DURABLE",
+      "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+      "github_asset": {
+        "id": 652242940,
+        "name": "Onion-lossless-00720-00959.mkv",
+        "state": "uploaded",
+        "bytes": 661227551,
+        "digest": "sha256:9118dd41670becfd6950ac4c03fb72232c94f1c18973339db5c5f4f51ad725d2",
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/onion-tears-full-v1-review-20261018/Onion-lossless-00720-00959.mkv"
+      }
     }
   ]
 }

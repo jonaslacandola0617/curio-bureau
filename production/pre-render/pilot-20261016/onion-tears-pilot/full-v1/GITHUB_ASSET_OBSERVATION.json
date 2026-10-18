@@ -20,6 +20,22 @@
       "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/onion-tears-full-v1-review-20261018/Onion-lossless-00240-00479.mkv"
     },
     {
+      "id": 652241478,
+      "name": "Onion-lossless-00480-00719.mkv",
+      "state": "uploaded",
+      "bytes": 636717975,
+      "digest": "sha256:fc0bd09728fc928e31d1224ea615cc98aea3e51926d4bbc84c9864b37d3a07ee",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/onion-tears-full-v1-review-20261018/Onion-lossless-00480-00719.mkv"
+    },
+    {
+      "id": 652242940,
+      "name": "Onion-lossless-00720-00959.mkv",
+      "state": "uploaded",
+      "bytes": 661227551,
+      "digest": "sha256:9118dd41670becfd6950ac4c03fb72232c94f1c18973339db5c5f4f51ad725d2",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/onion-tears-full-v1-review-20261018/Onion-lossless-00720-00959.mkv"
+    },
+    {
       "id": 652225860,
       "name": "Onion-Mix-v1.flac",
       "state": "uploaded",
