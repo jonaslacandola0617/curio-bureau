@@ -22,3 +22,6 @@ Open or scope-specific items:
 - Performance/retention validation requires publication and audience data; none is claimed.
 
 Visual review evidence: qa/ENCODED_FULL_CONTACT_SHEET.jpg and qa/ENCODED_JOINS.jpg. These sampled inspections are not a claim of full-speed independent human playback.
+
+## Subsequent owner acceptance
+18 October2026 at20:33 Asia/Manila: explicit whole-film creative approval received; see OWNER_FULL_APPROVAL.md. The pending owner verdict above is retained as historical review state. Independent listening method, rights/caption/reference evidence limitations remain unchanged. The owner separately authorized global adoption of this film’s production approach.

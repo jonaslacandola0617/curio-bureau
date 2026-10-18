@@ -1,3 +1,5 @@
+CURRENT OWNER STANDARD (18 October 2026): Sun-disappearance full film is approved and governs new production. Apply production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md and production/templates/sun-standard/RELEASE_CHECKLIST.md. Whole scene/camera states12fps, native1080×1920/30fps posting MP4, exact30fps shared ending, meaningful change about every1.5–2s, clean text/graphics with no soft halo; preserve independent factual/audio/caption/creative/export evidence. Older mandatory4K/WebM and caption-haze instructions are superseded for new work.
+
 # 11 — MASTER QA / RELEASE CHECKLIST (P0/P1/P2)
 A checked automatic condition certifies only that condition; it never certifies subjective artistic excellence.
 

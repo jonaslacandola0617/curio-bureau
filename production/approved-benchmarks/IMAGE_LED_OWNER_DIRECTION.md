@@ -1,5 +1,11 @@
 # Curio Bureau — image-led editorial direction
 
+## Sun film production standard — owner adopted, 18 October 2026
+
+The owner approved the complete Sun-disappearance film and explicitly ordered: “I WANT OUR FUTURE VIDEOS TO BE MADE EXACTLY LIKE THIS!” This replaces the temporary experiment and makes [the Sun film standard](../../production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md) the current production baseline. Read it before new work. Use its image-led explanatory motion, 12fps scene/camera cadence inside native 1080×1920/30fps delivery, meaningful change about every 1.5–2s, photographic layers, animated Playfair 900 keywords, centered Manrope captions, clean graphic supports, controlled material/optical finishing, natural Bernard, evolving original score, forward existing action SFX and exact 30fps London Bridge ending. Adapt the subject, composition, mechanism and music to the story. Preserve approved historical bytes.
+
+New episode configs declare `production_standard: sun-disappeared-v1`, `scene_fps: 12` and an episode-relative `motion_review_targets` ledger. The shared renderer and validator implement this cadence; custom renderers follow [the integration guide](../../production/engine/SUN_STANDARD_INTEGRATION.md). Measured execution, owner creative approval and independent listening/source/caption checks remain separate. No new film is authorized merely by this infrastructure update.
+
 ## Clean text and graphics — owner direction, 18 October 2026
 
 This supersedes the 17 October caption-haze instruction for NEW work. The owner rejects shadow-like blurred backdrops behind headlines, titles, captions and graphics. Do not render blurred duplicate text, glow, feathered dark quiet lanes or detached soft shadow silhouettes behind those elements. Use clean composition, contrast, solid selective highlights, or a crisp low-weight caption support if needed; no diffuse halo. Purposeful source focus, compound scene blur and transition blur remain available, never as a shadow substitute behind type/graphics. Preserve Cold Metal's controlled material/texture balance, pinned fonts, music, audible existing SFX and exact shared ending. Historical posted films remain unchanged.

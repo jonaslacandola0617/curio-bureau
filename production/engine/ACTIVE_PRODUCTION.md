@@ -1,6 +1,12 @@
 # Active production entry point
 
-**Latest finishing authority:** [Cold Metal finishing standard](../approved-benchmarks/COLD_METAL_FINISHING_STANDARD.md). Keep visible soft translucent caption haze; preserve image detail and controlled texture. Mint v2 is historical, not the new finishing template.
+## Sun film production standard — owner adopted, 18 October 2026
+
+The owner approved the complete Sun-disappearance film and explicitly ordered: “I WANT OUR FUTURE VIDEOS TO BE MADE EXACTLY LIKE THIS!” This replaces the temporary experiment and makes [the Sun film standard](../../production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md) the current production baseline. Read it before new work. Use its image-led explanatory motion, 12fps scene/camera cadence inside native 1080×1920/30fps delivery, meaningful change about every 1.5–2s, photographic layers, animated Playfair 900 keywords, centered Manrope captions, clean graphic supports, controlled material/optical finishing, natural Bernard, evolving original score, forward existing action SFX and exact 30fps London Bridge ending. Adapt the subject, composition, mechanism and music to the story. Preserve approved historical bytes.
+
+New episode configs declare `production_standard: sun-disappeared-v1`, `scene_fps: 12` and an episode-relative `motion_review_targets` ledger. The shared renderer and validator implement this cadence; custom renderers follow [the integration guide](../../production/engine/SUN_STANDARD_INTEGRATION.md). Measured execution, owner creative approval and independent listening/source/caption checks remain separate. No new film is authorized merely by this infrastructure update.
+
+**Latest complete-film authority:** [Sun-disappearance standard](../approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md). The approved film has clean text/graphics, controlled image finishing and12fps scene/camera motion. No translucent caption haze, soft halo or blurred graphic backing. Cold Metal and Mint remain historical benchmarks.
 
 ## Default delivery — owner update, 17 October 2026
 
