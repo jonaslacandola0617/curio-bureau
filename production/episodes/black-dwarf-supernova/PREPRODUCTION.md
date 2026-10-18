@@ -2,7 +2,7 @@
 
 Owner-selected topic: 19 October 2026 Asia/Manila. Authorization: retain the nine studied Kurzgesagt captions for future original films and proceed with the suggested black-dwarf supernova episode.
 
-Status: STATIC ART v1 BUILT; OWNER ART REVIEW PENDING. Seven connected 1080×1920 states plus seven headline/narration-hidden versions are in art-v1/. Narration is a draft; no voice generated, animation captured or movie rendered. The Sun standard remains adopted.
+Status: STATIC ART v1 OWNER-APPROVED; MOTION v1 IN PRODUCTION. Seven connected 1080×1920 states plus seven headline/narration-hidden versions are in art-v1/. One complete natural-speed Bernard master is generated and locally transcribed. Moving preflight source is built; see motion-v1/README.md for actual archive status. The Sun standard remains adopted.
 
 ## Governing production declaration
 
@@ -79,7 +79,7 @@ Consult existing sound catalogs before selecting: a restrained inward pressure c
 1. Both original handoff manuals have now been read completely. Read remaining applicable v1 motion technical/asset reports and technique recipes before animation; the rendered-art package does not claim motion or listening completion.
 2. Static art v1 now contains a native-size Hubble Sirius B observation with item credit/CC BY 4.0 receipt, an original labeled AI remnant illustration, and original editable printed figures. See art-v1/README.md, ART_MANIFEST.json, ASSETS.json and SHOT_CONTRACTS.json. Inspect actual frames before approval; motion and final platform checks remain open.
 3. Recover Bernard identity/settings and direct actual audio. Derive final beat/caption timing from decoded narration.
-4. Review art-v1/Black_Dwarf_Art_Review_v1.html: seven rendered connected states including the demanding support-limit intermediate, plus all heading/narration-hidden counterparts. Owner art/sequence acceptance remains pending. Timing is provisional until Bernard audio exists.
+4. Review art-v1/Black_Dwarf_Art_Review_v1.html: seven rendered connected states including the demanding support-limit intermediate, plus all heading/narration-hidden counterparts. Owner art/sequence accepted on 19 October at 07:09 Asia/Manila, with textures/overlays reinforced. Moving and full-film acceptance remain pending.
 5. Only then perform the hardest moving/sound preflight and subsequent full-film workflow. Do not call this document an approved film or render-ready package.
 
 Current blockers are production tasks, not a request for the owner to re-explain the style. The Sun benchmark remains adopted and unchanged.

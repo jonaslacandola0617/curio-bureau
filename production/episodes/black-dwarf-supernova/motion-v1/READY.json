@@ -1,0 +1,15 @@
+{
+  "revision": "motion-v1",
+  "status": "FROZEN_SOURCE_READY_FOR_NATIVE_PREFLIGHT",
+  "owner_art": "ACCEPTED",
+  "owner_motion": "PENDING",
+  "expected_frames": 781,
+  "native": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "scene_fps": 12,
+  "source_identity": "GITHUB_SHA plus SOURCE_FINGERPRINT.json",
+  "render_role": "isolated mechanism preflight, not a complete film"
+}

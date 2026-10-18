@@ -1,0 +1,80 @@
+{
+  "duration": 26.033333333333335,
+  "events": [
+    {
+      "time": 0,
+      "operation": "Open the conceptual cutaway"
+    },
+    {
+      "time": 1.6,
+      "operation": "Establish electron support against inward gravity"
+    },
+    {
+      "time": 3.2,
+      "operation": "Select the lattice detail"
+    },
+    {
+      "time": 4.8,
+      "operation": "Begin conceptual composition replacement"
+    },
+    {
+      "time": 6.4,
+      "operation": "Advance the iron-rich selection"
+    },
+    {
+      "time": 8.0,
+      "operation": "Resolve the more-iron state"
+    },
+    {
+      "time": 9.5,
+      "operation": "Replace lattice detail with the mass/support comparison"
+    },
+    {
+      "time": 11.0,
+      "operation": "Establish support capacity above mass"
+    },
+    {
+      "time": 12.75,
+      "operation": "Lock and emphasize the nearly fixed mass reference"
+    },
+    {
+      "time": 14.4,
+      "operation": "Reveal the independent falling-limit keyword"
+    },
+    {
+      "time": 15.5,
+      "operation": "Lower the support limit without changing the mass reference"
+    },
+    {
+      "time": 17.0,
+      "operation": "Extend the source-attached downward comparison"
+    },
+    {
+      "time": 18.5,
+      "operation": "Restrict the consequence to some massive remnants"
+    },
+    {
+      "time": 20.0,
+      "operation": "Cross the support limit below the mass reference"
+    },
+    {
+      "time": 21.5,
+      "operation": "Return inward gravity marks to the same remnant"
+    },
+    {
+      "time": 22.2,
+      "operation": "Contract the same illustrative body"
+    },
+    {
+      "time": 23.8,
+      "operation": "Resolve possible collapse, not an exact transient prediction"
+    }
+  ],
+  "reading_holds": [
+    {
+      "start": 23.8,
+      "end": 26.033333333333335,
+      "reason": "Read possible-collapse qualification and retain the complete supernova word plus source tail."
+    }
+  ]
+}

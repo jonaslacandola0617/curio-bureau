@@ -1,0 +1,53 @@
+Input #0, mp3, from 'production/episodes/black-dwarf-supernova/audio/voice-original-v1.mp3':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Duration: 00:00:57.16, start: 0.025057, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Audio: pcm_s16le, 44100 Hz, mono, s16, 705 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 pcm_s16le
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A
+[silencedetect @ 0x55a64ab7e400] silence_start: 3.38769
+[silencedetect @ 0x55a64ab7e400] silence_end: 4.0966 | silence_duration: 0.708912
+[silencedetect @ 0x55a64ab7e400] silence_start: 6.3278
+[silencedetect @ 0x55a64ab7e400] silence_end: 6.76896 | silence_duration: 0.441156
+[silencedetect @ 0x55a64ab7e400] silence_start: 8.21864
+[silencedetect @ 0x55a64ab7e400] silence_end: 8.83834 | silence_duration: 0.619705
+[silencedetect @ 0x55a64ab7e400] silence_start: 10.2023
+[silencedetect @ 0x55a64ab7e400] silence_end: 10.5721 | silence_duration: 0.369773
+[silencedetect @ 0x55a64ab7e400] silence_start: 14.4617
+[silencedetect @ 0x55a64ab7e400] silence_end: 15.2354 | silence_duration: 0.773696
+[silencedetect @ 0x55a64ab7e400] silence_start: 18.6425
+[silencedetect @ 0x55a64ab7e400] silence_end: 19.3844 | silence_duration: 0.741905
+[silencedetect @ 0x55a64ab7e400] silence_start: 24.4507
+[silencedetect @ 0x55a64ab7e400] silence_end: 24.9753 | silence_duration: 0.524558
+[silencedetect @ 0x55a64ab7e400] silence_start: 27.353
+[silencedetect @ 0x55a64ab7e400] silence_end: 28.1835 | silence_duration: 0.830454
+[silencedetect @ 0x55a64ab7e400] silence_start: 31.3253
+[silencedetect @ 0x55a64ab7e400] silence_end: 32.2639 | silence_duration: 0.938639
+[silencedetect @ 0x55a64ab7e400] silence_start: 34.4632
+[silencedetect @ 0x55a64ab7e400] silence_end: 34.9259 | silence_duration: 0.462698
+[silencedetect @ 0x55a64ab7e400] silence_start: 36.2762
+[silencedetect @ 0x55a64ab7e400] silence_end: 36.8989 | silence_duration: 0.622744
+[silencedetect @ 0x55a64ab7e400] silence_start: 38.7152
+[silencedetect @ 0x55a64ab7e400] silence_end: 39.077 | silence_duration: 0.361814
+[silencedetect @ 0x55a64ab7e400] silence_start: 40.8751
+[silencedetect @ 0x55a64ab7e400] silence_end: 41.4639 | silence_duration: 0.588776
+[silencedetect @ 0x55a64ab7e400] silence_start: 42.2453
+[silencedetect @ 0x55a64ab7e400] silence_end: 42.5905 | silence_duration: 0.345215
+[silencedetect @ 0x55a64ab7e400] silence_start: 44.3947
+[silencedetect @ 0x55a64ab7e400] silence_end: 45.3024 | silence_duration: 0.907664
+[silencedetect @ 0x55a64ab7e400] silence_start: 49.2275
+[silencedetect @ 0x55a64ab7e400] silence_end: 49.9583 | silence_duration: 0.730794
+[silencedetect @ 0x55a64ab7e400] silence_start: 52.7313
+[silencedetect @ 0x55a64ab7e400] silence_end: 53.4385 | silence_duration: 0.707211
+[silencedetect @ 0x55a64ab7e400] silence_start: 54.4799
+[silencedetect @ 0x55a64ab7e400] silence_end: 54.8158 | silence_duration: 0.335918
+[out#0/null @ 0x55a64ab7d540] video:0kB audio:4920kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+size=N/A time=00:00:57.10 bitrate=N/A speed= 518x

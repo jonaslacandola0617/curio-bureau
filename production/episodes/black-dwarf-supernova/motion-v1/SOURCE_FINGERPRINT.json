@@ -1,0 +1,96 @@
+{
+  "production_standard": "sun-disappeared-v1",
+  "source_commit": "Observed GitHub workflow GITHUB_SHA before capture",
+  "files": [
+    {
+      "path": "render.cjs",
+      "sha256": "4e2049d887b4e87a71f7b04d9634b43b22a593622b4c3092c8c6b712181816b3",
+      "bytes": 11290
+    },
+    {
+      "path": "prepare.py",
+      "sha256": "94afe054233ce7a2a2d4874cd74d3dc7cdb3b85647cc68857ead71d89d28c434",
+      "bytes": 8757
+    },
+    {
+      "path": "qa.cjs",
+      "sha256": "bd6063417cb08840c1a173d9094a965f6a8fc532469dfcb9ab6ba9a14a0c7571",
+      "bytes": 2409
+    },
+    {
+      "path": "build_release.py",
+      "sha256": "3eb5fc27e7adeca7976f0c4b59064dfbed127af8df1be0266842178d0096a57b",
+      "bytes": 5305
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "560a03aa9d715a0b48ae12ac54293f60845d0cfebd30a117f932e8a243aae933",
+      "bytes": 9275
+    },
+    {
+      "path": "episode.json",
+      "sha256": "8d4553c0e7ebd9c6a023dbb674bb1f643484918339636e7e2f131e2a5b3d41f1",
+      "bytes": 625
+    },
+    {
+      "path": "FINISHING_CONTRACT.md",
+      "sha256": "977cec58aa50f57035266cfaafe310d9f3af4cf97bde99d5d21cd826cabb8356",
+      "bytes": 2455
+    },
+    {
+      "path": "SFX_CUE_SHEET.json",
+      "sha256": "1781f634d0a73e02cebb5e558643d9ac5380c90c0c9262be4a2fcb24deb23474",
+      "bytes": 6640
+    },
+    {
+      "path": "AUDIO_RECEIPT.json",
+      "sha256": "2d2687bf2b47d073e94dd8a2cac8495205594da6afe038d5da88627c8661d3fa",
+      "bytes": 839
+    },
+    {
+      "path": "OWNER_ART_APPROVAL.md",
+      "sha256": "53021409363c04315e4323ed45502cdfb954d5542b5bb6efeeeee2657492edf7",
+      "bytes": 847
+    },
+    {
+      "path": "../audio/voice-original-v1.mp3",
+      "sha256": "aa738e6e98defa5a7a38c54c1e201788cae2f5689a7d3e29f20ceb50083241c4",
+      "bytes": 914955
+    },
+    {
+      "path": "../audio/TRANSCRIPT_ASR_V1.json",
+      "sha256": "a9ddbe78c80038bb848438dd24d2f9b7b2975225d2a30245dc50531bf9cc33c7",
+      "bytes": 15374
+    },
+    {
+      "path": "../audio/SILENCE_V1.log",
+      "sha256": "f14dca21b8810de6bcfe76e9b7a1426068f8efd0f53e4b4130bff7e98aaebdab",
+      "bytes": 3300
+    },
+    {
+      "path": "../audio/NARRATION_DIRECTED_V1.txt",
+      "sha256": "32edafc35bb4fc939ef7d0800731cf6d72ba869be7f26969343eaa767ceb4bb9",
+      "bytes": 747
+    },
+    {
+      "path": "../art-v1/assets/remnant-illustration-v2.png",
+      "sha256": "f858db32a6ca5704ae194b328bab28073fa75a24290c00a0650972eaff44ee92",
+      "bytes": 1965977
+    },
+    {
+      "path": "../art-v1/assets/Manrope800.ttf",
+      "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105",
+      "bytes": 98080
+    },
+    {
+      "path": "../art-v1/assets/sirius-hubble.jpg",
+      "sha256": "231e45edae763a43b6062648b1df190663eac7cbb9d12e7ef7f5d73876654c01",
+      "bytes": 58798
+    },
+    {
+      "path": "../art-v1/assets/Playfair900.ttf",
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38",
+      "bytes": 194772
+    }
+  ]
+}
