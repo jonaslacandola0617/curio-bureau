@@ -1,0 +1,14 @@
+{
+  "id": "sun-disappeared",
+  "revision": "full-v1",
+  "visual_style": "image-led",
+  "material_profile": "image-led-v1",
+  "brand_ending": "london-bridge-v1",
+  "finishing": {
+    "enabled": true,
+    "implementation": "render.cjs / finish",
+    "contract": "FINISHING_CONTRACT.md",
+    "runtime_proof": "FINISHING_RUNTIME_PROOF.json",
+    "studio": "render.cjs"
+  }
+}

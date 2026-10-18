@@ -1,0 +1,53 @@
+{
+  "native": [
+    1080,
+    1920
+  ],
+  "deterministic": true,
+  "cases": [
+    {
+      "t": 0.2,
+      "meanRedDifference": 11.454227912808642,
+      "opaqueCaptionDifference": 0,
+      "box": {
+        "x": 256,
+        "y": 875,
+        "w": 567,
+        "h": 64
+      }
+    },
+    {
+      "t": 8,
+      "meanRedDifference": 8.417380883487654,
+      "opaqueCaptionDifference": 0,
+      "box": {
+        "x": 242,
+        "y": 875,
+        "w": 596,
+        "h": 64
+      }
+    },
+    {
+      "t": 34,
+      "meanRedDifference": 3.0114607445987653,
+      "opaqueCaptionDifference": 0,
+      "box": {
+        "x": 280,
+        "y": 875,
+        "w": 519,
+        "h": 64
+      }
+    },
+    {
+      "t": 49.4,
+      "meanRedDifference": 0,
+      "box": null
+    }
+  ],
+  "temporal_grain": {
+    "changed_mean_abs": 0.38094376929012347,
+    "method": "Same frozen image/overlay, focus, jitter and exposure; only temporal grain time changes;216px phone sample"
+  },
+  "studio_sha256": "744702b8efb4c5e6fe6d5f91147d37c2d3840078fb945cf8fc5f474469a13f1b",
+  "errors": []
+}

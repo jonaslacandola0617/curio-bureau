@@ -1,0 +1,141 @@
+{
+  "purpose": "Verify actual operations in encoded movie; timestamps refer to operations, not subtitle replacements",
+  "events": [
+    {
+      "t": 0,
+      "operation": "Sun removal in an illuminated city"
+    },
+    {
+      "t": 1.7,
+      "operation": "Daylight persists reveal"
+    },
+    {
+      "t": 3.35,
+      "operation": "Approximate delay stamp"
+    },
+    {
+      "t": 5.05,
+      "operation": "Foreground city inspection"
+    },
+    {
+      "t": 6.1,
+      "operation": "Impossible/real distinction"
+    },
+    {
+      "t": 7.1,
+      "operation": "Source premise crossed out"
+    },
+    {
+      "t": 7.75,
+      "operation": "Delay measurement separates"
+    },
+    {
+      "t": 9.25,
+      "operation": "Measurable-part reveal"
+    },
+    {
+      "t": 10.45,
+      "operation": "Sun\u2013Earth distance opens"
+    },
+    {
+      "t": 11.0,
+      "operation": "Distance ruler builds"
+    },
+    {
+      "t": 11.95,
+      "operation": "Travel time resolves"
+    },
+    {
+      "t": 13.45,
+      "operation": "One-way relation"
+    },
+    {
+      "t": 14.55,
+      "operation": "Already-emitted light follows its route"
+    },
+    {
+      "t": 16.3,
+      "operation": "Emission-time keyword"
+    },
+    {
+      "t": 17.95,
+      "operation": "Camera follows transit"
+    },
+    {
+      "t": 19.65,
+      "operation": "Remove source, keep travelling light"
+    },
+    {
+      "t": 21.35,
+      "operation": "Empty region behind boundary grows"
+    },
+    {
+      "t": 23.05,
+      "operation": "Remaining distance to Earth"
+    },
+    {
+      "t": 24.4,
+      "operation": "Daylight loss settles"
+    },
+    {
+      "t": 26.15,
+      "operation": "Gravity twist"
+    },
+    {
+      "t": 27.05,
+      "operation": "Gravity keyword"
+    },
+    {
+      "t": 28.75,
+      "operation": "Orbit continues"
+    },
+    {
+      "t": 30.45,
+      "operation": "Change has not arrived"
+    },
+    {
+      "t": 32.3,
+      "operation": "Dual propagation comparison"
+    },
+    {
+      "t": 34.0,
+      "operation": "Boundaries advance together"
+    },
+    {
+      "t": 35.0,
+      "operation": "Same causal speed resolves"
+    },
+    {
+      "t": 36.1,
+      "operation": "Orbit release context"
+    },
+    {
+      "t": 37.3,
+      "operation": "Delayed change arrives"
+    },
+    {
+      "t": 38.9,
+      "operation": "Tangent departure"
+    },
+    {
+      "t": 40.45,
+      "operation": "Return to opening city print"
+    },
+    {
+      "t": 42.6,
+      "operation": "Emission age revealed"
+    },
+    {
+      "t": 44.45,
+      "operation": "Sun past conclusion"
+    },
+    {
+      "t": 46.3,
+      "operation": "Printed image pulls back; sent-before-seen relation"
+    }
+  ],
+  "ending_exception": [
+    48.4,
+    49.5
+  ]
+}

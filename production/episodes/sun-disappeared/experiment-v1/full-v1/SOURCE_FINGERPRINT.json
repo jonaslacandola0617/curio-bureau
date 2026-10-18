@@ -1,0 +1,60 @@
+{
+  "artwork_source": "30259142d60749478f80c304277231250dc59d3e",
+  "motion_source": "c9ca6af4f2a58c242421ca6bbdff78001f0204b1",
+  "motion_approval": "61b1954c831859a0a31ca3eb898bb74f3fe28fc3",
+  "duration": 49.5,
+  "frames": 1485,
+  "native": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "scene_fps": 12,
+  "ending_exception": "original brand.js,30fps curve",
+  "inputs": [
+    {
+      "path": "scene.cjs",
+      "sha256": "e0a8eb22b6868e001fa25e07a70b645dc9e7553a56038461774e2221e490f820"
+    },
+    {
+      "path": "approved-passage.cjs",
+      "sha256": "b305b51dc10ff58c9e18a3eb0d85d91f37dbfbc0289949a4439cd0d5c951ccda"
+    },
+    {
+      "path": "render.cjs",
+      "sha256": "744702b8efb4c5e6fe6d5f91147d37c2d3840078fb945cf8fc5f474469a13f1b"
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "5684046e5b866f08699bfe12c8f122f3d4a69447af3669fce7ffe14199162a5f"
+    },
+    {
+      "path": "mix.py",
+      "sha256": "0d9ba70f794a5b16186b3a56a4524ee4b4165f65c12a755d7bc09e31d6031b91"
+    },
+    {
+      "path": "FINISHING_CONTRACT.md",
+      "sha256": "e89da5c53d98132ef692abfb9e96e0c449b92a9bb105e7634cb0e888b95c147b"
+    },
+    {
+      "path": "FINISHING_CONFIG.json",
+      "sha256": "88e132e92dc443cfc6c51c2d5fb08fd16de49fdd175af2ffe8623b584fbc23f5"
+    },
+    {
+      "path": "FINISHING_RUNTIME_PROOF.json",
+      "sha256": "bef0d52a60c3c41b5d6b7b42d7f4acc18af46bbb2bc05c151c9a96d04f3b06c6"
+    },
+    {
+      "path": "Sun-Full-Mix-v1.flac",
+      "sha256": "6d244b73668eb1fa8c5d4e63e06beef0e41422b755a71c660ebebc86393ede36"
+    },
+    {
+      "path": "SFX_CUE_SHEET.json",
+      "sha256": "6e1f354415e4b902d3e0075aedbee6ed1ffd9e88576be0b3864ee399751ba92f"
+    },
+    {
+      "path": "captions.srt",
+      "sha256": "e1cd011fced2e6c80efae8721141a76582c8f793cafab73e38b1732c74d009d4"
+    }
+  ]
+}

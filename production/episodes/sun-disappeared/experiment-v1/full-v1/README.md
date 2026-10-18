@@ -1,0 +1,4 @@
+# Complete Sun-disappearance experiment — full v1 review
+Complete49.5-second,1485-frame native1080×1920/30fps episode. Scene/camera/ink/grain states evaluated at12fps; exact established endcard remains30fps. Full natural-speed narration, original evolving score and31 existing SFX cues. The owner-approved11.6s passage is inherited with a full-film footer and phrase captions; composition and sound-stem timing are retained.
+This is a complete owner review, not an assertion of human final approval. Source and native finishing checks precede capture; verified lossless RGB recovery chunks are archived at most two at a time. Final MP4 gets its own version and public byte/hash verification.
+No shadow-like type/graphic backdrops. Crisp solid caption supports remain as in approved preflight. The impossible mass-removal premise, approximate8m20 travel time, NASA composite/assigned-color imagery and simplified Sun–Earth orbital figure remain explicitly qualified.

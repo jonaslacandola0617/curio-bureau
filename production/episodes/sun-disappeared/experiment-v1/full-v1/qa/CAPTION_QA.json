@@ -1,0 +1,7 @@
+{
+  "interval_errors": [],
+  "phrases": 32,
+  "method": "Local actual-audio ASR; visual/lexical checks, no independent listening or forced-alignment certification",
+  "screen_band": "all captions at875\u2013993px,45.6\u201351.7% of frame",
+  "word_coverage": "all local actual-audio ASR words grouped in order; independent acoustic verification not claimed"
+}

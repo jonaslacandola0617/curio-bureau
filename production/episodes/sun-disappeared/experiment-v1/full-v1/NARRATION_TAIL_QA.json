@@ -1,0 +1,12 @@
+{
+  "original_narration_sha256": "ceb50da6741ba5c5dc27192b58209918c160f7fee8264f0b70788b68cabbd527",
+  "edited_narration_decoded_duration": 47.59,
+  "final_clause": "We'd spend those final minutes living in the sun's past.",
+  "final_word": "past",
+  "ASR_final_word_end": 47.12,
+  "ending_start": 48.4,
+  "protected_after_decoded_voice": 0.81,
+  "film_duration": 49.5,
+  "voice_faded": false,
+  "independent_encoded_listening": "OWNER REVIEW PENDING; machine checks are separate"
+}
