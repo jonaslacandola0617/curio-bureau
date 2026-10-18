@@ -1,0 +1,30 @@
+{
+  "source_sha256": "ceb50da6741ba5c5dc27192b58209918c160f7fee8264f0b70788b68cabbd527",
+  "edited_wav_sha256": "faa6715fa6aeadf7352582416a789034c64c3211ac1d537cf9dfcd7ab4b3cbd6",
+  "probe": {
+    "programs": [],
+    "streams": [
+      {
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "47.590000"
+    }
+  },
+  "silent_cut": [
+    26.05,
+    26.7
+  ],
+  "source_measured_quiet": [
+    25.8604,
+    26.9697
+  ],
+  "removed_seconds": 0.65,
+  "time_stretch": false,
+  "remaining_detected_gaps_over_085s": [],
+  "closing_ASR_text": "We\u2019d spend those final minutes living in the Sun\u2019s past.",
+  "independent_listening": "NOT CLAIMED; owner can audition full narration in review HTML",
+  "word_alignment": "New local ASR run on edited audio; verification still needed before final captions"
+}

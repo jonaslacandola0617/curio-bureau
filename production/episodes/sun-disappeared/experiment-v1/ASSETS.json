@@ -1,0 +1,26 @@
+{
+  "sun": {
+    "file": "assets/sun-verified.jpg",
+    "source": "https://spaceplace.nasa.gov/all-about-the-sun/en/solar-flare.en.jpg",
+    "credit": "NASA/SDO",
+    "context": "20 June 2013; assigned-color solar observation; circular crop"
+  },
+  "earth": {
+    "file": "assets/earth-hires.jpg",
+    "source": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57723/globe_west_2048.jpg",
+    "credit": "NASA Earth Observatory / Reto St\u00f6ckli / Robert Simmon",
+    "context": "2002 MODIS composite, not a single exposure; disk crop 114,122,1812,1812"
+  },
+  "city": {
+    "file": "assets/city-a-original.png",
+    "context": "Recovered generated photographic illustration; not documentary footage. Generation prompt was not recovered. Original bytes retained."
+  },
+  "alternate_city": {
+    "file": "assets/city-b-original.png",
+    "context": "Recovered alternate, retained but not used in current artwork"
+  },
+  "voice": {
+    "file": "audio/voice-original.mp3",
+    "context": "Recovered episode recording; reported Bernard in prior project context. Exact generation receipt was not recovered, so provider/task identity is not invented."
+  }
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "01_absence",
+    "start": 0,
+    "end": 6.1,
+    "family": "C01",
+    "viewer_before": "Losing the Sun means instant darkness",
+    "factual_proposition": "Sun absent does not mean instant darkness",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "visual_operation": "Remove Sun; keep city illuminated",
+    "subject_action": "Sun clipped away above city; remaining travel path revealed",
+    "viewer_after": "Sun absent does not mean instant darkness",
+    "invariant": "city / source absence",
+    "initial_state": "Sun clipped away above city",
+    "difficult_intermediate": "Sun clipped away above city; remaining travel path revealed",
+    "resolved_state": "Sun absent does not mean instant darkness",
+    "next_inheritance": "same missing Sun",
+    "representation_reason": "Photographic actors plus labelled original figure expose the relationship",
+    "source_truth_boundary": "city image and sky separate; no artificial city relighting as documentary evidence",
+    "caption_clearance": "Screen-fixed 42\u201358%; stage important action above or below; verify rendered frames",
+    "reading_hold": ".5\u2013.85 seconds after primary change, with secondary causal action advancing every <=2s",
+    "owner_review": "NOT REVIEWED",
+    "visual_translation": {
+      "reference_observation": "Existing v1.4 tutorial T09: separated image planes; v2 MG18: source/camera/screen coordinates; MG29: meaning retained across representation switch. No new reference-film viewing claimed.",
+      "transferable_principle": "Identity survives the operation; planes and captions move independently",
+      "original_execution": "Sun clipped away above city; remaining travel path revealed",
+      "asset_operation": "Remove Sun; keep city illuminated"
+    },
+    "alternatives": {
+      "A": "Follow source\u2013transit\u2013destination in one inherited image world",
+      "B": "Separate static claim cards",
+      "selection": "A keeps the scientific relation visible; B rejected as it only illustrates nouns"
+    }
+  },
+  {
+    "id": "02_impossible",
+    "start": 6.1,
+    "end": 10.1,
+    "family": "C13",
+    "viewer_before": "Follow the previous resolved state",
+    "factual_proposition": "The premise is impossible; causal travel delay is real",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "visual_operation": "Separate impossible premise from measurable delay",
+    "subject_action": "IMAGINE stamp crosses premise; measurement strip remains",
+    "viewer_after": "The premise is impossible; causal travel delay is real",
+    "invariant": "same missing Sun",
+    "initial_state": "IMAGINE stamp crosses premise",
+    "difficult_intermediate": "IMAGINE stamp crosses premise; measurement strip remains",
+    "resolved_state": "The premise is impossible; causal travel delay is real",
+    "next_inheritance": "Sun/Earth anchors and distance baseline",
+    "representation_reason": "Photographic actors plus labelled original figure expose the relationship",
+    "source_truth_boundary": "crisp printed labels, no diffuse support",
+    "caption_clearance": "Screen-fixed 42\u201358%; stage important action above or below; verify rendered frames",
+    "reading_hold": ".5\u2013.85 seconds after primary change, with secondary causal action advancing every <=2s",
+    "owner_review": "NOT REVIEWED",
+    "visual_translation": {
+      "reference_observation": "Existing v1.4 tutorial T09: separated image planes; v2 MG18: source/camera/screen coordinates; MG29: meaning retained across representation switch. No new reference-film viewing claimed.",
+      "transferable_principle": "Identity survives the operation; planes and captions move independently",
+      "original_execution": "IMAGINE stamp crosses premise; measurement strip remains",
+      "asset_operation": "Separate impossible premise from measurable delay"
+    },
+    "alternatives": {
+      "A": "Follow source\u2013transit\u2013destination in one inherited image world",
+      "B": "Separate static claim cards",
+      "selection": "A keeps the scientific relation visible; B rejected as it only illustrates nouns"
+    }
+  },
+  {
+    "id": "03_distance",
+    "start": 10.1,
+    "end": 14.2,
+    "family": "C07",
+    "viewer_before": "Follow the previous resolved state",
+    "factual_proposition": "Light needs about 8m20s",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "visual_operation": "Measure Sun\u2013Earth travel relation",
+    "subject_action": "Sun and Earth separate into an elongated diagonal; bracket grows and resolves to travel time",
+    "viewer_after": "Light needs about 8m20s",
+    "invariant": "Sun/Earth anchors and distance baseline",
+    "initial_state": "Sun and Earth separate into an elongated diagonal",
+    "difficult_intermediate": "Sun and Earth separate into an elongated diagonal; bracket grows and resolves to travel time",
+    "resolved_state": "Light needs about 8m20s",
+    "next_inheritance": "gold travel markers",
+    "representation_reason": "Photographic actors plus labelled original figure expose the relationship",
+    "source_truth_boundary": "NASA composite Earth; distance compressed and labelled",
+    "caption_clearance": "Screen-fixed 42\u201358%; stage important action above or below; verify rendered frames",
+    "reading_hold": ".5\u2013.85 seconds after primary change, with secondary causal action advancing every <=2s",
+    "owner_review": "NOT REVIEWED",
+    "visual_translation": {
+      "reference_observation": "Existing v1.4 tutorial T09: separated image planes; v2 MG18: source/camera/screen coordinates; MG29: meaning retained across representation switch. No new reference-film viewing claimed.",
+      "transferable_principle": "Identity survives the operation; planes and captions move independently",
+      "original_execution": "Sun and Earth separate into an elongated diagonal; bracket grows and resolves to travel time",
+      "asset_operation": "Measure Sun\u2013Earth travel relation"
+    },
+    "alternatives": {
+      "A": "Follow source\u2013transit\u2013destination in one inherited image world",
+      "B": "Separate static claim cards",
+      "selection": "A keeps the scientific relation visible; B rejected as it only illustrates nouns"
+    }
+  },
+  {
+    "id": "04_past",
+    "start": 14.2,
+    "end": 18.7,
+    "family": "C11",
+    "viewer_before": "Follow the previous resolved state",
+    "factual_proposition": "The light arriving now was emitted minutes ago",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "visual_operation": "Track already emitted light",
+    "subject_action": "camera follows a selected light mark from source to destination; emission stamp remains attached",
+    "viewer_after": "The light arriving now was emitted minutes ago",
+    "invariant": "gold travel markers",
+    "initial_state": "camera follows a selected light mark from source to destination",
+    "difficult_intermediate": "camera follows a selected light mark from source to destination; emission stamp remains attached",
+    "resolved_state": "The light arriving now was emitted minutes ago",
+    "next_inheritance": "same Sun/Earth and travel path",
+    "representation_reason": "Photographic actors plus labelled original figure expose the relationship",
+    "source_truth_boundary": "do not imply photons have train length or equal physical spacing",
+    "caption_clearance": "Screen-fixed 42\u201358%; stage important action above or below; verify rendered frames",
+    "reading_hold": ".5\u2013.85 seconds after primary change, with secondary causal action advancing every <=2s",
+    "owner_review": "NOT REVIEWED",
+    "visual_translation": {
+      "reference_observation": "Existing v1.4 tutorial T09: separated image planes; v2 MG18: source/camera/screen coordinates; MG29: meaning retained across representation switch. No new reference-film viewing claimed.",
+      "transferable_principle": "Identity survives the operation; planes and captions move independently",
+      "original_execution": "camera follows a selected light mark from source to destination; emission stamp remains attached",
+      "asset_operation": "Track already emitted light"
+    },
+    "alternatives": {
+      "A": "Follow source\u2013transit\u2013destination in one inherited image world",
+      "B": "Separate static claim cards",
+      "selection": "A keeps the scientific relation visible; B rejected as it only illustrates nouns"
+    }
+  },
+  {
+    "id": "05_last_light",
+    "start": 18.7,
+    "end": 23.8,
+    "family": "C02",
+    "viewer_before": "Follow the previous resolved state",
+    "factual_proposition": "Existing light continues after source removal",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "visual_operation": "Remove source; advance last-light boundary",
+    "subject_action": "three states: source present; source absent / boundary halfway; final light reaches Earth",
+    "viewer_after": "Existing light continues after source removal",
+    "invariant": "same Sun/Earth and travel path",
+    "initial_state": "three states: source present",
+    "difficult_intermediate": "three states: source present; source absent / boundary halfway; final light reaches Earth",
+    "resolved_state": "Existing light continues after source removal",
+    "next_inheritance": "opening city orientation",
+    "representation_reason": "Photographic actors plus labelled original figure expose the relationship",
+    "source_truth_boundary": "boundary moves outward from Sun; Earth held fixed",
+    "caption_clearance": "Screen-fixed 42\u201358%; stage important action above or below; verify rendered frames",
+    "reading_hold": ".5\u2013.85 seconds after primary change, with secondary causal action advancing every <=2s",
+    "owner_review": "NOT REVIEWED",
+    "visual_translation": {
+      "reference_observation": "Existing v1.4 tutorial T09: separated image planes; v2 MG18: source/camera/screen coordinates; MG29: meaning retained across representation switch. No new reference-film viewing claimed.",
+      "transferable_principle": "Identity survives the operation; planes and captions move independently",
+      "original_execution": "three states: source present; source absent / boundary halfway; final light reaches Earth",
+      "asset_operation": "Remove source; advance last-light boundary"
+    },
+    "alternatives": {
+      "A": "Follow source\u2013transit\u2013destination in one inherited image world",
+      "B": "Separate static claim cards",
+      "selection": "A keeps the scientific relation visible; B rejected as it only illustrates nouns"
+    }
+  },
+  {
+    "id": "06_darkness",
+    "start": 23.8,
+    "end": 27.8,
+    "family": "C09",
+    "viewer_before": "Follow the previous resolved state",
+    "factual_proposition": "The delayed consequence finally arrives",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "visual_operation": "Remove daylight in the original city",
+    "subject_action": "last daylight region clears; return city is now dark",
+    "viewer_after": "The delayed consequence finally arrives",
+    "invariant": "opening city orientation",
+    "initial_state": "last daylight region clears",
+    "difficult_intermediate": "last daylight region clears; return city is now dark",
+    "resolved_state": "The delayed consequence finally arrives",
+    "next_inheritance": "shared distance / arrival boundary",
+    "representation_reason": "Photographic actors plus labelled original figure expose the relationship",
+    "source_truth_boundary": "illustrative scene; no artificial illumination implies all electricity stopped",
+    "caption_clearance": "Screen-fixed 42\u201358%; stage important action above or below; verify rendered frames",
+    "reading_hold": ".5\u2013.85 seconds after primary change, with secondary causal action advancing every <=2s",
+    "owner_review": "NOT REVIEWED",
+    "visual_translation": {
+      "reference_observation": "Existing v1.4 tutorial T09: separated image planes; v2 MG18: source/camera/screen coordinates; MG29: meaning retained across representation switch. No new reference-film viewing claimed.",
+      "transferable_principle": "Identity survives the operation; planes and captions move independently",
+      "original_execution": "last daylight region clears; return city is now dark",
+      "asset_operation": "Remove daylight in the original city"
+    },
+    "alternatives": {
+      "A": "Follow source\u2013transit\u2013destination in one inherited image world",
+      "B": "Separate static claim cards",
+      "selection": "A keeps the scientific relation visible; B rejected as it only illustrates nouns"
+    }
+  },
+  {
+    "id": "07_gravity",
+    "start": 27.8,
+    "end": 35.8,
+    "family": "C10",
+    "viewer_before": "Follow the previous resolved state",
+    "factual_proposition": "Neither update reaches Earth instantly",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "visual_operation": "Compare delayed light with delayed gravity change",
+    "subject_action": "two conceptual lanes share start/end; Earth keeps curving while boundary travels",
+    "viewer_after": "Neither update reaches Earth instantly",
+    "invariant": "shared distance / arrival boundary",
+    "initial_state": "two conceptual lanes share start/end",
+    "difficult_intermediate": "two conceptual lanes share start/end; Earth keeps curving while boundary travels",
+    "resolved_state": "Neither update reaches Earth instantly",
+    "next_inheritance": "Earth and old orbit",
+    "representation_reason": "Photographic actors plus labelled original figure expose the relationship",
+    "source_truth_boundary": "gravity lane is a change in field, not light particles",
+    "caption_clearance": "Screen-fixed 42\u201358%; stage important action above or below; verify rendered frames",
+    "reading_hold": ".5\u2013.85 seconds after primary change, with secondary causal action advancing every <=2s",
+    "owner_review": "NOT REVIEWED",
+    "visual_translation": {
+      "reference_observation": "Existing v1.4 tutorial T09: separated image planes; v2 MG18: source/camera/screen coordinates; MG29: meaning retained across representation switch. No new reference-film viewing claimed.",
+      "transferable_principle": "Identity survives the operation; planes and captions move independently",
+      "original_execution": "two conceptual lanes share start/end; Earth keeps curving while boundary travels",
+      "asset_operation": "Compare delayed light with delayed gravity change"
+    },
+    "alternatives": {
+      "A": "Follow source\u2013transit\u2013destination in one inherited image world",
+      "B": "Separate static claim cards",
+      "selection": "A keeps the scientific relation visible; B rejected as it only illustrates nouns"
+    }
+  },
+  {
+    "id": "08_departure",
+    "start": 35.8,
+    "end": 40.8,
+    "family": "C06",
+    "viewer_before": "Follow the previous resolved state",
+    "factual_proposition": "No instant radial fling; path changes after delay",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "visual_operation": "Release Earth along tangent after arrival",
+    "subject_action": "before: orbit arc; intermediate: boundary arrives; resolved: Earth continues along tangent",
+    "viewer_after": "No instant radial fling; path changes after delay",
+    "invariant": "Earth and old orbit",
+    "initial_state": "before: orbit arc",
+    "difficult_intermediate": "before: orbit arc; intermediate: boundary arrives; resolved: Earth continues along tangent",
+    "resolved_state": "No instant radial fling; path changes after delay",
+    "next_inheritance": "opening image, emission label, delay",
+    "representation_reason": "Photographic actors plus labelled original figure expose the relationship",
+    "source_truth_boundary": "Sun\u2013Earth simplification; other bodies omitted; Earth gravity remains",
+    "caption_clearance": "Screen-fixed 42\u201358%; stage important action above or below; verify rendered frames",
+    "reading_hold": ".5\u2013.85 seconds after primary change, with secondary causal action advancing every <=2s",
+    "owner_review": "NOT REVIEWED",
+    "visual_translation": {
+      "reference_observation": "Existing v1.4 tutorial T09: separated image planes; v2 MG18: source/camera/screen coordinates; MG29: meaning retained across representation switch. No new reference-film viewing claimed.",
+      "transferable_principle": "Identity survives the operation; planes and captions move independently",
+      "original_execution": "before: orbit arc; intermediate: boundary arrives; resolved: Earth continues along tangent",
+      "asset_operation": "Release Earth along tangent after arrival"
+    },
+    "alternatives": {
+      "A": "Follow source\u2013transit\u2013destination in one inherited image world",
+      "B": "Separate static claim cards",
+      "selection": "A keeps the scientific relation visible; B rejected as it only illustrates nouns"
+    }
+  },
+  {
+    "id": "09_payoff",
+    "start": 40.8,
+    "end": 47.624,
+    "family": "C14",
+    "viewer_before": "Follow the previous resolved state",
+    "factual_proposition": "Our first warning is delayed",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "visual_operation": "Return to illuminated city as a past-light image",
+    "subject_action": "pull back from city to a physical photographic print dated by light emission; final sunlight edge resolves",
+    "viewer_after": "Our first warning is delayed",
+    "invariant": "opening image, emission label, delay",
+    "initial_state": "pull back from city to a physical photographic print dated by light emission",
+    "difficult_intermediate": "pull back from city to a physical photographic print dated by light emission; final sunlight edge resolves",
+    "resolved_state": "Our first warning is delayed",
+    "next_inheritance": "Exact london-bridge-v1 endcard after protected spoken tail",
+    "representation_reason": "Photographic actors plus labelled original figure expose the relationship",
+    "source_truth_boundary": "this reprises pre-arrival daylight; label LAST MINUTES BEFORE ARRIVAL",
+    "caption_clearance": "Screen-fixed 42\u201358%; stage important action above or below; verify rendered frames",
+    "reading_hold": ".5\u2013.85 seconds after primary change, with secondary causal action advancing every <=2s",
+    "owner_review": "NOT REVIEWED",
+    "visual_translation": {
+      "reference_observation": "Existing v1.4 tutorial T09: separated image planes; v2 MG18: source/camera/screen coordinates; MG29: meaning retained across representation switch. No new reference-film viewing claimed.",
+      "transferable_principle": "Identity survives the operation; planes and captions move independently",
+      "original_execution": "pull back from city to a physical photographic print dated by light emission; final sunlight edge resolves",
+      "asset_operation": "Return to illuminated city as a past-light image"
+    },
+    "alternatives": {
+      "A": "Follow source\u2013transit\u2013destination in one inherited image world",
+      "B": "Separate static claim cards",
+      "selection": "A keeps the scientific relation visible; B rejected as it only illustrates nouns"
+    }
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "kind": "STATIC ART REVIEW; NOT ANIMATION",
+  "width": 1080,
+  "height": 1920,
+  "fonts": "Pinned Playfair900 / Manrope800",
+  "shadows": false,
+  "halos": false,
+  "frames": [
+    {
+      "path": "rendered/01_absence.jpg",
+      "sha256": "23cbe34678c3d52c5496eb9c963d7765a0e06cdc5d7c2f9bf73ce7760440b553",
+      "bytes": 521923
+    },
+    {
+      "path": "rendered/01_absence_no_heading.jpg",
+      "sha256": "c41f70b0a02cb530633945f0c0da59eed2522d61f269572b41dee2fe8b78e616",
+      "bytes": 505591
+    },
+    {
+      "path": "rendered/02_impossible.jpg",
+      "sha256": "42f13229426a0503f45a4296de2adbb3741d69238fa201549485826f7d677b58",
+      "bytes": 311293
+    },
+    {
+      "path": "rendered/02_impossible_no_heading.jpg",
+      "sha256": "8eafa780d2b224adcfe7839087cdde225b40f7c82064bc1f89029320e9738de2",
+      "bytes": 280853
+    },
+    {
+      "path": "rendered/03_distance.jpg",
+      "sha256": "c13bee5d9e0b8df520b883615d36af0215233db48afb95c58d9474352e0429ae",
+      "bytes": 458577
+    },
+    {
+      "path": "rendered/03_distance_no_heading.jpg",
+      "sha256": "70d5fa346a66adc45f1711b4de68e0e79fa43d1005fb130dfac0db5e72dedbf7",
+      "bytes": 438094
+    },
+    {
+      "path": "rendered/04_past.jpg",
+      "sha256": "189290ad06fe211bb2c2240d28ca1e00fe3b38ef4ae2d7c384c8220a56d65a5d",
+      "bytes": 338799
+    },
+    {
+      "path": "rendered/04_past_no_heading.jpg",
+      "sha256": "50e764457c8d5ecb9c5af9af0f9b16734b3abc28cafba054635497c2c8daa836",
+      "bytes": 312816
+    },
+    {
+      "path": "rendered/05_last_light.jpg",
+      "sha256": "82630c015bfaeb5b4e9f9c937e3ab9312697c292d137cbe88385b130f40df149",
+      "bytes": 400133
+    },
+    {
+      "path": "rendered/05_last_light_no_heading.jpg",
+      "sha256": "8870ddfd77d64677a612aab212de148e440487d31339377a20c23af87a7bee6a",
+      "bytes": 374446
+    },
+    {
+      "path": "rendered/06_darkness.jpg",
+      "sha256": "e2ff579cae054b8fbf91efd634cb67fe85a0b141ccb9e652ce38c6a882a6bbba",
+      "bytes": 289399
+    },
+    {
+      "path": "rendered/06_darkness_no_heading.jpg",
+      "sha256": "2b47288ebcfab87f0e1646f12e32b3c5ca39dd48386c428ffd660accb24633fa",
+      "bytes": 265693
+    },
+    {
+      "path": "rendered/07_gravity.jpg",
+      "sha256": "59d9440e2f9bb5ea6aafae3871154b73fedd70d335619d4c59df68a005d07cfd",
+      "bytes": 285873
+    },
+    {
+      "path": "rendered/07_gravity_no_heading.jpg",
+      "sha256": "b81ff1745d856e648b23a750dcd1af050d4267da6a77e3c52d04511aaea7c67c",
+      "bytes": 257784
+    },
+    {
+      "path": "rendered/08_departure.jpg",
+      "sha256": "c0a5d382a143965c7ac3132e14bfbd069f22f5e95b5674cf088d7dcbfa98107c",
+      "bytes": 365943
+    },
+    {
+      "path": "rendered/08_departure_no_heading.jpg",
+      "sha256": "54f11c4551194a30b0abc972ff76191f477835bfd9b016f1ae4870afbcaa9fbe",
+      "bytes": 348092
+    },
+    {
+      "path": "rendered/09_payoff.jpg",
+      "sha256": "c501d487d15359ab2baba838765d13cb81e279099fa1c5786624857803ee89d5",
+      "bytes": 457574
+    },
+    {
+      "path": "rendered/09_payoff_no_heading.jpg",
+      "sha256": "ad3f6687b99ca2457ea5889a537b5d707e39f3bf74febe894d1ccb676c5ed7c5",
+      "bytes": 435341
+    },
+    {
+      "path": "rendered/passage_0.jpg",
+      "sha256": "f5941d496457587149ab4271fb24690721c7f4c5e77868ceda843b0a1c025646",
+      "bytes": 405301
+    },
+    {
+      "path": "rendered/passage_0_no_heading.jpg",
+      "sha256": "336dd04b15d5d9ca68179a1575eb19c3f5fc7cfd327981aca951d1cb109826f9",
+      "bytes": 380100
+    },
+    {
+      "path": "rendered/passage_1.jpg",
+      "sha256": "82630c015bfaeb5b4e9f9c937e3ab9312697c292d137cbe88385b130f40df149",
+      "bytes": 400133
+    },
+    {
+      "path": "rendered/passage_1_no_heading.jpg",
+      "sha256": "8870ddfd77d64677a612aab212de148e440487d31339377a20c23af87a7bee6a",
+      "bytes": 374446
+    },
+    {
+      "path": "rendered/passage_2.jpg",
+      "sha256": "ef17003610472cd120c35e8f9c14335c673b7af81f26f1f4ae0b127febafe39f",
+      "bytes": 389902
+    },
+    {
+      "path": "rendered/passage_2_no_heading.jpg",
+      "sha256": "f6ba980387d3b8ea6d728487f76a0b5ba0001ae488f722f28a4980b0e8df2fae",
+      "bytes": 364259
+    }
+  ]
+}

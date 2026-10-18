@@ -1,0 +1,10 @@
+id,start,end,family,operation,invariant,approval
+01_absence,0,6.1,C01,Remove Sun; keep city illuminated,city / source absence,NOT REVIEWED
+02_impossible,6.1,10.1,C13,Separate impossible premise from measurable delay,same missing Sun,NOT REVIEWED
+03_distance,10.1,14.2,C07,Measure Sun–Earth travel relation,Sun/Earth anchors and distance baseline,NOT REVIEWED
+04_past,14.2,18.7,C11,Track already emitted light,gold travel markers,NOT REVIEWED
+05_last_light,18.7,23.8,C02,Remove source; advance last-light boundary,same Sun/Earth and travel path,NOT REVIEWED
+06_darkness,23.8,27.8,C09,Remove daylight in the original city,opening city orientation,NOT REVIEWED
+07_gravity,27.8,35.8,C10,Compare delayed light with delayed gravity change,shared distance / arrival boundary,NOT REVIEWED
+08_departure,35.8,40.8,C06,Release Earth along tangent after arrival,Earth and old orbit,NOT REVIEWED
+09_payoff,40.8,47.624,C14,Return to illuminated city as a past-light image,"opening image, emission label, delay",NOT REVIEWED

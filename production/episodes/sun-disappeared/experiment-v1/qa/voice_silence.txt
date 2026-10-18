@@ -1,0 +1,17 @@
+Input #0, wav, from '/workspace/scratch/292e697b57ab/curio-checkout/production/episodes/sun-disappeared/experiment-v1/audio/voice-edit.wav':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:47.59, bitrate: 2304 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 pcm_s16le
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    
+[out#0/null @ 0x5598e24ff7c0] video:0kB audio:8923kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+size=N/A time=00:00:47.58 bitrate=N/A speed= 358x    

@@ -1,0 +1,126 @@
+{
+  "status": "PLANNED; not rendered compliance",
+  "scene_fps": 12,
+  "output_fps": 30,
+  "sampling": "floor(t*12)/12; export frame n evaluated at n/30; audio continuous",
+  "events": [
+    {
+      "time": 0,
+      "operation": "Sun removal begins"
+    },
+    {
+      "time": 1.7,
+      "operation": "remaining daylight revealed"
+    },
+    {
+      "time": 3.4,
+      "operation": "delay stamp docks"
+    },
+    {
+      "time": 5.1,
+      "operation": "city detail inspection"
+    },
+    {
+      "time": 6.8,
+      "operation": "impossible premise marked"
+    },
+    {
+      "time": 8.5,
+      "operation": "real delay separated"
+    },
+    {
+      "time": 10.2,
+      "operation": "Sun/Earth distance opens"
+    },
+    {
+      "time": 11.9,
+      "operation": "travel ruler builds"
+    },
+    {
+      "time": 13.6,
+      "operation": "8m20s resolves"
+    },
+    {
+      "time": 15.3,
+      "operation": "emission marker separates"
+    },
+    {
+      "time": 17,
+      "operation": "camera follows transit"
+    },
+    {
+      "time": 18.7,
+      "operation": "source comparison resets"
+    },
+    {
+      "time": 20.4,
+      "operation": "source removed; light remains"
+    },
+    {
+      "time": 22.1,
+      "operation": "last-light boundary advances"
+    },
+    {
+      "time": 23.8,
+      "operation": "boundary reaches destination"
+    },
+    {
+      "time": 25.5,
+      "operation": "daylight clears city"
+    },
+    {
+      "time": 27.2,
+      "operation": "gravity question revealed"
+    },
+    {
+      "time": 28.9,
+      "operation": "old orbit retained"
+    },
+    {
+      "time": 30.6,
+      "operation": "gravity-change lane introduced"
+    },
+    {
+      "time": 32.3,
+      "operation": "shared speed comparison"
+    },
+    {
+      "time": 34,
+      "operation": "two boundaries advance together"
+    },
+    {
+      "time": 35.7,
+      "operation": "arrival alignment"
+    },
+    {
+      "time": 37.4,
+      "operation": "orbit constraint releases"
+    },
+    {
+      "time": 39.1,
+      "operation": "tangent departure"
+    },
+    {
+      "time": 40.8,
+      "operation": "first warning comparison"
+    },
+    {
+      "time": 42.5,
+      "operation": "return to city in final minutes"
+    },
+    {
+      "time": 44.2,
+      "operation": "emission age becomes visible"
+    },
+    {
+      "time": 45.9,
+      "operation": "Sun past payoff"
+    }
+  ],
+  "max_planned_spacing": 1.7,
+  "delivery": [
+    1080,
+    1920
+  ],
+  "ending_exception": "Exact shared brand ending; no stepped-motion modification"
+}
