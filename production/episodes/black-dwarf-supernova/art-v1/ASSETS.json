@@ -1,0 +1,32 @@
+{
+  "assets": [
+    {
+      "file": "assets/Manrope800.ttf",
+      "bytes": 98080,
+      "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105"
+    },
+    {
+      "file": "assets/Playfair900.ttf",
+      "bytes": 194772,
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38"
+    },
+    {
+      "file": "assets/remnant-illustration-v2.png",
+      "bytes": 1965977,
+      "sha256": "f858db32a6ca5704ae194b328bab28073fa75a24290c00a0650972eaff44ee92"
+    },
+    {
+      "file": "assets/sirius-hubble.jpg",
+      "bytes": 58798,
+      "sha256": "231e45edae763a43b6062648b1df190663eac7cbb9d12e7ef7f5d73876654c01"
+    }
+  ],
+  "rights_receipt": "README.md#sources-and-item-rights",
+  "source_pixels": {
+    "sirius-hubble.jpg": [
+      369,
+      403
+    ]
+  },
+  "production_standard": "sun-disappeared-v1"
+}

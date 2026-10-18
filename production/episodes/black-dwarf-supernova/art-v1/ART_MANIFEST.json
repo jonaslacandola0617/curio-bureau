@@ -1,0 +1,120 @@
+{
+  "production_standard": "sun-disappeared-v1",
+  "status": "OWNER_REVIEW_PENDING",
+  "static_only": true,
+  "narration_timing": "NOT_LOCKED",
+  "frames": [
+    {
+      "file": "01_opening.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Opening: the inactive remnant can still have an ending.",
+      "headings_hidden": false,
+      "sha256": "5c4616c7e7f6225b0a6a4fbc6cf738b7f6ac725e238c67bb51f34afbccda1900"
+    },
+    {
+      "file": "01_opening_no_heading.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Opening: the inactive remnant can still have an ending.",
+      "headings_hidden": true,
+      "sha256": "432aa6fe5ffb484d82ba926167542942ea2a72ff8c650dbc63015002c5b444f3"
+    },
+    {
+      "file": "02_observation.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Evidence: an observed white dwarf and an explicitly hypothetical future state.",
+      "headings_hidden": false,
+      "sha256": "a0dbff77e271fcfc088a9bfe6b4d1b869225399658d3c9000420912e59c8409e"
+    },
+    {
+      "file": "02_observation_no_heading.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Evidence: an observed white dwarf and an explicitly hypothetical future state.",
+      "headings_hidden": true,
+      "sha256": "8701aa90853132332da2e4458d19c855b9ff5f7af4e55bfb196208d2907c9a18"
+    },
+    {
+      "file": "03_cutaway.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Mechanism: electron support, then conceptual composition change.",
+      "headings_hidden": false,
+      "sha256": "c9f9bea86d332a090ba57c844a1e425ae073260e27117d0da71095ac7eea93ec"
+    },
+    {
+      "file": "03_cutaway_no_heading.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Mechanism: electron support, then conceptual composition change.",
+      "headings_hidden": true,
+      "sha256": "63b93ac95f6f4496fa02509dc5edc3f70b9c849c101ed640416fde62c04680ad"
+    },
+    {
+      "file": "04_limit_initial.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Initial: the support limit exceeds the nearly fixed mass.",
+      "headings_hidden": false,
+      "sha256": "43b2cb81a5819aa4949f110ea140ce2fd84afb6bd95659a0d6f8821aa0cecacd"
+    },
+    {
+      "file": "04_limit_initial_no_heading.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Initial: the support limit exceeds the nearly fixed mass.",
+      "headings_hidden": true,
+      "sha256": "87a97a82191cffd1a6a2fd548f62d3a792b38bf396839b4a7ab36663aa3b657c"
+    },
+    {
+      "file": "05_limit_intermediate.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Hard intermediate: the limit falls; the mass reference stays fixed.",
+      "headings_hidden": false,
+      "sha256": "d0de5ad51474bd34594c0f7a5b277eb8615b278369a713a73cad0d9215b36932"
+    },
+    {
+      "file": "05_limit_intermediate_no_heading.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Hard intermediate: the limit falls; the mass reference stays fixed.",
+      "headings_hidden": true,
+      "sha256": "c6de8346d37df4293629416c4939de6f16b8398b509cf153a9e5adc2e1c1f593"
+    },
+    {
+      "file": "06_limit_resolved.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Resolved: in the model, the limit crosses below the mass.",
+      "headings_hidden": false,
+      "sha256": "594b5b72074d4d8a859ba323fb0899e174851fa0bd08a74900484b3d7e4be77d"
+    },
+    {
+      "file": "06_limit_resolved_no_heading.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Resolved: in the model, the limit crosses below the mass.",
+      "headings_hidden": true,
+      "sha256": "7d3a6224f70afc13281ed7364bc15bd13e3f85b4c7591eea2a5c1f49ecca9533"
+    },
+    {
+      "file": "07_remote_payoff.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Payoff: conditional collapse and an extreme model timescale.",
+      "headings_hidden": false,
+      "sha256": "6ebf2ee27a284f06f53197f632a4432a2eaf86f1b79e9573973dc6245d679be7"
+    },
+    {
+      "file": "07_remote_payoff_no_heading.jpg",
+      "width": 1080,
+      "height": 1920,
+      "meaning": "Payoff: conditional collapse and an extreme model timescale.",
+      "headings_hidden": true,
+      "sha256": "1ac19a0a8b76e815ded2757db480f4fd878aa476f0ba293f2479db31e49623a2"
+    }
+  ]
+}
