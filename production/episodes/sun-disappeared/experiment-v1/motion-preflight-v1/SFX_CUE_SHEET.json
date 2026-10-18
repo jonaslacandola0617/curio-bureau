@@ -1,0 +1,93 @@
+[
+  {
+    "sound_id": "doubt_tick",
+    "asset_file": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+    "sha256": "3037b29ca0dd9f8414de398b2db402d825039da4ff15946350064bcdb5fd94e1",
+    "onset_time": 0.08,
+    "duration": 0.45,
+    "purpose": "light marks begin moving",
+    "animation_event_id": "light marks begin moving",
+    "narrative_word_id": 0,
+    "mix_bus": "EDITORIAL/PHYSICAL",
+    "peak_target": 0.25,
+    "rights": "Original Curio synthesized library; editorial effects, not sounds transmitted through vacuum"
+  },
+  {
+    "sound_id": "pencil_marks",
+    "asset_file": "audio/curio_sfx_v1/archive/CB_ARCHIVE_pencil_marks_v1.flac",
+    "sha256": "9d968f49a8b8218125552cddc71770376f9d18d638c07fab6dcdf57526792f10",
+    "onset_time": 1.7,
+    "duration": 0.5,
+    "purpose": "emission-time keyword revealed",
+    "animation_event_id": "emission-time keyword revealed",
+    "narrative_word_id": 4,
+    "mix_bus": "EDITORIAL/PHYSICAL",
+    "peak_target": 0.29,
+    "rights": "Original Curio synthesized library; editorial effects, not sounds transmitted through vacuum"
+  },
+  {
+    "sound_id": "parallax_swish",
+    "asset_file": "audio/curio_sfx_v1/motion/CB_MOTION_parallax_swish_v1.flac",
+    "sha256": "cf811cd552fad696bbc099ab3754add546034f1c892af5516c02b919e54180b0",
+    "onset_time": 3.4,
+    "duration": 0.65,
+    "purpose": "camera follows same travel path",
+    "animation_event_id": "camera follows same travel path",
+    "narrative_word_id": 9,
+    "mix_bus": "EDITORIAL/PHYSICAL",
+    "peak_target": 0.32,
+    "rights": "Original Curio synthesized library; editorial effects, not sounds transmitted through vacuum"
+  },
+  {
+    "sound_id": "photo_slide",
+    "asset_file": "audio/curio_sfx_v1/archive/CB_ARCHIVE_photo_slide_v1.flac",
+    "sha256": "94b14a03751ed3c2840faa74f1423e5a7692802e0542ef43a2ec9437227535a3",
+    "onset_time": 5.05,
+    "duration": 0.6,
+    "purpose": "Sun photographic layer wipes away",
+    "animation_event_id": "Sun photographic layer wipes away",
+    "narrative_word_id": 12,
+    "mix_bus": "EDITORIAL/PHYSICAL",
+    "peak_target": 0.36,
+    "rights": "Original Curio synthesized library; editorial effects, not sounds transmitted through vacuum"
+  },
+  {
+    "sound_id": "pencil_marks",
+    "asset_file": "audio/curio_sfx_v1/archive/CB_ARCHIVE_pencil_marks_v1.flac",
+    "sha256": "9d968f49a8b8218125552cddc71770376f9d18d638c07fab6dcdf57526792f10",
+    "onset_time": 6.8,
+    "duration": 0.55,
+    "purpose": "absence boundary advances; empty path revealed",
+    "animation_event_id": "absence boundary advances; empty path revealed",
+    "narrative_word_id": 17,
+    "mix_bus": "EDITORIAL/PHYSICAL",
+    "peak_target": 0.28,
+    "rights": "Original Curio synthesized library; editorial effects, not sounds transmitted through vacuum"
+  },
+  {
+    "sound_id": "soft_depth_pass",
+    "asset_file": "audio/curio_sfx_v1/motion/CB_MOTION_soft_depth_pass_v1.flac",
+    "sha256": "0e9b66b3db679e689e2ad980881a2e862f3b82353d9ed0fb348d46078ca13b16",
+    "onset_time": 8.5,
+    "duration": 0.7,
+    "purpose": "remaining distance inspection",
+    "animation_event_id": "remaining distance inspection",
+    "narrative_word_id": 21,
+    "mix_bus": "EDITORIAL/PHYSICAL",
+    "peak_target": 0.3,
+    "rights": "Original Curio synthesized library; editorial effects, not sounds transmitted through vacuum"
+  },
+  {
+    "sound_id": "micro_emphasis",
+    "asset_file": "audio/curio_sfx_v1/cinematic/CB_CINEMATIC_micro_emphasis_v1.flac",
+    "sha256": "477c33e0caa4313d8cb7bc0e1decdfc2fd15b161c7c2b8bcb719f16b84adc1b2",
+    "onset_time": 9.55,
+    "duration": 0.5,
+    "purpose": "last sunlight reaches Earth; daylight clears",
+    "animation_event_id": "last sunlight reaches Earth; daylight clears",
+    "narrative_word_id": 22,
+    "mix_bus": "EDITORIAL/PHYSICAL",
+    "peak_target": 0.34,
+    "rights": "Original Curio synthesized library; editorial effects, not sounds transmitted through vacuum"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "art_source": "30259142d60749478f80c304277231250dc59d3e",
+  "owner_approval_commit": "f99660669c674fea36a90de03a9ee3b36af013a3",
+  "role": "MOTION PREFLIGHT; full film pending",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "scene_fps": 12,
+  "frames": 348,
+  "duration": 11.6,
+  "inputs": [
+    {
+      "path": "scene.cjs",
+      "sha256": "1fc4e6d975bd844e37d7304c123ee91f89dec0347cc3fc2e323f0abd728e5f89"
+    },
+    {
+      "path": "render.cjs",
+      "sha256": "0a702583cb1883957ab638236887bfa7c6126b80d595c4c0bc54cfc2be42af36"
+    },
+    {
+      "path": "mix.py",
+      "sha256": "886fd498547c3ba506e0757d62d9fb6bfa04d3ff213b8de8bec691285f330d12"
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "6c0e7e84e9f06dc289fdbe7b80ce9b7ec00e0471bb2caabd0ca60df1b81145a0"
+    },
+    {
+      "path": "SFX_CUE_SHEET.json",
+      "sha256": "d835925a8ec690fe52af52e3d26c6d18113398c96643f16851f13d1488f88408"
+    },
+    {
+      "path": "MUSIC_DIRECTION.json",
+      "sha256": "e3cc1d2f79a7b0ee51a6ddb7ed672e5479aa1bcfd032ac1ffb097cc45f607dcf"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d47a46424c1caf5205aaeb33c5c16f10871732541f3e4e5fe6f27900992a631d"
+    },
+    {
+      "path": "Passage-Mix-v1.flac",
+      "sha256": "c8590bebf1d8bc741718e47535969c4ae10c4096ff534265f02964746f0b6949"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "37db0e71156675d532d5205fd7143b43f0fee32028330d8f32fd0426ef3a9240"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "role": "11.6s representative motion/sound preflight, not a full episode",
+  "start_in_voice": 14.55,
+  "end_in_voice": 26.15,
+  "duration": 11.6,
+  "frames": 348,
+  "fps": 30,
+  "scene_fps": 12,
+  "words": [
+    {
+      "start": 0.31,
+      "end": 0.55,
+      "text": "so",
+      "probability": 0.9966849684715271
+    },
+    {
+      "start": 0.55,
+      "end": 0.79,
+      "text": "the",
+      "probability": 0.9914348721504211
+    },
+    {
+      "start": 0.79,
+      "end": 1.05,
+      "text": "light",
+      "probability": 0.9946520328521729
+    },
+    {
+      "start": 1.05,
+      "end": 1.49,
+      "text": "arriving",
+      "probability": 0.9979193806648254
+    },
+    {
+      "start": 1.49,
+      "end": 1.93,
+      "text": "now",
+      "probability": 0.999230146408081
+    },
+    {
+      "start": 1.93,
+      "end": 2.41,
+      "text": "left",
+      "probability": 0.9811331629753113
+    },
+    {
+      "start": 2.41,
+      "end": 2.73,
+      "text": "the",
+      "probability": 0.9982485771179199
+    },
+    {
+      "start": 2.73,
+      "end": 2.99,
+      "text": "sun",
+      "probability": 0.855410099029541
+    },
+    {
+      "start": 2.99,
+      "end": 3.41,
+      "text": "minutes",
+      "probability": 0.9883948564529419
+    },
+    {
+      "start": 3.41,
+      "end": 3.81,
+      "text": "ago.",
+      "probability": 0.9970468878746033
+    },
+    {
+      "start": 4.49,
+      "end": 4.83,
+      "text": "Remove",
+      "probability": 0.9837850332260132
+    },
+    {
+      "start": 4.83,
+      "end": 5.09,
+      "text": "the",
+      "probability": 0.9983705878257751
+    },
+    {
+      "start": 5.09,
+      "end": 5.39,
+      "text": "source,",
+      "probability": 0.9940860271453857
+    },
+    {
+      "start": 5.83,
+      "end": 5.95,
+      "text": "and",
+      "probability": 0.9990842342376709
+    },
+    {
+      "start": 5.95,
+      "end": 6.13,
+      "text": "that",
+      "probability": 0.9944121241569519
+    },
+    {
+      "start": 6.13,
+      "end": 6.37,
+      "text": "last",
+      "probability": 0.9961259961128235
+    },
+    {
+      "start": 6.37,
+      "end": 6.87,
+      "text": "light",
+      "probability": 0.9987540245056152
+    },
+    {
+      "start": 6.87,
+      "end": 7.29,
+      "text": "still",
+      "probability": 0.9989054203033447
+    },
+    {
+      "start": 7.29,
+      "end": 7.65,
+      "text": "has",
+      "probability": 0.9992623925209045
+    },
+    {
+      "start": 7.65,
+      "end": 7.95,
+      "text": "distance",
+      "probability": 0.9922826886177063
+    },
+    {
+      "start": 7.95,
+      "end": 8.37,
+      "text": "to",
+      "probability": 0.9979032278060913
+    },
+    {
+      "start": 8.37,
+      "end": 8.61,
+      "text": "cross.",
+      "probability": 0.9942722320556641
+    },
+    {
+      "start": 9.41,
+      "end": 9.55,
+      "text": "Then,",
+      "probability": 0.995851993560791
+    },
+    {
+      "start": 9.91,
+      "end": 10.27,
+      "text": "daylight",
+      "probability": 0.9908402562141418
+    },
+    {
+      "start": 10.27,
+      "end": 10.89,
+      "text": "ends.",
+      "probability": 0.9986860156059265
+    }
+  ],
+  "actions": [
+    {
+      "time": 0,
+      "operation": "Already emitted light advances toward Earth"
+    },
+    {
+      "time": 1.7,
+      "operation": "Emission-time keyword attaches to Sun"
+    },
+    {
+      "time": 3.4,
+      "operation": "Camera inspects the same light route"
+    },
+    {
+      "time": 5.1,
+      "operation": "Sun image is physically removed"
+    },
+    {
+      "time": 6.8,
+      "operation": "Empty region grows behind last-light boundary"
+    },
+    {
+      "time": 8.5,
+      "operation": "Pullback reveals remaining distance to Earth"
+    },
+    {
+      "time": 9.7,
+      "operation": "Final sunlight arrives; matched Earth-to-city reveal"
+    },
+    {
+      "time": 11.2,
+      "operation": "Daylight loss settles"
+    }
+  ],
+  "sampling": "Scene, camera, ink and grain sampled at floor(t*12)/12; continuous 48k audio"
+}
