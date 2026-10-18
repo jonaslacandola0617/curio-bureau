@@ -1,0 +1,170 @@
+{
+  "status": "Source visual comparison samples, not automatic semantic approval",
+  "samples": [
+    {
+      "operation_time": 0,
+      "sampled_time": 0.22,
+      "operation": "Sun removal in an illuminated city"
+    },
+    {
+      "operation_time": 1.7,
+      "sampled_time": 1.92,
+      "operation": "Daylight persists reveal"
+    },
+    {
+      "operation_time": 3.35,
+      "sampled_time": 3.5700000000000003,
+      "operation": "Approximate delay stamp"
+    },
+    {
+      "operation_time": 5.05,
+      "sampled_time": 5.27,
+      "operation": "Foreground city inspection"
+    },
+    {
+      "operation_time": 6.1,
+      "sampled_time": 6.319999999999999,
+      "operation": "Impossible/real distinction"
+    },
+    {
+      "operation_time": 7.1,
+      "sampled_time": 7.319999999999999,
+      "operation": "Source premise crossed out"
+    },
+    {
+      "operation_time": 7.75,
+      "sampled_time": 7.97,
+      "operation": "Delay measurement separates"
+    },
+    {
+      "operation_time": 9.25,
+      "sampled_time": 9.47,
+      "operation": "Measurable-part reveal"
+    },
+    {
+      "operation_time": 10.45,
+      "sampled_time": 10.67,
+      "operation": "Sun–Earth distance opens"
+    },
+    {
+      "operation_time": 11,
+      "sampled_time": 11.22,
+      "operation": "Distance ruler builds"
+    },
+    {
+      "operation_time": 11.95,
+      "sampled_time": 12.17,
+      "operation": "Travel time resolves"
+    },
+    {
+      "operation_time": 13.45,
+      "sampled_time": 13.67,
+      "operation": "One-way relation"
+    },
+    {
+      "operation_time": 14.55,
+      "sampled_time": 14.770000000000001,
+      "operation": "Already-emitted light follows its route"
+    },
+    {
+      "operation_time": 16.3,
+      "sampled_time": 16.52,
+      "operation": "Emission-time keyword"
+    },
+    {
+      "operation_time": 17.95,
+      "sampled_time": 18.169999999999998,
+      "operation": "Camera follows transit"
+    },
+    {
+      "operation_time": 19.65,
+      "sampled_time": 19.869999999999997,
+      "operation": "Remove source, keep travelling light"
+    },
+    {
+      "operation_time": 21.35,
+      "sampled_time": 21.57,
+      "operation": "Empty region behind boundary grows"
+    },
+    {
+      "operation_time": 23.05,
+      "sampled_time": 23.27,
+      "operation": "Remaining distance to Earth"
+    },
+    {
+      "operation_time": 24.4,
+      "sampled_time": 24.619999999999997,
+      "operation": "Daylight loss settles"
+    },
+    {
+      "operation_time": 26.15,
+      "sampled_time": 26.369999999999997,
+      "operation": "Gravity twist"
+    },
+    {
+      "operation_time": 27.05,
+      "sampled_time": 27.27,
+      "operation": "Gravity keyword"
+    },
+    {
+      "operation_time": 28.75,
+      "sampled_time": 28.97,
+      "operation": "Orbit continues"
+    },
+    {
+      "operation_time": 30.45,
+      "sampled_time": 30.669999999999998,
+      "operation": "Change has not arrived"
+    },
+    {
+      "operation_time": 32.3,
+      "sampled_time": 32.519999999999996,
+      "operation": "Dual propagation comparison"
+    },
+    {
+      "operation_time": 34,
+      "sampled_time": 34.22,
+      "operation": "Boundaries advance together"
+    },
+    {
+      "operation_time": 35,
+      "sampled_time": 35.22,
+      "operation": "Same causal speed resolves"
+    },
+    {
+      "operation_time": 36.1,
+      "sampled_time": 36.32,
+      "operation": "Orbit release context"
+    },
+    {
+      "operation_time": 37.3,
+      "sampled_time": 37.519999999999996,
+      "operation": "Delayed change arrives"
+    },
+    {
+      "operation_time": 38.9,
+      "sampled_time": 39.12,
+      "operation": "Tangent departure"
+    },
+    {
+      "operation_time": 40.45,
+      "sampled_time": 40.67,
+      "operation": "Return to opening city print"
+    },
+    {
+      "operation_time": 42.6,
+      "sampled_time": 42.82,
+      "operation": "Emission age revealed"
+    },
+    {
+      "operation_time": 44.45,
+      "sampled_time": 44.67,
+      "operation": "Sun past conclusion"
+    },
+    {
+      "operation_time": 46.3,
+      "sampled_time": 46.519999999999996,
+      "operation": "Printed image pulls back; sent-before-seen relation"
+    }
+  ]
+}
