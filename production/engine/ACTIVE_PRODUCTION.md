@@ -1,5 +1,13 @@
 # Active production entry point
 
+## Sun film production standard — owner adopted, 18 October 2026
+
+The owner approved the complete Sun-disappearance film and explicitly ordered: “I WANT OUR FUTURE VIDEOS TO BE MADE EXACTLY LIKE THIS!” This replaces the temporary experiment and makes [the Sun film standard](../../production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md) the current production baseline. Read it before new work. Use its image-led explanatory motion, 12fps scene/camera cadence inside native 1080×1920/30fps delivery, meaningful change about every 1.5–2s, photographic layers, animated Playfair 900 keywords, centered Manrope captions, clean graphic supports, controlled material/optical finishing, natural Bernard, evolving original score, forward existing action SFX and exact 30fps London Bridge ending. Adapt the subject, composition, mechanism and music to the story. Preserve approved historical bytes.
+
+New episode configs declare `production_standard: sun-disappeared-v1`, `scene_fps: 12` and an episode-relative `motion_review_targets` ledger. The shared renderer and validator implement this cadence; custom renderers follow [the integration guide](../../production/engine/SUN_STANDARD_INTEGRATION.md). Measured execution, owner creative approval and independent listening/source/caption checks remain separate. No new film is authorized merely by this infrastructure update.
+
+**Latest complete-film authority:** [Sun-disappearance standard](../approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md). The approved film has clean text/graphics, controlled image finishing and12fps scene/camera motion. No translucent caption haze, soft halo or blurred graphic backing. Cold Metal and Mint remain historical benchmarks.
+
 ## Default delivery — owner update, 17 October 2026
 
 Native **1080 × 1920 at 30 fps** is now the standard final posting format. Use high-quality H.264 MP4 (12 Mbps target,16 Mbps peak ceiling) and AAC 48 kHz stereo 320 kbps.4K is optional when explicitly requested. Apply [the 1080p delivery standard](DELIVERY_1080P_STANDARD.md). Older mandatory 4K statements below are superseded for new production; historical exports remain unchanged. Keep all visual/audio/whole-film quality gates and immediate versioned GitHub archiving.

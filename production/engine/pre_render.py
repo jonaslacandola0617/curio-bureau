@@ -34,7 +34,7 @@ def engine_inputs(episode, project):
     c = json.loads((episode / 'episode.json').read_text())
     paths = {episode / 'episode.json', episode / c['data_loader']}
     paths.update(episode / n for n in c['scripts'])
-    for key in ('sequence_contract', 'finishing_contract'):
+    for key in ('sequence_contract', 'finishing_contract', 'motion_review_targets'):
         if c.get(key): paths.add(episode / c[key])
     for key in ('contract', 'runtime_proof'):
         if c.get('finishing', {}).get(key): paths.add(episode / c['finishing'][key])
