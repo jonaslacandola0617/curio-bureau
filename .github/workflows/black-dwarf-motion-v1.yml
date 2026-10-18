@@ -1,0 +1,30 @@
+name: Black Dwarf motion v1 review archive
+on:
+  push:
+    branches: [film/black-dwarf-supernova]
+    paths: [production/episodes/black-dwarf-supernova/motion-v1/READY.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render-and-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned compositor and audio dependencies
+        run: |
+          npm install --prefix .curio-runtime --no-audit --no-fund @napi-rs/canvas@0.1.100
+          python -m pip install numpy==2.2.6 scipy==1.15.3
+      - name: Render bounded recovery chunks and archive every completed version
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          CODEX_PRIMARY_RUNTIME_NODE_MODULES: ${{ github.workspace }}/.curio-runtime/node_modules
+        run: python production/episodes/black-dwarf-supernova/motion-v1/build_release.py
