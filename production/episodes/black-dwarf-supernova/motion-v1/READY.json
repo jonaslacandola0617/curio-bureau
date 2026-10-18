@@ -11,5 +11,7 @@
   "fps": 30,
   "scene_fps": 12,
   "source_identity": "GITHUB_SHA plus SOURCE_FINGERPRINT.json",
-  "render_role": "isolated mechanism preflight, not a complete film"
+  "render_role": "isolated mechanism preflight, not a complete film",
+  "build_attempt": 2,
+  "retry_reason": "First runner lacked ffmpeg; no capture or movie existed. Explicit dependency installation added."
 }
