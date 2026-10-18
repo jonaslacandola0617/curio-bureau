@@ -1,0 +1,7 @@
+{
+  "max_channel_difference": 0,
+  "pixels_equal": true,
+  "source": "Native renderer time0",
+  "recovery": "frames-0000-0239.mkv decoded first RGB frame",
+  "method": "Exact1080\u00d71920 RGB comparison, not a JPEG comparison"
+}

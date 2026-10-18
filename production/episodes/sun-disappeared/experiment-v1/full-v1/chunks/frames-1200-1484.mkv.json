@@ -1,0 +1,28 @@
+{
+  "file": "frames-1200-1484.mkv",
+  "start_frame": 1200,
+  "end_frame": 1484,
+  "count": 285,
+  "source_commit": "30cea6213c2d5a6005c8595ce1e8ddb21aaccdf2",
+  "sha256": "d9807c490a3f054ffb6a7ebc1f91133f78c9f0b9cfe89c1d2354939c2d95da39",
+  "bytes": 215486038,
+  "probe": {
+    "codec_name": "h264",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "gbrp",
+    "r_frame_rate": "30/1",
+    "nb_read_frames": "285"
+  },
+  "lossless": "libx264rgb CRF0 / RGB24; source alpha opaque",
+  "archive_status": "DURABLE",
+  "archive_receipt": {
+    "name": "frames-1200-1484.mkv",
+    "asset_id": 653408265,
+    "bytes": 215486038,
+    "sha256": "d9807c490a3f054ffb6a7ebc1f91133f78c9f0b9cfe89c1d2354939c2d95da39",
+    "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/sun-disappeared-full-v1-review-20261018/frames-1200-1484.mkv",
+    "observed_provider_digest": "sha256:d9807c490a3f054ffb6a7ebc1f91133f78c9f0b9cfe89c1d2354939c2d95da39",
+    "state": "uploaded"
+  }
+}
