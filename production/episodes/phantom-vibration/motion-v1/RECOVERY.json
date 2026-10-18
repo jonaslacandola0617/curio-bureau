@@ -18,7 +18,7 @@
         "asset_id": 652690138,
         "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-lossless-00000-00239.mkv",
         "observed_digest": "sha256:fab9683185d2b4fcadb03091abf2da30129aabcd9ddc2991135044c13acf1f18",
-        "verified_at": "2026-10-18T06:33:22.374Z"
+        "verified_at": "2026-10-18T06:38:47.785Z"
       }
     },
     {
@@ -35,7 +35,41 @@
         "asset_id": 652692614,
         "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-lossless-00240-00479.mkv",
         "observed_digest": "sha256:2360a2448c0242c7d5e93ea9c6dca0d06c5bb4ec7124b241a471b274639e5f3b",
-        "verified_at": "2026-10-18T06:33:22.374Z"
+        "verified_at": "2026-10-18T06:38:47.785Z"
+      }
+    },
+    {
+      "file": "chunks/Phantom-lossless-00480-00719.mkv",
+      "start": 480,
+      "end": 720,
+      "frames": 240,
+      "bytes": 381831028,
+      "sha256": "43530e51e690424c09681b08ebd579a220f3822502c01ca41380f3fbaae0a189",
+      "source_fingerprint_sha256": "b6996c9974c45623556874a04e0b51c8b73680982b789ec12f18ef58a6d50d9e",
+      "archive_status": "DURABLE",
+      "github": {
+        "release_id": 416275739,
+        "asset_id": 652702503,
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-lossless-00480-00719.mkv",
+        "observed_digest": "sha256:43530e51e690424c09681b08ebd579a220f3822502c01ca41380f3fbaae0a189",
+        "verified_at": "2026-10-18T06:38:47.785Z"
+      }
+    },
+    {
+      "file": "chunks/Phantom-lossless-00720-00959.mkv",
+      "start": 720,
+      "end": 960,
+      "frames": 240,
+      "bytes": 277045982,
+      "sha256": "817d1667aba73438a15372d1528bb7ddc54a163c477f36d448fbd18eabb7efde",
+      "source_fingerprint_sha256": "b6996c9974c45623556874a04e0b51c8b73680982b789ec12f18ef58a6d50d9e",
+      "archive_status": "DURABLE",
+      "github": {
+        "release_id": 416275739,
+        "asset_id": 652703380,
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-lossless-00720-00959.mkv",
+        "observed_digest": "sha256:817d1667aba73438a15372d1528bb7ddc54a163c477f36d448fbd18eabb7efde",
+        "verified_at": "2026-10-18T06:38:47.785Z"
       }
     }
   ],
