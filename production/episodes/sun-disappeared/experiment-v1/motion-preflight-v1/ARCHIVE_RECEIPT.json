@@ -1,0 +1,30 @@
+{
+  "source_commit": "c9ca6af4f2a58c242421ca6bbdff78001f0204b1",
+  "status": "ARCHIVED_UNREVIEWED",
+  "files": [
+    {
+      "name": "00-Sun-Last-Light-Motion-Preflight-v1.mp4",
+      "bytes": 16140048,
+      "sha256": "c613590ff09004f20a6838ab2c4dcd0900822ff7b009d84335887e7fa2d1f0ac"
+    },
+    {
+      "name": "Passage-lossless.mkv",
+      "bytes": 503581946,
+      "sha256": "36e5745bb9b173dfae8f4abf9853e3448a0ab1f016afbf4d137c0e6fcea4b3d3"
+    },
+    {
+      "name": "Passage-Mix-v1.flac",
+      "bytes": 818227,
+      "sha256": "c8590bebf1d8bc741718e47535969c4ae10c4096ff534265f02964746f0b6949"
+    }
+  ],
+  "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/sun-disappeared-motion-preflight-v1-20261018",
+  "observed_github_digests_match": true,
+  "public_mp4_download": {
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/sun-disappeared-motion-preflight-v1-20261018/00-Sun-Last-Light-Motion-Preflight-v1.mp4",
+    "bytes": 16140048,
+    "sha256": "c613590ff09004f20a6838ab2c4dcd0900822ff7b009d84335887e7fa2d1f0ac",
+    "expected_sha256": "c613590ff09004f20a6838ab2c4dcd0900822ff7b009d84335887e7fa2d1f0ac",
+    "authenticated": false
+  }
+}

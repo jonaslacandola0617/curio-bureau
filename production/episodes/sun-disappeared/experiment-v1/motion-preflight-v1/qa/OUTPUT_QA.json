@@ -1,0 +1,30 @@
+{
+  "role": "Representative passage only; owner moving review pending",
+  "duration": 11.6,
+  "width": 1080,
+  "height": 1920,
+  "frames": 348,
+  "scene_fps": 12,
+  "full_decode": "PASS",
+  "within_12fps_state_changes": [],
+  "hold_run_lengths": [
+    2,
+    3,
+    5,
+    13
+  ],
+  "unique_source_states": 134,
+  "source_lossless_frames": 348,
+  "encoded_audio_lufs": "-14.64",
+  "encoded_audio_dbtp": "-1.49",
+  "encoded_tail_mix_correlation": 0.9999645454788229,
+  "selected_voice_closing_phrase": "Then, daylight ends.",
+  "source_voice_selection": [
+    14.55,
+    26.15
+  ],
+  "last_selected_spoken_end": 10.89,
+  "protected_selected_tail": 0.7099999999999991,
+  "independent_listening": "Not claimed; owner review pending",
+  "mp4_sha256": "c613590ff09004f20a6838ab2c4dcd0900822ff7b009d84335887e7fa2d1f0ac"
+}

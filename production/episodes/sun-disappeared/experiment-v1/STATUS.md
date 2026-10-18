@@ -4,3 +4,6 @@ Original voice 48.274286s. Local actual-audio ASR recovers full script including
 Current work: complete-story art review and difficult three-state transit passage. No animation/video or music mix approval claimed.
 12fps/1.5–2s episode-specific experiment remains temporary; no global infrastructure amendment.
 Next gate: inspect and present finished static art/sequence; owner approval before animation under art-direction/VISUAL_TRANSLATION_REVIEW.md. Full movie acceptance remains separate.
+
+## 18 October moving preflight
+Owner approved artwork (“looks good”). Representative11.6-second motion/sound preflight archived and technical checks saved. Owner moving approval pending; no full-film render running. See motion-preflight-v1/REVIEW_STATUS.md.
