@@ -1,0 +1,149 @@
+{
+  "constant_source_grain": {
+    "first": "09d4aad46474f3be09f83d8903bc096965d4f6be721284cd720147c9e1e7146b",
+    "second": "b051a742eb21b4ea44e424026c0e78c0a8af4fa5e4cf094cb2b316a9673999d1",
+    "different": true,
+    "same_jitter_bucket": true,
+    "same_exposure_bucket": true
+  },
+  "native": [
+    1080,
+    1920
+  ],
+  "finishing_samples": [
+    {
+      "time": 1.2,
+      "finishing_on": "3593db96a7403c890de18f4c1e8aee7f3820ab3b63602ac3b73c50d942694fe0",
+      "finishing_off": "e41166adddc5789096103ecda248543784f62d29108e95f2446209f2b2410ce3",
+      "different": true,
+      "settings": {
+        "cut": 0,
+        "focus": {
+          "x": 650,
+          "y": 1230,
+          "rx": 700,
+          "ry": 750
+        },
+        "focusStrength": 0.18,
+        "hunt": 0,
+        "grain": 0.23,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.024
+      }
+    },
+    {
+      "time": 5.26,
+      "finishing_on": "6e5b7b968f036b8c9485d9298e9727fba4e5b561efe5eed0b441fe4dc97a629a",
+      "finishing_off": "ab897805785a445af9f944bcf2ff3940389d7ab7e098725385eb595569c3c386",
+      "different": true,
+      "settings": {
+        "cut": 0.8087039999999986,
+        "focus": {
+          "x": 600,
+          "y": 800,
+          "rx": 600,
+          "ry": 650
+        },
+        "focusStrength": 0.18,
+        "hunt": 2.5,
+        "grain": 0.23,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.024
+      }
+    },
+    {
+      "time": 10.4,
+      "finishing_on": "9214080420a81405574067f77d7066895670a6b8165fc717349d64ea4ccb8ea5",
+      "finishing_off": "50856622d21716207589bc918c206b0634c0487ba609a5481b82c42aedcf3004",
+      "different": true,
+      "settings": {
+        "cut": 0,
+        "focus": {
+          "x": 540,
+          "y": 1450,
+          "rx": 600,
+          "ry": 450
+        },
+        "focusStrength": 0.26,
+        "hunt": 0,
+        "grain": 0.23,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.024
+      }
+    },
+    {
+      "time": 16.7,
+      "finishing_on": "90c95e58c0256295095a176a91d083c0fd25bad529b86a5691b28b0b92c9d509",
+      "finishing_off": "1a473910f068ad57869057056f0a61e5267b20953c54aefb6333c9d70e02caa4",
+      "different": true,
+      "settings": {
+        "cut": 0,
+        "focus": {
+          "x": 790,
+          "y": 700,
+          "rx": 600,
+          "ry": 650
+        },
+        "focusStrength": 0.18,
+        "hunt": 0,
+        "grain": 0.23,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.024
+      }
+    },
+    {
+      "time": 24,
+      "finishing_on": "881893af1662ff38ed85c4ff579fdcb36a09e5ccdee3e51a6aede36883c68f92",
+      "finishing_off": "1123f12eb40e8151b7c7ec7f96526f4f36d0bea696e59afbe1ecd906b213743a",
+      "different": true,
+      "settings": {
+        "cut": 0,
+        "focus": {
+          "x": 590,
+          "y": 730,
+          "rx": 650,
+          "ry": 590
+        },
+        "focusStrength": 0.18,
+        "hunt": 0,
+        "grain": 0.23,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.024
+      }
+    },
+    {
+      "time": 33,
+      "finishing_on": "7366567b474f8070a8924d3417da0a773a740606e5ff3cea512eb1b33f975411",
+      "finishing_off": "8cdc2eabb90f826b595596a9661f5cbafd0317f5bb06042ae4901e1cc7035c2f",
+      "different": true,
+      "settings": {
+        "cut": 0,
+        "focus": {
+          "x": 650,
+          "y": 1100,
+          "rx": 800,
+          "ry": 1100
+        },
+        "focusStrength": 0.18,
+        "hunt": 0,
+        "grain": 0.23,
+        "fringe": 0.85,
+        "jitter": 0.42,
+        "exposure": 0.024
+      }
+    }
+  ],
+  "opaque_ending": {
+    "on": "bb9dda87e605f3680e86eb5b782cc935ba0076a227a685c644e7a67da97b9085",
+    "off": "bb9dda87e605f3680e86eb5b782cc935ba0076a227a685c644e7a67da97b9085",
+    "identical": true
+  },
+  "deterministic_frame": true,
+  "caption_layer": "after optical treatment; screen-fixed center",
+  "status": "Pixel tests establish implementation and deterministic output, not subjective art/listening approval"
+}

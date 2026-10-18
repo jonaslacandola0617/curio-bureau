@@ -1,0 +1,32 @@
+{
+  "provider": "Runway",
+  "voice": "Bernard",
+  "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+  "task_id": "03ae4496-d54e-44ee-9c6a-a8c746dfc5ad",
+  "model": "eleven_v3",
+  "original": "audio/voice-original.mp3",
+  "sha256": "893af0355078a7f842b8d92e239dd7ad1508842e47b34bdd36ba1e78cfbda06f",
+  "decoded_duration": 38.88,
+  "edited_duration": 37.92,
+  "speed": 1,
+  "time_stretch": false,
+  "silence_edits": [
+    {
+      "start": 5.05,
+      "end": 5.62,
+      "basis": "inside measured4.82220\u20135.89828 silence; outside ASR word bounds"
+    },
+    {
+      "start": 10.42,
+      "end": 10.66,
+      "basis": "inside measured10.2025\u201310.9501 silence; outside word bounds"
+    },
+    {
+      "start": 27.25,
+      "end": 27.4,
+      "basis": "inside measured27.0998\u201328.0232 silence; ends before uncertain So timestamp27.54"
+    }
+  ],
+  "transcription": "local inference only; external ElevenLabs transfer was blocked and not performed",
+  "script_reconciliation": "90 lexical words match intended script; punctuation-only tail hallucination excluded"
+}

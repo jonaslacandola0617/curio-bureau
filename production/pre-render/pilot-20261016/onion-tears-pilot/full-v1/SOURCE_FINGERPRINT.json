@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "source_commit": "PENDING",
+  "approved_art_commit": "415f65c49880cbbc9f9074110451a2c3c6e3a679",
+  "native": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "frames": 1195,
+  "files": [
+    {
+      "path": "scene-core.cjs",
+      "bytes": 13762,
+      "sha256": "5ab4f5a42f60bd0a4e3f7a212c9704923fe4c37000434e443b16782a6eb97d73"
+    },
+    {
+      "path": "render.cjs",
+      "bytes": 7256,
+      "sha256": "f29cac6f0a61c97b16832b7e87723c886b4e482e685143a56b6943367d8732b4"
+    },
+    {
+      "path": "mix.py",
+      "bytes": 7165,
+      "sha256": "94c610ea08732ab3dbc4100ad1ddbc6d783cf567d7ddc936ceae351cc05a4dfa"
+    },
+    {
+      "path": "prepare-timeline.py",
+      "bytes": 5158,
+      "sha256": "ed3fc6816404c202dcc7c008fb74bdeb5270a2b5361f8ba5c62153fe6f125fed"
+    },
+    {
+      "path": "encode.py",
+      "bytes": 2568,
+      "sha256": "e4561c95aacb0fae3ede64d34b1d5f16d822e4e9cea022318c3b2d7ef3c5626c"
+    },
+    {
+      "path": "capture.py",
+      "bytes": 2107,
+      "sha256": "19f60efea54b5b058aa1f7a7c0dd245d07fd8a6fd57c42602578ba30efee0b10"
+    },
+    {
+      "path": "timeline.json",
+      "bytes": 22743,
+      "sha256": "b0f93bc38001f095e9f2aa150572f9ec8ca2daa633a5a753f0153ae928d7731c"
+    },
+    {
+      "path": "captions.srt",
+      "bytes": 1225,
+      "sha256": "035146cc85e8840a7734a64df39e45ef0e78f679b949694096b1c352c47e0de0"
+    },
+    {
+      "path": "NARRATION_SOURCE.json",
+      "bytes": 1057,
+      "sha256": "7dc06ee9ac7a2a347bc3fc1166acd1c7dce50273b87457f1520c03aeaa6ceeb2"
+    },
+    {
+      "path": "TRANSCRIPT_ORIGINAL.json",
+      "bytes": 15402,
+      "sha256": "0f3e0a603f847e109c09c8e3c69e928c25c6a589dbcc5bb34445be0faba8460b"
+    },
+    {
+      "path": "audio/voice-original.mp3",
+      "bytes": 623220,
+      "sha256": "893af0355078a7f842b8d92e239dd7ad1508842e47b34bdd36ba1e78cfbda06f"
+    },
+    {
+      "path": "Onion-Mix-v1.flac",
+      "bytes": 2541545,
+      "sha256": "56bcbfde813ccc1f536478e24ccee91e8511e367c4f67739b0c2f9c3dcfebc7e"
+    },
+    {
+      "path": "../art-v1/assets/onion.png",
+      "bytes": 2445087,
+      "sha256": "cb61b5220502f0b8dae8c5cf3469291f01183a82fcb3f9c5cff1682bf14688b2"
+    },
+    {
+      "path": "../art-v1/assets/eye.png",
+      "bytes": 2741961,
+      "sha256": "03c5ad035c12ac9b804b8bad0b3ea6536a93cfb823ad58deb0e9dbcd309b314b"
+    },
+    {
+      "path": "../art-v1/assets/knife.png",
+      "bytes": 1352946,
+      "sha256": "857aa1d09d1f31f68ce048cefed42a3445669c2742ec6b5d40261f471c48075f"
+    },
+    {
+      "path": "../../cold-metal-pilot/art-v1/assets/Playfair900.ttf",
+      "bytes": 194772,
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38"
+    },
+    {
+      "path": "../../cold-metal-pilot/art-v1/assets/Manrope800.ttf",
+      "bytes": 98080,
+      "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105"
+    },
+    {
+      "path": "../../../../engine/browser/brand.js",
+      "bytes": 923,
+      "sha256": "fad97f68e9a2333830e31479d6c86d7585641cde5101c6660ee9a5d7d5c44df8"
+    }
+  ]
+}

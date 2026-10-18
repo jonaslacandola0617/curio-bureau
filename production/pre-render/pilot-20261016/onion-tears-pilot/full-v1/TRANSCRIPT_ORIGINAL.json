@@ -1,0 +1,725 @@
+{
+  "model": "faster-whisper/base.en",
+  "local_inference": true,
+  "audio_externally_disclosed": false,
+  "words": [
+    {
+      "text": "Cut",
+      "start": 0.0,
+      "end": 0.26,
+      "probability": 0.1508319079875946,
+      "type": "word"
+    },
+    {
+      "text": "here.",
+      "start": 0.26,
+      "end": 0.72,
+      "probability": 0.9659036993980408,
+      "type": "word"
+    },
+    {
+      "text": "Tear",
+      "start": 1.3,
+      "end": 1.68,
+      "probability": 0.6204500794410706,
+      "type": "word"
+    },
+    {
+      "text": "up",
+      "start": 1.68,
+      "end": 1.8,
+      "probability": 0.9970378875732422,
+      "type": "word"
+    },
+    {
+      "text": "here.",
+      "start": 1.8,
+      "end": 2.08,
+      "probability": 0.9945986270904541,
+      "type": "word"
+    },
+    {
+      "text": "How",
+      "start": 2.82,
+      "end": 3.02,
+      "probability": 0.988813579082489,
+      "type": "word"
+    },
+    {
+      "text": "does",
+      "start": 3.02,
+      "end": 3.2,
+      "probability": 0.9979708790779114,
+      "type": "word"
+    },
+    {
+      "text": "an",
+      "start": 3.2,
+      "end": 3.34,
+      "probability": 0.9877176284790039,
+      "type": "word"
+    },
+    {
+      "text": "onion",
+      "start": 3.34,
+      "end": 3.68,
+      "probability": 0.9983192086219788,
+      "type": "word"
+    },
+    {
+      "text": "reach",
+      "start": 3.68,
+      "end": 3.94,
+      "probability": 0.9979946613311768,
+      "type": "word"
+    },
+    {
+      "text": "your",
+      "start": 3.94,
+      "end": 4.18,
+      "probability": 0.9959523677825928,
+      "type": "word"
+    },
+    {
+      "text": "eyes?",
+      "start": 4.18,
+      "end": 4.54,
+      "probability": 0.9944257736206055,
+      "type": "word"
+    },
+    {
+      "text": "The",
+      "start": 5.84,
+      "end": 6.0,
+      "probability": 0.9679638743400574,
+      "type": "word"
+    },
+    {
+      "text": "knife",
+      "start": 6.0,
+      "end": 6.26,
+      "probability": 0.9955711960792542,
+      "type": "word"
+    },
+    {
+      "text": "damages",
+      "start": 6.26,
+      "end": 6.78,
+      "probability": 0.9985112547874451,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 6.78,
+      "end": 7.04,
+      "probability": 0.9989042282104492,
+      "type": "word"
+    },
+    {
+      "text": "onion's",
+      "start": 7.04,
+      "end": 7.46,
+      "probability": 0.9030958712100983,
+      "type": "word"
+    },
+    {
+      "text": "tissue,",
+      "start": 7.46,
+      "end": 7.72,
+      "probability": 0.9972338080406189,
+      "type": "word"
+    },
+    {
+      "text": "starting",
+      "start": 8.14,
+      "end": 8.5,
+      "probability": 0.9987515211105347,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 8.5,
+      "end": 8.66,
+      "probability": 0.9977713823318481,
+      "type": "word"
+    },
+    {
+      "text": "chain",
+      "start": 8.66,
+      "end": 8.88,
+      "probability": 0.9996778964996338,
+      "type": "word"
+    },
+    {
+      "text": "of",
+      "start": 8.88,
+      "end": 9.04,
+      "probability": 0.9986315369606018,
+      "type": "word"
+    },
+    {
+      "text": "chemical",
+      "start": 9.04,
+      "end": 9.32,
+      "probability": 0.9985835552215576,
+      "type": "word"
+    },
+    {
+      "text": "reactions.",
+      "start": 9.32,
+      "end": 9.78,
+      "probability": 0.99505215883255,
+      "type": "word"
+    },
+    {
+      "text": "One",
+      "start": 10.86,
+      "end": 11.06,
+      "probability": 0.9907253384590149,
+      "type": "word"
+    },
+    {
+      "text": "step",
+      "start": 11.06,
+      "end": 11.38,
+      "probability": 0.9809727668762207,
+      "type": "word"
+    },
+    {
+      "text": "uses",
+      "start": 11.38,
+      "end": 11.76,
+      "probability": 0.9938685297966003,
+      "type": "word"
+    },
+    {
+      "text": "an",
+      "start": 11.76,
+      "end": 12.0,
+      "probability": 0.9960874319076538,
+      "type": "word"
+    },
+    {
+      "text": "enzyme",
+      "start": 12.0,
+      "end": 12.4,
+      "probability": 0.9989205598831177,
+      "type": "word"
+    },
+    {
+      "text": "called",
+      "start": 12.4,
+      "end": 12.76,
+      "probability": 0.9935516119003296,
+      "type": "word"
+    },
+    {
+      "text": "lachrymatory",
+      "start": 12.76,
+      "end": 13.52,
+      "probability": 0.46066092276014386,
+      "type": "word"
+    },
+    {
+      "text": "factor",
+      "start": 13.52,
+      "end": 14.12,
+      "probability": 0.8944341540336609,
+      "type": "word"
+    },
+    {
+      "text": "synthase.",
+      "start": 14.12,
+      "end": 14.72,
+      "probability": 0.9149359464645386,
+      "type": "word"
+    },
+    {
+      "text": "It",
+      "start": 15.34,
+      "end": 15.5,
+      "probability": 0.9955449104309082,
+      "type": "word"
+    },
+    {
+      "text": "helps",
+      "start": 15.5,
+      "end": 15.64,
+      "probability": 0.9987723231315613,
+      "type": "word"
+    },
+    {
+      "text": "make",
+      "start": 15.64,
+      "end": 15.96,
+      "probability": 0.9936129450798035,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 15.96,
+      "end": 16.14,
+      "probability": 0.9969919919967651,
+      "type": "word"
+    },
+    {
+      "text": "volatile",
+      "start": 16.14,
+      "end": 16.38,
+      "probability": 0.9987599849700928,
+      "type": "word"
+    },
+    {
+      "text": "compound",
+      "start": 16.38,
+      "end": 17.18,
+      "probability": 0.9997697472572327,
+      "type": "word"
+    },
+    {
+      "text": "called",
+      "start": 17.18,
+      "end": 17.42,
+      "probability": 0.989366352558136,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 17.42,
+      "end": 17.62,
+      "probability": 0.9899510741233826,
+      "type": "word"
+    },
+    {
+      "text": "lachrymatory",
+      "start": 17.62,
+      "end": 18.2,
+      "probability": 0.9686455249786377,
+      "type": "word"
+    },
+    {
+      "text": "factor.",
+      "start": 18.2,
+      "end": 18.72,
+      "probability": 0.9985828399658203,
+      "type": "word"
+    },
+    {
+      "text": "Volatile",
+      "start": 19.54,
+      "end": 20.04,
+      "probability": 0.9192260503768921,
+      "type": "word"
+    },
+    {
+      "text": "means",
+      "start": 20.04,
+      "end": 20.42,
+      "probability": 0.9981642365455627,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 20.42,
+      "end": 20.66,
+      "probability": 0.9977928400039673,
+      "type": "word"
+    },
+    {
+      "text": "can",
+      "start": 20.66,
+      "end": 20.78,
+      "probability": 0.9980564117431641,
+      "type": "word"
+    },
+    {
+      "text": "enter",
+      "start": 20.78,
+      "end": 21.0,
+      "probability": 0.9985034465789795,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 21.0,
+      "end": 21.14,
+      "probability": 0.9984652996063232,
+      "type": "word"
+    },
+    {
+      "text": "air.",
+      "start": 21.14,
+      "end": 21.4,
+      "probability": 0.9983307719230652,
+      "type": "word"
+    },
+    {
+      "text": "That",
+      "start": 22.22,
+      "end": 22.54,
+      "probability": 0.995899498462677,
+      "type": "word"
+    },
+    {
+      "text": "compound",
+      "start": 22.54,
+      "end": 22.98,
+      "probability": 0.9996515512466431,
+      "type": "word"
+    },
+    {
+      "text": "causes",
+      "start": 22.98,
+      "end": 23.48,
+      "probability": 0.9986971020698547,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 23.48,
+      "end": 23.76,
+      "probability": 0.9979000091552734,
+      "type": "word"
+    },
+    {
+      "text": "familiar",
+      "start": 23.76,
+      "end": 24.08,
+      "probability": 0.9930186867713928,
+      "type": "word"
+    },
+    {
+      "text": "eye",
+      "start": 24.08,
+      "end": 24.58,
+      "probability": 0.9850565791130066,
+      "type": "word"
+    },
+    {
+      "text": "irritation",
+      "start": 24.58,
+      "end": 24.98,
+      "probability": 0.9957452416419983,
+      "type": "word"
+    },
+    {
+      "text": "associated",
+      "start": 24.98,
+      "end": 25.58,
+      "probability": 0.9841278195381165,
+      "type": "word"
+    },
+    {
+      "text": "with",
+      "start": 25.58,
+      "end": 26.14,
+      "probability": 0.9997860789299011,
+      "type": "word"
+    },
+    {
+      "text": "chopping",
+      "start": 26.14,
+      "end": 26.36,
+      "probability": 0.966227650642395,
+      "type": "word"
+    },
+    {
+      "text": "onions.",
+      "start": 26.36,
+      "end": 26.82,
+      "probability": 0.995043158531189,
+      "type": "word"
+    },
+    {
+      "text": "So",
+      "start": 27.54,
+      "end": 28.2,
+      "probability": 0.9887802600860596,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 28.2,
+      "end": 28.4,
+      "probability": 0.6783561706542969,
+      "type": "word"
+    },
+    {
+      "text": "slice",
+      "start": 28.4,
+      "end": 28.66,
+      "probability": 0.991066038608551,
+      "type": "word"
+    },
+    {
+      "text": "and",
+      "start": 28.66,
+      "end": 29.14,
+      "probability": 0.9889483451843262,
+      "type": "word"
+    },
+    {
+      "text": "the",
+      "start": 29.14,
+      "end": 29.26,
+      "probability": 0.9649773836135864,
+      "type": "word"
+    },
+    {
+      "text": "irritation",
+      "start": 29.26,
+      "end": 29.66,
+      "probability": 0.9900622367858887,
+      "type": "word"
+    },
+    {
+      "text": "happen",
+      "start": 29.66,
+      "end": 30.38,
+      "probability": 0.04081422835588455,
+      "type": "word"
+    },
+    {
+      "text": "in",
+      "start": 30.38,
+      "end": 30.48,
+      "probability": 0.9966917037963867,
+      "type": "word"
+    },
+    {
+      "text": "different",
+      "start": 30.48,
+      "end": 30.62,
+      "probability": 0.9947481751441956,
+      "type": "word"
+    },
+    {
+      "text": "places,",
+      "start": 30.62,
+      "end": 31.28,
+      "probability": 0.9976837635040283,
+      "type": "word"
+    },
+    {
+      "text": "connected",
+      "start": 31.74,
+      "end": 32.2,
+      "probability": 0.9948583841323853,
+      "type": "word"
+    },
+    {
+      "text": "by",
+      "start": 32.2,
+      "end": 32.6,
+      "probability": 0.997991681098938,
+      "type": "word"
+    },
+    {
+      "text": "an",
+      "start": 32.6,
+      "end": 32.72,
+      "probability": 0.9929264187812805,
+      "type": "word"
+    },
+    {
+      "text": "airborne",
+      "start": 32.72,
+      "end": 32.98,
+      "probability": 0.9809624552726746,
+      "type": "word"
+    },
+    {
+      "text": "chemical.",
+      "start": 32.98,
+      "end": 33.52,
+      "probability": 0.9958897233009338,
+      "type": "word"
+    },
+    {
+      "text": "The",
+      "start": 34.62,
+      "end": 34.82,
+      "probability": 0.9845696091651917,
+      "type": "word"
+    },
+    {
+      "text": "knife",
+      "start": 34.82,
+      "end": 35.02,
+      "probability": 0.9917499423027039,
+      "type": "word"
+    },
+    {
+      "text": "never",
+      "start": 35.02,
+      "end": 35.24,
+      "probability": 0.9992413520812988,
+      "type": "word"
+    },
+    {
+      "text": "touched",
+      "start": 35.24,
+      "end": 35.62,
+      "probability": 0.9965787529945374,
+      "type": "word"
+    },
+    {
+      "text": "your",
+      "start": 35.62,
+      "end": 35.88,
+      "probability": 0.9959715008735657,
+      "type": "word"
+    },
+    {
+      "text": "eye,",
+      "start": 35.88,
+      "end": 36.2,
+      "probability": 0.9974157810211182,
+      "type": "word"
+    },
+    {
+      "text": "it",
+      "start": 36.66,
+      "end": 36.9,
+      "probability": 0.9818759560585022,
+      "type": "word"
+    },
+    {
+      "text": "started",
+      "start": 36.9,
+      "end": 37.14,
+      "probability": 0.9935598373413086,
+      "type": "word"
+    },
+    {
+      "text": "a",
+      "start": 37.14,
+      "end": 37.38,
+      "probability": 0.9981784820556641,
+      "type": "word"
+    },
+    {
+      "text": "reaction",
+      "start": 37.38,
+      "end": 37.78,
+      "probability": 0.998547375202179,
+      "type": "word"
+    },
+    {
+      "text": "that",
+      "start": 37.78,
+      "end": 38.14,
+      "probability": 0.9975051283836365,
+      "type": "word"
+    },
+    {
+      "text": "could",
+      "start": 38.14,
+      "end": 38.3,
+      "probability": 0.9947593808174133,
+      "type": "word"
+    },
+    {
+      "text": "reach",
+      "start": 38.3,
+      "end": 38.52,
+      "probability": 0.999346911907196,
+      "type": "word"
+    },
+    {
+      "text": "it.",
+      "start": 38.52,
+      "end": 38.74,
+      "probability": 0.9993287324905396,
+      "type": "word"
+    },
+    {
+      "text": ".",
+      "start": 38.74,
+      "end": 38.74,
+      "probability": 0.013207362964749336,
+      "type": "word"
+    },
+    {
+      "text": ".",
+      "start": 38.74,
+      "end": 38.86,
+      "probability": 0.41417741775512695,
+      "type": "word"
+    },
+    {
+      "text": ".",
+      "start": 38.86,
+      "end": 38.86,
+      "probability": 0.934482753276825,
+      "type": "word"
+    },
+    {
+      "text": ".",
+      "start": 38.86,
+      "end": 38.86,
+      "probability": 0.910993754863739,
+      "type": "word"
+    },
+    {
+      "text": ".",
+      "start": 38.86,
+      "end": 38.86,
+      "probability": 0.922712504863739,
+      "type": "word"
+    },
+    {
+      "text": ".",
+      "start": 38.86,
+      "end": 38.86,
+      "probability": 0.9372408986091614,
+      "type": "word"
+    },
+    {
+      "text": ".",
+      "start": 38.86,
+      "end": 38.86,
+      "probability": 0.9463842511177063,
+      "type": "word"
+    },
+    {
+      "text": ".",
+      "start": 38.86,
+      "end": 38.86,
+      "probability": 0.9449782967567444,
+      "type": "word"
+    },
+    {
+      "text": ".",
+      "start": 38.86,
+      "end": 38.86,
+      "probability": 0.9478774070739746,
+      "type": "word"
+    },
+    {
+      "text": ".",
+      "start": 38.86,
+      "end": 38.86,
+      "probability": 0.95757657289505,
+      "type": "word"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 29.66,
+      "text": " Cut here. Tear up here. How does an onion reach your eyes? The knife damages the onion's tissue, starting a chain of chemical reactions. One step uses an enzyme called lachrymatory factor synthase. It helps make a volatile compound called the lachrymatory factor. Volatile means it can enter the air. That compound causes the familiar eye irritation associated with chopping onions. So the slice and the irritation"
+    },
+    {
+      "start": 29.66,
+      "end": 38.74,
+      "text": " happen in different places, connected by an airborne chemical. The knife never touched your eye, it started a reaction that could reach it."
+    },
+    {
+      "start": 38.74,
+      "end": 38.86,
+      "text": " . . . . . . . . . ."
+    }
+  ],
+  "text": "Cut here. Tear up here. How does an onion reach your eyes? The knife damages the onion's tissue, starting a chain of chemical reactions. One step uses an enzyme called lachrymatory factor synthase. It helps make a volatile compound called the lachrymatory factor. Volatile means it can enter the air. That compound causes the familiar eye irritation associated with chopping onions. So the slice and the irritation happen in different places, connected by an airborne chemical. The knife never touched your eye, it started a reaction that could reach it. . . . . . . . . . ."
+}

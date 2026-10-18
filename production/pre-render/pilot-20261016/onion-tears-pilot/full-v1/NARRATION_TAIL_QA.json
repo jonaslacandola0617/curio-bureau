@@ -1,0 +1,13 @@
+{
+  "final_phrase": "It started a reaction that could reach it.",
+  "final_word": "it",
+  "final_word_asr_end": 37.78,
+  "complete_decoded_narration_end": 37.92,
+  "endcard_start": 38.733333333333334,
+  "protected_tail": 0.8133333333333326,
+  "complete_original_retained": true,
+  "last_audio_samples_retained": true,
+  "voice_fade": false,
+  "encoded_tail_listening": "PENDING actual output",
+  "asr_reconciliation": "PASS, independent listening still required"
+}
