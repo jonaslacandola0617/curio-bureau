@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+  "total_frames": 1195,
+  "chunk_size": 240,
+  "format": "FFV1 lossless BGRA native1080x1920/30",
+  "chunks": [
+    {
+      "file": "Onion-lossless-00000-00239.mkv",
+      "start_frame": 0,
+      "count": 240,
+      "bytes": 634818042,
+      "sha256": "884a2e7c5f91c0de9ed3e45bfe94d17a04d95b7ce55398f85ffc6921c2b4a048",
+      "archive_status": "DURABLE",
+      "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+      "github_asset": {
+        "id": 652230209,
+        "name": "Onion-lossless-00000-00239.mkv",
+        "state": "uploaded",
+        "bytes": 634818042,
+        "digest": "sha256:884a2e7c5f91c0de9ed3e45bfe94d17a04d95b7ce55398f85ffc6921c2b4a048",
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/onion-tears-full-v1-review-20261018/Onion-lossless-00000-00239.mkv"
+      }
+    },
+    {
+      "file": "Onion-lossless-00240-00479.mkv",
+      "start_frame": 240,
+      "count": 240,
+      "bytes": 620591943,
+      "sha256": "777ee50486671fcaac827d86af2b11a6995a1064559fc925405882e937ad400c",
+      "archive_status": "DURABLE",
+      "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+      "github_asset": {
+        "id": 652231852,
+        "name": "Onion-lossless-00240-00479.mkv",
+        "state": "uploaded",
+        "bytes": 620591943,
+        "digest": "sha256:777ee50486671fcaac827d86af2b11a6995a1064559fc925405882e937ad400c",
+        "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/onion-tears-full-v1-review-20261018/Onion-lossless-00240-00479.mkv"
+      }
+    }
+  ]
+}

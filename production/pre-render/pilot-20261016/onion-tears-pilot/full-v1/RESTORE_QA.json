@@ -1,0 +1,12 @@
+{
+  "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+  "native": [
+    1080,
+    1920
+  ],
+  "time": 1.2,
+  "expected": "3593db96a7403c890de18f4c1e8aee7f3820ab3b63602ac3b73c50d942694fe0",
+  "restored": "3593db96a7403c890de18f4c1e8aee7f3820ab3b63602ac3b73c50d942694fe0",
+  "identical": true,
+  "dependency_files_verified": 18
+}
