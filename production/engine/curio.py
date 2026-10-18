@@ -10,6 +10,8 @@ validate_episode_sequence=_sequence.validate_episode_sequence
 _finishing_spec=importlib.util.spec_from_file_location('curio_finishing_contract',ENGINE/'finishing_contract.py')
 _finishing=importlib.util.module_from_spec(_finishing_spec);_finishing_spec.loader.exec_module(_finishing)
 validate_finishing=_finishing.validate_finishing
+_std_spec=importlib.util.spec_from_file_location('curio_production_standard',ENGINE/'production_standard.py')
+_std=importlib.util.module_from_spec(_std_spec);_std_spec.loader.exec_module(_std)
 _pre_spec=importlib.util.spec_from_file_location('curio_pre_render',ENGINE/'pre_render.py')
 _pre=importlib.util.module_from_spec(_pre_spec);_pre_spec.loader.exec_module(_pre)
 BROWSER=['motion.js','optics.js','finishing.js','editorial-finish.js','focus.js','runtime.js','materials.js','material-profile.js','brand.js','drawing.js','typography.js']
@@ -68,6 +70,7 @@ class Project:
   spec=importlib.util.spec_from_file_location('episode_data',self.episode/c['data_loader']);mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
   self.data=mod.load(self.assets);self.duration=float(self.data['timing']['duration'])
   if self.duration<=0:raise ValueError('Invalid duration')
+  standard_report=_std.validate_standard(c,self.episode,self.duration)
   captions=self.data['timing']['captions'];previous=-1
   for cap in captions:
    if not (0<=cap['start']<cap['end']<=self.duration+.001) or cap['start']<previous:raise ValueError('Invalid/overlapping caption times')
@@ -79,10 +82,11 @@ class Project:
   # Current browser PCM contract: scipy/FFmpeg canonical 44-byte WAV header.
   with self.mix.open('rb') as f:header=f.read(44)
   if header[:4]!=b'RIFF' or header[36:40]!=b'data':raise ValueError('Canonical PCM WAV required; convert with audio command before build')
-  paths=[ENGINE/'sequence.py',self.episode/'episode.json',self.episode/c['data_loader']]+[ENGINE/'browser'/n for n in BROWSER+['frame.js','player.js','player.css','studio.html']]+[self.episode/n for n in c['scripts']]+[self.assets/n for n in list(c['images'].values())+c['data_files']+[f['file'] for f in c['fonts']]]
+  paths=[ENGINE/'production_standard.py',ENGINE/'sequence.py',self.episode/'episode.json',self.episode/c['data_loader']]+[ENGINE/'browser'/n for n in BROWSER+['frame.js','player.js','player.css','studio.html']]+[self.episode/n for n in c['scripts']]+[self.assets/n for n in list(c['images'].values())+c['data_files']+[f['file'] for f in c['fonts']]]
   if c.get('sequence_contract'):paths.append(self.episode/c['sequence_contract'])
+  if c.get('motion_review_targets'):paths.append(self.episode/c['motion_review_targets'])
   self.visual_key=hashlib.sha256((fingerprint(paths)+inspect.getsource(Project.build)+inspect.getsource(Project.inspect)).encode()).hexdigest();self.audio_key=digest(self.mix);self.render_key=digest(ENGINE/'tools/render.cjs')
-  return {'episode':c['id'],'duration':self.duration,'frames':round(self.duration*30),'fonts':'PINNED','inputs':'PASS','visual_key':self.visual_key,'audio_key':self.audio_key,'creative_review':'human review required','caption_review':self.data['timing'].get('caption_status','not independently verified')}
+  return {'episode':c['id'],'duration':self.duration,'frames':round(self.duration*30),'fonts':'PINNED','inputs':'PASS','visual_key':self.visual_key,'audio_key':self.audio_key,'production_standard':standard_report,'creative_review':'human review required','caption_review':self.data['timing'].get('caption_status','not independently verified')}
 
  def save(self):write_json(self.state_path,self.state)
 

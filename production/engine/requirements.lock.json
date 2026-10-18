@@ -1,15 +1,21 @@
 {
-  "production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md": "acada3d5e34f47f43afb34d25e478165c2cf80b7abb952da9447ec88b72ad9dc",
-  "production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md": "155386755e7e5a82ab7008409714374436800495fbe2ad0542683d974f08e632",
+  "production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md": "e969d0b978d651e61cad4758d2e8e6bb52d80a29161e5421d6be0180d7967f11",
+  "production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md": "aac8b6b1e1fcd608baa3e1e4c9ad1cb6db42b8bf3ca506246fcf595764d02698",
   "production/approved-benchmarks/PIG_WAR_R2_OWNER_APPROVAL.md": "d907744c101b7afc79cfff7c05d8870a584c57dcefa8ec1c010fbc803aaef6f0",
   "production/approved-benchmarks/PAPER_IMAGE_OWNER_DIRECTION.md": "d03471db2c8769c26e222b11182945e91ff0d669e980260b13ef5d6bab04a1e4",
-  "production/art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md": "9490ad570937eec09c7c8b88cc09bea76bd689c5de71e51fb723d1f81f2fd3fc",
+  "production/art-direction/SCIENCE_PAPER_IMAGE_STANDARD.md": "d067c84db9cbe32b7f3bc8e570595f50f7c9f1858e7c4b9ae87ce14aeeb88606",
   "production/art-direction/SCIENCE_SHOT_ART_CONTRACT.md": "5f13003331e5ec635c4501221b373867f96e1184f1991d4e8a0bc2a681fcdccc",
-  "production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md": "81f87d819ddb7c52b9c50103fdca7f52757c3e06f2fedf3069d0462209a42fe4",
+  "production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md": "5d9733ba90a65a29a5711b8103b73791f86a3df4a32156b764c8b3f7b30fa3a0",
   "production/approved-benchmarks/ASTRONAUT_HEIGHT_R2_OWNER_APPROVAL.md": "e4daf9bf476521b2b324a023780f83bf8caf6c1f60cb19caab48a6d8741a7756",
   "production/art-direction/VISUAL_SEQUENCE_DIRECTION.md": "9ef1d47797dfd9eeadd3bbe58e6788040efed6853f1ce704a9c40e639e66c69c",
   "production/art-direction/VISUAL_TRANSLATION_REVIEW.md": "5afa573874d7b020af7183cc22eac22e14c3f11fff88b744742a0ef9dc18a889",
-  "production/engine/FINISHING_OUTPUT_CONTRACT.md": "084ed9db167e60fb1797a63ad8cf56d7523277cf61986aebcdeabd2fe48a1631",
+  "production/engine/FINISHING_OUTPUT_CONTRACT.md": "daf153b06df3c1d5947de7acf9ae547f17812fa5a5a02f8feb91737cfc1c7347",
   "production/engine/GITHUB_EXPORT_STORAGE.md": "044f5023dfe10d1041293ff81758931ab990d37186e497224e4de1b4b53b42f5",
-  "production/engine/DELIVERY_1080P_STANDARD.md": "b057eacb091ff7b3f4de5903822f50d9115eb32b56f7161fbffba021404a2861"
+  "production/engine/DELIVERY_1080P_STANDARD.md": "b057eacb091ff7b3f4de5903822f50d9115eb32b56f7161fbffba021404a2861",
+  "production/art-direction/CLEAN_TEXT_GRAPHICS_20261018.md": "80228e408aefba626a34a1083c584018aade18c0284352fb338c82f14bb7c0dd",
+  "production/approved-benchmarks/COLD_METAL_FINISHING_STANDARD.md": "cc7fe963d37df3c7ae66e7534da368d38a0322e39c81aa5cec4814fce7481abd",
+  "production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md": "628c7aeb9eb646caf5cff0701d1a0eb9b452281ebfe0aab9e5b55501bca2cfd7",
+  "production/approved-benchmarks/SUN_DISAPPEARED_FULL_OWNER_APPROVAL.md": "2641d84672181f93410a8bd2ea38d11569f93c57e7913540cee7e202f7f64113",
+  "production/engine/SUN_STANDARD_INTEGRATION.md": "becc32b741ecc8307f8188bf923f62b4d3d0dfefb287d9b35c0a1ca2a740fab6",
+  "production/templates/sun-standard/RELEASE_CHECKLIST.md": "9527e288a68585dde94a9f9d75f9454a552f8cba0f10902573db3ac65d490049"
 }

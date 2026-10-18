@@ -1,4 +1,11 @@
 # CURIO BUREAU — EPISODE 009 MASTER PRODUCTION DIRECTIVE
+
+## Sun film production standard — owner adopted, 18 October 2026
+
+The owner approved the complete Sun-disappearance film and explicitly ordered: “I WANT OUR FUTURE VIDEOS TO BE MADE EXACTLY LIKE THIS!” This replaces the temporary experiment and makes [the Sun film standard](../../production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md) the current production baseline. Read it before new work. Use its image-led explanatory motion, 12fps scene/camera cadence inside native 1080×1920/30fps delivery, meaningful change about every 1.5–2s, photographic layers, animated Playfair 900 keywords, centered Manrope captions, clean graphic supports, controlled material/optical finishing, natural Bernard, evolving original score, forward existing action SFX and exact 30fps London Bridge ending. Adapt the subject, composition, mechanism and music to the story. Preserve approved historical bytes.
+
+New episode configs declare `production_standard: sun-disappeared-v1`, `scene_fps: 12` and an episode-relative `motion_review_targets` ledger. The shared renderer and validator implement this cadence; custom renderers follow [the integration guide](../../production/engine/SUN_STANDARD_INTEGRATION.md). Measured execution, owner creative approval and independent listening/source/caption checks remain separate. No new film is authorized merely by this infrastructure update.
+
 **Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
 
 

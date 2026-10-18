@@ -1,12 +1,24 @@
 # CURIO BUREAU — MASTER CREATIVE, MOTION, AUDIO & PRODUCTION BIBLE
 
+## Sun film production standard — owner adopted, 18 October 2026
+
+The owner approved the complete Sun-disappearance film and explicitly ordered: “I WANT OUR FUTURE VIDEOS TO BE MADE EXACTLY LIKE THIS!” This replaces the temporary experiment and makes [the Sun film standard](../production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md) the current production baseline. Read it before new work. Use its image-led explanatory motion, 12fps scene/camera cadence inside native 1080×1920/30fps delivery, meaningful change about every 1.5–2s, photographic layers, animated Playfair 900 keywords, centered Manrope captions, clean graphic supports, controlled material/optical finishing, natural Bernard, evolving original score, forward existing action SFX and exact 30fps London Bridge ending. Adapt the subject, composition, mechanism and music to the story. Preserve approved historical bytes.
+
+New episode configs declare `production_standard: sun-disappeared-v1`, `scene_fps: 12` and an episode-relative `motion_review_targets` ledger. The shared renderer and validator implement this cadence; custom renderers follow [the integration guide](../production/engine/SUN_STANDARD_INTEGRATION.md). Measured execution, owner creative approval and independent listening/source/caption checks remain separate. No new film is authorized merely by this infrastructure update.
+
+## Clean text and graphics — owner direction, 18 October 2026
+
+This supersedes the 17 October caption-haze instruction for NEW work. The owner rejects shadow-like blurred backdrops behind headlines, titles, captions and graphics. Do not render blurred duplicate text, glow, feathered dark quiet lanes or detached soft shadow silhouettes behind those elements. Use clean composition, contrast, solid selective highlights, or a crisp low-weight caption support if needed; no diffuse halo. Purposeful source focus, compound scene blur and transition blur remain available, never as a shadow substitute behind type/graphics. Preserve Cold Metal's controlled material/texture balance, pinned fonts, music, audible existing SFX and exact shared ending. Historical posted films remain unchanged.
+
+The owner deferred the repeated-layout redesign discussion; continue the approved production approach without making a channel redesign a prerequisite. Preserve scene-specific explanation, factual integrity and whole-film review. Cold Metal's almost 3K TikTok views is owner-reported, not measured retention or proof of a causal success factor.
+
 ## Default delivery — owner update, 17 October 2026
 
 Native **1080 × 1920 at 30 fps** is now the standard final posting format. Use high-quality H.264 MP4 (12 Mbps target,16 Mbps peak ceiling) and AAC 48 kHz stereo 320 kbps.4K is optional when explicitly requested. Apply [the 1080p delivery standard](engine/DELIVERY_1080P_STANDARD.md). Older mandatory 4K statements below are superseded for new production; historical exports remain unchanged. Keep all visual/audio/whole-film quality gates and immediate versioned GitHub archiving.
 
 **Current governing direction: image-led sequences.** The owner's 14 October Astronaut R2 approval and `production/approved-benchmarks/IMAGE_LED_OWNER_DIRECTION.md` outrank older paper-dominant staging examples. Images show the narrated change; strong textures, decisive layered motion, forward reusable SFX, Bernard, original music, Playfair 900, centered Manrope captions and the exact London Bridge ending remain locked.
 
-**Version 1.4.6 · Updated 17 October 2026 · Owner-adopted image-led direction · v1.4 editorial reasoning and earlier release safeguards preserved**
+**Version 1.4.8 · Updated 18 October 2026 · Owner-adopted image-led direction · v1.4 editorial reasoning and earlier release safeguards preserved**
 
 > **This is the single portable, consolidated bible.** Its governing rules and detailed modules below are included in full, not hidden in other attachments. It remains an evidence-grounded initial system: definitive release-level observations of Episodes 002 and 003 are unavailable, and quantitative audience-retention claims cannot be made without platform analytics. Earlier Vox/viral benchmark research relied on external metadata. A subsequent Motion Mastery Lab directly decoded nine user-supplied third-party Vox-inspired demonstration videos, studying 35 selected motion windows; this is **not** verified direct analysis of full original Vox films or their private project files. **New v2 (12 October):** Five uploaded videos bearing official Vox published titles were independently decoded for authored graphic content only, with photographed/real filmed plates excluded. Details and limits are in the adopted v1.3 chapter; neither study has Vox's editable project files.
 
