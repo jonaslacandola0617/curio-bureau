@@ -1,5 +1,5 @@
 {
-  "production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md": "e969d0b978d651e61cad4758d2e8e6bb52d80a29161e5421d6be0180d7967f11",
+  "production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md": "0af5633eb02defa3eadf9489c1d3c5f5a58fd6822e9a4b2e06e3f4e09b15807b",
   "production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md": "aac8b6b1e1fcd608baa3e1e4c9ad1cb6db42b8bf3ca506246fcf595764d02698",
   "production/approved-benchmarks/PIG_WAR_R2_OWNER_APPROVAL.md": "d907744c101b7afc79cfff7c05d8870a584c57dcefa8ec1c010fbc803aaef6f0",
   "production/approved-benchmarks/PAPER_IMAGE_OWNER_DIRECTION.md": "d03471db2c8769c26e222b11182945e91ff0d669e980260b13ef5d6bab04a1e4",
@@ -14,8 +14,9 @@
   "production/engine/DELIVERY_1080P_STANDARD.md": "b057eacb091ff7b3f4de5903822f50d9115eb32b56f7161fbffba021404a2861",
   "production/art-direction/CLEAN_TEXT_GRAPHICS_20261018.md": "80228e408aefba626a34a1083c584018aade18c0284352fb338c82f14bb7c0dd",
   "production/approved-benchmarks/COLD_METAL_FINISHING_STANDARD.md": "cc7fe963d37df3c7ae66e7534da368d38a0322e39c81aa5cec4814fce7481abd",
-  "production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md": "628c7aeb9eb646caf5cff0701d1a0eb9b452281ebfe0aab9e5b55501bca2cfd7",
+  "production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md": "0d5a864a98b3447a58705fd5732361b934952294816ad15d873ad40af4791457",
   "production/approved-benchmarks/SUN_DISAPPEARED_FULL_OWNER_APPROVAL.md": "2641d84672181f93410a8bd2ea38d11569f93c57e7913540cee7e202f7f64113",
-  "production/engine/SUN_STANDARD_INTEGRATION.md": "becc32b741ecc8307f8188bf923f62b4d3d0dfefb287d9b35c0a1ca2a740fab6",
-  "production/templates/sun-standard/RELEASE_CHECKLIST.md": "9527e288a68585dde94a9f9d75f9454a552f8cba0f10902573db3ac65d490049"
+  "production/engine/SUN_STANDARD_INTEGRATION.md": "1379b79877b5f278e0bb809869fe092d101eb38c00ace5e73f18ddffbf1318f6",
+  "production/templates/sun-standard/RELEASE_CHECKLIST.md": "04ff8c33589c889734ac96a12bb2ff2e1f3af28a16a63e64c5d4a8779c164633",
+  "production/templates/sun-standard/ACCEPTANCE_REQUIREMENTS.json": "6848d707f30cced75a33ad74481baff4615377aee63e32a8ba1f788d2a4a3e28"
 }
