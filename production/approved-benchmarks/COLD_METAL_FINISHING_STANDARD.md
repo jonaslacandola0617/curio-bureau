@@ -2,7 +2,10 @@
 
 The owner explicitly selects the complete Cold Metal film as the best texture/overlay balance of Cold Metal, Mint and the comparison episode. Mint is already posted; preserve its historical revisions. This direction governs new work.
 
-## Caption treatment
+## Caption treatment — superseded for new work, 18 October 2026
+
+The owner now rejects all shadow-like blurred backdrops on text and graphics, including captions. Apply the clean text/graphics direction at the top of AGENTS.md and the master Bible. The following paragraph is preserved ONLY as historical context for Cold Metal; do not implement it in new work.
+
 
 Keep the softened blurred caption backdrop visible. The instruction was to LOWER its opacity, not remove it. Source imagery must remain perceptible through the feathered haze, as the spoon handles do in Cold Metal. The small caption rectangle and the broad soft backdrop are separate layers. Inspect their combined appearance at phone size; a numeric opacity alone does not establish a match. Mint v2's .32 quiet-lane setting is not the new default.
 
