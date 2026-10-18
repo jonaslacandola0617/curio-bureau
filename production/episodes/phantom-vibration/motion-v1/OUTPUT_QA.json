@@ -1,0 +1,60 @@
+{
+  "status": "TECHNICAL_CHECKS_PASS; OWNER_FULL_REVIEW_PENDING",
+  "native": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "decoded_frames": 1373,
+  "duration": 45.766667,
+  "complete_decode_errors": [],
+  "audio": {
+    "input_i": "-14.36",
+    "input_tp": "-1.49",
+    "input_lra": "2.90",
+    "input_thresh": "-25.19",
+    "output_i": "-14.23",
+    "output_tp": "-1.50",
+    "output_lra": "2.60",
+    "output_thresh": "-24.94",
+    "normalization_type": "dynamic",
+    "target_offset": "0.23"
+  },
+  "last8sec_mix_correlation": 0.999975402289814,
+  "voice_end": 43.84,
+  "endcard_start": 44.666666666666664,
+  "protected_tail": 0.8266666666666609,
+  "checkpoint_frames": [
+    0.15,
+    0.6,
+    1.8,
+    1.9,
+    3.8,
+    5.9,
+    9.6,
+    12,
+    13.1,
+    16.7,
+    18.4,
+    20.3,
+    22.4,
+    24.2,
+    27,
+    31.2,
+    33.6,
+    35.8,
+    40.2,
+    43.9,
+    45.6
+  ],
+  "text_shadow_backdrop": "absent by source construction and pre-capture runtime inspection",
+  "caption_timing": "actual-audio local ASR; independent listening approval pending",
+  "owner_motion": "PENDING",
+  "owner_whole_film": "PENDING",
+  "subjective_listening": "PENDING owner full-video audition",
+  "sha256": "3b4a080c5668914894a9714d5e19f8a52987fdeef0526dc3b0d9d731ec3cc7b4",
+  "internal_encoded_visual_review": {
+    "status": "INSPECTED",
+    "scope": "All21 encoded contact checkpoints, plus native20.3sec mechanism and45.6sec ending inspected. Transition blur settles; labels/captions clean; no whole-film human playback or listening approval inferred."
+  }
+}

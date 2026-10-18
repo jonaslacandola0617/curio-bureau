@@ -1,7 +1,7 @@
 {
   "episode": "phantom-vibration",
   "version": 1,
-  "stage": "STORY_SEQUENCE_DRAFT",
+  "stage": "FULL_PREVIEW_REVIEW",
   "visual_style": "image-led",
   "material_benchmark": "Cold Metal, texture only",
   "text_backdrops": "none; no shadow/halo/glow/haze",
@@ -127,8 +127,7 @@
       "risk": "Do not clip wasn't or fade early; no long empty brand tail."
     }
   ],
-  "owner_art_sequence": "NOT REVIEWED",
-  "owner_motion": "NOT REVIEWED",
-  "owner_full_preview": "NOT REVIEWED"
+  "owner_art_sequence": "APPROVED18 October2026; see art-v1/OWNER_ART_APPROVAL.md",
+  "owner_motion": "PENDING",
+  "owner_full_preview": "PENDING"
 }
-

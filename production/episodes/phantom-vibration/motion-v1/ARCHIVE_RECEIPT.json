@@ -1,0 +1,107 @@
+{
+  "release_id": 416275739,
+  "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/phantom-vibration-full-v1-review-20261018",
+  "tag": "phantom-vibration-full-v1-review-20261018",
+  "tag_target": "7597f558a763e3eaa56b2025775a13230a4634b1",
+  "source_checkpoint": "7597f558a763e3eaa56b2025775a13230a4634b1",
+  "encode_checkpoint": "634a025d93aa599eb9e36e47db784e1c1dedfefd",
+  "verified_at": "2026-10-18T06:50:48.383Z",
+  "assets": [
+    {
+      "name": "00-Phantom-Vibration-1080p-Review-v1.mp4",
+      "id": 652720545,
+      "state": "uploaded",
+      "bytes": 68468340,
+      "digest": "sha256:3b4a080c5668914894a9714d5e19f8a52987fdeef0526dc3b0d9d731ec3cc7b4",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/00-Phantom-Vibration-1080p-Review-v1.mp4"
+    },
+    {
+      "name": "music.flac",
+      "id": 652713730,
+      "state": "uploaded",
+      "bytes": 1420657,
+      "digest": "sha256:45000ec04654af2778f0e2e0b2d59a65c0a7c06088ea92b0f99803ab58c76b93",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/music.flac"
+    },
+    {
+      "name": "Phantom-lossless-00000-00239.mkv",
+      "id": 652690138,
+      "state": "uploaded",
+      "bytes": 399472582,
+      "digest": "sha256:fab9683185d2b4fcadb03091abf2da30129aabcd9ddc2991135044c13acf1f18",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-lossless-00000-00239.mkv"
+    },
+    {
+      "name": "Phantom-lossless-00240-00479.mkv",
+      "id": 652692614,
+      "state": "uploaded",
+      "bytes": 409571989,
+      "digest": "sha256:2360a2448c0242c7d5e93ea9c6dca0d06c5bb4ec7124b241a471b274639e5f3b",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-lossless-00240-00479.mkv"
+    },
+    {
+      "name": "Phantom-lossless-00480-00719.mkv",
+      "id": 652702503,
+      "state": "uploaded",
+      "bytes": 381831028,
+      "digest": "sha256:43530e51e690424c09681b08ebd579a220f3822502c01ca41380f3fbaae0a189",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-lossless-00480-00719.mkv"
+    },
+    {
+      "name": "Phantom-lossless-00720-00959.mkv",
+      "id": 652703380,
+      "state": "uploaded",
+      "bytes": 277045982,
+      "digest": "sha256:817d1667aba73438a15372d1528bb7ddc54a163c477f36d448fbd18eabb7efde",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-lossless-00720-00959.mkv"
+    },
+    {
+      "name": "Phantom-lossless-00960-01199.mkv",
+      "id": 652711859,
+      "state": "uploaded",
+      "bytes": 373844371,
+      "digest": "sha256:c44b0063b5600c9e191adfbea99724ecf4b916d29c4a88f5c72ff11fe974b3dc",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-lossless-00960-01199.mkv"
+    },
+    {
+      "name": "Phantom-lossless-01200-01372.mkv",
+      "id": 652712828,
+      "state": "uploaded",
+      "bytes": 332652914,
+      "digest": "sha256:13601d3d26430d44ed64b2a9571720f561a56c6e3b5f726914ddb8f8c021e5cd",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-lossless-01200-01372.mkv"
+    },
+    {
+      "name": "Phantom-Mix-v1.flac",
+      "id": 652691209,
+      "state": "uploaded",
+      "bytes": 2966504,
+      "digest": "sha256:45d5c0cc26b802cd97e7c6e1363019af29fbe58449d4a39a0f34e580d799c916",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/Phantom-Mix-v1.flac"
+    },
+    {
+      "name": "sfx.flac",
+      "id": 652713743,
+      "state": "uploaded",
+      "bytes": 525546,
+      "digest": "sha256:8fe245f6593b1d0529b74142a0b829d58598053efbf81867a3adf9990ae9272b",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/sfx.flac"
+    },
+    {
+      "name": "SOURCE_FINGERPRINT.json",
+      "id": 652691224,
+      "state": "uploaded",
+      "bytes": 4389,
+      "digest": "sha256:b6996c9974c45623556874a04e0b51c8b73680982b789ec12f18ef58a6d50d9e",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/SOURCE_FINGERPRINT.json"
+    },
+    {
+      "name": "voice.flac",
+      "id": 652713711,
+      "state": "uploaded",
+      "bytes": 1666616,
+      "digest": "sha256:bb1829ce9f1acca27ded05c179f32f6793896eb7e9b6532053cccb6295f803f7",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/voice.flac"
+    }
+  ]
+}
