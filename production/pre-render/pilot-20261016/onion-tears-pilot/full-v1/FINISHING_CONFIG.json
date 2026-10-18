@@ -1,0 +1,1 @@
+{"id":"onion-tears-pilot","revision":1,"visual_style":"image-led","finishing":{"enabled":true,"implementation":"native @napi-rs/canvas / render.cjs and scene-core.cjs","contract":"FINISHING_CONTRACT.md","runtime_proof":"FINISHING_RUNTIME_PROOF.json","studio":"render.cjs"}}

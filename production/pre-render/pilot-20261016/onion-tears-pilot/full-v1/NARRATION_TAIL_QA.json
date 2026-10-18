@@ -8,6 +8,7 @@
   "complete_original_retained": true,
   "last_audio_samples_retained": true,
   "voice_fade": false,
-  "encoded_tail_listening": "PENDING actual output",
-  "asr_reconciliation": "PASS, independent listening still required"
+  "encoded_tail_listening": "Owner subjective listening pending; full encoded phrase waveform matches exact source mix at correlation0.99987, with0.813s decoded tail clearance before brand fade.",
+  "asr_reconciliation": "PASS, independent listening still required",
+  "encoded_tail_vs_exact_mix_correlation": 0.9998705198435449
 }

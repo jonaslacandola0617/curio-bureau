@@ -1,0 +1,51 @@
+{
+  "native": [
+    1080,
+    1920
+  ],
+  "studio_sha256": "f29cac6f0a61c97b16832b7e87723c886b4e482e685143a56b6943367d8732b4",
+  "deterministic": true,
+  "cases": [
+    {
+      "t": 1.2,
+      "meanRedDifference": 8.873674286265432,
+      "opaqueCaptionDifference": 0,
+      "opaque_glyph_channel_samples": 0
+    },
+    {
+      "t": 5.26,
+      "meanRedDifference": 15.956579378858025,
+      "opaqueCaptionDifference": 0,
+      "opaque_glyph_channel_samples": 0
+    },
+    {
+      "t": 16.7,
+      "meanRedDifference": 8.914613233024692,
+      "opaqueCaptionDifference": 0,
+      "opaque_glyph_channel_samples": 19542
+    },
+    {
+      "t": 24,
+      "meanRedDifference": 8.70889130015432,
+      "opaqueCaptionDifference": 0,
+      "opaque_glyph_channel_samples": 27522
+    },
+    {
+      "t": 39.6,
+      "meanRedDifference": 0,
+      "opaqueCaptionDifference": 0,
+      "opaque_glyph_channel_samples": 0
+    }
+  ],
+  "temporal_grain": {
+    "changed_mean_abs": 3.3219778806584364,
+    "source_frozen_at": 16,
+    "times": [
+      16.07,
+      16.09
+    ],
+    "same_jitter_and_exposure_buckets": true
+  },
+  "errors": [],
+  "measurement": "Mean red absolute difference across all native pixels; opaque caption difference is measured only inside fully covered white glyph pixels; grain measured after270x480 phone downsample."
+}

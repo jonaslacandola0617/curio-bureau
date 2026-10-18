@@ -1,0 +1,31 @@
+{
+  "status": "ARCHIVED_UNREVIEWED",
+  "file": "00-Onion-Tears-1080p-Review-v1.mp4",
+  "bytes": 60360625,
+  "sha256": "a347341d4a636d35f814d2a310c2309f358606a71fc77c718d66027bd9752be6",
+  "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+  "frames": 1195,
+  "duration": "39.833333",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "native": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "owner_motion_review": "PENDING",
+  "owner_whole_film_review": "PENDING",
+  "github_asset": {
+    "release_id": 416188735,
+    "tag": "onion-tears-full-v1-review-20261018",
+    "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/onion-tears-full-v1-review-20261018",
+    "asset_id": 652265094,
+    "name": "00-Onion-Tears-1080p-Review-v1.mp4",
+    "state": "uploaded",
+    "bytes": 60360625,
+    "sha256": "a347341d4a636d35f814d2a310c2309f358606a71fc77c718d66027bd9752be6",
+    "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/onion-tears-full-v1-review-20261018/00-Onion-Tears-1080p-Review-v1.mp4",
+    "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+    "verification": "GitHub uploaded state, byte size and provider SHA256 match completed local file"
+  }
+}

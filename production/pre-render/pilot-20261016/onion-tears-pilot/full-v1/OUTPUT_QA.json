@@ -1,0 +1,86 @@
+{
+  "status": "TECHNICALLY_VERIFIED_COMPLETE_REVIEW_CANDIDATE",
+  "output_sha256": "a347341d4a636d35f814d2a310c2309f358606a71fc77c718d66027bd9752be6",
+  "native": [
+    1080,
+    1920
+  ],
+  "fps": "30/1",
+  "decoded_frames": 1195,
+  "duration": "39.833333",
+  "decode_errors": 0,
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "encoded_tail_vs_exact_mix_correlation": 0.9998705198435449,
+    "last_script_word": "it",
+    "last_word_asr_end": 37.78,
+    "complete_decoded_voice_end": 37.92,
+    "endcard_starts": 38.733333333333334,
+    "tail_clearance": 0.8133333333333326,
+    "original_source_kept": true,
+    "vo_tail_fade": false,
+    "integrated_lufs": -14.65,
+    "true_peak_dbtp": -1.47
+  },
+  "caption_words": 90,
+  "asr_reconciliation": "90lexical words match intended script; only punctuation hallucinations excluded",
+  "all_scenes_represented": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07"
+  ],
+  "inspection_still_times": [
+    0.15,
+    0.6,
+    1.8,
+    3.8,
+    5.15,
+    5.9,
+    8.2,
+    9.98,
+    10.8,
+    13.6,
+    14.47,
+    15.4,
+    17.9,
+    18.66,
+    19.5,
+    20.8,
+    21.36,
+    22.5,
+    25,
+    26.52,
+    27.4,
+    30.8,
+    33.8,
+    35.8,
+    37.9,
+    39.6
+  ],
+  "inspection_sheet": "qa/Encoded-All-Scenes.jpg",
+  "finishing_proof": "FINISHING_QA.json",
+  "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+  "review_limits": [
+    "Owner motion and whole-film approval pending",
+    "Technical and ASR checks do not substitute for actual human listening or platform UI review",
+    "Cross-episode templating concern remains open; current art accepted for this production"
+  ],
+  "internal_encoded_picture_review": {
+    "scope": "26decoded checkpoints, every join, opening, mechanism, airborne passage, eye consequence, payoff and opaque ending",
+    "findings": [
+      "Cutting knife is completely outside the frame by8.2s; checked the actual encoded image.",
+      "Caption backdrop remains visibly softened and translucent; photographic layers remain perceptible.",
+      "No Mint-style global dusty overlay wash in the inspected encoded frames.",
+      "The iris stays above the central caption; no observed title/caption collision in checkpoints.",
+      "Transient blur settles; paper mechanism, LF identity and source-to-eye relationship remain legible."
+    ],
+    "moving_quality": "Source choreography plus sampled frame review; owner full-speed motion and subjective listening remain pending"
+  },
+  "finishing_release_validator": "PASS / FINISHING_VALIDATION.json"
+}

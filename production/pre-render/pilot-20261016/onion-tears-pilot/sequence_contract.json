@@ -1,7 +1,7 @@
 {
   "version": 1,
   "episode_id": "onion-tears-pilot",
-  "status": "MOTION_INTEGRATION",
+  "status": "COMPLETE_FULL_REVIEW_AVAILABLE",
   "scope": "ENTIRE EPISODE: seven connected narrated beats plus exact ending",
   "shots": [
     {
@@ -49,9 +49,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER ACCEPTED FOR THIS PRODUCTION",
-        "motion": "INTEGRATION / NOT OWNER REVIEWED",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT / INTERNAL CHECKPOINT REVIEW / OWNER REVIEW PENDING",
+        "audio": "COMPLETE BERNARD + SCORE +17CUES / OWNER LISTENING PENDING",
+        "full_preview": "COMPLETE1195-FRAME1080P MOVIE ARCHIVED"
       },
       "rendered_art": {
         "id": "01_hook",
@@ -107,9 +107,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER ACCEPTED FOR THIS PRODUCTION",
-        "motion": "INTEGRATION / NOT OWNER REVIEWED",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT / INTERNAL CHECKPOINT REVIEW / OWNER REVIEW PENDING",
+        "audio": "COMPLETE BERNARD + SCORE +17CUES / OWNER LISTENING PENDING",
+        "full_preview": "COMPLETE1195-FRAME1080P MOVIE ARCHIVED"
       },
       "rendered_art": {
         "id": "02_tissue",
@@ -165,9 +165,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER ACCEPTED FOR THIS PRODUCTION",
-        "motion": "INTEGRATION / NOT OWNER REVIEWED",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT / INTERNAL CHECKPOINT REVIEW / OWNER REVIEW PENDING",
+        "audio": "COMPLETE BERNARD + SCORE +17CUES / OWNER LISTENING PENDING",
+        "full_preview": "COMPLETE1195-FRAME1080P MOVIE ARCHIVED"
       },
       "rendered_art": {
         "id": "03_lfs_step",
@@ -223,9 +223,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER ACCEPTED FOR THIS PRODUCTION",
-        "motion": "INTEGRATION / NOT OWNER REVIEWED",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT / INTERNAL CHECKPOINT REVIEW / OWNER REVIEW PENDING",
+        "audio": "COMPLETE BERNARD + SCORE +17CUES / OWNER LISTENING PENDING",
+        "full_preview": "COMPLETE1195-FRAME1080P MOVIE ARCHIVED"
       },
       "rendered_art": {
         "id": "04_lachrymatory_factor",
@@ -281,9 +281,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER ACCEPTED FOR THIS PRODUCTION",
-        "motion": "INTEGRATION / NOT OWNER REVIEWED",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT / INTERNAL CHECKPOINT REVIEW / OWNER REVIEW PENDING",
+        "audio": "COMPLETE BERNARD + SCORE +17CUES / OWNER LISTENING PENDING",
+        "full_preview": "COMPLETE1195-FRAME1080P MOVIE ARCHIVED"
       },
       "rendered_art": {
         "id": "05_airborne",
@@ -339,9 +339,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER ACCEPTED FOR THIS PRODUCTION",
-        "motion": "INTEGRATION / NOT OWNER REVIEWED",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT / INTERNAL CHECKPOINT REVIEW / OWNER REVIEW PENDING",
+        "audio": "COMPLETE BERNARD + SCORE +17CUES / OWNER LISTENING PENDING",
+        "full_preview": "COMPLETE1195-FRAME1080P MOVIE ARCHIVED"
       },
       "rendered_art": {
         "id": "06_eye",
@@ -397,9 +397,9 @@
       "review_status": {
         "facts": "SOURCE-SCOPED DRAFT",
         "art": "OWNER ACCEPTED FOR THIS PRODUCTION",
-        "motion": "INTEGRATION / NOT OWNER REVIEWED",
-        "audio": "NOT RECORDED",
-        "full_preview": "NOT BUILT"
+        "motion": "BUILT / INTERNAL CHECKPOINT REVIEW / OWNER REVIEW PENDING",
+        "audio": "COMPLETE BERNARD + SCORE +17CUES / OWNER LISTENING PENDING",
+        "full_preview": "COMPLETE1195-FRAME1080P MOVIE ARCHIVED"
       },
       "rendered_art": {
         "id": "07_payoff",
@@ -452,5 +452,18 @@
     "comparison": "art-v1/Onion_Three_State_Passage.jpg; source crop and selected cut point persist while tissue inspection reveals the precursor step and then LFS/LF.",
     "remaining_weaknesses": "See art-v1/ART_QA.json; owner art and all motion/audio gates pending.",
     "unresolved_fallbacks": []
+  },
+  "complete_movie": {
+    "file": "full-v1/00-Onion-Tears-1080p-Review-v1.mp4",
+    "sha256": "a347341d4a636d35f814d2a310c2309f358606a71fc77c718d66027bd9752be6",
+    "duration": 39.833333,
+    "native": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+    "archive_receipt": "full-v1/ARCHIVE_RECEIPT.json",
+    "qa": "full-v1/OUTPUT_QA.json"
   }
 }

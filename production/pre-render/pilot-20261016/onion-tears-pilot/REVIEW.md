@@ -45,3 +45,7 @@ Five demanding finished art states and initial/intermediate/resolved hardest pas
 ## Artwork v1 — 17 October 2026
 
 Seven complete-episode finished states, three-state difficult reveal, heading-hidden variants, native1080p frames and a standalone review are in [art-v1](art-v1/REVIEW.html). Owner art decision PENDING. Cold Metal finishing correction governs. No Onion movie has been rendered.
+
+## Complete movie v1 —18October2026
+
+Full seven-scene39.833-second native1080p review is archived in GitHub Release `onion-tears-full-v1-review-20261018`. Technical checks and encoded picture checkpoints passed; owner whole-film/motion/listening review is pending. Source, captions, posts, audio and all5lossless recovery chunks are versioned. No excerpt stands in for unseen scenes.

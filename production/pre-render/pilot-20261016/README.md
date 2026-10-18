@@ -6,7 +6,7 @@ Cold Metal is owner accepted as a complete production and reported published. [E
 |---|---|---|---|---|
 | 1 | Cold Metal | Accepted benchmark | Full 38.17-second movie, archived source and owner confirmation | Separate clean freeze/restore evidence |
 | 2 | [Mint](mint-cold-pilot/REVIEW.md) | New post 1 | Full40.03-second movie v2; owner reports posted | Historical release retained; Cold Metal finishing governs new work |
-| 3 | [Onion Tears](onion-tears-pilot/REVIEW.md) | New post 2 | Seven complete-episode finished art states, difficult three-state reveal and source assets | Owner art review, then motion and complete film |
+| 3 | [Onion Tears](onion-tears-pilot/REVIEW.md) | New post 2 | Full39.833-second native1080p movie archived, exact audio and all1195lossless frames recoverable | Owner full-film motion/listening review; templating discussion deferred |
 | 4 | [Knuckle Cavity](knuckle-pop-pilot/REVIEW.md) | New post 3 | Evidence-led full narration and seven-beat contract | Acquire credited actual scans; art review |
 | 5 | [Recorded Voice](recorded-voice-pilot/REVIEW.md) | Reuse/calibration only | Full sequence plan tied to recovery of approved capture source | Restore exact source; do not duplicate a published post |
 

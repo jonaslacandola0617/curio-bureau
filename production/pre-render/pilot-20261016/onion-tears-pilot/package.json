@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "episode_id": "onion-tears-pilot",
-  "status": "ART_REVIEW",
+  "status": "COMPLETE_FULL_REVIEW_AVAILABLE",
   "settings": {
     "width": 1080,
     "height": 1920,
@@ -30,7 +30,7 @@
     {
       "path": "REVIEW.md",
       "role": "story",
-      "sha256": "04955b637f703803394330da2a9cc7f44669cea9a283dd7bc4c5f240139ae06d",
+      "sha256": "d518c2ccf44558c9cd114179c9b3da910f7acb5f8c8b6f11235a6c985cff31b9",
       "archive": {
         "kind": "git"
       }
@@ -38,7 +38,7 @@
     {
       "path": "sequence_contract.json",
       "role": "sequence",
-      "sha256": "091d5b7f48915ccab7a2392665f4b6b1d44ba7742fcc1c4cb8432d42e4808748",
+      "sha256": "b8d8b8e7c3c14dc075c1f848b81c375b14177472180a8a39120695812825583a",
       "archive": {
         "kind": "git"
       }
@@ -100,17 +100,35 @@
       }
     }
   ],
-  "gates": {},
+  "gates": {
+    "static_art": "OWNER QUALIFIED ACCEPTANCE FOR THIS PRODUCTION",
+    "source_restore": "18dependencies and native checkpoint hash match",
+    "technical_full_film": "PASS / full-v1/OUTPUT_QA.json",
+    "finishing_execution": "PASS / full-v1/FINISHING_VALIDATION.json",
+    "github_export": "Full MP4, all5lossless chunks and exact mix archived and digest-verified",
+    "public_download": "PASS / unauthenticated whole-file GET SHA256 matches",
+    "owner_whole_film": "PENDING"
+  },
   "unresolved_findings": [
-    "Actual finished art/sequence owner review pending",
-    "Generated asset provenance recorded; largest moving crop and individual layer exits still need review",
-    "Natural Bernard speech, word alignment and final score/SFX mix pending",
-    "Complete native1080p movie and per-scene/whole-film owner review pending",
-    "Frozen dependency closure, GitHub input receipts and clean restore pending"
+    "Owner full-speed motion, subjective headphone/phone listening and whole-film approval pending",
+    "Owner cross-episode templating concern deferred to next creative design review"
   ],
   "frozen_fingerprint": null,
   "production_scope": "complete_episode",
   "publish_intent": "NEW POST / batch slot 2",
-  "sequence_revision": 3,
-  "finishing_benchmark": "Cold Metal complete accepted movie / owner correction17Oct"
+  "sequence_revision": 4,
+  "finishing_benchmark": "Cold Metal complete accepted movie / owner correction17Oct",
+  "complete_review": {
+    "file": "full-v1/00-Onion-Tears-1080p-Review-v1.mp4",
+    "sha256": "a347341d4a636d35f814d2a310c2309f358606a71fc77c718d66027bd9752be6",
+    "duration": 39.833333,
+    "native": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "source_commit": "2059fa160cd2863a536eaef154d4a1758b3eb0e4",
+    "archive_receipt": "full-v1/ARCHIVE_RECEIPT.json",
+    "qa": "full-v1/OUTPUT_QA.json"
+  }
 }
