@@ -1,0 +1,79 @@
+{
+  "status": "ARCHIVED_UNREVIEWED",
+  "download_verification": [
+    {
+      "name": "Black-Dwarf-Motion-v1-1080p.mp4",
+      "asset_id": 654735544,
+      "bytes": 40115447,
+      "sha256": "e5acf887af2fb52634953c1143537ef9cee61960af64065cd9a5c29ba623d251",
+      "provider_digest": "sha256:e5acf887af2fb52634953c1143537ef9cee61960af64065cd9a5c29ba623d251",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-motion-v1-review-20261019/Black-Dwarf-Motion-v1-1080p.mp4"
+    },
+    {
+      "name": "ARCHIVE_RECEIPT.json",
+      "asset_id": 654735835,
+      "bytes": 819,
+      "sha256": "cc948ee3829dcb5ef6a340155ff7c632024f523241ffc8d0fb39313fe0828875",
+      "provider_digest": "sha256:cc948ee3829dcb5ef6a340155ff7c632024f523241ffc8d0fb39313fe0828875",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-motion-v1-review-20261019/ARCHIVE_RECEIPT.json"
+    },
+    {
+      "name": "Black-Dwarf-Motion-v1-QA.zip",
+      "asset_id": 654735851,
+      "bytes": 6197993,
+      "sha256": "a25b5ea86542288a238ab20a602a4f927c32be70832081e2215db4e84879453f",
+      "provider_digest": "sha256:a25b5ea86542288a238ab20a602a4f927c32be70832081e2215db4e84879453f",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-motion-v1-review-20261019/Black-Dwarf-Motion-v1-QA.zip"
+    }
+  ],
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 781,
+    "codec": "h264",
+    "profile": "High",
+    "pixel_format": "yuv420p",
+    "duration": "26.033333"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "26.033000"
+  },
+  "full_decode": "PASS",
+  "encoded_visual_inspection": {
+    "scope": "Nine decoded checkpoints across beginning/middle/end; native difficult crossing and handoff inspected. Continuous owner playback pending.",
+    "frames_seconds": [
+      0.5,
+      4.8,
+      8,
+      9.75,
+      12.75,
+      15.9,
+      20.5,
+      22.5,
+      24.8
+    ],
+    "observations": [
+      "Mass and limit labels remain separate at crossing.",
+      "Caption text stays sharp during image focus/handoff blur.",
+      "Paper texture and grain remain visible after H.264 encoding.",
+      "Same illustrative body returns for qualified possible collapse."
+    ],
+    "overall_owner_motion_review": "PENDING"
+  },
+  "owner_motion_review": "PENDING",
+  "independent_listening": "NOT CLAIMED",
+  "word_alignment": "actual-audio ASR estimates, independently verified alignment PENDING",
+  "encoded_audio_measurement": {
+    "integrated_LUFS": -14.36,
+    "true_peak_dBTP": -1.45,
+    "LRA_LU": 2.8,
+    "independent_audition": "NOT CLAIMED"
+  }
+}

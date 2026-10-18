@@ -1,0 +1,14 @@
+# Black-dwarf mechanism v1 — actual encoded review handoff
+
+Status: ARCHIVED_UNREVIEWED, ready for owner moving/listening review. Static artwork was accepted; the complete film is not rendered or approved.
+
+- [Actual MP4](https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-motion-v1-review-20261019/Black-Dwarf-Motion-v1-1080p.mp4): 26.033333 seconds, 781 decoded frames, 1080×1920, 30fps, H.264 High/yuv420p; AAC 48kHz stereo. 40,115,447 bytes; SHA-256 `e5acf887af2fb52634953c1143537ef9cee61960af64065cd9a5c29ba623d251`.
+- Exact capture source: `57faec9f882f1da03ba9c7b92cb68b7250c36e98`; successful GitHub run `39176551485`. Earlier build `39176439244` lacked FFmpeg and stopped before capture; no movie bytes existed or were replaced. Dependency installation was repaired without changing creative source.
+- Six verified native lossless RGB chunks cover [0,781), archived every two. The movie was archived immediately after encoding/basic integrity; receipt, QA, timeline and independent FLAC stems are attached to the same versioned prerelease. No social publishing occurred.
+- Fresh unauthenticated downloads of MP4, receipt and QA ZIP matched observed provider byte counts and SHA-256 digests. The downloaded MP4 passed full decode and native video/audio metadata checks.
+- Nine encoded checkpoints were inspected at phone scale, plus the native handoff and difficult threshold crossing. Material texture/grain survives encoding; graphics and captions remain crisp during image optics; crossing labels stay distinct. This sampled inspection does not certify owner-perceived animation quality or a full-speed listening audition.
+- Native runtime A/B proof: deterministic; caption differences zero; visible image finishing; phone-size isolated grain change 0.715 mean red levels; 30-frame source cadence check passed. Exact motion is still reviewed in the MP4.
+- Encoded soundtrack measurement: −14.36 LUFS, −1.45 dBTP, 2.80 LU loudness range. The unscaled Bernard master remains retained. The excerpt includes .827 seconds of added protected space after its complete selected source, with the final caption held. These measurements do not replace listening to “supernova”.
+- Caption timing: local actual-audio ASR estimates with script-correct phrases. Independent word-boundary verification remains pending. External transcription upload was blocked by automatic review; local transcription completed instead, without sending the recording to the blocked destination.
+
+Please assess the actual movement, focus/texture treatment, Bernard delivery, developing score, action-cue audibility and final word. After owner moving acceptance, integrate into the complete episode and perform the full 57-item release look-back, platform/word alignment and full ending/listening checks. The exact locked ending is deliberately not part of this isolated mechanism excerpt.
