@@ -1,0 +1,9 @@
+The spacecraft reached Mars. Its signal never came back.
+
+In 1999, a mismatch between pound-force seconds and newton seconds in ground software helped send Mars Climate Orbiter onto the wrong approach.
+
+The failure was bigger than a conversion: the checks that should have caught it failed, too.
+
+#CurioBureau #Space #Engineering #Mars
+
+Credits: Mars planetary mosaic: NASA/USGS. Spacecraft motion and flight paths are explanatory reconstructions, not footage of the mission’s loss.
