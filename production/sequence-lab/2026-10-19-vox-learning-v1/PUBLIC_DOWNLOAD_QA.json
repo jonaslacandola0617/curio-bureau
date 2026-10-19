@@ -1,0 +1,70 @@
+{
+  "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/vox-learning-black-dwarf-test-v1-20261019/Vox-Learning-Black-Dwarf-Test-v1-1080p.mp4",
+  "bytes": 29510665,
+  "sha256": "79bbd8c2ad3fa0426733df8b37c61f888def57b114de622eba17b8f0c0c9a598",
+  "provider_digest": "sha256:79bbd8c2ad3fa0426733df8b37c61f888def57b114de622eba17b8f0c0c9a598",
+  "public_download_verified": true,
+  "decoded_frames": 585,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": "30/1",
+  "complete_decode": "PASS",
+  "encoded_still_times": [
+    0,
+    1.8,
+    3.9,
+    4.8,
+    6.2,
+    8.1,
+    10.2,
+    11.8,
+    12.5,
+    13.1,
+    14.4,
+    16.6,
+    17.7,
+    18.7,
+    19.3
+  ],
+  "owner_creative_approval": "PENDING",
+  "independent_listening": "NOT CLAIMED",
+  "caption_alignment": "source ASR phrase estimates, no new forced alignment",
+  "encoded_loudness": {
+    "integrated_lufs": -14.52,
+    "true_peak_dbtp": -1,
+    "lra_lu": 18.1,
+    "interpretation": "Measured encoded levels only; independent subjective listening remains pending"
+  },
+  "encoded_picture_review": {
+    "status": "INTERNALLY_INSPECTED_OWNER_PENDING",
+    "inspected_contact_times": [
+      0,
+      1.8,
+      3.9,
+      4.8,
+      6.2,
+      8.1,
+      10.2,
+      11.8,
+      12.5,
+      13.1,
+      14.4,
+      16.6,
+      17.7,
+      18.7,
+      19.3
+    ],
+    "observations": [
+      "Same specimen accompanies fixed mass reference through independently descending limit",
+      "Main printed comparison occupies the frame rather than a lower inset",
+      "Limit crosses reference before conditional contraction",
+      "Endcard settles on exact navy branded ending"
+    ],
+    "remaining_weaknesses": [
+      "Brief outgoing plot text is partially cropped while fading in the return reframe",
+      "This is a restrained explanatory comparison, not a demonstration of all Vox visual modes"
+    ]
+  }
+}
