@@ -14,7 +14,7 @@ Updated 2026-10-19 (Asia/Manila). Branch `experiment/claude-illustrated-workflow
 | FFmpeg encode/decode | PASS. Cloud ffmpeg 6.1.1: H.264 High, yuv420p, 30/1, 60 frames, AAC LC 48 kHz stereo 320k, faststart, full decode clean |
 | Audio processing | PASS (technical). loudnorm + ebur128 true peak: test mix measured −13.0 LUFS. numpy/scipy present; `soundfile` and `sox` missing (pip/apt installable). Listening quality not tested |
 | GitHub commit/push | PASS. Repo public, session has admin/push |
-| GitHub Release upload | See receipt below |
+| GitHub Release upload | **BLOCKED in this session**: API returned HTTP 403 "Creating, editing, or deleting releases is not permitted for this session type". Large masters need owner side upload (or an owner configured workflow). Small outputs can be repository assets |
 | Browser preview | Built in browser pane reachable on owner's PC, but it cannot open files or localhost from the cloud workspace. Review previews go through hosted Artifact pages or GitHub; Playwright screenshots for frame review |
 | Owner PC shell | Linux VM on Windows: node 22, ffmpeg 4.4, python 3.10, git; **no Chromium, no gh**, 2 CPU / 2.8 GB. Use only for file handoff, not capture |
 | Narration (Bernard) | Voice ID `QMJTqaMXmGnG8TCm8WQG` (eleven_v3; earlier takes generated via Runway) resolves in the connected ElevenLabs workspace, listed as library voice "Clyde, Vintage Male Radio Announcer". No generation attempted (spends credits). Runway is not connected |
@@ -34,7 +34,7 @@ Updated 2026-10-19 (Asia/Manila). Branch `experiment/claude-illustrated-workflow
 3. **Ending verification:** confirm `brand.js` above is the owner-approved exact ending (no lock entry exists).
 4. **Font licences** for the new typography system (Manrope/Playfair are OFL; any new face needs owner approval).
 5. **Reference study R.1/R.2** (frame by frame picture and sound study of Kurzgesagt) remains OPEN.
-6. `soundfile`/`sox` install when audio work starts. Release download verification for public assets on each archive.
+6. **Release upload unavailable here**: episode masters (tens of MB) must go to Releases per policy; owner must upload or provide a permitted route before full capture. `soundfile`/`sox` install when audio work starts. Release download verification for public assets on each archive.
 7. Kurzgesagt public process page could not be fetched this session (permission request timed out).
 
 ## Visual reference review
@@ -56,4 +56,4 @@ Recommendation given in chat: Oklo. **Awaiting owner selection.**
 Owner selects a topic (or rejects all three). Then: claims ledger, script draft, Bernard path decision, preset validator. No production before selection.
 
 ## Pipeline test archive
-Pending (filled after Release upload).
+Test MP4 archived as a repository asset (Release path blocked): `qa/pipeline-test-20261019/pipeline-test-20261019.mp4`, 359693 bytes, sha256 `e6eb441a249930cd3e0393018d296217fbe599befec42f0c3cdccfbaea41b5b7`, source commit `416eb43`. Fresh anonymous download verified after push (see commit message). Not reviewed, not for posting.
