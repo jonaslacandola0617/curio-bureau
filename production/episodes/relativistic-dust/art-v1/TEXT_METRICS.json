@@ -1,0 +1,1982 @@
+[
+  {
+    "frame": "01_hook",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "01_hook",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "01_hook",
+    "text": "Just dust.",
+    "x": 70,
+    "y": 235,
+    "size": 106,
+    "width": 463.9599914550781,
+    "align": "left"
+  },
+  {
+    "frame": "01_hook",
+    "text": "Until it hits.",
+    "x": 70,
+    "y": 347,
+    "size": 106,
+    "width": 581.8300170898438,
+    "align": "left"
+  },
+  {
+    "frame": "01_hook",
+    "text": "ENLARGED ILLUSTRATIVE GRAIN",
+    "x": 540,
+    "y": 805,
+    "size": 23,
+    "width": 358.1099853515625,
+    "align": "center"
+  },
+  {
+    "frame": "01_hook",
+    "text": "At one-fifth the speed of light,",
+    "x": 540,
+    "y": 927,
+    "size": 43,
+    "width": 639.6699829101562,
+    "align": "center"
+  },
+  {
+    "frame": "01_hook",
+    "text": "a speck becomes an impact hazard.",
+    "x": 540,
+    "y": 984,
+    "size": 43,
+    "width": 744.0800170898438,
+    "align": "center"
+  },
+  {
+    "frame": "01_hook",
+    "text": "Original grain and surface illustrations; separate, non-comparable scales.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 757.489990234375,
+    "align": "left"
+  },
+  {
+    "frame": "01_hook",
+    "text": "No measured crater dimension or guaranteed whole-probe destruction.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 735.97998046875,
+    "align": "left"
+  },
+  {
+    "frame": "01_hook",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "Sparse space.",
+    "x": 70,
+    "y": 235,
+    "size": 106,
+    "width": 671.8300170898438,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "Real obstacles.",
+    "x": 70,
+    "y": 347,
+    "size": 106,
+    "width": 732.8800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "RESEARCH / EDITORIAL SUMMARY",
+    "x": 70,
+    "y": 430,
+    "size": 24,
+    "width": 397.4700012207031,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "Hoang • Lazarian • Burkhart • Loeb",
+    "x": 70,
+    "y": 515,
+    "size": 30,
+    "width": 522.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "The interaction of relativistic spacecrafts",
+    "x": 70,
+    "y": 568,
+    "size": 34,
+    "width": 651.9099731445312,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "with the interstellar medium",
+    "x": 70,
+    "y": 614,
+    "size": 34,
+    "width": 454.8500061035156,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "Astrophysical Journal, 2017",
+    "x": 70,
+    "y": 674,
+    "size": 26,
+    "width": 351.6000061035156,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "Modeled dust impacts can crater and erode surfaces.",
+    "x": 90,
+    "y": 753,
+    "size": 29,
+    "width": 753.530029296875,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "Space between stars looks empty.",
+    "x": 540,
+    "y": 927,
+    "size": 43,
+    "width": 717.4600219726562,
+    "align": "center"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "It still contains gas and dust.",
+    "x": 540,
+    "y": 984,
+    "size": 43,
+    "width": 606.989990234375,
+    "align": "center"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "A FUTURE PROBE’S SURFACE",
+    "x": 70,
+    "y": 1680,
+    "size": 23,
+    "width": 320.6600036621094,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "ILLUSTRATIVE SPECIMEN",
+    "x": 725,
+    "y": 1515,
+    "size": 20,
+    "width": 242.0800018310547,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "Source: arXiv:1608.05284v2 / impact discussion and protection strategies.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 772.8800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "Editorial paraphrase, not a scan, quotation or copied paper figure.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 675.8800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "Original illustrations, not experimental images.",
+    "x": 70,
+    "y": 1839,
+    "size": 21,
+    "width": 487.3399963378906,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "One encounter.",
+    "x": 70,
+    "y": 235,
+    "size": 106,
+    "width": 761.2899780273438,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "Two viewpoints.",
+    "x": 70,
+    "y": 347,
+    "size": 106,
+    "width": 808.8900146484375,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "AMBIENT-MEDIUM FRAME",
+    "x": 82,
+    "y": 438,
+    "size": 22,
+    "width": 272.79998779296875,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "PROBE SURFACE",
+    "x": 820,
+    "y": 731,
+    "size": 22,
+    "width": 178,
+    "align": "center"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "SURFACE MOVES LEFT",
+    "x": 420,
+    "y": 784,
+    "size": 24,
+    "width": 258.2200012207031,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "Grain at rest in this idealized frame",
+    "x": 70,
+    "y": 489,
+    "size": 22,
+    "width": 375.04998779296875,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "Now send a tiny probe through it",
+    "x": 540,
+    "y": 927,
+    "size": 43,
+    "width": 682.8400268554688,
+    "align": "center"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "at roughly 60,000 km a second.",
+    "x": 540,
+    "y": 984,
+    "size": 43,
+    "width": 663.239990234375,
+    "align": "center"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "ONE RELATIVE ENCOUNTER SPEED",
+    "x": 110,
+    "y": 1190,
+    "size": 26,
+    "width": 431.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "0.2c",
+    "x": 110,
+    "y": 1365,
+    "size": 141,
+    "width": 283.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "≈ 60,000 km/s",
+    "x": 110,
+    "y": 1445,
+    "size": 52,
+    "width": 374.3999938964844,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "Not 0.2c + 0.2c",
+    "x": 110,
+    "y": 1530,
+    "size": 30,
+    "width": 219.9600067138672,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "Diagram keeps the same grain and target.",
+    "x": 540,
+    "y": 1660,
+    "size": 27,
+    "width": 549.0399780273438,
+    "align": "center"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "Original working figure / arrows and object sizes are schematic.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 650.7899780273438,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "Selected grain and surface are the same in all three states.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 602.8200073242188,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "No additional acceleration, collision or measured density is depicted.",
+    "x": 70,
+    "y": 1839,
+    "size": 21,
+    "width": 711.0999755859375,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "Change the frame.",
+    "x": 70,
+    "y": 235,
+    "size": 106,
+    "width": 904.2899780273438,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "Keep the encounter.",
+    "x": 70,
+    "y": 347,
+    "size": 101,
+    "width": 935.1599731445312,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "CHANGE OF REFERENCE FRAME",
+    "x": 82,
+    "y": 438,
+    "size": 22,
+    "width": 333.2799987792969,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "PROBE SURFACE",
+    "x": 820,
+    "y": 731,
+    "size": 22,
+    "width": 178,
+    "align": "center"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "SAME GRAIN",
+    "x": 145,
+    "y": 760,
+    "size": 24,
+    "width": 146.9499969482422,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "SAME SURFACE",
+    "x": 690,
+    "y": 760,
+    "size": 24,
+    "width": 182.16000366210938,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "No second acceleration is added.",
+    "x": 540,
+    "y": 817,
+    "size": 28,
+    "width": 453.739990234375,
+    "align": "center"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "In the probe’s frame,",
+    "x": 540,
+    "y": 927,
+    "size": 43,
+    "width": 432.5,
+    "align": "center"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "the dust comes at it that fast.",
+    "x": 540,
+    "y": 984,
+    "size": 43,
+    "width": 625.010009765625,
+    "align": "center"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "ONE RELATIVE ENCOUNTER SPEED",
+    "x": 110,
+    "y": 1190,
+    "size": 26,
+    "width": 431.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "0.2c",
+    "x": 110,
+    "y": 1365,
+    "size": 141,
+    "width": 283.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "≈ 60,000 km/s",
+    "x": 110,
+    "y": 1445,
+    "size": 52,
+    "width": 374.3999938964844,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "Not 0.2c + 0.2c",
+    "x": 110,
+    "y": 1530,
+    "size": 30,
+    "width": 219.9600067138672,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "The coordinate viewpoint changes.",
+    "x": 540,
+    "y": 1660,
+    "size": 27,
+    "width": 466.2900085449219,
+    "align": "center"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "Original working figure / arrows and object sizes are schematic.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 650.7899780273438,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "Selected grain and surface are the same in all three states.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 602.8200073242188,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "No additional acceleration, collision or measured density is depicted.",
+    "x": 70,
+    "y": 1839,
+    "size": 21,
+    "width": 711.0999755859375,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "From the probe,",
+    "x": 70,
+    "y": 235,
+    "size": 106,
+    "width": 797.3300170898438,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "dust comes at it.",
+    "x": 70,
+    "y": 347,
+    "size": 106,
+    "width": 798.7100219726562,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "PROBE FRAME",
+    "x": 82,
+    "y": 438,
+    "size": 22,
+    "width": 150.42999267578125,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "PROBE SURFACE",
+    "x": 820,
+    "y": 731,
+    "size": 22,
+    "width": 178,
+    "align": "center"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "GRAIN APPROACHES RIGHT",
+    "x": 350,
+    "y": 784,
+    "size": 24,
+    "width": 320.760009765625,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "Surface at rest in this frame",
+    "x": 70,
+    "y": 489,
+    "size": 22,
+    "width": 299.57000732421875,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "The danger comes",
+    "x": 540,
+    "y": 927,
+    "size": 43,
+    "width": 386.9200134277344,
+    "align": "center"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "from relative speed.",
+    "x": 540,
+    "y": 984,
+    "size": 43,
+    "width": 423.4700012207031,
+    "align": "center"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "ONE RELATIVE ENCOUNTER SPEED",
+    "x": 110,
+    "y": 1190,
+    "size": 26,
+    "width": 431.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "0.2c",
+    "x": 110,
+    "y": 1365,
+    "size": 141,
+    "width": 283.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "≈ 60,000 km/s",
+    "x": 110,
+    "y": 1445,
+    "size": 52,
+    "width": 374.3999938964844,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "Not 0.2c + 0.2c",
+    "x": 110,
+    "y": 1530,
+    "size": 30,
+    "width": 219.9600067138672,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "Diagram keeps the same grain and target.",
+    "x": 540,
+    "y": 1660,
+    "size": 27,
+    "width": 549.0399780273438,
+    "align": "center"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "Original working figure / arrows and object sizes are schematic.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 650.7899780273438,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "Selected grain and surface are the same in all three states.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 602.8200073242188,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "No additional acceleration, collision or measured density is depicted.",
+    "x": 70,
+    "y": 1839,
+    "size": 21,
+    "width": 711.0999755859375,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "06_contact",
+    "text": "Energy,",
+    "x": 70,
+    "y": 235,
+    "size": 106,
+    "width": 378,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact",
+    "text": "concentrated.",
+    "x": 70,
+    "y": 347,
+    "size": 106,
+    "width": 681.0499877929688,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact",
+    "text": "RELATIVE SPEED",
+    "x": 405,
+    "y": 500,
+    "size": 26,
+    "width": 207.5800018310547,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact",
+    "text": "Tiny mass can still carry",
+    "x": 405,
+    "y": 564,
+    "size": 35,
+    "width": 399.9100036621094,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact",
+    "text": "substantial kinetic energy.",
+    "x": 405,
+    "y": 611,
+    "size": 35,
+    "width": 431.239990234375,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact",
+    "text": "Outcome depends on the impact.",
+    "x": 405,
+    "y": 688,
+    "size": 24,
+    "width": 390.4100036621094,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact",
+    "text": "On impact, that energy can",
+    "x": 540,
+    "y": 927,
+    "size": 43,
+    "width": 570.530029296875,
+    "align": "center"
+  },
+  {
+    "frame": "06_contact",
+    "text": "heat and eject surface material.",
+    "x": 540,
+    "y": 984,
+    "size": 43,
+    "width": 670.4600219726562,
+    "align": "center"
+  },
+  {
+    "frame": "06_contact",
+    "text": "Qualitative contact illustration; colors do not measure temperature.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 702.489990234375,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact",
+    "text": "Not a nuclear reaction, combustion, blast wave or impact simulation.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 707.969970703125,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "07_crater",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "07_crater",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "07_crater",
+    "text": "A little loss.",
+    "x": 70,
+    "y": 235,
+    "size": 106,
+    "width": 574.2000122070312,
+    "align": "left"
+  },
+  {
+    "frame": "07_crater",
+    "text": "Across a journey.",
+    "x": 70,
+    "y": 347,
+    "size": 106,
+    "width": 852.3499755859375,
+    "align": "left"
+  },
+  {
+    "frame": "07_crater",
+    "text": "INTACT",
+    "x": 225,
+    "y": 807,
+    "size": 24,
+    "width": 87.22000122070312,
+    "align": "center"
+  },
+  {
+    "frame": "07_crater",
+    "text": "ONE LOCAL SCAR",
+    "x": 855,
+    "y": 807,
+    "size": 24,
+    "width": 201.75,
+    "align": "center"
+  },
+  {
+    "frame": "07_crater",
+    "text": "Repeated impacts can erode",
+    "x": 540,
+    "y": 927,
+    "size": 43,
+    "width": 600.7100219726562,
+    "align": "center"
+  },
+  {
+    "frame": "07_crater",
+    "text": "the spacecraft’s surface.",
+    "x": 540,
+    "y": 984,
+    "size": 43,
+    "width": 525.1599731445312,
+    "align": "center"
+  },
+  {
+    "frame": "07_crater",
+    "text": "LOCAL DAMAGE / CUMULATIVE DESIGN PROBLEM",
+    "x": 540,
+    "y": 1090,
+    "size": 24,
+    "width": 568.0399780273438,
+    "align": "center"
+  },
+  {
+    "frame": "07_crater",
+    "text": "Displayed scar is illustrative, not a predicted size or impact rate.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 656.5,
+    "align": "left"
+  },
+  {
+    "frame": "07_crater",
+    "text": "Damage depends on material, grain population, speed and route.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 664.1599731445312,
+    "align": "left"
+  },
+  {
+    "frame": "07_crater",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "Reaching a star",
+    "x": 70,
+    "y": 235,
+    "size": 106,
+    "width": 764.3699951171875,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "is only half of it.",
+    "x": 70,
+    "y": 347,
+    "size": 106,
+    "width": 791.9299926757812,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "INCIDENT DUST",
+    "x": 70,
+    "y": 795,
+    "size": 24,
+    "width": 181.50999450683594,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "CANDIDATE PROTECTION",
+    "x": 650,
+    "y": 795,
+    "size": 22,
+    "width": 269.0400085449219,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "Fast enough to reach another star—",
+    "x": 540,
+    "y": 927,
+    "size": 43,
+    "width": 746.9600219726562,
+    "align": "center"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "tough enough to survive the journey?",
+    "x": 540,
+    "y": 984,
+    "size": 43,
+    "width": 789.3099975585938,
+    "align": "center"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "GRAINS",
+    "x": 730,
+    "y": 1240,
+    "size": 30,
+    "width": 113.69999694824219,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "MATERIAL",
+    "x": 730,
+    "y": 1330,
+    "size": 30,
+    "width": 146.19000244140625,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "ROUTE",
+    "x": 730,
+    "y": 1420,
+    "size": 30,
+    "width": 100.62000274658203,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "All affect the result.",
+    "x": 730,
+    "y": 1520,
+    "size": 25,
+    "width": 243.64999389648438,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "Protective layers and smaller frontal area are research strategies.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 674.1599731445312,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "Concept only: not a validated shield or a claim of impossible travel.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 684.8300170898438,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "01_hook_labels_only",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "01_hook_labels_only",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "01_hook_labels_only",
+    "text": "ENLARGED ILLUSTRATIVE GRAIN",
+    "x": 540,
+    "y": 805,
+    "size": 23,
+    "width": 358.1099853515625,
+    "align": "center"
+  },
+  {
+    "frame": "01_hook_labels_only",
+    "text": "Original grain and surface illustrations; separate, non-comparable scales.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 757.489990234375,
+    "align": "left"
+  },
+  {
+    "frame": "01_hook_labels_only",
+    "text": "No measured crater dimension or guaranteed whole-probe destruction.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 735.97998046875,
+    "align": "left"
+  },
+  {
+    "frame": "01_hook_labels_only",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "RESEARCH / EDITORIAL SUMMARY",
+    "x": 70,
+    "y": 430,
+    "size": 24,
+    "width": 397.4700012207031,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "Hoang • Lazarian • Burkhart • Loeb",
+    "x": 70,
+    "y": 515,
+    "size": 30,
+    "width": 522.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "The interaction of relativistic spacecrafts",
+    "x": 70,
+    "y": 568,
+    "size": 34,
+    "width": 651.9099731445312,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "with the interstellar medium",
+    "x": 70,
+    "y": 614,
+    "size": 34,
+    "width": 454.8500061035156,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "Astrophysical Journal, 2017",
+    "x": 70,
+    "y": 674,
+    "size": 26,
+    "width": 351.6000061035156,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "Modeled dust impacts can crater and erode surfaces.",
+    "x": 90,
+    "y": 753,
+    "size": 29,
+    "width": 753.530029296875,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "A FUTURE PROBE’S SURFACE",
+    "x": 70,
+    "y": 1680,
+    "size": 23,
+    "width": 320.6600036621094,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "ILLUSTRATIVE SPECIMEN",
+    "x": 725,
+    "y": 1515,
+    "size": 20,
+    "width": 242.0800018310547,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "Source: arXiv:1608.05284v2 / impact discussion and protection strategies.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 772.8800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "Editorial paraphrase, not a scan, quotation or copied paper figure.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 675.8800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "Original illustrations, not experimental images.",
+    "x": 70,
+    "y": 1839,
+    "size": 21,
+    "width": 487.3399963378906,
+    "align": "left"
+  },
+  {
+    "frame": "02_evidence_labels_only",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "AMBIENT-MEDIUM FRAME",
+    "x": 82,
+    "y": 438,
+    "size": 22,
+    "width": 272.79998779296875,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "PROBE SURFACE",
+    "x": 820,
+    "y": 731,
+    "size": 22,
+    "width": 178,
+    "align": "center"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "SURFACE MOVES LEFT",
+    "x": 420,
+    "y": 784,
+    "size": 24,
+    "width": 258.2200012207031,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "Grain at rest in this idealized frame",
+    "x": 70,
+    "y": 489,
+    "size": 22,
+    "width": 375.04998779296875,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "ONE RELATIVE ENCOUNTER SPEED",
+    "x": 110,
+    "y": 1190,
+    "size": 26,
+    "width": 431.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "0.2c",
+    "x": 110,
+    "y": 1365,
+    "size": 141,
+    "width": 283.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "≈ 60,000 km/s",
+    "x": 110,
+    "y": 1445,
+    "size": 52,
+    "width": 374.3999938964844,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "Not 0.2c + 0.2c",
+    "x": 110,
+    "y": 1530,
+    "size": 30,
+    "width": 219.9600067138672,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "Diagram keeps the same grain and target.",
+    "x": 540,
+    "y": 1660,
+    "size": 27,
+    "width": 549.0399780273438,
+    "align": "center"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "Original working figure / arrows and object sizes are schematic.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 650.7899780273438,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "Selected grain and surface are the same in all three states.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 602.8200073242188,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "No additional acceleration, collision or measured density is depicted.",
+    "x": 70,
+    "y": 1839,
+    "size": 21,
+    "width": 711.0999755859375,
+    "align": "left"
+  },
+  {
+    "frame": "03_frame_initial_labels_only",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "CHANGE OF REFERENCE FRAME",
+    "x": 82,
+    "y": 438,
+    "size": 22,
+    "width": 333.2799987792969,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "PROBE SURFACE",
+    "x": 820,
+    "y": 731,
+    "size": 22,
+    "width": 178,
+    "align": "center"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "SAME GRAIN",
+    "x": 145,
+    "y": 760,
+    "size": 24,
+    "width": 146.9499969482422,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "SAME SURFACE",
+    "x": 690,
+    "y": 760,
+    "size": 24,
+    "width": 182.16000366210938,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "No second acceleration is added.",
+    "x": 540,
+    "y": 817,
+    "size": 28,
+    "width": 453.739990234375,
+    "align": "center"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "ONE RELATIVE ENCOUNTER SPEED",
+    "x": 110,
+    "y": 1190,
+    "size": 26,
+    "width": 431.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "0.2c",
+    "x": 110,
+    "y": 1365,
+    "size": 141,
+    "width": 283.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "≈ 60,000 km/s",
+    "x": 110,
+    "y": 1445,
+    "size": 52,
+    "width": 374.3999938964844,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "Not 0.2c + 0.2c",
+    "x": 110,
+    "y": 1530,
+    "size": 30,
+    "width": 219.9600067138672,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "The coordinate viewpoint changes.",
+    "x": 540,
+    "y": 1660,
+    "size": 27,
+    "width": 466.2900085449219,
+    "align": "center"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "Original working figure / arrows and object sizes are schematic.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 650.7899780273438,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "Selected grain and surface are the same in all three states.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 602.8200073242188,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "No additional acceleration, collision or measured density is depicted.",
+    "x": 70,
+    "y": 1839,
+    "size": 21,
+    "width": 711.0999755859375,
+    "align": "left"
+  },
+  {
+    "frame": "04_frame_intermediate_labels_only",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "PROBE FRAME",
+    "x": 82,
+    "y": 438,
+    "size": 22,
+    "width": 150.42999267578125,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "PROBE SURFACE",
+    "x": 820,
+    "y": 731,
+    "size": 22,
+    "width": 178,
+    "align": "center"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "GRAIN APPROACHES RIGHT",
+    "x": 350,
+    "y": 784,
+    "size": 24,
+    "width": 320.760009765625,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "Surface at rest in this frame",
+    "x": 70,
+    "y": 489,
+    "size": 22,
+    "width": 299.57000732421875,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "ONE RELATIVE ENCOUNTER SPEED",
+    "x": 110,
+    "y": 1190,
+    "size": 26,
+    "width": 431.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "0.2c",
+    "x": 110,
+    "y": 1365,
+    "size": 141,
+    "width": 283.8299865722656,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "≈ 60,000 km/s",
+    "x": 110,
+    "y": 1445,
+    "size": 52,
+    "width": 374.3999938964844,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "Not 0.2c + 0.2c",
+    "x": 110,
+    "y": 1530,
+    "size": 30,
+    "width": 219.9600067138672,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "Diagram keeps the same grain and target.",
+    "x": 540,
+    "y": 1660,
+    "size": 27,
+    "width": 549.0399780273438,
+    "align": "center"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "Original working figure / arrows and object sizes are schematic.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 650.7899780273438,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "Selected grain and surface are the same in all three states.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 602.8200073242188,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "No additional acceleration, collision or measured density is depicted.",
+    "x": 70,
+    "y": 1839,
+    "size": 21,
+    "width": 711.0999755859375,
+    "align": "left"
+  },
+  {
+    "frame": "05_frame_resolved_labels_only",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact_labels_only",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact_labels_only",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "06_contact_labels_only",
+    "text": "RELATIVE SPEED",
+    "x": 405,
+    "y": 500,
+    "size": 26,
+    "width": 207.5800018310547,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact_labels_only",
+    "text": "Tiny mass can still carry",
+    "x": 405,
+    "y": 564,
+    "size": 35,
+    "width": 399.9100036621094,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact_labels_only",
+    "text": "substantial kinetic energy.",
+    "x": 405,
+    "y": 611,
+    "size": 35,
+    "width": 431.239990234375,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact_labels_only",
+    "text": "Outcome depends on the impact.",
+    "x": 405,
+    "y": 688,
+    "size": 24,
+    "width": 390.4100036621094,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact_labels_only",
+    "text": "Qualitative contact illustration; colors do not measure temperature.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 702.489990234375,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact_labels_only",
+    "text": "Not a nuclear reaction, combustion, blast wave or impact simulation.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 707.969970703125,
+    "align": "left"
+  },
+  {
+    "frame": "06_contact_labels_only",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "07_crater_labels_only",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "07_crater_labels_only",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "07_crater_labels_only",
+    "text": "INTACT",
+    "x": 225,
+    "y": 807,
+    "size": 24,
+    "width": 87.22000122070312,
+    "align": "center"
+  },
+  {
+    "frame": "07_crater_labels_only",
+    "text": "ONE LOCAL SCAR",
+    "x": 855,
+    "y": 807,
+    "size": 24,
+    "width": 201.75,
+    "align": "center"
+  },
+  {
+    "frame": "07_crater_labels_only",
+    "text": "LOCAL DAMAGE / CUMULATIVE DESIGN PROBLEM",
+    "x": 540,
+    "y": 1090,
+    "size": 24,
+    "width": 568.0399780273438,
+    "align": "center"
+  },
+  {
+    "frame": "07_crater_labels_only",
+    "text": "Displayed scar is illustrative, not a predicted size or impact rate.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 656.5,
+    "align": "left"
+  },
+  {
+    "frame": "07_crater_labels_only",
+    "text": "Damage depends on material, grain population, speed and route.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 664.1599731445312,
+    "align": "left"
+  },
+  {
+    "frame": "07_crater_labels_only",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "CURIO BUREAU",
+    "x": 70,
+    "y": 76,
+    "size": 23,
+    "width": 170.3800048828125,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "RELATIVISTIC DUST",
+    "x": 1010,
+    "y": 76,
+    "size": 20,
+    "width": 189.77999877929688,
+    "align": "right"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "INCIDENT DUST",
+    "x": 70,
+    "y": 795,
+    "size": 24,
+    "width": 181.50999450683594,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "CANDIDATE PROTECTION",
+    "x": 650,
+    "y": 795,
+    "size": 22,
+    "width": 269.0400085449219,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "GRAINS",
+    "x": 730,
+    "y": 1240,
+    "size": 30,
+    "width": 113.69999694824219,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "MATERIAL",
+    "x": 730,
+    "y": 1330,
+    "size": 30,
+    "width": 146.19000244140625,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "ROUTE",
+    "x": 730,
+    "y": 1420,
+    "size": 30,
+    "width": 100.62000274658203,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "All affect the result.",
+    "x": 730,
+    "y": 1520,
+    "size": 25,
+    "width": 243.64999389648438,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "Protective layers and smaller frontal area are research strategies.",
+    "x": 70,
+    "y": 1775,
+    "size": 21,
+    "width": 674.1599731445312,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "Concept only: not a validated shield or a claim of impossible travel.",
+    "x": 70,
+    "y": 1807,
+    "size": 21,
+    "width": 684.8300170898438,
+    "align": "left"
+  },
+  {
+    "frame": "08_protection_payoff_labels_only",
+    "text": "STATIC ART REVIEW / DRAFT CAPTIONS / NOT A MOTION APPROVAL",
+    "x": 70,
+    "y": 1880,
+    "size": 18,
+    "width": 582.4500122070312,
+    "align": "left"
+  }
+]

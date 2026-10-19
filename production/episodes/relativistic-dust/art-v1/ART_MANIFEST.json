@@ -1,0 +1,172 @@
+{
+  "source_commit": "db6d3c6abfe8a711ae43cffbaa12e9a2d4c9f978",
+  "stage": "STATIC_ART_REVIEW",
+  "production_standard": "sun-disappeared-v1",
+  "owner_art_approval": "NOT REVIEWED",
+  "motion": "NOT RENDERED",
+  "voice": "NOT RECORDED",
+  "atlas": {
+    "path": "assets/dust-atlas-v1.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "cd96ed64aa9a431fe632e302df79183e9827e4d658a55aa676820c10abc88fb2",
+    "max_surface_cell_footprint": 600
+  },
+  "fonts": [
+    {
+      "path": "../../black-dwarf-supernova/art-v1/assets/Playfair900.ttf",
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38"
+    },
+    {
+      "path": "../../black-dwarf-supernova/art-v1/assets/Manrope800.ttf",
+      "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105"
+    }
+  ],
+  "caption_band": "42–58%; draft samples, not word-aligned",
+  "records": [
+    {
+      "id": "01_hook",
+      "path": "rendered/01_hook.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 302274,
+      "sha256": "794c3d39bc1c22d1f5cce119ae4aad1d97da09b2942c3005b121ea7dfe40f858",
+      "hidden": false
+    },
+    {
+      "id": "02_evidence",
+      "path": "rendered/02_evidence.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 381359,
+      "sha256": "e469448c1bd448f26a9affbd01e6a423f2cc1977c9b72b8e9ace1335550dbe2e",
+      "hidden": false
+    },
+    {
+      "id": "03_frame_initial",
+      "path": "rendered/03_frame_initial.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 251502,
+      "sha256": "721d9bb78a43a3ff77cfa7388fe4991e33aba64892554368e7d62f7de423f806",
+      "hidden": false
+    },
+    {
+      "id": "04_frame_intermediate",
+      "path": "rendered/04_frame_intermediate.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 256146,
+      "sha256": "59291ba054e449c7eb29f93f57b7b8d2e6f8387e4708e2072ac2dea70d1d11f7",
+      "hidden": false
+    },
+    {
+      "id": "05_frame_resolved",
+      "path": "rendered/05_frame_resolved.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 237593,
+      "sha256": "e8209f0a95e21c7c8dc591e7c20f25c991f559638157f78631d7f32995e54c1c",
+      "hidden": false
+    },
+    {
+      "id": "06_contact",
+      "path": "rendered/06_contact.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 321058,
+      "sha256": "877a365e092431ef48421854ab4911c4c207c3fab5b9e2e466602b45c19c5443",
+      "hidden": false
+    },
+    {
+      "id": "07_crater",
+      "path": "rendered/07_crater.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 381188,
+      "sha256": "3daf79dd8a3ff5c307b38bd9c53f02ae9cef704ffd4ae28ab8213e56ff784440",
+      "hidden": false
+    },
+    {
+      "id": "08_protection_payoff",
+      "path": "rendered/08_protection_payoff.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 364018,
+      "sha256": "b8843fa69a65b46226e11e8cc7d1f414a626f5bcb997b459dce259d775682cad",
+      "hidden": false
+    },
+    {
+      "id": "01_hook_labels_only",
+      "path": "rendered/01_hook_labels_only.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 249565,
+      "sha256": "b2a174c7454ae44c8cf2ef8ad1c7ff38a52768ef9e3dcb29295232b480fcac01",
+      "hidden": true
+    },
+    {
+      "id": "02_evidence_labels_only",
+      "path": "rendered/02_evidence_labels_only.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 317594,
+      "sha256": "8219012a14489c0916216fc92248c6420bd8b7f2deb285f17b3543143371a75d",
+      "hidden": true
+    },
+    {
+      "id": "03_frame_initial_labels_only",
+      "path": "rendered/03_frame_initial_labels_only.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 185233,
+      "sha256": "3d35be4d798dec897595d61819a382ece2c32ad1584f028b818deb351acc0618",
+      "hidden": true
+    },
+    {
+      "id": "04_frame_intermediate_labels_only",
+      "path": "rendered/04_frame_intermediate_labels_only.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 187760,
+      "sha256": "8c698aaf6599af3d89492418a4bb18bed9e21ce96b72ce89a18bcef97eb72891",
+      "hidden": true
+    },
+    {
+      "id": "05_frame_resolved_labels_only",
+      "path": "rendered/05_frame_resolved_labels_only.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 182163,
+      "sha256": "4d3f5df3041ec6ef92679ca7c9be62246b56302924e81cf3dc6be86b38bd3cf3",
+      "hidden": true
+    },
+    {
+      "id": "06_contact_labels_only",
+      "path": "rendered/06_contact_labels_only.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 266924,
+      "sha256": "fc4a348c761ceaad3bb820b9b2e89b8859d31e8d21780da3b75fec0aebc2971a",
+      "hidden": true
+    },
+    {
+      "id": "07_crater_labels_only",
+      "path": "rendered/07_crater_labels_only.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 321015,
+      "sha256": "3f032feb1538abdbc6d69dcbafed1739e4a8df473b6ef375692204793912a88e",
+      "hidden": true
+    },
+    {
+      "id": "08_protection_payoff_labels_only",
+      "path": "rendered/08_protection_payoff_labels_only.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 293093,
+      "sha256": "8ffcee27a2c10e1d69068536412517c50708d85e757192e52089b5f13d1e9cba",
+      "hidden": true
+    }
+  ]
+}
