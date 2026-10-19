@@ -964,20 +964,20 @@
   },
   {
     "frame": "07_crater",
-    "text": "LOCAL DAMAGE / CUMULATIVE DESIGN PROBLEM",
+    "text": "SEPARATE ILLUSTRATIVE IMPACT SITES",
     "x": 540,
     "y": 1090,
     "size": 24,
-    "width": 568.0399780273438,
+    "width": 456.4100036621094,
     "align": "center"
   },
   {
     "frame": "07_crater",
-    "text": "Displayed scar is illustrative, not a predicted size or impact rate.",
+    "text": "Site count, size and spacing are illustrative, not predicted measurements.",
     "x": 70,
     "y": 1775,
     "size": 21,
-    "width": 656.5,
+    "width": 759.1900024414062,
     "align": "left"
   },
   {
@@ -1846,20 +1846,20 @@
   },
   {
     "frame": "07_crater_labels_only",
-    "text": "LOCAL DAMAGE / CUMULATIVE DESIGN PROBLEM",
+    "text": "SEPARATE ILLUSTRATIVE IMPACT SITES",
     "x": 540,
     "y": 1090,
     "size": 24,
-    "width": 568.0399780273438,
+    "width": 456.4100036621094,
     "align": "center"
   },
   {
     "frame": "07_crater_labels_only",
-    "text": "Displayed scar is illustrative, not a predicted size or impact rate.",
+    "text": "Site count, size and spacing are illustrative, not predicted measurements.",
     "x": 70,
     "y": 1775,
     "size": 21,
-    "width": 656.5,
+    "width": 759.1900024414062,
     "align": "left"
   },
   {

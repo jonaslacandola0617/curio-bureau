@@ -1,5 +1,5 @@
 {
-  "source_commit": "db6d3c6abfe8a711ae43cffbaa12e9a2d4c9f978",
+  "source_commit": "53ee735476b7a625a012ce186d947b81442ddf87",
   "stage": "STATIC_ART_REVIEW",
   "production_standard": "sun-disappeared-v1",
   "owner_art_approval": "NOT REVIEWED",
@@ -83,8 +83,8 @@
       "path": "rendered/07_crater.jpg",
       "width": 1080,
       "height": 1920,
-      "bytes": 381188,
-      "sha256": "3daf79dd8a3ff5c307b38bd9c53f02ae9cef704ffd4ae28ab8213e56ff784440",
+      "bytes": 387660,
+      "sha256": "77ab86145a318d13a511df9df898bc8f24be818b7e52e174f30fd8606f7ea441",
       "hidden": false
     },
     {
@@ -155,8 +155,8 @@
       "path": "rendered/07_crater_labels_only.jpg",
       "width": 1080,
       "height": 1920,
-      "bytes": 321015,
-      "sha256": "3f032feb1538abdbc6d69dcbafed1739e4a8df473b6ef375692204793912a88e",
+      "bytes": 327611,
+      "sha256": "32c8167dd4430e7988d03dc14c0ecc5968265fdb328c9e363e0d24b159a761b9",
       "hidden": true
     },
     {
