@@ -1,0 +1,347 @@
+{
+  "duration": 58.233333333333334,
+  "frames": 1747,
+  "ending_start": 57.13333333333333,
+  "scene_fps": 12,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "mechanism_start": 19,
+  "mechanism_end": 44.1666666667,
+  "voice_duration": 56.27370833333333,
+  "captions": [
+    {
+      "text": "This star could explode",
+      "start": 0,
+      "end": 1.18
+    },
+    {
+      "text": "long after it has stopped shining.",
+      "start": 1.18,
+      "end": 3.35
+    },
+    {
+      "text": "The trigger is not a growing mass.",
+      "start": 4.08,
+      "end": 6.2
+    },
+    {
+      "text": "It is a falling limit.",
+      "start": 6.2,
+      "end": 8.12
+    },
+    {
+      "text": "It\u2019s a black dwarf:",
+      "start": 8.78,
+      "end": 10.25
+    },
+    {
+      "text": "the cold remnant a white dwarf",
+      "start": 10.25,
+      "end": 12.16
+    },
+    {
+      "text": "could become in the far future.",
+      "start": 12.16,
+      "end": 14.38
+    },
+    {
+      "text": "Inside, pressure from electrons",
+      "start": 15.18,
+      "end": 17.1
+    },
+    {
+      "text": "resists gravity.",
+      "start": 17.1,
+      "end": 18.5
+    },
+    {
+      "text": "In a theoretical model,",
+      "start": 19.42,
+      "end": 20.82
+    },
+    {
+      "text": "quantum tunneling allows",
+      "start": 20.82,
+      "end": 22.32
+    },
+    {
+      "text": "extremely slow fusion,",
+      "start": 22.32,
+      "end": 24.4
+    },
+    {
+      "text": "gradually making the core",
+      "start": 24.58,
+      "end": 26.18
+    },
+    {
+      "text": "richer in iron.",
+      "start": 26.18,
+      "end": 27.15
+    },
+    {
+      "text": "That changes how much mass",
+      "start": 28.060000000000002,
+      "end": 29.8
+    },
+    {
+      "text": "the remnant can support.",
+      "start": 29.8,
+      "end": 31.1
+    },
+    {
+      "text": "Its mass barely changes.",
+      "start": 31.7214,
+      "end": 33.7614
+    },
+    {
+      "text": "Its limit falls.",
+      "start": 34.4614,
+      "end": 35.511399999999995
+    },
+    {
+      "text": "For some of the heaviest remnants,",
+      "start": 36.4214,
+      "end": 38.0614
+    },
+    {
+      "text": "gravity could finally win:",
+      "start": 38.501400000000004,
+      "end": 40.4614
+    },
+    {
+      "text": "collapse,",
+      "start": 41.041399999999996,
+      "end": 41.8114
+    },
+    {
+      "text": "and a possible supernova.",
+      "start": 42.2014,
+      "end": 44.1666666667
+    },
+    {
+      "text": "The earliest might wait",
+      "start": 44.2137,
+      "end": 45.6337
+    },
+    {
+      "text": "ten to the power of",
+      "start": 45.6337,
+      "end": 46.993700000000004
+    },
+    {
+      "text": "eleven hundred years.",
+      "start": 46.993700000000004,
+      "end": 48.2737
+    },
+    {
+      "text": "But only if protons",
+      "start": 48.9137,
+      "end": 50.4137
+    },
+    {
+      "text": "don\u2019t decay first.",
+      "start": 50.4137,
+      "end": 51.6537
+    },
+    {
+      "text": "A dead star,",
+      "start": 52.5937,
+      "end": 53.3737
+    },
+    {
+      "text": "with one more possible ending.",
+      "start": 53.3737,
+      "end": 57.13333333333333
+    }
+  ],
+  "events": [
+    {
+      "t": 0,
+      "operation": "Isolate the cold illustrative remnant",
+      "understanding": "Dead-looking does not establish a finished fate."
+    },
+    {
+      "t": 1.6,
+      "operation": "Introduce inward force marks on the body",
+      "understanding": "An apparently inert remnant can change."
+    },
+    {
+      "t": 3.2,
+      "operation": "Pull back the same body and reveal unfinished keyword",
+      "understanding": "The question concerns a future outcome."
+    },
+    {
+      "t": 4.8,
+      "operation": "Attach nearly-fixed mass register to the body",
+      "understanding": "Large mass growth is not the trigger."
+    },
+    {
+      "t": 6.4,
+      "operation": "Reveal a separately descending support marker",
+      "understanding": "A falling support limit can trigger failure."
+    },
+    {
+      "t": 8,
+      "operation": "Bring in the native Sirius evidence plate",
+      "understanding": "White dwarfs are observed; black dwarfs are hypothetical."
+    },
+    {
+      "t": 9.6,
+      "operation": "Circle the actual faint Sirius B point",
+      "understanding": "Identify the remnant, not the bright companion."
+    },
+    {
+      "t": 11.2,
+      "operation": "Draw the source-attached identity leader",
+      "understanding": "The observation establishes a stellar-remnant class."
+    },
+    {
+      "t": 12.8,
+      "operation": "Register the hypothetical future illustration below",
+      "understanding": "Observation and extrapolation are distinct."
+    },
+    {
+      "t": 14.5,
+      "operation": "Select the interior of the same illustrative remnant",
+      "understanding": "The next question is its internal support."
+    },
+    {
+      "t": 16,
+      "operation": "Extend outward pressure against inward gravity",
+      "understanding": "Electron pressure resists gravity."
+    },
+    {
+      "t": 17.6,
+      "operation": "Register the printed composition-detail window",
+      "understanding": "Internal composition is the next changing variable."
+    },
+    {
+      "t": 19,
+      "operation": "Open the conceptual cutaway",
+      "understanding": "Open the conceptual cutaway"
+    },
+    {
+      "t": 20.6,
+      "operation": "Establish electron support against inward gravity",
+      "understanding": "Establish electron support against inward gravity"
+    },
+    {
+      "t": 22.2,
+      "operation": "Select the lattice detail",
+      "understanding": "Select the lattice detail"
+    },
+    {
+      "t": 23.8,
+      "operation": "Begin conceptual composition replacement",
+      "understanding": "Begin conceptual composition replacement"
+    },
+    {
+      "t": 25.4,
+      "operation": "Advance the iron-rich selection",
+      "understanding": "Advance the iron-rich selection"
+    },
+    {
+      "t": 27.0,
+      "operation": "Resolve the more-iron state",
+      "understanding": "Resolve the more-iron state"
+    },
+    {
+      "t": 28.5,
+      "operation": "Replace lattice detail with the mass/support comparison",
+      "understanding": "Replace lattice detail with the mass/support comparison"
+    },
+    {
+      "t": 30.0,
+      "operation": "Establish support capacity above mass",
+      "understanding": "Establish support capacity above mass"
+    },
+    {
+      "t": 31.75,
+      "operation": "Lock and emphasize the nearly fixed mass reference",
+      "understanding": "Lock and emphasize the nearly fixed mass reference"
+    },
+    {
+      "t": 33.4,
+      "operation": "Reveal the independent falling-limit keyword",
+      "understanding": "Reveal the independent falling-limit keyword"
+    },
+    {
+      "t": 34.5,
+      "operation": "Lower the support limit without changing the mass reference",
+      "understanding": "Lower the support limit without changing the mass reference"
+    },
+    {
+      "t": 36.0,
+      "operation": "Extend the source-attached downward comparison",
+      "understanding": "Extend the source-attached downward comparison"
+    },
+    {
+      "t": 37.5,
+      "operation": "Restrict the consequence to some massive remnants",
+      "understanding": "Restrict the consequence to some massive remnants"
+    },
+    {
+      "t": 39.0,
+      "operation": "Cross the support limit below the mass reference",
+      "understanding": "Cross the support limit below the mass reference"
+    },
+    {
+      "t": 40.5,
+      "operation": "Return inward gravity marks to the same remnant",
+      "understanding": "Return inward gravity marks to the same remnant"
+    },
+    {
+      "t": 41.2,
+      "operation": "Contract the same illustrative body",
+      "understanding": "Contract the same illustrative body"
+    },
+    {
+      "t": 42.8,
+      "operation": "Resolve possible collapse, not an exact transient prediction",
+      "understanding": "Resolve possible collapse, not an exact transient prediction"
+    },
+    {
+      "t": 44.1666666667,
+      "operation": "Return same remnant beneath the timescale field",
+      "understanding": "This is a far-future conditional model."
+    },
+    {
+      "t": 45.8,
+      "operation": "Establish base ten as a physical printed notation",
+      "understanding": "Time is expressed with an exponent."
+    },
+    {
+      "t": 47.4,
+      "operation": "Complete the 1100 exponent and years qualification",
+      "understanding": "Earliest model estimate is roughly ten to the eleven hundred years."
+    },
+    {
+      "t": 49,
+      "operation": "Reveal proton-stability condition",
+      "understanding": "The scenario requires protons to survive."
+    },
+    {
+      "t": 50.6,
+      "operation": "Underline conditional requirement",
+      "understanding": "Proton decay could prevent this path."
+    },
+    {
+      "t": 52.2,
+      "operation": "Reconnect the condition to the same remnant",
+      "understanding": "This remains one possible fate of a dead star."
+    },
+    {
+      "t": 53.8,
+      "operation": "Close inward marks on the illustrated body",
+      "understanding": "The opening question has a conditional ending."
+    },
+    {
+      "t": 55.4,
+      "operation": "Resolve the possible-ending keyword on the same body",
+      "understanding": "Possible, not a confirmed future event."
+    }
+  ],
+  "caption_status": "Local actual-audio ASR estimates; script-correct phrases; independent forced alignment pending"
+}

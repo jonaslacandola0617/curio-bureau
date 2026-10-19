@@ -1,0 +1,250 @@
+{
+  "schema": 1,
+  "scope": "complete episode",
+  "sources": [
+    {
+      "path": "render.cjs",
+      "sha256": "5029cda4e75d6f513694b99e0d3dd3046e988752ab7ddfba5ca98853e5dc17e9"
+    },
+    {
+      "path": "scenes.cjs",
+      "sha256": "010e26c8d0b086018e1c9b0d95e35c6168f159b8e3cd0febe998d81dbd384b12"
+    },
+    {
+      "path": "qa.cjs",
+      "sha256": "0cb757402c3403aaa9c803bd3e14f7bc71449166e5877201a6f225ff33592af9"
+    },
+    {
+      "path": "prepare.py",
+      "sha256": "79b30ddc6df9567849d768abaa700b8ac7e461d2da056c4f412fb231ad6d7b0a"
+    },
+    {
+      "path": "preflight.py",
+      "sha256": "fdc0e62c0eeccdfec114bcf88ff12fdc7ce8a825b0a348dfc52ccb4ef2ca6e74"
+    },
+    {
+      "path": "make_coverage.py",
+      "sha256": "0f8745be92a4b646176d49ab0526faf2e0af50f34be1a90d4c441bdc550416f0"
+    },
+    {
+      "path": "episode.json",
+      "sha256": "ede019b7e2b54f13b7de9eae2356d7ce732b5130c7d56ac0c16387a33198eb29"
+    },
+    {
+      "path": "FINISHING_CONTRACT.md",
+      "sha256": "681195c6e493ca51fedcc8f52f90969f15c4fca2621c3efa13e3b5afa76ab1a7"
+    },
+    {
+      "path": "../motion-v2/render.cjs",
+      "sha256": "f191b355dfeebbf2f2bb4c1a35c8491f01fe634ed48b7597bcfbcd66a87ed605"
+    },
+    {
+      "path": "../../../engine/browser/brand.js",
+      "sha256": "fad97f68e9a2333830e31479d6c86d7585641cde5101c6660ee9a5d7d5c44df8"
+    }
+  ],
+  "coverage": {
+    "material_texture": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "5.2s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "moving_grain": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "5.2s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "motion_blur": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "8s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "selective_focus": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "5.2s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "focus_shading": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "5.2s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "focus_hunt": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "9.666667s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "chromatic": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "5.2s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "mechanical_jitter": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "5.2s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "exposure": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "5.2s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "ink_bleed": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "6.8s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "edge_boil": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "6.8s independent full-compositor diagnostic; same treatments through relevant image scenes",
+      "expected_result": "Independent toggle changes native source picture pixels and leaves opaque captions identical. Actual encoded artistry reviewed separately.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "caption_protection": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "All phrases, sampled across opening/evidence/mechanism/closing",
+      "expected_result": "Opaque caption pixels unaffected.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "ending_protection": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "Last1.1s fade, fully opaque final.5s",
+      "expected_result": "Exact shared ending unchanged after finishing; real30fps fade.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "sequence_continuity": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "0\u201358.233333s",
+      "expected_result": "Same remnant; approved middle pixel identity; observed/hypothetical distinction.",
+      "evidence": [
+        {
+          "path": "MOTION_REVIEW_TARGETS.json",
+          "sha256": "1c1267086964ee8dc4954876e3c0924ecb38a7e4ccb287aafdc86b0d1da6bc71"
+        },
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "0247961a2a3a75fd32530c1b03028f62b0331f583b754ec6259e61abee716db7"
+        }
+      ]
+    },
+    "audio_tail": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "Final spoken ending plus.859625s after complete retained source",
+      "expected_result": "All selected source samples retained, no voice fade; subjective listening pending.",
+      "evidence": [
+        {
+          "path": "NARRATION_TAIL_QA.json",
+          "sha256": "715f673a2bdb1f8741bfcf65c13c33caed9171f402a6fcb26834d7128cb66ad9"
+        }
+      ]
+    },
+    "sound_music": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "Complete natural Bernard plus original5part score and37actions",
+      "expected_result": "Existing cue provenance, separate stems, measured headroom; listening separate.",
+      "evidence": [
+        {
+          "path": "SFX_CUE_SHEET.json",
+          "sha256": "4f832df6670c3a0ef68e0931bac2784c547d5b74a88fdd6f6c48f409251f458e"
+        },
+        {
+          "path": "AUDIO_RECEIPT.json",
+          "sha256": "4488bebfaf0f0507c1b3a5d886379af73f89fe22424ed5428a7ddb85bfb994a2"
+        }
+      ]
+    }
+  },
+  "owner_motion_review": "Motion v2 approved; complete-film approval pending",
+  "subjective_listening": "NOT CLAIMED"
+}

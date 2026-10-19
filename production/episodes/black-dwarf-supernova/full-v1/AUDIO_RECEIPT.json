@@ -1,0 +1,23 @@
+{
+  "voice": "Bernard",
+  "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+  "speed": 1,
+  "source_sha256": "aa738e6e98defa5a7a38c54c1e201788cae2f5689a7d3e29f20ceb50083241c4",
+  "original_samples": 2741760,
+  "edited_samples": 2701138,
+  "measured_silence_cuts": [
+    [
+      31.5753,
+      32.0139
+    ],
+    [
+      44.6447,
+      45.0524
+    ]
+  ],
+  "cues": 37,
+  "score_sections": 5,
+  "raw_clipped_samples": 0,
+  "mix_sha256": "975679bf80e9913e696d28218c4b8db74f7378ce21a09584f6c4091e3d8dad24",
+  "human_listening": "PENDING"
+}

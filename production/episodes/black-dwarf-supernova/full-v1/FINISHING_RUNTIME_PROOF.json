@@ -1,0 +1,192 @@
+{
+  "native": [
+    1080,
+    1920
+  ],
+  "scene_fps": 12,
+  "delivery_fps": 30,
+  "deterministic": true,
+  "cases": [
+    {
+      "t": 0.5,
+      "meanRedDifference": 1.7109456983024691,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 10,
+      "meanRedDifference": 6.532663966049383,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 16.4,
+      "meanRedDifference": 3.6298784722222224,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 27,
+      "meanRedDifference": 4.351711033950617,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 31.9,
+      "meanRedDifference": 1.864966724537037,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 39.5,
+      "meanRedDifference": 2.5721059992283952,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 48,
+      "meanRedDifference": 1.4761501736111111,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 54.5,
+      "meanRedDifference": 2.5239192708333333,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "t": 58.03333333333333,
+      "meanRedDifference": 0,
+      "opaqueCaptionDifference": null
+    }
+  ],
+  "effects": [
+    {
+      "effect": "material_texture",
+      "t": 5.2,
+      "meanRedDifference": 0.30464891975308644,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "moving_grain",
+      "t": 5.2,
+      "meanRedDifference": 0.5756872106481481,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "motion_blur",
+      "t": 8,
+      "meanRedDifference": 1.4880497685185186,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "selective_focus",
+      "t": 5.2,
+      "meanRedDifference": 0.005939429012345679,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "focus_shading",
+      "t": 5.2,
+      "meanRedDifference": 0.18919367283950617,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "focus_hunt",
+      "t": 9.666667,
+      "meanRedDifference": 0.8403250385802469,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "chromatic",
+      "t": 5.2,
+      "meanRedDifference": 0.337352912808642,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "mechanical_jitter",
+      "t": 5.2,
+      "meanRedDifference": 0.2889491705246914,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "exposure",
+      "t": 5.2,
+      "meanRedDifference": 0.0014226466049382716,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "ink_bleed",
+      "t": 6.8,
+      "meanRedDifference": 0.008654513888888889,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "edge_boil",
+      "t": 6.8,
+      "meanRedDifference": 0.0039004629629629628,
+      "opaqueCaptionDifference": 0,
+      "execution": "PASS"
+    }
+  ],
+  "temporal_grain": {
+    "changed_mean_abs": 0.8781346450617284,
+    "method": "Frozen source/optics/overlays, independent grain time at 216px phone size"
+  },
+  "cadence": [
+    {
+      "start": 0,
+      "frames": 30
+    },
+    {
+      "start": 240,
+      "frames": 30
+    },
+    {
+      "start": 570,
+      "frames": 30
+    },
+    {
+      "start": 1320,
+      "frames": 30
+    }
+  ],
+  "approved_passage_identity": [
+    {
+      "t": 19.5,
+      "equal": true
+    },
+    {
+      "t": 27,
+      "equal": true
+    },
+    {
+      "t": 31.9,
+      "equal": true
+    },
+    {
+      "t": 39.5,
+      "equal": true
+    },
+    {
+      "t": 43.5,
+      "equal": true
+    }
+  ],
+  "ending": {
+    "fully_shown_pixel_identical": true,
+    "real_30fps_fade": true
+  },
+  "studio_sha256": "5029cda4e75d6f513694b99e0d3dd3046e988752ab7ddfba5ca98853e5dc17e9",
+  "renderer_inputs": {
+    "scenes": "010e26c8d0b086018e1c9b0d95e35c6168f159b8e3cd0febe998d81dbd384b12",
+    "approved_source": "f191b355dfeebbf2f2bb4c1a35c8491f01fe634ed48b7597bcfbcd66a87ed605",
+    "brand": "fad97f68e9a2333830e31479d6c86d7585641cde5101c6660ee9a5d7d5c44df8"
+  },
+  "errors": [],
+  "owner_motion_review": "Approved v2; full-film review PENDING",
+  "independent_listening": "NOT CLAIMED"
+}

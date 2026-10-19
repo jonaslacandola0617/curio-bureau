@@ -2,7 +2,7 @@
 
 Owner-selected topic: 19 October 2026 Asia/Manila. Authorization: retain the nine studied Kurzgesagt captions for future original films and proceed with the suggested black-dwarf supernova episode.
 
-Status: STATIC ART v1 OWNER-APPROVED; MOTION v1 ARCHIVED; OWNER MOVING REVIEW PENDING. Seven connected 1080×1920 states plus seven headline/narration-hidden versions are in art-v1/. One complete natural-speed Bernard master is generated and locally transcribed. The 26.033-second native moving preflight is rendered and publicly download-verified; see motion-v1/REVIEW_STATUS.md. Complete-film production and acceptance remain pending. The Sun standard remains adopted.
+Status (latest,19 October2026 09:53 Asia/Manila): STATIC ART v1 and MOTION v2 OWNER-APPROVED. Owner: “i think its good, you may render the whole video and write the posts.” Complete58.233333s episode is frozen for native render in full-v1/. Motion approval binds SHA2568531e44a18545cabe9a4ea779f8116763860fe6facb73fc7857e04637c7b78c0. Complete-film owner review and independent listening/caption alignment remain pending. Earlier production notes below retain their historical drafting status; the authoritative current handoff is full-v1/REVIEW_STATUS.md when archived.
 
 ## Governing production declaration
 

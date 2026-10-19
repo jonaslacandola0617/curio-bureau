@@ -1,0 +1,6 @@
+{
+  "revision": "full-v1",
+  "scope": "complete-film owner review",
+  "owner_instruction": "i think its good, you may render the whole video and write the posts.",
+  "expected_frames": 1747
+}
