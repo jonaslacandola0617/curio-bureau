@@ -1,0 +1,33 @@
+name: Relativistic Dust static art review
+on:
+  push:
+    branches: [film/relativistic-dust]
+    paths:
+      - production/episodes/relativistic-dust/art-v1/render.cjs
+      - production/episodes/relativistic-dust/art-v1/assets/dust-atlas-v1.png
+      - .github/workflows/relativistic-dust-art-v1.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  native-static-art:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install existing pinned compositor
+        run: npm install --prefix .curio-runtime --no-audit --no-fund @napi-rs/canvas@0.1.100
+      - name: Render and verify native static frames
+        env:
+          NODE_PATH: .curio-runtime/node_modules
+        run: node production/episodes/relativistic-dust/art-v1/render.cjs
+      - name: Preserve generated frames in this episode branch
+        run: |
+          git config user.name "curio-art-archive[bot]"
+          git config user.email "curio-art-archive[bot]@users.noreply.github.com"
+          git add production/episodes/relativistic-dust/art-v1/rendered production/episodes/relativistic-dust/art-v1/ART_MANIFEST.json production/episodes/relativistic-dust/art-v1/TEXT_METRICS.json production/episodes/relativistic-dust/art-v1/Relativistic_Dust_Art_Contact_v1.jpg production/episodes/relativistic-dust/art-v1/Relativistic_Dust_Art_Review_v1.html
+          git commit -m "Archive rendered Relativistic Dust native static art v1"
+          git push origin HEAD:film/relativistic-dust
