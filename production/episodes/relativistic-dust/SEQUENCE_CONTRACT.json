@@ -1,0 +1,320 @@
+{
+  "production_standard": "sun-disappeared-v1",
+  "visual_style": "image-led",
+  "material_profile": "image-led-v1",
+  "scene_fps": 12,
+  "output_fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "timing_status": "PROVISIONAL UNTIL ACTUAL BERNARD RECORDING",
+  "motion_review_targets": [
+    {
+      "beat_id": "B01",
+      "episode_relative_target": "Assign after recorded words",
+      "required_operations": [
+        "Inspect the consequence, then select the small projectile.",
+        "An original illustrative probe-surface crop reveals a single crater; a registered magnifier identifies a tiny grain at a separate scale."
+      ],
+      "measured": false
+    },
+    {
+      "beat_id": "B02",
+      "episode_relative_target": "Assign after recorded words",
+      "required_operations": [
+        "Reveal sparse material along the probe’s path.",
+        "A small, recognizably engineered probe crosses a mostly empty view; sparse selected grains appear in an explicitly magnified inspection layer."
+      ],
+      "measured": false
+    },
+    {
+      "beat_id": "B03",
+      "episode_relative_target": "Assign after recorded words",
+      "required_operations": [
+        "Change viewpoint while preserving the same encounter.",
+        "First show the probe moving past a fixed grain, then hold the probe frame and move that same grain toward the same nose. Label the frame change."
+      ],
+      "measured": false
+    },
+    {
+      "beat_id": "B04",
+      "episode_relative_target": "Assign after recorded words",
+      "required_operations": [
+        "Expose one impact site, then accumulate separate sites.",
+        "Source-attached cutaway reveals a local heated zone, ejected material and an empty crater. Remove the transient plume before separate scars progressively appear across the frontal surface."
+      ],
+      "measured": false
+    },
+    {
+      "beat_id": "B05",
+      "episode_relative_target": "Assign after recorded words",
+      "required_operations": [
+        "Compare candidate protection while keeping the same encounter.",
+        "Add a separately masked protective layer; rotate a separate craft comparison to show smaller frontal area without claiming a finalized flight geometry; reveal grain/material/route qualifiers."
+      ],
+      "measured": false
+    },
+    {
+      "beat_id": "B06",
+      "episode_relative_target": "Assign after recorded words",
+      "required_operations": [
+        "Reframe the opening scar as a survival requirement.",
+        "The tiny hypothetical craft recedes into predominantly empty space; the selected scar briefly remains as an honest magnified inset, then exits fully before exact endcard."
+      ],
+      "measured": false
+    }
+  ],
+  "hardest_passage": "B03 → B04: reference-frame change into one localized impact; three finished states plus heading-hidden comparison required.",
+  "beats": [
+    {
+      "id": "B01",
+      "lines": [
+        "N01"
+      ],
+      "before": "Dust seems harmless.",
+      "proposition": "High relative speed makes dust an impact hazard in the probe frame.",
+      "operation": "Inspect the consequence, then select the small projectile.",
+      "action": "An original illustrative probe-surface crop reveals a single crater; a registered magnifier identifies a tiny grain at a separate scale.",
+      "after": "Size alone does not determine hazard.",
+      "invariant": "Selected impact point and its orientation.",
+      "initial": "Surface already bears visible damage; no logo or blank opening.",
+      "intermediate": "Camera pulls just enough to relate the crater to the frontal surface; magnifier does not grow into a literal boulder.",
+      "resolved": "One tiny-grain inset, one scar, clear ILLUSTRATION / TWO SCALES disclosure.",
+      "next": "Carry the selected grain into a wider view.",
+      "representation": "Photographic-style concept illustration of an explicitly hypothetical object; no image purports to be a tested Starshot component.",
+      "boundary": "No deterministic spacecraft destruction; grain/crater image not an impact simulation.",
+      "caption": "Reserve 42–58% height; scar and grain remain outside that lane.",
+      "hold": "Short recognition hold after grain selection; exact times await Bernard.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Owner-adopted Sun standard: image actions explain a connected relationship; existing reference-channel detailed viewing remains open.",
+        "transferable_principle": "Known state → meaningful operation → newly readable state → hold.",
+        "original_execution": "An original illustrative probe-surface crop reveals a single crater; a registered magnifier identifies a tiny grain at a separate scale.",
+        "asset_operation": "Inspect the consequence, then select the small projectile."
+      },
+      "rendered_review": {
+        "status": "NOT RENDERED",
+        "initial": null,
+        "intermediate": null,
+        "resolved": null,
+        "heading_hidden_evidence": null,
+        "comparison": null,
+        "remaining_weaknesses": [
+          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        ],
+        "unresolved_fallbacks": [
+          "Not yet assessed in rendered frames."
+        ]
+      }
+    },
+    {
+      "id": "B02",
+      "lines": [
+        "N02",
+        "N03"
+      ],
+      "before": "Space may be perfectly empty.",
+      "proposition": "A fast hypothetical probe encounters interstellar material.",
+      "operation": "Reveal sparse material along the probe’s path.",
+      "action": "A small, recognizably engineered probe crosses a mostly empty view; sparse selected grains appear in an explicitly magnified inspection layer.",
+      "after": "The path contains obstacles despite its low density.",
+      "invariant": "Probe nose direction and selected grain.",
+      "initial": "Wide field, tiny probe and very large negative space.",
+      "intermediate": "Inspection window enlarges one path segment without filling the entire field with dense particles.",
+      "resolved": "0.2c / approximately 60,000 km/s label adjacent to the probe; DUST ENLARGED / SCHEMATIC remains legible.",
+      "next": "Retain the nose and trajectory for a change of reference frame.",
+      "representation": "Original hypothetical photographic-style craft; precise speed labels built separately in pinned Manrope.",
+      "boundary": "Not a depiction of actual particle density, actual mission hardware or a completed mission.",
+      "caption": "Trajectory displaced above or below center caption lane.",
+      "hold": "Reading hold on the speed; no counter that implies a measured acceleration.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Owner-adopted Sun standard: image actions explain a connected relationship; existing reference-channel detailed viewing remains open.",
+        "transferable_principle": "Known state → meaningful operation → newly readable state → hold.",
+        "original_execution": "A small, recognizably engineered probe crosses a mostly empty view; sparse selected grains appear in an explicitly magnified inspection layer.",
+        "asset_operation": "Reveal sparse material along the probe’s path."
+      },
+      "rendered_review": {
+        "status": "NOT RENDERED",
+        "initial": null,
+        "intermediate": null,
+        "resolved": null,
+        "heading_hidden_evidence": null,
+        "comparison": null,
+        "remaining_weaknesses": [
+          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        ],
+        "unresolved_fallbacks": [
+          "Not yet assessed in rendered frames."
+        ]
+      }
+    },
+    {
+      "id": "B03",
+      "lines": [
+        "N04",
+        "N05"
+      ],
+      "before": "Maybe dust needs its own exotic engine.",
+      "proposition": "Relative motion is the relevant impact speed; kinetic energy depends on mass and speed.",
+      "operation": "Change viewpoint while preserving the same encounter.",
+      "action": "First show the probe moving past a fixed grain, then hold the probe frame and move that same grain toward the same nose. Label the frame change.",
+      "after": "The grain need not be independently accelerated to make the encounter fast.",
+      "invariant": "The same grain, nose location, separation and encounter order.",
+      "initial": "Space-frame working figure tied to the original craft silhouette.",
+      "intermediate": "The camera/reference-frame label changes; direction and encounter remain consistent; no additive velocity label.",
+      "resolved": "Probe frame: the same selected grain approaches at 0.2c; relative-speed annotation stays source-attached.",
+      "next": "Selected grain reaches the same marked impact point.",
+      "representation": "A refined printed/source-attached working figure, not a freestanding cartoon scene.",
+      "boundary": "Not simultaneous photographs, a second collision, a literal particle-size comparison or a validated dynamic simulation.",
+      "caption": "Frame labels and vectors sit above/below reserved caption lane; nothing drifts under captions.",
+      "hold": "Hold the resolved reference-frame comparison long enough to read; any >2s interval needs voice-bound justification.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Owner-adopted Sun standard: image actions explain a connected relationship; existing reference-channel detailed viewing remains open.",
+        "transferable_principle": "Known state → meaningful operation → newly readable state → hold.",
+        "original_execution": "First show the probe moving past a fixed grain, then hold the probe frame and move that same grain toward the same nose. Label the frame change.",
+        "asset_operation": "Change viewpoint while preserving the same encounter."
+      },
+      "rendered_review": {
+        "status": "NOT RENDERED",
+        "initial": null,
+        "intermediate": null,
+        "resolved": null,
+        "heading_hidden_evidence": null,
+        "comparison": null,
+        "remaining_weaknesses": [
+          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        ],
+        "unresolved_fallbacks": [
+          "Not yet assessed in rendered frames."
+        ]
+      }
+    },
+    {
+      "id": "B04",
+      "lines": [
+        "N06",
+        "N07"
+      ],
+      "before": "A dust impact might just bounce off.",
+      "proposition": "Models describe localized heating/ejection, cratering and cumulative erosion.",
+      "operation": "Expose one impact site, then accumulate separate sites.",
+      "action": "Source-attached cutaway reveals a local heated zone, ejected material and an empty crater. Remove the transient plume before separate scars progressively appear across the frontal surface.",
+      "after": "Repeated small losses can matter across a journey.",
+      "invariant": "Impact point, surface baseline and nose orientation.",
+      "initial": "Unbroken skin with the marked grain about to arrive.",
+      "intermediate": "Localized heating/ejection only; hot colors explicitly conceptual; intact surrounding material remains visible.",
+      "resolved": "Empty crater; later a separate eroded-surface comparison inherits the intact baseline.",
+      "next": "Keep baseline while introducing a protective layer.",
+      "representation": "Original qualitative printed material-section figure attached to a photographic-style surface.",
+      "boundary": "No measured temperature, crater dimension, thermal map, erosion depth, impact rate or absolute destruction probability.",
+      "caption": "Keep crater and baseline out of central captions; no generated labels baked into the art.",
+      "hold": "Brief settled crater hold before cumulative damage; never loop one impact to imply a measured frequency.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Owner-adopted Sun standard: image actions explain a connected relationship; existing reference-channel detailed viewing remains open.",
+        "transferable_principle": "Known state → meaningful operation → newly readable state → hold.",
+        "original_execution": "Source-attached cutaway reveals a local heated zone, ejected material and an empty crater. Remove the transient plume before separate scars progressively appear across the frontal surface.",
+        "asset_operation": "Expose one impact site, then accumulate separate sites."
+      },
+      "rendered_review": {
+        "status": "NOT RENDERED",
+        "initial": null,
+        "intermediate": null,
+        "resolved": null,
+        "heading_hidden_evidence": null,
+        "comparison": null,
+        "remaining_weaknesses": [
+          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        ],
+        "unresolved_fallbacks": [
+          "Not yet assessed in rendered frames."
+        ]
+      }
+    },
+    {
+      "id": "B05",
+      "lines": [
+        "N08",
+        "N09"
+      ],
+      "before": "Extra armor might solve everything.",
+      "proposition": "Protection and exposed area are design variables; outcome is conditional.",
+      "operation": "Compare candidate protection while keeping the same encounter.",
+      "action": "Add a separately masked protective layer; rotate a separate craft comparison to show smaller frontal area without claiming a finalized flight geometry; reveal grain/material/route qualifiers.",
+      "after": "Survival is a design problem with assumptions.",
+      "invariant": "Same incident direction and initial surface baseline.",
+      "initial": "The previous eroded baseline stays visible.",
+      "intermediate": "Protective layer enters with correct occlusion; nose and exposure comparison remain separate from the material section.",
+      "resolved": "Candidate protection and lower-exposure comparison, labeled CONCEPT / NOT VALIDATED.",
+      "next": "Pull out from the protected concept to the vast route.",
+      "representation": "Clearly labeled conceptual material/geometry comparison; not a flight-certified Starshot design.",
+      "boundary": "No universal shield thickness, perfect survival, gas and dust merged mechanism, or fixed collision probability.",
+      "caption": "Qualifiers remain readable; reserve central caption band and avoid five simultaneous labels.",
+      "hold": "One variable at a time; no crowded three-variable reveal.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Owner-adopted Sun standard: image actions explain a connected relationship; existing reference-channel detailed viewing remains open.",
+        "transferable_principle": "Known state → meaningful operation → newly readable state → hold.",
+        "original_execution": "Add a separately masked protective layer; rotate a separate craft comparison to show smaller frontal area without claiming a finalized flight geometry; reveal grain/material/route qualifiers.",
+        "asset_operation": "Compare candidate protection while keeping the same encounter."
+      },
+      "rendered_review": {
+        "status": "NOT RENDERED",
+        "initial": null,
+        "intermediate": null,
+        "resolved": null,
+        "heading_hidden_evidence": null,
+        "comparison": null,
+        "remaining_weaknesses": [
+          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        ],
+        "unresolved_fallbacks": [
+          "Not yet assessed in rendered frames."
+        ]
+      }
+    },
+    {
+      "id": "B06",
+      "lines": [
+        "N10",
+        "N11"
+      ],
+      "before": "The hazard might rule out every interstellar mission.",
+      "proposition": "These models motivate engineering questions rather than prove impossibility.",
+      "operation": "Reframe the opening scar as a survival requirement.",
+      "action": "The tiny hypothetical craft recedes into predominantly empty space; the selected scar briefly remains as an honest magnified inset, then exits fully before exact endcard.",
+      "after": "Reaching another star requires surviving the journey as well as achieving speed.",
+      "invariant": "Same hypothetical probe and unobstructed flight direction.",
+      "initial": "Protection comparison resolves before pullback.",
+      "intermediate": "Scar inset shrinks/exits, revealing scale without implying a giant dust storm.",
+      "resolved": "Small craft and distant destination cue; question lands; complete final spoken word, then original locked ending.",
+      "next": "Exact London Bridge ending at its original 30fps timing.",
+      "representation": "Original astronomical/concept illustration; no unsupported specific target planet.",
+      "boundary": "No guaranteed arrival, mission timetable, actual future footage or impossible FTL travel.",
+      "caption": "Final question remains centered; ending uses exact existing composition.",
+      "hold": "Protect full narration tail; 0.8–1.8s where supported by actual voice, never clip to force duration.",
+      "owner_review": "NOT REVIEWED",
+      "visual_translation": {
+        "reference_observation": "Owner-adopted Sun standard: image actions explain a connected relationship; existing reference-channel detailed viewing remains open.",
+        "transferable_principle": "Known state → meaningful operation → newly readable state → hold.",
+        "original_execution": "The tiny hypothetical craft recedes into predominantly empty space; the selected scar briefly remains as an honest magnified inset, then exits fully before exact endcard.",
+        "asset_operation": "Reframe the opening scar as a survival requirement."
+      },
+      "rendered_review": {
+        "status": "NOT RENDERED",
+        "initial": null,
+        "intermediate": null,
+        "resolved": null,
+        "heading_hidden_evidence": null,
+        "comparison": null,
+        "remaining_weaknesses": [
+          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        ],
+        "unresolved_fallbacks": [
+          "Not yet assessed in rendered frames."
+        ]
+      }
+    }
+  ]
+}
