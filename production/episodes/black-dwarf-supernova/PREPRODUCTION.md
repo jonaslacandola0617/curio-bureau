@@ -2,7 +2,7 @@
 
 Owner-selected topic: 19 October 2026 Asia/Manila. Authorization: retain the nine studied Kurzgesagt captions for future original films and proceed with the suggested black-dwarf supernova episode.
 
-Status (latest,19 October2026 09:53 Asia/Manila): STATIC ART v1 and MOTION v2 OWNER-APPROVED. Owner: “i think its good, you may render the whole video and write the posts.” Complete58.233333s episode is frozen for native render in full-v1/. Motion approval binds SHA2568531e44a18545cabe9a4ea779f8116763860fe6facb73fc7857e04637c7b78c0. Complete-film owner review and independent listening/caption alignment remain pending. Earlier production notes below retain their historical drafting status; the authoritative current handoff is full-v1/REVIEW_STATUS.md when archived.
+Status (latest,19 October2026 09:53 Asia/Manila): STATIC ART v1 and MOTION v2 OWNER-APPROVED. Owner: “i think its good, you may render the whole video and write the posts.” Complete58.233333s episode is rendered, archived and download-verified in full-v2/ after a targeted join repair; full-v1 remains preserved. Motion approval binds SHA2568531e44a18545cabe9a4ea779f8116763860fe6facb73fc7857e04637c7b78c0. Complete-film owner review and independent listening/caption alignment remain pending. Earlier production notes below retain their historical drafting status; the authoritative current handoff is full-v2/REVIEW_STATUS.md.
 
 ## Governing production declaration
 

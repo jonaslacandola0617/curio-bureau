@@ -1,0 +1,592 @@
+{
+  "movie_sha256": "08ee074945c197ad99eef455a918e460b73a9c3220ddff0115cbbe70e56c8a22",
+  "scope": "Actual complete encoded full-v2, sampled internal visual review plus separate pending playback/audio/word-boundary checks",
+  "requirements": [
+    {
+      "id": "1.1",
+      "section": 1,
+      "section_title": "Topic and storytelling",
+      "requirement": "Build around a bizarre scientific \u201cwhat if\u201d with understandable stakes.",
+      "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "0\u20136.8s,44.5\u201355.8s: original bizarre conditional stellar-fate premise, sourced to Caplan2020."
+    },
+    {
+      "id": "1.2",
+      "section": 1,
+      "section_title": "Topic and storytelling",
+      "requirement": "Open with a compelling mystery or contradiction rather than a textbook definition.",
+      "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "0s: Dead/Still unfinished contradiction and labeled remnant; no textbook opening."
+    },
+    {
+      "id": "1.3",
+      "section": 1,
+      "section_title": "Topic and storytelling",
+      "requirement": "Make the opening image and narration immediately reinforce each other.",
+      "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "0\u20131.8s: illustrative body and burned opening phrase reinforce the selected premise; audio audition separate."
+    },
+    {
+      "id": "1.4",
+      "section": 1,
+      "section_title": "Topic and storytelling",
+      "requirement": "Deliver useful information early, then deepen the question.",
+      "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "4.8\u201317.9s: mass/limit distinction, observed remnant class and electron-support context."
+    },
+    {
+      "id": "1.5",
+      "section": 1,
+      "section_title": "Topic and storytelling",
+      "requirement": "Develop an escalating chain of consequences instead of listing disconnected facts.",
+      "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "19.5\u201355.8s: composition\u2192support threshold\u2192possible collapse\u2192remote conditional fate."
+    },
+    {
+      "id": "1.6",
+      "section": 1,
+      "section_title": "Topic and storytelling",
+      "requirement": "Use visual metaphors, comparisons and changes of scale to explain difficult concepts.",
+      "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "31.9\u201339.5s qualitative fixed-mass/falling-limit printed comparison;47.8s exponent notation."
+    },
+    {
+      "id": "1.7",
+      "section": 1,
+      "section_title": "Topic and storytelling",
+      "requirement": "Resolve the opening question with a satisfying payoff.",
+      "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "54.2\u201355.8s: opening remnant returns with one possible ending and proton condition."
+    },
+    {
+      "id": "1.8",
+      "section": 1,
+      "section_title": "Topic and storytelling",
+      "requirement": "Clearly distinguish the impossible premise, established science and uncertain extrapolation.",
+      "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "0,9.8,47.8,49.5s: hypothetical/observation/model-estimate/proton labels; no solar or black-hole prediction."
+    },
+    {
+      "id": "2.1",
+      "section": 2,
+      "section_title": "More motion and more changes",
+      "requirement": "Introduce a meaningful visible change every 1.5\u20132 seconds throughout the explanatory sequence.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "37 declared operations have no gap>2s before ending; full-speed semantic cadence across every operation not independently assessed."
+    },
+    {
+      "id": "2.2",
+      "section": 2,
+      "section_title": "More motion and more changes",
+      "requirement": "Include substantial object animation\u2014not merely photographs entering and then sitting still.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "0\u21925.2s same-body pullback;31.9\u219239.5s support moves;42.8s inward contraction."
+    },
+    {
+      "id": "2.3",
+      "section": 2,
+      "section_title": "More motion and more changes",
+      "requirement": "Use movement within compositions: separation, assembly, replacement, transformation, tracking and progressive reveals.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "8.6\u201317.9s evidence insertion/detail construction;31.9\u201342.8s threshold replacement and contraction."
+    },
+    {
+      "id": "2.4",
+      "section": 2,
+      "section_title": "More motion and more changes",
+      "requirement": "Use purposeful camera pans, close-ups, pullbacks and changes of viewpoint.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "3.2s pullback,8s evidence insertion,14.5s connected inside cut; source/encoded states checked, motion elegance separate."
+    },
+    {
+      "id": "2.5",
+      "section": 2,
+      "section_title": "More motion and more changes",
+      "requirement": "Build obvious parallax through independently moving foreground, subject and background layers.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Independent layer motions exist; strong parallax/depth impression needs normal-speed creative review."
+    },
+    {
+      "id": "2.6",
+      "section": 2,
+      "section_title": "More motion and more changes",
+      "requirement": "Connect scenes through recognizable objects, directions or ideas.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Same illustrated remnant links hook/support/threshold/closing; immutable approved mechanism identity checks pass."
+    },
+    {
+      "id": "2.7",
+      "section": 2,
+      "section_title": "More motion and more changes",
+      "requirement": "Give each action an intentional start, acceleration, arrival and reading hold.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Source uses eased action phases; normal-speed weight/arrival/holds need owner assessment."
+    },
+    {
+      "id": "2.8",
+      "section": 2,
+      "section_title": "More motion and more changes",
+      "requirement": "Preserve enough reading time for essential text and scientific relationships.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Sampled text legible; complete normal-speed reading holds need owner assessment."
+    },
+    {
+      "id": "2.9",
+      "section": 2,
+      "section_title": "More motion and more changes",
+      "requirement": "Fully remove departing elements; prevent accidental overlaps and clipped labels.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Native encoded14.5/14.6/14.9/15.2 join now registered;29 checkpoints show no clipping or threshold-label collision."
+    },
+    {
+      "id": "3.1",
+      "section": 3,
+      "section_title": "The 12fps experiment",
+      "requirement": "Evaluate scene and camera animation at 12 distinct states per second.",
+      "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Runtime proof120sampled deliveryframes with held12fps states and deterministic source schedule."
+    },
+    {
+      "id": "3.2",
+      "section": 3,
+      "section_title": "The 12fps experiment",
+      "requirement": "Export at 1080 \u00d7 1920, 30fps, scheduling those states by time.",
+      "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Public download1747frames,1080\u00d71920,30/1,H264High/yuv420p; full decode passes."
+    },
+    {
+      "id": "3.3",
+      "section": 3,
+      "section_title": "The 12fps experiment",
+      "requirement": "Keep narration, music and SFX continuous and synchronized.",
+      "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Real-time continuous48kHz audio and cue sheet verified; perceptual sync/listening pending."
+    },
+    {
+      "id": "3.4",
+      "section": 3,
+      "section_title": "The 12fps experiment",
+      "requirement": "Judge the stepped motion in playback; do not assume that lowering the frame rate automatically creates appealing animation.",
+      "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Native stepping proven; appeal of motion at speed not independently certified."
+    },
+    {
+      "id": "3.5",
+      "section": 3,
+      "section_title": "The 12fps experiment",
+      "requirement": "Preserve the exact established ending as the branding exception.",
+      "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Actual shared ending SHA matches Sun source; fully shown pixels identical, real30fps fade;58.033s encoded brand inspected."
+    },
+    {
+      "id": "4.1",
+      "section": 4,
+      "section_title": "Photographic and tactile artwork",
+      "requirement": "Lead with photographic imagery rather than generic vector icons.",
+      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Image-led remnant plus native Sirius B observation; labeled illustrations, no generic vector stand-ins."
+    },
+    {
+      "id": "4.2",
+      "section": 4,
+      "section_title": "Photographic and tactile artwork",
+      "requirement": "Use high-resolution cutouts with carefully prepared edges and sufficient resolution for close-ups.",
+      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Native369\u00d7403 observation; pinned814px remnant crop used at maximum840px diameter, edges sampled in native/phone views."
+    },
+    {
+      "id": "4.3",
+      "section": 4,
+      "section_title": "Photographic and tactile artwork",
+      "requirement": "Use paper borders, textured labels and collage treatments where they strengthen the composition.",
+      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Distinct paper/print/label materials present in8.6\u201317.9s and support comparison."
+    },
+    {
+      "id": "4.4",
+      "section": 4,
+      "section_title": "Photographic and tactile artwork",
+      "requirement": "Arrange images to demonstrate relationships and consequences, beyond stacking them on paper.",
+      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Observation/future identity and fixed-mass/falling-support relationships are explicitly constructed in images."
+    },
+    {
+      "id": "4.5",
+      "section": 4,
+      "section_title": "Photographic and tactile artwork",
+      "requirement": "Create depth through scale, cropping, overlap and independently animated layers.",
+      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Different scales/crops/moving layers present; full-speed depth/parallax quality not certified."
+    },
+    {
+      "id": "4.6",
+      "section": 4,
+      "section_title": "Photographic and tactile artwork",
+      "requirement": "Use printed diagrams and annotations to support explanations when photographs cannot show the mechanism.",
+      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Original printed composition lattice and support figure explain unavailable interior/future observations."
+    },
+    {
+      "id": "4.7",
+      "section": 4,
+      "section_title": "Photographic and tactile artwork",
+      "requirement": "Keep illustrative constructions distinguishable from documentary evidence.",
+      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "9.8s WHITE DWARF observation and NO OBSERVED BLACK DWARFS; AI/future labels and source caveats explicit. Voice interpretation remains part of owner review."
+    },
+    {
+      "id": "5.1",
+      "section": 5,
+      "section_title": "Typography as animation",
+      "requirement": "Keep bold Playfair Display headlines and readable Manrope captions.",
+      "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Pinned Playfair900/Manrope800;29caption arrangements reuse same center placement; encoded fonts inspected."
+    },
+    {
+      "id": "5.2",
+      "section": 5,
+      "section_title": "Typography as animation",
+      "requirement": "Animate selected keywords independently from the captions.",
+      "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "6.8s LIMIT keyword and47.8s exponent reveal independently of subtitle replacement."
+    },
+    {
+      "id": "5.3",
+      "section": 5,
+      "section_title": "Typography as animation",
+      "requirement": "Make keywords interact with objects through placement, masking, movement or transformation.",
+      "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Mass/limit source marks and proton-condition label attach to the remnant/printed comparison."
+    },
+    {
+      "id": "5.4",
+      "section": 5,
+      "section_title": "Typography as animation",
+      "requirement": "Use bright, deliberate highlights for important distinctions.",
+      "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Yellow/coral mass/support/condition highlights preserve conceptual meaning."
+    },
+    {
+      "id": "5.5",
+      "section": 5,
+      "section_title": "Typography as animation",
+      "requirement": "Keep captions readable without competing with the main visual.",
+      "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Opaque center captions clear essential objects; unchanged29-arrangement geometry fits42\u201358% and conservative x950 guide. Live platform UI review remains open."
+    },
+    {
+      "id": "5.6",
+      "section": 5,
+      "section_title": "Typography as animation",
+      "requirement": "Add no blurred text duplicates, shadow-like backdrops, halos or glows behind text or graphics.",
+      "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "No blurred text duplicates, glow or shadow helper; captions identical in finishing A/B and crisp encoded joins."
+    },
+    {
+      "id": "6.1",
+      "section": 6,
+      "section_title": "Texture and optical finishing",
+      "requirement": "Include visible paper/material texture and controlled photocopy or film grain.",
+      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Native/phone encoded textures visible; independent material/grain tests pass, isolated phone grain delta0.878."
+    },
+    {
+      "id": "6.2",
+      "section": 6,
+      "section_title": "Texture and optical finishing",
+      "requirement": "Use the Cold Metal balance as the benchmark; avoid obscuring photographs with excessive overlays.",
+      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Same approved finishing strengths retained; no fresh side-by-side full-film Cold Metal aesthetic comparison."
+    },
+    {
+      "id": "6.3",
+      "section": 6,
+      "section_title": "Texture and optical finishing",
+      "requirement": "Apply restrained chromatic aberration where appropriate.",
+      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Independent \u00b1.45px image chromatic treatment executes; graphic/caption pixels protected."
+    },
+    {
+      "id": "6.4",
+      "section": 6,
+      "section_title": "Texture and optical finishing",
+      "requirement": "Use source-image focus changes, compound blur and transition blur to direct attention.",
+      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Brief source hunts/joins settle; repaired14.6s source stays registered;28.7s handoff and native ending inspected."
+    },
+    {
+      "id": "6.5",
+      "section": 6,
+      "section_title": "Texture and optical finishing",
+      "requirement": "Apply mechanical jitter, brightness variation, edge boil and ink bleed selectively according to the material.",
+      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "All11individual treatment tests pass, including picture jitter/exposure and printed-marker ink/contour boil."
+    },
+    {
+      "id": "6.6",
+      "section": 6,
+      "section_title": "Texture and optical finishing",
+      "requirement": "Keep text crisp and the explanatory details legible through the finishing stack.",
+      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Caption/label edges remain crisp across sampled encoded optics and comparison states."
+    },
+    {
+      "id": "7.1",
+      "section": 7,
+      "section_title": "Sound and narration",
+      "requirement": "Write conversationally, with natural emphasis, pauses and changes in delivery.",
+      "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Expressive master retained; no independent full-film hearing performed."
+    },
+    {
+      "id": "7.2",
+      "section": 7,
+      "section_title": "Sound and narration",
+      "requirement": "Retain the approved Bernard voice.",
+      "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Original Bernard master SHA retained, speed1; exact full mix SHA975679bf80e9913e696d28218c4b8db74f7378ce21a09584f6c4091e3d8dad24 preserved in revised build."
+    },
+    {
+      "id": "7.3",
+      "section": 7,
+      "section_title": "Sound and narration",
+      "requirement": "Give meaningful movements synchronized, audible sound cues.",
+      "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "37timecoded movements have cues; compressed-film audibility not independently heard."
+    },
+    {
+      "id": "7.4",
+      "section": 7,
+      "section_title": "Sound and narration",
+      "requirement": "Use paper rustles/card flicks for physical layers, mechanical clicks for text or measurements, and lens/air sounds for camera actions.",
+      "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Catalog families assigned; action/sound perception needs listening."
+    },
+    {
+      "id": "7.5",
+      "section": 7,
+      "section_title": "Sound and narration",
+      "requirement": "Use restrained low-frequency accents for major reveals.",
+      "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Low-frequency accents designed; actual subjective restraint needs listening."
+    },
+    {
+      "id": "7.6",
+      "section": 7,
+      "section_title": "Sound and narration",
+      "requirement": "Reuse our existing SFX library first.",
+      "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "37existing catalogued source cues, all asset hashes recorded; no new SFX generation."
+    },
+    {
+      "id": "7.7",
+      "section": 7,
+      "section_title": "Sound and narration",
+      "requirement": "Shape the background music around discoveries, tension and resolution.",
+      "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Original five-section score exists; full sonic arc needs listening."
+    },
+    {
+      "id": "7.8",
+      "section": 7,
+      "section_title": "Sound and narration",
+      "requirement": "Prevent overlapping cues from becoming messy or masking narration.",
+      "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Raw clipping0; encoded\u221214.28LUFS/\u22121.46dBTP; masking/subjective mix needs listening."
+    },
+    {
+      "id": "7.9",
+      "section": 7,
+      "section_title": "Sound and narration",
+      "requirement": "Preserve every spoken word, including the final word and its natural tail.",
+      "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "All retained narration samples and.859625s post-source hold preserved; final-word hearing/independent alignment still pending."
+    },
+    {
+      "id": "8.1",
+      "section": 8,
+      "section_title": "Complete-video acceptance",
+      "requirement": "Deliver the entire episode, not a short excerpt standing in for it.",
+      "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Complete58.233333s/1747frame narrative and brand; full retained narration, no excerpt substituted."
+    },
+    {
+      "id": "8.2",
+      "section": 8,
+      "section_title": "Complete-video acceptance",
+      "requirement": "Review the opening, middle, payoff, transitions and ending in the encoded video.",
+      "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "29encoded checkpoints/native joins reviewed; complete normal-speed owner playback pending."
+    },
+    {
+      "id": "8.3",
+      "section": 8,
+      "section_title": "Complete-video acceptance",
+      "requirement": "Check the 1.5\u20132-second changes against the actual timeline.",
+      "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "37timing declarations pass; all actual operations at speed remain to review."
+    },
+    {
+      "id": "8.4",
+      "section": 8,
+      "section_title": "Complete-video acceptance",
+      "requirement": "Verify that motion develops the explanation rather than providing decorative activity.",
+      "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Image argument examined in samples; full moving explanation/continuity assessment pending."
+    },
+    {
+      "id": "8.5",
+      "section": 8,
+      "section_title": "Complete-video acceptance",
+      "requirement": "Check sound synchronization, intelligibility, clipping and narration completeness.",
+      "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
+      "verdict": "NOT REVIEWED",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Full decode,levels,channels,source-tail retention pass; intelligibility/listening/exact word alignment pending."
+    },
+    {
+      "id": "8.6",
+      "section": 8,
+      "section_title": "Complete-video acceptance",
+      "requirement": "Identify any unmet item explicitly instead of claiming blanket compliance.",
+      "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
+      "verdict": "PASS",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "All57items recorded separately. Playback/listening/word-boundary/platform/owner gaps remain explicit."
+    },
+    {
+      "id": "8.7",
+      "section": 8,
+      "section_title": "Complete-video acceptance",
+      "requirement": "After publication, compare available swipe-away, retention, watch-duration and engagement data at comparable ages.",
+      "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
+      "verdict": "NOT APPLICABLE",
+      "reviewer": "Codex sampled encoded visual/native runtime audit; not independent hearing or owner full approval",
+      "evidence": "Not published; comparable-age analytics are not yet available."
+    }
+  ],
+  "reference_study": [
+    {
+      "id": "R.1",
+      "verdict": "NOT REVIEWED",
+      "evidence": "Nine transcripts/catalog study is not detailed direct audiovisual analysis."
+    },
+    {
+      "id": "R.2",
+      "verdict": "PASS",
+      "evidence": "Direct detailed Kurzgesagt audiovisual study remains explicitly incomplete."
+    }
+  ],
+  "independent_listening": "NOT CLAIMED",
+  "owner_full_approval": "PENDING",
+  "caption_alignment": "ASR estimates, independent word boundaries pending",
+  "source_commit": "43ac31edc0b85a6b93dd9183713074080c94531c"
+}

@@ -1,0 +1,105 @@
+{
+  "status": "ARCHIVED_UNREVIEWED",
+  "download_verification": [
+    {
+      "name": "Black-Dwarf-Full-v2-1080p.mp4",
+      "asset_id": 655028142,
+      "bytes": 89966579,
+      "sha256": "08ee074945c197ad99eef455a918e460b73a9c3220ddff0115cbbe70e56c8a22",
+      "provider_digest": "sha256:08ee074945c197ad99eef455a918e460b73a9c3220ddff0115cbbe70e56c8a22",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-full-v2-review-20261019/Black-Dwarf-Full-v2-1080p.mp4"
+    },
+    {
+      "name": "ARCHIVE_RECEIPT.json",
+      "asset_id": 655028849,
+      "bytes": 843,
+      "sha256": "24ac205ab079588ef312e3c528b7270ba932bde130bd119e2434a3fefbda4427",
+      "provider_digest": "sha256:24ac205ab079588ef312e3c528b7270ba932bde130bd119e2434a3fefbda4427",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-full-v2-review-20261019/ARCHIVE_RECEIPT.json"
+    },
+    {
+      "name": "Black-Dwarf-Full-v2-QA.zip",
+      "asset_id": 655028856,
+      "bytes": 9721159,
+      "sha256": "462b39af97184e5211967f01796861693b94c77dfe5502a2e92722bb2efc267a",
+      "provider_digest": "sha256:462b39af97184e5211967f01796861693b94c77dfe5502a2e92722bb2efc267a",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-full-v2-review-20261019/Black-Dwarf-Full-v2-QA.zip"
+    }
+  ],
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1747,
+    "codec": "h264",
+    "profile": "High",
+    "pixel_format": "yuv420p",
+    "duration": "58.233333"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "58.233000"
+  },
+  "full_decode": "PASS",
+  "encoded_visual_inspection": {
+    "method": "29 encoded216px phone checkpoints plus native repaired join14.5/14.6/14.9/15.2; earlier native observation/notation/brand review on unchanged first render",
+    "times": [
+      0,
+      1.8,
+      3.4,
+      5.2,
+      6.8,
+      8.6,
+      9.8,
+      11.5,
+      13.2,
+      14.6,
+      16.3,
+      17.9,
+      19.5,
+      23.8,
+      28.7,
+      31.9,
+      34.9,
+      39.5,
+      42.8,
+      44.5,
+      46,
+      47.8,
+      49.5,
+      51,
+      52.6,
+      54.2,
+      55.8,
+      57.433333,
+      58.033333
+    ],
+    "observations": [
+      "Cutaway remains with the same remnant throughout repaired join.",
+      "Textures/overlays survive encoding; captions and labels stay crisp.",
+      "Observed white dwarf and hypothetical illustration carry separate labels and full image credit.",
+      "Support limit moves independently of fixed mass reference.",
+      "Timescale notation and proton condition are present, with final phrase/brand intact."
+    ],
+    "scope": "Sampled visual review; continuous owner playback and independent listening not claimed"
+  },
+  "owner_motion_review": "APPROVED v2",
+  "owner_full_review": "PENDING",
+  "independent_listening": "NOT CLAIMED",
+  "word_alignment": "actual-audio ASR estimates, independently verified alignment PENDING",
+  "encoded_audio_levels": {
+    "input_i": "-14.28",
+    "input_tp": "-1.46",
+    "input_lra": "2.70"
+  },
+  "source_commit": "43ac31edc0b85a6b93dd9183713074080c94531c",
+  "recovery_chunks": 12,
+  "runner_gate": "PASS",
+  "ci_run": 39189528060,
+  "join_revision": "PASS sampled encoded registration"
+}
