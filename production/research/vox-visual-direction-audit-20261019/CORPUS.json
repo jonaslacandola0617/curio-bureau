@@ -1,0 +1,160 @@
+{
+  "survey_method": "Overview fps filter, bin-start labels approximate; close samples use selected source frame indices",
+  "corpus": [
+    {
+      "id": "V01",
+      "filename": "How wildlife trade is linked to coronavirus.mp4",
+      "sha256": "3f3fc47f4482f3044bfda4c45c234b527f6cd111628a61d1318c3de46d83bfde",
+      "duration": 528.249252,
+      "width": 1280,
+      "height": 720,
+      "fps": "24000/1001",
+      "sampling_seconds": 4,
+      "frames": 132,
+      "source_url": "https://www.youtube.com/watch?v=TPpoJGYlW54",
+      "rights_note": "Third-party study source; media and screenshots excluded from public audit"
+    },
+    {
+      "id": "V02",
+      "filename": "The Electoral College, explained.mp4",
+      "sha256": "342c49f5aff256758f4b8185664822924fb530b1ac1c24370c1d26b9b7d30cd3",
+      "duration": 488.38059,
+      "width": 1280,
+      "height": 720,
+      "fps": "24000/1001",
+      "sampling_seconds": 4,
+      "frames": 122,
+      "source_url": "https://www.youtube.com/watch?v=ajavsMbCapY",
+      "rights_note": "Third-party study source; media and screenshots excluded from public audit"
+    },
+    {
+      "id": "V03",
+      "filename": "The golf ball that made golfers too good.mp4",
+      "sha256": "8734e206e4eec065c7e161e093cada2c363eec880ca8767ea955172161ff2d91",
+      "duration": 349.455601,
+      "width": 1280,
+      "height": 720,
+      "fps": "24000/1001",
+      "sampling_seconds": 4,
+      "frames": 87,
+      "source_url": "https://www.youtube.com/watch?v=0sKN7yYC42g",
+      "rights_note": "Third-party study source; media and screenshots excluded from public audit"
+    },
+    {
+      "id": "V04",
+      "filename": "The Israel-Palestine conflict_ a brief, simple history.mp4",
+      "sha256": "d7bd41c33d9d6e817e94ea02e5806efd0dbc6379fa6ab58901b1de8325f4e33c",
+      "duration": 618.760635,
+      "width": 1280,
+      "height": 720,
+      "fps": "24000/1001",
+      "sampling_seconds": 4,
+      "frames": 155,
+      "source_url": "https://www.youtube.com/watch?v=iRYZjOuUnlU",
+      "rights_note": "Third-party study source; media and screenshots excluded from public audit"
+    },
+    {
+      "id": "V05",
+      "filename": "Why America still uses Fahrenheit.mp4",
+      "sha256": "c114edee8b3853f9bfbb055e92c423dbfe3cab4318b7aff898b4aefc1ed483d1",
+      "duration": 290.476916,
+      "width": 1280,
+      "height": 720,
+      "fps": "24000/1001",
+      "sampling_seconds": 4,
+      "frames": 73,
+      "source_url": "https://www.youtube.com/watch?v=1TV6JFxMEcI",
+      "rights_note": "Third-party study source; media and screenshots excluded from public audit"
+    },
+    {
+      "id": "C01",
+      "filename": "Cold_Metal_Full_Review_720.mp4",
+      "sha256": "fc403b9e2c906d4adbbb8cc8704f2b400326871925e2d1d3c31eab0bfe831d81",
+      "duration": 38.166667,
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1",
+      "sampling_seconds": 2,
+      "frames": 19,
+      "source_urls": [
+        "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-full-review-20261017/Cold_Metal_Full_Review_720.mp4"
+      ],
+      "approval_status": "owner_approved_historical_complete_film"
+    },
+    {
+      "id": "C02",
+      "filename": "00-Mint-1080p-Review-v2.mp4",
+      "sha256": "5197edccd418eb6739eb43022f02b737a825b514047700b9b1cfd2a29ca19400",
+      "duration": 40.033333,
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "sampling_seconds": 2,
+      "frames": 20,
+      "source_urls": [
+        "https://github.com/jonaslacandola0617/curio-bureau/releases/download/mint-full-v2-review-20261017/00-Mint-1080p-Review-v2.mp4"
+      ],
+      "approval_status": "complete_candidate_owner_approval_not_established"
+    },
+    {
+      "id": "C03",
+      "filename": "00-Onion-Tears-1080p-Review-v1.mp4",
+      "sha256": "a347341d4a636d35f814d2a310c2309f358606a71fc77c718d66027bd9752be6",
+      "duration": 39.833333,
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "sampling_seconds": 2,
+      "frames": 20,
+      "source_urls": [
+        "https://github.com/jonaslacandola0617/curio-bureau/releases/download/onion-tears-full-v1-review-20261018/00-Onion-Tears-1080p-Review-v1.mp4"
+      ],
+      "approval_status": "complete_candidate_owner_approval_not_established"
+    },
+    {
+      "id": "C04",
+      "filename": "00-Phantom-Vibration-1080p-Review-v1.mp4",
+      "sha256": "3b4a080c5668914894a9714d5e19f8a52987fdeef0526dc3b0d9d731ec3cc7b4",
+      "duration": 45.766667,
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "sampling_seconds": 2,
+      "frames": 23,
+      "source_urls": [
+        "https://github.com/jonaslacandola0617/curio-bureau/releases/download/phantom-vibration-full-v1-review-20261018/00-Phantom-Vibration-1080p-Review-v1.mp4"
+      ],
+      "approval_status": "complete_candidate_owner_approval_not_established"
+    },
+    {
+      "id": "C05",
+      "filename": "00-Sun-Disappeared-1080p-Full-Review-v1.mp4",
+      "sha256": "966628a14ab6df44b978ed6a13b25ac3cf13671dc8d25b1c5e223e347242c9cf",
+      "duration": 49.5,
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "sampling_seconds": 2,
+      "frames": 25,
+      "source_urls": [
+        "https://github.com/jonaslacandola0617/curio-bureau/releases/download/sun-disappeared-full-v1-review-20261018/00-Sun-Disappeared-1080p-Full-Review-v1.mp4"
+      ],
+      "approval_status": "owner_approved_current_production_benchmark"
+    },
+    {
+      "id": "C06",
+      "filename": "Black-Dwarf-Full-v2-1080p.mp4",
+      "sha256": "08ee074945c197ad99eef455a918e460b73a9c3220ddff0115cbbe70e56c8a22",
+      "duration": 58.233333,
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1",
+      "sampling_seconds": 2,
+      "frames": 29,
+      "source_urls": [
+        "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-full-v2-review-20261019/Black-Dwarf-Full-v2-1080p.mp4"
+      ],
+      "approval_status": "complete_candidate_owner_approval_not_established"
+    }
+  ]
+}
