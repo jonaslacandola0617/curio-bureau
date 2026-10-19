@@ -1,0 +1,348 @@
+{
+  "review_date": "2026-10-20",
+  "scope": "Contact-strip inspection across12states each, native demanding intermediates, and five-state labels-only strips",
+  "tests": [
+    {
+      "id": "01-concrete",
+      "art_status": "INTERNALLY_REVIEWED_FOR_AUTHORIZED_TEST_RENDER",
+      "owner_approval": "NOT CLAIMED",
+      "static_checks": {
+        "subject_specific_operation": "PASS: see contract and exact state images",
+        "connected_states": "PASS: initial/intermediate/resolved preserve subject or source relationship",
+        "labels_only": "PASS: useful labels retain relationship with decorative headings/captions hidden",
+        "caption_space": "PASS: sampled source plates inspected with actual-audio caption boxes",
+        "finish": "PASS for static material roles; moving focus/grain remain encoded-review checks"
+      },
+      "states": [
+        {
+          "path": "01-concrete/qa/frame-0.jpg",
+          "sha256": "5b4689491ec76f344f052ce5462235d1ac8a458ec7bb3cd66d5768efc85bb8a0",
+          "requested_time": 0,
+          "scene_time": 0.0,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "01-concrete/qa/frame-0-labels-only.jpg",
+          "sha256": "7ea16ae80be34dc7c5cef7aff99684ae83f87eee0e78a3266a3d5248693268b7",
+          "requested_time": 0,
+          "scene_time": 0.0,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "01-concrete/qa/frame-2.8.jpg",
+          "sha256": "fe33ef705869b8ebdcaedb59def19b18a1f45a0746fc0a575a474ef828e04ac7",
+          "requested_time": 2.8,
+          "scene_time": 2.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "01-concrete/qa/frame-2.8-labels-only.jpg",
+          "sha256": "fe33ef705869b8ebdcaedb59def19b18a1f45a0746fc0a575a474ef828e04ac7",
+          "requested_time": 2.8,
+          "scene_time": 2.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "01-concrete/qa/frame-4.8.jpg",
+          "sha256": "01818cbeb00d14489591e1602f10bcacb3b8c7d418ffc4b1e5907615aaa4ac8b",
+          "requested_time": 4.8,
+          "scene_time": 4.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "01-concrete/qa/frame-4.8-labels-only.jpg",
+          "sha256": "3d5394f6224bc1dbe12ff7863a9a95ee3deb281537813ff612e04772adc4fefb",
+          "requested_time": 4.8,
+          "scene_time": 4.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "01-concrete/qa/frame-7.8.jpg",
+          "sha256": "04f76a17352c091b2d67bf7e1609302f261ce35db61147378a5493a840d6a517",
+          "requested_time": 7.8,
+          "scene_time": 7.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "01-concrete/qa/frame-7.8-labels-only.jpg",
+          "sha256": "3e36dc3cc1a99c3c8915cb1acb798702ec23f554b860614c7c90ad1f408e4461",
+          "requested_time": 7.8,
+          "scene_time": 7.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "01-concrete/qa/frame-9.4.jpg",
+          "sha256": "f69e64c947f6bf9276912ff7741e9c206905b744b1a391dbd0a4adcc05371d70",
+          "requested_time": 9.4,
+          "scene_time": 9.333333333333334,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "01-concrete/qa/frame-9.4-labels-only.jpg",
+          "sha256": "ed9ca5dff41f3370a824a11e7b4febb17648d8e392800bedcfbc0994c661b736",
+          "requested_time": 9.4,
+          "scene_time": 9.333333333333334,
+          "headings_and_captions_hidden": true
+        }
+      ]
+    },
+    {
+      "id": "02-diomede",
+      "art_status": "INTERNALLY_REVIEWED_FOR_AUTHORIZED_TEST_RENDER",
+      "owner_approval": "NOT CLAIMED",
+      "static_checks": {
+        "subject_specific_operation": "PASS: see contract and exact state images",
+        "connected_states": "PASS: initial/intermediate/resolved preserve subject or source relationship",
+        "labels_only": "PASS: useful labels retain relationship with decorative headings/captions hidden",
+        "caption_space": "PASS: sampled source plates inspected with actual-audio caption boxes",
+        "finish": "PASS for static material roles; moving focus/grain remain encoded-review checks"
+      },
+      "states": [
+        {
+          "path": "02-diomede/qa/frame-0.jpg",
+          "sha256": "b2fa49a589114712ab0d9120e1b2bb828073cd0544c21dd4c28d8161af7c04d8",
+          "requested_time": 0,
+          "scene_time": 0.0,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "02-diomede/qa/frame-0-labels-only.jpg",
+          "sha256": "2a038cad3ebaa193d8a800cd8f8bb1bb3ae223d2e9232cd807072c870b721542",
+          "requested_time": 0,
+          "scene_time": 0.0,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "02-diomede/qa/frame-2.8.jpg",
+          "sha256": "52e80dc714f83c5a75bab7503d08e5f7d0cdec8b54b4af8240a0563f0d292faf",
+          "requested_time": 2.8,
+          "scene_time": 2.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "02-diomede/qa/frame-2.8-labels-only.jpg",
+          "sha256": "ca0e7a3c982eab7c446c556b3a6136dec6705530c37c16d37b0f79ae4912116f",
+          "requested_time": 2.8,
+          "scene_time": 2.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "02-diomede/qa/frame-4.8.jpg",
+          "sha256": "c0ebf35e293c1c7e971720d484e09088550d18007962ab7f19b72c2a0d00e934",
+          "requested_time": 4.8,
+          "scene_time": 4.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "02-diomede/qa/frame-4.8-labels-only.jpg",
+          "sha256": "08852060914067c05c5feba6f418f1346e71c206a315f7b5fda3a89bd4ad53f8",
+          "requested_time": 4.8,
+          "scene_time": 4.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "02-diomede/qa/frame-7.8.jpg",
+          "sha256": "7b169a7ecb88ea8fa83883589649bf58e808fc95ea90350680a2f9761a05084a",
+          "requested_time": 7.8,
+          "scene_time": 7.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "02-diomede/qa/frame-7.8-labels-only.jpg",
+          "sha256": "b7c93955cc8ea84a828a52e79a3cd56bb81fc0dfc87e7e07d97e2ee66850d76a",
+          "requested_time": 7.8,
+          "scene_time": 7.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "02-diomede/qa/frame-9.4.jpg",
+          "sha256": "cca267aa06196081c21bdfda2f6d694f64b99efd4f3ee938220d0b2e5c358cf4",
+          "requested_time": 9.4,
+          "scene_time": 9.333333333333334,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "02-diomede/qa/frame-9.4-labels-only.jpg",
+          "sha256": "cca267aa06196081c21bdfda2f6d694f64b99efd4f3ee938220d0b2e5c358cf4",
+          "requested_time": 9.4,
+          "scene_time": 9.333333333333334,
+          "headings_and_captions_hidden": true
+        }
+      ]
+    },
+    {
+      "id": "03-shrimp",
+      "art_status": "INTERNALLY_REVIEWED_FOR_AUTHORIZED_TEST_RENDER",
+      "owner_approval": "NOT CLAIMED",
+      "static_checks": {
+        "subject_specific_operation": "PASS: see contract and exact state images",
+        "connected_states": "PASS: initial/intermediate/resolved preserve subject or source relationship",
+        "labels_only": "PASS: useful labels retain relationship with decorative headings/captions hidden",
+        "caption_space": "PASS: sampled source plates inspected with actual-audio caption boxes",
+        "finish": "PASS for static material roles; moving focus/grain remain encoded-review checks"
+      },
+      "states": [
+        {
+          "path": "03-shrimp/qa/frame-0.jpg",
+          "sha256": "09225350016a8d473c2d60f8b5a05cac702dd66b6f6f938a185a3ec2fb369766",
+          "requested_time": 0,
+          "scene_time": 0.0,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "03-shrimp/qa/frame-0-labels-only.jpg",
+          "sha256": "91f8e1c7add6cf80a50139224ea4befd9f4ce98595dfd61bc3ca36dc98174823",
+          "requested_time": 0,
+          "scene_time": 0.0,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "03-shrimp/qa/frame-2.8.jpg",
+          "sha256": "f7167d1cf5035fd9b3ed07378ad3969cc3ad9ad3c8e1f1da37d593698150aa3f",
+          "requested_time": 2.8,
+          "scene_time": 2.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "03-shrimp/qa/frame-2.8-labels-only.jpg",
+          "sha256": "c57d5ac0c92bc46962553b19bfcda27103545410434d8ff0681b4d4544062f4b",
+          "requested_time": 2.8,
+          "scene_time": 2.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "03-shrimp/qa/frame-4.8.jpg",
+          "sha256": "59203aa0593fd53e13ea26266a2ca515585727064caff7ef297e829728da0212",
+          "requested_time": 4.8,
+          "scene_time": 4.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "03-shrimp/qa/frame-4.8-labels-only.jpg",
+          "sha256": "59203aa0593fd53e13ea26266a2ca515585727064caff7ef297e829728da0212",
+          "requested_time": 4.8,
+          "scene_time": 4.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "03-shrimp/qa/frame-7.8.jpg",
+          "sha256": "f8789b2047243b42638b4bd4b7b53c66128952c313626cca370d83b095f7a716",
+          "requested_time": 7.8,
+          "scene_time": 7.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "03-shrimp/qa/frame-7.8-labels-only.jpg",
+          "sha256": "f8789b2047243b42638b4bd4b7b53c66128952c313626cca370d83b095f7a716",
+          "requested_time": 7.8,
+          "scene_time": 7.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "03-shrimp/qa/frame-9.4.jpg",
+          "sha256": "f27e26b1cd5830cc4ba3d8f0a0dff0ffb0469063ac9fda7a7c637ddba57a2899",
+          "requested_time": 9.4,
+          "scene_time": 9.333333333333334,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "03-shrimp/qa/frame-9.4-labels-only.jpg",
+          "sha256": "ffbdc6f6954a502e3595de074f65374daedd2c1585aeeabae76af0dee4d3bcf3",
+          "requested_time": 9.4,
+          "scene_time": 9.333333333333334,
+          "headings_and_captions_hidden": true
+        }
+      ]
+    },
+    {
+      "id": "04-brine",
+      "art_status": "INTERNALLY_REVIEWED_FOR_AUTHORIZED_TEST_RENDER",
+      "owner_approval": "NOT CLAIMED",
+      "static_checks": {
+        "subject_specific_operation": "PASS: see contract and exact state images",
+        "connected_states": "PASS: initial/intermediate/resolved preserve subject or source relationship",
+        "labels_only": "PASS: useful labels retain relationship with decorative headings/captions hidden",
+        "caption_space": "PASS: sampled source plates inspected with actual-audio caption boxes",
+        "finish": "PASS for static material roles; moving focus/grain remain encoded-review checks"
+      },
+      "states": [
+        {
+          "path": "04-brine/qa/frame-0.jpg",
+          "sha256": "3f39369296e7f3d672320b2d1dd1167f2e525361bb271bf786eddb5d9c714070",
+          "requested_time": 0,
+          "scene_time": 0.0,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "04-brine/qa/frame-0-labels-only.jpg",
+          "sha256": "845c8da2b7cf7c2c3c439c9975db45f8a6f4bc371595e48caddb76fbbf0bb787",
+          "requested_time": 0,
+          "scene_time": 0.0,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "04-brine/qa/frame-2.8.jpg",
+          "sha256": "9174c7729628bf8bbc9a6083aa21f0aa46476484c2fada664165af2a4e9bd0fa",
+          "requested_time": 2.8,
+          "scene_time": 2.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "04-brine/qa/frame-2.8-labels-only.jpg",
+          "sha256": "3ff82ce479a869f0dfe0c6fde49518ab1f6412bf4a6cb36fe085f0e4b3107e8b",
+          "requested_time": 2.8,
+          "scene_time": 2.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "04-brine/qa/frame-4.8.jpg",
+          "sha256": "71233f48b1a436c73627f2eea46f1e4bf25dfff12c35a105d379080fac7454f8",
+          "requested_time": 4.8,
+          "scene_time": 4.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "04-brine/qa/frame-4.8-labels-only.jpg",
+          "sha256": "933c8596f968f5e42de3b822efef3f0958a4230fe24527b26233a63125f9427e",
+          "requested_time": 4.8,
+          "scene_time": 4.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "04-brine/qa/frame-7.8.jpg",
+          "sha256": "8572bc5757339612bdf61aca2457f5b8d703078eb4102e79e604a9eac671684c",
+          "requested_time": 7.8,
+          "scene_time": 7.75,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "04-brine/qa/frame-7.8-labels-only.jpg",
+          "sha256": "0b0cb557c0222ba77bdc108b1e578552011d4be667fd5d0eae5e43d5eb191ba2",
+          "requested_time": 7.8,
+          "scene_time": 7.75,
+          "headings_and_captions_hidden": true
+        },
+        {
+          "path": "04-brine/qa/frame-9.4.jpg",
+          "sha256": "0281c28b6d9d131a75a6f49703a34aa7a3327d24705b49b19abebf2e3eddfe44",
+          "requested_time": 9.4,
+          "scene_time": 9.333333333333334,
+          "headings_and_captions_hidden": false
+        },
+        {
+          "path": "04-brine/qa/frame-9.4-labels-only.jpg",
+          "sha256": "3c90a6af2c8188cf63726791d55a6e4c7e380aa3a08ba5da2aa884360fcfa1eb",
+          "requested_time": 9.4,
+          "scene_time": 9.333333333333334,
+          "headings_and_captions_hidden": true
+        }
+      ]
+    }
+  ],
+  "revision_findings": [
+    "Narrower textured concrete seam replaced painted strip; overlay clipped to material extent",
+    "Defined claw inspection window replaced hard-edged isolated crop; jet anchor moved to pincer gap",
+    "Brine interface made level; section separated temporally from actual source photo; unreadable duplicate closing line removed",
+    "Date example chips linked to fixed island sides after crossing"
+  ]
+}

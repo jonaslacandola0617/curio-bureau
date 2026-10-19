@@ -1,0 +1,93 @@
+{
+  "assets": [
+    {
+      "path": "assets/concrete.jpg",
+      "kind": "original AI illustrative material plate",
+      "source": "built-in Imagegen",
+      "prompt": "Use case: scientific-educational. Create one original high-resolution photographic material plate for an editorial science animation, landscape 3:2. Extreme macro, straight-on polished cut face of Roman-inspired lime-and-volcanic-aggregate concrete. Frame filled edge to edge with warm charcoal taupe mortar, convincing angular small basalt aggregate, gritty mineral pores, a conspicuous irregular chalk-white lime inclusion centered at 55 percent width and 50 percent height. The white inclusion about 12 percent of the image width. Several smaller pale inclusions elsewhere. Dry material, uniform restrained side illumination, sharp real granular microtexture, no cast exterior shadow, no text, no diagram, no arrows, no ruler, no objects or background. This is an explicitly illustrative material asset, not an archaeological sample. Keep it uncracked so an authored annotation can introduce and close a schematic crack through the central white inclusion. Premium natural-history editorial macro photograph aesthetic.",
+      "sha256": "40b062ba7b772e362224c1c406246cc5eaad227cb7852902eaf4ba24d7774fda",
+      "bytes": 1144177
+    },
+    {
+      "path": "assets/shrimp.webp",
+      "kind": "original AI illustrative specimen with alpha",
+      "source": "built-in Imagegen",
+      "prompt": "Use case: scientific-educational. One original natural-history photographic-style isolated pistol shrimp (Alpheus type) cutout, side view, facing RIGHT, transparent background. Landscape 3:2 composition. Whole small marine shrimp, olive amber translucent segmented carapace, anatomically plausible walking legs and antennae, one conspicuously enlarged snapper claw extended to the right; small other claw subordinate. Large snapper claw open, clear two-part pincer anatomy and a visible hinge, with its outlet near the rightmost claw end. Long narrow abdomen curls slightly toward the LEFT and tail fan at far left; eye stalk and head face right. Large claw occupies the right third of the picture and remains inside frame; whole subject has generous transparent clearance. Natural documentary macro detail and material richness, carefully cut-out fine legs, no cast shadow, no sea floor, no water, no bubbles, no glow, no labels, no arrows, no title. This is an illustrative specimen, not research footage; no stylized cartoon geometry. Intended animation inspects this exact claw, then constructs a separately labeled jet/bubble explanation in code.",
+      "sha256": "a58d068f55826e8067381be0af2332e625d84d4a893924d065740978d7f5d7cf",
+      "bytes": 366934
+    },
+    {
+      "path": "assets/diomede.jpg",
+      "kind": "actual satellite source image",
+      "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia10/pia10631/PIA10631.jpg",
+      "source_page": "https://science.nasa.gov/photojournal/diomede-islands-bering-straight/",
+      "credit": "NASA/GSFC/METI/ERSDAC/JAROS and U.S./Japan ASTER Science Team",
+      "rights_basis": "Credited factual editorial use under NASA media guidelines; no third-party copyright warning on item; no endorsement claimed",
+      "sha256": "c6ee3769cf8af9fa0a62d6f1abd8cbe12c22235cc3eadc21703d040f33a80106",
+      "bytes": 71167
+    },
+    {
+      "path": "assets/brine.jpg",
+      "kind": "actual ROV source photograph",
+      "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2020/07/20200720-hires.jpg",
+      "source_page": "https://oceanexplorer.noaa.gov/multimedia/daily-image-media-20200720/",
+      "credit": "NOAA Ocean Exploration, Gulf of Mexico 2017",
+      "rights_basis": "Item credited to federal NOAA Ocean Exploration; used as credited factual source, no endorsement claimed",
+      "sha256": "bd992e65c4b72e393c4ab6dc7e8610bf9c4acff1bb88bd3c60568083b4d7572a",
+      "bytes": 356137
+    },
+    {
+      "path": "assets/01-concrete-voice.mp3",
+      "kind": "original generated narration",
+      "provider": "ElevenLabs",
+      "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+      "provider_name": "Clyde - Vintage Male Radio Announcer",
+      "legacy_alias": "Bernard",
+      "model": "eleven_v4",
+      "text": "Some Roman concrete repairs itself. Water enters a crack, dissolves calcium from lime fragments, and new mineral deposits can seal the gap.",
+      "sha256": "15cd1670b73aad7facabbb137acaeeb4f75fa46e7fd877387ef16137f3b0baea",
+      "bytes": 161364
+    },
+    {
+      "path": "assets/02-diomede-voice.mp3",
+      "kind": "original generated narration",
+      "provider": "ElevenLabs",
+      "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+      "provider_name": "Clyde - Vintage Male Radio Announcer",
+      "legacy_alias": "Bernard",
+      "model": "eleven_v4",
+      "text": "These islands are neighbors. But the International Date Line runs between them. Cross that boundary, and the calendar date changes.",
+      "sha256": "fa6129b4c9e1203c36471f16c0f096db45091843eab84832863a10c57b7693c1",
+      "bytes": 135869
+    },
+    {
+      "path": "assets/03-shrimp-voice.mp3",
+      "kind": "original generated narration",
+      "provider": "ElevenLabs",
+      "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+      "provider_name": "Clyde - Vintage Male Radio Announcer",
+      "legacy_alias": "Bernard",
+      "model": "eleven_v4",
+      "text": "This shrimp's snap comes from a collapsing bubble. Its claw fires a water jet. The bubble forms, then implodes.",
+      "sha256": "6f0906f3ff4c2233be1fc504887adeff0820e7b86846a3b20e6ec5f6264c0ecb",
+      "bytes": 135869
+    },
+    {
+      "path": "assets/04-brine-voice.mp3",
+      "kind": "original generated narration",
+      "provider": "ElevenLabs",
+      "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+      "provider_name": "Clyde - Vintage Male Radio Announcer",
+      "legacy_alias": "Bernard",
+      "model": "eleven_v4",
+      "text": "This lake is underwater. Extra salt makes its brine denser than seawater, so it settles into a depression on the seafloor.",
+      "sha256": "40615284a0c539ca5cf22b629d3e9b4dd3416e680ea95359373a8e77fa65d717",
+      "bytes": 137123
+    }
+  ],
+  "native_photo_limits": {
+    "diomede": "900x720 source, modest enlargement to about990x792 in main map; no inferred new detail",
+    "brine": "1920x1080 source; first selected crop enlarged about1.15x; final source strip reduced",
+    "generated": "1536x1024 originals; concrete macro is illustrative and enlarged for inspection; shrimp macro does not establish anatomical measurement"
+  }
+}

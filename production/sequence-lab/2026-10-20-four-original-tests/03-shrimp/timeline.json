@@ -1,0 +1,157 @@
+{
+  "duration": 12,
+  "frames": 360,
+  "scene_fps": 12,
+  "fps": 30,
+  "voice_offset": 1.8,
+  "voice_speed": 1,
+  "caption_status": "Scribe actual-audio word timings, not independent forced alignment",
+  "captions": [
+    {
+      "text": "This shrimp's snap comes from",
+      "start": 1.8,
+      "end": 3.22
+    },
+    {
+      "text": "a collapsing bubble.",
+      "start": 3.24,
+      "end": 4.619999999999999
+    },
+    {
+      "text": "Its claw fires a water",
+      "start": 4.76,
+      "end": 6.1
+    },
+    {
+      "text": "jet.",
+      "start": 6.12,
+      "end": 6.579999999999999
+    },
+    {
+      "text": "The bubble forms,",
+      "start": 6.68,
+      "end": 7.739999999999999
+    },
+    {
+      "text": "then implodes.",
+      "start": 7.8,
+      "end": 9.3
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "type": "word",
+      "start": 1.8,
+      "end": 2.04
+    },
+    {
+      "text": "shrimp's",
+      "type": "word",
+      "start": 2.08,
+      "end": 2.3600000000000003
+    },
+    {
+      "text": "snap",
+      "type": "word",
+      "start": 2.52,
+      "end": 2.68
+    },
+    {
+      "text": "comes",
+      "type": "word",
+      "start": 2.76,
+      "end": 3.0
+    },
+    {
+      "text": "from",
+      "type": "word",
+      "start": 3.08,
+      "end": 3.16
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 3.24,
+      "end": 3.3200000000000003
+    },
+    {
+      "text": "collapsing",
+      "type": "word",
+      "start": 3.44,
+      "end": 3.88
+    },
+    {
+      "text": "bubble.",
+      "type": "word",
+      "start": 4.04,
+      "end": 4.56
+    },
+    {
+      "text": "Its",
+      "type": "word",
+      "start": 4.76,
+      "end": 4.92
+    },
+    {
+      "text": "claw",
+      "type": "word",
+      "start": 4.96,
+      "end": 5.24
+    },
+    {
+      "text": "fires",
+      "type": "word",
+      "start": 5.32,
+      "end": 5.64
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 5.68,
+      "end": 5.72
+    },
+    {
+      "text": "water",
+      "type": "word",
+      "start": 5.8,
+      "end": 6.04
+    },
+    {
+      "text": "jet.",
+      "type": "word",
+      "start": 6.12,
+      "end": 6.52
+    },
+    {
+      "text": "The",
+      "type": "word",
+      "start": 6.68,
+      "end": 6.72
+    },
+    {
+      "text": "bubble",
+      "type": "word",
+      "start": 6.76,
+      "end": 7.08
+    },
+    {
+      "text": "forms,",
+      "type": "word",
+      "start": 7.319999999999999,
+      "end": 7.68
+    },
+    {
+      "text": "then",
+      "type": "word",
+      "start": 7.8,
+      "end": 8.040000000000001
+    },
+    {
+      "text": "implodes.",
+      "type": "word",
+      "start": 8.200000000000001,
+      "end": 9.24
+    }
+  ]
+}

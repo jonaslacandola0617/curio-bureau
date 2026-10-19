@@ -1,0 +1,14 @@
+{
+  "version": "four-original-tests-v1",
+  "authorization": "Owner explicitly requested four new-topic12secondtests with autonomous creative review",
+  "frames_each": 360,
+  "duration_each_seconds": 12,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "scene_fps": 12,
+  "production_standard": "sun-disappeared-v1",
+  "source_lock_sha256": "13040f27a324263201b4e7b79f501322a4aa5f0d181dd896d007d1c37885222f",
+  "owner_creative_approval": false,
+  "dust_remains_paused": true
+}

@@ -1,0 +1,113 @@
+{
+  "status": "INTERNAL_ART_REVIEW_FOR_EXPLICITLY_REQUESTED_TESTS",
+  "tests": [
+    {
+      "id": "01-concrete",
+      "viewer_before": "Cracks only destroy material",
+      "factual_proposition": "In lime-clast materials, water-driven mineral formation can seal a crack",
+      "visual_operation": "inspect / connect / react / seal",
+      "subject_action": "Same crack crossing lime inclusion with water front and calcium/mineral marks \u2192 Same gap filled by a textured seam",
+      "viewer_after": "In lime-clast materials, water-driven mineral formation can seal a crack",
+      "invariant": "Same material crop and crack path",
+      "initial_state": "Uncracked illustrative aggregate plate; source clast visible",
+      "difficult_intermediate": "Same crack crossing lime inclusion with water front and calcium/mineral marks",
+      "resolved_state": "Same gap filled by a textured seam",
+      "next_inheritance": "Resolved relation then exact shared endcard",
+      "representation_reason": "Material itself receives a changing overlay, rather than a separate reaction card",
+      "source_truth_boundary": "AI plate, conceptual crack and reaction, time compressed; not all Roman concrete self-heals",
+      "caption_clearance": "Clean Manrope phrases near y918, actual glyph boxes reviewed; main text/objects composed around bounds",
+      "reading_hold": "Resolved operation until10.9s; planned first1.8s nonverbal hook for tests02\u201304, not an internal narration hole",
+      "owner_review": "Explicit request authorizes these test renders; creative approval remains pending",
+      "visual_translation": {
+        "reference_observation": "See README source/timecode comparisons from actual five-film Vox audit",
+        "transferable_principle": "Selected image feature or persistent relationship supplies the next state",
+        "original_execution": "inspect / connect / react / seal",
+        "asset_operation": "Same crack crossing lime inclusion with water front and calcium/mineral marks"
+      },
+      "remaining_weaknesses": [
+        "Dissolution is reduced to a few conceptual markers; chemistry is not exhaustively explained"
+      ]
+    },
+    {
+      "id": "02-diomede",
+      "viewer_before": "Neighboring geography seems to imply one calendar",
+      "factual_proposition": "A conventional boundary can separate calendar dates",
+      "visual_operation": "locate / separate / cross / reclassify",
+      "subject_action": "Date boundary and westward marker share the source coordinates \u2192 Calendar changes and example dates are attached to the two sides",
+      "viewer_after": "A conventional boundary can separate calendar dates",
+      "invariant": "Unchanged island shapes, orientation and boundary registration",
+      "initial_state": "Actual two-island satellite view",
+      "difficult_intermediate": "Date boundary and westward marker share the source coordinates",
+      "resolved_state": "Calendar changes and example dates are attached to the two sides",
+      "next_inheritance": "Resolved relation then exact shared endcard",
+      "representation_reason": "Geography owns the path, calendar displays the categorical consequence",
+      "source_truth_boundary": "Example days, schematic boundary, no exact hour difference or real crossing logistics",
+      "caption_clearance": "Clean Manrope phrases near y918, actual glyph boxes reviewed; main text/objects composed around bounds",
+      "reading_hold": "Resolved operation until10.9s; planned first1.8s nonverbal hook for tests02\u201304, not an internal narration hole",
+      "owner_review": "Explicit request authorizes these test renders; creative approval remains pending",
+      "visual_translation": {
+        "reference_observation": "See README source/timecode comparisons from actual five-film Vox audit",
+        "transferable_principle": "Selected image feature or persistent relationship supplies the next state",
+        "original_execution": "locate / separate / cross / reclassify",
+        "asset_operation": "Date boundary and westward marker share the source coordinates"
+      },
+      "remaining_weaknesses": [
+        "This demonstrates a calendar convention, not travel permission or continuously differing dates"
+      ]
+    },
+    {
+      "id": "03-shrimp",
+      "viewer_before": "The claw might seem to strike a target to make the sound",
+      "factual_proposition": "A jet forms a cavity whose collapse produces the snap",
+      "visual_operation": "inspect / eject / form / collapse / propagate",
+      "subject_action": "Source-attached claw inspection leads into a water jet and cavity \u2192 Cavity contracts before an expanding pressure-pulse annotation",
+      "viewer_after": "A jet forms a cavity whose collapse produces the snap",
+      "invariant": "Same selected outlet and jet origin",
+      "initial_state": "Complete illustrative shrimp with enlarged claw",
+      "difficult_intermediate": "Source-attached claw inspection leads into a water jet and cavity",
+      "resolved_state": "Cavity contracts before an expanding pressure-pulse annotation",
+      "next_inheritance": "Resolved relation then exact shared endcard",
+      "representation_reason": "Specimen gives identity, selected feature anchors a physical sequence",
+      "source_truth_boundary": "Illustrative anatomy; slowed conceptual cavitating structure; no measured speed or temperature; designed sound",
+      "caption_clearance": "Clean Manrope phrases near y918, actual glyph boxes reviewed; main text/objects composed around bounds",
+      "reading_hold": "Resolved operation until10.9s; planned first1.8s nonverbal hook for tests02\u201304, not an internal narration hole",
+      "owner_review": "Explicit request authorizes these test renders; creative approval remains pending",
+      "visual_translation": {
+        "reference_observation": "See README source/timecode comparisons from actual five-film Vox audit",
+        "transferable_principle": "Selected image feature or persistent relationship supplies the next state",
+        "original_execution": "inspect / eject / form / collapse / propagate",
+        "asset_operation": "Source-attached claw inspection leads into a water jet and cavity"
+      },
+      "remaining_weaknesses": [
+        "The photographic claw does not articulate; the main animated explanation is the jet/cavity sequence, not a recovered biological motion capture"
+      ]
+    },
+    {
+      "id": "04-brine",
+      "viewer_before": "A visible shoreline might seem to require air above it",
+      "factual_proposition": "Denser salty water can collect beneath seawater",
+      "visual_operation": "select / section / compare / sink / collect",
+      "subject_action": "Source inspection hands off to an explicitly conceptual section; dense parcel descends \u2192 Brine collects within the basin with a flat interface",
+      "viewer_after": "Denser salty water can collect beneath seawater",
+      "invariant": "Source-selected question, section contour and seawater/brine categories",
+      "initial_state": "Actual NOAA source image with a selected shoreline",
+      "difficult_intermediate": "Source inspection hands off to an explicitly conceptual section; dense parcel descends",
+      "resolved_state": "Brine collects within the basin with a flat interface",
+      "next_inheritance": "Resolved relation then exact shared endcard",
+      "representation_reason": "Photograph is evidence of the observed setting; section explains the hidden density relationship",
+      "source_truth_boundary": "Conceptual section, not measured bathymetry; assigned gold brine and illustrative salinity markers",
+      "caption_clearance": "Clean Manrope phrases near y918, actual glyph boxes reviewed; main text/objects composed around bounds",
+      "reading_hold": "Resolved operation until10.9s; planned first1.8s nonverbal hook for tests02\u201304, not an internal narration hole",
+      "owner_review": "Explicit request authorizes these test renders; creative approval remains pending",
+      "visual_translation": {
+        "reference_observation": "See README source/timecode comparisons from actual five-film Vox audit",
+        "transferable_principle": "Selected image feature or persistent relationship supplies the next state",
+        "original_execution": "select / section / compare / sink / collect",
+        "asset_operation": "Source inspection hands off to an explicitly conceptual section; dense parcel descends"
+      },
+      "remaining_weaknesses": [
+        "Section is qualitative and is not an exact reconstruction of the photographed depression"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "files": [
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/render.cjs",
+      "sha256": "8c45b6d7769167cfa401822ad2df9514b4b2d954845a5bf94070abcb5a3851c9",
+      "bytes": 15077
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/prepare_audio.py",
+      "sha256": "d28c325bad097dd883af02fd749e1f917467f05e45cc21820b411f54bca95e40",
+      "bytes": 4844
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/build.py",
+      "sha256": "fe3e9682bd2934752421457a5877bf2ac079e4329a9eceb3d8c9a2c46a0a4697",
+      "bytes": 4282
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/README.md",
+      "sha256": "d2aeebe251ea054a42746f678f89380241e9e2258a5aaf04eef8869ba6b619f0",
+      "bytes": 8213
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/ASSETS.json",
+      "sha256": "febb1dad1a5162f99844e8819bc34fd534e55f09a9ccef756328dd08052c798c",
+      "bytes": 6567
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/CASE_CONTRACTS.json",
+      "sha256": "0f43104fa39b78359dc148d84a166fee0e70510f804972d56e4aba90df502126",
+      "bytes": 8637
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/STATIC_REVIEW.json",
+      "sha256": "b708739b665d2f9a069c523e3e7471f95186e43a9ffcc92a7b3c9cecc53cc453",
+      "bytes": 14439
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/TRANSCRIPTS.json",
+      "sha256": "df1f5da0ede88fee590d1850b080a53e5e25dd4be3a1c6ac0b7f97e694d6148b",
+      "bytes": 10004
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/assets/concrete.jpg",
+      "sha256": "40b062ba7b772e362224c1c406246cc5eaad227cb7852902eaf4ba24d7774fda",
+      "bytes": 1144177
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/assets/shrimp.webp",
+      "sha256": "a58d068f55826e8067381be0af2332e625d84d4a893924d065740978d7f5d7cf",
+      "bytes": 366934
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/assets/diomede.jpg",
+      "sha256": "c6ee3769cf8af9fa0a62d6f1abd8cbe12c22235cc3eadc21703d040f33a80106",
+      "bytes": 71167
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/assets/brine.jpg",
+      "sha256": "bd992e65c4b72e393c4ab6dc7e8610bf9c4acff1bb88bd3c60568083b4d7572a",
+      "bytes": 356137
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/assets/01-concrete-voice.mp3",
+      "sha256": "15cd1670b73aad7facabbb137acaeeb4f75fa46e7fd877387ef16137f3b0baea",
+      "bytes": 161364
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/assets/02-diomede-voice.mp3",
+      "sha256": "fa6129b4c9e1203c36471f16c0f096db45091843eab84832863a10c57b7693c1",
+      "bytes": 135869
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/assets/03-shrimp-voice.mp3",
+      "sha256": "6f0906f3ff4c2233be1fc504887adeff0820e7b86846a3b20e6ec5f6264c0ecb",
+      "bytes": 135869
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/assets/04-brine-voice.mp3",
+      "sha256": "40615284a0c539ca5cf22b629d3e9b4dd3416e680ea95359373a8e77fa65d717",
+      "bytes": 137123
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/01-concrete/timeline.json",
+      "sha256": "7f27386d9bdf75ef24bbc637bfd6c573f8ea2ee3e6ef406b0f1a2d6c07a53178",
+      "bytes": 3047
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/01-concrete/TRANSCRIPT.json",
+      "sha256": "f1361f3b6f062f7e370b271daa52a0a5305549f60d41120fe5fb5ff177bcf024",
+      "bytes": 2398
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/02-diomede/timeline.json",
+      "sha256": "e17a30758146b9ccb4b56f5b04f5bdbc51af7d8442cac5fdb3bb5c37d7d7c657",
+      "bytes": 2851
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/02-diomede/TRANSCRIPT.json",
+      "sha256": "b747b9f674723ef0ee6320844f77e1ad2bb3e71fdefabde80869958e36b945b8",
+      "bytes": 2204
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/03-shrimp/timeline.json",
+      "sha256": "6b6e75fde49a4c2003fd593bb7d627644d885cdd943c00ef4309f32e19e66ce4",
+      "bytes": 2704
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/03-shrimp/TRANSCRIPT.json",
+      "sha256": "fdbf731d148f967bfdecf6078c48e5afb40ca7397e9cbbf5575728e7ea9fb8dd",
+      "bytes": 2070
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/04-brine/timeline.json",
+      "sha256": "4c22071d4e8cbff89ef4b6d26de8a94b4ad7094e9c8c0b24214f610d3c038a55",
+      "bytes": 2812
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-original-tests/04-brine/TRANSCRIPT.json",
+      "sha256": "f9820af5888accf7ea757128037515e89b400b5cbc90898eb8aa94d63e477418",
+      "bytes": 2273
+    },
+    {
+      "path": ".github/workflows/four-original-visual-tests-v1.yml",
+      "sha256": "992707ddda8a921d1a53d2d0101637f669399dc837ee1f65d31245a4a9f73a3a",
+      "bytes": 1339
+    },
+    {
+      "path": "production/engine/browser/brand.js",
+      "sha256": "fad97f68e9a2333830e31479d6c86d7585641cde5101c6660ee9a5d7d5c44df8",
+      "bytes": 923
+    },
+    {
+      "path": "production/episodes/black-dwarf-supernova/art-v1/assets/Playfair900.ttf",
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38",
+      "bytes": 194772
+    },
+    {
+      "path": "production/episodes/black-dwarf-supernova/art-v1/assets/Manrope800.ttf",
+      "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105",
+      "bytes": 98080
+    },
+    {
+      "path": "audio/curio_sfx_v1/CATALOG.csv",
+      "sha256": "190c900f2f4c3b92f69c584d9636ca88af651d3c4ffa256efd0b658eb57ac00c",
+      "bytes": 21060
+    }
+  ]
+}
