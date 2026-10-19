@@ -13,3 +13,5 @@ Production baseline remains **sun-disappeared-v1**: image-led Curio art, scene/c
 Estimated draft length is about a minute; final duration is determined from actual natural speech. Planned visual operations are not measured execution. No requirement is marked passed without its actual evidence.
 
 The execution runtime disconnected during this session. GitHub source authoring and public-source research remain available. Native scene composition, file inspection, voice editing and encoded review cannot be certified in that state. A generated visual concept, if shown, is a preview only and cannot replace the rendered/pinned-font three-state and five-frame art review.
+
+A qualitative impact triptych was generated and inspected at displayed scale. [Concept review and remaining weaknesses](CONCEPT_REVIEW.md). It does not replace native art or the reference-frame explanation.

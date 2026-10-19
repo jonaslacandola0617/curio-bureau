@@ -5,7 +5,7 @@
   "selected_date_local": "2026-10-19",
   "timezone": "Asia/Manila",
   "production_standard": "sun-disappeared-v1",
-  "stage": "RESEARCH_SCRIPT_SEQUENCE_DRAFT",
+  "stage": "RESEARCH_SCRIPT_SEQUENCE_DRAFT_WITH_CONCEPT_PREVIEW",
   "topic_selected": true,
   "script_owner_approved": false,
   "asset_rights_locked": false,
@@ -18,5 +18,7 @@
   "historical_queue_is_current": false,
   "saved_research_candidates_are_queue": false,
   "reference_channel_detailed_animation_study": "NOT COMPLETED",
-  "blanket_compliance_claim": false
+  "blanket_compliance_claim": false,
+  "concept_preview_generated": true,
+  "concept_preview_review": "CONCEPT_REVIEW.md; internal displayed-scale review only; not native art approval"
 }
