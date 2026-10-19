@@ -1,0 +1,31 @@
+{
+  "scope": "Static art only",
+  "inspected_display": "Eight-state contact sheet; native 04_frame_intermediate, native 06_contact, native 05_frame_resolved_labels_only; corrected native 07_crater after rebuild",
+  "methods": "GitHub-fetched actual generated JPGs displayed directly, plus renderer text metrics; not a browser interaction or phone-device audition",
+  "text_horizontal_bounds": {
+    "instances": 220,
+    "horizontal_clipping_flags": []
+  },
+  "checks": {
+    "native_1080x1920": "PASS: renderer decoded all 16 images",
+    "font_registration": "PASS: pinned Playfair900 and Manrope800 registered and hashes recorded",
+    "image_crop_detail": "PASS: 600px maximum surface footprint from a 627px atlas cell",
+    "center_caption_composition": "INSPECTED in displayed samples; draft samples, actual-word timing and platform masks pending",
+    "reference_frame_continuity": "INSPECTED: same grain/target coordinates across initial/intermediate/resolved; arrow belongs to different moving object after viewpoint change",
+    "clean_graphics": "INSPECTED sampled actual frames: crisp labels, no diffuse text glow/backdrop",
+    "materials": "Original illustrative graphite/grain texture visible; static fiber overlay present. Does not certify temporal finishing.",
+    "cumulative_erosion": "REVISED AND INSPECTED: corrected native frame shows separate illustrative site callouts; count, dimensions and spacing explicitly disclaim prediction.",
+    "owner_art_approval": "NOT REVIEWED",
+    "motion_audio_finishing": "NOT RENDERED / NOT REVIEWED"
+  },
+  "limits": [
+    "Generated surface states are concept art with approximate identity, not measured before/after material tests.",
+    "Future moving construction needs separated masks, repaired hidden regions and consistent surface landmarks.",
+    "Code-only declared 12fps, focus hunt, overlays and exact ending are not execution evidence.",
+    "No full movie, voice waveform, forced alignment, phone UI playback or headphone listening exists."
+  ],
+  "source_commit": "53ee735476b7a625a012ce186d947b81442ddf87",
+  "archive_commit": "ee6fd68e5655cb2467352821caf152fa8afc19a8",
+  "successful_workflow_run": "https://github.com/jonaslacandola0617/curio-bureau/actions/runs/39276155776",
+  "owner_verdict": "NOT REVIEWED"
+}

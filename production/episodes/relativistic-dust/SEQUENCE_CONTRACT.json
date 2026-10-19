@@ -92,18 +92,28 @@
         "asset_operation": "Inspect the consequence, then select the small projectile."
       },
       "rendered_review": {
-        "status": "NOT RENDERED",
-        "initial": null,
-        "intermediate": null,
-        "resolved": null,
-        "heading_hidden_evidence": null,
-        "comparison": null,
-        "remaining_weaknesses": [
-          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        "status": "RENDERED_STATIC_OWNER_REVIEW_PENDING",
+        "states": [
+          {
+            "path": "art-v1/rendered/01_hook.jpg",
+            "sha256": "794c3d39bc1c22d1f5cce119ae4aad1d97da09b2942c3005b121ea7dfe40f858",
+            "width": 1080,
+            "height": 1920
+          }
         ],
-        "unresolved_fallbacks": [
-          "Not yet assessed in rendered frames."
-        ]
+        "heading_hidden_evidence": [
+          {
+            "path": "art-v1/rendered/01_hook_labels_only.jpg",
+            "sha256": "b2a174c7454ae44c8cf2ef8ad1c7ff38a52768ef9e3dcb29295232b480fcac01"
+          }
+        ],
+        "comparison": "art-v1/STATIC_REVIEW.json",
+        "remaining_weaknesses": [
+          "Not a moving or audio approval; actual-word timing and platform UI checks remain pending.",
+          "Generated material states are conceptual, not physically measured or fully isolated animation layers."
+        ],
+        "unresolved_fallbacks": [],
+        "scope_note": "Static explanation only; actual enter/action/settle/exit not yet rendered."
       }
     },
     {
@@ -134,18 +144,28 @@
         "asset_operation": "Reveal sparse material along the probe’s path."
       },
       "rendered_review": {
-        "status": "NOT RENDERED",
-        "initial": null,
-        "intermediate": null,
-        "resolved": null,
-        "heading_hidden_evidence": null,
-        "comparison": null,
-        "remaining_weaknesses": [
-          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        "status": "RENDERED_STATIC_OWNER_REVIEW_PENDING",
+        "states": [
+          {
+            "path": "art-v1/rendered/02_evidence.jpg",
+            "sha256": "e469448c1bd448f26a9affbd01e6a423f2cc1977c9b72b8e9ace1335550dbe2e",
+            "width": 1080,
+            "height": 1920
+          }
         ],
-        "unresolved_fallbacks": [
-          "Not yet assessed in rendered frames."
-        ]
+        "heading_hidden_evidence": [
+          {
+            "path": "art-v1/rendered/02_evidence_labels_only.jpg",
+            "sha256": "8219012a14489c0916216fc92248c6420bd8b7f2deb285f17b3543143371a75d"
+          }
+        ],
+        "comparison": "art-v1/STATIC_REVIEW.json",
+        "remaining_weaknesses": [
+          "Not a moving or audio approval; actual-word timing and platform UI checks remain pending.",
+          "Generated material states are conceptual, not physically measured or fully isolated animation layers."
+        ],
+        "unresolved_fallbacks": [],
+        "scope_note": "Static explanation only; actual enter/action/settle/exit not yet rendered."
       }
     },
     {
@@ -176,18 +196,48 @@
         "asset_operation": "Change viewpoint while preserving the same encounter."
       },
       "rendered_review": {
-        "status": "NOT RENDERED",
-        "initial": null,
-        "intermediate": null,
-        "resolved": null,
-        "heading_hidden_evidence": null,
-        "comparison": null,
-        "remaining_weaknesses": [
-          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        "status": "RENDERED_STATIC_OWNER_REVIEW_PENDING",
+        "states": [
+          {
+            "path": "art-v1/rendered/03_frame_initial.jpg",
+            "sha256": "721d9bb78a43a3ff77cfa7388fe4991e33aba64892554368e7d62f7de423f806",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "path": "art-v1/rendered/04_frame_intermediate.jpg",
+            "sha256": "59291ba054e449c7eb29f93f57b7b8d2e6f8387e4708e2072ac2dea70d1d11f7",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "path": "art-v1/rendered/05_frame_resolved.jpg",
+            "sha256": "e8209f0a95e21c7c8dc591e7c20f25c991f559638157f78631d7f32995e54c1c",
+            "width": 1080,
+            "height": 1920
+          }
         ],
-        "unresolved_fallbacks": [
-          "Not yet assessed in rendered frames."
-        ]
+        "heading_hidden_evidence": [
+          {
+            "path": "art-v1/rendered/03_frame_initial_labels_only.jpg",
+            "sha256": "3d35be4d798dec897595d61819a382ece2c32ad1584f028b818deb351acc0618"
+          },
+          {
+            "path": "art-v1/rendered/04_frame_intermediate_labels_only.jpg",
+            "sha256": "8c698aaf6599af3d89492418a4bb18bed9e21ce96b72ce89a18bcef97eb72891"
+          },
+          {
+            "path": "art-v1/rendered/05_frame_resolved_labels_only.jpg",
+            "sha256": "4d3f5df3041ec6ef92679ca7c9be62246b56302924e81cf3dc6be86b38bd3cf3"
+          }
+        ],
+        "comparison": "art-v1/STATIC_REVIEW.json",
+        "remaining_weaknesses": [
+          "Not a moving or audio approval; actual-word timing and platform UI checks remain pending.",
+          "Generated material states are conceptual, not physically measured or fully isolated animation layers."
+        ],
+        "unresolved_fallbacks": [],
+        "scope_note": "Static explanation only; actual enter/action/settle/exit not yet rendered."
       }
     },
     {
@@ -218,18 +268,48 @@
         "asset_operation": "Expose one impact site, then accumulate separate sites."
       },
       "rendered_review": {
-        "status": "NOT RENDERED",
-        "initial": null,
-        "intermediate": null,
-        "resolved": null,
-        "heading_hidden_evidence": null,
-        "comparison": null,
-        "remaining_weaknesses": [
-          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        "status": "RENDERED_STATIC_OWNER_REVIEW_PENDING",
+        "states": [
+          {
+            "path": "art-v1/rendered/02_evidence.jpg",
+            "sha256": "e469448c1bd448f26a9affbd01e6a423f2cc1977c9b72b8e9ace1335550dbe2e",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "path": "art-v1/rendered/06_contact.jpg",
+            "sha256": "877a365e092431ef48421854ab4911c4c207c3fab5b9e2e466602b45c19c5443",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "path": "art-v1/rendered/07_crater.jpg",
+            "sha256": "77ab86145a318d13a511df9df898bc8f24be818b7e52e174f30fd8606f7ea441",
+            "width": 1080,
+            "height": 1920
+          }
         ],
-        "unresolved_fallbacks": [
-          "Not yet assessed in rendered frames."
-        ]
+        "heading_hidden_evidence": [
+          {
+            "path": "art-v1/rendered/02_evidence_labels_only.jpg",
+            "sha256": "8219012a14489c0916216fc92248c6420bd8b7f2deb285f17b3543143371a75d"
+          },
+          {
+            "path": "art-v1/rendered/06_contact_labels_only.jpg",
+            "sha256": "fc4a348c761ceaad3bb820b9b2e89b8859d31e8d21780da3b75fec0aebc2971a"
+          },
+          {
+            "path": "art-v1/rendered/07_crater_labels_only.jpg",
+            "sha256": "32c8167dd4430e7988d03dc14c0ecc5968265fdb328c9e363e0d24b159a761b9"
+          }
+        ],
+        "comparison": "art-v1/STATIC_REVIEW.json",
+        "remaining_weaknesses": [
+          "Not a moving or audio approval; actual-word timing and platform UI checks remain pending.",
+          "Generated material states are conceptual, not physically measured or fully isolated animation layers."
+        ],
+        "unresolved_fallbacks": [],
+        "scope_note": "Static explanation only; actual enter/action/settle/exit not yet rendered."
       }
     },
     {
@@ -260,18 +340,28 @@
         "asset_operation": "Compare candidate protection while keeping the same encounter."
       },
       "rendered_review": {
-        "status": "NOT RENDERED",
-        "initial": null,
-        "intermediate": null,
-        "resolved": null,
-        "heading_hidden_evidence": null,
-        "comparison": null,
-        "remaining_weaknesses": [
-          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        "status": "RENDERED_STATIC_OWNER_REVIEW_PENDING",
+        "states": [
+          {
+            "path": "art-v1/rendered/08_protection_payoff.jpg",
+            "sha256": "b8843fa69a65b46226e11e8cc7d1f414a626f5bcb997b459dce259d775682cad",
+            "width": 1080,
+            "height": 1920
+          }
         ],
-        "unresolved_fallbacks": [
-          "Not yet assessed in rendered frames."
-        ]
+        "heading_hidden_evidence": [
+          {
+            "path": "art-v1/rendered/08_protection_payoff_labels_only.jpg",
+            "sha256": "8ffcee27a2c10e1d69068536412517c50708d85e757192e52089b5f13d1e9cba"
+          }
+        ],
+        "comparison": "art-v1/STATIC_REVIEW.json",
+        "remaining_weaknesses": [
+          "Not a moving or audio approval; actual-word timing and platform UI checks remain pending.",
+          "Generated material states are conceptual, not physically measured or fully isolated animation layers."
+        ],
+        "unresolved_fallbacks": [],
+        "scope_note": "Static explanation only; actual enter/action/settle/exit not yet rendered."
       }
     },
     {
@@ -302,18 +392,28 @@
         "asset_operation": "Reframe the opening scar as a survival requirement."
       },
       "rendered_review": {
-        "status": "NOT RENDERED",
-        "initial": null,
-        "intermediate": null,
-        "resolved": null,
-        "heading_hidden_evidence": null,
-        "comparison": null,
-        "remaining_weaknesses": [
-          "Actual image/source selection, pinned-font composition, native intermediate renders and owner art review remain to be completed."
+        "status": "RENDERED_STATIC_OWNER_REVIEW_PENDING",
+        "states": [
+          {
+            "path": "art-v1/rendered/08_protection_payoff.jpg",
+            "sha256": "b8843fa69a65b46226e11e8cc7d1f414a626f5bcb997b459dce259d775682cad",
+            "width": 1080,
+            "height": 1920
+          }
         ],
-        "unresolved_fallbacks": [
-          "Not yet assessed in rendered frames."
-        ]
+        "heading_hidden_evidence": [
+          {
+            "path": "art-v1/rendered/08_protection_payoff_labels_only.jpg",
+            "sha256": "8ffcee27a2c10e1d69068536412517c50708d85e757192e52089b5f13d1e9cba"
+          }
+        ],
+        "comparison": "art-v1/STATIC_REVIEW.json",
+        "remaining_weaknesses": [
+          "Not a moving or audio approval; actual-word timing and platform UI checks remain pending.",
+          "Generated material states are conceptual, not physically measured or fully isolated animation layers."
+        ],
+        "unresolved_fallbacks": [],
+        "scope_note": "Protection/conditional-payoff art proposal; final cosmic wide shot is not implied by this static frame."
       }
     }
   ]
