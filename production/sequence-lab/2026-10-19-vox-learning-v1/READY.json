@@ -1,0 +1,43 @@
+{
+  "purpose": "Owner-requested bounded moving proof",
+  "art_owner_approved": false,
+  "test_render_authorized_by": "create a test video of your learning, lets see if you learn something",
+  "production_standard": "sun-disappeared-v1",
+  "scene_fps": 12,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 19.5,
+  "source_files": [
+    {
+      "path": "build.py",
+      "sha256": "a16a0c186c1f9b59f452483648a0ab1844ea3feb80f752b7f28bd2826831ee75"
+    },
+    {
+      "path": "INPUTS.json",
+      "sha256": "7472de316a48991f72b2cbe022c1ab3212c1c0404cf9b3a007a6c7e20fedf869"
+    },
+    {
+      "path": "render.cjs",
+      "sha256": "f8707093a3a90bf9c04543ed7c599cce96d6a118a2196e1068844769df7a25c9"
+    },
+    {
+      "path": "prepare.py",
+      "sha256": "759d2b900411abcac9facbf2e0a9f0b5382ef67c67d320c928734b548cfe9ef1"
+    },
+    {
+      "path": "STATIC_REVIEW.json",
+      "sha256": "e6c7ee21b96b837071e88ce3dd255fc6fd0b9adbfe43b3d12cc82124c8503084"
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "df09663630b2c1532597ec714ec6468777e4bad8c517964ff0e66774277a916c"
+    },
+    {
+      "path": "README.md",
+      "sha256": "813e9fa5be60fae97ced5b6600958a65eba20b2294491d9599ba1534301de9f3"
+    }
+  ],
+  "no_new_full_film": true,
+  "dust_remains_paused": true
+}

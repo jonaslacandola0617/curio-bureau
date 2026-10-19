@@ -1,0 +1,71 @@
+{
+  "duration": 19.5,
+  "frames": 585,
+  "scene_fps": 12,
+  "fps": 30,
+  "parts": [
+    [
+      4,
+      8.25,
+      0
+    ],
+    [
+      31.55,
+      35.75,
+      4.6
+    ],
+    [
+      36.25,
+      44.4,
+      9.05
+    ]
+  ],
+  "captions": [
+    {
+      "text": "The trigger is not a growing mass.",
+      "start": 0.08000000000000007,
+      "end": 2.2
+    },
+    {
+      "text": "It is a falling limit.",
+      "start": 2.2,
+      "end": 4.119999999999999
+    },
+    {
+      "text": "Its mass barely changes.",
+      "start": 4.771399999999998,
+      "end": 6.811400000000001
+    },
+    {
+      "text": "Its limit falls.",
+      "start": 7.5113999999999965,
+      "end": 8.561399999999994
+    },
+    {
+      "text": "For some of the heaviest remnants,",
+      "start": 9.2214,
+      "end": 10.8614
+    },
+    {
+      "text": "gravity could finally win:",
+      "start": 11.301400000000005,
+      "end": 13.261399999999998
+    },
+    {
+      "text": "collapse,",
+      "start": 13.841399999999997,
+      "end": 14.6114
+    },
+    {
+      "text": "and a possible supernova.",
+      "start": 15.0014,
+      "end": 16.966666666700004
+    },
+    {
+      "text": "The earliest might wait",
+      "start": 17.013700000000004,
+      "end": 17.2
+    }
+  ],
+  "caption_status": "Retained source ASR phrase estimates; no new forced alignment claim"
+}

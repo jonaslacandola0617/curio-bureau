@@ -1,0 +1,32 @@
+name: Vox learning Black Dwarf visual test v1
+on:
+  push:
+    branches: [test/vox-learning-black-dwarf-v1]
+    paths: [production/sequence-lab/2026-10-19-vox-learning-v1/READY.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render-and-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install compositor and audio dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          npm install --prefix .curio-runtime --no-audit --no-fund @napi-rs/canvas@0.1.100
+          python -m pip install numpy==2.2.6 scipy==1.15.3
+      - name: Render bounded test and immediately archive closed exports
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          CODEX_PRIMARY_RUNTIME_NODE_MODULES: ${{ github.workspace }}/.curio-runtime/node_modules
+        run: python production/sequence-lab/2026-10-19-vox-learning-v1/build.py

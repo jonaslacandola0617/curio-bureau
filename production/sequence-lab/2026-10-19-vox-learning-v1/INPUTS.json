@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "production/episodes/black-dwarf-supernova/art-v1/assets/Playfair900.ttf",
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38"
+    },
+    {
+      "path": "production/episodes/black-dwarf-supernova/art-v1/assets/Manrope800.ttf",
+      "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105"
+    },
+    {
+      "path": "production/episodes/black-dwarf-supernova/art-v1/assets/remnant-illustration-v2.png",
+      "sha256": "f858db32a6ca5704ae194b328bab28073fa75a24290c00a0650972eaff44ee92"
+    },
+    {
+      "path": "production/engine/browser/brand.js",
+      "sha256": "fad97f68e9a2333830e31479d6c86d7585641cde5101c6660ee9a5d7d5c44df8"
+    }
+  ],
+  "source_audio_flac_sha256": {
+    "music": "cd154beac9e79854f1923a38bec5c12a54e42101b6de6650ea7f2cc58bed3031",
+    "voice": "b12f0c7dca6ce594748619a9b39000b86e9bf94144fedf5d65f282c905b500b3"
+  }
+}

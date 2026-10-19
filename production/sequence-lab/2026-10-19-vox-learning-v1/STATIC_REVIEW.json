@@ -1,0 +1,148 @@
+{
+  "status": "INTERNAL_REVIEW_ONLY_OWNER_PENDING",
+  "owner_test_render_authorized": true,
+  "inspected_states": [
+    0,
+    1.8,
+    3.9,
+    4.6,
+    6.2,
+    8.6,
+    10.2,
+    11.8,
+    12.5,
+    13.1,
+    14.4,
+    16.7,
+    18
+  ],
+  "observed": "Dominant comparison spans image field; same specimen remains at stable mass marker during descent; threshold crossing and return to specimen are connected. Closing no longer retains cropped plot labels. Source qualifiers stay screen-fixed.",
+  "remaining_weaknesses": [
+    "Half-second camera handoff fades information during reframe; transient text exits viewport before full fade",
+    "Intentionally restrained plot; not a comprehensive Vox-style art demonstration",
+    "Source caption phrase estimates need independent alignment and listening"
+  ],
+  "unresolved_fallbacks": [],
+  "files": [
+    {
+      "path": "qa/frame-10.2.jpg",
+      "sha256": "76b2b675eed7ca3776ac06b12a0631477e8c38654bfecc3bc451750bcc4e01c6"
+    },
+    {
+      "path": "qa/frame-8.6.jpg",
+      "sha256": "ddc8f4f4c723a2ba6cf4509ec0c99ed5e50dff76c91ff39ed44aabf1103b62e3"
+    },
+    {
+      "path": "qa/frame-11.8-labels-only.jpg",
+      "sha256": "5c8b4daf68a23fd7e635cf449b4356b177e64e785b6e4157a4856c44a6aa378f"
+    },
+    {
+      "path": "qa/frame-18.jpg",
+      "sha256": "32fdd2818c5c0cad9f5b7b0642e2008060fc2cda33ff637d9c23fa2e41c02394"
+    },
+    {
+      "path": "qa/frame-6.2-labels-only.jpg",
+      "sha256": "f9eb3d4a0524a306ed220d57064318487ef0c53ba415662bd0e6d8f6ec2a5201"
+    },
+    {
+      "path": "qa/frame-1.8.jpg",
+      "sha256": "5cb8f32559ab5ca60a6c4722fbb0a75932b50e06baed2f79bfe0d88c09ae465f"
+    },
+    {
+      "path": "qa/frame-4.6-labels-only.jpg",
+      "sha256": "4a89d89695c0c7cd4afbab893179e4b345ed1919b8f1320497e9b16d882478e5"
+    },
+    {
+      "path": "qa/frame-3.9-labels-only.jpg",
+      "sha256": "c3e663bb785c91a75927b1f1b545c1f5e6898a8decdad424499d0b3f150d01b6"
+    },
+    {
+      "path": "qa/frame-19.2-labels-only.jpg",
+      "sha256": "c6d5c651b6645d49aa5982dc0f07c5dcfb3b1e8e7d9cb9ef46b9fb0f088c90c5"
+    },
+    {
+      "path": "qa/frame-16.7-labels-only.jpg",
+      "sha256": "47ff040f14620b7820997fcd5b1a377207dcfb2389fa420007bcf6bf24031a4f"
+    },
+    {
+      "path": "qa/frame-3.9.jpg",
+      "sha256": "0d5e662eff1b1f1e9b95fb1c6d161dfb174c37ab08e7795e36e0ed2acca4149c"
+    },
+    {
+      "path": "qa/frame-0.jpg",
+      "sha256": "5f6cd8c13c25c7cd95b55ba348a38a69e091b1cef08b1550885795d7e18673e0"
+    },
+    {
+      "path": "qa/frame-6.2.jpg",
+      "sha256": "2fed75d9df87594c3b7a8ee0f41c3fb35af860a9a1c68b0ce119242a6b97f83b"
+    },
+    {
+      "path": "qa/frame-19.2.jpg",
+      "sha256": "c6d5c651b6645d49aa5982dc0f07c5dcfb3b1e8e7d9cb9ef46b9fb0f088c90c5"
+    },
+    {
+      "path": "qa/frame-13.1-labels-only.jpg",
+      "sha256": "6fd6f4b2de52f2da391a81ecd1be0d724297c3c8169eaf7c70bf726d8c3264fe"
+    },
+    {
+      "path": "qa/frame-14.4.jpg",
+      "sha256": "f202f02626ed0b1a80773cf87b8e34ed091563c7b60317af71e9e523add374b6"
+    },
+    {
+      "path": "qa/frame-0-labels-only.jpg",
+      "sha256": "9fa37a44cbcfe61a88ec6217221313e0468133cc14086f2c214a17983678b5d6"
+    },
+    {
+      "path": "qa/frame-12.5-labels-only.jpg",
+      "sha256": "74390fd6892fe6f0809a866d214077a158ded9f3fcb7b52b528d4138551312ae"
+    },
+    {
+      "path": "qa/frame-12.5.jpg",
+      "sha256": "6403d71a93fac93c278e2e5bd98430322298198237ef825e4ad209d1647d303d"
+    },
+    {
+      "path": "qa/frame-16.7.jpg",
+      "sha256": "14a22be99c0693be7b592f50b5638db8b78dd85e85a21a5eb69649d8873ada32"
+    },
+    {
+      "path": "qa/frame-7.8.jpg",
+      "sha256": "12f1741a8135715bf5c7fd620177ad7cc69bbf7af959471def7598fbb5e710b4"
+    },
+    {
+      "path": "qa/frame-11.8.jpg",
+      "sha256": "18e1db7de162afa4c47ea7b56c60b1c8b6a4fa4ce2457f0114e414457f9e5989"
+    },
+    {
+      "path": "qa/frame-7.8-labels-only.jpg",
+      "sha256": "4136c4a95ae24ea3dc97c488b7b41c67d96762526c600080f43d3a63b843144b"
+    },
+    {
+      "path": "qa/frame-14.4-labels-only.jpg",
+      "sha256": "ebd1e88bd9a42e3826bc935221b8205082de1cdea75c3619b39c3d44e100a470"
+    },
+    {
+      "path": "qa/frame-18-labels-only.jpg",
+      "sha256": "6da3f4369f952002f4f367307022215c9e6f22f166d3f9da9788af34d532fba2"
+    },
+    {
+      "path": "qa/frame-8.6-labels-only.jpg",
+      "sha256": "ddc8f4f4c723a2ba6cf4509ec0c99ed5e50dff76c91ff39ed44aabf1103b62e3"
+    },
+    {
+      "path": "qa/frame-4.6.jpg",
+      "sha256": "4a89d89695c0c7cd4afbab893179e4b345ed1919b8f1320497e9b16d882478e5"
+    },
+    {
+      "path": "qa/frame-1.8-labels-only.jpg",
+      "sha256": "302bf0ad1d7c6413040d242adeb5f1f0d5f9c536cce42e8ede55f141f5292639"
+    },
+    {
+      "path": "qa/frame-13.1.jpg",
+      "sha256": "600e8081afbaaaff1a2955f3a2417eb115720c8d9b71e59510ea42e4f07bd7f5"
+    },
+    {
+      "path": "qa/frame-10.2-labels-only.jpg",
+      "sha256": "f6162ffe6ed450b514401e185914724f3efb1fb96236aae126b3a37a6c2a3ca6"
+    }
+  ]
+}
