@@ -1,0 +1,70 @@
+{
+  "topic": "01-concrete",
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-roman-concrete-v1-20261020/Curio-Test-01-Roman-Concrete-12s-v1.mp4",
+  "public_download_verified": true,
+  "bytes": 16357131,
+  "sha256": "2c7fe137cd77f50dd4dce3a5f82e8b252a7e85c35197e15d1b460d7351b236ad",
+  "provider_digest": "sha256:2c7fe137cd77f50dd4dce3a5f82e8b252a7e85c35197e15d1b460d7351b236ad",
+  "source_commit": "cd566912c93eba1e529e20f9d45e8962acf94b72",
+  "native_dimensions": [
+    1080,
+    1920
+  ],
+  "fps": "30/1",
+  "decoded_frames": 360,
+  "duration_seconds": 12.0,
+  "complete_decode": "PASS",
+  "codecs": {
+    "video": "h264",
+    "pixel_format": "yuv420p",
+    "audio": "aac",
+    "sample_rate": "48000",
+    "channels": 2
+  },
+  "encoded_loudness": {
+    "input_i": "-14.71",
+    "input_tp": "-1.48",
+    "input_lra": "9.20",
+    "input_thresh": "-25.33",
+    "output_i": "-14.90",
+    "output_tp": "-2.09",
+    "output_lra": "4.20",
+    "output_thresh": "-25.28",
+    "normalization_type": "dynamic",
+    "target_offset": "0.90"
+  },
+  "encoded_review_times": [
+    0,
+    1.6,
+    2.8,
+    3.8,
+    4.8,
+    5.8,
+    6.8,
+    7.8,
+    8.5,
+    9.6,
+    10.5,
+    11.8
+  ],
+  "dense_join_requested_times": [
+    6.8,
+    7.1,
+    7.4,
+    7.7,
+    8.0,
+    8.3
+  ],
+  "scene_fps_implementation": 12,
+  "ending": "Exact shared brand source, real30fps; sampled at11.8s",
+  "caption_timing": "Scribe actual-audio words, no independent forced alignment claim",
+  "owner_creative_approval": "PENDING",
+  "independent_phone_headphone_listening": "NOT CLAIMED",
+  "sampled_encoded_picture_review": {
+    "status": "INTERNALLY_ACCEPTED_FOR_OWNER_TEST_REVIEW",
+    "observation": "Same source plate and crack persist; water front and mineral marks act on the fracture; textured seam closes. Main image carries the change rather than a secondary reaction card.",
+    "evidence": "12 encoded overview states plus6 denser join states inspected; whole-film decode passed. This is sampled picture review, not uninterrupted normal-speed audiovisual playback.",
+    "caption_review": "Sampled actual encoded center captions readable without image-label collisions; transcript text matches intended narration.",
+    "owner_approval": "NOT CLAIMED"
+  }
+}

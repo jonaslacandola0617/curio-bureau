@@ -1,0 +1,70 @@
+{
+  "topic": "04-brine",
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-underwater-brine-lake-v1-20261020/Curio-Test-04-Underwater-Brine-Lake-12s-v1.mp4",
+  "public_download_verified": true,
+  "bytes": 17276005,
+  "sha256": "c4f4e3f473ebe9d9ab9cd59ab3445e2ae50ee44bfbb6634bdcecf62d3d39415c",
+  "provider_digest": "sha256:c4f4e3f473ebe9d9ab9cd59ab3445e2ae50ee44bfbb6634bdcecf62d3d39415c",
+  "source_commit": "cd566912c93eba1e529e20f9d45e8962acf94b72",
+  "native_dimensions": [
+    1080,
+    1920
+  ],
+  "fps": "30/1",
+  "decoded_frames": 360,
+  "duration_seconds": 12.0,
+  "complete_decode": "PASS",
+  "codecs": {
+    "video": "h264",
+    "pixel_format": "yuv420p",
+    "audio": "aac",
+    "sample_rate": "48000",
+    "channels": 2
+  },
+  "encoded_loudness": {
+    "input_i": "-14.75",
+    "input_tp": "-1.39",
+    "input_lra": "7.50",
+    "input_thresh": "-25.21",
+    "output_i": "-14.47",
+    "output_tp": "-1.50",
+    "output_lra": "4.40",
+    "output_thresh": "-24.77",
+    "normalization_type": "dynamic",
+    "target_offset": "0.47"
+  },
+  "encoded_review_times": [
+    0,
+    1.6,
+    2.8,
+    3.8,
+    4.8,
+    5.8,
+    6.8,
+    7.8,
+    8.5,
+    9.6,
+    10.5,
+    11.8
+  ],
+  "dense_join_requested_times": [
+    4.2,
+    4.5,
+    4.8,
+    5.1,
+    5.4,
+    5.7
+  ],
+  "scene_fps_implementation": 12,
+  "ending": "Exact shared brand source, real30fps; sampled at11.8s",
+  "caption_timing": "Scribe actual-audio words, no independent forced alignment claim",
+  "owner_creative_approval": "PENDING",
+  "independent_phone_headphone_listening": "NOT CLAIMED",
+  "sampled_encoded_picture_review": {
+    "status": "INTERNALLY_ACCEPTED_FOR_OWNER_TEST_REVIEW",
+    "observation": "Actual photograph relinquishes priority to a clearly identified conceptual section; brine parcel moves down, then fills the depression to a level interface.",
+    "evidence": "12 encoded overview states plus6 denser join states inspected; whole-film decode passed. This is sampled picture review, not uninterrupted normal-speed audiovisual playback.",
+    "caption_review": "Sampled actual encoded center captions readable without image-label collisions; transcript text matches intended narration.",
+    "owner_approval": "NOT CLAIMED"
+  }
+}

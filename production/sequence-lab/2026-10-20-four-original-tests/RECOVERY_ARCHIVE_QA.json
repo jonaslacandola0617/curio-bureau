@@ -1,0 +1,164 @@
+{
+  "tests": [
+    {
+      "id": "01-concrete",
+      "frame_coverage": [
+        0,
+        360
+      ],
+      "lossless_chunks": [
+        {
+          "name": "Roman-Concrete-RGB-000-119.mkv",
+          "start_frame": 0,
+          "end_exclusive": 120,
+          "bytes": 99609737,
+          "sha256": "e2883fe6deaa2a0fe02db914660c8a5875ce33ea7ff0f3e7d817bc41d82c68b6",
+          "asset_id": 656854479,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-roman-concrete-v1-20261020/Roman-Concrete-RGB-000-119.mkv",
+          "provider_digest": "sha256:e2883fe6deaa2a0fe02db914660c8a5875ce33ea7ff0f3e7d817bc41d82c68b6"
+        },
+        {
+          "name": "Roman-Concrete-RGB-120-239.mkv",
+          "start_frame": 120,
+          "end_exclusive": 240,
+          "bytes": 100713875,
+          "sha256": "6270802393c4722d233c895afbf7fd0b22d0629ec30edaeeae12e263ae45412e",
+          "asset_id": 656855289,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-roman-concrete-v1-20261020/Roman-Concrete-RGB-120-239.mkv",
+          "provider_digest": "sha256:6270802393c4722d233c895afbf7fd0b22d0629ec30edaeeae12e263ae45412e"
+        },
+        {
+          "name": "Roman-Concrete-RGB-240-359.mkv",
+          "start_frame": 240,
+          "end_exclusive": 360,
+          "bytes": 100472078,
+          "sha256": "62348ab1bd46397aedfd852c85f68467f429d4933eecd7ec79d16c9e96dd2c7f",
+          "asset_id": 656856182,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-roman-concrete-v1-20261020/Roman-Concrete-RGB-240-359.mkv",
+          "provider_digest": "sha256:62348ab1bd46397aedfd852c85f68467f429d4933eecd7ec79d16c9e96dd2c7f"
+        }
+      ],
+      "verification": "Provider observed byte sizes and SHA256 digests match original closed-chunk records. Native counts verified by builder; no second download of large chunks claimed."
+    },
+    {
+      "id": "02-diomede",
+      "frame_coverage": [
+        0,
+        360
+      ],
+      "lossless_chunks": [
+        {
+          "name": "Diomede-Date-Line-RGB-000-119.mkv",
+          "start_frame": 0,
+          "end_exclusive": 120,
+          "bytes": 51906421,
+          "sha256": "e096b3296cad3a031c8c71ed6bd27b139fb57271dcf5272e006a2e47e9a8b17c",
+          "asset_id": 656853664,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-diomede-date-line-v1-20261020/Diomede-Date-Line-RGB-000-119.mkv",
+          "provider_digest": "sha256:e096b3296cad3a031c8c71ed6bd27b139fb57271dcf5272e006a2e47e9a8b17c"
+        },
+        {
+          "name": "Diomede-Date-Line-RGB-120-239.mkv",
+          "start_frame": 120,
+          "end_exclusive": 240,
+          "bytes": 51940720,
+          "sha256": "362fb00729282c124c67fe7abab3b46a3039abc1ae03db066ba434732016d974",
+          "asset_id": 656854065,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-diomede-date-line-v1-20261020/Diomede-Date-Line-RGB-120-239.mkv",
+          "provider_digest": "sha256:362fb00729282c124c67fe7abab3b46a3039abc1ae03db066ba434732016d974"
+        },
+        {
+          "name": "Diomede-Date-Line-RGB-240-359.mkv",
+          "start_frame": 240,
+          "end_exclusive": 360,
+          "bytes": 49733622,
+          "sha256": "f5fb37c201f72a7a5686f9dc2fceb9e7b609eb4965559a0b1173126148d27071",
+          "asset_id": 656854488,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-diomede-date-line-v1-20261020/Diomede-Date-Line-RGB-240-359.mkv",
+          "provider_digest": "sha256:f5fb37c201f72a7a5686f9dc2fceb9e7b609eb4965559a0b1173126148d27071"
+        }
+      ],
+      "verification": "Provider observed byte sizes and SHA256 digests match original closed-chunk records. Native counts verified by builder; no second download of large chunks claimed."
+    },
+    {
+      "id": "03-shrimp",
+      "frame_coverage": [
+        0,
+        360
+      ],
+      "lossless_chunks": [
+        {
+          "name": "Pistol-Shrimp-RGB-000-119.mkv",
+          "start_frame": 0,
+          "end_exclusive": 120,
+          "bytes": 65869196,
+          "sha256": "0805fa35a25da98be7a1925ba470a2be9ae5afd1988be3e64669e5b8ba026397",
+          "asset_id": 656854147,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-pistol-shrimp-v1-20261020/Pistol-Shrimp-RGB-000-119.mkv",
+          "provider_digest": "sha256:0805fa35a25da98be7a1925ba470a2be9ae5afd1988be3e64669e5b8ba026397"
+        },
+        {
+          "name": "Pistol-Shrimp-RGB-120-239.mkv",
+          "start_frame": 120,
+          "end_exclusive": 240,
+          "bytes": 62274157,
+          "sha256": "315309c8c26aaf08069c80ae2dda253eeb2ad336d60cf6b2425656da77b3544c",
+          "asset_id": 656854827,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-pistol-shrimp-v1-20261020/Pistol-Shrimp-RGB-120-239.mkv",
+          "provider_digest": "sha256:315309c8c26aaf08069c80ae2dda253eeb2ad336d60cf6b2425656da77b3544c"
+        },
+        {
+          "name": "Pistol-Shrimp-RGB-240-359.mkv",
+          "start_frame": 240,
+          "end_exclusive": 360,
+          "bytes": 58253148,
+          "sha256": "a5a6c4f182b11f717f4a0761e2bc906b0caa0779d21570c3fd298d62e57e8044",
+          "asset_id": 656855360,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-pistol-shrimp-v1-20261020/Pistol-Shrimp-RGB-240-359.mkv",
+          "provider_digest": "sha256:a5a6c4f182b11f717f4a0761e2bc906b0caa0779d21570c3fd298d62e57e8044"
+        }
+      ],
+      "verification": "Provider observed byte sizes and SHA256 digests match original closed-chunk records. Native counts verified by builder; no second download of large chunks claimed."
+    },
+    {
+      "id": "04-brine",
+      "frame_coverage": [
+        0,
+        360
+      ],
+      "lossless_chunks": [
+        {
+          "name": "Underwater-Brine-Lake-RGB-000-119.mkv",
+          "start_frame": 0,
+          "end_exclusive": 120,
+          "bytes": 80571862,
+          "sha256": "75d41dcc9b6b99ff96e9ef382565632960157c66edea8ced12b0440be9bcc1db",
+          "asset_id": 656853874,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-underwater-brine-lake-v1-20261020/Underwater-Brine-Lake-RGB-000-119.mkv",
+          "provider_digest": "sha256:75d41dcc9b6b99ff96e9ef382565632960157c66edea8ced12b0440be9bcc1db"
+        },
+        {
+          "name": "Underwater-Brine-Lake-RGB-120-239.mkv",
+          "start_frame": 120,
+          "end_exclusive": 240,
+          "bytes": 72782640,
+          "sha256": "cc3fbaafe69921d6581ad3a52577d928e3c84b5fb9c9d2c80c27ed3f1f00efc0",
+          "asset_id": 656854470,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-underwater-brine-lake-v1-20261020/Underwater-Brine-Lake-RGB-120-239.mkv",
+          "provider_digest": "sha256:cc3fbaafe69921d6581ad3a52577d928e3c84b5fb9c9d2c80c27ed3f1f00efc0"
+        },
+        {
+          "name": "Underwater-Brine-Lake-RGB-240-359.mkv",
+          "start_frame": 240,
+          "end_exclusive": 360,
+          "bytes": 65258789,
+          "sha256": "831ad7f0e79ae0784929ef07495ea1edabcf01907fc2666a93d4d255fe5ed967",
+          "asset_id": 656854973,
+          "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-underwater-brine-lake-v1-20261020/Underwater-Brine-Lake-RGB-240-359.mkv",
+          "provider_digest": "sha256:831ad7f0e79ae0784929ef07495ea1edabcf01907fc2666a93d4d255fe5ed967"
+        }
+      ],
+      "verification": "Provider observed byte sizes and SHA256 digests match original closed-chunk records. Native counts verified by builder; no second download of large chunks claimed."
+    }
+  ]
+}

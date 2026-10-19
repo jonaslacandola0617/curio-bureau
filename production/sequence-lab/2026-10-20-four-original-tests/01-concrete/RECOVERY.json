@@ -1,0 +1,28 @@
+{
+  "source_commit": "cd566912c93eba1e529e20f9d45e8962acf94b72",
+  "frames": 360,
+  "chunks": [
+    {
+      "name": "Roman-Concrete-RGB-000-119.mkv",
+      "start_frame": 0,
+      "end_exclusive": 120,
+      "bytes": 99609737,
+      "sha256": "e2883fe6deaa2a0fe02db914660c8a5875ce33ea7ff0f3e7d817bc41d82c68b6"
+    },
+    {
+      "name": "Roman-Concrete-RGB-120-239.mkv",
+      "start_frame": 120,
+      "end_exclusive": 240,
+      "bytes": 100713875,
+      "sha256": "6270802393c4722d233c895afbf7fd0b22d0629ec30edaeeae12e263ae45412e"
+    },
+    {
+      "name": "Roman-Concrete-RGB-240-359.mkv",
+      "start_frame": 240,
+      "end_exclusive": 360,
+      "bytes": 100472078,
+      "sha256": "62348ab1bd46397aedfd852c85f68467f429d4933eecd7ec79d16c9e96dd2c7f"
+    }
+  ],
+  "format": "Native lossless RGB libx264rgb CRF0"
+}

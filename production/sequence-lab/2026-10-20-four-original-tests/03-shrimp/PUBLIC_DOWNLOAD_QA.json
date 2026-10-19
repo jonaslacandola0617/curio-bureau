@@ -1,0 +1,70 @@
+{
+  "topic": "03-shrimp",
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-pistol-shrimp-v1-20261020/Curio-Test-03-Pistol-Shrimp-12s-v1.mp4",
+  "public_download_verified": true,
+  "bytes": 17498069,
+  "sha256": "87fa6e06fd069637bb8a7d2570ed5fdc98931a43be67c846dc1e224e5c7f067f",
+  "provider_digest": "sha256:87fa6e06fd069637bb8a7d2570ed5fdc98931a43be67c846dc1e224e5c7f067f",
+  "source_commit": "cd566912c93eba1e529e20f9d45e8962acf94b72",
+  "native_dimensions": [
+    1080,
+    1920
+  ],
+  "fps": "30/1",
+  "decoded_frames": 360,
+  "duration_seconds": 12.0,
+  "complete_decode": "PASS",
+  "codecs": {
+    "video": "h264",
+    "pixel_format": "yuv420p",
+    "audio": "aac",
+    "sample_rate": "48000",
+    "channels": 2
+  },
+  "encoded_loudness": {
+    "input_i": "-14.63",
+    "input_tp": "-1.49",
+    "input_lra": "9.10",
+    "input_thresh": "-25.15",
+    "output_i": "-14.62",
+    "output_tp": "-1.50",
+    "output_lra": "5.40",
+    "output_thresh": "-24.92",
+    "normalization_type": "dynamic",
+    "target_offset": "0.62"
+  },
+  "encoded_review_times": [
+    0,
+    1.6,
+    2.8,
+    3.8,
+    4.8,
+    5.8,
+    6.8,
+    7.8,
+    8.5,
+    9.6,
+    10.5,
+    11.8
+  ],
+  "dense_join_requested_times": [
+    2.8,
+    3.1,
+    3.4,
+    3.7,
+    4.0,
+    4.3
+  ],
+  "scene_fps_implementation": 12,
+  "ending": "Exact shared brand source, real30fps; sampled at11.8s",
+  "caption_timing": "Scribe actual-audio words, no independent forced alignment claim",
+  "owner_creative_approval": "PENDING",
+  "independent_phone_headphone_listening": "NOT CLAIMED",
+  "sampled_encoded_picture_review": {
+    "status": "INTERNALLY_ACCEPTED_FOR_OWNER_TEST_REVIEW",
+    "observation": "Selection moves from whole specimen to defined claw inspection; jet starts at the selected pincer region; cavity grows, contracts, and precedes the pressure-pulse annotation.",
+    "evidence": "12 encoded overview states plus6 denser join states inspected; whole-film decode passed. This is sampled picture review, not uninterrupted normal-speed audiovisual playback.",
+    "caption_review": "Sampled actual encoded center captions readable without image-label collisions; transcript text matches intended narration.",
+    "owner_approval": "NOT CLAIMED"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source_commit": "cd566912c93eba1e529e20f9d45e8962acf94b72",
+  "frames": 360,
+  "chunks": [
+    {
+      "name": "Diomede-Date-Line-RGB-000-119.mkv",
+      "start_frame": 0,
+      "end_exclusive": 120,
+      "bytes": 51906421,
+      "sha256": "e096b3296cad3a031c8c71ed6bd27b139fb57271dcf5272e006a2e47e9a8b17c"
+    },
+    {
+      "name": "Diomede-Date-Line-RGB-120-239.mkv",
+      "start_frame": 120,
+      "end_exclusive": 240,
+      "bytes": 51940720,
+      "sha256": "362fb00729282c124c67fe7abab3b46a3039abc1ae03db066ba434732016d974"
+    },
+    {
+      "name": "Diomede-Date-Line-RGB-240-359.mkv",
+      "start_frame": 240,
+      "end_exclusive": 360,
+      "bytes": 49733622,
+      "sha256": "f5fb37c201f72a7a5686f9dc2fceb9e7b609eb4965559a0b1173126148d27071"
+    }
+  ],
+  "format": "Native lossless RGB libx264rgb CRF0"
+}

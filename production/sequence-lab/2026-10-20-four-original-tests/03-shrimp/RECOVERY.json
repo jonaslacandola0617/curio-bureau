@@ -1,0 +1,28 @@
+{
+  "source_commit": "cd566912c93eba1e529e20f9d45e8962acf94b72",
+  "frames": 360,
+  "chunks": [
+    {
+      "name": "Pistol-Shrimp-RGB-000-119.mkv",
+      "start_frame": 0,
+      "end_exclusive": 120,
+      "bytes": 65869196,
+      "sha256": "0805fa35a25da98be7a1925ba470a2be9ae5afd1988be3e64669e5b8ba026397"
+    },
+    {
+      "name": "Pistol-Shrimp-RGB-120-239.mkv",
+      "start_frame": 120,
+      "end_exclusive": 240,
+      "bytes": 62274157,
+      "sha256": "315309c8c26aaf08069c80ae2dda253eeb2ad336d60cf6b2425656da77b3544c"
+    },
+    {
+      "name": "Pistol-Shrimp-RGB-240-359.mkv",
+      "start_frame": 240,
+      "end_exclusive": 360,
+      "bytes": 58253148,
+      "sha256": "a5a6c4f182b11f717f4a0761e2bc906b0caa0779d21570c3fd298d62e57e8044"
+    }
+  ],
+  "format": "Native lossless RGB libx264rgb CRF0"
+}

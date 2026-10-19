@@ -1,0 +1,28 @@
+{
+  "source_commit": "cd566912c93eba1e529e20f9d45e8962acf94b72",
+  "frames": 360,
+  "chunks": [
+    {
+      "name": "Underwater-Brine-Lake-RGB-000-119.mkv",
+      "start_frame": 0,
+      "end_exclusive": 120,
+      "bytes": 80571862,
+      "sha256": "75d41dcc9b6b99ff96e9ef382565632960157c66edea8ced12b0440be9bcc1db"
+    },
+    {
+      "name": "Underwater-Brine-Lake-RGB-120-239.mkv",
+      "start_frame": 120,
+      "end_exclusive": 240,
+      "bytes": 72782640,
+      "sha256": "cc3fbaafe69921d6581ad3a52577d928e3c84b5fb9c9d2c80c27ed3f1f00efc0"
+    },
+    {
+      "name": "Underwater-Brine-Lake-RGB-240-359.mkv",
+      "start_frame": 240,
+      "end_exclusive": 360,
+      "bytes": 65258789,
+      "sha256": "831ad7f0e79ae0784929ef07495ea1edabcf01907fc2666a93d4d255fe5ed967"
+    }
+  ],
+  "format": "Native lossless RGB libx264rgb CRF0"
+}

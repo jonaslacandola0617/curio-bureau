@@ -1,0 +1,83 @@
+{
+  "source_mp3_sha256": "6f0906f3ff4c2233be1fc504887adeff0820e7b86846a3b20e6ec5f6264c0ecb",
+  "source_duration": 7.36,
+  "voice_offset": 1.8,
+  "speed": 1,
+  "legacy_repository_voice_label": "Bernard",
+  "provider_voice_name": "Clyde - Vintage Male Radio Announcer",
+  "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+  "voice_identity": "Exact legacy voice ID retained; provider name differs from repository alias",
+  "score": "Original three-phase procedural composition; topic-specific key/motif; voice-envelope ducking",
+  "cues": [
+    {
+      "id": "doubt_tick",
+      "time": 0.1,
+      "gain": 0.18,
+      "sha256": "3037b29ca0dd9f8414de398b2db402d825039da4ff15946350064bcdb5fd94e1",
+      "note": "Original synthesized editorial cue, not an authentic recording of the depicted event"
+    },
+    {
+      "id": "micro_emphasis",
+      "time": 1.6,
+      "gain": 0.16,
+      "sha256": "477c33e0caa4313d8cb7bc0e1decdfc2fd15b161c7c2b8bcb719f16b84adc1b2",
+      "note": "Original synthesized editorial cue, not an authentic recording of the depicted event"
+    },
+    {
+      "id": "document_focus",
+      "time": 3.3,
+      "gain": 0.16,
+      "sha256": "59b641d105683bff434cdfc54592ebee1cff0f33ea0c62927161580687e87846",
+      "note": "Original synthesized editorial cue, not an authentic recording of the depicted event"
+    },
+    {
+      "id": "map_route_draw",
+      "time": 5,
+      "gain": 0.18,
+      "sha256": "fee15dba6b483a9bd61f57492ba58857ad3acbadf68475fe45bb2850ee495992",
+      "note": "Original synthesized editorial cue, not an authentic recording of the depicted event"
+    },
+    {
+      "id": "tiny_mask_reveal",
+      "time": 6,
+      "gain": 0.18,
+      "sha256": "299b44657c88f12d22e126cd1e68b4420dacd229441d86c984be6b0e7024a7c6",
+      "note": "Original synthesized editorial cue, not an authentic recording of the depicted event"
+    },
+    {
+      "id": "hard_fact_punctuate",
+      "time": 8.45,
+      "gain": 0.34,
+      "sha256": "4cb9f9354bd8b1d448bc0f5a2101cd24e81bddc8a6671cf3a2a3a1ba3604a838",
+      "note": "Original synthesized editorial cue, not an authentic recording of the depicted event"
+    },
+    {
+      "id": "restrained_boom",
+      "time": 8.45,
+      "gain": 0.13,
+      "sha256": "0f8ed588c6c31aa27d3634ef7b39acb5709831b959bc4366aaa2b9aa282b11fa",
+      "note": "Original synthesized editorial cue, not an authentic recording of the depicted event"
+    },
+    {
+      "id": "quiet_resolution",
+      "time": 9.5,
+      "gain": 0.18,
+      "sha256": "722a3e6056cbc743dd18138d2708f796c838278bbb3f0ff1cb1ab79ab79a5a5b",
+      "note": "Original synthesized editorial cue, not an authentic recording of the depicted event"
+    }
+  ],
+  "normalization_measurements": {
+    "input_i": "-16.53",
+    "input_tp": "-1.91",
+    "input_lra": "9.20",
+    "input_thresh": "-27.05",
+    "output_i": "-14.52",
+    "output_tp": "-1.50",
+    "output_lra": "5.60",
+    "output_thresh": "-24.82",
+    "normalization_type": "dynamic",
+    "target_offset": "0.52"
+  },
+  "mix_sha256": "790a5ea8387348e551fca08ef6fcd5e9da896474b261ec2a8e028ed5fd82db0d",
+  "independent_listening": "NOT CLAIMED"
+}
