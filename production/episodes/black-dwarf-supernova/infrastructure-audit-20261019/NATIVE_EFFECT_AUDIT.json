@@ -1,0 +1,146 @@
+{
+  "scope": "Native still diagnostics only; no new movie or revised creative source",
+  "renderer_sha256": "4e2049d887b4e87a71f7b04d9634b43b22a593622b4c3092c8c6b712181816b3",
+  "audit_sha256": "5cec81b1c5e489679204c42eeb0612590fe297fa8f4c40ae384f648bd300cc63",
+  "frozen_source_drift": [],
+  "effects": [
+    {
+      "effect": "material_texture",
+      "time": 8,
+      "mean_abs_rgb": 0.14353362911522632,
+      "changed_pixels": 248334,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "moving_grain",
+      "time": 8,
+      "mean_abs_rgb": 0.7509727044753086,
+      "changed_pixels": 1278374,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "motion_blur",
+      "time": 9.666667,
+      "mean_abs_rgb": 1.9592068544238683,
+      "changed_pixels": 947391,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "selective_focus",
+      "time": 8,
+      "mean_abs_rgb": 0.22870193544238684,
+      "changed_pixels": 137698,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "focus_shading",
+      "time": 8,
+      "mean_abs_rgb": 1.3106314300411523,
+      "changed_pixels": 669846,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "focus_hunt",
+      "time": 9.666667,
+      "mean_abs_rgb": 0.7816353202160494,
+      "changed_pixels": 597582,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "chromatic",
+      "time": 8,
+      "mean_abs_rgb": 0.1783280285493827,
+      "changed_pixels": 252847,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "mechanical_jitter",
+      "time": 8,
+      "mean_abs_rgb": 0.1253171617798354,
+      "changed_pixels": 243249,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "exposure",
+      "time": 8,
+      "mean_abs_rgb": 1.0141653806584363,
+      "changed_pixels": 1386404,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "marker_wobble",
+      "time": 20.5,
+      "mean_abs_rgb": 0.00912229938271605,
+      "changed_pixels": 950,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    }
+  ],
+  "settling_envelope": [
+    {
+      "time": 9,
+      "scene_time": 9,
+      "hunt_radius": 3.7885728258798334e-10,
+      "transition_radius": 2.238866220859039e-18
+    },
+    {
+      "time": 9.5,
+      "scene_time": 9.5,
+      "hunt_radius": 0.460476158399787,
+      "transition_radius": 0.5269961228093161
+    },
+    {
+      "time": 9.583334,
+      "scene_time": 9.583333333333334,
+      "hunt_radius": 1.2595337713462154,
+      "transition_radius": 3.205901942149783
+    },
+    {
+      "time": 9.666667,
+      "scene_time": 9.666666666666666,
+      "hunt_radius": 1.6961494920217657,
+      "transition_radius": 4.863022385581758
+    },
+    {
+      "time": 9.75,
+      "scene_time": 9.75,
+      "hunt_radius": 1.124527497197726,
+      "transition_radius": 1.8393972058572248
+    },
+    {
+      "time": 10,
+      "scene_time": 10,
+      "hunt_radius": 0.00466657009297652,
+      "transition_radius": 0.00002392558696064564
+    },
+    {
+      "time": 10.166667,
+      "scene_time": 10.166666666666666,
+      "hunt_radius": 0.0000034855754066382843,
+      "transition_radius": 1.2756163721383037e-11
+    },
+    {
+      "time": 10.5,
+      "scene_time": 10.5,
+      "hunt_radius": 3.943188811414152e-16,
+      "transition_radius": 2.095046597247318e-31
+    }
+  ],
+  "limitations": [
+    "Independent execution is not encoded perceptual acceptance.",
+    "Marker translation is not ink bleed or contour edge boil.",
+    "Spatial blur/shading use a common focus anchor but different feather profiles.",
+    "Existing build_release.py does not call shared production_standard/finishing_audit validators.",
+    "Full-film ending and full 57-item look-back remain pending."
+  ],
+  "decision": "HOLD_FULL_RENDER"
+}
