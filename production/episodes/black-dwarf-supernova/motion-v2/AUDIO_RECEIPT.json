@@ -1,0 +1,31 @@
+{
+  "source_task": "29a2145d-831b-4d82-8f79-5485a8895ae5",
+  "voice": "Bernard",
+  "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+  "model": "eleven_v3",
+  "speed": 1,
+  "original_sha256": "aa738e6e98defa5a7a38c54c1e201788cae2f5689a7d3e29f20ceb50083241c4",
+  "source_samples": 2741760,
+  "edited_samples": 2701138,
+  "removed_only_measured_silence": [
+    [
+      31.5753,
+      32.0139
+    ],
+    [
+      44.6447,
+      45.0524
+    ]
+  ],
+  "source_excerpt": [
+    19.0,
+    44.9
+  ],
+  "excerpt_voice_duration": 25.206104166666666,
+  "movie_duration": 26.033333333333335,
+  "cues": 17,
+  "raw_clipped_samples": 0,
+  "caption_status": "Actual-audio ASR estimates, script-correct phrases; independent word alignment pending",
+  "score": "Original deterministic score, three developing sections; no reused Sun music",
+  "human_listening": "PENDING"
+}

@@ -1,0 +1,33 @@
+{
+  "standard": {
+    "status": "DECLARED_TIMING_PASS",
+    "scene_fps": 12,
+    "scope": "isolated-preflight",
+    "ending_included": false,
+    "operations": 17,
+    "exceptions": [
+      {
+        "start": 23.8,
+        "end": 26.033333333333335,
+        "reason": "Read possible-collapse qualification and retain the complete supernova word plus source tail."
+      }
+    ],
+    "limits": "Operation truth, artistic quality, captions and listening require separate encoded review"
+  },
+  "finishing": {
+    "status": "PASS",
+    "stage": "release",
+    "scope": "isolated-preflight",
+    "ending_included": false,
+    "artistic_quality": "not inferred from execution proof"
+  },
+  "coverage": {
+    "execution_records_pass": true,
+    "errors": [],
+    "owner_motion_review": "PENDING",
+    "artistic_quality": "not inferred",
+    "subjective_listening": "NOT CLAIMED"
+  },
+  "decision": "CAPTURE_ALLOWED_FOR_OWNER_REVIEW",
+  "ending": "NOT INCLUDED; no full-film certification"
+}

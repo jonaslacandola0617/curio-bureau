@@ -10,7 +10,9 @@ HISTORICAL_IDS = frozenset({'pig-war', 'tutorial-optics-test', 'london-bridge',
     'cold-metal-pilot', 'recorded-voice-pilot', 'mint-cold-pilot',
     'onion-tears-pilot', 'knuckle-pop-pilot'})
 
-def validate_standard(config, episode, actual_duration=None):
+def validate_standard(config, episode, actual_duration=None, scope='full-film'):
+    if scope not in {'full-film','isolated-preflight'}:raise ValueError('Unknown validation scope')
+    if scope=='isolated-preflight' and config.get('capture_scope')!=scope:raise ValueError('Preflight scope must be explicitly declared')
     if 'production_standard' not in config:
         if config.get('id') not in HISTORICAL_IDS:
             raise ValueError('New episodes must declare production_standard: sun-disappeared-v1')
@@ -34,7 +36,7 @@ def validate_standard(config, episode, actual_duration=None):
         raise ValueError('Motion ledger requires finite full duration')
     if actual_duration is not None and abs(duration - actual_duration) > 1e-6:
         raise ValueError('Motion ledger duration differs from actual voice timeline')
-    end = duration - 1.1
+    end = duration - 1.1 if scope=='full-film' else duration
     events = ledger.get('events', [])
     if not events or events[0].get('t') != 0:
         raise ValueError('Motion ledger must start at frame zero')
@@ -59,5 +61,5 @@ def validate_standard(config, episode, actual_duration=None):
                 raise ValueError(f'Unexplained motion hold {a:g}–{b:g}s exceeds 2s')
             used.append(match)
     return {'status': 'DECLARED_TIMING_PASS', 'scene_fps': 12,
-            'operations': len(events), 'exceptions': used,
+            'scope':scope, 'ending_included':scope=='full-film', 'operations': len(events), 'exceptions': used,
             'limits': 'Operation truth, artistic quality, captions and listening require separate encoded review'}

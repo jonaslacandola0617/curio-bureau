@@ -1,0 +1,97 @@
+{
+  "duration": 26.033333333333335,
+  "events": [
+    {
+      "t": 0,
+      "operation": "Open the conceptual cutaway",
+      "understanding": "Open the conceptual cutaway"
+    },
+    {
+      "t": 1.6,
+      "operation": "Establish electron support against inward gravity",
+      "understanding": "Establish electron support against inward gravity"
+    },
+    {
+      "t": 3.2,
+      "operation": "Select the lattice detail",
+      "understanding": "Select the lattice detail"
+    },
+    {
+      "t": 4.8,
+      "operation": "Begin conceptual composition replacement",
+      "understanding": "Begin conceptual composition replacement"
+    },
+    {
+      "t": 6.4,
+      "operation": "Advance the iron-rich selection",
+      "understanding": "Advance the iron-rich selection"
+    },
+    {
+      "t": 8.0,
+      "operation": "Resolve the more-iron state",
+      "understanding": "Resolve the more-iron state"
+    },
+    {
+      "t": 9.5,
+      "operation": "Replace lattice detail with the mass/support comparison",
+      "understanding": "Replace lattice detail with the mass/support comparison"
+    },
+    {
+      "t": 11.0,
+      "operation": "Establish support capacity above mass",
+      "understanding": "Establish support capacity above mass"
+    },
+    {
+      "t": 12.75,
+      "operation": "Lock and emphasize the nearly fixed mass reference",
+      "understanding": "Lock and emphasize the nearly fixed mass reference"
+    },
+    {
+      "t": 14.4,
+      "operation": "Reveal the independent falling-limit keyword",
+      "understanding": "Reveal the independent falling-limit keyword"
+    },
+    {
+      "t": 15.5,
+      "operation": "Lower the support limit without changing the mass reference",
+      "understanding": "Lower the support limit without changing the mass reference"
+    },
+    {
+      "t": 17.0,
+      "operation": "Extend the source-attached downward comparison",
+      "understanding": "Extend the source-attached downward comparison"
+    },
+    {
+      "t": 18.5,
+      "operation": "Restrict the consequence to some massive remnants",
+      "understanding": "Restrict the consequence to some massive remnants"
+    },
+    {
+      "t": 20.0,
+      "operation": "Cross the support limit below the mass reference",
+      "understanding": "Cross the support limit below the mass reference"
+    },
+    {
+      "t": 21.5,
+      "operation": "Return inward gravity marks to the same remnant",
+      "understanding": "Return inward gravity marks to the same remnant"
+    },
+    {
+      "t": 22.2,
+      "operation": "Contract the same illustrative body",
+      "understanding": "Contract the same illustrative body"
+    },
+    {
+      "t": 23.8,
+      "operation": "Resolve possible collapse, not an exact transient prediction",
+      "understanding": "Resolve possible collapse, not an exact transient prediction"
+    }
+  ],
+  "exceptions": [
+    {
+      "start": 23.8,
+      "end": 26.033333333333335,
+      "reason": "Read possible-collapse qualification and retain the complete supernova word plus source tail."
+    }
+  ]
+}

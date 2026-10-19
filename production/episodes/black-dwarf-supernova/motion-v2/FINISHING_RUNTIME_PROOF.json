@@ -1,0 +1,82 @@
+{
+  "native": [
+    1080,
+    1920
+  ],
+  "scene_fps": 12,
+  "delivery_fps": 30,
+  "deterministic": true,
+  "cases": [
+    {
+      "t": 0.5,
+      "meanRedDifference": 4.359131944444444,
+      "opaqueCaptionDifference": 0,
+      "captionBox": {
+        "x": 289,
+        "y": 875,
+        "w": 502,
+        "h": 64
+      }
+    },
+    {
+      "t": 8,
+      "meanRedDifference": 4.351711033950617,
+      "opaqueCaptionDifference": 0,
+      "captionBox": {
+        "x": 384,
+        "y": 875,
+        "w": 311,
+        "h": 64
+      }
+    },
+    {
+      "t": 12.9,
+      "meanRedDifference": 1.864966724537037,
+      "opaqueCaptionDifference": 0,
+      "captionBox": {
+        "x": 265,
+        "y": 875,
+        "w": 549,
+        "h": 64
+      }
+    },
+    {
+      "t": 20.5,
+      "meanRedDifference": 2.5721059992283952,
+      "opaqueCaptionDifference": 0,
+      "captionBox": {
+        "x": 268,
+        "y": 875,
+        "w": 544,
+        "h": 64
+      }
+    },
+    {
+      "t": 24.3,
+      "meanRedDifference": 2.612556423611111,
+      "opaqueCaptionDifference": 0,
+      "captionBox": {
+        "x": 253,
+        "y": 875,
+        "w": 573,
+        "h": 64
+      }
+    }
+  ],
+  "temporal_grain": {
+    "changed_mean_abs": 0.7119984567901234,
+    "method": "Frozen source/optics/graphics, independently changed grain time, 216px phone sample"
+  },
+  "cadence": {
+    "frames_checked": 30,
+    "errors": []
+  },
+  "studio_sha256": "f191b355dfeebbf2f2bb4c1a35c8491f01fe634ed48b7597bcfbcd66a87ed605",
+  "ending": {
+    "applicable": false,
+    "reason": "Isolated mechanism preflight; exact full-film ending remains unchanged and will be checked in the complete episode."
+  },
+  "errors": [],
+  "owner_motion_review": "PENDING",
+  "independent_listening": "NOT CLAIMED"
+}

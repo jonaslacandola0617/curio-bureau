@@ -1,0 +1,172 @@
+[
+  {
+    "asset": "audio/generated-editorial-v1/paper.mp3",
+    "sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+    "onset": 0.05,
+    "duration": 0.65,
+    "peak_target": 0.23,
+    "event": "Cutaway inspection",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_causal_reveal_v1.flac",
+    "sha256": "3913dfb99f87c3f662191afe15eae7f35da595d842481cd255c412cb4e0ed538",
+    "onset": 1.6,
+    "duration": 0.6,
+    "peak_target": 0.23,
+    "event": "Electron-support relationship",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/generated-editorial-v1/camera_move.mp3",
+    "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+    "onset": 3.2,
+    "duration": 0.65,
+    "peak_target": 0.22,
+    "event": "Selected lattice macro",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/generated-editorial-v1/ink.mp3",
+    "sha256": "65cd1bf59d3f2fc71e82b17d30b3d4c082c460caf3707cd6c761214541153331",
+    "onset": 4.8,
+    "duration": 0.55,
+    "peak_target": 0.25,
+    "event": "Composition replacement begins",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/generated-editorial-v1/pencil.mp3",
+    "sha256": "561c362d770b268544cfcdc463f4f3a92f15570514f443401118a29637c4369f",
+    "onset": 6.4,
+    "duration": 0.55,
+    "peak_target": 0.24,
+    "event": "Iron-rich region advances",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_evidence_lock_v1.flac",
+    "sha256": "aead89bf782fdbb66e266828cecd9c7535e49a59476df368e31d9eb05fdd4262",
+    "onset": 8.0,
+    "duration": 0.5,
+    "peak_target": 0.23,
+    "event": "Iron-rich state resolves",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/generated-editorial-v1/paper.mp3",
+    "sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+    "onset": 9.5,
+    "duration": 0.7,
+    "peak_target": 0.26,
+    "event": "Mass/support figure handoff",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/generated-editorial-v1/marker_bold.mp3",
+    "sha256": "bb62cf4a6d88c51408424ac78776ef8316c06a4a8ee5e01a4495c201e862d183",
+    "onset": 11,
+    "duration": 0.6,
+    "peak_target": 0.25,
+    "event": "Support limit established",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+    "sha256": "3037b29ca0dd9f8414de398b2db402d825039da4ff15946350064bcdb5fd94e1",
+    "onset": 12.75,
+    "duration": 0.45,
+    "peak_target": 0.25,
+    "event": "Mass reference locks",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/generated-editorial-v1/ink.mp3",
+    "sha256": "65cd1bf59d3f2fc71e82b17d30b3d4c082c460caf3707cd6c761214541153331",
+    "onset": 14.4,
+    "duration": 0.5,
+    "peak_target": 0.23,
+    "event": "Limit keyword reveals",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/generated-editorial-v1/pencil.mp3",
+    "sha256": "561c362d770b268544cfcdc463f4f3a92f15570514f443401118a29637c4369f",
+    "onset": 15.5,
+    "duration": 0.65,
+    "peak_target": 0.27,
+    "event": "Limit falls",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/curio_sfx_v1/motion/CB_MOTION_tiny_mask_reveal_v1.flac",
+    "sha256": "299b44657c88f12d22e126cd1e68b4420dacd229441d86c984be6b0e7024a7c6",
+    "onset": 17,
+    "duration": 0.5,
+    "peak_target": 0.23,
+    "event": "Downward relation extends",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_causal_reveal_v1.flac",
+    "sha256": "3913dfb99f87c3f662191afe15eae7f35da595d842481cd255c412cb4e0ed538",
+    "onset": 18.5,
+    "duration": 0.6,
+    "peak_target": 0.22,
+    "event": "Massive-remnant qualification",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/curio_sfx_v1/cinematic/CB_CINEMATIC_micro_emphasis_v1.flac",
+    "sha256": "477c33e0caa4313d8cb7bc0e1decdfc2fd15b161c7c2b8bcb719f16b84adc1b2",
+    "onset": 20,
+    "duration": 0.55,
+    "peak_target": 0.28,
+    "event": "Support crossing",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/curio_sfx_v1/motion/CB_MOTION_soft_depth_pass_v1.flac",
+    "sha256": "0e9b66b3db679e689e2ad980881a2e862f3b82353d9ed0fb348d46078ca13b16",
+    "onset": 21.5,
+    "duration": 0.7,
+    "peak_target": 0.23,
+    "event": "Return to remnant",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+    "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24",
+    "onset": 22.2,
+    "duration": 0.9,
+    "peak_target": 0.26,
+    "event": "Possible collapse",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  },
+  {
+    "asset": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_quiet_resolution_v1.flac",
+    "sha256": "722a3e6056cbc743dd18138d2708f796c838278bbb3f0ff1cb1ab79ab79a5a5b",
+    "onset": 23.8,
+    "duration": 1.2,
+    "peak_target": 0.21,
+    "event": "Qualified landing",
+    "rights": "Existing original Curio synthesized design, not authentic space audio",
+    "listening": "OWNER REVIEW PENDING"
+  }
+]

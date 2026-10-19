@@ -1,0 +1,238 @@
+{
+  "schema": 1,
+  "scope": "isolated-preflight, not a full-film release",
+  "sources": [
+    {
+      "path": "render.cjs",
+      "sha256": "f191b355dfeebbf2f2bb4c1a35c8491f01fe634ed48b7597bcfbcd66a87ed605"
+    },
+    {
+      "path": "effect-proof.cjs",
+      "sha256": "a882ec6ec78782c72b8babad9fbcfaa7c6336e2679f19fe7ba239cfc53e80313"
+    },
+    {
+      "path": "qa.cjs",
+      "sha256": "bd6063417cb08840c1a173d9094a965f6a8fc532469dfcb9ab6ba9a14a0c7571"
+    },
+    {
+      "path": "prepare.py",
+      "sha256": "b499dd0c3932507cedb189ae9c4e6bf46b84c814a2d92a18d314e01905bdbcfb"
+    },
+    {
+      "path": "preflight.py",
+      "sha256": "e30e784e9c121fdced7198b81d0ae429076735df8d001779458e173c78594ccc"
+    },
+    {
+      "path": "make_coverage.py",
+      "sha256": "b0563a96f694e19d8d7c50cea3b3d66743bd43deb6717ad82ed3918a785ef95b"
+    },
+    {
+      "path": "episode.json",
+      "sha256": "28e9ed91b66b6411cc394ff5973bbb60ca5171d55bbe304b356cc569be6ea4c2"
+    },
+    {
+      "path": "FINISHING_CONTRACT.md",
+      "sha256": "969d60bdc16756577c1a0d338f6323def836d8b0173c1c75f82ba13b8e4d3e4a"
+    }
+  ],
+  "coverage": {
+    "material_texture": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "8s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "moving_grain": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "8s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "motion_blur": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "9.666667s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "selective_focus": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "8s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "focus_shading": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "8s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "focus_hunt": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "9.666667s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "chromatic": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "8s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "mechanical_jitter": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "8s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "exposure": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "8s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "ink_bleed": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "20.5s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "edge_boil": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "20.5s isolated native diagnostic; material/image effects throughout, blur/hunt at 9.5\u201310.1667s, ink on support marker after 11s",
+      "expected_result": "Independent removal changes native picture pixels while opaque caption differences remain zero. Ink/boil remain anchored to qualitative support line.",
+      "evidence": [
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "caption_protection": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "All caption phrases; native sampled states",
+      "expected_result": "Opaque caption pixels unchanged after optics.",
+      "evidence": [
+        {
+          "path": "FINISHING_RUNTIME_PROOF.json",
+          "sha256": "298810e0a28c790f040ce7748d24aa8d82bb0aa07ded1e63002e9a286c7b0def"
+        },
+        {
+          "path": "NATIVE_EFFECT_AUDIT.json",
+          "sha256": "d2612336ae69a4bd249ba4e3052ba63c9b365a3ada8c2bd4e73037826781483c"
+        }
+      ]
+    },
+    "sequence_continuity": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "0\u201326.033333s; lattice to same mass/support figure and remnant",
+      "expected_result": "Same conceptual remnant and fixed mass anchor; actual owner moving assessment pending.",
+      "evidence": [
+        {
+          "path": "MOTION_REVIEW_TARGETS.json",
+          "sha256": "c7da0e0345621c4426a8a7feecf47e1b6d27798d56fd3d103564c469c18d597e"
+        },
+        {
+          "path": "render.cjs",
+          "sha256": "f191b355dfeebbf2f2bb4c1a35c8491f01fe634ed48b7597bcfbcd66a87ed605"
+        }
+      ]
+    },
+    "audio_tail": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "Complete selected source 19\u201344.9s plus .827s added space",
+      "expected_result": "No selected voice samples lost or speed changed; subjective final-word listening remains open.",
+      "evidence": [
+        {
+          "path": "AUDIO_RECEIPT.json",
+          "sha256": "2d2687bf2b47d073e94dd8a2cac8495205594da6afe038d5da88627c8661d3fa"
+        }
+      ]
+    },
+    "sound_music": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "17 timecoded cues and three-part developing score",
+      "expected_result": "Original score and reused catalogued actions; listening not certified.",
+      "evidence": [
+        {
+          "path": "SFX_CUE_SHEET.json",
+          "sha256": "1781f634d0a73e02cebb5e558643d9ac5380c90c0c9262be4a2fcb24deb23474"
+        },
+        {
+          "path": "AUDIO_RECEIPT.json",
+          "sha256": "2d2687bf2b47d073e94dd8a2cac8495205594da6afe038d5da88627c8661d3fa"
+        }
+      ]
+    },
+    "ending_protection": {
+      "applicable": false,
+      "reason": "Explicit isolated-preflight scope, 26.033333s mechanism excerpt. Exact full-film endcard absent and not certified."
+    }
+  },
+  "owner_motion_review": "PENDING",
+  "subjective_listening": "NOT CLAIMED"
+}
