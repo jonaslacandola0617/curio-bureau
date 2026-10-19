@@ -1,0 +1,16 @@
+{
+  "name": "Black-Dwarf-Motion-v2-1080p.mp4",
+  "role": "ARCHIVED_UNREVIEWED mechanism preflight",
+  "bytes": 40080504,
+  "sha256": "8531e44a18545cabe9a4ea779f8116763860fe6facb73fc7857e04637c7b78c0",
+  "source_commit": "c0ab7b11e531f9b9a563a7b83a9055c902047299",
+  "tag": "black-dwarf-motion-v2-review-20261019",
+  "asset_id": 654895672,
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-motion-v2-review-20261019/Black-Dwarf-Motion-v2-1080p.mp4",
+  "provider_digest": "sha256:8531e44a18545cabe9a4ea779f8116763860fe6facb73fc7857e04637c7b78c0",
+  "uploaded_size": 40080504,
+  "status": "ARCHIVED_UNREVIEWED",
+  "owner_motion_review": "PENDING",
+  "human_listening": "NOT CLAIMED",
+  "caption_alignment": "actual-audio ASR estimates; independent verification pending"
+}

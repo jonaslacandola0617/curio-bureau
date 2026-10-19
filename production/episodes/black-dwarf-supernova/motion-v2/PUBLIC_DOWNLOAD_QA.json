@@ -1,0 +1,77 @@
+{
+  "status": "ARCHIVED_UNREVIEWED",
+  "download_verification": [
+    {
+      "name": "Black-Dwarf-Motion-v2-1080p.mp4",
+      "asset_id": 654895672,
+      "bytes": 40080504,
+      "sha256": "8531e44a18545cabe9a4ea779f8116763860fe6facb73fc7857e04637c7b78c0",
+      "provider_digest": "sha256:8531e44a18545cabe9a4ea779f8116763860fe6facb73fc7857e04637c7b78c0",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-motion-v2-review-20261019/Black-Dwarf-Motion-v2-1080p.mp4"
+    },
+    {
+      "name": "ARCHIVE_RECEIPT.json",
+      "asset_id": 654896067,
+      "bytes": 819,
+      "sha256": "35cd8daa63d2ce68466e44c2ff3edf98d4837534b6538945a527810a617a26b1",
+      "provider_digest": "sha256:35cd8daa63d2ce68466e44c2ff3edf98d4837534b6538945a527810a617a26b1",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-motion-v2-review-20261019/ARCHIVE_RECEIPT.json"
+    },
+    {
+      "name": "Black-Dwarf-Motion-v2-QA.zip",
+      "asset_id": 654896081,
+      "bytes": 6208826,
+      "sha256": "9912e6b79eb652309f3c0190a7e4858e6f99b3eb4ce82a727b25074d0bdf8481",
+      "provider_digest": "sha256:9912e6b79eb652309f3c0190a7e4858e6f99b3eb4ce82a727b25074d0bdf8481",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-motion-v2-review-20261019/Black-Dwarf-Motion-v2-QA.zip"
+    }
+  ],
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 781,
+    "codec": "h264",
+    "profile": "High",
+    "pixel_format": "yuv420p",
+    "duration": "26.033333"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "26.033000"
+  },
+  "full_decode": "PASS",
+  "encoded_visual_inspection": {
+    "method": "sampled encoded native/216px phone inspection, not continuous moving audition",
+    "times": [
+      8,
+      9.666667,
+      10.5,
+      20.5,
+      24.8
+    ],
+    "observations": [
+      "Paper/remnant/field textures survive encoding.",
+      "Handoff source is transiently blurred at 9.666667s; captions and type remain crisp.",
+      "At 10.5s source has settled; support chart is revealing.",
+      "Printed support marker and mass label remain separate at 20.5s.",
+      "Final selected phrase remains shown at 24.8s."
+    ],
+    "contact": "qa/ENCODED_V2_CONTACT.jpg"
+  },
+  "owner_motion_review": "PENDING",
+  "independent_listening": "NOT CLAIMED",
+  "word_alignment": "actual-audio ASR estimates, independently verified alignment PENDING",
+  "audio_measured": {
+    "integrated_lufs": -14.36,
+    "true_peak_dbtp": -1.45,
+    "loudness_range_lu": 2.8
+  },
+  "source_commit": "c0ab7b11e531f9b9a563a7b83a9055c902047299",
+  "ci_run": 39183519726
+}

@@ -1,0 +1,151 @@
+{
+  "scope": "Native still diagnostics only; no new movie or revised creative source",
+  "renderer_sha256": "f191b355dfeebbf2f2bb4c1a35c8491f01fe634ed48b7597bcfbcd66a87ed605",
+  "audit_sha256": "a882ec6ec78782c72b8babad9fbcfaa7c6336e2679f19fe7ba239cfc53e80313",
+  "frozen_source_drift": [],
+  "effects": [
+    {
+      "effect": "material_texture",
+      "time": 8,
+      "mean_abs_rgb": 0.14298241383744856,
+      "changed_pixels": 248247,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "moving_grain",
+      "time": 8,
+      "mean_abs_rgb": 0.7656012088477366,
+      "changed_pixels": 1295282,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "motion_blur",
+      "time": 9.666667,
+      "mean_abs_rgb": 1.9487692901234568,
+      "changed_pixels": 952032,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "selective_focus",
+      "time": 8,
+      "mean_abs_rgb": 0.22677292309670782,
+      "changed_pixels": 135752,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "focus_shading",
+      "time": 8,
+      "mean_abs_rgb": 1.9375411522633745,
+      "changed_pixels": 809445,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "focus_hunt",
+      "time": 9.666667,
+      "mean_abs_rgb": 0.7780576453189301,
+      "changed_pixels": 602117,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "chromatic",
+      "time": 8,
+      "mean_abs_rgb": 0.1771188593106996,
+      "changed_pixels": 251916,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "mechanical_jitter",
+      "time": 8,
+      "mean_abs_rgb": 0.12447193287037037,
+      "changed_pixels": 242480,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "exposure",
+      "time": 8,
+      "mean_abs_rgb": 1.009925250771605,
+      "changed_pixels": 1363424,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "ink_bleed",
+      "time": 20.5,
+      "mean_abs_rgb": 0.006421842849794239,
+      "changed_pixels": 1956,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    },
+    {
+      "effect": "edge_boil",
+      "time": 20.5,
+      "mean_abs_rgb": 0.0028018904320987656,
+      "changed_pixels": 602,
+      "opaque_caption_difference": 0,
+      "execution": "PASS"
+    }
+  ],
+  "settling_envelope": [
+    {
+      "time": 9,
+      "scene_time": 9,
+      "hunt_radius": 3.7885728258798334e-10,
+      "transition_radius": 2.238866220859039e-18
+    },
+    {
+      "time": 9.5,
+      "scene_time": 9.5,
+      "hunt_radius": 0.460476158399787,
+      "transition_radius": 0.5269961228093161
+    },
+    {
+      "time": 9.583334,
+      "scene_time": 9.583333333333334,
+      "hunt_radius": 1.2595337713462154,
+      "transition_radius": 3.205901942149783
+    },
+    {
+      "time": 9.666667,
+      "scene_time": 9.666666666666666,
+      "hunt_radius": 1.6961494920217657,
+      "transition_radius": 4.863022385581758
+    },
+    {
+      "time": 9.75,
+      "scene_time": 9.75,
+      "hunt_radius": 1.124527497197726,
+      "transition_radius": 1.8393972058572248
+    },
+    {
+      "time": 10,
+      "scene_time": 10,
+      "hunt_radius": 0.00466657009297652,
+      "transition_radius": 2.392558696064564e-05
+    },
+    {
+      "time": 10.166667,
+      "scene_time": 10.166666666666666,
+      "hunt_radius": 3.4855754066382843e-06,
+      "transition_radius": 1.2756163721383037e-11
+    },
+    {
+      "time": 10.5,
+      "scene_time": 10.5,
+      "hunt_radius": 3.943188811414152e-16,
+      "transition_radius": 2.095046597247318e-31
+    }
+  ],
+  "limitations": [
+    "Execution proof is not artistic acceptance or independent listening.",
+    "Full-film ending is not present in isolated preflight."
+  ],
+  "decision": "EXECUTION_PASS"
+}
