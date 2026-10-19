@@ -1,0 +1,13 @@
+{
+  "original_sha256": "aa738e6e98defa5a7a38c54c1e201788cae2f5689a7d3e29f20ceb50083241c4",
+  "decoded_original_duration": 57.12,
+  "retained_edited_duration": 56.27370833333333,
+  "final_word": "ending",
+  "final_word_end_asr_estimate": 55.9537,
+  "caption_end": 57.13333333333333,
+  "endcard_start": 57.13333333333333,
+  "movie_duration": 58.233333333333334,
+  "protected_tail_after_all_retained_source": 0.8596250000000012,
+  "voice_fade": false,
+  "listening": "PENDING; measurements do not certify pronunciation/tail audibility"
+}

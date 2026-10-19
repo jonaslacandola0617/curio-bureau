@@ -1,0 +1,66 @@
+{
+  "status": "ARCHIVED_UNREVIEWED",
+  "download_verification": [
+    {
+      "name": "Black-Dwarf-Full-v1-1080p.mp4",
+      "asset_id": 655001996,
+      "bytes": 89962172,
+      "sha256": "37d740b1a92401bd284a6d89a3b364ab2434e1daf334736ca0e0020849861718",
+      "provider_digest": "sha256:37d740b1a92401bd284a6d89a3b364ab2434e1daf334736ca0e0020849861718",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-full-v1-review-20261019/Black-Dwarf-Full-v1-1080p.mp4"
+    },
+    {
+      "name": "ARCHIVE_RECEIPT.json",
+      "asset_id": 655002909,
+      "bytes": 843,
+      "sha256": "3fc6157be6d40e861e3393245c7ebeaa212b8ab4a29768fdcb84dd7a7ac8e749",
+      "provider_digest": "sha256:3fc6157be6d40e861e3393245c7ebeaa212b8ab4a29768fdcb84dd7a7ac8e749",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-full-v1-review-20261019/ARCHIVE_RECEIPT.json"
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-QA.zip",
+      "asset_id": 655002922,
+      "bytes": 9722636,
+      "sha256": "884320000f5d29549dc97d501d78bfa95d312f497f72c98ed7f501b5b08527d0",
+      "provider_digest": "sha256:884320000f5d29549dc97d501d78bfa95d312f497f72c98ed7f501b5b08527d0",
+      "public_download_verified": true,
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-full-v1-review-20261019/Black-Dwarf-Full-v1-QA.zip"
+    }
+  ],
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1747,
+    "codec": "h264",
+    "profile": "High",
+    "pixel_format": "yuv420p",
+    "duration": "58.233333"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "58.233000"
+  },
+  "full_decode": "PASS",
+  "encoded_visual_inspection": {
+    "method": "29encoded phone checkpoints and native observation/notation/ending inspection",
+    "finding": "REVISE:14.5\u201315.05s detached cutaway registration during source arrival",
+    "followup": "full-v2 targeted join repair; v1 preserved"
+  },
+  "owner_motion_review": "APPROVED v2",
+  "owner_full_review": "PENDING",
+  "independent_listening": "NOT CLAIMED",
+  "word_alignment": "actual-audio ASR estimates, independently verified alignment PENDING",
+  "encoded_audio_levels": {
+    "input_i": "-14.28",
+    "input_tp": "-1.46",
+    "input_lra": "2.70"
+  },
+  "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+  "recovery_chunks": 12,
+  "runner_gate": "PASS"
+}

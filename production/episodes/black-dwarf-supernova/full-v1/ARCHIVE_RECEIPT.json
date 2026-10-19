@@ -1,0 +1,17 @@
+{
+  "name": "Black-Dwarf-Full-v1-1080p.mp4",
+  "role": "ARCHIVED_UNREVIEWED complete film",
+  "bytes": 89962172,
+  "sha256": "37d740b1a92401bd284a6d89a3b364ab2434e1daf334736ca0e0020849861718",
+  "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+  "tag": "black-dwarf-full-v1-review-20261019",
+  "asset_id": 655001996,
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/black-dwarf-full-v1-review-20261019/Black-Dwarf-Full-v1-1080p.mp4",
+  "provider_digest": "sha256:37d740b1a92401bd284a6d89a3b364ab2434e1daf334736ca0e0020849861718",
+  "uploaded_size": 89962172,
+  "status": "ARCHIVED_UNREVIEWED",
+  "owner_motion_review": "APPROVED v2",
+  "owner_full_review": "PENDING",
+  "human_listening": "NOT CLAIMED",
+  "caption_alignment": "actual-audio ASR estimates; independent verification pending"
+}

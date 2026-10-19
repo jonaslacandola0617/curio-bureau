@@ -1,0 +1,297 @@
+{
+  "production_standard": "sun-disappeared-v1",
+  "source_commit": "Actual workflow GITHUB_SHA",
+  "reuse": "Ten SHA-verified lossless chunks from full-v1; revised join chunks2/3 only; exact same mix SHA required.",
+  "files": [
+    {
+      "path": "../../../../.github/workflows/black-dwarf-full-v2.yml",
+      "sha256": "2d33474d3c26af40020233a137218c42aecd1de64cdd16cbf2bc2988ec732da7",
+      "bytes": 1180
+    },
+    {
+      "path": "../../../../audio/curio_sfx_v1/cinematic/CB_CINEMATIC_low_cinematic_hit_v1.flac",
+      "sha256": "e9ef4f8875ad5d102b4dea2cc50f57e14121c2020c7c9006ec77b14a2e89ae24",
+      "bytes": 184420
+    },
+    {
+      "path": "../../../../audio/curio_sfx_v1/cinematic/CB_CINEMATIC_micro_emphasis_v1.flac",
+      "sha256": "477c33e0caa4313d8cb7bc0e1decdfc2fd15b161c7c2b8bcb719f16b84adc1b2",
+      "bytes": 108404
+    },
+    {
+      "path": "../../../../audio/curio_sfx_v1/editorial/CB_EDITORIAL_causal_reveal_v1.flac",
+      "sha256": "3913dfb99f87c3f662191afe15eae7f35da595d842481cd255c412cb4e0ed538",
+      "bytes": 278813
+    },
+    {
+      "path": "../../../../audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+      "sha256": "3037b29ca0dd9f8414de398b2db402d825039da4ff15946350064bcdb5fd94e1",
+      "bytes": 122786
+    },
+    {
+      "path": "../../../../audio/curio_sfx_v1/editorial/CB_EDITORIAL_evidence_lock_v1.flac",
+      "sha256": "aead89bf782fdbb66e266828cecd9c7535e49a59476df368e31d9eb05fdd4262",
+      "bytes": 203436
+    },
+    {
+      "path": "../../../../audio/curio_sfx_v1/editorial/CB_EDITORIAL_quiet_resolution_v1.flac",
+      "sha256": "722a3e6056cbc743dd18138d2708f796c838278bbb3f0ff1cb1ab79ab79a5a5b",
+      "bytes": 320102
+    },
+    {
+      "path": "../../../../audio/curio_sfx_v1/motion/CB_MOTION_soft_depth_pass_v1.flac",
+      "sha256": "0e9b66b3db679e689e2ad980881a2e862f3b82353d9ed0fb348d46078ca13b16",
+      "bytes": 387540
+    },
+    {
+      "path": "../../../../audio/curio_sfx_v1/motion/CB_MOTION_tiny_mask_reveal_v1.flac",
+      "sha256": "299b44657c88f12d22e126cd1e68b4420dacd229441d86c984be6b0e7024a7c6",
+      "bytes": 145894
+    },
+    {
+      "path": "../../../../audio/generated-editorial-v1/camera_move.mp3",
+      "sha256": "8a00c63afb05df5e6ce8db63a09876438a67ec2f21a1e0fdc61ac430a7412d5c",
+      "bytes": 48945
+    },
+    {
+      "path": "../../../../audio/generated-editorial-v1/ink.mp3",
+      "sha256": "65cd1bf59d3f2fc71e82b17d30b3d4c082c460caf3707cd6c761214541153331",
+      "bytes": 33062
+    },
+    {
+      "path": "../../../../audio/generated-editorial-v1/marker_bold.mp3",
+      "sha256": "bb62cf4a6d88c51408424ac78776ef8316c06a4a8ee5e01a4495c201e862d183",
+      "bytes": 65245
+    },
+    {
+      "path": "../../../../audio/generated-editorial-v1/paper.mp3",
+      "sha256": "4b065ee6a42a5e9086e2f73083ac346de2c5a0283f118f80d7c99dfe6fdc9e60",
+      "bytes": 48945
+    },
+    {
+      "path": "../../../../audio/generated-editorial-v1/pencil.mp3",
+      "sha256": "561c362d770b268544cfcdc463f4f3a92f15570514f443401118a29637c4369f",
+      "bytes": 48945
+    },
+    {
+      "path": "../../../approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md",
+      "sha256": "0d5a864a98b3447a58705fd5732361b934952294816ad15d873ad40af4791457",
+      "bytes": 7419
+    },
+    {
+      "path": "../../../engine/browser/brand.js",
+      "sha256": "fad97f68e9a2333830e31479d6c86d7585641cde5101c6660ee9a5d7d5c44df8",
+      "bytes": 923
+    },
+    {
+      "path": "../../../engine/finishing_audit.py",
+      "sha256": "969e420f08f683200ec119c223e97804161addb57ef4a79a1062e437af305915",
+      "bytes": 2218
+    },
+    {
+      "path": "../../../engine/finishing_contract.py",
+      "sha256": "418b725b12f521e2a0cc11c0b90a9cacd893a1f938658894ba4133a1b4f5abf2",
+      "bytes": 2444
+    },
+    {
+      "path": "../../../engine/production_standard.py",
+      "sha256": "ec9b690e62b8f52498902b3227d12cd996c69abc7e6f30b117105fbf48f83d40",
+      "bytes": 3761
+    },
+    {
+      "path": "../../../templates/sun-standard/ACCEPTANCE_REQUIREMENTS.json",
+      "sha256": "6848d707f30cced75a33ad74481baff4615377aee63e32a8ba1f788d2a4a3e28",
+      "bytes": 25189
+    },
+    {
+      "path": "../../../templates/sun-standard/RELEASE_CHECKLIST.md",
+      "sha256": "04ff8c33589c889734ac96a12bb2ff2e1f3af28a16a63e64c5d4a8779c164633",
+      "bytes": 12960
+    },
+    {
+      "path": "../art-v1/README.md",
+      "sha256": "25db199c8f1b5276fe5a4a4a4a4913f410901f3a447a4914acdbbbd2922154df",
+      "bytes": 6328
+    },
+    {
+      "path": "../art-v1/assets/Manrope800.ttf",
+      "sha256": "5cc241f748ddb8ebf9bce7ca92d9bd996820482465238ae2f8f188f05a945105",
+      "bytes": 98080
+    },
+    {
+      "path": "../art-v1/assets/Playfair900.ttf",
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38",
+      "bytes": 194772
+    },
+    {
+      "path": "../art-v1/assets/remnant-illustration-v2.png",
+      "sha256": "f858db32a6ca5704ae194b328bab28073fa75a24290c00a0650972eaff44ee92",
+      "bytes": 1965977
+    },
+    {
+      "path": "../art-v1/assets/sirius-hubble.jpg",
+      "sha256": "231e45edae763a43b6062648b1df190663eac7cbb9d12e7ef7f5d73876654c01",
+      "bytes": 58798
+    },
+    {
+      "path": "../audio/NARRATION_DIRECTED_V1.txt",
+      "sha256": "32edafc35bb4fc939ef7d0800731cf6d72ba869be7f26969343eaa767ceb4bb9",
+      "bytes": 747
+    },
+    {
+      "path": "../audio/SILENCE_V1.log",
+      "sha256": "f14dca21b8810de6bcfe76e9b7a1426068f8efd0f53e4b4130bff7e98aaebdab",
+      "bytes": 3300
+    },
+    {
+      "path": "../audio/TRANSCRIPT_ASR_V1.json",
+      "sha256": "a9ddbe78c80038bb848438dd24d2f9b7b2975225d2a30245dc50531bf9cc33c7",
+      "bytes": 15374
+    },
+    {
+      "path": "../audio/voice-original-v1.mp3",
+      "sha256": "aa738e6e98defa5a7a38c54c1e201788cae2f5689a7d3e29f20ceb50083241c4",
+      "bytes": 914955
+    },
+    {
+      "path": "../full-v1/ARCHIVE_RECEIPT.json",
+      "sha256": "3fc6157be6d40e861e3393245c7ebeaa212b8ab4a29768fdcb84dd7a7ac8e749",
+      "bytes": 843
+    },
+    {
+      "path": "../full-v1/render.cjs",
+      "sha256": "5029cda4e75d6f513694b99e0d3dd3046e988752ab7ddfba5ca98853e5dc17e9",
+      "bytes": 2147
+    },
+    {
+      "path": "../full-v1/scenes.cjs",
+      "sha256": "010e26c8d0b086018e1c9b0d95e35c6168f159b8e3cd0febe998d81dbd384b12",
+      "bytes": 7158
+    },
+    {
+      "path": "../full-v1/timeline.json",
+      "sha256": "ee2c0e01eaa1000834b6f2b95de95e4053a7e7ec65cd3637b8476e5df3da3d36",
+      "bytes": 9441
+    },
+    {
+      "path": "../motion-v2/ARCHIVE_RECEIPT.json",
+      "sha256": "35cd8daa63d2ce68466e44c2ff3edf98d4837534b6538945a527810a617a26b1",
+      "bytes": 819
+    },
+    {
+      "path": "../motion-v2/OWNER_ART_APPROVAL.md",
+      "sha256": "53021409363c04315e4323ed45502cdfb954d5542b5bb6efeeeee2657492edf7",
+      "bytes": 847
+    },
+    {
+      "path": "../motion-v2/render.cjs",
+      "sha256": "f191b355dfeebbf2f2bb4c1a35c8491f01fe634ed48b7597bcfbcd66a87ed605",
+      "bytes": 11916
+    },
+    {
+      "path": "../motion-v2/timeline.json",
+      "sha256": "560a03aa9d715a0b48ae12ac54293f60845d0cfebd30a117f932e8a243aae933",
+      "bytes": 9275
+    },
+    {
+      "path": "FINISHING_CONTRACT.md",
+      "sha256": "681195c6e493ca51fedcc8f52f90969f15c4fca2621c3efa13e3b5afa76ab1a7",
+      "bytes": 2447
+    },
+    {
+      "path": "MOTION_REVIEW_TARGETS.json",
+      "sha256": "1c1267086964ee8dc4954876e3c0924ecb38a7e4ccb287aafdc86b0d1da6bc71",
+      "bytes": 6215
+    },
+    {
+      "path": "OWNER_MOTION_APPROVAL.md",
+      "sha256": "032c83e902fc78abf379e10c3c0f51feef85c1c2285f06c3768693dce76b73dd",
+      "bytes": 829
+    },
+    {
+      "path": "POSTS.md",
+      "sha256": "31b6656e85e1a751ea17d7aa15ddc77d4c76992bdf92d5d5c06c783202c06123",
+      "bytes": 1947
+    },
+    {
+      "path": "PREVIOUS_RECOVERY.json",
+      "sha256": "08416c35851ebd32c6b298e6f3bed352e31803b5c5dc8ee6ec1db00baa6c3b4e",
+      "bytes": 4674
+    },
+    {
+      "path": "README.md",
+      "sha256": "19ee3d603c409906abaea6728cf65808c806c9e78187e11c8845d29c06f53b5f",
+      "bytes": 2470
+    },
+    {
+      "path": "REVISION_REASON.md",
+      "sha256": "1876b7524f3f6ec80fcbf8b6c085da31ec8587d3d8914630b99efb48d7a33530",
+      "bytes": 992
+    },
+    {
+      "path": "build_release.py",
+      "sha256": "fd3cdf7449d9fd9c42c1d5238aa291b6d498640b002119c63ee233ab33277d4c",
+      "bytes": 6733
+    },
+    {
+      "path": "caption-geometry.cjs",
+      "sha256": "c01b7b7a43a77a28b53e81e79729880f939e56275436356a9cc2d8d3027dd08f",
+      "bytes": 1146
+    },
+    {
+      "path": "episode.json",
+      "sha256": "b11320954afc00a96993da29c297fdbada05d8ba4e78785cee2178aa8e46d279",
+      "bytes": 587
+    },
+    {
+      "path": "lookback.py",
+      "sha256": "98ed0947127a0af97017712ad04c1bc513016029910403c5f6bc2e23e325af7f",
+      "bytes": 2165
+    },
+    {
+      "path": "make_coverage.py",
+      "sha256": "0f8745be92a4b646176d49ab0526faf2e0af50f34be1a90d4c441bdc550416f0",
+      "bytes": 2204
+    },
+    {
+      "path": "preflight.py",
+      "sha256": "fdc0e62c0eeccdfec114bcf88ff12fdc7ce8a825b0a348dfc52ccb4ef2ca6e74",
+      "bytes": 1605
+    },
+    {
+      "path": "prepare.py",
+      "sha256": "79b30ddc6df9567849d768abaa700b8ac7e461d2da056c4f412fb231ad6d7b0a",
+      "bytes": 9352
+    },
+    {
+      "path": "qa.cjs",
+      "sha256": "cf230374116744f209c51e21a61fd5fde0e8b2231d22842cb6f5b374cf356e02",
+      "bytes": 6038
+    },
+    {
+      "path": "render.cjs",
+      "sha256": "5029cda4e75d6f513694b99e0d3dd3046e988752ab7ddfba5ca98853e5dc17e9",
+      "bytes": 2147
+    },
+    {
+      "path": "review_download.py",
+      "sha256": "9604ecbdc99d0e425e84d5a4c0f9e8204851be4900f4c1a4f3e86957d7b33afe",
+      "bytes": 2636
+    },
+    {
+      "path": "review_encoded.py",
+      "sha256": "13a3a4cffae8fed881876dcbc394fcc6dcdeb81121b521e0e1d4b9dc718a85be",
+      "bytes": 2134
+    },
+    {
+      "path": "scenes.cjs",
+      "sha256": "41f22f7d50e0cabe32d97ef69040abfbc492c18c8bc5a355b43b368a16c0c9ac",
+      "bytes": 7139
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "ee2c0e01eaa1000834b6f2b95de95e4053a7e7ec65cd3637b8476e5df3da3d36",
+      "bytes": 9441
+    }
+  ]
+}

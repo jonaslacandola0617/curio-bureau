@@ -1,0 +1,127 @@
+{
+  "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+  "frames": 1747,
+  "chunks": [
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-00-0000-0149.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 108837518,
+      "sha256": "bb82c4f46f6043b948887ea8a66c28e3a1d3c213b32ae7da997625a8bfc3c883",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 0,
+      "end_frame_exclusive": 150,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-01-0150-0299.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 96679599,
+      "sha256": "d383bf12005f5adf9187f3ac64e86499489efd0d5154fed42cd34197c2d9c7c6",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 150,
+      "end_frame_exclusive": 300,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-02-0300-0449.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 83084411,
+      "sha256": "4050655bde6ebd892f35be7377fcd0c9611d890e20a6c3ff58990bf44e82ec3e",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 300,
+      "end_frame_exclusive": 450,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-03-0450-0599.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 105033534,
+      "sha256": "c5f717a979c7922b849b4b2ead168b217084bd8af87e43747046804f97668750",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 450,
+      "end_frame_exclusive": 600,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-04-0600-0749.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 105291987,
+      "sha256": "f2ed98d05cfcd45de41f03f99c5c87462599abf77b8fa5a3960f0dcc4928058c",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 600,
+      "end_frame_exclusive": 750,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-05-0750-0899.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 103371242,
+      "sha256": "8ee3d8f6774de0b566469ace482012500ddbbf26754f6086d123d7845d9c4c73",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 750,
+      "end_frame_exclusive": 900,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-06-0900-1049.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 101558003,
+      "sha256": "84aebe3a5756524b43260cf453fce1bc4d9bfa6ab75f81b663cfad1b3fd362ff",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 900,
+      "end_frame_exclusive": 1050,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-07-1050-1199.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 103476119,
+      "sha256": "0109a1d053ad7cc86b98c91f710c778fb412b99fbe9b15bd73efecca70c813c3",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 1050,
+      "end_frame_exclusive": 1200,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-08-1200-1349.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 104195549,
+      "sha256": "8509dc6f6bc8a2d2b97bc7bc1c6acf1024b8bd71c99544d16308e5cca3728b99",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 1200,
+      "end_frame_exclusive": 1350,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-09-1350-1499.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 108504603,
+      "sha256": "ca2f2568b50e023faf96bc6afed0e88cb8ad951da92635ff73700996aa48852f",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 1350,
+      "end_frame_exclusive": 1500,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-10-1500-1649.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 107558881,
+      "sha256": "326062a72d4334e90284cdb0c5bd1155bc6ed842ecfdec559dfdb0a0b345fbd6",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 1500,
+      "end_frame_exclusive": 1650,
+      "decoded_frames": 150
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-11-1650-1746.mkv",
+      "role": "lossless RGB recovery",
+      "bytes": 60856980,
+      "sha256": "21c40e8043895d9d4656a1d636a6036a0c13698851ecb4167c0672185c3584db",
+      "source_commit": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+      "start_frame": 1650,
+      "end_frame_exclusive": 1747,
+      "decoded_frames": 97
+    }
+  ],
+  "format": "libx264rgb CRF0/rgb24; native lossless RGB recovery"
+}

@@ -1,0 +1,93 @@
+{
+  "chunks": [
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-00-0000-0149.mkv",
+      "asset_id": 654989805,
+      "bytes": 108837518,
+      "digest": "sha256:bb82c4f46f6043b948887ea8a66c28e3a1d3c213b32ae7da997625a8bfc3c883",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-01-0150-0299.mkv",
+      "asset_id": 654989802,
+      "bytes": 96679599,
+      "digest": "sha256:d383bf12005f5adf9187f3ac64e86499489efd0d5154fed42cd34197c2d9c7c6",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-02-0300-0449.mkv",
+      "asset_id": 654990822,
+      "bytes": 83084411,
+      "digest": "sha256:4050655bde6ebd892f35be7377fcd0c9611d890e20a6c3ff58990bf44e82ec3e",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-03-0450-0599.mkv",
+      "asset_id": 654990823,
+      "bytes": 105033534,
+      "digest": "sha256:c5f717a979c7922b849b4b2ead168b217084bd8af87e43747046804f97668750",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-04-0600-0749.mkv",
+      "asset_id": 654992224,
+      "bytes": 105291987,
+      "digest": "sha256:f2ed98d05cfcd45de41f03f99c5c87462599abf77b8fa5a3960f0dcc4928058c",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-05-0750-0899.mkv",
+      "asset_id": 654992221,
+      "bytes": 103371242,
+      "digest": "sha256:8ee3d8f6774de0b566469ace482012500ddbbf26754f6086d123d7845d9c4c73",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-06-0900-1049.mkv",
+      "asset_id": 654993719,
+      "bytes": 101558003,
+      "digest": "sha256:84aebe3a5756524b43260cf453fce1bc4d9bfa6ab75f81b663cfad1b3fd362ff",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-07-1050-1199.mkv",
+      "asset_id": 654993718,
+      "bytes": 103476119,
+      "digest": "sha256:0109a1d053ad7cc86b98c91f710c778fb412b99fbe9b15bd73efecca70c813c3",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-08-1200-1349.mkv",
+      "asset_id": 654995031,
+      "bytes": 104195549,
+      "digest": "sha256:8509dc6f6bc8a2d2b97bc7bc1c6acf1024b8bd71c99544d16308e5cca3728b99",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-09-1350-1499.mkv",
+      "asset_id": 654995032,
+      "bytes": 108504603,
+      "digest": "sha256:ca2f2568b50e023faf96bc6afed0e88cb8ad951da92635ff73700996aa48852f",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-10-1500-1649.mkv",
+      "asset_id": 654996047,
+      "bytes": 107558881,
+      "digest": "sha256:326062a72d4334e90284cdb0c5bd1155bc6ed842ecfdec559dfdb0a0b345fbd6",
+      "provider_matches_recovery": true
+    },
+    {
+      "name": "Black-Dwarf-Full-v1-RGB-11-1650-1746.mkv",
+      "asset_id": 654996046,
+      "bytes": 60856980,
+      "digest": "sha256:21c40e8043895d9d4656a1d636a6036a0c13698851ecb4167c0672185c3584db",
+      "provider_matches_recovery": true
+    }
+  ],
+  "source": "7136a25fa58c6782e5ee6b6000e732d065ae2726",
+  "frames": 1747,
+  "range_continuity": "PASS",
+  "lossless_format": "libx264rgb CRF0/rgb24",
+  "method": "All12 provider sizes/digests match native closed-chunk records; movie/QA/receipt separately downloaded and hashed"
+}
