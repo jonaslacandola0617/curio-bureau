@@ -1,5 +1,9 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
 
+## Selected production — later owner instruction,20October2026
+
+Owner selected and commissioned **How do you prove a flood-control project actually protects anyone?** Read [selection/scope](production/episodes/flood-control-proof/brief/OWNER_SELECTION.md). This supersedes the earlier no-selection checkpoint for current work. Previous candidates remain historical. Preserve Sun production and approved image-owned art, natural Bernard, exact ending and actual-art/moving/full-film gates. No account publication or six-post queue. Resolve documented cadence scope before motion.
+
 ## Current audience-review checkpoint — 20 October 2026
 
 Read [the current Curio audience findings](production/audience-review/2026-10-20/CHECKPOINT.md) when planning or assessing Curio work. Latest owner instruction: **no episode is selected**; any prior Relativistic Dust selection is historical and must not resume automatically. The six-post local/universal comparison and workflow additions are **proposals pending owner approval**, not a commissioned queue. Preserve exact analytics windows/denominators,upstream evidence labels and null missing values. This review changes no production/art/voice/ending policy. Current sources declare12fpsscene/camera inside30fpsdelivery; the handoff's mention of an unseen later30fps-animation instruction is an unresolved scope conflict to resolve before animation,not a basis for silently rewriting cadence.
