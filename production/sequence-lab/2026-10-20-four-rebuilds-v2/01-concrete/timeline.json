@@ -1,0 +1,170 @@
+{
+  "duration": 12,
+  "frames": 360,
+  "scene_fps": 12,
+  "fps": 30,
+  "voice_offset": 0.2,
+  "voice_speed": 1,
+  "caption_status": "Scribe actual-audio word timings, not independent forced alignment",
+  "captions": [
+    {
+      "text": "Some Roman concrete repairs itself.",
+      "start": 0.2,
+      "end": 2.74
+    },
+    {
+      "text": "Water enters a crack,",
+      "start": 2.9200000000000004,
+      "end": 4.22
+    },
+    {
+      "text": "dissolves calcium from lime fragments,",
+      "start": 4.28,
+      "end": 6.66
+    },
+    {
+      "text": "and new mineral deposits can",
+      "start": 6.76,
+      "end": 8.34
+    },
+    {
+      "text": "seal the gap.",
+      "start": 8.36,
+      "end": 9.299999999999999
+    }
+  ],
+  "words": [
+    {
+      "text": "Some",
+      "type": "word",
+      "start": 0.2,
+      "end": 0.52
+    },
+    {
+      "text": "Roman",
+      "type": "word",
+      "start": 0.6799999999999999,
+      "end": 0.8400000000000001
+    },
+    {
+      "text": "concrete",
+      "type": "word",
+      "start": 0.9199999999999999,
+      "end": 1.4
+    },
+    {
+      "text": "repairs",
+      "type": "word",
+      "start": 1.48,
+      "end": 1.88
+    },
+    {
+      "text": "itself.",
+      "type": "word",
+      "start": 1.96,
+      "end": 2.68
+    },
+    {
+      "text": "Water",
+      "type": "word",
+      "start": 2.9200000000000004,
+      "end": 3.24
+    },
+    {
+      "text": "enters",
+      "type": "word",
+      "start": 3.3200000000000003,
+      "end": 3.56
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 3.6,
+      "end": 3.64
+    },
+    {
+      "text": "crack,",
+      "type": "word",
+      "start": 3.68,
+      "end": 4.16
+    },
+    {
+      "text": "dissolves",
+      "type": "word",
+      "start": 4.28,
+      "end": 4.84
+    },
+    {
+      "text": "calcium",
+      "type": "word",
+      "start": 5.0,
+      "end": 5.32
+    },
+    {
+      "text": "from",
+      "type": "word",
+      "start": 5.4,
+      "end": 5.5600000000000005
+    },
+    {
+      "text": "lime",
+      "type": "word",
+      "start": 5.640000000000001,
+      "end": 5.88
+    },
+    {
+      "text": "fragments,",
+      "type": "word",
+      "start": 6.0,
+      "end": 6.6000000000000005
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 6.76,
+      "end": 6.92
+    },
+    {
+      "text": "new",
+      "type": "word",
+      "start": 7.0,
+      "end": 7.16
+    },
+    {
+      "text": "mineral",
+      "type": "word",
+      "start": 7.24,
+      "end": 7.5600000000000005
+    },
+    {
+      "text": "deposits",
+      "type": "word",
+      "start": 7.640000000000001,
+      "end": 8.12
+    },
+    {
+      "text": "can",
+      "type": "word",
+      "start": 8.2,
+      "end": 8.28
+    },
+    {
+      "text": "seal",
+      "type": "word",
+      "start": 8.36,
+      "end": 8.6
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 8.68,
+      "end": 8.719999999999999
+    },
+    {
+      "text": "gap.",
+      "type": "word",
+      "start": 8.76,
+      "end": 9.239999999999998
+    }
+  ]
+}

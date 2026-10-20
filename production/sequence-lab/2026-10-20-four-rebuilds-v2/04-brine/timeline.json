@@ -1,0 +1,164 @@
+{
+  "duration": 12,
+  "frames": 360,
+  "scene_fps": 12,
+  "fps": 30,
+  "voice_offset": 1.8,
+  "voice_speed": 1,
+  "caption_status": "Scribe actual-audio word timings, not independent forced alignment",
+  "captions": [
+    {
+      "text": "This lake is underwater.",
+      "start": 1.8,
+      "end": 3.3400000000000003
+    },
+    {
+      "text": "Extra salt makes its brine",
+      "start": 3.48,
+      "end": 5.3
+    },
+    {
+      "text": "denser than seawater,",
+      "start": 5.4,
+      "end": 6.699999999999999
+    },
+    {
+      "text": "so it settles into a",
+      "start": 6.84,
+      "end": 7.8
+    },
+    {
+      "text": "depression on the seafloor.",
+      "start": 7.8,
+      "end": 9.38
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "type": "word",
+      "start": 1.8,
+      "end": 2.04
+    },
+    {
+      "text": "lake",
+      "type": "word",
+      "start": 2.12,
+      "end": 2.2800000000000002
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 2.3600000000000003,
+      "end": 2.44
+    },
+    {
+      "text": "underwater.",
+      "type": "word",
+      "start": 2.52,
+      "end": 3.2800000000000002
+    },
+    {
+      "text": "Extra",
+      "type": "word",
+      "start": 3.48,
+      "end": 3.88
+    },
+    {
+      "text": "salt",
+      "type": "word",
+      "start": 3.96,
+      "end": 4.28
+    },
+    {
+      "text": "makes",
+      "type": "word",
+      "start": 4.36,
+      "end": 4.6
+    },
+    {
+      "text": "its",
+      "type": "word",
+      "start": 4.68,
+      "end": 4.76
+    },
+    {
+      "text": "brine",
+      "type": "word",
+      "start": 4.84,
+      "end": 5.24
+    },
+    {
+      "text": "denser",
+      "type": "word",
+      "start": 5.4,
+      "end": 5.64
+    },
+    {
+      "text": "than",
+      "type": "word",
+      "start": 5.72,
+      "end": 5.88
+    },
+    {
+      "text": "seawater,",
+      "type": "word",
+      "start": 5.96,
+      "end": 6.64
+    },
+    {
+      "text": "so",
+      "type": "word",
+      "start": 6.84,
+      "end": 6.92
+    },
+    {
+      "text": "it",
+      "type": "word",
+      "start": 7.0,
+      "end": 7.08
+    },
+    {
+      "text": "settles",
+      "type": "word",
+      "start": 7.16,
+      "end": 7.4799999999999995
+    },
+    {
+      "text": "into",
+      "type": "word",
+      "start": 7.56,
+      "end": 7.64
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 7.72,
+      "end": 7.76
+    },
+    {
+      "text": "depression",
+      "type": "word",
+      "start": 7.8,
+      "end": 8.36
+    },
+    {
+      "text": "on",
+      "type": "word",
+      "start": 8.4,
+      "end": 8.44
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 8.52,
+      "end": 8.6
+    },
+    {
+      "text": "seafloor.",
+      "type": "word",
+      "start": 8.64,
+      "end": 9.32
+    }
+  ]
+}
