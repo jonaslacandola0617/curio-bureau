@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "visual_art_standard": "image-owned-editorial-v1",
+  "approval_reference": "production/approved-benchmarks/FOUR_TEST_VISUAL_ART_OWNER_APPROVAL_20261020.json",
+  "scope": "Blank per-episode review template. Declarations/filled fields do not certify artwork. Populate existing sequence/shot contracts and inspect actual frames/motion.",
+  "status": "NOT REVIEWED",
+  "movie_sha256": null,
+  "source_commit": null,
+  "owner_episode_art_approval": false,
+  "owner_episode_motion_approval": false,
+  "beats": [
+    {
+      "shot_id": "REPLACE",
+      "proposition": "",
+      "visual_operation": "",
+      "resulting_understanding": "",
+      "invariant": "",
+      "representation_and_reason": "",
+      "image_components_masks_and_contacts": [],
+      "initial_state": "",
+      "difficult_intermediate_state": "",
+      "resolved_state_and_hold": "",
+      "next_state_inheritance": "",
+      "caption_and_platform_clearance_at_key_event": "",
+      "chosen_benchmark_example_and_comparison": "",
+      "native_frame_evidence": [],
+      "encoded_phone_evidence": [],
+      "narration_hidden_with_factual_labels_review": "NOT REVIEWED",
+      "caption_on_key_event_review": "NOT REVIEWED",
+      "finishing_coverage_reference": "FINISHING_COVERAGE.json",
+      "material_texture_and_overlay_visibility": "NOT REVIEWED",
+      "focus_hunt_motivation_and_sharp_settle": "NOT REVIEWED",
+      "other_optics_and_material_techniques_applicability": {},
+      "reviewer": null,
+      "verdict": "NOT REVIEWED"
+    }
+  ],
+  "whole_sequence_checks": {
+    "specific_art_quality_through_middle_and_payoff": "NOT REVIEWED",
+    "meaningful_image_owned_changes_and_reading_holds": "NOT REVIEWED",
+    "composition_variety_with_continuity": "NOT REVIEWED",
+    "actual_encoded_key_events_and_caption_collisions": "NOT REVIEWED",
+    "material_overlay_and_optical_finishing_visibility": "NOT REVIEWED",
+    "protected_fonts_captions_and_exact_ending": "NOT REVIEWED"
+  },
+  "historical_approvals_do_not_autopass_new_episode": true
+}

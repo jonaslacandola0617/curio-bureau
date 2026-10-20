@@ -43,3 +43,16 @@ Complete during editorial planning, before finished artwork. This is a working b
 **Moving integration approval / date (separate):**
 
 Use VISUAL_SEQUENCE_DIRECTION.md. These fields are required before finished artwork and before moving work; empty fields are not a passed check.
+
+## Owner-adopted artwork comparison — 20 October 2026
+
+**Visual-art standard:** `image-owned-editorial-v1` (four-test owner approval).
+**Chosen approved example and transferable operation, with source/version:**
+**Purpose-built photographic parts / masks / hinge-contact / repaired regions:**
+**Actual difficult state vs benchmark: clarity, hierarchy, specific material and explanation:**
+**Key label/category change visible WITH captions and platform UI at the event itself:**
+**More obvious texture/overlays: surface-specific plan and encoded phone proof:**
+**Motivated focus hunt / selected source / sharp settle / applicable other finishing:**
+**Weakest middle/payoff frame: PASS / REVISE / NOT REVIEWED and correction:**
+
+Complete these with the existing sequence fields. A refined source-attached or explicitly declared conceptual model can explain a photographed subject without an artificial paper wrapper. Owner approval of the four selected test artworks is the quality reference, not automatic approval of this new shot.

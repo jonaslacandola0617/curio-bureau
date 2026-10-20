@@ -1,5 +1,12 @@
 # Curio Bureau — creative visual sequence direction
 
+## Latest visual artwork direction — owner adopted, 20 October 2026
+
+Read [the four-test visual-art approval](../approved-benchmarks/FOUR_TEST_VISUAL_ART_OWNER_APPROVAL_20261020.md) before new visual work. **`image-owned-editorial-v1` is the adopted art-construction standard for every new scene**, within the unchanged Sun production workflow. Exact approved versions: Concrete/Shrimp v2; Diomede/Brine corrected v2b. Images and separate components perform the explanatory operation; compose source-specific initial/intermediate/resolved states, stable anchors, intentional crops/relationships and clear label/caption space. Carry that quality through the mechanism and payoff. Reject repeated photo/title cards, unrelated entrances, placeholder mechanics and decorative motion in place of explanation. Refined diagrams may operate inside the photographic or explicitly declared conceptual-model context; do not force a paper sheet around the approved density/claw models.
+
+**Future final finishing must have more obvious material texture and overlays than the art tests**, with brief motivated focus hunts and the usual applicable optics/material techniques. Verify visibility in the actual encoded phone view; keep type crisp and the exact ending untouched. This is owner approval of the selected visual artwork and an instruction for all future visuals, not a claim that the tests' finishing/audio or every future full film is approved. Historical test/QA status remains evidence from its own date. Re-fetch this governing record in future sessions. This policy update does not start a render or change the selected next topic.
+
+
 **ADOPTED by owner · 15 October 2026 Asia/Manila · Bible v1.4.4.** Applies to new films. The owner approved the explanation of the Epigenetics comparison and explicitly requested keeping these sequence requirements in the infrastructure and applying them from now on. This operationalizes continuity of visual thought; existing image-led, brand, audio, factual, caption, ending and native-delivery requirements remain intact.
 
 ## 1. Images have an editorial job

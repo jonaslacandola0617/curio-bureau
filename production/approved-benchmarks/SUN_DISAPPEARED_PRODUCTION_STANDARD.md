@@ -27,3 +27,7 @@ Our owner-approved Curio film is the artifact-bound craft benchmark. The referen
 
 ## Precedence and implementation
 This owner-adopted standard supersedes older references naming Cold Metal/Astronaut as the latest overall baseline and any30fps scene-motion or caption-haze default. Existing brand, research, licensing, evidence honesty and approval safeguards continue. Root AGENTS, the canonical Bible, active-engine index and future-episode prompt point here. Integration and verification: `production/engine/SUN_STANDARD_INTEGRATION.md`. Existing approved builds without the new declaration retain their historical timing; all newly authored episodes use this standard unless the owner explicitly changes it.
+
+## Visual-art specialization — owner adopted20October2026
+
+The Sun film remains the approved complete-production benchmark and its exact bytes remain unchanged. The later [four-test visual-art approval](FOUR_TEST_VISUAL_ART_OWNER_APPROVAL_20261020.md) now governs scene artwork construction within that workflow: image-owned mechanisms, purpose-built parts/masks and specific connected intermediate states. New final films need more obvious material texture/overlays and the usual applicable focus/optical finishing than the art studies. Apply both standards; this art approval does not replace cadence, sound, type/captions, source integrity, exact ending or archive requirements.

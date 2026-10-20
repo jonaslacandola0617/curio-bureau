@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "origin": "Owner-pasted Sun acceptance checklist, reaffirmed 18 October 2026 at20:49 Asia/Manila",
-  "scope": "Original checklist was temporary for the Sun experiment. Later explicit owner approval adopted the film’s craft as the future baseline. Preserve this provenance; do not turn a topic-specific item into an automatic pass for unrelated subjects.",
+  "scope": "Original checklist was temporary for the Sun experiment. Later explicit owner approval adopted the film\u2019s craft as the future baseline. Preserve this provenance; do not turn a topic-specific item into an automatic pass for unrelated subjects.",
   "items": [
     {
       "id": "1.1",
       "section": 1,
       "section_title": "Topic and storytelling",
-      "requirement": "Build around a bizarre scientific “what if” with understandable stakes.",
+      "requirement": "Build around a bizarre scientific \u201cwhat if\u201d with understandable stakes.",
       "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
       "default_verdict": "NOT REVIEWED"
     },
@@ -71,7 +71,7 @@
       "id": "2.1",
       "section": 2,
       "section_title": "More motion and more changes",
-      "requirement": "Introduce a meaningful visible change every 1.5–2 seconds throughout the explanatory sequence.",
+      "requirement": "Introduce a meaningful visible change every 1.5\u20132 seconds throughout the explanatory sequence.",
       "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
       "default_verdict": "NOT REVIEWED"
     },
@@ -79,8 +79,8 @@
       "id": "2.2",
       "section": 2,
       "section_title": "More motion and more changes",
-      "requirement": "Include substantial object animation—not merely photographs entering and then sitting still.",
-      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "requirement": "Include substantial object animation\u2014not merely photographs entering and then sitting still.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits. Compare actual demanding states to the owner-approved four-test image-owned artwork; document the object operation, persistent relationship and resulting understanding.",
       "default_verdict": "NOT REVIEWED"
     },
     {
@@ -88,7 +88,7 @@
       "section": 2,
       "section_title": "More motion and more changes",
       "requirement": "Use movement within compositions: separation, assembly, replacement, transformation, tracking and progressive reveals.",
-      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits. Compare actual demanding states to the owner-approved four-test image-owned artwork; document the object operation, persistent relationship and resulting understanding.",
       "default_verdict": "NOT REVIEWED"
     },
     {
@@ -112,7 +112,7 @@
       "section": 2,
       "section_title": "More motion and more changes",
       "requirement": "Connect scenes through recognizable objects, directions or ideas.",
-      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits. Compare actual demanding states to the owner-approved four-test image-owned artwork; document the object operation, persistent relationship and resulting understanding.",
       "default_verdict": "NOT REVIEWED"
     },
     {
@@ -136,7 +136,7 @@
       "section": 2,
       "section_title": "More motion and more changes",
       "requirement": "Fully remove departing elements; prevent accidental overlaps and clipped labels.",
-      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
+      "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits. Inspect the exact key date/category/measurement event with captions and platform controls; nearby clear frames do not pass a hidden event.",
       "default_verdict": "NOT REVIEWED"
     },
     {
@@ -151,7 +151,7 @@
       "id": "3.2",
       "section": 3,
       "section_title": "The 12fps experiment",
-      "requirement": "Export at 1080 × 1920, 30fps, scheduling those states by time.",
+      "requirement": "Export at 1080 \u00d7 1920, 30fps, scheduling those states by time.",
       "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
       "default_verdict": "NOT REVIEWED"
     },
@@ -208,7 +208,7 @@
       "section": 4,
       "section_title": "Photographic and tactile artwork",
       "requirement": "Arrange images to demonstrate relationships and consequences, beyond stacking them on paper.",
-      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
+      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels. Compare actual demanding states to the owner-approved four-test image-owned artwork; document the object operation, persistent relationship and resulting understanding.",
       "default_verdict": "NOT REVIEWED"
     },
     {
@@ -216,7 +216,7 @@
       "section": 4,
       "section_title": "Photographic and tactile artwork",
       "requirement": "Create depth through scale, cropping, overlap and independently animated layers.",
-      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
+      "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels. Compare actual demanding states to the owner-approved four-test image-owned artwork; document the object operation, persistent relationship and resulting understanding.",
       "default_verdict": "NOT REVIEWED"
     },
     {
@@ -288,7 +288,7 @@
       "section": 6,
       "section_title": "Texture and optical finishing",
       "requirement": "Include visible paper/material texture and controlled photocopy or film grain.",
-      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
+      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail. Apply20October owner reinforcement: more obvious material texture/overlays than the art studies, motivated focus hunts settling sharp, actual encoded phone visibility; preserve clean text/ending.",
       "default_verdict": "NOT REVIEWED"
     },
     {
@@ -296,7 +296,7 @@
       "section": 6,
       "section_title": "Texture and optical finishing",
       "requirement": "Use the Cold Metal balance as the benchmark; avoid obscuring photographs with excessive overlays.",
-      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
+      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail. Apply20October owner reinforcement: more obvious material texture/overlays than the art studies, motivated focus hunts settling sharp, actual encoded phone visibility; preserve clean text/ending.",
       "default_verdict": "NOT REVIEWED"
     },
     {
@@ -312,7 +312,7 @@
       "section": 6,
       "section_title": "Texture and optical finishing",
       "requirement": "Use source-image focus changes, compound blur and transition blur to direct attention.",
-      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
+      "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail. Apply20October owner reinforcement: more obvious material texture/overlays than the art studies, motivated focus hunts settling sharp, actual encoded phone visibility; preserve clean text/ending.",
       "default_verdict": "NOT REVIEWED"
     },
     {
@@ -423,7 +423,7 @@
       "id": "8.3",
       "section": 8,
       "section_title": "Complete-video acceptance",
-      "requirement": "Check the 1.5–2-second changes against the actual timeline.",
+      "requirement": "Check the 1.5\u20132-second changes against the actual timeline.",
       "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
       "default_verdict": "NOT REVIEWED"
     },
@@ -463,7 +463,7 @@
   "reference_study": [
     {
       "id": "R.1",
-      "requirement": "Examine the reference channel’s premise, escalation, visual metaphors, typography, transitions and sound relationships.",
+      "requirement": "Examine the reference channel\u2019s premise, escalation, visual metaphors, typography, transitions and sound relationships.",
       "default_verdict": "NOT REVIEWED"
     },
     {
@@ -472,5 +472,7 @@
       "default_verdict": "NOT REVIEWED"
     }
   ],
-  "audience_promise": "No particular view count or retention result is promised."
+  "audience_promise": "No particular view count or retention result is promised.",
+  "visual_art_standard": "image-owned-editorial-v1",
+  "visual_art_approval_reference": "production/approved-benchmarks/FOUR_TEST_VISUAL_ART_OWNER_APPROVAL_20261020.json"
 }
