@@ -1,0 +1,336 @@
+{
+  "channel": "Curio Bureau",
+  "provenance": {
+    "origin": "Supplied handoff v1.0; receiving agent read it completely. Raw CSV/screenshots/media were not supplied with this handoff and were not re-inspected.",
+    "classification_rule": "DIRECT labels describe originating evidence reported by the handoff; they are not a claim of direct dashboard/video inspection by this receiving agent.",
+    "report_sha256": "c715bdda6dcc431427d47e90ebc06d5bf96021f911e01cf18c7c45adea48d21c",
+    "raw_analytics_independently_read_this_task": false,
+    "video_playback_this_task": false,
+    "sound_audition_this_task": false
+  },
+  "weekly": {
+    "evidence_label": "DIRECT: export (reported in handoff)",
+    "source_name": "Overview_2026-10-12_1792262201_curiobureau.studio.zip / Overview.csv",
+    "window": "October12–18;2026context from screenshots,CSV has no year column",
+    "window_timezone": null,
+    "exact_observed_at": null,
+    "rows": [
+      {
+        "day_of_october": 12,
+        "video_views": 899,
+        "profile_views": 2,
+        "likes": 14,
+        "comments": 0,
+        "shares": 1
+      },
+      {
+        "day_of_october": 13,
+        "video_views": 822,
+        "profile_views": 2,
+        "likes": 11,
+        "comments": 1,
+        "shares": 0
+      },
+      {
+        "day_of_october": 14,
+        "video_views": 19,
+        "profile_views": 1,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      {
+        "day_of_october": 15,
+        "video_views": 695,
+        "profile_views": 0,
+        "likes": 13,
+        "comments": 0,
+        "shares": 4
+      },
+      {
+        "day_of_october": 16,
+        "video_views": 42,
+        "profile_views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 1
+      },
+      {
+        "day_of_october": 17,
+        "video_views": 651,
+        "profile_views": 0,
+        "likes": 14,
+        "comments": 0,
+        "shares": 1
+      },
+      {
+        "day_of_october": 18,
+        "video_views": 3427,
+        "profile_views": 8,
+        "likes": 67,
+        "comments": 0,
+        "shares": 0
+      }
+    ],
+    "totals": {
+      "video_views": 6555,
+      "profile_views": 13,
+      "likes": 119,
+      "comments": 1,
+      "shares": 7
+    },
+    "derived_reported_rounded": {
+      "likes_per1000_video_views": 18.15,
+      "shares_per1000_video_views": 1.07,
+      "profile_view_events_per1000_video_views": 1.98,
+      "oct18_share_of_weekly_video_views_percent": 52.3
+    },
+    "ratio_denominator": "6555video-view events; not unique people",
+    "traffic_dashboard_percentages": {
+      "For You": 97.3,
+      "Personal profile": 1.7,
+      "Search": 1.0
+    },
+    "query_mix": {
+      "query": "niagara falls without water",
+      "displayed_share_percent": 35.6,
+      "denominator": "Displayed search-query mix, not all video views; search traffic share1.0%",
+      "exact_query_counts": null
+    },
+    "followers_gained": null,
+    "retention": null,
+    "watch_time": null,
+    "post_ids": null,
+    "warnings": [
+      "Do not equate personal-profile video traffic with13profile-view events.",
+      "Do not attribute October18increase to a specific post without daily post-level records and aligned timezones.",
+      "Do not sum screenshots image3/4/5 as independent weeks."
+    ]
+  },
+  "post_snapshots": [
+    {
+      "evidence_label": "DIRECT: dashboard (reported in handoff)",
+      "post_id": "7697509444636183860",
+      "title": "Metal versus wood",
+      "displayed_publication_date": "2026-10-17",
+      "published_at_exact": null,
+      "snapshot_observed_at": null,
+      "snapshot_age_hours": null,
+      "metric_window": "Post detail snapshot; exact as-of/exposure boundary unknown, not a matched24-hour or7-day cohort",
+      "views": 3005,
+      "dashboard_rounded_duration_seconds": 38,
+      "published_exact_duration_seconds": null,
+      "average_watch_seconds": 15.8,
+      "calculated_viewed_fraction_using_rounded_duration_percent": 41.6,
+      "platform_average_viewed_percent": null,
+      "full_watch_percent": 7.3,
+      "platform_stopping_notice": "Most stopped at0:01",
+      "retention_1s_percent": null,
+      "retention_2s_percent": null,
+      "retention_5s_percent": null,
+      "followers_gained": 0,
+      "likes": 52,
+      "comments": 0,
+      "shares": 1,
+      "saves": 2,
+      "traffic_source_percentages": {
+        "For You": 99.5
+      },
+      "total_play_time_reported": "13h35m13s",
+      "country_specific_retention": null,
+      "production_hours": null,
+      "supplied_review_metadata_reported": {
+        "filename": "Cold_Metal_Full_Review_720.mp4",
+        "duration_seconds": 38.166667,
+        "width": 720,
+        "height": 1280,
+        "encoded_fps": 30,
+        "video_codec": "H264",
+        "audio_stream_present": true,
+        "review_file_sha256_in_handoff": null,
+        "published_file_match": null,
+        "derived_average_viewed_percent_using_review_duration": 41.4
+      }
+    },
+    {
+      "evidence_label": "DIRECT: dashboard (reported in handoff)",
+      "post_id": "7697101553861283088",
+      "title": "Finger wrinkles",
+      "displayed_publication_date": "2026-10-16",
+      "published_at_exact": null,
+      "snapshot_observed_at": null,
+      "snapshot_age_hours": null,
+      "metric_window": "Post detail snapshot; exact as-of/exposure boundary unknown, not a matched24-hour or7-day cohort",
+      "views": 626,
+      "dashboard_rounded_duration_seconds": 36,
+      "published_exact_duration_seconds": null,
+      "average_watch_seconds": 7.34,
+      "calculated_viewed_fraction_using_rounded_duration_percent": 20.4,
+      "platform_average_viewed_percent": null,
+      "full_watch_percent": 2.8,
+      "platform_stopping_notice": "Most stopped at0:02",
+      "retention_1s_percent": null,
+      "retention_2s_percent": null,
+      "retention_5s_percent": null,
+      "followers_gained": 0,
+      "likes": 8,
+      "comments": 0,
+      "shares": 4,
+      "saves": 0,
+      "traffic_source_percentages": {
+        "For You": 98.4
+      },
+      "total_play_time_reported": "1h18m22s",
+      "country_specific_retention": null,
+      "production_hours": null,
+      "supplied_video_available_to_original_reviewer": false
+    }
+  ],
+  "broader_ranked_content": {
+    "evidence_label": "DIRECT: dashboard (reported in handoff)",
+    "rows": [
+      {
+        "subject": "Metal versus wood",
+        "last7day_views_displayed": "3K",
+        "all_views_displayed": "3K",
+        "duration_displayed": "0:38",
+        "age_displayed": "3d"
+      },
+      {
+        "subject": "Finger wrinkles",
+        "last7day_views_displayed": 626,
+        "all_views_displayed": 626,
+        "duration_displayed": "0:36",
+        "age_displayed": "4d"
+      },
+      {
+        "subject": "Inflatable tanks",
+        "last7day_views_displayed": 613,
+        "all_views_displayed": 614,
+        "duration_displayed": "1:03",
+        "age_displayed": "1w"
+      },
+      {
+        "subject": "White sunlight and yellow Sun",
+        "last7day_views_displayed": 612,
+        "all_views_displayed": 612,
+        "duration_displayed": "0:51",
+        "age_displayed": "6d"
+      },
+      {
+        "subject": "Mars measurement mistake",
+        "last7day_views_displayed": 531,
+        "all_views_displayed": 531,
+        "duration_displayed": "1:12",
+        "age_displayed": "1w"
+      },
+      {
+        "subject": "Mint feels cold",
+        "last7day_views_displayed": 329,
+        "all_views_displayed": 627,
+        "duration_displayed": "0:40",
+        "age_displayed": "2d"
+      },
+      {
+        "subject": "Chicago raised buildings",
+        "last7day_views_displayed": 224,
+        "all_views_displayed": 225,
+        "duration_displayed": "1:18",
+        "age_displayed": "1w"
+      },
+      {
+        "subject": "Boston molasses",
+        "last7day_views_displayed": 95,
+        "all_views_displayed": 192,
+        "duration_displayed": "1:16",
+        "age_displayed": "1w"
+      },
+      {
+        "subject": "Sweden changed driving side",
+        "last7day_views_displayed": 90,
+        "all_views_displayed": 204,
+        "duration_displayed": "1:17",
+        "age_displayed": "1w"
+      },
+      {
+        "subject": "Lake Peigneur",
+        "last7day_views_displayed": 84,
+        "all_views_displayed": 227,
+        "duration_displayed": "1:15",
+        "age_displayed": "1w"
+      }
+    ],
+    "observed_at": null,
+    "rounded_values_retained": true,
+    "do_not_add_to_weekly_export": true
+  },
+  "metal_audience_panel": {
+    "evidence_label": "DIRECT: dashboard (reported in handoff)",
+    "scope": "Metal-post audience/viewer panel only",
+    "total_viewers_display": "2.8K",
+    "total_viewers_exact": null,
+    "new_returning_percent": {
+      "new": 98,
+      "returning": 2
+    },
+    "nonfollowers_followers_percent": {
+      "nonfollowers": 100,
+      "followers": 0
+    },
+    "male_female_percent": {
+      "male": 72,
+      "female": 28
+    },
+    "visible_age_percent": {
+      "18–24": 47,
+      "25–34": 46,
+      "35–44": 4,
+      "45–54": 1
+    },
+    "unseen_age_rows": null,
+    "countries": {
+      "Philippines": 96.8,
+      "Canada": "<1%",
+      "Indonesia": "<1%",
+      "Malaysia": "<1%",
+      "Singapore": "<1%",
+      "United States": "<1%"
+    },
+    "exact_country_metric_definition_verified_here": false,
+    "denominator_scope": "Post viewer/audience panel; not3005video-view events",
+    "country_retention": null,
+    "engaged_overseas_viewers_absolute": null,
+    "channel_wide_country_export": null,
+    "owner_report": {
+      "evidence_label": "OWNER REPORT",
+      "statement": "Roughly90%Philippine traffic across videos",
+      "independently_verified_channel_percentage": null
+    },
+    "warning": "No demographic count reconstructed from rounded shares; no inference about Filipinos disliking science or overseas retention being better."
+  },
+  "calculations": {
+    "evidence_label": "DERIVED; arithmetic independently recalculated from handoff inputs",
+    "metal_over_fingers": {
+      "view_ratio": 4.8,
+      "average_watch_seconds_ratio": 2.15,
+      "completion_percent_ratio": 2.61
+    },
+    "shares_per1000_compatible_snapshot_views": {
+      "metal": 0.33,
+      "fingers": 6.39
+    },
+    "followers_per1000_compatible_snapshot_views": {
+      "metal": 0,
+      "fingers": 0
+    },
+    "play_time_consistency_diagnostic_only": {
+      "metal_reported_total_seconds": 48913,
+      "fingers_reported_total_seconds": 4702,
+      "metal_total_divided_by_visible_views_seconds": 16.27720465890183,
+      "fingers_total_divided_by_visible_views_seconds": 7.5111821086261985,
+      "status": "UNRESOLVED definitions/update times/scopes; retain original platform AWT15.8and7.34, never replace them with these quotients."
+    },
+    "causal_attribution": null,
+    "universal_platform_thresholds": null
+  }
+}

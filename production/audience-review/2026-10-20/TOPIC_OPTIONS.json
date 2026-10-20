@@ -1,0 +1,64 @@
+{
+  "status": "PROPOSED_PENDING_OWNER_SELECTION",
+  "selected_episode": null,
+  "cohort_approved": false,
+  "existing21title_catalog_screening": "No exact topic duplicate in recovered21-title collection; not a fresh verification of every published post. Lake Nyos is scientifically distinct from Lake Peigneur but repeats a lake/disaster wrapper, so review novelty.",
+  "options": [
+    {
+      "id": "L1",
+      "family": "philippine_rooted",
+      "question": "Pinatubo erupted in1991. Why did towns keep getting buried afterward?",
+      "mechanism": "Rain-driven remobilization of volcanic deposits into lahars.",
+      "source_ids": "S1",
+      "scientific_boundary": "Historical geography/dates and deposits need exact source selection; no new-eruption implication or current warning.",
+      "status": "PROPOSED_NOT_SELECTED"
+    },
+    {
+      "id": "L2",
+      "family": "philippine_rooted",
+      "question": "How did solid-looking ground lose its support during the1990Luzon earthquake?",
+      "mechanism": "Dagupan: susceptible saturated sand, pore-water pressure and reduced effective stress.",
+      "source_ids": "S2",
+      "scientific_boundary": "Not all soil liquefies; distinguish loss of support from melting and preserve drainage/saturation conditions.",
+      "status": "PROPOSED_NOT_SELECTED"
+    },
+    {
+      "id": "L3",
+      "family": "philippine_rooted",
+      "question": "During a Philippine typhoon, how can wind push the sea onto land?",
+      "mechanism": "Wind-driven coastal water accumulation with pressure, bathymetry/tide context.",
+      "source_ids": "S3",
+      "scientific_boundary": "Separate surge,tide,rain flooding and waves; no invented event-specific water height or current warning.",
+      "status": "PROPOSED_NOT_SELECTED"
+    },
+    {
+      "id": "U1",
+      "family": "universal",
+      "question": "How can solid rock flow without melting?",
+      "mechanism": "Time-dependent deformation of largely solid mantle.",
+      "source_ids": "S4",
+      "scientific_boundary": "State geologic timescale; mantle not uniformly liquid, local partial melt is a separate condition.",
+      "status": "PROPOSED_NOT_SELECTED"
+    },
+    {
+      "id": "U2",
+      "family": "universal",
+      "question": "Why do lunar spectra suggest rust on an airless Moon?",
+      "mechanism": "Hematite spectral evidence versus difficult oxidizing conditions.",
+      "source_ids": "S5",
+      "scientific_boundary": "Observation and proposed Earth-oxygen/water pathways remain distinct; no claim the whole Moon is visibly rusting.",
+      "status": "PROPOSED_NOT_SELECTED"
+    },
+    {
+      "id": "U3",
+      "family": "universal",
+      "question": "How can a lake release a deadly gas cloud without a new eruption?",
+      "mechanism": "Lake Nyos: stored dissolvedCO2and rapid gas release.",
+      "source_ids": "S6,S7",
+      "scientific_boundary": "Keep trigger uncertainty; no generalized danger claim about ordinary lakes; no new present-day risk estimate.",
+      "status": "PROPOSED_NOT_SELECTED"
+    }
+  ],
+  "demand_or_expected_views": null,
+  "design_confound": "Three local choices are geophysical hazards while universals span geology,space and hazard. Balance stakes/familiarity/production complexity during selection or explicitly retain this confound; not a pure test of geography."
+}

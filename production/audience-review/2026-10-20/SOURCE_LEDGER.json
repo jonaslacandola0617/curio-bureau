@@ -1,0 +1,69 @@
+{
+  "checked_on": "2026-10-20",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.usgs.gov/publications/lahars-mount-pinatubo-philippines",
+      "authority": "USGS fact sheet1997",
+      "review": "Full short publication record retrieved",
+      "supports": "Rain remobilized eruption deposits during following rainy seasons; historical case, no current warning."
+    },
+    {
+      "id": "S2",
+      "url": "https://earthquake.phivolcs.dost.gov.ph/1990LuzonEQ_Monograph/pp119/pp137_138.html",
+      "authority": "PHIVOLCS-hosted research monograph",
+      "review": "Mechanism and Dagupan observations read",
+      "supports": "Saturated susceptible sand, inhibited drainage, increasing pore pressure, reduced effective stress and support."
+    },
+    {
+      "id": "S3",
+      "url": "https://www.pagasa.dost.gov.ph/information/storm-surge",
+      "authority": "PAGASA",
+      "review": "Mechanism section read",
+      "supports": "Cyclone winds and low pressure raise water level; surge distinct from tide and superimposed waves."
+    },
+    {
+      "id": "S4",
+      "url": "https://www.usgs.gov/faqs/are-tectonic-plates-floating-magma",
+      "authority": "USGS",
+      "review": "Indexed official text retrieved; direct page failed",
+      "supports": "Mantle is largely solid but can flow over geologic time; plates do not simply float on a magma ocean."
+    },
+    {
+      "id": "S5",
+      "url": "https://www.nasa.gov/solar-system/moon/the-moon-is-rusting-and-researchers-want-to-know-why/",
+      "authority": "NASA/JPL2020 research account",
+      "review": "Search text and page retrieved",
+      "supports": "Polar spectra consistent with hematite; formation mechanisms proposed, not completely established. Latest research/claim lock still required before a script."
+    },
+    {
+      "id": "S6",
+      "url": "https://www.usgs.gov/media/images/exploding-lakes-cameroon",
+      "authority": "USGS",
+      "review": "Official indexed event description; publication research record also retrieved",
+      "supports": "Lake Nyos released a CO2cloud; mechanism/trigger distinctions require final claim lock."
+    },
+    {
+      "id": "S7",
+      "url": "https://www.usgs.gov/publications/gas-buildup-lake-nyos-cameroon-recharge-process-and-its-consequences",
+      "authority": "USGS-hosted peer-reviewed1993 study",
+      "review": "Publication abstract read",
+      "supports": "Measured deep-water dissolved gas and recharge; do not extrapolate1993measurements to present risk."
+    },
+    {
+      "id": "P1",
+      "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
+      "authority": "TikTok support",
+      "review": "Canonical page redirects/inaccessible; official indexed text corroborates interaction,location,language categories",
+      "supports": "Recommendation input categories only; not post-specific weights, thresholds or overseas-targeting guarantees."
+    },
+    {
+      "id": "P2",
+      "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+      "authority": "YouTube Help",
+      "review": "Current official page retrieved",
+      "supports": "Shorts viewer choice/watch/satisfaction and outside factors; separate from TikTok metrics."
+    }
+  ],
+  "scope": "Preliminary mechanism-source verification and guidance check, not demand research, script approval, archive-rights clearance or a complete current literature review."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "METADATA LEADS ONLY; not new media inspection or published-version verification",
+  "source": "Existing21-video Facebook collection CATALOG.csv in prior working tree; these are recovery leads, not a fresh API/byte validation.",
+  "candidates": [
+    {
+      "id": "15",
+      "title": "Your Fingers Don’t Just Soak Up Water",
+      "download_name": "15-wrinkled-fingers.mp4",
+      "video_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/water-wrinkled-fingers-r2-4k-download-20261016/Wrinkled_Fingers_R2_4K.mp4",
+      "bytes": "466636654",
+      "duration_seconds": "36.3",
+      "width": "2160",
+      "height": "3840",
+      "sha256": "08e8010c4ee0782c5b52934953499c15c683b5b13ce0f843ed1a3f4393a9aa54",
+      "review_note": "Complete R2 native-4K recovery, superseding older posting/master copies. Preserve credits; source package containing restricted raw textures is not redistributed."
+    },
+    {
+      "id": "16",
+      "title": "Why Metal Feels Colder Than Wood",
+      "download_name": "16-cold-metal.mp4",
+      "video_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/cold-metal-full-review-20261017/Cold_Metal_Full_Review_720.mp4",
+      "bytes": "47067754",
+      "duration_seconds": "38.166667",
+      "width": "720",
+      "height": "1280",
+      "sha256": "fc403b9e2c906d4adbbb8cc8704f2b400326871925e2d1d3c31eab0bfe831d81",
+      "review_note": "Owner-approved complete 38.166667-second historical 720×1280 export. It is the complete film, unlike the 13.9-second 4K motion test. Preserve bytes; no upscale or rerender."
+    }
+  ],
+  "published_post_mapping": null,
+  "next_action": "Retrieve these existing bytes, verify recorded hash, map exact published edit/caption/audio offset to post IDs, then normal-speed picture and audible listening. Do not re-render or ask for a re-upload before checking these recovery leads."
+}

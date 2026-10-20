@@ -1,5 +1,10 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
 
+## Current audience-review checkpoint — 20 October 2026
+
+Read [the current Curio audience findings](production/audience-review/2026-10-20/CHECKPOINT.md) when planning or assessing Curio work. Latest owner instruction: **no episode is selected**; any prior Relativistic Dust selection is historical and must not resume automatically. The six-post local/universal comparison and workflow additions are **proposals pending owner approval**, not a commissioned queue. Preserve exact analytics windows/denominators,upstream evidence labels and null missing values. This review changes no production/art/voice/ending policy. Current sources declare12fpsscene/camera inside30fpsdelivery; the handoff's mention of an unseen later30fps-animation instruction is an unresolved scope conflict to resolve before animation,not a basis for silently rewriting cadence.
+
+
 ## Latest visual artwork direction — owner adopted, 20 October 2026
 
 Read [the four-test visual-art approval](production/approved-benchmarks/FOUR_TEST_VISUAL_ART_OWNER_APPROVAL_20261020.md) before new visual work. **`image-owned-editorial-v1` is the adopted art-construction standard for every new scene**, within the unchanged Sun production workflow. Exact approved versions: Concrete/Shrimp v2; Diomede/Brine corrected v2b. Images and separate components perform the explanatory operation; compose source-specific initial/intermediate/resolved states, stable anchors, intentional crops/relationships and clear label/caption space. Carry that quality through the mechanism and payoff. Reject repeated photo/title cards, unrelated entrances, placeholder mechanics and decorative motion in place of explanation. Refined diagrams may operate inside the photographic or explicitly declared conceptual-model context; do not force a paper sheet around the approved density/claw models.

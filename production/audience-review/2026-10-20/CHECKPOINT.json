@@ -1,0 +1,53 @@
+{
+  "channel": "Curio Bureau",
+  "report_version": "1.0",
+  "report_sha256": "c715bdda6dcc431427d47e90ebc06d5bf96021f911e01cf18c7c45adea48d21c",
+  "governing_repo_commit": "be31309674504cf3317b7ed014f08f9456b26258",
+  "bible_version": "1.4.9",
+  "scope": "Audience evidence integration and pending experiment/review proposals only",
+  "selected_episode": null,
+  "prior_relativistic_dust_selection": "Historical; latest user says no episode selected. Do not resume automatically.",
+  "cohort_status": "PROPOSED_PENDING_OWNER_APPROVAL",
+  "workflow_proposals_status": "PROPOSED_PENDING_OWNER_APPROVAL",
+  "media_inspection_status": "NOT PERFORMED THIS TASK",
+  "sound_audition_status": "NOT PERFORMED THIS TASK",
+  "animation_requirement": {
+    "source_declared_scene_fps": 12,
+    "source_declared_delivery_fps": 30,
+    "brand_ending_fps": 30,
+    "unquantized_audio": true,
+    "reported_later_30fps_animation_instruction": "Mentioned in handoff; exact owner wording/date/scope unavailable here",
+    "resolution_status": "UNRESOLVED_SCOPE_CONFLICT; do not silently change cadence or infer from encoding. Resolve against actual later owner instruction before any animation.",
+    "encoded_fps_is_not_scene_pose_cadence": true
+  },
+  "preserved": [
+    "Curio identity and pinned type",
+    "image-owned-editorial-v1approved four-test art",
+    "more visible appropriate texture/overlays and motivated settling focus",
+    "natural-speed Bernard",
+    "scientific rigor and source/rights labels",
+    "verified centered captions",
+    "exact london-bridge-v1ending",
+    "voice-tail/listening/whole-film/encoded QA",
+    "versioned GitHub archive and historical approved bytes"
+  ],
+  "negative_authorizations": [
+    "No episode commission or selection",
+    "No episode assets,render,publishing,rebrand,ending replacement or Black Dwarf remake",
+    "No claim proposed experiment succeeded"
+  ],
+  "unknowns": [
+    "Raw dashboards/CSV not re-inspected",
+    "Precise screenshot as-of times",
+    "Published edit/version mapping",
+    "Numerical early retention",
+    "Country-specific retention",
+    "Channel-wide country export",
+    "Complete audio/playback review",
+    "Program eligibility/revenue",
+    "Production hours",
+    "Play-time/AWT definition mismatch"
+  ],
+  "current_user_authorization": "User explicitly requested an updated internal findings/checkpoint record; this authorizes saving this evidence review. Handoff itself granted no repository/publishing changes; no proposed production policy is adopted by saving the record.",
+  "latest_instruction_time_context": "2026-10-20T12:41:13+08:00"
+}
