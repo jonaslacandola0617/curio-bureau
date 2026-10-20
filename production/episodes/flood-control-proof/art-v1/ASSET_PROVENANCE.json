@@ -1,0 +1,34 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "created": "2026-10-20",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "source_path": "assets/neighborhood-concept-v1.png",
+  "source_git_blob": "ba68d95876ea7c5731908cfce43a21d27c9d4d96",
+  "generation_prompt": "Use case: stylized-concept. Asset type: component photographic scenery plate for an original Curio Bureau engineering explainer. Create a premium photographic architectural exhibition model of a fictional Philippine riverside neighborhood, as a carefully built realistic physical cutaway model, NOT toy-like, NOT low-poly, NOT a diagram or infographic. Landscape 3:2 composition. Elevated three-quarter view, high detail and convincing materials. A deep irregular muddy river channel runs vertically through left third; the dry right bank is a continuous lightly sloping grey concrete street with five small but finely detailed lived-in Philippine masonry homes: corrugated galvanized roofs, plaster discoloration, separate windows, realistic porches, a banana tree and one small tricycle far back. On the far left water surface faint ripples, muted warm grey-brown. IMPORTANT: there is NO flood wall anywhere, no levee, no embankment structure. Bank is bare with no protection, ground dry; do not depict flooding of buildings. The river edge is a long straight-ish diagonal from lower-left to upper-middle so a separate flood wall can later be placed on that exact edge. Cutaway base exposed in foreground with layered real brown alluvial soil and dark silt, sharply visible concrete thickness; not an engineering measurement, only conceptual scenery. Background seamless deep midnight navy. Editorial studio lighting from upper left, cool overcast with warm highlights, documentary material realism, tactile concrete pores and rusted corrugated roofs, no artificial orange cinematic glow. Architectural model occupies nearly whole frame, no text, no labels, no numbers, no annotations, no logos, no maps, no scale bars, no official signs, no people. Keep all objects sharp enough for cutout work and consistent perspective. Aim a sophisticated photomontage material object that can be independently layered, not a flat vector city or a cartoon.",
+  "components": [
+    {
+      "path": "assets/neighborhood-masked.png",
+      "git_blob": "30e8472d217b5825cee10724f90c61f2c17080f2",
+      "construction": "Native boundary-connected navy background mask; original source retained"
+    },
+    {
+      "path": "assets/wall-component.png",
+      "git_blob": "29d69a4b922f4264c9b7bcef7950755e0224486c",
+      "construction": "Native authored illustrative geometry and local concrete material; not an engineering design"
+    }
+  ],
+  "disclosures": [
+    "fictional conceptual neighborhood",
+    "not a real project",
+    "not documentary imagery",
+    "not a measured hydraulic result"
+  ],
+  "fonts": {
+    "editorial": "Pinned Playfair900.ttf",
+    "functional": "Pinned variable Manrope.ttf set to weight600"
+  },
+  "rights": "No third-party full document, photo or figure republished. Short editorial quotation/paraphrase of linked JICA source only."
+}
