@@ -1,6 +1,6 @@
 {
-  "version": "four-rebuilds-v2",
-  "source_checkpoint_before_capture": "8c185d937d11bdbaed889a49c9608f5f1d80b699",
+  "version": "diomede-v2b-only",
+  "source_checkpoint_before_capture": "d02275c828576bb6b60e2594bae7947eb3f181f4",
   "files": [
     {
       "path": ".github/workflows/four-original-visual-tests-v1.yml",
@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/workflows/four-rebuilt-visual-tests-v2.yml",
-      "bytes": 1328,
-      "sha256": "0bab77dc5a22a2df6d607dea4c03ff9978700fd69327abb7d07ca859f6cdef82"
+      "bytes": 1297,
+      "sha256": "f5eeb39397b792376d1ee297d1a86668bed2d8413aa59bcdbbce744bef1e5b64"
     },
     {
       "path": "audio/curio_sfx_v1/CATALOG.csv",
@@ -279,18 +279,18 @@
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/README.md",
-      "bytes": 4713,
-      "sha256": "ef1007515bcdf41a3cea85b42793305e9d846244c415f79a4041c1fa3c33b9ce"
+      "bytes": 5258,
+      "sha256": "e3510b07395c031426bea55c61a4ca6f34f0232e17e4319c4346b29e5b2cd61b"
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/STATIC_REVIEW.json",
-      "bytes": 26041,
-      "sha256": "cae205a87a9b7de7b0c096bf7933a6dacd292f03e2b5b6f98f42363507e308d4"
+      "bytes": 26947,
+      "sha256": "7b7b8726740ec65a960100cc97308b8ee4b9375df07fc2ae3eaa1162018de539"
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/assemble.py",
-      "bytes": 807,
-      "sha256": "9fe7ad6a3863286fb2536bc767b3fd43ba8904a51514fc48b50589c978872756"
+      "bytes": 819,
+      "sha256": "38f9b8d794520abb9f44147b68953b2b6606b750a13956af15c75030ed8ea1a6"
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/assets/claw-parts.webp",
@@ -319,8 +319,8 @@
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/build.py",
-      "bytes": 4378,
-      "sha256": "c7c977d978da5fedc22bbb2994f79d2a43093f601a6c9f720013a37be0e48a93"
+      "bytes": 4448,
+      "sha256": "d75aa51d3e326e5f33fc65429a649c6351409d11a97364d6bbd22d7e187336cd"
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/prepare_audio.py",
@@ -329,13 +329,13 @@
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/render.cjs",
-      "bytes": 31529,
-      "sha256": "ff2327d97f418ec14dbae0e2b25de21c332b27d7b9249a4bbd5d7cee89ef5612"
+      "bytes": 31625,
+      "sha256": "113011923174849507e5f0807e5b330c39c6f8ed800d514d876031c2f278f8b8"
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/scenes-v2.cjs",
-      "bytes": 16459,
-      "sha256": "7e472b4a8e90afe7bbb4c716c84990be93833c25dc74d0be2b928e08047f5321"
+      "bytes": 16543,
+      "sha256": "4a7893af5cc89b61ebd18dec8ec8af06889a8128d0a47066b36a86685ac942a0"
     }
   ]
 }

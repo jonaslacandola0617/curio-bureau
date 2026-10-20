@@ -1,5 +1,5 @@
 {
-  "version": "four-rebuilds-v2",
+  "version": "diomede-v2b-only",
   "authorization": "Owner requested rebuild of all four tests and continued execution; no repeated confirmation required",
   "frames_each": 360,
   "duration_each_seconds": 12,
@@ -8,7 +8,8 @@
   "fps": 30,
   "scene_fps": 12,
   "production_standard": "sun-disappeared-v1",
-  "source_lock_sha256": "afa71c3ca3e87fc1933242c070c3217af600799c7e5f08f2bcc6c290173da5f9",
+  "source_lock_sha256": "4af91997922ad39a7eadd6c04bb9e676ef60a6eace15fefd4e36267e4a7e3420",
   "owner_creative_approval": false,
-  "dust_remains_paused": true
+  "dust_remains_paused": true,
+  "correction_scope": "Only Diomede. Other three completed v2 exports retain original frozen source."
 }

@@ -572,5 +572,30 @@
     "Diomede: remove source-photo rectangle, attach dates/crossing in map coordinates; fix dark-field folio contrast",
     "Shrimp: separate hinge rig; hard macro cut; jet socket origin; close finger before jet",
     "Brine: independent terrain collection after scale exits, no pour through glass/pan"
-  ]
+  ],
+  "encoded_correction": {
+    "topic": "02-diomede",
+    "revision": "v2b",
+    "reason": "Actual v2 caption hid changing date badge at6.7\u20136.9s",
+    "change": "Badge above caption lane with leader to source-coordinate traveller",
+    "native_review": "6.7s captioned native frame directly inspected; TUE and boundary crossing fully clear of caption.6.6,6.8,7.2s states generated.",
+    "states": [
+      {
+        "time": 6.6,
+        "sha256": "c5ea805739d7767423a911ffd5cfbf7c5347eb3561faffa3bca34291dd31cbd0"
+      },
+      {
+        "time": 6.7,
+        "sha256": "13b52aa2cf8f98f0402e245b02ea36fd65b68682ca25c2aeb79eaa2e523cf160"
+      },
+      {
+        "time": 6.8,
+        "sha256": "e0efee22c85e8c3ae7c8f6ba2e206a4bdbaca19fdcb5f1d08162d073e5fc41b4"
+      },
+      {
+        "time": 7.2,
+        "sha256": "866ac0299d0b76ab77a67f6f1cd7de3fca2a042e6ffafb302f9da08396b0e2f1"
+      }
+    ]
+  }
 }

@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
       max-parallel: 4
       matrix:
-        topic: [01-concrete,02-diomede,03-shrimp,04-brine]
+        topic: [02-diomede]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
