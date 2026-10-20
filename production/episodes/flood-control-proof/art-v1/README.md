@@ -17,3 +17,5 @@ Status: static art ready for owner review. Natural Bernard, word-aligned caption
 The generated neighborhood is a labeled conceptual illustration. The separately constructed wall changes only one comparison case; the same home entrance is sampled in both. Unknown depth remains unknown. No hydraulic simulation, real project or measured protection result is depicted.
 
 Rebuild with Python/Pillow/numpy/scipy and pinned repository fonts using render_review.py. Existing opening is an archived input; renderer builds the other six PNGs and board. It is a static-review compositor, not an animation engine.
+
+Generation prompt, original/native-component distinctions and font settings are recorded in [asset provenance](ASSET_PROVENANCE.json). [Public download QA](PUBLIC_DOWNLOAD_QA.json) verified all eight review image byte counts and SHA-256 hashes against the rendered receipt; this verifies archival integrity only.
