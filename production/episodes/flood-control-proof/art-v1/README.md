@@ -1,17 +1,19 @@
-# Flood-control proof — art review checkpoint
+# Flood-control proof — actual art review v1
 
-Owner-selected episode. Actual saved opening and independently addressable components:
+Owner-selected episode: **How do you prove a flood-control project actually protects anyone?**
 
-![Opening](review/01-opening.png)
+![Six-frame review board](review/review-board.jpg)
 
-[Original conceptual scenery](assets/neighborhood-concept-v1.png) · [Masked scenery](assets/neighborhood-masked.png) · [Independent wall](assets/wall-component.png)
+## Connected demanding passage
 
-[Narration draft](../brief/NARRATIVE.md) · [Sources and limits](../research/CLAIMS_AND_SOURCES.md) · [Owner selection](../brief/OWNER_SELECTION.md)
+[Initial: one place](review/02-initial.png) → [Intermediate: project alternatives](review/02-intermediate.png) → [Resolved: same home entrance sampled](review/02-resolved.png).
 
-Status: static art review; voice, aligned captions, motion, sound, actual focus hunts and final film NOT STARTED. Owner art approval pending. Other previously rendered review states are being recovered; do not claim all are archived at this checkpoint. No movie rendered.
+[Heading-hidden proof](review/02-resolved-heading-hidden.png) keeps necessary labels. Other compositions: [opening](review/01-opening.png), [evidence excerpt](review/03-evidence.png), [return to the homes](review/04-payoff.png).
 
-Scene design: same neighborhood → registered with/without-project pair → remove wall from only one case → select identical doorway. Preserve storm/asset comparability; leave depth unknown rather than inventing protection. Bring comparison into the opening sequence rather than holding while captions alone advance. Then actual evidence inspection and return to homes. Actual voice will set times.
+[Narration draft](../brief/NARRATIVE.md) · [Sources/limits](../research/CLAIMS_AND_SOURCES.md) · [Owner selection](../brief/OWNER_SELECTION.md) · [Sequence and review](REVIEW.md) · [Frame hashes](RENDER_RECEIPT.json) · [Production status](../PRODUCTION_STATUS.json)
 
-The conceptual model's roofs, plaster, soil and water retain material identity; the wall is a separate native component with its own texture/seams. No false parallax claim: deeper camera moves need additional separation and repaired hidden regions. Temporal finishing must be checked in actual encoded phone playback; static texture is not that pass.
+Status: static art ready for owner review. Natural Bernard, word-aligned captions, motion, temporal focus hunts, original score, selected SFX, listening and complete encoded film remain pending. No movie has been rendered. Your selected topic supersedes the earlier no-selection checkpoint; previous candidates are historical.
 
-Required art gate: [VISUAL_TRANSLATION_REVIEW.md](../../../art-direction/VISUAL_TRANSLATION_REVIEW.md): “Only recorded approval of this actual version permits animation.” Moving and whole-film approval remain separate.
+The generated neighborhood is a labeled conceptual illustration. The separately constructed wall changes only one comparison case; the same home entrance is sampled in both. Unknown depth remains unknown. No hydraulic simulation, real project or measured protection result is depicted.
+
+Rebuild with Python/Pillow/numpy/scipy and pinned repository fonts using render_review.py. Existing opening is an archived input; renderer builds the other six PNGs and board. It is a static-review compositor, not an animation engine.
