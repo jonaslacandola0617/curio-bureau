@@ -1,0 +1,39 @@
+{
+  "candidate": "v4b",
+  "owner_approved": false,
+  "technical": {
+    "width": 1080,
+    "height": 1920,
+    "delivery_fps": "30/1",
+    "authored_scene_fps": 12,
+    "duration_s": 24,
+    "frames": 720,
+    "audio_streams": 0
+  },
+  "inspection": {
+    "encoded_samples_viewed": 48,
+    "sampling_interval_s": 0.5,
+    "heading_hidden_comparison": true,
+    "native_event_frame_viewed": true,
+    "full_manual_playback": false,
+    "sound_auditioned": false
+  },
+  "fixed_after_first_encode": [
+    "source inspection crop/leader registration",
+    "without-project label during removal",
+    "actual-source label placed above field photo",
+    "staged payoff evidence groups"
+  ],
+  "limits": [
+    "not a hydraulic model or calculated project benefit",
+    "actual source photo remains low resolution",
+    "no Bernard audio or verified word timings in this study",
+    "final film QA and cadence conflict unresolved"
+  ],
+  "public_download": {
+    "url": "https://raw.githubusercontent.com/jonaslacandola0617/curio-bureau/35df5891e4f45eef0408f3a9314e18bf3666356d/production/episodes/flood-control-proof/art-v4/Flood-Proof-Visual-Study-v4b.mp4",
+    "bytes": 4603863,
+    "sha256": "ecf045bb07ff851da24b868548ca408211d49ef8d843a876099fe6636ea3022a",
+    "matches_local": true
+  }
+}

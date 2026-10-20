@@ -1,0 +1,74 @@
+[
+  {
+    "file": "full-parties-00.gif",
+    "dimensions": [
+      1400,
+      408
+    ],
+    "frames": 112,
+    "duration_ms": 11200,
+    "sha256": "4ff6fc3642022a17ca753f247943e831a304f9361f7531c012ed6ce966b90eed",
+    "inspection": "12 sampled states and selected native frames; not full-film playback",
+    "url": "https://cdn.myportfolio.com/242383c621d82d484976a9f618f916bc/aabcb6d4-06e7-4054-ba08-b78932abca91.gif?h=164303f02388dae40e7249a4bc54d336"
+  },
+  {
+    "file": "full-parties-01.gif",
+    "dimensions": [
+      1400,
+      474
+    ],
+    "frames": 91,
+    "duration_ms": 9100,
+    "sha256": "82607919041bad8c13c85308ab9fd7864fd2358097e4e5e868e3f1a44796913f",
+    "inspection": "12 sampled states and selected native frames; not full-film playback",
+    "url": "https://cdn.myportfolio.com/242383c621d82d484976a9f618f916bc/2db0e1d0-5da5-42ec-995a-12e1804f6eef.gif?h=c483497fd97304dbfff9e5e2be586441"
+  },
+  {
+    "file": "full-parties-02.gif",
+    "dimensions": [
+      1400,
+      788
+    ],
+    "frames": 47,
+    "duration_ms": 4700,
+    "sha256": "1bf40dfd2129733b0f096af70555a0f09c39eab5bf1bf38df2e3bf9bc7b7cb15",
+    "inspection": "12 sampled states and selected native frames; not full-film playback",
+    "url": "https://cdn.myportfolio.com/242383c621d82d484976a9f618f916bc/d0496542-605e-4ead-9992-9eeb19abb41c.gif?h=5e49f9a95e845a241a52094e7346a9db"
+  },
+  {
+    "file": "full-parties-03.gif",
+    "dimensions": [
+      1400,
+      788
+    ],
+    "frames": 47,
+    "duration_ms": 4700,
+    "sha256": "4d474ca989580fc5e92d24eb426ae38bcf34150a750eae38e9f4b23f7b59f272",
+    "inspection": "12 sampled states and selected native frames; not full-film playback",
+    "url": "https://cdn.myportfolio.com/242383c621d82d484976a9f618f916bc/9d66a078-60f0-44fb-8685-2b62a8e5effe.gif?h=964bb2b2587a3772e946b7082914ca44"
+  },
+  {
+    "file": "epi-small-0.gif",
+    "dimensions": [
+      600,
+      450
+    ],
+    "frames": 65,
+    "duration_ms": 6500,
+    "sha256": "5a9c9d07818f54a14d3cd155d84986acfdc3fb57a4b33bc6c82bb55d6cd60ebf",
+    "inspection": "12 sampled states and selected native frames; not full-film playback",
+    "url": "https://cdn.myportfolio.com/242383c621d82d484976a9f618f916bc/eb0be3d9-f620-4531-b6be-126751e15e9a_rw_600.gif?h=d6719d6b42d98991d8350c6ee328b751"
+  },
+  {
+    "file": "epi-small-1.gif",
+    "dimensions": [
+      600,
+      450
+    ],
+    "frames": 50,
+    "duration_ms": 5000,
+    "sha256": "779ca6e4139fcd33c1464edb11fc4d740e9e721bdd68f6463574379eab3f4e74",
+    "inspection": "12 sampled states and selected native frames; not full-film playback",
+    "url": "https://cdn.myportfolio.com/242383c621d82d484976a9f618f916bc/80472b10-dae9-4b93-af18-1c8c5252558a_rw_600.gif?h=277da7474515f46df46eac563a03a300"
+  }
+]
