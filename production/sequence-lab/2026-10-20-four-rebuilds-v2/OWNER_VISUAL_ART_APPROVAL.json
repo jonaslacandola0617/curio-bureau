@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "visual_art_standard": "image-owned-editorial-v1",
+  "owner_approval_date": "2026-10-20",
+  "owner_message_time_context": "2026-10-20T12:21:49+08:00",
+  "owner_statement_verbatim": "Okay, this is good and definitely better. Save this and digest it this is how i want our visual arts to be made, save this in the infrastrucure. For the final touch it should have more obvjous texture and overlays and othet techniques likee focus hunt etc you know the usual but since this is only a visual art work i will approve this already this is how every visuals of our video should be. SAVE THIS DIGEST IT DO NOT FORGET IT MASTER THIS KIND OF VISUAL ARTWORK AND HOPEFULLY WE DONT GO BACK TO THE STALE UNCREATIVE WAY OF CREATING A VISUA ARTWORK",
+  "approval_scope": "Visual artwork and explanatory visual construction of the four delivered tests, adopted for every new Curio visual.",
+  "owner_visual_art_approved": true,
+  "owner_full_film_release_approval": false,
+  "finishing_status": "Future production must make material texture/overlays more obvious and retain applicable usual optical techniques, including brief motivated focus hunts. This is not approval of the existing tests as a finished finishing ceiling.",
+  "approved_exports": [
+    {
+      "id": "01-concrete",
+      "movie_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-roman-concrete-v2-20261020/Curio-Test-01-Roman-Concrete-12s-v2.mp4",
+      "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/visual-test-roman-concrete-v2-20261020",
+      "sha256": "b0b5082327795474204ef3baa01014dc2989ba43dbf1973b7ac502a122b9ff68",
+      "bytes": 15423444,
+      "asset_id": 658124136,
+      "provider_digest": "sha256:b0b5082327795474204ef3baa01014dc2989ba43dbf1973b7ac502a122b9ff68",
+      "source_commit": "d02275c828576bb6b60e2594bae7947eb3f181f4"
+    },
+    {
+      "id": "02-diomede",
+      "movie_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-diomede-date-line-v2b-20261020/Curio-Test-02-Diomede-Date-Line-12s-v2b.mp4",
+      "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/visual-test-diomede-date-line-v2b-20261020",
+      "sha256": "eec72d82a5069b63b7ecc1207f180266f97ec6029f91fe3810500c4e9613552a",
+      "bytes": 17381780,
+      "asset_id": 658135948,
+      "provider_digest": "sha256:eec72d82a5069b63b7ecc1207f180266f97ec6029f91fe3810500c4e9613552a",
+      "source_commit": "013623b9e9b4a1ab2d88f462e35c0cd75aefdd43"
+    },
+    {
+      "id": "03-shrimp",
+      "movie_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-pistol-shrimp-v2-20261020/Curio-Test-03-Pistol-Shrimp-12s-v2.mp4",
+      "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/visual-test-pistol-shrimp-v2-20261020",
+      "sha256": "8740a9d0067d809517d849d74af6d5586920215e07733d8b6f22ee9c4640eb9b",
+      "bytes": 17412331,
+      "asset_id": 658123571,
+      "provider_digest": "sha256:8740a9d0067d809517d849d74af6d5586920215e07733d8b6f22ee9c4640eb9b",
+      "source_commit": "d02275c828576bb6b60e2594bae7947eb3f181f4"
+    },
+    {
+      "id": "04-brine",
+      "movie_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-underwater-brine-lake-v2b-20261020/Curio-Test-04-Underwater-Brine-Lake-12s-v2b.mp4",
+      "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/visual-test-underwater-brine-lake-v2b-20261020",
+      "sha256": "bf93cf23d1cf68ee8aa58f50d56bd8cbc90ffb70eadac4701fb6564888b1d7c1",
+      "bytes": 16128256,
+      "asset_id": 658138534,
+      "provider_digest": "sha256:bf93cf23d1cf68ee8aa58f50d56bd8cbc90ffb70eadac4701fb6564888b1d7c1",
+      "source_commit": "304425c7f21ab5b57bd37e2b8e21873d6454ba55"
+    }
+  ],
+  "delivery_record_commit": "e8d9f287ade93201682389d4555392eb10dc2307",
+  "delivery_record_url": "https://github.com/jonaslacandola0617/curio-bureau/blob/e8d9f287ade93201682389d4555392eb10dc2307/production/sequence-lab/2026-10-20-four-rebuilds-v2/FINAL_DELIVERY.json",
+  "production_standard": "sun-disappeared-v1",
+  "scope_precedence": "This is the latest owner visual-art direction within the Sun production workflow. It governs art construction; it does not replace12fps scene time,30fps native posting delivery,meaningful changes every1.5–2seconds,brand,voice,audio,caption,source,ending or archive rules.",
+  "historical_status": {
+    "four_original_tests_v1": "Owner rejected; not approved by this message.",
+    "initial_diomede_brine_v2": "Superseded by corrected selected v2b exports; not selected benchmarks.",
+    "prior_test_candidate_records": "Immutable snapshots from before this approval; read alongside this later approval.",
+    "ghost_army_v1_v4": "Remain rejected.",
+    "black_dwarf_proof": "Historical proof, not a replacement art standard."
+  },
+  "topic_selection": "Relativistic Dust remains the selected paused next real topic; this approval does not restart it or select one of the four test topics. Nine saved captions remain historical candidates.",
+  "governing_main_commit": "be31309674504cf3317b7ed014f08f9456b26258",
+  "governing_main_record_url": "https://github.com/jonaslacandola0617/curio-bureau/blob/be31309674504cf3317b7ed014f08f9456b26258/production/approved-benchmarks/FOUR_TEST_VISUAL_ART_OWNER_APPROVAL_20261020.md"
+}
