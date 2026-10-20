@@ -1,0 +1,38 @@
+{
+  "review/03-foundation-reveal.jpg": {
+    "bytes": 904160,
+    "sha256": "9be47694d8333741bd2047219e6c46ca6ac61240e497bfe3b61f7f224dbacde0"
+  },
+  "review/02-wall-visible.jpg": {
+    "bytes": 952768,
+    "sha256": "f47c474f7e1bd9af295b641cbbd67deb85fe21265f63c6ccae6bd6b994cff076"
+  },
+  "review/wall-operation-states.jpg": {
+    "bytes": 524930,
+    "sha256": "30f22c0c27ae72f0eea25bd0b9cf98905d0ef79897f7a6155fc43ccfbf8b9139"
+  },
+  "review/05-home-after-water.jpg": {
+    "bytes": 852399,
+    "sha256": "896a341eac7fd573e012b651631866a98c0848b6d88745c66debbc1065a978d9"
+  },
+  "review/04-overtopping.jpg": {
+    "bytes": 931854,
+    "sha256": "f3d90a3e10c73292eebd667478d1c4263220053a6afebca89b6610df1cb9a9aa"
+  },
+  "review/art-v2-triptych.jpg": {
+    "bytes": 452021,
+    "sha256": "7e82c6206106cbdff76dce5302d3997e32a7722f7b6de73c69f75acfdf2edbb6"
+  },
+  "review/01-home-water.jpg": {
+    "bytes": 670190,
+    "sha256": "1339718972c313eb7b18cff010882e1c51a51a2dc5b55a47bfeda4bda4549db2"
+  },
+  "review/06-matched-inputs.jpg": {
+    "bytes": 659577,
+    "sha256": "84bd579c5a669dd8908f628a2a2e438c7fd70c8389be834ca785dee3057999ff"
+  },
+  "review/04-overtopping-heading-hidden.jpg": {
+    "bytes": 900640,
+    "sha256": "6bfa4d9c9e63fcb9882b28f91ea9521b624462460e0ed37d1919ce1c1da00362"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "synthetic teaching geometry only",
+  "unit_depth_input_area": 40000.0,
+  "with_project_surface_y": 357.77777777777777,
+  "without_project_surface_y": 416.1904761904762,
+  "with_project_area": 40000.0,
+  "without_project_area": 39999.99999999999,
+  "no_actual_project_result": true
+}
