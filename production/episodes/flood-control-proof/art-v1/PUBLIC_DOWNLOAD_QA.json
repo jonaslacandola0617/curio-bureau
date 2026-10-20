@@ -1,0 +1,54 @@
+{
+  "commit": "6e70ae992a872587afdf2b413ae28caad4de1660",
+  "scope": "Public downloaded static review images only; no film/voice/motion/audio QA",
+  "results": [
+    {
+      "name": "01-opening.png",
+      "bytes": 1484094,
+      "sha256": "72bcd54f61c67ee67c5ed101f067032010f63c54fdb01bf9f72fde0ab22d48c5",
+      "public_download": "MATCH"
+    },
+    {
+      "name": "02-initial.png",
+      "bytes": 1467097,
+      "sha256": "328b8330ee59c5d097c2ab1244a6d9cf260baaf6aab846a6a28b593ce485300c",
+      "public_download": "MATCH"
+    },
+    {
+      "name": "02-intermediate.png",
+      "bytes": 2519099,
+      "sha256": "9715cb4324b5e124c36d28ae8ff9bfaa383c41e75c93554c6a557886c5eb6861",
+      "public_download": "MATCH"
+    },
+    {
+      "name": "02-resolved-heading-hidden.png",
+      "bytes": 2477783,
+      "sha256": "94a5fdaa4feefad44b184c2408f19868083e7bbae8983e346bad02843a6839f2",
+      "public_download": "MATCH"
+    },
+    {
+      "name": "02-resolved.png",
+      "bytes": 2487199,
+      "sha256": "d62a6c9e78a0b19d7ad95f60e95be7589223e3aa917e9183b2c6640bfa601de5",
+      "public_download": "MATCH"
+    },
+    {
+      "name": "03-evidence.png",
+      "bytes": 524211,
+      "sha256": "25e98d3f1ed32132877df529c9a557b8d90cd762b1adbf0b39f77c15319bf6a1",
+      "public_download": "MATCH"
+    },
+    {
+      "name": "04-payoff.png",
+      "bytes": 1863757,
+      "sha256": "b7412986a59c8090e89e4487141084c5c8cd43c91a59c35f5eba8fa1841c5f76",
+      "public_download": "MATCH"
+    },
+    {
+      "name": "review-board.jpg",
+      "bytes": 534114,
+      "sha256": "563901ad654a6eadd18b1570cbacb810d12a11183d4146e40474e5df9615d79a",
+      "public_download": "MATCH"
+    }
+  ]
+}
