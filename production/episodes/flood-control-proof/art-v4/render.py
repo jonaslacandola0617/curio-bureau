@@ -66,7 +66,12 @@ def scene(k,u,headings=True):
    tx(im,(58,190),'Built.',128,IVORY,True)
    ImageDraw.Draw(im).rectangle((48,350,710,475),fill=GOLD)
    tx(im,(58,340),'Protected?',105,NAVY,True)
-  v=ease((t-.5)/2.4);lens(im,hero,(530,450,1000,950),(780-100*v,1300-100*v),180)
+  v=ease((t-.5)/2.4);sx=520+380*v;sy=575+225*v
+  # An inspection inset follows an actual source point; its leader shares that mapping.
+  scale=1250/hero.width;crop_y=(hero.height*scale-1680)/2
+  target=(-110+sx*scale,140+sy*scale-crop_y)
+  ImageDraw.Draw(im).line((target[0],target[1],750,1165),fill=GOLD,width=3)
+  lens(im,hero,(sx-120,sy-120,sx+120,sy+120),(750,1350),180)
   caption(im,'A visible wall is not a measure of protection.')
   tag(im,(58,1650),'FICTIONAL MODEL',n=23)
   return finish(im,'The question is the benefit—not only the structure.')
@@ -89,7 +94,7 @@ def scene(k,u,headings=True):
    if not has and t<1.8:
     # The second scenario initially inherits the same project; remove only its material.
     keep=wmask.copy();ImageDraw.Draw(keep).rectangle((0,0,1000,round(1000*ease((t-.4)/1.1))),fill=0);mo.paste(models[True],(0,0),keep)
-   place(im,mo,(58,y,964,560));tag(im,(78,y+18),'WITH PROJECT'if has else'WITHOUT PROJECT',GOLD if has else CORAL,26)
+   place(im,mo,(58,y,964,560));tag(im,(78,y+18),'WITH PROJECT'if has else('REMOVE PROJECT'if t<1.6 else'WITHOUT PROJECT'),GOLD if has else CORAL,26)
    for n in range(17):
     x=100+n*54;yy=y+100+int((t*80+n*31)%390);ImageDraw.Draw(im).line((x,yy,x-9,yy+31),fill=(235,241,234),width=2)
   caption(im,'Hold the other starting conditions comparable.')
@@ -99,10 +104,12 @@ def scene(k,u,headings=True):
   im=base();place(im,paper,(530,640,560,1080),angle=-8)
   # Actual site image replaces the conceptual model. The source remains distinct.
   place(im,field,(30,480,1020,635),angle=0)
-  v=ease((t-.5)/1.6);lens(im,field,(330,70,390,250),(770-180*v,1260+90*v),230)
+  v=ease((t-.5)/1.6);cx=770-180*v;cy=1260+90*v
+  ImageDraw.Draw(im).line((850,880,cx,cy-230),fill=GOLD,width=3)
+  lens(im,field,(330,70,390,250),(cx,cy),230)
   if headings:lines(im,(58,145),['Check the','field evidence.'],82)
   caption(im,'Then test estimates against real observations.')
-  tag(im,(58,1560),'ACTUAL IMUS SOURCE PHOTO · JICA / DPWH',n=22)
+  tag(im,(58,425),'ACTUAL IMUS SOURCE PHOTO · JICA / DPWH',n=22)
   ImageDraw.Draw(im).rectangle((0,1635,1080,1710),fill=NAVY)
   tx(im,(58,1650),'A warning marker is not a continuous gauge record.',28,IVORY)
   return finish(im,'JICA FY2023 evaluation · printed p.15, Photo 3')
@@ -121,13 +128,13 @@ def scene(k,u,headings=True):
   tx(im,(58,1650),'Imus finding ≠ a verdict on every flood project.',28,NAVY)
   return finish(im,'JICA FY2023 · study Aug 2023–Nov 2024 · pp.1, 14–15',True)
  im=base();place(im,model(u,True),(650,150,500,620),angle=-7)
- place(im,field,(600,1110,530,540),angle=0)
- place(im,paper,(58,1380,400,350),angle=3)
+ place(im,field,(600,1110,530,540),angle=0,alpha=ease((t-.8)/.6))
+ place(im,paper,(58,1380,400,350),angle=3,alpha=ease((t-1.8)/.6))
  if headings:
   lines(im,(58,180),['Ask for','the proof.'],92)
   lines(im,(58,725),['How much risk','is reduced?'],45,GOLD,False)
-  lines(im,(58,1160),['Who','benefits?'],61,IVORY,True)
-  lines(im,(520,1670),['How verified?'],49,IVORY,True)
+  if t>=.8:lines(im,(58,1160),['Who','benefits?'],61,IVORY,True)
+  if t>=1.8:lines(im,(520,1670),['How verified?'],49,IVORY,True)
  caption(im,'How much safer—and how do you know?')
  return finish(im,'Modelled benefit + field checks + transparent limitations')
 TIMES=[2.6,6.6,10.6,14.6,19.3,22.5]
@@ -139,7 +146,7 @@ if __name__=='__main__':
  board.save(O/'complete-sequence-board.jpg',quality=96)
  scene(2,.6,False).save(O/'heading-hidden-comparison.jpg',quality=96)
  if '--video' in sys.argv:
-  out=P/'Flood-Proof-Visual-Study-v4.mp4'
+  out=P/'Flood-Proof-Visual-Study-v4b.mp4'
   cmd=['ffmpeg','-hide_banner','-loglevel','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s','1080x1920','-r','12','-i','-','-vf','fps=30','-c:v','libx264','-preset','fast','-crf','18','-maxrate','16M','-bufsize','32M','-pix_fmt','yuv420p','-movflags','+faststart',str(out)]
   proc=subprocess.Popen(cmd,stdin=subprocess.PIPE)
   for i in range(288):
