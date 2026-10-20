@@ -1,0 +1,131 @@
+{
+  "source_commits": {
+    "01-concrete": "d02275c828576bb6b60e2594bae7947eb3f181f4",
+    "02-diomede": "013623b9e9b4a1ab2d88f462e35c0cd75aefdd43",
+    "03-shrimp": "d02275c828576bb6b60e2594bae7947eb3f181f4",
+    "04-brine": "304425c7f21ab5b57bd37e2b8e21873d6454ba55"
+  },
+  "owner_creative_approval": false,
+  "review_method": "Direct visual inspection of actual public-download contact sheets, dense critical joins, native encoded frames and representative conservative platform-control overlay. No independent normal-speed playback/listening approval claimed.",
+  "endcard_comparison": [
+    {
+      "against": "01-concrete",
+      "id": "01-concrete",
+      "mean_absolute_rgb_delta": 0.0,
+      "note": "Posting MP4s are lossy; exact original brand source hash is frozen, decoded pixel equality is not expected."
+    },
+    {
+      "against": "01-concrete",
+      "id": "02-diomede",
+      "mean_absolute_rgb_delta": 0.04018920287489891,
+      "note": "Posting MP4s are lossy; exact original brand source hash is frozen, decoded pixel equality is not expected."
+    },
+    {
+      "against": "01-concrete",
+      "id": "03-shrimp",
+      "mean_absolute_rgb_delta": 0.039219070225954056,
+      "note": "Posting MP4s are lossy; exact original brand source hash is frozen, decoded pixel equality is not expected."
+    },
+    {
+      "against": "01-concrete",
+      "id": "04-brine",
+      "mean_absolute_rgb_delta": 0.03944508731365204,
+      "note": "Posting MP4s are lossy; exact original brand source hash is frozen, decoded pixel equality is not expected."
+    }
+  ],
+  "items": [
+    {
+      "id": "01-concrete",
+      "observed": "Matching photographic surfaces open; liquid stays in alpha-derived void. Suspended mineral marks precede textured wall growth. Growth bridges same gap by8.6s. Crisp centered captions retained.",
+      "hardest_join": "6.7\u20138.8s, dense encoded states",
+      "limitation": "Accelerated conceptual deposition and simplified facets, not measured growth footage."
+    },
+    {
+      "id": "02-diomede",
+      "observed": "Two source-pixel coast cutouts and date line retain one shared geographic transform; no rectangular source-photo border. Example date follows traveller and changes as it crosses. Dark-field masthead contrast fixed.",
+      "hardest_join": "6.3\u20137.25s, dense encoded states",
+      "limitation": "Enlarged NASA source is softer; source-pixel coastline selection and boundary are approximate. No continuous exact time-offset claim."
+    },
+    {
+      "id": "03-shrimp",
+      "observed": "Whole specimen cuts cleanly to separate fixed/movable photographic claw rig. Finger rotates before socket-origin projected jet. Cavity grows, collapses, then pressure pulse expands. No old specimen ghost.",
+      "hardest_join": "2.17\u20132.33s macro cut;5\u20135.5s closure/jet;8\u20138.5s collapse/pulse",
+      "limitation": "External generated hinge rig is conceptual, not exact measured anatomy; cavity is enlarged/slowed/projected."
+    },
+    {
+      "id": "04-brine",
+      "observed": "Real NOAA lake gives way to declared conceptual terrain. Equal-volume balance tips on brine side; complete scale comparison exits before independent bank flow. Brine region grows in basin; no pour through closed glass/pan.",
+      "hardest_join": "6.6\u20137.4s comparison exit;7.8\u20139s terrain collection",
+      "limitation": "Generated terrain is not NOAA bathymetry; assigned colors and balance are explanatory."
+    }
+  ],
+  "cross_cutting_findings": [
+    "Photographic material detail, moving grain and localized focus settle without blurred text supports.",
+    "Centered captions stay clear of conservative right/bottom platform-control zones in representative encoded states; this is a proxy, not a live device test.",
+    "Source dialogue ends9.16/9.16/9.16/9.24s before10.9s endcard start; all source samples retained at natural speed.",
+    "All four actual public-download MP4 hashes match provider/archive digests;360decodednativeframes each. All12remote lossless chunks match recovery ranges, sizes and provider digests.",
+    "These are owner-requested rebuilt tests, not a new adopted production standard or proof of Vox mastery.57-item scoped look-back explicitly retains limitations."
+  ],
+  "contact_sheets": [
+    {
+      "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/review/01-concrete-join.jpg",
+      "bytes": 210190,
+      "sha256": "4d023080f5287fbf3e38c399e079cbca12d91b49a843ca2a0ea45be177fffe63",
+      "derived_from_public_download_review": true,
+      "original_contact_sha256": "7d3239d2a20aa0a2d8ac3e24e962eb11c95edeec010616e8cd8a7ec4ab73f283"
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/review/01-concrete-overview.jpg",
+      "bytes": 258917,
+      "sha256": "1c03f7a59fe57528fee2b210b61e5578875cf05c6a19663cafcff4d6725e599b",
+      "derived_from_public_download_review": true,
+      "original_contact_sha256": "8f05ebdf4002308b4d6d7d55a24be9b93cca821e8a3d64e268e82f7b46c35b30"
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/review/02-diomede-join.jpg",
+      "bytes": 126723,
+      "sha256": "ed2a6452623117ffd97688aa49e8aa89f31c77d1c08ec9cfb2a0dd92228e5e80",
+      "derived_from_public_download_review": true,
+      "original_contact_sha256": "20334aca886b85bd2f2837ef0ea8d847deed14bc30e6b4e381e0187a8a16afab"
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/review/02-diomede-overview.jpg",
+      "bytes": 156751,
+      "sha256": "87481a0cb57e96ef75e87e99b557d76d0780af8454d6d5caf4b1fa7d85110e04",
+      "derived_from_public_download_review": true,
+      "original_contact_sha256": "2c991344581c0f26d71d0cd60c4e0c35db46ec6f1049164c01b0d1625dc405b9"
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/review/03-shrimp-join.jpg",
+      "bytes": 127350,
+      "sha256": "248afe038bcc6b93011d3d4475e5b3d51d3c13a7e97649de132e4634c7419413",
+      "derived_from_public_download_review": true,
+      "original_contact_sha256": "cd120bba2c0c553e6d51d85dda88d302aebe692ea5ed970dd540a0e46d201756"
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/review/03-shrimp-overview.jpg",
+      "bytes": 118207,
+      "sha256": "0f92a5875682455f6adc6da1a27f9ed6a64a35d5e1c5a09a0e7cc1e5b281444d",
+      "derived_from_public_download_review": true,
+      "original_contact_sha256": "a1450bfef68ddd560cb8ab47ebd8d3a17640b1754a20c3579ec988ce7343cf5f"
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/review/04-brine-join.jpg",
+      "bytes": 188716,
+      "sha256": "3930c7b05125cb4be4f89b78e40091117e1904c8d39c18abf4f2a3bfb80ffc5d",
+      "derived_from_public_download_review": true,
+      "original_contact_sha256": "a9107f2b73571024353db720a685bb890c9f37066b802aa4e68f282ed5b4589a"
+    },
+    {
+      "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/review/04-brine-overview.jpg",
+      "bytes": 178688,
+      "sha256": "6e7e4a33b1282444d7b7511b062d434fcfce456f0958d27a214037346617659e",
+      "derived_from_public_download_review": true,
+      "original_contact_sha256": "8c37492b69625b5bccfd92efbdc936e5db62df3a0fba7b58503918e9e531e1f6"
+    }
+  ],
+  "corrected_export_findings": [
+    "Diomede v2b6.7s TUE badge and boundary crossing directly inspected at native resolution; changing badge stays above caption.",
+    "Brine v2b5.5s platform-overlay image and dense states inspected; MORE MASS label is now above vessel and clear of caption."
+  ]
+}

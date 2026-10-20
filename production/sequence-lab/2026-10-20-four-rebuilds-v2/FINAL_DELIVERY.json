@@ -1,0 +1,58 @@
+{
+  "selected_exports": [
+    {
+      "id": "01-concrete",
+      "movie_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-roman-concrete-v2-20261020/Curio-Test-01-Roman-Concrete-12s-v2.mp4",
+      "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/visual-test-roman-concrete-v2-20261020",
+      "sha256": "b0b5082327795474204ef3baa01014dc2989ba43dbf1973b7ac502a122b9ff68",
+      "bytes": 15423444,
+      "asset_id": 658124136,
+      "provider_digest": "sha256:b0b5082327795474204ef3baa01014dc2989ba43dbf1973b7ac502a122b9ff68",
+      "source_commit": "d02275c828576bb6b60e2594bae7947eb3f181f4"
+    },
+    {
+      "id": "02-diomede",
+      "movie_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-diomede-date-line-v2b-20261020/Curio-Test-02-Diomede-Date-Line-12s-v2b.mp4",
+      "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/visual-test-diomede-date-line-v2b-20261020",
+      "sha256": "eec72d82a5069b63b7ecc1207f180266f97ec6029f91fe3810500c4e9613552a",
+      "bytes": 17381780,
+      "asset_id": 658135948,
+      "provider_digest": "sha256:eec72d82a5069b63b7ecc1207f180266f97ec6029f91fe3810500c4e9613552a",
+      "source_commit": "013623b9e9b4a1ab2d88f462e35c0cd75aefdd43"
+    },
+    {
+      "id": "03-shrimp",
+      "movie_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-pistol-shrimp-v2-20261020/Curio-Test-03-Pistol-Shrimp-12s-v2.mp4",
+      "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/visual-test-pistol-shrimp-v2-20261020",
+      "sha256": "8740a9d0067d809517d849d74af6d5586920215e07733d8b6f22ee9c4640eb9b",
+      "bytes": 17412331,
+      "asset_id": 658123571,
+      "provider_digest": "sha256:8740a9d0067d809517d849d74af6d5586920215e07733d8b6f22ee9c4640eb9b",
+      "source_commit": "d02275c828576bb6b60e2594bae7947eb3f181f4"
+    },
+    {
+      "id": "04-brine",
+      "movie_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/visual-test-underwater-brine-lake-v2b-20261020/Curio-Test-04-Underwater-Brine-Lake-12s-v2b.mp4",
+      "release_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/tag/visual-test-underwater-brine-lake-v2b-20261020",
+      "sha256": "bf93cf23d1cf68ee8aa58f50d56bd8cbc90ffb70eadac4701fb6564888b1d7c1",
+      "bytes": 16128256,
+      "asset_id": 658138534,
+      "provider_digest": "sha256:bf93cf23d1cf68ee8aa58f50d56bd8cbc90ffb70eadac4701fb6564888b1d7c1",
+      "source_commit": "304425c7f21ab5b57bd37e2b8e21873d6454ba55"
+    }
+  ],
+  "frames_each": 360,
+  "duration_seconds_each": 12,
+  "native_dimensions": [
+    1080,
+    1920
+  ],
+  "delivery_fps": 30,
+  "scene_fps": 12,
+  "status": "OWNER_REVIEW_CANDIDATES",
+  "owner_art_approval": false,
+  "adopted_benchmark": "sun-disappeared-v1",
+  "selected_next_real_topic": "Relativistic Dust \u2014 remains paused",
+  "old_candidate_captions": "Nine historical captions preserved, not a selected next-topic queue",
+  "qa": "Actual public-download hashes/probes/decode and dense encoded-state visual review; no independent normal-speed playback/listening approval claimed."
+}

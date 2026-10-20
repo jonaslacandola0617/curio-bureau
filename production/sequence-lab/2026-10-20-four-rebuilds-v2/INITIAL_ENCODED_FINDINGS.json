@@ -1,0 +1,21 @@
+{
+  "source_commit": "d02275c828576bb6b60e2594bae7947eb3f181f4",
+  "status": "Concrete/Shrimp v2 selected; Diomede/Brine v2 superseded by corrected v2b",
+  "findings": [
+    {
+      "id": "02-diomede",
+      "time": "6.7\u20136.9s",
+      "finding": "Centered caption covered changing traveller day badge",
+      "correction": "Badge relocated above caption with fine leader to traveller",
+      "source_commit": "013623b9e9b4a1ab2d88f462e35c0cd75aefdd43"
+    },
+    {
+      "id": "04-brine",
+      "time": "5.5s",
+      "finding": "MORE MASS support label partly behind centered caption",
+      "correction": "Label moved above brine vessel",
+      "source_commit": "304425c7f21ab5b57bd37e2b8e21873d6454ba55"
+    }
+  ],
+  "preservation": "Original v2 movies and recovery chunks retained in their own GitHub Releases; PUBLIC_DOWNLOAD_QA_INITIAL_V2.json binds observed download hashes."
+}
