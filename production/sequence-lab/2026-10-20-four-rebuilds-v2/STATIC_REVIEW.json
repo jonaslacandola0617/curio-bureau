@@ -1,0 +1,576 @@
+{
+  "scope": "Actual restored v2 native-state renders before capture",
+  "owner_approval": false,
+  "reviews": [
+    {
+      "id": "01-concrete",
+      "verdict": "PROCEED_TO_OWNER_REQUESTED_MOVING_TEST",
+      "reviewer": "Codex rendered-frame visual review; not owner approval",
+      "observed": "Distinct connected states inspected in native renders and contact sheets; image-owned operation, consistent source transform and clean caption support. Labels-only mechanism states retained.",
+      "states": [
+        {
+          "time": 0,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-0.jpg",
+          "sha256": "2dd8ca1674d709504dc19a251f560c6bce8b52bb0b4d05abc62777d6177812b8"
+        },
+        {
+          "time": 0,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-0-labels-only.jpg",
+          "sha256": "75eaa9ee34d569f6ffae5c6b29bee1688cd3fb7b6c167913fee663163e131ebf"
+        },
+        {
+          "time": 2.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-2.4.jpg",
+          "sha256": "bacdaddb74b836adc067e51a669c8c20d11cee6ff0f8fd1692ff6cc9ce6e6978"
+        },
+        {
+          "time": 2.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-2.4-labels-only.jpg",
+          "sha256": "ccf18ad43ca5eebd37d1ed506cde10bc4b9350089ceca597829de89d8a728219"
+        },
+        {
+          "time": 3.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-3.2.jpg",
+          "sha256": "1a9d0cf1573fd1ab134ab72f4f281503269d60c2b6a7bbf443b4321a9acb5cad"
+        },
+        {
+          "time": 3.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-3.2-labels-only.jpg",
+          "sha256": "6ecf5128eeb38db5fe88705f57469291de9b57a542d47c5db69fa7eea8cf585c"
+        },
+        {
+          "time": 5.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-5.2.jpg",
+          "sha256": "1edc63ebee5303c6ff0612a496ba804ed83cb15911a9960afa189a9ac8e6480f"
+        },
+        {
+          "time": 5.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-5.2-labels-only.jpg",
+          "sha256": "afb1ee76b2970ee18d74dceaf6baf1b07eaa351bed218709d14960c6de4ece05"
+        },
+        {
+          "time": 5.5,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-5.5.jpg",
+          "sha256": "ec2a1c66ec80596fd95fa55d0644354f62159055f2451c0902380cda485c4c60"
+        },
+        {
+          "time": 5.5,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-5.5-labels-only.jpg",
+          "sha256": "4498129b8814cfca00b96e379e555162fea6d4508e9ec2eb916c18071593f444"
+        },
+        {
+          "time": 6.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-6.4.jpg",
+          "sha256": "096dfef1461c10938ecd0f10362dc25ba12dd272984d6c4608cc488fa2efe3eb"
+        },
+        {
+          "time": 6.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-6.4-labels-only.jpg",
+          "sha256": "92e93bf10a41061d9fa886848e3719a21544f214e48093eb8fa6baf1f3efc546"
+        },
+        {
+          "time": 7.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-7.2.jpg",
+          "sha256": "f897e7bc6d860c6f84d0c699ec84f4cde3400ae4b4c7958b5da781927259f367"
+        },
+        {
+          "time": 7.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-7.2-labels-only.jpg",
+          "sha256": "3f31e7bc9fc9c8613778c331d9410595bec25ec05295b87368df8ce4a4196e55"
+        },
+        {
+          "time": 8.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-8.2.jpg",
+          "sha256": "be7ace00b2e608f81b6b0097396b20478d4fd0dda948905f8d435fca98201ff0"
+        },
+        {
+          "time": 8.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-8.2-labels-only.jpg",
+          "sha256": "5872562facf80c41df45701ebbfefbdb6b4a462f9ad051b21716655cffd7fc89"
+        },
+        {
+          "time": 8.6,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-8.6.jpg",
+          "sha256": "578a0feb9cc5a9ce61962f52b42d324b5bfb08d7e11007f394e3e8db76f7a2a7"
+        },
+        {
+          "time": 8.6,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-8.6-labels-only.jpg",
+          "sha256": "c288677f82e72ea37e4d6dce753252d7f011956e197a56a3db013cf0cd190457"
+        },
+        {
+          "time": 9.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-9.4.jpg",
+          "sha256": "bdadf5ad028d0ebf37de10e7798276762d24563ba2551bc46f5b27b9e2abf081"
+        },
+        {
+          "time": 9.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-9.4-labels-only.jpg",
+          "sha256": "e53116a1ecb8536c6d39cc705b5eb37cf079bae5d73b496d291d3e60472e4d63"
+        },
+        {
+          "time": 11.8,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-11.8.jpg",
+          "sha256": "de97bb76ff37763c665ac1aa59154d9e221d387a0de187635cfbc23b08e78243"
+        },
+        {
+          "time": 11.8,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/01-concrete/qa/frame-11.8-labels-only.jpg",
+          "sha256": "de97bb76ff37763c665ac1aa59154d9e221d387a0de187635cfbc23b08e78243"
+        }
+      ]
+    },
+    {
+      "id": "02-diomede",
+      "verdict": "PROCEED_TO_OWNER_REQUESTED_MOVING_TEST",
+      "reviewer": "Codex rendered-frame visual review; not owner approval",
+      "observed": "Distinct connected states inspected in native renders and contact sheets; image-owned operation, consistent source transform and clean caption support. Labels-only mechanism states retained.",
+      "states": [
+        {
+          "time": 0,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-0.jpg",
+          "sha256": "6a67bc5e8e1ad40018d12a61a5cc03df5412707d74aa8bb3a3c3f6dc9f809860"
+        },
+        {
+          "time": 0,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-0-labels-only.jpg",
+          "sha256": "5b4818a800040f978aa6af8828811c28038ee6d509690473b91702d5ba62062e"
+        },
+        {
+          "time": 2.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-2.4.jpg",
+          "sha256": "57c44b979348b427d265c7d8698ecdff3974c980951e6fe6d56dbc8e452938d9"
+        },
+        {
+          "time": 2.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-2.4-labels-only.jpg",
+          "sha256": "71a93dbe620ce6803493cf97a3c8fd95c92b6d235dce7537e6891ead304cbaab"
+        },
+        {
+          "time": 3.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-3.2.jpg",
+          "sha256": "b0500c349d00998e05d26e77dd5939ac7d353c59c380c2938a36ce36c972e452"
+        },
+        {
+          "time": 3.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-3.2-labels-only.jpg",
+          "sha256": "3ebffb06459473ae82572762df770156e3eecd9d9457d4de5ce5689791666530"
+        },
+        {
+          "time": 5.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-5.2.jpg",
+          "sha256": "310103af5a1769b78a1d265301a539535a6e675e2c51cbf5e79e613674e3fc36"
+        },
+        {
+          "time": 5.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-5.2-labels-only.jpg",
+          "sha256": "bb9c652854b24a1444f0fa981f80cefeffaa8e44c0e6c7893226e39808e21757"
+        },
+        {
+          "time": 5.5,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-5.5.jpg",
+          "sha256": "01947cbce5e7755e8b95c1815a62c908adda0377737da76bd1aa9f0e01c82b22"
+        },
+        {
+          "time": 5.5,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-5.5-labels-only.jpg",
+          "sha256": "6a48a8a7f0461a0924ff277f0a8aa814d9aff66887d935e6a2ae2bb5f79a78d4"
+        },
+        {
+          "time": 6.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-6.4.jpg",
+          "sha256": "441bda790772039cbf5a97ed68fb5914af591cd3e3d7ae65da6729a769465687"
+        },
+        {
+          "time": 6.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-6.4-labels-only.jpg",
+          "sha256": "34296c9ffa320bad3de0b7af8c388c2cbedfac1337017ebcb80210f3a8b65533"
+        },
+        {
+          "time": 7.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-7.2.jpg",
+          "sha256": "7c31aecb2074ae1b990181f0f090d39cdde7a2e25eb91c616790189015bee56a"
+        },
+        {
+          "time": 7.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-7.2-labels-only.jpg",
+          "sha256": "a3f840796c9324ea6d2042177c515d297274bfbce44d5e90892c039ce69ac99d"
+        },
+        {
+          "time": 8.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-8.2.jpg",
+          "sha256": "fc38d40ef0f2c66f557c729671340904ca337deffb42b45292768010803976be"
+        },
+        {
+          "time": 8.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-8.2-labels-only.jpg",
+          "sha256": "44d4f9aa5e03b859083110c16d0879d353f9807ec1e9e50d7213dd5cb97c32ab"
+        },
+        {
+          "time": 8.6,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-8.6.jpg",
+          "sha256": "e1c4419a29df90c4845d6bed30f1197feafa4446f12452f4696641bcb77d9c73"
+        },
+        {
+          "time": 8.6,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-8.6-labels-only.jpg",
+          "sha256": "4c7d45ab8b0db6581e95a085a61121fbb92a681dec2ab5b3c9a850d785b1cb3c"
+        },
+        {
+          "time": 9.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-9.4.jpg",
+          "sha256": "f8773f08d491d7a9969718b3ec6762071f145fb49a4cbdf57f3f4822635b9540"
+        },
+        {
+          "time": 9.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-9.4-labels-only.jpg",
+          "sha256": "b4780fe1f8baddb56475894277acca3f0c84cc61b1914920f0c101dbe4f56bca"
+        },
+        {
+          "time": 11.8,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-11.8.jpg",
+          "sha256": "de97bb76ff37763c665ac1aa59154d9e221d387a0de187635cfbc23b08e78243"
+        },
+        {
+          "time": 11.8,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/02-diomede/qa/frame-11.8-labels-only.jpg",
+          "sha256": "de97bb76ff37763c665ac1aa59154d9e221d387a0de187635cfbc23b08e78243"
+        }
+      ]
+    },
+    {
+      "id": "03-shrimp",
+      "verdict": "PROCEED_TO_OWNER_REQUESTED_MOVING_TEST",
+      "reviewer": "Codex rendered-frame visual review; not owner approval",
+      "observed": "Distinct connected states inspected in native renders and contact sheets; image-owned operation, consistent source transform and clean caption support. Labels-only mechanism states retained.",
+      "states": [
+        {
+          "time": 0,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-0.jpg",
+          "sha256": "85fcb58eec37a033625cd77be55947f2000af1520d34095cfb27e18a23182e2a"
+        },
+        {
+          "time": 0,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-0-labels-only.jpg",
+          "sha256": "10954d92166ddccbfd3e3129108b654e0b9f86d1e2dd1cca5a66b0ab1a1e10b1"
+        },
+        {
+          "time": 2.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-2.4.jpg",
+          "sha256": "e10fa5905bf8acdba2ff7b3358c205a9bb8abcb586cc01b4a6a6b67267e16018"
+        },
+        {
+          "time": 2.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-2.4-labels-only.jpg",
+          "sha256": "e6343a200329eaa3fc87722c035e90eda4dac6d7309df9102118d1e5c330928c"
+        },
+        {
+          "time": 3.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-3.2.jpg",
+          "sha256": "ff87e4b94ab071b816bf180f7190ef126cf90b5b344b75da9932328ed7229e2c"
+        },
+        {
+          "time": 3.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-3.2-labels-only.jpg",
+          "sha256": "ead1905f1628ab362a7294d7310780714c8f860051e497c8576074bbb9a818c2"
+        },
+        {
+          "time": 5.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-5.2.jpg",
+          "sha256": "b775ec17d8b2415a9a9eaca777d8a953b78413623a38699097800328da4a0f3f"
+        },
+        {
+          "time": 5.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-5.2-labels-only.jpg",
+          "sha256": "ac79f65ef6f3fbc6c43f29cb8aa5f8eda2f7f90cf62556405a2b10e51ac8051e"
+        },
+        {
+          "time": 5.5,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-5.5.jpg",
+          "sha256": "22ae2cbf785eda530f6fb853ef356c31753d7e4604a8cebf7ace5f78039f142b"
+        },
+        {
+          "time": 5.5,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-5.5-labels-only.jpg",
+          "sha256": "126a0fab118603e694b6dd7601bca640c2ec5496cb4a8e98a718cb364936fc59"
+        },
+        {
+          "time": 6.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-6.4.jpg",
+          "sha256": "ca8a615f3676c936e8f0bd602cff02c10b7a7a27fa45e739efc3a8e26487a49b"
+        },
+        {
+          "time": 6.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-6.4-labels-only.jpg",
+          "sha256": "c7f9b91074de0f55bf53d7b141c2395642e729e19061f8736a3146406fcd00ad"
+        },
+        {
+          "time": 7.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-7.2.jpg",
+          "sha256": "60d9fcc1a92b993b5284ab600cca38004a8204db49c664fac3bd101507b317e8"
+        },
+        {
+          "time": 7.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-7.2-labels-only.jpg",
+          "sha256": "5056de444afee607f196a9956ffeed75d80c094d91fd47075ed31793735caedf"
+        },
+        {
+          "time": 8.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-8.2.jpg",
+          "sha256": "ee99d687fb342e14bfcfb64775e7354cef9f085de1b6363ab4af4fc4a2fe4fa0"
+        },
+        {
+          "time": 8.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-8.2-labels-only.jpg",
+          "sha256": "5ed5cdf171d85467fc6fc95191f74535c717e75887ce61bd4fe07e8392477fe0"
+        },
+        {
+          "time": 8.6,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-8.6.jpg",
+          "sha256": "3c0866249916d92ce9abb39fea6b2245c57cd1e9b8c4a1d28a7ef8223bf61168"
+        },
+        {
+          "time": 8.6,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-8.6-labels-only.jpg",
+          "sha256": "17973a8ad9937eb631ac935307bd4ff12d9a21853e39c31f7f59e113e64ece5d"
+        },
+        {
+          "time": 9.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-9.4.jpg",
+          "sha256": "7c603b706bee611edf4e1a3637df7d1933c0e4e1b531a2ddaf04cfb88ccbe6cf"
+        },
+        {
+          "time": 9.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-9.4-labels-only.jpg",
+          "sha256": "2cec44bc3d4a99fefb84ea55b566c16cf1fff70f9390d4e0e39840bb79687d4e"
+        },
+        {
+          "time": 11.8,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-11.8.jpg",
+          "sha256": "de97bb76ff37763c665ac1aa59154d9e221d387a0de187635cfbc23b08e78243"
+        },
+        {
+          "time": 11.8,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/03-shrimp/qa/frame-11.8-labels-only.jpg",
+          "sha256": "de97bb76ff37763c665ac1aa59154d9e221d387a0de187635cfbc23b08e78243"
+        }
+      ]
+    },
+    {
+      "id": "04-brine",
+      "verdict": "PROCEED_TO_OWNER_REQUESTED_MOVING_TEST",
+      "reviewer": "Codex rendered-frame visual review; not owner approval",
+      "observed": "Distinct connected states inspected in native renders and contact sheets; image-owned operation, consistent source transform and clean caption support. Labels-only mechanism states retained.",
+      "states": [
+        {
+          "time": 0,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-0.jpg",
+          "sha256": "2ae97e26084f9280836a699bbe817fb4d0900b256241b48c9058a404323de611"
+        },
+        {
+          "time": 0,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-0-labels-only.jpg",
+          "sha256": "12544d8038734390e1994fa76040feb17141f8083012e7c704b34c52ae489c59"
+        },
+        {
+          "time": 2.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-2.4.jpg",
+          "sha256": "d9bf486826d02a8655721cd2218a74b1bd225e7cd77dadaaadeaf2febb2792e9"
+        },
+        {
+          "time": 2.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-2.4-labels-only.jpg",
+          "sha256": "753b732c08ad711b23f4c95851755c3646ff41aef9c2643914833cb01e01f645"
+        },
+        {
+          "time": 3.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-3.2.jpg",
+          "sha256": "ec377ea24b86225251ba7d1679b6e106115b0c355a6dc7d66e02e1f3c087b35b"
+        },
+        {
+          "time": 3.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-3.2-labels-only.jpg",
+          "sha256": "93cddd6cb9c5c593f335c657c9da8d91eaa5e8b3fe38b9e6f351a81879e671c4"
+        },
+        {
+          "time": 5.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-5.2.jpg",
+          "sha256": "49e13f04eb7397ba6b678b8cd5ba48db54a0f82e239ec5cb1728d3ce2eb3aecc"
+        },
+        {
+          "time": 5.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-5.2-labels-only.jpg",
+          "sha256": "bc0fda46e6639f4a35dfb065e2fbe432c3e63abf7a32e0eecf9415b218f11c55"
+        },
+        {
+          "time": 5.5,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-5.5.jpg",
+          "sha256": "3672ff1581f4729e8109d8138b900f0f9b41c7f2367e3cbe79c1e4eaecb96e59"
+        },
+        {
+          "time": 5.5,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-5.5-labels-only.jpg",
+          "sha256": "8db3e2d8c0f8f2058d4dddbb152630139a7df1919d73cc0d75eea58d77999309"
+        },
+        {
+          "time": 6.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-6.4.jpg",
+          "sha256": "f79d076c034d214d18dfd2a293866fbd001a7f0524120653240b21615a6823ba"
+        },
+        {
+          "time": 6.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-6.4-labels-only.jpg",
+          "sha256": "4a1225b800aacc13550485e87583bf92bc79ed5cab1999ebf07adb8f74539509"
+        },
+        {
+          "time": 7.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-7.2.jpg",
+          "sha256": "3be6ec137ffb05781dae86b70a367f24b3f84713fdd5aeca45efa82167e17c59"
+        },
+        {
+          "time": 7.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-7.2-labels-only.jpg",
+          "sha256": "2e97514aaa8185e89edc523cc3394995c5e5659c63212ddffed18fbfc2fb2f40"
+        },
+        {
+          "time": 8.2,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-8.2.jpg",
+          "sha256": "943de21426bf7d252334b81d11546a0cd639ae341446060a70bd13f72c4904a5"
+        },
+        {
+          "time": 8.2,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-8.2-labels-only.jpg",
+          "sha256": "dfd99c2f13de65d07a4f42fe9bfd050f5da406f7d8a438b65dc5cc3b68801967"
+        },
+        {
+          "time": 8.6,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-8.6.jpg",
+          "sha256": "f374c722a84795c919bc9d556d59ae160449ef1e47ff1f5339a4298ddaba0d02"
+        },
+        {
+          "time": 8.6,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-8.6-labels-only.jpg",
+          "sha256": "4435ad0af93b05d6e0d0d9b9fcf1a33c167a164dab6ca28a6f128f1c455db65b"
+        },
+        {
+          "time": 9.4,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-9.4.jpg",
+          "sha256": "43edd62c519806efd630713e57fe3fa3d13fbc2f005b6228e019bbe4c50eb27b"
+        },
+        {
+          "time": 9.4,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-9.4-labels-only.jpg",
+          "sha256": "687605343501bf17347db619c98c9ec78ce65ff9c158cfc1abd5ecc7b8b20f0a"
+        },
+        {
+          "time": 11.8,
+          "labels_only": false,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-11.8.jpg",
+          "sha256": "de97bb76ff37763c665ac1aa59154d9e221d387a0de187635cfbc23b08e78243"
+        },
+        {
+          "time": 11.8,
+          "labels_only": true,
+          "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/04-brine/qa/frame-11.8-labels-only.jpg",
+          "sha256": "de97bb76ff37763c665ac1aa59154d9e221d387a0de187635cfbc23b08e78243"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Still samples do not certify moving joins. Encoded film requires separate review.",
+    "No Vox mastery, full reference-film viewing, independent listening or universal57-item pass claimed."
+  ],
+  "specific_corrections": [
+    "Concrete: alpha-derived real fracture void and textured wall growth",
+    "Diomede: remove source-photo rectangle, attach dates/crossing in map coordinates; fix dark-field folio contrast",
+    "Shrimp: separate hinge rig; hard macro cut; jet socket origin; close finger before jet",
+    "Brine: independent terrain collection after scale exits, no pour through glass/pan"
+  ]
+}

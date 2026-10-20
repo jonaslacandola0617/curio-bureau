@@ -1,0 +1,215 @@
+{
+  "scope": "Four owner-requested12-second review tests, rebuilding owner-rejected v1; not full new episodes",
+  "contracts": [
+    {
+      "id": "01-concrete",
+      "invariant": "The same two photographic fracture surfaces remain in the same material coordinates.",
+      "operation": "Open the fracture; follow water into its actual alpha-derived void; dissolve calcium from the exposed lime; grow textured mineral facets inward from the fracture walls.",
+      "states": [
+        [
+          0,
+          "Two matching concrete halves"
+        ],
+        [
+          1.5,
+          "Fracture opens"
+        ],
+        [
+          2.0,
+          "Inspect exposed lime and gap"
+        ],
+        [
+          2.75,
+          "Water enters the actual fracture mask"
+        ],
+        [
+          4.2,
+          "Calcium becomes suspended in the water"
+        ],
+        [
+          6.7,
+          "Mineral begins growing from both walls"
+        ],
+        [
+          8.8,
+          "Growth bridges the same void"
+        ],
+        [
+          9.4,
+          "Resolved hold and narration tail"
+        ]
+      ],
+      "hardest_join": [
+        6.7,
+        8.8
+      ],
+      "truth_boundary": "Illustrative generated material; highly accelerated conceptual mechanism, not archaeological footage or a measured healing rate. Facet growth illustrates deposition, not exact crystal morphology.",
+      "sources": [
+        "https://news.mit.edu/2023/roman-concrete-durability-lime-casts-0106"
+      ]
+    },
+    {
+      "id": "02-diomede",
+      "invariant": "Both source-derived island cutouts, boundary and route retain one common geographic transform.",
+      "operation": "Rotate and enlarge the same island relationship, reveal the date boundary, then carry a date-bearing traveller across it.",
+      "states": [
+        [
+          0,
+          "Establish neighboring source-image islands"
+        ],
+        [
+          0.4,
+          "Reframe the geography with north indicator"
+        ],
+        [
+          1.5,
+          "Attach island identities"
+        ],
+        [
+          3.35,
+          "Draw the boundary in source coordinates"
+        ],
+        [
+          4.5,
+          "Attach regional example days"
+        ],
+        [
+          5.3,
+          "Begin westward crossing"
+        ],
+        [
+          6.65,
+          "Traveller changes MON to TUE at boundary"
+        ],
+        [
+          8.5,
+          "Hold the calendar consequence"
+        ]
+      ],
+      "hardest_join": [
+        6.3,
+        7.25
+      ],
+      "truth_boundary": "NASA photographic coast cutouts selected from source pixels, not surveyed GIS. Monday/Tuesday are example days; no always-different-date or exact24-hour claim. Boundary is schematic.",
+      "sources": [
+        "https://science.nasa.gov/earth/earth-observatory/yesterday-and-tomorrow-islands-91638/"
+      ]
+    },
+    {
+      "id": "03-shrimp",
+      "invariant": "Movable finger stays attached to the fixed photographic claw; the projected jet begins at the socket region.",
+      "operation": "Establish specimen, cut into an articulated photographic macro rig, close the movable finger, emit a water jet, form a toroidal illustrative cavity, then collapse it before the pressure pulse.",
+      "states": [
+        [
+          0,
+          "Whole specimen"
+        ],
+        [
+          1.8,
+          "Approach the mechanism"
+        ],
+        [
+          2.25,
+          "Hard inspection cut to component rig"
+        ],
+        [
+          3,
+          "Identify fixed and movable parts"
+        ],
+        [
+          5.05,
+          "Finger closes"
+        ],
+        [
+          5.27,
+          "Jet leaves socket region"
+        ],
+        [
+          6.35,
+          "Vapor cavity grows"
+        ],
+        [
+          8.05,
+          "Cavity collapses"
+        ],
+        [
+          8.38,
+          "Designed pressure pulse and result"
+        ]
+      ],
+      "hardest_join": [
+        5.0,
+        5.5
+      ],
+      "second_demanding_join": [
+        8.0,
+        8.55
+      ],
+      "truth_boundary": "Generated specimen/components and external hinge illustration, not measured anatomy or high-speed footage. Jet direction projected; cavity enlarged/slowed, not to scale; synthesized sound not authentic shrimp audio.",
+      "sources": [
+        "https://www.nature.com/articles/s41598-017-14312-0",
+        "https://www.nature.com/articles/35097152"
+      ]
+    },
+    {
+      "id": "04-brine",
+      "invariant": "The scale compares equal fluid volumes; the conceptual terrain is explicitly distinguished from the NOAA photograph.",
+      "operation": "Locate a real seafloor lake, introduce an equal-volume balance, tip the denser brine side, remove that comparison, then show independent brine flow over a terrain bank collecting below.",
+      "states": [
+        [
+          0,
+          "Real NOAA seafloor photograph"
+        ],
+        [
+          0.4,
+          "Select shoreline"
+        ],
+        [
+          2.4,
+          "Move into declared conceptual terrain"
+        ],
+        [
+          3,
+          "Introduce equal-volume comparison"
+        ],
+        [
+          5.4,
+          "Brine side tips lower"
+        ],
+        [
+          6.6,
+          "Comparison exits; reframe terrain"
+        ],
+        [
+          7,
+          "Brine flows over bank"
+        ],
+        [
+          7.6,
+          "Pool grows within depression"
+        ],
+        [
+          9,
+          "Hold collected denser fluid"
+        ]
+      ],
+      "hardest_join": [
+        6.6,
+        7.5
+      ],
+      "second_demanding_join": [
+        7.6,
+        9
+      ],
+      "truth_boundary": "Generated conceptual diorama is not a reconstruction of measured NOAA terrain. Assigned fluid colors; balance is an explanatory diagram. No impossible pour through a sealed vessel or scale pan.",
+      "sources": [
+        "https://oceanexplorer.noaa.gov/multimedia/daily-image-media-20200720/",
+        "https://oceanexplorer.noaa.gov/multimedia/daily-image-media-20200917/"
+      ]
+    }
+  ],
+  "hold_exceptions": {
+    "9.4-10.9": "Resolved mechanism and complete narration tail before exact shared ending",
+    "10.9-12": "Locked30fps London Bridge ending"
+  }
+}

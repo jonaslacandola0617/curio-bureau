@@ -1,0 +1,14 @@
+{
+  "version": "four-rebuilds-v2",
+  "authorization": "Owner requested rebuild of all four tests and continued execution; no repeated confirmation required",
+  "frames_each": 360,
+  "duration_each_seconds": 12,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "scene_fps": 12,
+  "production_standard": "sun-disappeared-v1",
+  "source_lock_sha256": "afa71c3ca3e87fc1933242c070c3217af600799c7e5f08f2bcc6c290173da5f9",
+  "owner_creative_approval": false,
+  "dust_remains_paused": true
+}
