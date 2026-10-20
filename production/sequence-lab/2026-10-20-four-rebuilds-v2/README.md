@@ -27,3 +27,7 @@ Review candidates, not owner-approved films or a claim of complete57-item compli
 ## Encoded review correction — Diomede v2b
 
 The first public-download v2 review showed the traveller's changing day label briefly hidden by the centered caption at the key crossing. That v2 export is retained as superseded review evidence. Only Diomede is rerendered as v2b: its date badge stays above the caption lane with a fine leader back to the traveller. The other three v2 movies remain bound to their original source commit. The workflow matrix is narrowed to Diomede for this correction; older completed exports are not regenerated.
+
+## Encoded review correction — Brine v2b
+
+The native platform-overlay inspection also caught the MORE MASS support label partly behind the centered caption. Move it above the brine vessel, clear of the caption lane. Only Brine is rendered in the next correction workflow. The previous Diomede v2b job remains on its own frozen source; Concrete/Shrimp v2 are preserved unchanged. Each selected delivery records its own source commit.

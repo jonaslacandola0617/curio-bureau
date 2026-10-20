@@ -597,5 +597,12 @@
         "sha256": "866ac0299d0b76ab77a67f6f1cd7de3fca2a042e6ffafb302f9da08396b0e2f1"
       }
     ]
+  },
+  "brine_encoded_correction": {
+    "revision": "v2b",
+    "reason": "MORE MASS label partly behind centered caption at5.5s in actual posting MP4",
+    "change": "Move label above brine vessel atbaseline345px",
+    "review": "5.5s native captioned image directly inspected, label and caption clear.",
+    "native_frame_sha256": "803b6411f725a0b2bec2c7e5ea6002497b5aa37cee4a59968633b4cc2cbb8fdd"
   }
 }

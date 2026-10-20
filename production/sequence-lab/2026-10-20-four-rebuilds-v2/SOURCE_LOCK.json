@@ -1,6 +1,6 @@
 {
-  "version": "diomede-v2b-only",
-  "source_checkpoint_before_capture": "d02275c828576bb6b60e2594bae7947eb3f181f4",
+  "version": "brine-v2b-only",
+  "source_checkpoint_before_capture": "013623b9e9b4a1ab2d88f462e35c0cd75aefdd43",
   "files": [
     {
       "path": ".github/workflows/four-original-visual-tests-v1.yml",
@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/workflows/four-rebuilt-visual-tests-v2.yml",
-      "bytes": 1297,
-      "sha256": "f5eeb39397b792376d1ee297d1a86668bed2d8413aa59bcdbbce744bef1e5b64"
+      "bytes": 1295,
+      "sha256": "f173e9065ed4a0007f94bab5dfcfdb0f863a594aa96c2e31138a2e40491ba30c"
     },
     {
       "path": "audio/curio_sfx_v1/CATALOG.csv",
@@ -279,13 +279,13 @@
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/README.md",
-      "bytes": 5258,
-      "sha256": "e3510b07395c031426bea55c61a4ca6f34f0232e17e4319c4346b29e5b2cd61b"
+      "bytes": 5694,
+      "sha256": "dbc4a0c51998e0c40099912d6ea51d74abcdfbe62524afb92f0344c35976f9f8"
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/STATIC_REVIEW.json",
-      "bytes": 26947,
-      "sha256": "7b7b8726740ec65a960100cc97308b8ee4b9375df07fc2ae3eaa1162018de539"
+      "bytes": 27347,
+      "sha256": "ce6a5d457abe2e4995c820fa6041a4ce66da639430ea1b92cac5ad597bdfeb52"
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/assemble.py",
@@ -319,8 +319,8 @@
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/build.py",
-      "bytes": 4448,
-      "sha256": "d75aa51d3e326e5f33fc65429a649c6351409d11a97364d6bbd22d7e187336cd"
+      "bytes": 4463,
+      "sha256": "7d9cf6d62228bf7e8b9b4875414a0c894793d52080c73c2795d0d03054b503a3"
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/prepare_audio.py",
@@ -330,12 +330,12 @@
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/render.cjs",
       "bytes": 31625,
-      "sha256": "113011923174849507e5f0807e5b330c39c6f8ed800d514d876031c2f278f8b8"
+      "sha256": "3107c9d1535129a405b54275bc758667404c57c53af00822a4ea06c2e2723c2d"
     },
     {
       "path": "production/sequence-lab/2026-10-20-four-rebuilds-v2/scenes-v2.cjs",
       "bytes": 16543,
-      "sha256": "4a7893af5cc89b61ebd18dec8ec8af06889a8128d0a47066b36a86685ac942a0"
+      "sha256": "8ee3afa8d52139baf4fdf1a90ad49d18de5e085356f43e9cde0690105da07a52"
     }
   ]
 }

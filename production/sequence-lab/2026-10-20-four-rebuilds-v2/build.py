@@ -1,6 +1,6 @@
 from pathlib import Path
 import subprocess,os,json,hashlib,zipfile,sys
-r=Path(__file__).resolve().parent;repo=r.parents[2];id=sys.argv[1];out=r/id;target=os.environ['GITHUB_SHA'];ghrepo=os.environ['GH_REPO'];mapnames={'01-concrete':('roman-concrete','Roman-Concrete'),'02-diomede':('diomede-date-line','Diomede-Date-Line'),'03-shrimp':('pistol-shrimp','Pistol-Shrimp'),'04-brine':('underwater-brine-lake','Underwater-Brine-Lake')};slug,name=mapnames[id];revision='v2b' if id=='02-diomede' else 'v2';tag='visual-test-'+slug+'-'+revision+'-20261020'
+r=Path(__file__).resolve().parent;repo=r.parents[2];id=sys.argv[1];out=r/id;target=os.environ['GITHUB_SHA'];ghrepo=os.environ['GH_REPO'];mapnames={'01-concrete':('roman-concrete','Roman-Concrete'),'02-diomede':('diomede-date-line','Diomede-Date-Line'),'03-shrimp':('pistol-shrimp','Pistol-Shrimp'),'04-brine':('underwater-brine-lake','Underwater-Brine-Lake')};slug,name=mapnames[id];revision='v2b' if id in ['02-diomede','04-brine'] else 'v2';tag='visual-test-'+slug+'-'+revision+'-20261020'
 def run(a):subprocess.run(a,check=True)
 def get(a):return subprocess.check_output(a,text=True)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
