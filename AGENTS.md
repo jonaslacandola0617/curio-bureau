@@ -1,5 +1,13 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
 
+## Latest flood-film correction — owner direction, 21 October 2026
+
+The selected active topic is **How do you prove a flood-control project actually protects anyone?** Earlier audience checkpoint “no episode selected” and historical Relativistic Dust references do not override the later direct selection. Latest owner correction: start this film with an unanswered Philippine question, then build evidence; the first spoken line is “Can flood control actually work in the Philippines?” This is a topic-specific hook instruction, not a political accusation or a claimed trend/retention result.
+
+The owner again rejected omitted texture/overlays/camera/focus/parallax. Read `production/engine/CUSTOM_RENDER_REGRESSION_20261021.md`. A custom renderer must enforce the existing Sun/finishing validators **inside its native capture entry point**, with current render/finish/source hashes and native effect evidence; calling them only in an optional wrapper is insufficient. Inspect source-local material, temporal grain, motivated focus hunting with sharp settling, selective focus/luminance, real independent depth planes, useful camera changes, restrained optical/material behavior, crisp captions and untouched ending in the encoded phone view. Do not claim that this declaration itself proves artistry or that a pixel difference proves approval. The four approved art tests and Sun workflow remain adopted; v5/v6 candidates are not new standards. Latest correction authorizes revising/rendering this film without another routine confirmation; it does not approve the resulting film or authorize social publication.
+
+
+
 ## Current audience-review checkpoint — 20 October 2026
 
 Read [the current Curio audience findings](production/audience-review/2026-10-20/CHECKPOINT.md) when planning or assessing Curio work. Latest owner instruction: **no episode is selected**; any prior Relativistic Dust selection is historical and must not resume automatically. The six-post local/universal comparison and workflow additions are **proposals pending owner approval**, not a commissioned queue. Preserve exact analytics windows/denominators,upstream evidence labels and null missing values. This review changes no production/art/voice/ending policy. Current sources declare12fpsscene/camera inside30fpsdelivery; the handoff's mention of an unseen later30fps-animation instruction is an unresolved scope conflict to resolve before animation,not a basis for silently rewriting cadence.
