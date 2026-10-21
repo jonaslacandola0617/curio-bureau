@@ -1,0 +1,74 @@
+{
+  "prepare.py": {
+    "bytes": 6378,
+    "sha256": "ffe04c1e62ab4e72838fd5b0e28ae4c1d618c01c9d79b5447e9a15858b70b14a"
+  },
+  "render.py": {
+    "bytes": 9792,
+    "sha256": "b8002c0c5f0bea60dc0ebbdb22658dac3a0a9e38a0ae82a689bf4f6b9e817362"
+  },
+  "ending.cjs": {
+    "bytes": 1166,
+    "sha256": "24eeae84236b511e0d4b4eb0412ecd23581ece55db996cf6820b47ef05a3ff25"
+  },
+  "recover_sources.py": {
+    "bytes": 501,
+    "sha256": "6009c23418af16062d77d9967eb7050d89924b1b56fb4177fb91662ca5de3a69"
+  },
+  "timeline.json": {
+    "bytes": 19604,
+    "sha256": "a2ab9da6dbdcc9f47baf70069908fe6bf0fd74a3f3ef2ced7ad3b5d70824f9a8"
+  },
+  "NARRATION_SOURCE.json": {
+    "bytes": 374,
+    "sha256": "66bb7527c63bbe9426f616bebde809729fa60b394ba3431ea26f69db43ec1db8"
+  },
+  "SOURCES_AND_SCOPE.md": {
+    "bytes": 5572,
+    "sha256": "92df77e303eef6ab8cf1bdfb6096bf9f81335d726fe6543c2942938d5e866fd3"
+  },
+  "SOURCE_DOWNLOADS.json": {
+    "bytes": 726,
+    "sha256": "6dfc62818f46533be4692ad781fbce4ffe91b48f68d5bfe2129ca5cb2bdc09c8"
+  },
+  "SFX_CUE_SHEET.json": {
+    "bytes": 2434,
+    "sha256": "253790510197d9d0b4ca693bcfc048bd44dfbf1ad3af671647942ab8c695ce61"
+  },
+  "audio/bernard-original.mp3": {
+    "bytes": 1036581,
+    "sha256": "9cfad7a2185f1ab340662df92d47ab0a9fecaf333bea32ca1ca6765a37f4e64c"
+  },
+  "audio/ASR_ORIGINAL.json": {
+    "bytes": 17598,
+    "sha256": "938bf2862716d1d50e865f0a89115623eaa8e9dc395248072dcab6cd10b5a583"
+  },
+  "audio/AUDIO_RECEIPT.json": {
+    "bytes": 835,
+    "sha256": "a4fdb511daf7e387b2f5bd198f83b99fea67c188e38c9c228d604486b22ce675"
+  },
+  "assets/official-comparison.jpg": {
+    "bytes": 1385850,
+    "sha256": "3ff6405d0d9bdf49c52fe5ba4327eee437f32de52dd6a850d54585ff527c7a70"
+  },
+  "assets/imus-basin.jpeg": {
+    "bytes": 100836,
+    "sha256": "e2ee5eb022dc334b1357d6b3efe7b2cbf29da37688deb46a302d4ad08078e736"
+  },
+  "assets/imus-marker.jpeg": {
+    "bytes": 59944,
+    "sha256": "9fa60975b961f21337865705a446ab2750806a31a0751c00485340abb12124bc"
+  },
+  "assets/jica-excerpt.png": {
+    "bytes": 10266,
+    "sha256": "060e3e8b0887928b55d3b1d0a2959a22a0a4bb4308d74fbe24e8a8bb5e9a9a98"
+  },
+  "audio/soundtrack.flac": {
+    "bytes": 3858298,
+    "sha256": "9ec575768c71f88667876cf6643c92a767d187d16bc05c1efb30157b6c4e5474"
+  },
+  "build_release.py": {
+    "bytes": 3867,
+    "sha256": "8a307b0f6f545d1fef58782652ef18c73c84bc4a9b320c3b0f3705dc3e0e4614"
+  }
+}

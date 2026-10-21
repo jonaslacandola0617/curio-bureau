@@ -1,0 +1,9 @@
+{
+  "task_id": "45172239-8b1b-450d-85f9-9aed647b16d5",
+  "voice": "Bernard",
+  "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+  "model": "eleven_v3",
+  "speed": 1,
+  "duration_original_s": 64.72,
+  "note": "Provider task options confirm established Bernard identity. Original retained. Remove unsupported independent-verification wording from the edit; do not accelerate narration."
+}

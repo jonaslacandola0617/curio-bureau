@@ -1,0 +1,20 @@
+[
+  {
+    "path": "old-hickory.mp4",
+    "url": "https://d34w7g4gy10iej.cloudfront.net/video/2502/DOD_110816468/DOD_110816468.mp4",
+    "bytes": 76239058,
+    "sha256": "f6f79c25265a27d78b271b0354d954ac4ffc0ef47e89f8908def9bce7c2e26b2"
+  },
+  {
+    "path": "cordell-hull.mp4",
+    "url": "https://d34w7g4gy10iej.cloudfront.net/video/2502/DOD_110816576/DOD_110816576.mp4",
+    "bytes": 108452512,
+    "sha256": "4237da61c3896c0b6aa4f5f68c733e9b2bf02ef708b42ea0f6811cb853eb3607"
+  },
+  {
+    "path": "official-comparison.jpg",
+    "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2503/8910491/2000w_q95.jpg",
+    "bytes": 1385850,
+    "sha256": "3ff6405d0d9bdf49c52fe5ba4327eee437f32de52dd6a850d54585ff527c7a70"
+  }
+]

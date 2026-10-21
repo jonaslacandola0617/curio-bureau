@@ -1,0 +1,34 @@
+name: Flood proof real records v5 render and archive
+on:
+  push:
+    branches: [film/flood-proof-20261020]
+    paths: [production/episodes/flood-control-proof/real-records-v5/READY.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render-and-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install compositor dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          npm install --prefix .curio-runtime --no-audit --no-fund @napi-rs/canvas@0.1.100
+          python -m pip install Pillow==12.3.0 numpy==2.2.6 scipy==1.15.3
+      - name: Render bounded native chunks and archive movie immediately
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          SOURCE_COMMIT: ${{ github.sha }}
+          CURIO_REPO_ROOT: ${{ github.workspace }}
+          NODE_PATH: ${{ github.workspace }}/.curio-runtime/node_modules
+        run: python production/episodes/flood-control-proof/real-records-v5/build_release.py

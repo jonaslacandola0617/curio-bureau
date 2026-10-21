@@ -1,0 +1,37 @@
+{
+  "voice": "Bernard",
+  "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+  "speed": 1,
+  "source_sha256": "9cfad7a2185f1ab340662df92d47ab0a9fecaf333bea32ca1ca6765a37f4e64c",
+  "source_samples": 3106560,
+  "retained_samples": 2867003,
+  "edits": [
+    [
+      2.87735,
+      3.27503
+    ],
+    [
+      35.37,
+      39.11
+    ],
+    [
+      49.1776,
+      49.5847
+    ],
+    [
+      52.7059,
+      52.79
+    ],
+    [
+      60.5264,
+      60.8883
+    ]
+  ],
+  "voice_duration": 59.72922916666667,
+  "duration": 61.733333333333334,
+  "tail_before_ending": 0.9041041666666629,
+  "peak_before_normalization": 0.7316295504570007,
+  "score": "Original deterministic four-section score, no reused Sun soundtrack",
+  "independent_listening": "PENDING",
+  "caption_alignment": "ASR estimates, script reconciled; independent boundary verification PENDING"
+}
