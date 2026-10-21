@@ -1,0 +1,126 @@
+{
+  "checked_date": "2026-10-21",
+  "scope": "Curio Bureau",
+  "sources": {
+    "WHO": {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sepsis",
+      "published": "2024-05-03",
+      "kind": "OFFICIAL GUIDANCE",
+      "used": "Definition, context, urgent care; no statistics used"
+    },
+    "SEPSIS3": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26903338/",
+      "doi": "10.1001/jama.2016.0287",
+      "published": "2016-02-23",
+      "kind": "PRIMARY CONSENSUS",
+      "used": "Infection-linked dysregulated response and life-threatening organ dysfunction",
+      "access": "Search abstract verified; page open returned footer only. No full-text reading claimed."
+    },
+    "NIH": {
+      "url": "https://nigms.nih.gov/education/fact-sheets/Pages/sepsis",
+      "content_reviewed": "2024-07",
+      "page_update": "2025-05-20",
+      "kind": "OFFICIAL EDUCATION",
+      "used": "Mediators, vessel leak/clotting, flow/oxygen, immune suppression",
+      "conflict": "Page also uses older broad noninfectious-insult wording; script follows WHO/CDC/Sepsis-3 infection-linked definition instead."
+    },
+    "CDC": {
+      "url": "https://www.cdc.gov/sepsis/about/",
+      "kind": "OFFICIAL GUIDANCE",
+      "used": "Infection, urgent evaluation and timely treatment; no statistics used"
+    },
+    "PCT2026": {
+      "url": "https://www.nature.com/articles/s41467-025-68199-x",
+      "doi": "10.1038/s41467-025-68199-x",
+      "published": "2026-01-21",
+      "kind": "PRIMARY RESEARCH",
+      "used": "Vascular lining/barrier and perfusion mechanism; mouse/cell experiments support mechanistic context",
+      "limitations": "Not a proven routine human therapy; do not promote investigational antibody as clinical treatment; no trial effect sizes in script"
+    },
+    "MICROGRAPH": {
+      "url": "https://commons.wikimedia.org/wiki/File:Human_neutrophil_ingesting_MRSA.jpg",
+      "creator": "NIH / NIAID",
+      "kind": "DOCUMENTARY MICROGRAPH",
+      "license": "Public domain US federal work, as documented by item metadata",
+      "used": "Defensive immune-cell activity only",
+      "color_roles": "Green neutrophil; purple bacteria in source; preserve original source colors"
+    }
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "paraphrased_claim": "Immune response to infection can cause life-threatening organ dysfunction in sepsis",
+      "sources": [
+        "WHO",
+        "SEPSIS3"
+      ],
+      "boundary": "Sepsis is not simply infection, ordinary inflammation or autoimmune disease.",
+      "verification": "SUPPORTED within stated scope"
+    },
+    {
+      "id": "C02",
+      "paraphrased_claim": "Vessel lining dysfunction and leakage can contribute to sepsis-related injury",
+      "sources": [
+        "PCT2026",
+        "NIH"
+      ],
+      "boundary": "Illustrative pathway; not a complete causal account or measured patient trajectory.",
+      "verification": "SUPPORTED within stated scope"
+    },
+    {
+      "id": "C03",
+      "paraphrased_claim": "Clotting in small vessels and impaired circulation can reduce organ delivery",
+      "sources": [
+        "NIH"
+      ],
+      "boundary": "Use can; no universal complete blockage or flow-rate number.",
+      "verification": "SUPPORTED within stated scope"
+    },
+    {
+      "id": "C04",
+      "paraphrased_claim": "Reduced perfusion can impair oxygen supply and organ function",
+      "sources": [
+        "PCT2026",
+        "NIH"
+      ],
+      "boundary": "Oxygen utilization and other injury pathways also matter; no single-pathway definition.",
+      "verification": "SUPPORTED within stated scope"
+    },
+    {
+      "id": "C05",
+      "paraphrased_claim": "Sepsis can include impaired/suppressed immune defenses",
+      "sources": [
+        "NIH"
+      ],
+      "boundary": "Not a linear all-patients inflammation-then-suppression timeline; no immune-suppression recommendation.",
+      "verification": "SUPPORTED within stated scope"
+    },
+    {
+      "id": "C06",
+      "paraphrased_claim": "Sepsis is an emergency; early treatment is important",
+      "sources": [
+        "WHO",
+        "CDC"
+      ],
+      "boundary": "No self-diagnosis checklist, drug advice or guarantee.",
+      "verification": "SUPPORTED within stated scope"
+    },
+    {
+      "id": "C07",
+      "paraphrased_claim": "NIH/NIAID source depicts neutrophil ingestion of MRSA",
+      "sources": [
+        "MICROGRAPH"
+      ],
+      "boundary": "Still source shows phagocytosis, not sepsis or continuous motion; colors assigned.",
+      "verification": "SUPPORTED within stated scope"
+    }
+  ],
+  "unresolved": [
+    "Exact new voice duration and verified caption boundaries",
+    "Human clinical review of scientific wording",
+    "Final photo/source reuse and platform credit review",
+    "Owner new-art and moving approval",
+    "Actual encoded focus/parallax/temporal finishing evidence",
+    "Independent sound listening"
+  ]
+}

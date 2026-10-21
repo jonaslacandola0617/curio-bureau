@@ -1,0 +1,238 @@
+{
+  "scope": "Curio Bureau only",
+  "status": "NATIVE_ART_REVIEW",
+  "owner_art_approval": "PENDING",
+  "narration": "DRAFT / NOT RECORDED",
+  "actual_voice_timing": null,
+  "motion": "NOT RENDERED",
+  "full_film": "NOT RENDERED",
+  "publication": "NOT AUTHORIZED / NOT PERFORMED",
+  "governing_main_commit": "da479426024ab698a7fceb9cdb554908cc98a4af",
+  "governing_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "11c27376a4c16a1be669798e6dae90ebac217d35b7d088bf119058fc0f2fa08b"
+    },
+    {
+      "path": "production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md",
+      "sha256": "22125927a2f7be1443ac44374d9aeaf385d0352b94c96bcee4902b21818bb0e9"
+    },
+    {
+      "path": "production/approved-benchmarks/FOUR_TEST_VISUAL_ART_OWNER_APPROVAL_20261020.md",
+      "sha256": "c19d1223b20af2ba795a2901e530af17e9e6375e0983b77542d5d9181a7cf8a3"
+    },
+    {
+      "path": "production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md",
+      "sha256": "9a2109dc4b3c977cfd80803ab3b542b4fac402e0ceddb2ebc195f1be8765be3b"
+    },
+    {
+      "path": "production/approved-benchmarks/flood-proof-v7/APPROVED_PROFILE.json",
+      "sha256": "80f86f8ebd4b1c82e26ca26b4f2e445bccba2bfe8fe39a69c407a7037a9dbbaa"
+    },
+    {
+      "path": "production/approved-benchmarks/flood-proof-v7/FLOOD_PROOF_APPROVED_PRODUCTION_PLAYBOOK_20261021.md",
+      "sha256": "6008db424bca09b956016609103cc38acb1baa2a906a41c49df12f2a1d18b9ee"
+    },
+    {
+      "path": "production/approved-benchmarks/flood-proof-v7/NEXT_PROJECT_REGRESSION_CHECKLIST.md",
+      "sha256": "7b7a493c05426de76761b8f55787f708c3dc4747a4d8211aeaeddc6b3bf7a546"
+    },
+    {
+      "path": "production/art-direction/SCIENCE_SHOT_ART_CONTRACT.md",
+      "sha256": "b01175068653c44cc081d9bf5534c11847689f2bda6c9970620d8c0bc1ca5276"
+    },
+    {
+      "path": "production/bible/v1.4/01_CURIO_BUREAU_EDITORIAL_ART_AND_MOTION_DIRECTION_BIBLE.md",
+      "sha256": "fb74c4adad9125ad9c088194f3422bc332e7f9f8aaf61b888e578089a07c96c1"
+    },
+    {
+      "path": "production/engine/ACTIVE_PRODUCTION.md",
+      "sha256": "a1cce3b7d903fd8e6be871e6b5eae01d947a16cfa6b53c013e397504be6f5bec"
+    },
+    {
+      "path": "production/engine/FINISHING_OUTPUT_CONTRACT.md",
+      "sha256": "9d2ae7b84b1e68fcde5a6e651a22fa3ad2bf96ff7abc7c74e827061c00844d90"
+    },
+    {
+      "path": "production/engine/requirements.lock.json",
+      "sha256": "c7d72fe464cf343ee754b9cb1c5aea253b114ceda65eb6ace27b9f9c0779d878"
+    },
+    {
+      "path": "production/templates/sun-standard/RELEASE_CHECKLIST.md",
+      "sha256": "b40034795d45b3e4a88b49ab4dc04009a8c36b316ec65ff3e6264fdd351c715c"
+    }
+  ],
+  "review_frames": 6,
+  "native_review_size": [
+    1080,
+    1920
+  ],
+  "finish_source_commit": "cddd2f4d7acb42ea1562684e00fcc56eda5d199b",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1452,
+      "sha256": "b2e564d0f24edfafc36997c7c08f4d58370ede8f24b4c05e7af7fdef74ff9ea0"
+    },
+    {
+      "path": "art-v1/ART_REVIEW.md",
+      "bytes": 3735,
+      "sha256": "434a473c316a2f804ca7a1dad7625512a0c46063efa1a42e7cd9474dd3e03331"
+    },
+    {
+      "path": "art-v1/ASSETS.json",
+      "bytes": 1303,
+      "sha256": "5c257babcba16aa6df3cdf0674a51da755aadd6154a25b472be517f585432e95"
+    },
+    {
+      "path": "art-v1/IMAGE_PROMPT.md",
+      "bytes": 1414,
+      "sha256": "a407e23cc545c2f1f836dce762d0a02f76f7c5a2eb9cb8dafdbb600bdab6b394"
+    },
+    {
+      "path": "art-v1/SCENE_CONTRACTS.json",
+      "bytes": 10572,
+      "sha256": "0d5a22fb0200e8d09c476f5030000892b115f73c0e4c438635cdbb2ea0f9b1fd"
+    },
+    {
+      "path": "art-v1/assets/Manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "art-v1/assets/Playfair900.ttf",
+      "bytes": 194772,
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38"
+    },
+    {
+      "path": "art-v1/assets/hand-original.png",
+      "bytes": 1703196,
+      "sha256": "d63c22ce45912f345f9bf28606ed98058d4774d5fc889586991a63638206b079"
+    },
+    {
+      "path": "art-v1/assets/neutrophil-detail.jpg",
+      "bytes": 839672,
+      "sha256": "a76ef703283b95d1e1c73cd79b4d1ffb33bfe3d98c130fad1c078e0926d9d5e1"
+    },
+    {
+      "path": "art-v1/assets/neutrophil-mrsa.jpg",
+      "bytes": 2538031,
+      "sha256": "caee1d95d86f600c053c3f668dee04dae3be31b59bdcf2a7fd0aa80aef58f545"
+    },
+    {
+      "path": "art-v1/download_assets.py",
+      "bytes": 1378,
+      "sha256": "1e0a1abe2911a82ef063eaca4fe997df970334da745c5fc52834f8dca4dad141"
+    },
+    {
+      "path": "art-v1/finish.py",
+      "bytes": 4777,
+      "sha256": "c7dea40a93f42abf28b4d17c5706e0e06e292387c49b5ac81890ed6a3e2950cd"
+    },
+    {
+      "path": "art-v1/render_art.py",
+      "bytes": 13406,
+      "sha256": "1aa0bc7fbe31e516f048a36f3cba2ff798cb6ca851f7f7dcb01c2184bd338b0d"
+    },
+    {
+      "path": "art-v1/review/01-art-review.jpg",
+      "bytes": 1028915,
+      "sha256": "d4e716d2ccea1d7b70e3956017182deb3416b56564354d324b9b3f4a58230343"
+    },
+    {
+      "path": "art-v1/review/01-heading-hidden.jpg",
+      "bytes": 533146,
+      "sha256": "82cc03a580a951929dc9875ed45b5be224e45091e09f0c243899eef2aa0a5573"
+    },
+    {
+      "path": "art-v1/review/02-art-review.jpg",
+      "bytes": 1158434,
+      "sha256": "686068c6454621a2d466514062f125313f59a19ab868084d9d318577cdefb526"
+    },
+    {
+      "path": "art-v1/review/02-heading-hidden.jpg",
+      "bytes": 578635,
+      "sha256": "1593d359390fc61af1a49299b5a46f2be507bc437405a7a545a4f6447157244b"
+    },
+    {
+      "path": "art-v1/review/03-art-review.jpg",
+      "bytes": 906277,
+      "sha256": "94f9fe2254eccdc4949ea473da1810c2921a091cda0425ac86d0d3d621dce2fa"
+    },
+    {
+      "path": "art-v1/review/03-heading-hidden.jpg",
+      "bytes": 511677,
+      "sha256": "3825a21e80f383556a1867ea273e1bca44556d22d08e00a1ceef2b63cb9ab3ed"
+    },
+    {
+      "path": "art-v1/review/04-art-review.jpg",
+      "bytes": 1016096,
+      "sha256": "55c6667f0cdd3c1979d48775c812d34441b27b6918f7c0d047bc4f45afec90d2"
+    },
+    {
+      "path": "art-v1/review/04-heading-hidden.jpg",
+      "bytes": 578657,
+      "sha256": "5dd2108d431759cda40a2bf53ec67ebd2f5e7267adb394ea2dfdf8f1ae608444"
+    },
+    {
+      "path": "art-v1/review/05-art-review.jpg",
+      "bytes": 958015,
+      "sha256": "b5eed04c8a83486dd1c2e66a258df8283898960aa01c3411ff73b58b4c915a6a"
+    },
+    {
+      "path": "art-v1/review/05-heading-hidden.jpg",
+      "bytes": 556419,
+      "sha256": "a8d7a6314470d6549185e19c860e24c10ac45c889db19966fa46657a64fa2fe7"
+    },
+    {
+      "path": "art-v1/review/06-art-review.jpg",
+      "bytes": 866358,
+      "sha256": "5499ca2ad69b26dbeb40522b8532d59edc0642d42fab2e4e8c4d566faf1e6345"
+    },
+    {
+      "path": "art-v1/review/06-heading-hidden.jpg",
+      "bytes": 465674,
+      "sha256": "0b8d83091097569d4130fa40a340718c380e2cc324f436605247d23da0a6a120"
+    },
+    {
+      "path": "art-v1/review/STATIC_FINISHING_PROOF.json",
+      "bytes": 466,
+      "sha256": "0c34a04962cf1bdd6f6966c2579b86669137b774a40cae1e12daf4c813b24b58"
+    },
+    {
+      "path": "art-v1/review/whole-story-art-review.jpg",
+      "bytes": 1689865,
+      "sha256": "a52826ac5495d10cab3ca34fb2dba86807394389c4610d588758afd893eb7e6e"
+    },
+    {
+      "path": "brief/HOOK_ALTERNATIVES.md",
+      "bytes": 874,
+      "sha256": "d42d3fa3ee3b9bed0a745b5c77516035f2687415e676473c415811d54e66b037"
+    },
+    {
+      "path": "brief/NARRATION_DRAFT.md",
+      "bytes": 1132,
+      "sha256": "9e1eb120333c83547c5c8bf4c95d9ad57ca1615a1b8eb5b492d02379639c5c24"
+    },
+    {
+      "path": "brief/OWNER_SELECTION.md",
+      "bytes": 1736,
+      "sha256": "dd6c2eeea09adf68e5d01d2c930cb33434093a5f20666d40291ed0f152d067e5"
+    },
+    {
+      "path": "research/CLAIMS_AND_SOURCES.json",
+      "bytes": 4920,
+      "sha256": "0549022ee3b88bec280cc5a75bd3ba606ebc1e22459b8680233cfedbea6030b0"
+    },
+    {
+      "path": "research/RESEARCH_NOTE.md",
+      "bytes": 1732,
+      "sha256": "40172daf687384ceb6d5795b677ca605179bc45126e386b79729b3d8e33cae1e"
+    },
+    {
+      "path": "research/approved-v7-phone-board.jpg",
+      "bytes": 1321857,
+      "sha256": "3c16877e24d1af20b500be8c413e8a64eab882ec4e101ba9def456884d8f07c7"
+    }
+  ]
+}

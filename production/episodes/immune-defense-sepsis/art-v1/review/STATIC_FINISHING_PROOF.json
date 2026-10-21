@@ -1,0 +1,14 @@
+{
+  "status": "NATIVE_STATIC_ART_REVIEW_ONLY",
+  "size": [
+    1080,
+    1920
+  ],
+  "paper_mean_absolute_rgb_difference": 2.2893963798868313,
+  "foreground_grain_mean_absolute_rgb_difference": 3.0856888181584363,
+  "caption_opaque_core_changed_pixels": 0,
+  "motion_focus_hunt_parallax": "PLANNED / NOT YET ENCODED",
+  "independent_listening": "NOT PERFORMED",
+  "owner_art_approval": "PENDING",
+  "actual_voice_timing": "NOT RECORDED; provisional planning only"
+}
