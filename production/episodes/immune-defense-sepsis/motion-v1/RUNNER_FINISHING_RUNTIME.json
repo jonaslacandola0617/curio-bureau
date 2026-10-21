@@ -1,0 +1,82 @@
+{
+  "native": [
+    1080,
+    1920
+  ],
+  "deterministic": true,
+  "studio_sha256": "1e3836d338e0c2d06cf38c04887a377eeb7e23a8b0569dcefea6d4988f73ae3a",
+  "sources": {
+    "render_art.py": "67472e786361c587c76c3414f8f601796c92438937e1df090a807105f358c28c",
+    "finish.py": "c7dea40a93f42abf28b4d17c5706e0e06e292387c49b5ac81890ed6a3e2950cd",
+    "timeline.json": "e9655d4b9887b63c0b98e12f4b30b2513f0279db6008f7d12237c7300b5c1e5a",
+    "episode.json": "05ccd0133fd9feabaedc518af17bcae967af8fd61e91921241207387c8a97cc5"
+  },
+  "errors": [],
+  "cases": [
+    {
+      "effect": "material_texture",
+      "t": 12.5,
+      "meanRedDifference": 2.3596948945473253,
+      "opaqueCaptionDifference": 2.7820833333333335
+    },
+    {
+      "effect": "moving_grain",
+      "t": 0.5,
+      "meanRedDifference": 3.701585165895062,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "effect": "selective_focus",
+      "t": 3.8000000000000003,
+      "meanRedDifference": 0.9961902006172839,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "effect": "focus_shading",
+      "t": 3.8000000000000003,
+      "meanRedDifference": 3.071080729166667,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "effect": "focus_hunt",
+      "t": 2.95,
+      "meanRedDifference": 3.196535172325103,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "effect": "motion_blur",
+      "t": 2.95,
+      "meanRedDifference": 0.6726763438786009,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "effect": "chromatic",
+      "t": 3.8000000000000003,
+      "meanRedDifference": 1.0948734889403293,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "effect": "mechanical_jitter",
+      "t": 3.8000000000000003,
+      "meanRedDifference": 2.6277112268518517,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "effect": "exposure",
+      "t": 4.050000000000001,
+      "meanRedDifference": 0.6330626286008231,
+      "opaqueCaptionDifference": 0
+    },
+    {
+      "effect": "ending_protection",
+      "t": 45.666666666666664,
+      "meanRedDifference": 0,
+      "opaqueCaptionDifference": 0
+    }
+  ],
+  "temporal_grain": {
+    "changed_mean_abs": 2.672264814376831
+  },
+  "independent_listening": "PENDING",
+  "owner_motion_review": "PENDING"
+}

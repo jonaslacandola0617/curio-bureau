@@ -1,0 +1,21 @@
+{
+  "file": "Curio-Immune-Defense-Full-Review-v1.mp4",
+  "bytes": 64136446,
+  "sha256": "5db1ceea35c5bd04759df4f871adc7123d845fd7b0bbdd52aa51358d73cc2994",
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v1-20261021/Curio-Immune-Defense-Full-Review-v1.mp4",
+  "source_commit": "07de463f093e8b0bc25bc1ff5ca73bbb9a4c8736",
+  "status": "ARCHIVED_FULL_MOTION_REVIEW",
+  "duration_seconds": 45.7,
+  "native": [
+    1080,
+    1920
+  ],
+  "delivery_fps": 30,
+  "scene_fps": 12,
+  "owner_art_approval": "APPROVED with saturated yellow/red correction",
+  "owner_motion_full_film_approval": "PENDING",
+  "independent_listening": "PENDING",
+  "exact_caption_boundaries": "Actual audio ASR; independent verification pending",
+  "clinical_wording_human_review": "PENDING",
+  "publication": "NOT AUTHORIZED / NOT PERFORMED"
+}

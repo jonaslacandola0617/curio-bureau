@@ -1,0 +1,14 @@
+{
+  "method": "ffmpeg silence detector -37dB,0.85s; technical timing only",
+  "internal_long_silences": [],
+  "status": "PASS",
+  "complete_last_asr_word": {
+    "word": "force.",
+    "start": 43.71999999999996,
+    "end": 44.039999999999964,
+    "probability": 0.9962244033813477
+  },
+  "video_tail_after_last_word": 1.6600000000000392,
+  "edits": "Guarded discretionary quiet only; no speed/pitch change",
+  "independent_listening": "PENDING"
+}

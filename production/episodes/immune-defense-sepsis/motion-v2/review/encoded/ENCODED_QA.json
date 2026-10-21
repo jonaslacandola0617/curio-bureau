@@ -1,0 +1,52 @@
+{
+  "status": "ENCODED_REVIEW_TECHNICAL_PASS; picture inspection recorded separately",
+  "movie": "Curio-Immune-Defense-Full-Review-v2.mp4",
+  "bytes": 64133873,
+  "sha256": "26ad5b4b9164d745e998724e5b4ed46f2f9643634ea8a56627bc9ba59523c84c",
+  "public_download_hash": "MATCH",
+  "duration": 45.7,
+  "native": [
+    1080,
+    1920
+  ],
+  "delivery_fps": 30,
+  "authored_scene_fps": 12,
+  "frames": 1371,
+  "strict_complete_decode": "PASS",
+  "audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "loudness": {
+      "input_i": "-13.89",
+      "input_tp": "-1.47",
+      "input_lra": "2.90",
+      "input_thresh": "-24.31",
+      "output_i": "-14.10",
+      "output_tp": "-1.50",
+      "output_lra": "2.70",
+      "output_thresh": "-24.41",
+      "normalization_type": "dynamic",
+      "target_offset": "0.10"
+    }
+  },
+  "checkpoints": [
+    0.3,
+    1.7,
+    2.95,
+    3.8000000000000003,
+    10.4,
+    12.6,
+    19.44,
+    20.740000000000002,
+    22.1,
+    31.859999999999992,
+    45.0,
+    45.650000000000006
+  ],
+  "owner_art_approval": "APPROVED with vibrant yellow/red correction",
+  "owner_motion_full_film_approval": "PENDING",
+  "independent_listening": "PENDING; no audition claim",
+  "caption_boundaries": "Actual-audio ASR; script reconciled, independent check pending",
+  "clinical_wording_human_review": "PENDING",
+  "publication": "NOT AUTHORIZED / NOT PERFORMED"
+}

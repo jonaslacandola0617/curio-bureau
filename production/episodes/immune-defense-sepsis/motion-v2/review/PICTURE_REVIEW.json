@@ -1,0 +1,35 @@
+{
+  "scope": "Observed native and actual encoded V2 opening states, plus sampled V2 encoded whole-film picture",
+  "observed_native_times": [
+    0,
+    0.3,
+    0.7,
+    1.25
+  ],
+  "opening_tracking": "Observed attached connector across encoded opening states; repair proof bounds changed native frames to0\u201339",
+  "artwork": "Approved six-scene compositions preserved; requested vibrant yellow/red applied",
+  "source_integrity": "Photographic micrograph identified as a false-colored still; conceptual mechanism and illustrative hand labeled",
+  "material": "Separate paper visibly reads on light surfaces; grain extends across assembled source imagery and navy field; numeric retention measures are not artistic acceptance",
+  "limitations": "Sampled picture inspection does not certify uninterrupted motion, audible mix, exact word boundaries or clinical review",
+  "owner_full_film_approval": "PENDING",
+  "observed_encoded_opening_times": [
+    0,
+    0.3,
+    0.7,
+    1.25
+  ],
+  "observed_v2_encoded_times": [
+    0.3,
+    1.7,
+    2.95,
+    3.8000000000000003,
+    10.4,
+    12.6,
+    19.44,
+    20.740000000000002,
+    22.1,
+    31.859999999999992,
+    45.0,
+    45.650000000000006
+  ]
+}
