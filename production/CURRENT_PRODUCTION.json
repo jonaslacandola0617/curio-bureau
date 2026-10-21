@@ -4,15 +4,37 @@
   "case": "Sepsis; illustrative vessel barrier/clotting/perfusion pathway, not complete mechanism",
   "source_branch": "film/immune-defense-sepsis",
   "source_commit": "9ff45d1e649919f4db92646102bf173ab249465d",
-  "status": "V2_OWNER_CONFIRMED_CLOSING_DEFECT_V3_REPAIR_IN_PROGRESS",
+  "status": "V3_CLOSING_DEFECT_CORRECTED_ARCHIVED_ENCODED_VERIFIED_OWNER_REVIEW_PENDING",
   "review_board": "https://github.com/jonaslacandola0617/curio-bureau/blob/82495e7a99f7e50f75628cafc1b1646b52f583b1/production/episodes/immune-defense-sepsis/art-v1/review/whole-story-art-review.jpg",
   "owner_art_approval": "APPROVED; saturated yellow/red correction authorized",
   "narration": "Bernard recorded at speed1; quiet-only guarded edits",
   "voice_timing": "Actual decoded-audio ASR; independent exact caption-boundary verification pending",
-  "motion": "Closing hand continuity repair: consecutive same-art narration beats retain one animation clock",
+  "motion": "Single closing hand entrance; every390held closing frames tracked31.6–44.6s with zero displacement/jump; sampled full-film/closing picture inspected",
   "native_static_finish": "Paper and foreground grain independently execute; captions protected",
-  "full_film": "V3 IN PROGRESS; V2 is historical with owner-confirmed late closing defect",
-  "full_film_qa": "PENDING V3 completed export and encoded verification",
+  "full_film": "COMPLETE 45.7-second corrected V3 review render; public download verified",
+  "full_film_qa": {
+    "public_download_hash": "MATCH",
+    "strict_complete_decode": "PASS",
+    "native": [
+      1080,
+      1920
+    ],
+    "delivery_fps": 30,
+    "frames": 1371,
+    "authored_scene_fps": 12,
+    "authored_cadence_evidence": "render_movie.py quantizer and original episode.json; not inferred from encoded fps",
+    "native_finishing_and_standard_gates": "PASS; actual runner proof preserved",
+    "closing_failure_control": "V2:168native pixel hand jump/displacement",
+    "closing_corrected_joins": "All138delivered frames37.8–42.4s checked against failure control",
+    "whole_closing_hold": "All390delivered frames31.6–44.6s checked; zero hand displacement/jump",
+    "picture": "18encoded closing and12whole-film samples inspected; entrance, both joins, complete hold and exact logo transition represented",
+    "paper_and_foreground_grain": "Native/encoded residuals and actual sampled phone picture checked; unchanged finish.py",
+    "original_ending": "33original native frames decoded RGB identical",
+    "original_audio": "AAC payload SHA256243386afef3e13014760b0ae02322d3c4adb1be2699734f07b35bd21e5e707b2 unchanged",
+    "native_execution_evidence": "Archived ZIP CRC and11referenced proof-file hashes match",
+    "global_57_item_release_certification": false,
+    "qualified_lookback": "https://github.com/jonaslacandola0617/curio-bureau/blob/2e633630b685f785af707ad6242003bcef9fe7b8/production/episodes/immune-defense-sepsis/motion-v3/review/encoded/QUALIFIED_RELEASE_LOOKBACK.json"
+  },
   "source_claims": "research/CLAIMS_AND_SOURCES.json in source branch; scope/conflict limits recorded",
   "medical_wording_human_review": "PENDING",
   "independent_listening": "PENDING / NOT PERFORMED",
@@ -28,12 +50,16 @@
     "original_microscopy_colors": "UNCHANGED",
     "shared_ending": "UNCHANGED"
   },
-  "qa_commit": null,
-  "workflow_conclusion": null,
-  "delivery": null,
-  "repair": "Adjacent beats at38.3s/41.2s reset hand entrance; V3 preserves original art and AAC and repairs only1150–1259",
-  "delivery_checkpoint": "production/episodes/immune-defense-sepsis/motion-v3/DELIVERY_CHECKPOINT.md in source branch after final QA save",
-  "owner_full_film_approval": "PENDING; V2 closing defect reported",
+  "qa_commit": "2e633630b685f785af707ad6242003bcef9fe7b8",
+  "workflow_conclusion": "success",
+  "delivery": {
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v3-20261021/Curio-Immune-Defense-Full-Review-v3.mp4",
+    "bytes": 64114352,
+    "sha256": "9c3d256d3f345961f271090d8b4b6775d6d949f1b089e997b831064eda123dda"
+  },
+  "repair": "Exactly40native frames changed:1150–1169and1238–1257. All other native frames and original AAC preserved;33native ending frames identical",
+  "delivery_checkpoint": "https://github.com/jonaslacandola0617/curio-bureau/blob/2e633630b685f785af707ad6242003bcef9fe7b8/production/episodes/immune-defense-sepsis/motion-v3/DELIVERY_CHECKPOINT.md",
+  "owner_full_film_approval": "PENDING",
   "new_audience_results": null,
   "previous_delivery": {
     "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v2-20261021/Curio-Immune-Defense-Full-Review-v2.mp4",
@@ -59,6 +85,6 @@
     "global_57_item_release_certification": false,
     "qualified_lookback": "https://github.com/jonaslacandola0617/curio-bureau/blob/455f06521e41a7db08bd0af19187f1003e157030/production/episodes/immune-defense-sepsis/motion-v2/review/encoded/QUALIFIED_RELEASE_LOOKBACK.json"
   },
-  "owner_reported_defect": "CONFIRMED; original V2 frame sequence measured168native pixel jump",
+  "owner_reported_defect": "V2 repeated closing entrances corrected in V3; measured0hand displacement/jump over entire390-frame hold; owner V3 review pending",
   "continuity_regression_guide": "production/engine/CONTINUOUS_COMPOSITION_CLOCK_20261021.md"
 }
