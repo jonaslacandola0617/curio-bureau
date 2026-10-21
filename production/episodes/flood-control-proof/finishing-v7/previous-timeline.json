@@ -1,0 +1,960 @@
+{
+  "production_standard": "sun-disappeared-v1",
+  "scene_fps": 12,
+  "delivery_fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 61.733333333333334,
+  "frames": 1852,
+  "voice_duration": 59.72922916666667,
+  "ending_start": 60.63333333333333,
+  "scene_boundaries": [
+    0,
+    7.242319999999999,
+    12.88232,
+    22.302319999999998,
+    26.52232,
+    35.02231999999999,
+    45.255219999999994,
+    48.25112,
+    56.12922,
+    60.63333333333333
+  ],
+  "captions": [
+    {
+      "text": "This is real flood control footage.",
+      "start": 0.0,
+      "end": 2.44
+    },
+    {
+      "text": "But video alone cannot prove how",
+      "start": 3.0423,
+      "end": 5.0573
+    },
+    {
+      "text": "much protection it provided.",
+      "start": 5.0823,
+      "end": 6.362299999999999
+    },
+    {
+      "text": "In February 2025, Heavy Rain hit",
+      "start": 7.2423,
+      "end": 10.1973
+    },
+    {
+      "text": "Tennessee's Cumberland River Basin.",
+      "start": 10.2223,
+      "end": 11.962299999999999
+    },
+    {
+      "text": "The Army Corps published this comparison.",
+      "start": 12.8823,
+      "end": 14.6223
+    },
+    {
+      "text": "Blue shows the river with flood",
+      "start": 15.4823,
+      "end": 17.037300000000002
+    },
+    {
+      "text": "projects operating.",
+      "start": 17.0623,
+      "end": 18.1823
+    },
+    {
+      "text": "Red shows the estimated flooding without",
+      "start": 19.1223,
+      "end": 20.9173
+    },
+    {
+      "text": "them.",
+      "start": 20.9423,
+      "end": 21.5023
+    },
+    {
+      "text": "The red is a model estimate,",
+      "start": 22.3023,
+      "end": 23.802300000000002
+    },
+    {
+      "text": "not a second recorded flood.",
+      "start": 24.1823,
+      "end": 25.7423
+    },
+    {
+      "text": "The Corps estimated $734 million in",
+      "start": 26.3423,
+      "end": 30.3973
+    },
+    {
+      "text": "avoided damage across the basin.",
+      "start": 30.4223,
+      "end": 32.1423
+    },
+    {
+      "text": "That was a preliminary analysis.",
+      "start": 32.9823,
+      "end": 34.6823
+    },
+    {
+      "text": "In the Philippines, an evaluation of",
+      "start": 35.0223,
+      "end": 37.237300000000005
+    },
+    {
+      "text": "the Imus project reported improvement",
+      "start": 37.2623,
+      "end": 39.097300000000004
+    },
+    {
+      "text": "through interviews.",
+      "start": 39.1223,
+      "end": 40.3423
+    },
+    {
+      "text": "But comparable flooded area and household",
+      "start": 41.1023,
+      "end": 42.9973
+    },
+    {
+      "text": "measurements were unavailable.",
+      "start": 43.0223,
+      "end": 44.3423
+    },
+    {
+      "text": "That gap does not mean zero",
+      "start": 45.2552,
+      "end": 47.1702
+    },
+    {
+      "text": "benefit.",
+      "start": 47.1952,
+      "end": 47.7152
+    },
+    {
+      "text": "Ask for the event record, the",
+      "start": 48.2511,
+      "end": 50.7661
+    },
+    {
+      "text": "with and without comparison, and checks",
+      "start": 50.7911,
+      "end": 53.5661
+    },
+    {
+      "text": "against actual observations.",
+      "start": 53.5911,
+      "end": 55.1711
+    },
+    {
+      "text": "How much safer, for whom and",
+      "start": 56.1292,
+      "end": 58.7242
+    },
+    {
+      "text": "how do you know?",
+      "start": 58.7492,
+      "end": 60.37922916666667
+    }
+  ],
+  "words": [
+    {
+      "word": "This",
+      "start": 0.0,
+      "end": 0.34,
+      "probability": 0.8741083741188049
+    },
+    {
+      "word": "is",
+      "start": 0.34,
+      "end": 0.64,
+      "probability": 0.9969026446342468
+    },
+    {
+      "word": "real",
+      "start": 0.64,
+      "end": 1.02,
+      "probability": 0.919363260269165
+    },
+    {
+      "word": "flood",
+      "start": 1.02,
+      "end": 1.46,
+      "probability": 0.9493808746337891
+    },
+    {
+      "word": "control",
+      "start": 1.46,
+      "end": 1.7,
+      "probability": 0.9449814558029175
+    },
+    {
+      "word": "footage.",
+      "start": 1.7,
+      "end": 2.34,
+      "probability": 0.9991716146469116
+    },
+    {
+      "word": "But",
+      "start": 3.0423,
+      "end": 3.2823,
+      "probability": 0.9608309864997864
+    },
+    {
+      "word": "video",
+      "start": 3.2823,
+      "end": 3.5423,
+      "probability": 0.9669386744499207
+    },
+    {
+      "word": "alone",
+      "start": 3.5423,
+      "end": 3.9623,
+      "probability": 0.9842253923416138
+    },
+    {
+      "word": "cannot",
+      "start": 3.9623,
+      "end": 4.3423,
+      "probability": 0.9272646307945251
+    },
+    {
+      "word": "prove",
+      "start": 4.3423,
+      "end": 4.7823,
+      "probability": 0.9981263279914856
+    },
+    {
+      "word": "how",
+      "start": 4.7823,
+      "end": 5.0823,
+      "probability": 0.9980880618095398
+    },
+    {
+      "word": "much",
+      "start": 5.0823,
+      "end": 5.3023,
+      "probability": 0.999026894569397
+    },
+    {
+      "word": "protection",
+      "start": 5.3023,
+      "end": 5.7423,
+      "probability": 0.9968932867050171
+    },
+    {
+      "word": "it",
+      "start": 5.7423,
+      "end": 5.9823,
+      "probability": 0.9891321063041687
+    },
+    {
+      "word": "provided.",
+      "start": 5.9823,
+      "end": 6.2623,
+      "probability": 0.9904528856277466
+    },
+    {
+      "word": "In",
+      "start": 7.2423,
+      "end": 7.3223,
+      "probability": 0.9688805937767029
+    },
+    {
+      "word": "February",
+      "start": 7.3223,
+      "end": 7.5423,
+      "probability": 0.9921201467514038
+    },
+    {
+      "word": "2025,",
+      "start": 7.5423,
+      "end": 8.6423,
+      "probability": 0.9826092720031738
+    },
+    {
+      "word": "Heavy",
+      "start": 8.6423,
+      "end": 9.4823,
+      "probability": 0.4135097563266754
+    },
+    {
+      "word": "Rain",
+      "start": 9.4823,
+      "end": 9.8023,
+      "probability": 0.7019762992858887
+    },
+    {
+      "word": "hit",
+      "start": 9.8023,
+      "end": 10.2223,
+      "probability": 0.9938367009162903
+    },
+    {
+      "word": "Tennessee's",
+      "start": 10.2223,
+      "end": 10.8423,
+      "probability": 0.9920816719532013
+    },
+    {
+      "word": "Cumberland",
+      "start": 10.8423,
+      "end": 11.2423,
+      "probability": 0.9955584108829498
+    },
+    {
+      "word": "River",
+      "start": 11.2423,
+      "end": 11.4623,
+      "probability": 0.9759982228279114
+    },
+    {
+      "word": "Basin.",
+      "start": 11.4623,
+      "end": 11.8623,
+      "probability": 0.7999938726425171
+    },
+    {
+      "word": "The",
+      "start": 12.8823,
+      "end": 12.9023,
+      "probability": 0.9914578795433044
+    },
+    {
+      "word": "Army",
+      "start": 12.9023,
+      "end": 13.0823,
+      "probability": 0.9432351589202881
+    },
+    {
+      "word": "Corps",
+      "start": 13.0823,
+      "end": 13.3623,
+      "probability": 0.8149573802947998
+    },
+    {
+      "word": "published",
+      "start": 13.3623,
+      "end": 13.7823,
+      "probability": 0.9985750913619995
+    },
+    {
+      "word": "this",
+      "start": 13.7823,
+      "end": 14.2023,
+      "probability": 0.9933432340621948
+    },
+    {
+      "word": "comparison.",
+      "start": 14.2023,
+      "end": 14.5223,
+      "probability": 0.999157190322876
+    },
+    {
+      "word": "Blue",
+      "start": 15.4823,
+      "end": 15.6623,
+      "probability": 0.923079252243042
+    },
+    {
+      "word": "shows",
+      "start": 15.6623,
+      "end": 16.1023,
+      "probability": 0.995191216468811
+    },
+    {
+      "word": "the",
+      "start": 16.1023,
+      "end": 16.3423,
+      "probability": 0.9991995692253113
+    },
+    {
+      "word": "river",
+      "start": 16.3423,
+      "end": 16.5023,
+      "probability": 0.9878910779953003
+    },
+    {
+      "word": "with",
+      "start": 16.5023,
+      "end": 16.8423,
+      "probability": 0.9914094805717468
+    },
+    {
+      "word": "flood",
+      "start": 16.8423,
+      "end": 17.0623,
+      "probability": 0.9910683631896973
+    },
+    {
+      "word": "projects",
+      "start": 17.0623,
+      "end": 17.6023,
+      "probability": 0.998778760433197
+    },
+    {
+      "word": "operating.",
+      "start": 17.6023,
+      "end": 18.0823,
+      "probability": 0.9977678060531616
+    },
+    {
+      "word": "Red",
+      "start": 19.1223,
+      "end": 19.1223,
+      "probability": 0.9799469113349915
+    },
+    {
+      "word": "shows",
+      "start": 19.1223,
+      "end": 19.4623,
+      "probability": 0.9967580437660217
+    },
+    {
+      "word": "the",
+      "start": 19.4623,
+      "end": 19.6823,
+      "probability": 0.9975128173828125
+    },
+    {
+      "word": "estimated",
+      "start": 19.6823,
+      "end": 20.1023,
+      "probability": 0.9984788298606873
+    },
+    {
+      "word": "flooding",
+      "start": 20.1023,
+      "end": 20.5023,
+      "probability": 0.9983314871788025
+    },
+    {
+      "word": "without",
+      "start": 20.5023,
+      "end": 20.9423,
+      "probability": 0.9843824505805969
+    },
+    {
+      "word": "them.",
+      "start": 20.9423,
+      "end": 21.4023,
+      "probability": 0.9972680807113647
+    },
+    {
+      "word": "The",
+      "start": 22.3023,
+      "end": 22.3623,
+      "probability": 0.9698096513748169
+    },
+    {
+      "word": "red",
+      "start": 22.3623,
+      "end": 22.5823,
+      "probability": 0.5708072781562805
+    },
+    {
+      "word": "is",
+      "start": 22.5823,
+      "end": 22.8623,
+      "probability": 0.9990887641906738
+    },
+    {
+      "word": "a",
+      "start": 22.8623,
+      "end": 23.0223,
+      "probability": 0.9974350333213806
+    },
+    {
+      "word": "model",
+      "start": 23.0223,
+      "end": 23.3423,
+      "probability": 0.9901462197303772
+    },
+    {
+      "word": "estimate,",
+      "start": 23.3423,
+      "end": 23.7023,
+      "probability": 0.9980097413063049
+    },
+    {
+      "word": "not",
+      "start": 24.1823,
+      "end": 24.4023,
+      "probability": 0.9986891150474548
+    },
+    {
+      "word": "a",
+      "start": 24.4023,
+      "end": 24.5423,
+      "probability": 0.9969128370285034
+    },
+    {
+      "word": "second",
+      "start": 24.5423,
+      "end": 24.8423,
+      "probability": 0.998216450214386
+    },
+    {
+      "word": "recorded",
+      "start": 24.8423,
+      "end": 25.2223,
+      "probability": 0.9734711050987244
+    },
+    {
+      "word": "flood.",
+      "start": 25.2223,
+      "end": 25.6423,
+      "probability": 0.998406708240509
+    },
+    {
+      "word": "The",
+      "start": 26.3423,
+      "end": 26.7223,
+      "probability": 0.19911950826644897
+    },
+    {
+      "word": "Corps",
+      "start": 26.7223,
+      "end": 26.9623,
+      "probability": 0.23933500051498413
+    },
+    {
+      "word": "estimated",
+      "start": 26.9623,
+      "end": 27.4223,
+      "probability": 0.9335023760795593
+    },
+    {
+      "word": "$734",
+      "start": 27.4223,
+      "end": 28.9423,
+      "probability": 0.9330006241798401
+    },
+    {
+      "word": "million",
+      "start": 28.9423,
+      "end": 29.6823,
+      "probability": 0.9603850245475769
+    },
+    {
+      "word": "in",
+      "start": 29.6823,
+      "end": 30.4223,
+      "probability": 0.9567962884902954
+    },
+    {
+      "word": "avoided",
+      "start": 30.4223,
+      "end": 30.6623,
+      "probability": 0.981833279132843
+    },
+    {
+      "word": "damage",
+      "start": 30.6623,
+      "end": 31.2623,
+      "probability": 0.9977266192436218
+    },
+    {
+      "word": "across",
+      "start": 31.2623,
+      "end": 31.5423,
+      "probability": 0.9972336888313293
+    },
+    {
+      "word": "the",
+      "start": 31.5423,
+      "end": 31.8223,
+      "probability": 0.998768150806427
+    },
+    {
+      "word": "basin.",
+      "start": 31.8223,
+      "end": 32.0423,
+      "probability": 0.8831910490989685
+    },
+    {
+      "word": "That",
+      "start": 32.9823,
+      "end": 33.1823,
+      "probability": 0.9256672859191895
+    },
+    {
+      "word": "was",
+      "start": 33.1823,
+      "end": 33.3423,
+      "probability": 0.999367892742157
+    },
+    {
+      "word": "a",
+      "start": 33.3423,
+      "end": 33.4423,
+      "probability": 0.9945451021194458
+    },
+    {
+      "word": "preliminary",
+      "start": 33.4423,
+      "end": 33.8223,
+      "probability": 0.9972007274627686
+    },
+    {
+      "word": "analysis.",
+      "start": 33.8223,
+      "end": 34.5823,
+      "probability": 0.9977311491966248
+    },
+    {
+      "word": "In",
+      "start": 35.0223,
+      "end": 35.3423,
+      "probability": 0.9909204244613647
+    },
+    {
+      "word": "the",
+      "start": 35.3423,
+      "end": 35.4423,
+      "probability": 0.9821838140487671
+    },
+    {
+      "word": "Philippines,",
+      "start": 35.4423,
+      "end": 35.8223,
+      "probability": 0.9944959282875061
+    },
+    {
+      "word": "an",
+      "start": 36.2823,
+      "end": 36.4823,
+      "probability": 0.991768479347229
+    },
+    {
+      "word": "evaluation",
+      "start": 36.4823,
+      "end": 36.8423,
+      "probability": 0.9991724491119385
+    },
+    {
+      "word": "of",
+      "start": 36.8423,
+      "end": 37.2623,
+      "probability": 0.9988625049591064
+    },
+    {
+      "word": "the",
+      "start": 37.2623,
+      "end": 37.3623,
+      "probability": 0.9926349520683289
+    },
+    {
+      "word": "Imus",
+      "start": 37.3623,
+      "end": 37.7423,
+      "probability": 0.5040542781352997
+    },
+    {
+      "word": "project",
+      "start": 37.7423,
+      "end": 38.2223,
+      "probability": 0.7758285999298096
+    },
+    {
+      "word": "reported",
+      "start": 38.2223,
+      "end": 38.6823,
+      "probability": 0.9947255253791809
+    },
+    {
+      "word": "improvement",
+      "start": 38.6823,
+      "end": 39.1223,
+      "probability": 0.9979921579360962
+    },
+    {
+      "word": "through",
+      "start": 39.1223,
+      "end": 39.7423,
+      "probability": 0.9978349804878235
+    },
+    {
+      "word": "interviews.",
+      "start": 39.7423,
+      "end": 40.2423,
+      "probability": 0.9972081780433655
+    },
+    {
+      "word": "But",
+      "start": 41.1023,
+      "end": 41.1423,
+      "probability": 0.9776509404182434
+    },
+    {
+      "word": "comparable",
+      "start": 41.1423,
+      "end": 41.4223,
+      "probability": 0.9805396795272827
+    },
+    {
+      "word": "flooded",
+      "start": 41.4223,
+      "end": 42.0423,
+      "probability": 0.9253284931182861
+    },
+    {
+      "word": "area",
+      "start": 42.0423,
+      "end": 42.4023,
+      "probability": 0.9534792900085449
+    },
+    {
+      "word": "and",
+      "start": 42.4023,
+      "end": 42.7223,
+      "probability": 0.9948135614395142
+    },
+    {
+      "word": "household",
+      "start": 42.7223,
+      "end": 43.0223,
+      "probability": 0.9965433478355408
+    },
+    {
+      "word": "measurements",
+      "start": 43.0223,
+      "end": 43.4623,
+      "probability": 0.9974851608276367
+    },
+    {
+      "word": "were",
+      "start": 43.4623,
+      "end": 43.9823,
+      "probability": 0.9959867596626282
+    },
+    {
+      "word": "unavailable.",
+      "start": 43.9823,
+      "end": 44.2423,
+      "probability": 0.9955009818077087
+    },
+    {
+      "word": "That",
+      "start": 45.2552,
+      "end": 45.5152,
+      "probability": 0.9832996726036072
+    },
+    {
+      "word": "gap",
+      "start": 45.5152,
+      "end": 45.7352,
+      "probability": 0.9928135275840759
+    },
+    {
+      "word": "does",
+      "start": 45.7352,
+      "end": 46.0952,
+      "probability": 0.9888665080070496
+    },
+    {
+      "word": "not",
+      "start": 46.0952,
+      "end": 46.3352,
+      "probability": 0.9992340803146362
+    },
+    {
+      "word": "mean",
+      "start": 46.3352,
+      "end": 46.6552,
+      "probability": 0.9980820417404175
+    },
+    {
+      "word": "zero",
+      "start": 46.6552,
+      "end": 47.1952,
+      "probability": 0.9756551384925842
+    },
+    {
+      "word": "benefit.",
+      "start": 47.1952,
+      "end": 47.6152,
+      "probability": 0.9720635414123535
+    },
+    {
+      "word": "Ask",
+      "start": 48.2511,
+      "end": 48.8511,
+      "probability": 0.005491273477673531
+    },
+    {
+      "word": "for",
+      "start": 48.8511,
+      "end": 49.2311,
+      "probability": 0.9892675280570984
+    },
+    {
+      "word": "the",
+      "start": 49.2311,
+      "end": 49.3511,
+      "probability": 0.9878212809562683
+    },
+    {
+      "word": "event",
+      "start": 49.3511,
+      "end": 49.5911,
+      "probability": 0.9136871099472046
+    },
+    {
+      "word": "record,",
+      "start": 49.5911,
+      "end": 50.0311,
+      "probability": 0.989870011806488
+    },
+    {
+      "word": "the",
+      "start": 50.6911,
+      "end": 50.7911,
+      "probability": 0.9461864233016968
+    },
+    {
+      "word": "with",
+      "start": 50.7911,
+      "end": 51.0111,
+      "probability": 0.4974609911441803
+    },
+    {
+      "word": "and",
+      "start": 51.0111,
+      "end": 51.3511,
+      "probability": 0.9604599475860596
+    },
+    {
+      "word": "without",
+      "start": 51.3511,
+      "end": 51.6311,
+      "probability": 0.997749388217926
+    },
+    {
+      "word": "comparison,",
+      "start": 51.6311,
+      "end": 52.1511,
+      "probability": 0.9948685169219971
+    },
+    {
+      "word": "and",
+      "start": 53.1711,
+      "end": 53.3311,
+      "probability": 0.9954207539558411
+    },
+    {
+      "word": "checks",
+      "start": 53.3311,
+      "end": 53.5911,
+      "probability": 0.9762783050537109
+    },
+    {
+      "word": "against",
+      "start": 53.5911,
+      "end": 54.0511,
+      "probability": 0.99858558177948
+    },
+    {
+      "word": "actual",
+      "start": 54.0511,
+      "end": 54.5111,
+      "probability": 0.9958130717277527
+    },
+    {
+      "word": "observations.",
+      "start": 54.5111,
+      "end": 55.0711,
+      "probability": 0.9967716336250305
+    },
+    {
+      "word": "How",
+      "start": 56.1292,
+      "end": 56.2492,
+      "probability": 0.9854632616043091
+    },
+    {
+      "word": "much",
+      "start": 56.2492,
+      "end": 56.4692,
+      "probability": 0.9953749775886536
+    },
+    {
+      "word": "safer,",
+      "start": 56.4692,
+      "end": 56.8092,
+      "probability": 0.995518147945404
+    },
+    {
+      "word": "for",
+      "start": 57.4492,
+      "end": 57.6892,
+      "probability": 0.9980429410934448
+    },
+    {
+      "word": "whom",
+      "start": 57.6892,
+      "end": 57.9892,
+      "probability": 0.9958482980728149
+    },
+    {
+      "word": "and",
+      "start": 57.9892,
+      "end": 58.7492,
+      "probability": 0.6259867548942566
+    },
+    {
+      "word": "how",
+      "start": 58.7492,
+      "end": 59.0492,
+      "probability": 0.9968230724334717
+    },
+    {
+      "word": "do",
+      "start": 59.0492,
+      "end": 59.1492,
+      "probability": 0.9809461236000061
+    },
+    {
+      "word": "you",
+      "start": 59.1492,
+      "end": 59.2692,
+      "probability": 0.9953870177268982
+    },
+    {
+      "word": "know?",
+      "start": 59.2692,
+      "end": 59.5092,
+      "probability": 0.9984293580055237
+    }
+  ],
+  "voice_edits_seconds_original": [
+    [
+      2.87735,
+      3.27503
+    ],
+    [
+      35.37,
+      39.11
+    ],
+    [
+      49.1776,
+      49.5847
+    ],
+    [
+      52.7059,
+      52.79
+    ],
+    [
+      60.5264,
+      60.8883
+    ]
+  ],
+  "caption_status": "Script-reconciled actual-audio ASR estimates; independent word-boundary listening pending",
+  "owner_direction": "Use real records then render; no generated flood scenery",
+  "sources": {
+    "footage_date": "2025-02-16",
+    "map_publication": "2025-03-11",
+    "analysis_publication": "2025-03-12",
+    "jica_study": "2023-08 through 2024-11"
+  }
+}

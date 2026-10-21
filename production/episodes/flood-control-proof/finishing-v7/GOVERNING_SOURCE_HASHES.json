@@ -1,0 +1,26 @@
+[
+  {
+    "path": "AGENTS.md",
+    "sha256": "d21da484134298b8bec09f0c282f39fa32198ef0e3ac39939b470d23ae1df733"
+  },
+  {
+    "path": "production/CURIO_BUREAU_MASTER_PRODUCTION_BIBLE.md",
+    "sha256": "22125927a2f7be1443ac44374d9aeaf385d0352b94c96bcee4902b21818bb0e9"
+  },
+  {
+    "path": "production/approved-benchmarks/SUN_DISAPPEARED_PRODUCTION_STANDARD.md",
+    "sha256": "9a2109dc4b3c977cfd80803ab3b542b4fac402e0ceddb2ebc195f1be8765be3b"
+  },
+  {
+    "path": "production/approved-benchmarks/FOUR_TEST_VISUAL_ART_OWNER_APPROVAL_20261020.md",
+    "sha256": "c19d1223b20af2ba795a2901e530af17e9e6375e0983b77542d5d9181a7cf8a3"
+  },
+  {
+    "path": "production/engine/FINISHING_OUTPUT_CONTRACT.md",
+    "sha256": "9d2ae7b84b1e68fcde5a6e651a22fa3ad2bf96ff7abc7c74e827061c00844d90"
+  },
+  {
+    "path": "production/engine/FINISHING_CHECKLIST.md",
+    "sha256": "631c3550591b224a45b3e39793aeaf07b1f1f8f118949d858b689e40b4c6d6cb"
+  }
+]

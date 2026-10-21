@@ -1,0 +1,118 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.46,
+      "text": " Can flood control actually work in the Philippines?"
+    },
+    {
+      "start": 3.16,
+      "end": 5.62,
+      "text": " And how would you prove your street is safer?"
+    }
+  ],
+  "words": [
+    {
+      "word": "Can",
+      "start": 0.0,
+      "end": 0.16,
+      "probability": 0.5040253400802612
+    },
+    {
+      "word": "flood",
+      "start": 0.16,
+      "end": 0.38,
+      "probability": 0.8513035178184509
+    },
+    {
+      "word": "control",
+      "start": 0.38,
+      "end": 0.74,
+      "probability": 0.9817492961883545
+    },
+    {
+      "word": "actually",
+      "start": 0.74,
+      "end": 1.2,
+      "probability": 0.9982465505599976
+    },
+    {
+      "word": "work",
+      "start": 1.2,
+      "end": 1.66,
+      "probability": 0.9984126091003418
+    },
+    {
+      "word": "in",
+      "start": 1.66,
+      "end": 1.94,
+      "probability": 0.9972614049911499
+    },
+    {
+      "word": "the",
+      "start": 1.94,
+      "end": 2.02,
+      "probability": 0.9956356883049011
+    },
+    {
+      "word": "Philippines?",
+      "start": 2.02,
+      "end": 2.46,
+      "probability": 0.9948451519012451
+    },
+    {
+      "word": "And",
+      "start": 3.16,
+      "end": 3.26,
+      "probability": 0.9376266598701477
+    },
+    {
+      "word": "how",
+      "start": 3.26,
+      "end": 3.46,
+      "probability": 0.9876426458358765
+    },
+    {
+      "word": "would",
+      "start": 3.46,
+      "end": 3.68,
+      "probability": 0.9938546419143677
+    },
+    {
+      "word": "you",
+      "start": 3.68,
+      "end": 3.92,
+      "probability": 0.973719596862793
+    },
+    {
+      "word": "prove",
+      "start": 3.92,
+      "end": 4.3,
+      "probability": 0.9898702502250671
+    },
+    {
+      "word": "your",
+      "start": 4.3,
+      "end": 4.66,
+      "probability": 0.9762579798698425
+    },
+    {
+      "word": "street",
+      "start": 4.66,
+      "end": 5.06,
+      "probability": 0.9830330014228821
+    },
+    {
+      "word": "is",
+      "start": 5.06,
+      "end": 5.36,
+      "probability": 0.996993899345398
+    },
+    {
+      "word": "safer?",
+      "start": 5.36,
+      "end": 5.62,
+      "probability": 0.9965065121650696
+    }
+  ]
+}

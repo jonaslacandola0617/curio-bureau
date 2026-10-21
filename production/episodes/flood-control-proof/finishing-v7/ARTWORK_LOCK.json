@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "owner_artwork_approved": true,
+  "approval_date": "2026-10-21",
+  "owner_instruction": "Good, i like the artwork. But the overlay and texture are off, the grain overlay is at the background. It should be on the front as an overlay not a texture, then add the paper texture. KEEP THE ARTWORK DO NOT ADD OR CHANGE A SINGLE THING IN IT. JUST FIX THE TEXTURE AND OVERLAYS",
+  "approved_movie_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/flood-proof-real-records-v6-20261021/Curio-Flood-Proof-Real-Records-v6.mp4",
+  "approved_movie_sha256": "6e95da904de634bcd2dd30e7a91f40ecd9fa2042f525eb09180a8fd1cb516aab",
+  "approved_picture_source_commit": "a6ca39c895e394445e3db518c3e8b9123a284dc5",
+  "baseline_record_commit": "916e754886b3daf96aaa535ee2a7bc89b72e9cd1",
+  "allowed_changes": [
+    "Remove old background/source grain implementation",
+    "Separate static paper texture pass",
+    "Moving foreground grain overlay over completed artwork"
+  ],
+  "locked": [
+    "All scene artwork and sources",
+    "Object positions and dimensions",
+    "Map categories, crops and labels",
+    "All camera/parallax/focus/blur/exposure timing",
+    "All text/fonts/captions",
+    "All scene and audio timing",
+    "Encoded V6 AAC audio packets",
+    "All33 native ending frames"
+  ],
+  "ending_native_source": "V6 archived lossless chunks, not regenerated",
+  "art_preservation_proof": "Identical original renderer after removing a single foreground pass call; no-texture/no-grain V6 versus V7 image equality at demanding times",
+  "new_finishing_approval": "PENDING",
+  "full_film_approval": "PENDING"
+}

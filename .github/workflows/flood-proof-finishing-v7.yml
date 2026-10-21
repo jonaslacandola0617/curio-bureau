@@ -1,0 +1,29 @@
+name: Flood proof locked artwork foreground finishing v7
+on:
+  push:
+    branches: [film/flood-proof-20261020]
+    paths: [production/episodes/flood-control-proof/finishing-v7/READY.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render-and-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install compositor dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install Pillow==12.3.0 numpy==2.2.6 scipy==1.15.3
+      - name: Validate artwork lock and render only revised finishing
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          SOURCE_COMMIT: ${{ github.sha }}
+          CURIO_REPO_ROOT: ${{ github.workspace }}
+        run: python production/episodes/flood-control-proof/finishing-v7/build_release.py

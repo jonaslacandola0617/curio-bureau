@@ -1,0 +1,49 @@
+{
+  "voice": "Bernard",
+  "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+  "speed": 1,
+  "source_sha256": "9cfad7a2185f1ab340662df92d47ab0a9fecaf333bea32ca1ca6765a37f4e64c",
+  "source_samples": 3106560,
+  "hook_samples": 288000,
+  "hook_task": "7a1d4002-53ce-4ec0-930a-b4e728b0f31b",
+  "body_cut_seconds_v5": 7.0,
+  "retained_samples": 2819003,
+  "edits": [
+    [
+      2.87735,
+      3.27503
+    ],
+    [
+      35.37,
+      39.11
+    ],
+    [
+      49.1776,
+      49.5847
+    ],
+    [
+      52.7059,
+      52.79
+    ],
+    [
+      60.5264,
+      60.8883
+    ]
+  ],
+  "voice_duration": 58.72922916666667,
+  "duration": 60.733333333333334,
+  "tail_before_ending": 0.9041041666666629,
+  "peak_before_normalization": 0.7196297645568848,
+  "score": "Original episode four-section score retimed for the revised question hook, no reused Sun soundtrack",
+  "independent_listening": "PENDING",
+  "caption_alignment": "ASR estimates, script reconciled; independent boundary verification PENDING",
+  "normalized_soundtrack_sha256": "43385ca8caed369d6e4a2be2ca550b06fc04026a18d3267279731d72a1747d60",
+  "normalized_soundtrack_duration": 60.733333,
+  "normalized_soundtrack_full_decode": "PASS with ffmpeg -xerror; header duration verified before capture",
+  "normalization_target": {
+    "integrated_lufs": -14,
+    "true_peak_dbtp": -1.7,
+    "lra": 7
+  },
+  "earlier_interrupted_local_normalization": "Detected before source checkpoint and native render; replaced with complete verified FLAC; not delivered"
+}

@@ -1,0 +1,175 @@
+{
+  "version": "real-records-v6",
+  "inputs": [
+    {
+      "path": "prepare.py",
+      "bytes": 6492,
+      "sha256": "c2be959dc9cbe246e229933544a6091c9033d640dbf74bb16f1aa392db6c9337"
+    },
+    {
+      "path": "align_hook.py",
+      "bytes": 761,
+      "sha256": "a788ed1182125d345a47ef5cc1b4274a708d3bf1fea0a8f8a9af1c60db48f1fe"
+    },
+    {
+      "path": "render.py",
+      "bytes": 12811,
+      "sha256": "383fb08d96428713b1354686082db08e6ec891f3e84ccfadf5e7d3bae6eef767"
+    },
+    {
+      "path": "finish.py",
+      "bytes": 3256,
+      "sha256": "8eea423f1207a2381df6f34cffa11f83e70ffef9206428d703b6f50db4cb673b"
+    },
+    {
+      "path": "prove_finishing.py",
+      "bytes": 6745,
+      "sha256": "8f0c7310d286c40a0c4a060f684c53ffd8ba35f7f20d228175d7b3438e07e76b"
+    },
+    {
+      "path": "recover_sources.py",
+      "bytes": 501,
+      "sha256": "6009c23418af16062d77d9967eb7050d89924b1b56fb4177fb91662ca5de3a69"
+    },
+    {
+      "path": "ending.cjs",
+      "bytes": 1166,
+      "sha256": "24eeae84236b511e0d4b4eb0412ecd23581ece55db996cf6820b47ef05a3ff25"
+    },
+    {
+      "path": "build_release.py",
+      "bytes": 5355,
+      "sha256": "9c19b84288a891497a35744bc678bba4055a0b38e7ef26f560a30db68b110335"
+    },
+    {
+      "path": "timeline.json",
+      "bytes": 20142,
+      "sha256": "a5859d2388f027c8bde20047e717c32da2836c215786964ebc2bc391499921ee"
+    },
+    {
+      "path": "episode.json",
+      "bytes": 20314,
+      "sha256": "6171379ebdcdaa898514e65af2a65c9d864570765257e14e9c39750b2b72a299"
+    },
+    {
+      "path": "previous-timeline.json",
+      "bytes": 19604,
+      "sha256": "a2ab9da6dbdcc9f47baf70069908fe6bf0fd74a3f3ef2ced7ad3b5d70824f9a8"
+    },
+    {
+      "path": "SHOT_CONTRACTS.json",
+      "bytes": 21144,
+      "sha256": "d777ec59f23d6e3d7a4ad86247c663efc43a43c9637162596b6af03af524c861"
+    },
+    {
+      "path": "MOTION_REVIEW_TARGETS.json",
+      "bytes": 7383,
+      "sha256": "1fd5cf953ad64a45d2008cd6ae56c8d11bdae6cb606b74063352a352ff510302"
+    },
+    {
+      "path": "GOVERNING_SOURCE_HASHES.json",
+      "bytes": 930,
+      "sha256": "bc83605a0a52c78cbd84271989fb0ee14e112977ea5712acf2d18e014ac0aee1"
+    },
+    {
+      "path": "NARRATION_SOURCE.json",
+      "bytes": 558,
+      "sha256": "f13f903e9cd50b5f2a835dbd3e650c2b4a08a06a392ac19b75383d5bef77b94e"
+    },
+    {
+      "path": "SOURCES_AND_SCOPE.md",
+      "bytes": 7223,
+      "sha256": "c9edd5fd4bdab35c848d092a618f02b88c5162d7c4c256e630bec5ad87110cee"
+    },
+    {
+      "path": "SOURCE_DOWNLOADS.json",
+      "bytes": 726,
+      "sha256": "6dfc62818f46533be4692ad781fbce4ffe91b48f68d5bfe2129ca5cb2bdc09c8"
+    },
+    {
+      "path": "SFX_CUE_SHEET.json",
+      "bytes": 2907,
+      "sha256": "8dbfae547a1c7abafd880896c87d58654f5209a21cc3a6509db8444a84df81b3"
+    },
+    {
+      "path": "audio/bernard-original.mp3",
+      "bytes": 1036581,
+      "sha256": "9cfad7a2185f1ab340662df92d47ab0a9fecaf333bea32ca1ca6765a37f4e64c"
+    },
+    {
+      "path": "audio/ASR_ORIGINAL.json",
+      "bytes": 17598,
+      "sha256": "938bf2862716d1d50e865f0a89115623eaa8e9dc395248072dcab6cd10b5a583"
+    },
+    {
+      "path": "audio/hook-original.mp3",
+      "bytes": 97009,
+      "sha256": "52a075167a218ff41943df97360fe382ab147ddf18f545b789b52bf8f1f0f3db"
+    },
+    {
+      "path": "audio/HOOK_ASR.json",
+      "bytes": 2237,
+      "sha256": "faa6d99399d6acb1dca0dfdf13c34f3e0b8a24c0553389996ffb93d01349d1e4"
+    },
+    {
+      "path": "audio/AUDIO_RECEIPT.json",
+      "bytes": 1490,
+      "sha256": "3c256d2094974b385c801b363517d06d4477775588f8dca9e0fcf493da2cc5fc"
+    },
+    {
+      "path": "audio/soundtrack.flac",
+      "bytes": 3931526,
+      "sha256": "43385ca8caed369d6e4a2be2ca550b06fc04026a18d3267279731d72a1747d60"
+    },
+    {
+      "path": "assets/official-comparison.jpg",
+      "bytes": 1385850,
+      "sha256": "3ff6405d0d9bdf49c52fe5ba4327eee437f32de52dd6a850d54585ff527c7a70"
+    },
+    {
+      "path": "assets/imus-basin.jpeg",
+      "bytes": 100836,
+      "sha256": "e2ee5eb022dc334b1357d6b3efe7b2cbf29da37688deb46a302d4ad08078e736"
+    },
+    {
+      "path": "assets/imus-marker.jpeg",
+      "bytes": 59944,
+      "sha256": "9fa60975b961f21337865705a446ab2750806a31a0751c00485340abb12124bc"
+    },
+    {
+      "path": "assets/jica-excerpt.png",
+      "bytes": 10266,
+      "sha256": "060e3e8b0887928b55d3b1d0a2959a22a0a4bb4308d74fbe24e8a8bb5e9a9a98"
+    },
+    {
+      "repository_path": "production/engine/browser/brand.js",
+      "sha256": "fad97f68e9a2333830e31479d6c86d7585641cde5101c6660ee9a5d7d5c44df8"
+    },
+    {
+      "repository_path": "production/engine/finishing_contract.py",
+      "sha256": "4a86482291e1fa2ee71bbf6f9f39d61c81d71ef18e85aa4e00250b0221a8259c"
+    },
+    {
+      "repository_path": "production/engine/finishing_audit.py",
+      "sha256": "969e420f08f683200ec119c223e97804161addb57ef4a79a1062e437af305915"
+    },
+    {
+      "repository_path": "production/engine/production_standard.py",
+      "sha256": "f4a67aecb4dfb65ba9490ea1995ce0fc7c5fce46271190869f69d484cd9303c2"
+    },
+    {
+      "repository_path": "production/pre-render/pilot-20261016/cold-metal-pilot/art-v1/assets/Playfair900.ttf",
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38"
+    },
+    {
+      "repository_path": "production/pre-render/pilot-20261016/cold-metal-pilot/art-v1/assets/Manrope.ttf",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "repository_path": ".github/workflows/flood-proof-real-records-v6.yml",
+      "sha256": "d5793937be2a8b53f7028bb6c85007ca7a0904a7d2b261ec00fb4a59a74c26fa"
+    }
+  ],
+  "historical_exports": "preserved",
+  "owner_approval": "PENDING"
+}

@@ -1,0 +1,62 @@
+{
+  "finishing": {
+    "status": "PASS",
+    "stage": "release",
+    "artistic_quality": "not inferred from execution proof"
+  },
+  "coverage": {
+    "execution_records_pass": true,
+    "errors": [],
+    "owner_motion_review": "V6 artwork approved; V7 finishing review pending",
+    "artistic_quality": "not inferred",
+    "subjective_listening": "PENDING"
+  },
+  "cadence": {
+    "status": "DECLARED_TIMING_PASS",
+    "scene_fps": 12,
+    "operations": 35,
+    "exceptions": [
+      {
+        "start": 3.7,
+        "end": 6.24232,
+        "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+      },
+      {
+        "start": 11.88232,
+        "end": 14.48232,
+        "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+      },
+      {
+        "start": 25.52232,
+        "end": 27.62232,
+        "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+      },
+      {
+        "start": 27.62232,
+        "end": 30.92232,
+        "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+      },
+      {
+        "start": 30.92232,
+        "end": 34.02232,
+        "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+      },
+      {
+        "start": 42.22232,
+        "end": 44.25522,
+        "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+      },
+      {
+        "start": 47.25112,
+        "end": 49.75112,
+        "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+      },
+      {
+        "start": 49.75112,
+        "end": 52.25112,
+        "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+      }
+    ],
+    "limits": "Operation truth, artistic quality, captions and listening require separate encoded review"
+  }
+}

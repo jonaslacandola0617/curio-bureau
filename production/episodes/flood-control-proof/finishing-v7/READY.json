@@ -1,0 +1,8 @@
+{
+  "version": "finishing-v7",
+  "authorized": "Owner explicitly ordered texture/overlay correction only while locking approved V6 art",
+  "source_freeze_sha256": "0e6eb8f19638054a1948f5f1238fff49d6826ec97a8503d0e5f774c4ec91947d",
+  "owner_artwork_approved": true,
+  "new_finishing_approval": "PENDING",
+  "status": "READY_FOR_FINISHING_ONLY_RENDER"
+}
