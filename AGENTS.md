@@ -1,5 +1,17 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
 
+## Current complete immune-film review — 21 October 2026
+
+The complete **Could your body's defense system hurt you?** film is rendered and archived as **Full Review V2**, 45.7 seconds, native1080×1920/30fps with authored12fps scene/camera/material cadence and the exact30fps shared ending. The owner approved all six art compositions and authorized vibrant yellow #FFE337 / red #FF4030 accents plus rendering. Those approvals remain established; resulting full moving-film approval remains PENDING.
+
+Active frozen source: f1f949bd8d4607d3feb8f20aa3d9327e6a1afd1f on film/immune-defense-sepsis, production/episodes/immune-defense-sepsis/motion-v2/. Read its DELIVERY_CHECKPOINT.md, DELIVERY.json, REPAIR_PROOF.json and current production record. V1 is preserved historical review output. V2 repairs only an opening connector tracking error; native frames40 onward, original33 ending frames and original AAC payload are preserved, with actual comparison evidence. Do not rerender the complete native film for a bounded repair.
+
+Public V2 movie: https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v2-20261021/Curio-Immune-Defense-Full-Review-v2.mp4
+SHA256:26ad5b4b9164d745e998724e5b4ed46f2f9643634ea8a56627bc9ba59523c84c;64,133,873bytes. Public-download hash, strict full decode,1371frames, runner production/finishing gates, sampled encoded opening/whole-film picture and paper/grain residuals are verified. Scope every claim: sampled picture/source/technical checks do not certify independent listening, exact caption boundaries, human clinical/source publication review or all57 acceptance items. The QUALIFIED_RELEASE_LOOKBACK.json governs interpretation; library provenance does not pass audible sound QA. Those checks and owner full-film acceptance remain PENDING. No social publication performed/authorized; no audience-growth result exists.
+
+The Sun workflow, four approved art tests and flood V7 foreground grain/separate paper standard remain adopted. Natural Bernard, scientific/model/source distinctions, protected crisp captions and exact ending remain locked. Alien-life and faster-spaceship questions remain commissioned follow-ups; historical dust/caption candidates do not override the selected first film. Later completed-delivery records supersede the in-progress/pending-art snapshots below, preserving their original historical evidence.
+
+
 
 ## Current immune-film approval and render — 21 October 2026
 
