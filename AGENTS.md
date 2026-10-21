@@ -1,5 +1,13 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
 
+
+## Latest selected science commission — 21 October 2026
+
+Owner commissioned three accessible deep-science questions and ordered the first to start: **Could your body's defense system hurt you?** Active case is sepsis, with source-qualified vessel barrier/perfusion explanation. Follow-ups, not concurrent starts: **Would finding alien life actually be good news?** and **Why can't we just build a faster spaceship?** Keep proposing familiar human questions that lead into deeper mechanisms. This supersedes earlier no-selection/flood-active/paused-dust topic state for new production; completed flood and Black Dwarf remain preserved.
+
+Read production/SCIENCE_COMMISSION_20261021.json and production/CURRENT_PRODUCTION.json, then the linked film/immune-defense-sepsis source. Native six-scene art review is ready; owner new-art approval and moving integration remain PENDING. Existing Sun, four-test and approved flood V7 art/finishing remain mandatory. Owner again specifically reinforced artwork, foreground grain, separate paper, independent parallax, motivated focus hunt and selected-source focus blur; implement applicable techniques from the start and verify actual native/encoded execution. Do not confuse a static proof or checklist with moving/creative acceptance. Natural Bernard, truthful medical/source qualifiers, central captions and exact ending remain unchanged. No account publication authorized.
+
+
 ## Latest owner adoption — approved flood V7 art and finishing, 21 October 2026
 
 The owner responded **“GOOD!”** to the delivered V7 and explicitly ordered detailed preservation of this production for future projects. Read [the approved production playbook](production/approved-benchmarks/flood-proof-v7/FLOOD_PROOF_APPROVED_PRODUCTION_PLAYBOOK_20261021.md), its [exact source index](production/approved-benchmarks/flood-proof-v7/APPROVED_SOURCE_INDEX.json), [machine profile](production/approved-benchmarks/flood-proof-v7/APPROVED_PROFILE.json) and [next-project regression gate](production/approved-benchmarks/flood-proof-v7/NEXT_PROJECT_REGRESSION_CHECKLIST.md) **before future Curio artwork or rendering**. This is Curio Bureau only. It adopts image-owned real-record construction and the corrected separate paper + foreground grain finish inside the unchanged Sun/four-test standards. Reuse their craft, not this episode's photographs/layouts for unrelated topics.
