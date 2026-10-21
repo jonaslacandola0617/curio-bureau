@@ -1,5 +1,12 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
 
+## Artwork locked; finishing-only revision — owner approval,21October2026
+
+The owner explicitly approved the delivered flood-proof V6 artwork: **“Good, i like the artwork.”** They ordered **“KEEP THE ARTWORK DO NOT ADD OR CHANGE A SINGLE THING IN IT. JUST FIX THE TEXTURE AND OVERLAYS.”** Read `production/approved-benchmarks/FLOOD_PROOF_V6_ART_OWNER_APPROVAL_20261021.md`. This episode's sources, compositions, text, crops, object/camera/parallax/focus motion and timing are LOCKED. Reuse its encoded audio and original native ending. This art approval supersedes earlier V6 artwork-pending fields; finishing/full-film acceptance remain separate. It does not replace the Sun workflow or four-test general art standard.
+
+The correction is grain placement: **moving film grain belongs in a foreground compositing pass over the assembled artwork**, independently from the paper texture. Background noise or grain baked into source pictures is insufficient. Read `production/engine/FOREGROUND_GRAIN_AND_PAPER_20261021.md`. Protect unchanged captions and the exact ending. A finishing-only revision must prove the art renderer is unchanged apart from its overlay hook, unchanged source/timeline/audio inputs, exact no-overlay image equivalence, and preserved native ending frames. Do not redesign the approved artwork to fix finishing. The commissioned V7 render is authorized; no repeat confirmation, new episode, rebrand or social publication.
+
+
 ## Latest flood-film correction — owner direction, 21 October 2026
 
 The selected active topic is **How do you prove a flood-control project actually protects anyone?** Earlier audience checkpoint “no episode selected” and historical Relativistic Dust references do not override the later direct selection. Latest owner correction: start this film with an unanswered Philippine question, then build evidence; the first spoken line is “Can flood control actually work in the Philippines?” This is a topic-specific hook instruction, not a political accusation or a claimed trend/retention result.

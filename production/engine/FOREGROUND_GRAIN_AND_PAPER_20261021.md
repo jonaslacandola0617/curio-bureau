@@ -1,0 +1,11 @@
+# Foreground grain and separate paper — owner correction21October2026
+
+V6 used grain/material mainly in its background and source-local treatments. The owner approved the artwork but rejected this finishing placement. Correct the compositor, not the art.
+
+Required picture order: approved source composition and existing source optics → separate static paper-texture layer → moving foreground film-grain overlay → protected unchanged captions/wordmark. The original shared ending bypasses the added passes entirely. Paper texture and temporal grain are independent effects with independent on/off proof. Grain is in screen/composite coordinates above photographs, maps and background; it must remain present when an image fills the screen. Do not count grain limited to navy negative space as the foreground overlay.
+
+The existing Cold Metal motion-r2/editorial-finish.cjs already implements soft-light grain after source optics, using512px grain banks drawn at1024px,12fps grain state and moving offsets. V7 ports that established layer order. Its amount is an authored finishing choice, not a recovered proprietary Vox setting or universal numerical default. Separate paper formation/fibers are neutral material, not photographed evidence. No cloudy/grainy background fill is substituted for the foreground pass.
+
+For this locked-art correction, do not change a source, crop, pixel geometry, scene/text/camera keyframe, optics envelope, narration/caption time, sound or ending. Keep original timeline/config/source bytes. Only one new foreground finishing call is allowed in the original scene renderer. Its normalized code must equal the approved renderer. Compare no-paper/no-grain output to the original no-paper/no-grain output exactly. Check foreground-grain changes inside actual photograph/map rectangles as well as background; check temporal change at constant source/exposure; keep source facts and labels legible at encoded phone size.
+
+Reuse the original encoded AAC packet payload and33 native ending frames. Save their hash equality, new source freeze, native proof, recovery chunks, completed versioned export and actual encoded review. V6 artwork approval is retained. V7 finishing review, independent listening/exact caption boundaries and final release acceptance remain distinct; no social publication is authorized.
