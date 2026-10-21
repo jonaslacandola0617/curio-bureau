@@ -1,0 +1,24 @@
+{
+  "layer_order": [
+    "source/model and optics",
+    "independent paper material",
+    "foreground moving grain",
+    "protected captions/wordmark",
+    "ending module bypass"
+  ],
+  "source_scope": "Real microscopy intact; original conceptual blood-vessel model; no fake patient record",
+  "scene_fps": 12,
+  "native": [
+    1080,
+    1920
+  ],
+  "palette": {
+    "yellow": "#FFE337",
+    "red": "#FF4030",
+    "source_colors": "unchanged",
+    "ending": "unchanged"
+  },
+  "focus": "Source-specific hunt under0.68s; settle sharp",
+  "parallax": "Hand and microscopy lens independent planes; lining components and tracers own local coordinates",
+  "native_proof": "prove_runtime.py; capture enforces existing shared validators"
+}

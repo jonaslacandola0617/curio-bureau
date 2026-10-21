@@ -1,0 +1,10 @@
+{
+  "voice_preset": "Bernard",
+  "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+  "model": "eleven_v3",
+  "speed": 1,
+  "task": "6da37947-5172-4d87-be7c-3d9acbeb7a34",
+  "duration_seconds": 52.72,
+  "source_bytes": 844738,
+  "note": "Same Runway preset/id as previous approved films; provider library display names differ, no voice substitution"
+}

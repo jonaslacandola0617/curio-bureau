@@ -1,0 +1,13 @@
+{
+  "scene_id": 5,
+  "composition_start": 30.859999999999992,
+  "narration_beats": [
+    38.29999999999998,
+    41.19999999999997
+  ],
+  "motion": "Single hand entrance at composition start; narration boundaries do not restart source geometry",
+  "caption_timing": "Unchanged actual-audio timeline; phrases may change while art holds",
+  "previous_motion_ledger_note": "Earlier generic settling labels at38.999s/41.899s are superseded for this closing composition; do not count these beats as new visual entrances or explanatory motion",
+  "independent_layers_and_finishing": "Unchanged source/material functions, clock continues at12fps",
+  "ending": "Original native ending begins44.6s, unchanged"
+}

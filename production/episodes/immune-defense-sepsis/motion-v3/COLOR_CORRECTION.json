@@ -1,0 +1,14 @@
+{
+  "owner_approval": "Approved six-scene art; yellow/red revised as requested",
+  "yellow": {
+    "from": "#C8A26B",
+    "to": "#FFE337"
+  },
+  "red": {
+    "from": "#D57864",
+    "to": "#FF4030"
+  },
+  "microscopy_colors": "Original source pixels unchanged",
+  "ending_palette": "Original shared brand.js unchanged",
+  "basis": "Owner requested more saturated/vibrant yellow and red; no claim of proprietary Vox palette"
+}

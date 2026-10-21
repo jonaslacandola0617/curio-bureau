@@ -1,0 +1,20 @@
+{
+  "id": "immune-defense-sepsis",
+  "revision": "motion-v1",
+  "production_standard": "sun-disappeared-v1",
+  "visual_style": "image-led",
+  "material_profile": "image-owned-editorial-v1",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "scene_fps": 12,
+  "brand_ending": "london-bridge-v1",
+  "motion_review_targets": "MOTION_REVIEW_TARGETS.json",
+  "finishing": {
+    "enabled": true,
+    "implementation": "finish.py",
+    "contract": "FINISHING_CONTRACT.json",
+    "runtime_proof": "review/FINISHING_RUNTIME.json",
+    "studio": "render_movie.py"
+  }
+}

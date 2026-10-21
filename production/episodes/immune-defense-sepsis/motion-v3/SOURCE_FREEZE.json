@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "scope": "Owner-confirmed closing continuity repair; artwork and audio unchanged",
+  "inputs": [
+    {
+      "path": "ASSETS.json",
+      "bytes": 1303,
+      "sha256": "5c257babcba16aa6df3cdf0674a51da755aadd6154a25b472be517f585432e95"
+    },
+    {
+      "path": "CLOSING_CONTINUITY_CONTRACT.json",
+      "bytes": 702,
+      "sha256": "9bb9089ccb08f6568d27b363e29d2dff10120052a0a8fe2b439fa45d82385b3c"
+    },
+    {
+      "path": "COLOR_CORRECTION.json",
+      "bytes": 425,
+      "sha256": "5cb79fac4707e4d9043793beb109e2e356e5126cbb77a6c188826fc0d99350a9"
+    },
+    {
+      "path": "FINISHING_CONTRACT.json",
+      "bytes": 734,
+      "sha256": "a2a90b11f16604ee87a99014f76a3c57d3faffe67ff51309d593da527317ab26"
+    },
+    {
+      "path": "MOTION_REVIEW_TARGETS.json",
+      "bytes": 5718,
+      "sha256": "4c5371a1b9dae5b3ad87e1dfd6140f2cc3352548685ec6027bd99ef9833cb37b"
+    },
+    {
+      "path": "OWNER_APPROVAL.md",
+      "bytes": 750,
+      "sha256": "f6043d460b1a1c3c2b9368f37e10eb29ded580ad3f9c1cf913cd784fd713893e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1398,
+      "sha256": "67fb0bbee58466602cfc5dbe175ec49971b0c12a9c6138834022a574404849aa"
+    },
+    {
+      "path": "REPAIR_SCOPE.json",
+      "bytes": 1113,
+      "sha256": "f54669cedfdc8080755656236d824d5311f575a51a3a657b384eea266bd612ec"
+    },
+    {
+      "path": "SCENE_CONTRACTS.json",
+      "bytes": 10572,
+      "sha256": "0d5a22fb0200e8d09c476f5030000892b115f73c0e4c438635cdbb2ea0f9b1fd"
+    },
+    {
+      "path": "SFX_CUE_SHEET.json",
+      "bytes": 2481,
+      "sha256": "bb1bd2d709ae52e0c0f67046b2b8ce136f84a9de2b957c71143aa4b1fa4ebc90"
+    },
+    {
+      "path": "V2_DELIVERY.json",
+      "bytes": 994,
+      "sha256": "d4bd64304095fadcc53a93deea1029ac4e0a76b827f798d1cbbc1c23aa0bda45"
+    },
+    {
+      "path": "V2_RECOVERY.json",
+      "bytes": 2204,
+      "sha256": "938423c0a598bb944f96cdf3685628071caef2558b598dc9b9d79658213b80cd"
+    },
+    {
+      "path": "VOICE_SOURCE.json",
+      "bytes": 336,
+      "sha256": "fe00fb3f995e2b0b8eef08bb76eb377ccb76989ac6c6113d32454798b782bb6a"
+    },
+    {
+      "path": "audio/ASR_WORDS.json",
+      "bytes": 13730,
+      "sha256": "b817abb76f4d64748cdeb94c9aec5bc3b624c0e6f7906ba23e31226dfb82e45b"
+    },
+    {
+      "path": "audio/bernard-original.mp3",
+      "bytes": 844738,
+      "sha256": "26523cc76adbb16a46125137c07954657d0b7279b83b2b9fd5a1e183af78adc4"
+    },
+    {
+      "path": "build_closing_repair.py",
+      "bytes": 7178,
+      "sha256": "b106aa78b13a1ab6048d90bb588717cd2847e324cb58b92ede5311c65f6d67da"
+    },
+    {
+      "path": "download_assets.py",
+      "bytes": 1378,
+      "sha256": "1e0a1abe2911a82ef063eaca4fe997df970334da745c5fc52834f8dca4dad141"
+    },
+    {
+      "path": "ending.cjs",
+      "bytes": 1166,
+      "sha256": "24eeae84236b511e0d4b4eb0412ecd23581ece55db996cf6820b47ef05a3ff25"
+    },
+    {
+      "path": "episode.json",
+      "bytes": 560,
+      "sha256": "05ccd0133fd9feabaedc518af17bcae967af8fd61e91921241207387c8a97cc5"
+    },
+    {
+      "path": "finish.py",
+      "bytes": 4777,
+      "sha256": "c7dea40a93f42abf28b4d17c5706e0e06e292387c49b5ac81890ed6a3e2950cd"
+    },
+    {
+      "path": "prepare_timeline.py",
+      "bytes": 7008,
+      "sha256": "b734fed28ae788dc275f376d90b63124bb3d064182d75097f35ce50869d015a9"
+    },
+    {
+      "path": "prove_runtime.py",
+      "bytes": 4917,
+      "sha256": "c860e4cea418182ca7fe0747fa4698ac8fcb75de7cd30bfc4314e1939995d607"
+    },
+    {
+      "path": "qa_closing.py",
+      "bytes": 2602,
+      "sha256": "acfa645389fad22e284adec6e109eb4465c5a25c7cb399fe3119a37da59fcc45"
+    },
+    {
+      "path": "qa_encoded.py",
+      "bytes": 2798,
+      "sha256": "f58651fe9bf54c1022c8578d681faf6be5106c8c62e969641a30768c57780690"
+    },
+    {
+      "path": "qa_native_closing.py",
+      "bytes": 782,
+      "sha256": "c52cb966614f3f86c4a2e065a809ab7771aace7becf146cb694513a7053734bf"
+    },
+    {
+      "path": "qa_overlay_retention.py",
+      "bytes": 1524,
+      "sha256": "f860c6656f2ff9bbd03506a5f480fbdd59a7e43f9a9ba7fbc3938bb74eda06d1"
+    },
+    {
+      "path": "render_art.py",
+      "bytes": 14113,
+      "sha256": "a34db873889bdb520e8a6227a9d72eca7bdab783e3dfb916a0637bda3ad3adf2"
+    },
+    {
+      "path": "render_movie.py",
+      "bytes": 2542,
+      "sha256": "8653bd9f1a7fed1e1d263b671e4c025ce96d4abdf1e2e7f30087c588fe14899b"
+    },
+    {
+      "path": "timeline.json",
+      "bytes": 18533,
+      "sha256": "e9655d4b9887b63c0b98e12f4b30b2513f0279db6008f7d12237c7300b5c1e5a"
+    }
+  ]
+}

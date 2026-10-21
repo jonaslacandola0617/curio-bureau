@@ -1,0 +1,28 @@
+{
+  "defect": "Closing hand entrance restarts at consecutive narration beats38.3s and41.2s",
+  "owner_confirmation": "Owner confirmed the closing-scene reset is the reported break; correction authorized",
+  "old_expression": "k=min(len(TL['scene_art'])-1,max(i for i,b in enumerate(TL['scene_boundaries'][:-1])if qt>=b));u=qt-TL['scene_boundaries'][k];scene=TL['scene_art'][k]",
+  "new_expression": "k=min(len(TL['scene_art'])-1,max(i for i,b in enumerate(TL['scene_boundaries'][:-1])if qt>=b));scene=TL['scene_art'][k]\n # Adjacent narration beats inherit the same composition's animation clock.\n anchor=k\n while anchor>0 and TL['scene_art'][anchor-1]==scene:anchor-=1\n u=qt-TL['scene_boundaries'][anchor]",
+  "capture_window_frames": [
+    1150,
+    1260
+  ],
+  "reused_native_ranges": [
+    [
+      0,
+      1150
+    ],
+    [
+      1260,
+      1371
+    ]
+  ],
+  "preserve": [
+    "approved artwork/render_art.py",
+    "separate paper and foreground grain",
+    "captions and timeline",
+    "original V2 AAC",
+    "all33 original native ending frames"
+  ],
+  "artwork_approval": "UNCHANGED; no new design"
+}

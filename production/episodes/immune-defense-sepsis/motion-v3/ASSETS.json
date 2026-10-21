@@ -1,0 +1,36 @@
+{
+  "assets": [
+    {
+      "file": "neutrophil-mrsa.jpg",
+      "bytes": 2538031,
+      "sha256": "caee1d95d86f600c053c3f668dee04dae3be31b59bdcf2a7fd0aa80aef58f545",
+      "role": "Actual NIH/NIAID false-colored micrograph"
+    },
+    {
+      "file": "Playfair900.ttf",
+      "bytes": 194772,
+      "sha256": "80852d4ffd8371f1ff0ea35fd461587e6cfff447119b817f1efb30932f617b38",
+      "role": "Pinned font"
+    },
+    {
+      "file": "neutrophil-detail.jpg",
+      "bytes": 839672,
+      "sha256": "a76ef703283b95d1e1c73cd79b4d1ffb33bfe3d98c130fad1c078e0926d9d5e1",
+      "role": "Actual NIH/NIAID false-colored micrograph"
+    },
+    {
+      "file": "Manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "role": "Pinned font"
+    },
+    {
+      "file": "hand-original.png",
+      "bytes": 1703196,
+      "sha256": "d63c22ce45912f345f9bf28606ed98058d4774d5fc889586991a63638206b079",
+      "role": "Original generated illustrative hand; no patient diagnosis"
+    }
+  ],
+  "hand_generation": "Built-in image_gen, transparent RGBA, source copied unchanged; prompt in IMAGE_PROMPT.md",
+  "source_assets_recovery": "download_assets.py recovers exact microscopy/fonts by URL+hash; no external unknown-byte asset is silently accepted"
+}
