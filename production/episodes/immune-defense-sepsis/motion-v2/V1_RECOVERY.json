@@ -1,0 +1,51 @@
+{
+  "source_commit": "07de463f093e8b0bc25bc1ff5ca73bbb9a4c8736",
+  "frames": 1371,
+  "chunks": [
+    {
+      "file": "frames-00000-00300.mkv",
+      "bytes": 355344840,
+      "sha256": "36ff45a50a432e73907df8fee9fcc1579a838dd789a0d96522adf7cfbdd8fc0d",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v1-20261021/frames-00000-00300.mkv",
+      "start_frame": 0,
+      "end_frame_exclusive": 300,
+      "role": "lossless native RGB recovery"
+    },
+    {
+      "file": "frames-00300-00600.mkv",
+      "bytes": 362046542,
+      "sha256": "7ddb2da0c5a3dc35eea2cc1cd2d9982596e06dfed76297b41ecdd1cdeff881f3",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v1-20261021/frames-00300-00600.mkv",
+      "start_frame": 300,
+      "end_frame_exclusive": 600,
+      "role": "lossless native RGB recovery"
+    },
+    {
+      "file": "frames-00600-00900.mkv",
+      "bytes": 370050735,
+      "sha256": "faeb7ed5f96c5368f8f5eb4c4adfdd38ae7cdb2a3796ab0ac075f3d1e31f00c2",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v1-20261021/frames-00600-00900.mkv",
+      "start_frame": 600,
+      "end_frame_exclusive": 900,
+      "role": "lossless native RGB recovery"
+    },
+    {
+      "file": "frames-00900-01200.mkv",
+      "bytes": 325763057,
+      "sha256": "602741aa1a125f53aa8b7f78b5fc8810f07fcd87316b10272d75cf2d59f2c1fd",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v1-20261021/frames-00900-01200.mkv",
+      "start_frame": 900,
+      "end_frame_exclusive": 1200,
+      "role": "lossless native RGB recovery"
+    },
+    {
+      "file": "frames-01200-01371.mkv",
+      "bytes": 165557847,
+      "sha256": "c5d58d5ab655af3528f098f0e7a435bd1367b7f765abadcdda91ebe4fa899cd0",
+      "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v1-20261021/frames-01200-01371.mkv",
+      "start_frame": 1200,
+      "end_frame_exclusive": 1371,
+      "role": "lossless native RGB recovery"
+    }
+  ]
+}

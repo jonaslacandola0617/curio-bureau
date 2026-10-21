@@ -1,0 +1,11 @@
+# Immune defense — full motion review v1
+
+Owner approved all six art compositions, requested saturated yellow/red and authorized rendering21October2026. Source art-v1 remains untouched. This version keeps that construction, uses vivid#FFE337/#FF4030 editorial accents and brighter original model cells/clot colors, with original source micrograph colors and exact ending unchanged.
+
+Actual natural Bernard master is52.72s before quiet-only edits; final timeline is derived from decoded-audio ASR and guarded quiet cuts. No speech rate, pitch or word sample acceleration. Independent caption-boundary listening remains pending. The selected preset and resolved voice ID match the prior production even where provider library display names differ.
+
+The model has separate lining tiles, leak tracers, moving red cells and clot components. Hand and microscopy lens enter as independent planes. Source-specific focus hunts, matched selected-source luminance/blur and transient integration settle before reading; independent static paper and foreground moving grain follow the approved flood V7 layer order. Model and microscopy annotations remain scientific/source-qualified. Ink boil is deliberately excluded on tiny biological boundaries.
+
+build_release.py verifies frozen inputs, restores pinned assets, prepares actual-audio timing/mix, uses the unchanged shared brand module at30fps, generates native per-effect proof, then captures bounded lossless RGB chunks. Native capture itself calls existing shared production and finishing validators. Chunk bytes are archived at least every two, and the completed MP4 is archived immediately before extended decode/QA. This is a complete review movie, not proof of listening, clinical review, owner moving acceptance, all57 release checks or social-publication permission.
+
+Source/medical boundaries are inherited from ../research/CLAIMS_AND_SOURCES.json: infection-related sepsis; vascular leakage/clotting/perfusion is one illustrative pathway; source micrograph shows phagocytosis, not a sepsis diagnosis; hand is an original illustrative asset, not a patient; no false clinical treatment promise. Original synthesized score and catalogued designed cues are not biological recordings.

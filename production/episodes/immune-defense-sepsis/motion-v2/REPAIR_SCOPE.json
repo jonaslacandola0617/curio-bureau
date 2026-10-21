@@ -1,0 +1,18 @@
+{
+  "only_picture_change": "Opening connector endpoints follow the actual microscopy-lens and hand plane offsets; no geometry or text redesign",
+  "newly_authored_frames": [
+    0,
+    40
+  ],
+  "unchanged_frames": [
+    40,
+    1371
+  ],
+  "last_changed_authored_time": 1.25,
+  "fully_settled_from_seconds": 1.3333333333333333,
+  "reuse": "V1 native RGB frame40 onward; original V1 AAC payload; original33 ending frames",
+  "v1_movie_sha256": "5db1ceea35c5bd04759df4f871adc7123d845fd7b0bbdd52aa51358d73cc2994",
+  "old_line": "line(im,[(495,1385),(680,1305),(775,1275)],G,3)",
+  "new_line": "line(im,[(495-260*(1-entry(.6)),1385+45*(1-entry(.6))),(680+(220*(1-entry())-260*(1-entry(.6)))/2,1305+(32*(1-entry())+45*(1-entry(.6)))/2),(775+220*(1-entry()),1275+32*(1-entry()))],G,3)",
+  "owner_art_approval": "Retained; correction repairs planned source-local anchor tracking"
+}

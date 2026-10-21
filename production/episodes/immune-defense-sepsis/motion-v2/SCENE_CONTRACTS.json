@@ -1,0 +1,158 @@
+[
+  {
+    "id": "01-question",
+    "planning_seconds": [
+      0,
+      6
+    ],
+    "claim": "The protective response can contribute to harm in sepsis",
+    "representation": "Human-scale photographic hand/forearm plus true neutrophil micrograph and contained vessel-model inspection",
+    "operation": "Recognizable body opens into a bounded, labeled cellular inspection; do not animate fake infection in the photographed hand",
+    "invariant": "The body and its protective immune function",
+    "initial": "Ordinary hand, question, microscopy source emerging",
+    "intermediate": "Source photo and selected micrograph share a meaningful lens relation around central caption space",
+    "resolved": "Micrograph immune cell and bacteria are separately identified",
+    "next": "Real micrograph reveals protection before the vessel model",
+    "truth": "Hand is original illustration/photo asset, not a patient; micrograph documents phagocytosis, not sepsis",
+    "caption_clearance": "Reserve screen-fixed centered42\u201358% band; compose actual mechanism above/below; validate after actual narration",
+    "finishing": {
+      "paper": "Independent neutral static formation/fibers, not clinical image data",
+      "grain": "Foreground moving soft-light over assembled scene, not background-only; pinned approved finish.py",
+      "focus": "Brief source-specific inspection hunts <=0.68s then sharp; blur only background/source planes",
+      "parallax": "Independent human, microscopy/evidence, model and foreground parts; do not pretend arbitrary depth is measured anatomy",
+      "protected": "Captions, factual labels legible, exact ending bypass"
+    },
+    "owner_approval": "PENDING",
+    "motion_status": "PLANNED; no encoded or listening claim"
+  },
+  {
+    "id": "02-defense",
+    "planning_seconds": [
+      6,
+      14
+    ],
+    "claim": "Immune activity normally fights infection; sepsis is dysregulation linked to organ dysfunction",
+    "representation": "Real NIH/NIAID neutrophil ingesting MRSA, source crop; semantic selection of bacteria vs immune cell",
+    "operation": "Original record first, then anchored selection; physical inspection crop reveals contact without inventing new recorded cell action",
+    "invariant": "Same real cell/bacteria contact",
+    "initial": "Complete source shown with provenance",
+    "intermediate": "Macro contact selected with tracked pointers",
+    "resolved": "Separate defender and bacteria roles; sepsis named as the episode case",
+    "next": "A declared model isolates the vessel lining",
+    "truth": "False-colored SEM; source organism is an example, not all sepsis; still image is not claimed to be time-lapse",
+    "caption_clearance": "Reserve screen-fixed centered42\u201358% band; compose actual mechanism above/below; validate after actual narration",
+    "finishing": {
+      "paper": "Independent neutral static formation/fibers, not clinical image data",
+      "grain": "Foreground moving soft-light over assembled scene, not background-only; pinned approved finish.py",
+      "focus": "Brief source-specific inspection hunts <=0.68s then sharp; blur only background/source planes",
+      "parallax": "Independent human, microscopy/evidence, model and foreground parts; do not pretend arbitrary depth is measured anatomy",
+      "protected": "Captions, factual labels legible, exact ending bypass"
+    },
+    "owner_approval": "PENDING",
+    "motion_status": "PLANNED; no encoded or listening claim"
+  },
+  {
+    "id": "03-barrier",
+    "planning_seconds": [
+      14,
+      24
+    ],
+    "claim": "Vessel barrier dysfunction permits fluid leakage",
+    "representation": "Original accurate conceptual sectional vessel with separately authored lining components, plasma tracers and tissue planes",
+    "operation": "Select neighboring lining-cell contact, open schematic junction and move fluid tracers across that boundary",
+    "invariant": "Same junction, lumen/tissue orientation and baseline",
+    "initial": "Lining contact intact and normal intraluminal flow",
+    "intermediate": "Hard frame: junction beginning to part and small fluid tracers crossing, RBC retained in lumen",
+    "resolved": "Outside tissue accumulation is visible, lumen remains distinct",
+    "next": "Same small-vessel network adds a separately labeled clotting pathway",
+    "truth": "Conceptual geometry/colors/time, not microscopy or clinical simulation; water/proteins not whole red cells shown leaking",
+    "caption_clearance": "Reserve screen-fixed centered42\u201358% band; compose actual mechanism above/below; validate after actual narration",
+    "finishing": {
+      "paper": "Independent neutral static formation/fibers, not clinical image data",
+      "grain": "Foreground moving soft-light over assembled scene, not background-only; pinned approved finish.py",
+      "focus": "Brief source-specific inspection hunts <=0.68s then sharp; blur only background/source planes",
+      "parallax": "Independent human, microscopy/evidence, model and foreground parts; do not pretend arbitrary depth is measured anatomy",
+      "protected": "Captions, factual labels legible, exact ending bypass"
+    },
+    "owner_approval": "PENDING",
+    "motion_status": "PLANNED; no encoded or listening claim"
+  },
+  {
+    "id": "04-flow",
+    "planning_seconds": [
+      24,
+      34
+    ],
+    "claim": "Clotting and vascular dysfunction can disrupt perfusion",
+    "representation": "Longitudinal conceptual microvessel, separate platelet/fibrin obstruction and matched open/obstructed comparison",
+    "operation": "Build a local small-vessel obstruction while keeping arrival and downstream space readable; compare matching schematic conditions",
+    "invariant": "Same longitudinal vessel orientation and downstream tissue role",
+    "initial": "Open branch and visible downstream delivery",
+    "intermediate": "Hard frame: incomplete obstruction, approach flow, fewer downstream cells and tissue boundary all readable",
+    "resolved": "Impaired downstream delivery, not instantaneous universal complete blockage",
+    "next": "Follow one delivery destination into tissue oxygen explanation",
+    "truth": "One contributory pathway; no universal speed or causal inevitability; does not imply full-body thrombosis in all sepsis",
+    "caption_clearance": "Reserve screen-fixed centered42\u201358% band; compose actual mechanism above/below; validate after actual narration",
+    "finishing": {
+      "paper": "Independent neutral static formation/fibers, not clinical image data",
+      "grain": "Foreground moving soft-light over assembled scene, not background-only; pinned approved finish.py",
+      "focus": "Brief source-specific inspection hunts <=0.68s then sharp; blur only background/source planes",
+      "parallax": "Independent human, microscopy/evidence, model and foreground parts; do not pretend arbitrary depth is measured anatomy",
+      "protected": "Captions, factual labels legible, exact ending bypass"
+    },
+    "owner_approval": "PENDING",
+    "motion_status": "PLANNED; no encoded or listening claim"
+  },
+  {
+    "id": "05-organ",
+    "planning_seconds": [
+      34,
+      45
+    ],
+    "claim": "Disrupted blood flow can impair oxygen delivery and organ function",
+    "representation": "Original tissue section, independently layered red cells, oxygen symbols with consistent nonquantitative legend",
+    "operation": "Maintain same capillary while delivery particles become fewer and tissue changes in a controlled local region",
+    "invariant": "Vessel/tissue boundary and oxygen symbol meaning",
+    "initial": "RBC passing through, nearby tissue visible",
+    "intermediate": "Delivery shortfall shown around the same destination",
+    "resolved": "Organ-level implication introduced through accurate text, not unexplained organ death",
+    "next": "Return to whole-body protection question with complexity qualifier",
+    "truth": "Illustration of delivery pathway, not full account of sepsis-related oxygen use/organ dysfunction",
+    "caption_clearance": "Reserve screen-fixed centered42\u201358% band; compose actual mechanism above/below; validate after actual narration",
+    "finishing": {
+      "paper": "Independent neutral static formation/fibers, not clinical image data",
+      "grain": "Foreground moving soft-light over assembled scene, not background-only; pinned approved finish.py",
+      "focus": "Brief source-specific inspection hunts <=0.68s then sharp; blur only background/source planes",
+      "parallax": "Independent human, microscopy/evidence, model and foreground parts; do not pretend arbitrary depth is measured anatomy",
+      "protected": "Captions, factual labels legible, exact ending bypass"
+    },
+    "owner_approval": "PENDING",
+    "motion_status": "PLANNED; no encoded or listening claim"
+  },
+  {
+    "id": "06-context",
+    "planning_seconds": [
+      45,
+      58
+    ],
+    "claim": "Sepsis can involve impaired defenses as well as inflammation; urgent treatment matters",
+    "representation": "Asymmetric evidence composition using readable original source titles/attributions and body photographic return",
+    "operation": "Separate dysregulated inflammation and suppressed defenses; introduce urgent-care statement and return to body",
+    "invariant": "Protection question returns with changed understanding",
+    "initial": "Body photo returns behind source-based labels",
+    "intermediate": "Two distinct immune dysfunction concepts remain separate",
+    "resolved": "Sepsis is a medical emergency; early treatment matters; control takeaway",
+    "next": "Exact existing ending after complete voice tail",
+    "truth": "No medical recommendation to weaken immunity; no diagnosis of pictured person; no guaranteed recovery",
+    "caption_clearance": "Reserve screen-fixed centered42\u201358% band; compose actual mechanism above/below; validate after actual narration",
+    "finishing": {
+      "paper": "Independent neutral static formation/fibers, not clinical image data",
+      "grain": "Foreground moving soft-light over assembled scene, not background-only; pinned approved finish.py",
+      "focus": "Brief source-specific inspection hunts <=0.68s then sharp; blur only background/source planes",
+      "parallax": "Independent human, microscopy/evidence, model and foreground parts; do not pretend arbitrary depth is measured anatomy",
+      "protected": "Captions, factual labels legible, exact ending bypass"
+    },
+    "owner_approval": "PENDING",
+    "motion_status": "PLANNED; no encoded or listening claim"
+  }
+]

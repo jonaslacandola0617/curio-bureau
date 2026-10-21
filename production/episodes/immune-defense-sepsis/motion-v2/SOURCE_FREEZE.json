@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "owner_art_approval": "APPROVED with vibrant yellow/red correction; bounded connector repair",
+  "inputs": [
+    {
+      "path": "ART_REVIEW.md",
+      "bytes": 3735,
+      "sha256": "434a473c316a2f804ca7a1dad7625512a0c46063efa1a42e7cd9474dd3e03331"
+    },
+    {
+      "path": "ASSETS.json",
+      "bytes": 1303,
+      "sha256": "5c257babcba16aa6df3cdf0674a51da755aadd6154a25b472be517f585432e95"
+    },
+    {
+      "path": "COLOR_CORRECTION.json",
+      "bytes": 425,
+      "sha256": "5cb79fac4707e4d9043793beb109e2e356e5126cbb77a6c188826fc0d99350a9"
+    },
+    {
+      "path": "FINISHING_CONTRACT.json",
+      "bytes": 734,
+      "sha256": "a2a90b11f16604ee87a99014f76a3c57d3faffe67ff51309d593da527317ab26"
+    },
+    {
+      "path": "IMAGE_PROMPT.md",
+      "bytes": 1414,
+      "sha256": "a407e23cc545c2f1f836dce762d0a02f76f7c5a2eb9cb8dafdbb600bdab6b394"
+    },
+    {
+      "path": "MOTION_REVIEW_TARGETS.json",
+      "bytes": 5718,
+      "sha256": "4c5371a1b9dae5b3ad87e1dfd6140f2cc3352548685ec6027bd99ef9833cb37b"
+    },
+    {
+      "path": "OWNER_APPROVAL.md",
+      "bytes": 750,
+      "sha256": "f6043d460b1a1c3c2b9368f37e10eb29ded580ad3f9c1cf913cd784fd713893e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2232,
+      "sha256": "b545086761cc33a86a85125de2ac059886d38a2af5c5cfe41fadfc7eeff18501"
+    },
+    {
+      "path": "REPAIR_SCOPE.json",
+      "bytes": 876,
+      "sha256": "c809ab70a45e740c5cb6b14c98ad12d248b18bd29425702b16d9d1a137da5a89"
+    },
+    {
+      "path": "SCENE_CONTRACTS.json",
+      "bytes": 10572,
+      "sha256": "0d5a22fb0200e8d09c476f5030000892b115f73c0e4c438635cdbb2ea0f9b1fd"
+    },
+    {
+      "path": "SFX_CUE_SHEET.json",
+      "bytes": 2481,
+      "sha256": "bb1bd2d709ae52e0c0f67046b2b8ce136f84a9de2b957c71143aa4b1fa4ebc90"
+    },
+    {
+      "path": "V1_DELIVERY.json",
+      "bytes": 874,
+      "sha256": "a394abfaf2c3d8839ea373e6940e44f1b18ed6b7c660f3b8ff56283f7f696a48"
+    },
+    {
+      "path": "V1_RECOVERY.json",
+      "bytes": 2198,
+      "sha256": "c744776e2e1cc0363259691e9620e800e389096109727fd3ce09df0b6fec0ebe"
+    },
+    {
+      "path": "VOICE_SOURCE.json",
+      "bytes": 336,
+      "sha256": "fe00fb3f995e2b0b8eef08bb76eb377ccb76989ac6c6113d32454798b782bb6a"
+    },
+    {
+      "path": "audio/ASR_WORDS.json",
+      "bytes": 13730,
+      "sha256": "b817abb76f4d64748cdeb94c9aec5bc3b624c0e6f7906ba23e31226dfb82e45b"
+    },
+    {
+      "path": "audio/VOICE_EDITS.json",
+      "bytes": 844,
+      "sha256": "ebafb8661d368ec9287007a3982eb57eab4700fd4693c7cbb1bace37ade11292"
+    },
+    {
+      "path": "audio/bernard-original.mp3",
+      "bytes": 844738,
+      "sha256": "26523cc76adbb16a46125137c07954657d0b7279b83b2b9fd5a1e183af78adc4"
+    },
+    {
+      "path": "build_release.py",
+      "bytes": 4043,
+      "sha256": "33833e88b455a09000117c63af13d01a6819161499d67348d72a1610fd739fdb"
+    },
+    {
+      "path": "build_repair.py",
+      "bytes": 6073,
+      "sha256": "69d57378df1d1f3b13aadb55b39ad81adcc567e564df671db4d6d67ee1dd7bfa"
+    },
+    {
+      "path": "download_assets.py",
+      "bytes": 1378,
+      "sha256": "1e0a1abe2911a82ef063eaca4fe997df970334da745c5fc52834f8dca4dad141"
+    },
+    {
+      "path": "ending.cjs",
+      "bytes": 1166,
+      "sha256": "24eeae84236b511e0d4b4eb0412ecd23581ece55db996cf6820b47ef05a3ff25"
+    },
+    {
+      "path": "episode.json",
+      "bytes": 560,
+      "sha256": "05ccd0133fd9feabaedc518af17bcae967af8fd61e91921241207387c8a97cc5"
+    },
+    {
+      "path": "finish.py",
+      "bytes": 4777,
+      "sha256": "c7dea40a93f42abf28b4d17c5706e0e06e292387c49b5ac81890ed6a3e2950cd"
+    },
+    {
+      "path": "prepare_timeline.py",
+      "bytes": 7008,
+      "sha256": "b734fed28ae788dc275f376d90b63124bb3d064182d75097f35ce50869d015a9"
+    },
+    {
+      "path": "prove_runtime.py",
+      "bytes": 4917,
+      "sha256": "c860e4cea418182ca7fe0747fa4698ac8fcb75de7cd30bfc4314e1939995d607"
+    },
+    {
+      "path": "qa_encoded.py",
+      "bytes": 2798,
+      "sha256": "fa2167d9ace7dc839f50bcbd8e197cf1e9b509522e2504cca30138df5a8e21be"
+    },
+    {
+      "path": "qa_lookback.py",
+      "bytes": 3870,
+      "sha256": "c901ba7a5b37003874ce07c912409e2d78a309b49471a07f3ff4bc3a0af241fa"
+    },
+    {
+      "path": "qa_overlay_retention.py",
+      "bytes": 1524,
+      "sha256": "fafd618304990f2360fd69d480a1c185c4d6a2bb4082eacb66e270b018808237"
+    },
+    {
+      "path": "render_art.py",
+      "bytes": 14113,
+      "sha256": "a34db873889bdb520e8a6227a9d72eca7bdab783e3dfb916a0637bda3ad3adf2"
+    },
+    {
+      "path": "render_movie.py",
+      "bytes": 2387,
+      "sha256": "1e3836d338e0c2d06cf38c04887a377eeb7e23a8b0569dcefea6d4988f73ae3a"
+    },
+    {
+      "path": "timeline.json",
+      "bytes": 18533,
+      "sha256": "e9655d4b9887b63c0b98e12f4b30b2513f0279db6008f7d12237c7300b5c1e5a"
+    }
+  ]
+}

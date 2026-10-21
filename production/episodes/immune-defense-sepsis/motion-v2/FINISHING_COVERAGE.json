@@ -1,0 +1,765 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "path": "render_movie.py",
+      "sha256": "1e3836d338e0c2d06cf38c04887a377eeb7e23a8b0569dcefea6d4988f73ae3a"
+    },
+    {
+      "path": "render_art.py",
+      "sha256": "67472e786361c587c76c3414f8f601796c92438937e1df090a807105f358c28c"
+    },
+    {
+      "path": "finish.py",
+      "sha256": "c7dea40a93f42abf28b4d17c5706e0e06e292387c49b5ac81890ed6a3e2950cd"
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "e9655d4b9887b63c0b98e12f4b30b2513f0279db6008f7d12237c7300b5c1e5a"
+    },
+    {
+      "path": "episode.json",
+      "sha256": "05ccd0133fd9feabaedc518af17bcae967af8fd61e91921241207387c8a97cc5"
+    }
+  ],
+  "coverage": {
+    "material_texture": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "12.5",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "moving_grain": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "0.5",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "motion_blur": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "2.95",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "selective_focus": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "3.8000000000000003",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "focus_shading": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "3.8000000000000003",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "focus_hunt": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "2.95",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "chromatic": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "3.8000000000000003",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "mechanical_jitter": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "3.8000000000000003",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "exposure": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "4.050000000000001",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "caption_protection": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "See actual timeline/proof frames",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "ending_protection": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "See actual timeline/proof frames",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "sequence_continuity": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "See actual timeline/proof frames",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "audio_tail": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "See actual timeline/proof frames",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "sound_music": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": "See actual timeline/proof frames",
+      "expected_result": "Actual native treatment/source motion or media protection demonstrated; creative/listening judgments remain separate",
+      "evidence": [
+        {
+          "path": "review/proof-material_texture.jpg",
+          "sha256": "39eb047e2001c2d61d3040910f4ac38b67bc7d97f7edb2c46f25edf7917fa418"
+        },
+        {
+          "path": "review/proof-moving_grain.jpg",
+          "sha256": "c9e83bc85f78e3438bd0ae5f0a27b3d4381c695dc7fca448694e25a462b2afda"
+        },
+        {
+          "path": "review/proof-selective_focus.jpg",
+          "sha256": "d3c9a86bca30087dce288f7b61735c73b7452a56b9277a983af20ee6c6fe819b"
+        },
+        {
+          "path": "review/proof-focus_shading.jpg",
+          "sha256": "543d36e9b6bd84f5922d0c17175d9bda20daa61588fd2ff0e69b3e1fc997fc47"
+        },
+        {
+          "path": "review/proof-focus_hunt.jpg",
+          "sha256": "0257e23161c26067c02bd94b71ef5c18184f37385b592253bfd743dd70952327"
+        },
+        {
+          "path": "review/proof-motion_blur.jpg",
+          "sha256": "13741df4ed293cdf55ca1ff85eaed8dda65b0ae4967c62493040a7dce916a149"
+        },
+        {
+          "path": "review/proof-chromatic.jpg",
+          "sha256": "7d0e4807f791de9669f1aec92901dedcdbae39c80ac300a739c924ea57b82c0f"
+        },
+        {
+          "path": "review/proof-mechanical_jitter.jpg",
+          "sha256": "0b62b79ce33b35e12b638cce0c77bf078830bc890e37b871006e14b27f7eec72"
+        },
+        {
+          "path": "review/proof-exposure.jpg",
+          "sha256": "d48cdcb2c2e27a8a16113904d31fc1632969b3f86db1198fb9cfd1c6cac735d7"
+        },
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "4b349457b40255ed8727d8f210c583674678dbd7b831d952b1eea84deb0df7a8"
+        },
+        {
+          "path": "review/SOUND_EXECUTION.json",
+          "sha256": "17ab0ec5d8bd5315c3063a4d6e5e51d8a72c408e9846ef849a92c500e3b9c01d"
+        }
+      ]
+    },
+    "ink_bleed": {
+      "applicable": false,
+      "reason": "No hand-ink strokes or source boundary boil in this microscopy/medical model; keep tiny biological junctions and explanatory labels stable, rather than distorting evidence."
+    },
+    "edge_boil": {
+      "applicable": false,
+      "reason": "No hand-ink strokes or source boundary boil in this microscopy/medical model; keep tiny biological junctions and explanatory labels stable, rather than distorting evidence."
+    }
+  },
+  "owner_motion_review": "PENDING",
+  "subjective_listening": "PENDING"
+}
