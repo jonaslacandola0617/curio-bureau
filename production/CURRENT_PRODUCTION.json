@@ -1,0 +1,21 @@
+{
+  "selected_topic": "Could your body's defense system hurt you?",
+  "slug": "immune-defense-sepsis",
+  "case": "Sepsis; illustrative vessel barrier/clotting/perfusion pathway, not complete mechanism",
+  "source_branch": "film/immune-defense-sepsis",
+  "source_commit": "82495e7a99f7e50f75628cafc1b1646b52f583b1",
+  "status": "NATIVE_ART_REVIEW_READY",
+  "review_board": "https://github.com/jonaslacandola0617/curio-bureau/blob/82495e7a99f7e50f75628cafc1b1646b52f583b1/production/episodes/immune-defense-sepsis/art-v1/review/whole-story-art-review.jpg",
+  "owner_art_approval": "PENDING",
+  "narration": "DRAFT; not recorded",
+  "voice_timing": null,
+  "motion": "NOT RENDERED; independent parallax/focus hunts planned, not yet execution-passed",
+  "native_static_finish": "Paper/grain executed; opaque caption core unchanged",
+  "full_film": "NOT RENDERED",
+  "full_film_qa": "NOT PERFORMED",
+  "source_claims": "research/CLAIMS_AND_SOURCES.json in source branch; scope/conflict limits recorded",
+  "medical_wording_human_review": "PENDING",
+  "independent_listening": "NOT PERFORMED",
+  "publication": "NOT AUTHORIZED / NOT PERFORMED",
+  "previous_film": "Flood V7 owner-approved art/finishing preserved, not revised"
+}

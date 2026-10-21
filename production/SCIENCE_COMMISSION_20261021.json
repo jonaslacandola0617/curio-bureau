@@ -1,0 +1,34 @@
+{
+  "scope": "Curio Bureau only",
+  "owner_commission_date": "2026-10-21",
+  "timezone": "Asia/Manila",
+  "direction": "Familiar questions for ordinary viewers, followed by deeper and potentially unsettling scientific mechanisms",
+  "questions": [
+    {
+      "order": 1,
+      "question": "Could your body's defense system hurt you?",
+      "slug": "immune-defense-sepsis",
+      "status": "ACTIVE; sepsis case researched and native art review ready"
+    },
+    {
+      "order": 2,
+      "question": "Would finding alien life actually be good news?",
+      "status": "COMMISSIONED FOLLOW-UP; not started"
+    },
+    {
+      "order": 3,
+      "question": "Why can't we just build a faster spaceship?",
+      "status": "COMMISSIONED FOLLOW-UP; not started; old relativistic-dust work not auto-approved"
+    }
+  ],
+  "production": "sun-disappeared-v1",
+  "art": "image-owned-editorial-v1",
+  "finish": "Owner-approved flood V7 separate paper + moving foreground grain; applicable source optics/parallax",
+  "cadence": {
+    "scene_fps": 12,
+    "delivery_fps": 30,
+    "ending_fps": 30
+  },
+  "six_post_experiment": "Not commissioned by this selection",
+  "publication": "NOT AUTHORIZED / NOT PERFORMED"
+}
