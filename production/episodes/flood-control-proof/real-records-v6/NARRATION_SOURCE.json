@@ -1,0 +1,11 @@
+{
+  "voice": "Bernard",
+  "voice_id": "QMJTqaMXmGnG8TCm8WQG",
+  "hook_task": "7a1d4002-53ce-4ec0-930a-b4e728b0f31b",
+  "body_task": "45172239-8b1b-450d-85f9-9aed647b16d5",
+  "model": "eleven_v3",
+  "speed": 1,
+  "hook_script": "Can flood control actually work in the Philippines? And how would you prove your street is safer?",
+  "body_source": "Original v5 body retained at natural sample speed after removal of the original opening statement",
+  "alignment": "Actual-audio ASR estimates reconciled to script; independent word-boundary listening pending"
+}

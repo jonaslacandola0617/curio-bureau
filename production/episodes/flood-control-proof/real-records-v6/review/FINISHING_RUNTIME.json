@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "native": [
+    1080,
+    1920
+  ],
+  "deterministic": true,
+  "errors": [],
+  "studio_sha256": "383fb08d96428713b1354686082db08e6ec891f3e84ccfadf5e7d3bae6eef767",
+  "finish_sha256": "8eea423f1207a2381df6f34cffa11f83e70ffef9206428d703b6f50db4cb673b",
+  "cases": [
+    {
+      "effect": "material_texture",
+      "t": 4.4,
+      "meanRedDifference": 2.0249373070987655,
+      "native_mean_abs": 2.0212794174382718,
+      "phone_mean_abs": 1.8090075231481482,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "effect": "moving_grain",
+      "t": 4.4,
+      "meanRedDifference": 1.011468460648148,
+      "native_mean_abs": 1.0016166730967078,
+      "phone_mean_abs": 0.6196064814814815,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "effect": "motion_blur",
+      "t": 0.6,
+      "meanRedDifference": 2.0712827932098765,
+      "native_mean_abs": 2.0593661586934155,
+      "phone_mean_abs": 2.055609085648148,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "effect": "selective_focus",
+      "t": 0.3,
+      "meanRedDifference": 0.22497010030864198,
+      "native_mean_abs": 0.21398791152263374,
+      "phone_mean_abs": 0.2137673611111111,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "effect": "focus_shading",
+      "t": 0.3,
+      "meanRedDifference": 3.0622053433641976,
+      "native_mean_abs": 3.01239760159465,
+      "phone_mean_abs": 3.0168590856481483,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "effect": "focus_hunt",
+      "t": 0.3,
+      "meanRedDifference": 5.449380787037037,
+      "native_mean_abs": 5.325915316358024,
+      "phone_mean_abs": 5.311763599537037,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "effect": "chromatic",
+      "t": 4.4,
+      "meanRedDifference": 3.2755015432098764,
+      "native_mean_abs": 2.1490867734053496,
+      "phone_mean_abs": 1.7738585069444444,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "effect": "mechanical_jitter",
+      "t": 4.4,
+      "meanRedDifference": 4.138418209876543,
+      "native_mean_abs": 4.039685570987654,
+      "phone_mean_abs": 3.4847193287037035,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "effect": "exposure",
+      "t": 4.4,
+      "meanRedDifference": 0.48108506944444446,
+      "native_mean_abs": 0.46948832947530866,
+      "phone_mean_abs": 0.47231336805555557,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "effect": "ink_bleed",
+      "t": 2.1,
+      "meanRedDifference": 0.03578800154320988,
+      "native_mean_abs": 0.025671778549382716,
+      "phone_mean_abs": 0.02951244212962963,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "effect": "edge_boil",
+      "t": 2.1,
+      "meanRedDifference": 0.08340374228395062,
+      "native_mean_abs": 0.0628586355452675,
+      "phone_mean_abs": 0.08074652777777777,
+      "opaqueCaptionDifference": 0.0
+    },
+    {
+      "t": 60.7,
+      "meanRedDifference": 0,
+      "opaqueCaptionDifference": 0,
+      "role": "Shared ending untouched by every finishing switch"
+    }
+  ],
+  "temporal_grain": {
+    "changed_mean_abs": 1.717255291005291,
+    "method": "Same source and exposure, only grain time changes; compared at360px width"
+  },
+  "caption_protection": "Zero difference inside actual opaque caption regions for every per-effect comparison",
+  "ending_protection": "Final shared-module frame is byte-identical with all finishing toggled",
+  "owner_approval": "PENDING",
+  "subjective_listening": "PENDING"
+}

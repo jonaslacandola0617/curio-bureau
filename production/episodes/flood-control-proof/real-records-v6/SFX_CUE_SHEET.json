@@ -1,0 +1,80 @@
+[
+  {
+    "time": 0,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+    "operation": "Philippine opening question",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 2.8,
+    "source": "audio/curio_sfx_v1/archive/CB_ARCHIVE_paper_light_turn_v1.flac",
+    "operation": "Independent street-photo plane advances",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 4.4,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_evidence_lock_v1.flac",
+    "operation": "Inspect the actual street warning marker",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 11.88232,
+    "source": "audio/curio_sfx_v1/archive/CB_ARCHIVE_paper_light_turn_v1.flac",
+    "operation": "Published map enters",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 14.482320000000001,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_evidence_lock_v1.flac",
+    "operation": "With-project color identified",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 18.12232,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_causal_reveal_v1.flac",
+    "operation": "Counterfactual color identified",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 21.302319999999998,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+    "operation": "Model-estimate qualification",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 25.52232,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_evidence_lock_v1.flac",
+    "operation": "Attributed estimate",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 34.02231999999999,
+    "source": "audio/curio_sfx_v1/archive/CB_ARCHIVE_paper_light_turn_v1.flac",
+    "operation": "Distinct Philippine record",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 40.10232,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+    "operation": "Measurement gap",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 44.255219999999994,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_causal_reveal_v1.flac",
+    "operation": "Missing is not zero",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 47.25112,
+    "source": "audio/curio_sfx_v1/archive/CB_ARCHIVE_paper_light_turn_v1.flac",
+    "operation": "Request event evidence",
+    "kind": "designed editorial cue, not authentic field sound"
+  },
+  {
+    "time": 55.12922,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_quiet_resolution_v1.flac",
+    "operation": "Closing question",
+    "kind": "designed editorial cue, not authentic field sound"
+  }
+]

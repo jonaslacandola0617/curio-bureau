@@ -1,0 +1,280 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "path": "render.py",
+      "sha256": "383fb08d96428713b1354686082db08e6ec891f3e84ccfadf5e7d3bae6eef767"
+    },
+    {
+      "path": "finish.py",
+      "sha256": "8eea423f1207a2381df6f34cffa11f83e70ffef9206428d703b6f50db4cb673b"
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "a5859d2388f027c8bde20047e717c32da2836c215786964ebc2bc391499921ee"
+    },
+    {
+      "path": "episode.json",
+      "sha256": "6171379ebdcdaa898514e65af2a65c9d864570765257e14e9c39750b2b72a299"
+    },
+    {
+      "path": "SHOT_CONTRACTS.json",
+      "sha256": "d777ec59f23d6e3d7a4ad86247c663efc43a43c9637162596b6af03af524c861"
+    }
+  ],
+  "coverage": {
+    "material_texture": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        4.4,
+        4.483333333333333
+      ],
+      "expected_result": "Surface-local print tooth and laid fibers, without obscuring photographic detail",
+      "evidence": [
+        {
+          "path": "review/proof/material_texture-phone-ab.jpg",
+          "sha256": "50f5f8e9385d61e94025a381396783b09b180a611529312258a95ac4bcc96f1e"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "moving_grain": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        4.4,
+        4.483333333333333
+      ],
+      "expected_result": "Changing fine/coarse source grain",
+      "evidence": [
+        {
+          "path": "review/proof/moving_grain-phone-ab.jpg",
+          "sha256": "1d8368d304d826ea9c8e5c4b90b958cfca7a1126f2d71fb35bc7e5fbb0c0cd2e"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "motion_blur": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        0.6,
+        0.6833333333333333
+      ],
+      "expected_result": "Finite source integration during approach, followed by a sharp hold",
+      "evidence": [
+        {
+          "path": "review/proof/motion_blur-phone-ab.jpg",
+          "sha256": "5e997f47a7f2cea1ef80fe4364d5fd993f20f215591f49a196fce35ed65092f5"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "selective_focus": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        0.3,
+        0.3833333333333333
+      ],
+      "expected_result": "Selected source remains sharper than its surround",
+      "evidence": [
+        {
+          "path": "review/proof/selective_focus-phone-ab.jpg",
+          "sha256": "4266ea77ae67ad427c5823223124a0c169048f943e0b0ce318e2894dcd5b4df3"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "focus_shading": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        0.3,
+        0.3833333333333333
+      ],
+      "expected_result": "Same focus field gently darkens the surround",
+      "evidence": [
+        {
+          "path": "review/proof/focus_shading-phone-ab.jpg",
+          "sha256": "c97e9073902452cbc19561634f5bafb697c08ea497bbf29618b2e19125406397"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "focus_hunt": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        0.3,
+        0.3833333333333333
+      ],
+      "expected_result": "Brief source defocus overshoot settles in 0.68s",
+      "evidence": [
+        {
+          "path": "review/proof/focus_hunt-phone-ab.jpg",
+          "sha256": "341fd2bf023eb505d74082621a5ef0103d0d83d6b3ea485f09c70a9b9166c724"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "chromatic": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        4.4,
+        4.483333333333333
+      ],
+      "expected_result": "One native-pixel image channel separation; documentary map colors excluded",
+      "evidence": [
+        {
+          "path": "review/proof/chromatic-phone-ab.jpg",
+          "sha256": "01d046265b4686f95d46be312bef363a0594f3fc686f34cc1b48549548ff4e32"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "mechanical_jitter": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        4.4,
+        4.483333333333333
+      ],
+      "expected_result": "Coherent source-plane displacement, clean screen type",
+      "evidence": [
+        {
+          "path": "review/proof/mechanical_jitter-phone-ab.jpg",
+          "sha256": "6aa0c2c37bc6118b9cfff82a70ea6e93edc131286ca8221124a893a461f61583"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "exposure": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        4.4,
+        4.483333333333333
+      ],
+      "expected_result": "Restrained photographic exposure variation",
+      "evidence": [
+        {
+          "path": "review/proof/exposure-phone-ab.jpg",
+          "sha256": "795c7e7f049c3baaeb531bc13c5fbd34e9c4f0573460b59fe3d69b0bd2a1ba37"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "ink_bleed": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        2.1,
+        2.1833333333333336
+      ],
+      "expected_result": "Local editorial underline ink spread",
+      "evidence": [
+        {
+          "path": "review/proof/ink_bleed-phone-ab.jpg",
+          "sha256": "606c66809a34b509f5aa3c93d88303e7656b2a920f238944d8e1f98bd0a285d8"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "edge_boil": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        2.1,
+        2.1833333333333336
+      ],
+      "expected_result": "Local editorial underline changes at12fps; no scientific boundary wobble",
+      "evidence": [
+        {
+          "path": "review/proof/edge_boil-phone-ab.jpg",
+          "sha256": "aaed9c43b639bb8b5127d4779d25f2e73a1629f95429057fdd83aeed5b8060c7"
+        }
+      ],
+      "limits": "Pixel difference proves execution only; artistic result requires encoded review."
+    },
+    "caption_protection": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        0,
+        59.63333333333333
+      ],
+      "expected_result": "Type and captions are rendered after source optics",
+      "evidence": [
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "42aadc44a8677044eb9ff30319fb5adddfe10f9a07302faf07edd066b67e2e12"
+        }
+      ]
+    },
+    "ending_protection": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        59.63333333333333,
+        60.733333333333334
+      ],
+      "expected_result": "Shared ending receives no additional processing",
+      "evidence": [
+        {
+          "path": "review/FINISHING_RUNTIME.json",
+          "sha256": "42aadc44a8677044eb9ff30319fb5adddfe10f9a07302faf07edd066b67e2e12"
+        }
+      ]
+    },
+    "sequence_continuity": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        0,
+        59.63333333333333
+      ],
+      "expected_result": "Specific source components retain provenance and geographic registration",
+      "evidence": [
+        {
+          "path": "SHOT_CONTRACTS.json",
+          "sha256": "d777ec59f23d6e3d7a4ad86247c663efc43a43c9637162596b6af03af524c861"
+        }
+      ]
+    },
+    "audio_tail": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        58.72922916666667,
+        59.63333333333333
+      ],
+      "expected_result": "All retained narration samples play at speed1 with a0.9s pre-ending tail",
+      "evidence": [
+        {
+          "path": "audio/AUDIO_RECEIPT.json",
+          "sha256": "3c256d2094974b385c801b363517d06d4477775588f8dca9e0fcf493da2cc5fc"
+        }
+      ]
+    },
+    "sound_music": {
+      "applicable": true,
+      "execution": "PASS",
+      "active_window": [
+        0,
+        60.733333333333334
+      ],
+      "expected_result": "Continuous full-length original episode score and existing action cues; independent listening remains pending",
+      "evidence": [
+        {
+          "path": "SFX_CUE_SHEET.json",
+          "sha256": "8dbfae547a1c7abafd880896c87d58654f5209a21cc3a6509db8444a84df81b3"
+        }
+      ]
+    }
+  },
+  "owner_motion_review": "PENDING",
+  "subjective_listening": "PENDING"
+}

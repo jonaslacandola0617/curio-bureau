@@ -1,0 +1,222 @@
+{
+  "duration": 60.733333333333334,
+  "events": [
+    {
+      "t": 0,
+      "operation": "Ask Philippine protection question",
+      "understanding": "A real local project is the starting point"
+    },
+    {
+      "t": 0.25,
+      "operation": "Camera approaches actual basin source",
+      "understanding": "Project context identified"
+    },
+    {
+      "t": 1.75,
+      "operation": "Underline Philippines question",
+      "understanding": "The inquiry concerns local protection"
+    },
+    {
+      "t": 2.65,
+      "operation": "Independent street photo advances",
+      "understanding": "Project-level appearance differs from street protection"
+    },
+    {
+      "t": 3.7,
+      "operation": "Select street photograph focus plane",
+      "understanding": "Inspect the actual street marker without invented depth"
+    },
+    {
+      "t": 6.24232,
+      "operation": "Cut to recorded US event",
+      "understanding": "Distinct location and matched storm date"
+    },
+    {
+      "t": 8.04232,
+      "operation": "Introduce independent wider dam record",
+      "understanding": "Footage has identifiable provenance"
+    },
+    {
+      "t": 9.94232,
+      "operation": "Hold operating structure and event date",
+      "understanding": "Actual releases remain distinct from benefit estimates"
+    },
+    {
+      "t": 11.88232,
+      "operation": "Establish official original map",
+      "understanding": "One geographic frame and its provenance"
+    },
+    {
+      "t": 14.48232,
+      "operation": "Emphasize original blue and advance detail crop",
+      "understanding": "Published with-project category"
+    },
+    {
+      "t": 16.38232,
+      "operation": "Inspect same river-bend source pixels",
+      "understanding": "Retain geography through scale change"
+    },
+    {
+      "t": 18.18232,
+      "operation": "Emphasize original red marks",
+      "understanding": "Without-project extent is an estimate"
+    },
+    {
+      "t": 19.88232,
+      "operation": "Hold paired source categories",
+      "understanding": "Read both roles before the qualification"
+    },
+    {
+      "t": 21.30232,
+      "operation": "Inspect matched source bend",
+      "understanding": "Same geography preserved"
+    },
+    {
+      "t": 22.00232,
+      "operation": "Estimated-mark inspection plane advances",
+      "understanding": "Counterfactual is a separate evidential role"
+    },
+    {
+      "t": 23.60232,
+      "operation": "Hold same-map qualification",
+      "understanding": "Not a second observed flood"
+    },
+    {
+      "t": 25.52232,
+      "operation": "Reveal attributed amount over operating dam",
+      "understanding": "USACE estimate introduced"
+    },
+    {
+      "t": 27.62232,
+      "operation": "Reveal geographic scope",
+      "understanding": "Basin-wide amount, not Philippine result"
+    },
+    {
+      "t": 30.92232,
+      "operation": "Add preliminary-analysis qualification",
+      "understanding": "Operator estimate remains qualified"
+    },
+    {
+      "t": 34.02232,
+      "operation": "Return to actual Imus source",
+      "understanding": "Distinct Philippine record"
+    },
+    {
+      "t": 35.77232,
+      "operation": "Identify interview-reported improvement",
+      "understanding": "Interview evidence retained"
+    },
+    {
+      "t": 37.52232,
+      "operation": "Advance actual marker photo",
+      "understanding": "Independent field-source plane"
+    },
+    {
+      "t": 39.22232,
+      "operation": "Advance exact eight-word report excerpt",
+      "understanding": "Unavailable comparable values shown"
+    },
+    {
+      "t": 40.52232,
+      "operation": "Hold excerpt with its missing-value category",
+      "understanding": "Read source and qualification"
+    },
+    {
+      "t": 42.22232,
+      "operation": "Retain overall satisfactory evaluation",
+      "understanding": "Missing values do not erase project assessment"
+    },
+    {
+      "t": 44.25522,
+      "operation": "Keep project while shifting missing-data category",
+      "understanding": "Unavailable data remains unknown"
+    },
+    {
+      "t": 45.55522,
+      "operation": "Retain project image and separate existence label",
+      "understanding": "No inference of zero benefit"
+    },
+    {
+      "t": 47.25112,
+      "operation": "Select recorded event source",
+      "understanding": "First requested evidence type"
+    },
+    {
+      "t": 49.75112,
+      "operation": "Move comparison plane ahead of event plane",
+      "understanding": "Same-event with/without comparison"
+    },
+    {
+      "t": 52.25112,
+      "operation": "Move field-record plane ahead",
+      "understanding": "Check model against observations"
+    },
+    {
+      "t": 53.85112,
+      "operation": "Keep exact source excerpt readable",
+      "understanding": "Field source remains attributable"
+    },
+    {
+      "t": 55.12922,
+      "operation": "Return to protection question over actual water",
+      "understanding": "Payoff tied to hook"
+    },
+    {
+      "t": 56.27922,
+      "operation": "Reveal for-whom question",
+      "understanding": "Distribution of benefit matters"
+    },
+    {
+      "t": 57.17922,
+      "operation": "Advance original street photo",
+      "understanding": "Return to the opening street"
+    },
+    {
+      "t": 58.42922,
+      "operation": "Hold closing source relationship and complete voice tail",
+      "understanding": "Read closing question before exact ending"
+    }
+  ],
+  "exceptions": [
+    {
+      "start": 3.7,
+      "end": 6.24232,
+      "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+    },
+    {
+      "start": 11.88232,
+      "end": 14.48232,
+      "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+    },
+    {
+      "start": 25.52232,
+      "end": 27.62232,
+      "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+    },
+    {
+      "start": 27.62232,
+      "end": 30.92232,
+      "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+    },
+    {
+      "start": 30.92232,
+      "end": 34.02232,
+      "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+    },
+    {
+      "start": 42.22232,
+      "end": 44.25522,
+      "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+    },
+    {
+      "start": 47.25112,
+      "end": 49.75112,
+      "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+    },
+    {
+      "start": 49.75112,
+      "end": 52.25112,
+      "reason": "Intentional source/qualification reading hold; actual recorded water continues where present. Internal execution check only; encoded creative review remains separate."
+    }
+  ]
+}
