@@ -1,0 +1,79 @@
+{
+  "method": "Fresh full stereo sample audit of complete quiet regions INCLUDING retained guards, not just trimmed centres",
+  "source_master_sha256": "26523cc76adbb16a46125137c07954657d0b7279b83b2b9fd5a1e183af78adc4",
+  "all_5_full_quiet_regions_below_minus55_dbfs": true,
+  "regions": [
+    {
+      "entire_measured_quiet_span": [
+        2.68,
+        3.58
+      ],
+      "whole_span_peak_dbfs": -57.283928935201345,
+      "cut": [
+        2.8800000000000003,
+        3.38
+      ],
+      "left_guard_seconds": 0.20000000000000018,
+      "right_guard_seconds": 0.20000000000000018
+    },
+    {
+      "entire_measured_quiet_span": [
+        10.715,
+        11.575
+      ],
+      "whole_span_peak_dbfs": -55.16194463327123,
+      "cut": [
+        10.915,
+        11.375
+      ],
+      "left_guard_seconds": 0.1999999999999993,
+      "right_guard_seconds": 0.1999999999999993
+    },
+    {
+      "entire_measured_quiet_span": [
+        28.935,
+        29.765
+      ],
+      "whole_span_peak_dbfs": -58.53293653692069,
+      "cut": [
+        29.134999999999998,
+        29.565
+      ],
+      "left_guard_seconds": 0.1999999999999993,
+      "right_guard_seconds": 0.1999999999999993
+    },
+    {
+      "entire_measured_quiet_span": [
+        43.46,
+        44.29
+      ],
+      "whole_span_peak_dbfs": -56.24397098343123,
+      "cut": [
+        43.660000000000004,
+        44.089999999999996
+      ],
+      "left_guard_seconds": 0.20000000000000284,
+      "right_guard_seconds": 0.20000000000000284
+    },
+    {
+      "entire_measured_quiet_span": [
+        48.065,
+        48.935
+      ],
+      "whole_span_peak_dbfs": -56.1506768171006,
+      "cut": [
+        48.265,
+        48.735
+      ],
+      "left_guard_seconds": 0.20000000000000284,
+      "right_guard_seconds": 0.20000000000000284
+    }
+  ],
+  "scope": "Original waveform speech preservation; not human sound audition",
+  "legacy_failure_control": {
+    "old_edit_windows": 14,
+    "windows_rejected_by_new_peak_safety_gate": 12,
+    "safe_new_windows": 5,
+    "finding": "New gate rejects12legacy word-cutting edit windows; all5replacement centres and guards pass"
+  }
+}

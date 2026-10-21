@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "time": 36.4525,
+      "unit": 13,
+      "recognised_speech": "Sepsis is more complicated than an immune system simply being too strong.",
+      "active_caption": "Sepsis is more complicated than an immune",
+      "caption_belongs_to_current_utterance": true
+    },
+    {
+      "time": 40.67,
+      "unit": 14,
+      "recognised_speech": "Some defenses can also become suppressed.",
+      "active_caption": "Some defenses can also become suppressed.",
+      "caption_belongs_to_current_utterance": true
+    },
+    {
+      "time": 43.432500000000005,
+      "unit": 15,
+      "recognised_speech": "It is a medical emergency.",
+      "active_caption": "It is a medical emergency.",
+      "caption_belongs_to_current_utterance": true
+    },
+    {
+      "time": 45.540000000000006,
+      "unit": 16,
+      "recognised_speech": "Early treatment matters.",
+      "active_caption": "Early treatment matters.",
+      "caption_belongs_to_current_utterance": true
+    },
+    {
+      "time": 47.61250000000001,
+      "unit": 17,
+      "recognised_speech": "Protection depends on control.",
+      "active_caption": "Protection depends on control,",
+      "caption_belongs_to_current_utterance": true
+    },
+    {
+      "time": 49.71000000000001,
+      "unit": 18,
+      "recognised_speech": "Not just force.",
+      "active_caption": "not just force.",
+      "caption_belongs_to_current_utterance": true
+    }
+  ],
+  "scope": "Actual encoded stills and measured phrase timeline; all six closing speech contexts have a relevant active caption. Independent exact word-boundary audition remains pending."
+}

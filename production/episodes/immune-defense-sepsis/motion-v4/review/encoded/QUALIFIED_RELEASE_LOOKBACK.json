@@ -1,0 +1,362 @@
+{
+  "schema": 1,
+  "artifact": "Curio-Immune-Defense-Full-Review-v4.mp4",
+  "sha256": "4b010a099fb767f89bae2fc1de3639ddef1a80b15f3da43a818afe0fdb3da141",
+  "scope": "V4 restores speech after owner audio rejection. Whole-film source/art/finish are unchanged; timing/audio rebuilt. Each old timing/audio claim below is replaced or reset; no old defective AAC is a passed sound baseline.",
+  "items": [
+    {
+      "id": "1.1",
+      "requirement": "Build around a bizarre scientific \u201cwhat if\u201d with understandable stakes.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "1.2",
+      "requirement": "Open with a compelling mystery or contradiction rather than a textbook definition.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "1.3",
+      "requirement": "Make the opening image and narration immediately reinforce each other.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "1.4",
+      "requirement": "Deliver useful information early, then deepen the question.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "1.5",
+      "requirement": "Develop an escalating chain of consequences instead of listing disconnected facts.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "1.6",
+      "requirement": "Use visual metaphors, comparisons and changes of scale to explain difficult concepts.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "1.7",
+      "requirement": "Resolve the opening question with a satisfying payoff.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "1.8",
+      "requirement": "Clearly distinguish the impossible premise, established science and uncertain extrapolation.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "2.1",
+      "requirement": "Introduce a meaningful visible change every 1.5\u20132 seconds throughout the explanatory sequence.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "Longer source/qualification and closing holds remain explicit; original approved compositions retained. Narration/caption changes and grain are not counted as meaningful new object animation. Full1.5\u20132s cadence acceptance pending."
+    },
+    {
+      "id": "2.2",
+      "requirement": "Include substantial object animation\u2014not merely photographs entering and then sitting still.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "2.3",
+      "requirement": "Use movement within compositions: separation, assembly, replacement, transformation, tracking and progressive reveals.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "2.4",
+      "requirement": "Use purposeful camera pans, close-ups, pullbacks and changes of viewpoint.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "2.5",
+      "requirement": "Build obvious parallax through independently moving foreground, subject and background layers.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "2.6",
+      "requirement": "Connect scenes through recognizable objects, directions or ideas.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "2.7",
+      "requirement": "Give each action an intentional start, acceleration, arrival and reading hold.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "2.8",
+      "requirement": "Preserve enough reading time for essential text and scientific relationships.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "2.9",
+      "requirement": "Fully remove departing elements; prevent accidental overlaps and clipped labels.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "3.1",
+      "requirement": "Evaluate scene and camera animation at 12 distinct states per second.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "Source render_movie.py still quantizes authored scene/camera/material to12fps."
+    },
+    {
+      "id": "3.2",
+      "requirement": "Export at 1080 \u00d7 1920, 30fps, scheduling those states by time.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "Actual public MP4 strictdecode/format and1561native1080x1920/30fps frames verified."
+    },
+    {
+      "id": "3.3",
+      "requirement": "Keep narration, music and SFX continuous and synchronized.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "3.4",
+      "requirement": "Judge the stepped motion in playback; do not assume that lowering the frame rate automatically creates appealing animation.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "3.5",
+      "requirement": "Preserve the exact established ending as the branding exception.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "All33original native ending frames RGB-identical, relocated after complete restored source voice tail."
+    },
+    {
+      "id": "4.1",
+      "requirement": "Lead with photographic imagery rather than generic vector icons.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "4.2",
+      "requirement": "Use high-resolution cutouts with carefully prepared edges and sufficient resolution for close-ups.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "4.3",
+      "requirement": "Use paper borders, textured labels and collage treatments where they strengthen the composition.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "4.4",
+      "requirement": "Arrange images to demonstrate relationships and consequences, beyond stacking them on paper.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "4.5",
+      "requirement": "Create depth through scale, cropping, overlap and independently animated layers.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "4.6",
+      "requirement": "Use printed diagrams and annotations to support explanations when photographs cannot show the mechanism.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "4.7",
+      "requirement": "Keep illustrative constructions distinguishable from documentary evidence.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "5.1",
+      "requirement": "Keep bold Playfair Display headlines and readable Manrope captions.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "Pinned Playfair900/Manrope unchanged; actual new encoded picture samples inspected."
+    },
+    {
+      "id": "5.2",
+      "requirement": "Animate selected keywords independently from the captions.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "Most original headings hold; kinetic-type creative acceptance not inferred from effect functions."
+    },
+    {
+      "id": "5.3",
+      "requirement": "Make keywords interact with objects through placement, masking, movement or transformation.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "5.4",
+      "requirement": "Use bright, deliberate highlights for important distinctions.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "Approved vivid#FFE337/#FF4030 accents and actual source micrograph colors preserved."
+    },
+    {
+      "id": "5.5",
+      "requirement": "Keep captions readable without competing with the main visual.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "5.6",
+      "requirement": "Add no blurred text duplicates, shadow-like backdrops, halos or glows behind text or graphics.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "Original no-type-halo source preserved; encoded type samples inspected."
+    },
+    {
+      "id": "6.1",
+      "requirement": "Include visible paper/material texture and controlled photocopy or film grain.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "New native proof and actual new encoded paper/grain residual/picture visibility checked; not an artistic acceptance threshold."
+    },
+    {
+      "id": "6.2",
+      "requirement": "Use the Cold Metal balance as the benchmark; avoid obscuring photographs with excessive overlays.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "6.3",
+      "requirement": "Apply restrained chromatic aberration where appropriate.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "Original source-local restrained chromatic treatment executes in new native proof."
+    },
+    {
+      "id": "6.4",
+      "requirement": "Use source-image focus changes, compound blur and transition blur to direct attention.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "6.5",
+      "requirement": "Apply mechanical jitter, brightness variation, edge boil and ink bleed selectively according to the material.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "6.6",
+      "requirement": "Keep text crisp and the explanatory details legible through the finishing stack.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "Original protected caption/wordmark order retained; new encoded samples inspected. Exact spoken boundaries still pending."
+    },
+    {
+      "id": "7.1",
+      "requirement": "Write conversationally, with natural emphasis, pauses and changes in delivery.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "7.2",
+      "requirement": "Retain the approved Bernard voice.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "Original approved Bernard master/preset/id retained, no rate or pitch change. Sample-level source preservation proven before mixing."
+    },
+    {
+      "id": "7.3",
+      "requirement": "Give meaningful movements synchronized, audible sound cues.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "7.4",
+      "requirement": "Use paper rustles/card flicks for physical layers, mechanical clicks for text or measurements, and lens/air sounds for camera actions.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "7.5",
+      "requirement": "Use restrained low-frequency accents for major reveals.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "7.6",
+      "requirement": "Reuse our existing SFX library first.",
+      "verdict": "PARTIAL; original library provenance and retimed cue ledger verified",
+      "evidence": "Same11existing designed cues reused with restored speech timing. Independent compressed-audio cue audibility/onset/collision review pending."
+    },
+    {
+      "id": "7.7",
+      "requirement": "Shape the background music around discoveries, tension and resolution.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "7.8",
+      "requirement": "Prevent overlapping cues from becoming messy or masking narration.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "7.9",
+      "requirement": "Preserve every spoken word, including the final word and its natural tail.",
+      "verdict": "SOURCE_SPEECH_PRESERVATION_AND_ENCODED_CLOSING_ASR_VERIFIED; human listening pending",
+      "evidence": "All retained source stereo samples identical before gain; every removed sample below-55dBFS with200ms measured quiet guards. Six actual MP4 closing lines match unprompted recognition. Complete50.43s source voice plus protected tail; no internal>=0.85s narration pauses. No claim of human final-word audition."
+    },
+    {
+      "id": "8.1",
+      "requirement": "Deliver the entire episode, not a short excerpt standing in for it.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "Entire52.033s/1561-frame synchronized film delivered, not an excerpt."
+    },
+    {
+      "id": "8.2",
+      "requirement": "Review the opening, middle, payoff, transitions and ending in the encoded video.",
+      "verdict": "PARTIAL",
+      "evidence": "Twelve full-film and15closing V4 encoded samples inspected; every481held closing frames tracked. Six actual encoded closing lines match recognition. Not an uninterrupted audiovisual audition."
+    },
+    {
+      "id": "8.3",
+      "requirement": "Check the 1.5\u20132-second changes against the actual timeline.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "8.4",
+      "requirement": "Verify that motion develops the explanation rather than providing decorative activity.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "8.5",
+      "requirement": "Check sound synchronization, intelligibility, clipping and narration completeness.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "No independent complete creative/listening/word-boundary/clinical acceptance established by this technical repair."
+    },
+    {
+      "id": "8.6",
+      "requirement": "Identify any unmet item explicitly instead of claiming blanket compliance.",
+      "verdict": "SOURCE_TECHNICAL_OR_SAMPLED_PICTURE_VERIFIED; complete verification not certified",
+      "evidence": "All57requirements remain itemized with limits; no global release certification."
+    },
+    {
+      "id": "8.7",
+      "requirement": "After publication, compare available swipe-away, retention, watch-duration and engagement data at comparable ages.",
+      "verdict": "NOT REVIEWED / NOT CERTIFIED",
+      "evidence": "NOT PUBLISHED. New24hour/sevenday results unknown; no growth claim."
+    }
+  ],
+  "global_release_certification": false,
+  "independent_listening": "PENDING; not auditioned",
+  "exact_caption_boundaries": "Measured acoustic phrase anchors plus internal ASR estimates; independent human check pending",
+  "clinical_wording_review": "PENDING",
+  "publication": "NOT AUTHORIZED / NOT PERFORMED",
+  "scope_note": "Original generated PASS entries prove only their cited source/technical or sampled-picture subclaims, not all verification modes. This qualified record governs interpretation.",
+  "new_closing_evidence": [
+    "CLOSING_CONTINUITY_QA.json",
+    "WHOLE_CLOSING_FRAME_CHECK.json",
+    "PICTURE_REVIEW.json",
+    "EVIDENCE_ARCHIVE_VERIFICATION.json"
+  ]
+}

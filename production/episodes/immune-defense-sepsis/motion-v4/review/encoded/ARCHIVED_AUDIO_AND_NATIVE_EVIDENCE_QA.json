@@ -1,0 +1,45 @@
+{
+  "archive_files": [
+    {
+      "file": "bernard-restored-float.wav",
+      "bytes": 19365178,
+      "sha256": "3d06bc8b287b96b35e236f3da497c16fa4518a8eb28668de5dd19d2e1a7478c8",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v4-20261021/bernard-restored-float.wav"
+    },
+    {
+      "file": "VOICE_EDITS.json",
+      "bytes": 1441,
+      "sha256": "4561c8a5d62a109075e6052496b5ed22fa540024f42157521e77933a966591cb",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v4-20261021/VOICE_EDITS.json"
+    },
+    {
+      "file": "NATIVE_EXECUTION_EVIDENCE.zip",
+      "bytes": 1352008,
+      "sha256": "67b607822161744f7933ec07a6269a3227fbe80c3e9ed0dbe9db20fe21aba304",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v4-20261021/NATIVE_EXECUTION_EVIDENCE.zip"
+    }
+  ],
+  "restored_public_voice_pcm_hash": "MATCH actual runner retained-sample proof",
+  "restored_public_voice_duration": 50.43,
+  "voice_speed": 1,
+  "pitch_changed": false,
+  "cut_gate": -55,
+  "ASR_timestamps_used_to_cut_audio": false,
+  "native_proof_zip_crc": "PASS",
+  "native_proof_files_hash_verified": [
+    "review/FINISHING_RUNTIME.json",
+    "review/SOUND_EXECUTION.json",
+    "review/proof-chromatic.jpg",
+    "review/proof-exposure.jpg",
+    "review/proof-focus_hunt.jpg",
+    "review/proof-focus_shading.jpg",
+    "review/proof-material_texture.jpg",
+    "review/proof-mechanical_jitter.jpg",
+    "review/proof-motion_blur.jpg",
+    "review/proof-moving_grain.jpg",
+    "review/proof-selective_focus.jpg"
+  ],
+  "source_hashes": "MATCH actual frozenV4 source",
+  "original33ending_frames": "DECODED_RGB_IDENTICAL, relocated after complete restored narration",
+  "limits": "Sample preservation, export integrity and native execution; not human audio audition"
+}

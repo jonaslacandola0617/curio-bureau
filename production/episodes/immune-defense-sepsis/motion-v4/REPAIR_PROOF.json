@@ -1,0 +1,68 @@
+{
+  "audio_restoration": {
+    "method": "5ms stereo peak bins below-55dBFS; trim middle only, preserve200ms on each edge; no ASR-derived cut boundaries",
+    "cuts": [
+      {
+        "start": 2.8800000000000003,
+        "end": 3.38,
+        "peak_dbfs": -79.8398666381836,
+        "actual_quiet": [
+          2.68,
+          3.58
+        ]
+      },
+      {
+        "start": 10.915,
+        "end": 11.375,
+        "peak_dbfs": -80.01400756835938,
+        "actual_quiet": [
+          10.715,
+          11.575
+        ]
+      },
+      {
+        "start": 29.134999999999998,
+        "end": 29.565,
+        "peak_dbfs": -80.64608764648438,
+        "actual_quiet": [
+          28.935,
+          29.765
+        ]
+      },
+      {
+        "start": 43.660000000000004,
+        "end": 44.089999999999996,
+        "peak_dbfs": -79.53836059570312,
+        "actual_quiet": [
+          43.46,
+          44.29
+        ]
+      },
+      {
+        "start": 48.265,
+        "end": 48.735,
+        "peak_dbfs": -80.7060546875,
+        "actual_quiet": [
+          48.065,
+          48.935
+        ]
+      }
+    ],
+    "speed": 1,
+    "pitch_change": false,
+    "all_removed_samples_below_stereo_peak_dbfs": -55,
+    "quiet_guard_each_side_seconds": 0.2,
+    "all_retained_samples": "BIT_IDENTICAL before gain/mixing",
+    "source_decoded_pcm_sha256": "d952238a11e6d3879d587f0d5687b1698a31ee395599a43edd49579950c21627",
+    "retained_decoded_pcm_sha256": "673b83026d8aba4be37543c7cdbff6b0f8315bd747f67d66ff88be07a6ecfd96",
+    "voice_duration": 50.43,
+    "ASR_timestamps_used_to_cut_audio": false
+  },
+  "artwork_renderer": "BYTE_IDENTICAL toV3",
+  "render_movie_continuity_clock": "BYTE_IDENTICAL toV3; no repeated closing entrance",
+  "finishing": "BYTE_IDENTICAL toV3; separate paper and foreground grain",
+  "old_AAC": "NOT REUSED; defective prior cut mix retained historically",
+  "original33_native_ending_frames": "DECODED_RGB_IDENTICAL, relocated after complete restored narration",
+  "scene_and_caption_timing": "Rebuilt from complete acoustic utterance spans plus qualified ASR word estimates",
+  "independent_listening": "NOT PERFORMED; automated source/mix/encoded speech checks recorded separately"
+}

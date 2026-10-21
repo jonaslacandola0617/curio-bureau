@@ -1,0 +1,12 @@
+{
+  "method": "Actual repaired voice.wav; FFmpeg silence detector-37dB,>=0.85s",
+  "detected_intervals": [
+    "[silencedetect @ 0x5602da680100] silence_start: 50.4128",
+    "[silencedetect @ 0x5602da680100] silence_end: 52.0333 | silence_duration: 1.6205"
+  ],
+  "speech_edit_safety": "Separately verified at sample peak<-55dBFS with200ms quiet guards; no ASR audio edit points",
+  "scope": "Timing detector only, not word audibility or human listening approval",
+  "internal_long_silences": [],
+  "only_detected_silence": "Intentional final tail from50.4128s through52.0333s, including endcard",
+  "silence_before_logo_seconds": 0.5205333333333328
+}

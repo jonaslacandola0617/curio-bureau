@@ -1,0 +1,36 @@
+{
+  "artifact": "Curio-Immune-Defense-Full-Review-v4.mp4",
+  "sha256": "4b010a099fb767f89bae2fc1de3639ddef1a80b15f3da43a818afe0fdb3da141",
+  "whole_film_checkpoints": [
+    0.3,
+    1.7,
+    3.1900000000000004,
+    4.040000000000001,
+    10.875,
+    13.075,
+    21.29,
+    22.59,
+    24.43,
+    35.05,
+    51.33333333333333,
+    51.983333333333334
+  ],
+  "closing_frame_check": {
+    "scope": "Every actual decoded held-closing frame of retimedV4; original entrance and exact endcard fade excluded from zero-motion expectation",
+    "start": 34.9,
+    "end": 50.93333333333333,
+    "frames": 481,
+    "max_hand_displacement_native_pixels": 0,
+    "max_adjacent_jump_native_pixels": 0,
+    "verdict": "NO_REPEATED_CLOSING_ENTRANCE",
+    "retimed_narration_beats": [
+      42.43000000000001,
+      46.60500000000001
+    ],
+    "audio": "Verified separately from new speech; defective V3 AAC not reused"
+  },
+  "observed": "Actual V4 encoded full-film and closing phone boards inspected; retimed captions, original art/vivid accents, distinct paper/foreground grain, stable closing hand and original logo transition remain",
+  "speech": "Six actual encoded closing lines independently recognised without a transcript prompt; source preserved through all116canonical words, not edited from ASR boundaries",
+  "scope": "Sampled picture inspection plus all held-closing frame geometry; automated speech/sample checks. No independent human audible mix or exact word-boundary approval claimed",
+  "owner_full_film_approval": "PENDING"
+}

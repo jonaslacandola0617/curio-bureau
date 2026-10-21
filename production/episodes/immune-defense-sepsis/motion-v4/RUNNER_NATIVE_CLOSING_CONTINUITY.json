@@ -1,0 +1,15 @@
+{
+  "times": [
+    35.05,
+    42.330000000000005,
+    42.53000000000001,
+    43.03000000000001,
+    46.50500000000001,
+    46.70500000000001,
+    47.20500000000001,
+    50.73333333333333
+  ],
+  "geometry_across_retimed_closing_boundaries": "IDENTICAL; no repeated entrance",
+  "finishing": "Independently verified by native runtime proof",
+  "audio": "Repaired separately, not reused defective AAC"
+}

@@ -1,0 +1,22 @@
+{
+  "file": "Curio-Immune-Defense-Full-Review-v4.mp4",
+  "bytes": 74223543,
+  "sha256": "4b010a099fb767f89bae2fc1de3639ddef1a80b15f3da43a818afe0fdb3da141",
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v4-20261021/Curio-Immune-Defense-Full-Review-v4.mp4",
+  "source_commit": "61ad52fef87cfda60b65f508ddd27cfceb78ca08",
+  "status": "ARCHIVED_RESTORED_SPEECH_FULL_REVIEW",
+  "duration_seconds": 52.03333333333333,
+  "native": [
+    1080,
+    1920
+  ],
+  "delivery_fps": 30,
+  "scene_fps": 12,
+  "owner_art_approval": "APPROVED; unchanged source art with vivid accents",
+  "owner_motion_full_film_approval": "PENDING",
+  "independent_listening": "PENDING; no audition claim",
+  "exact_caption_boundaries": "Measured acoustic phrase anchors plus internal ASR estimates; independent verification pending",
+  "clinical_wording_human_review": "PENDING",
+  "publication": "NOT AUTHORIZED / NOT PERFORMED",
+  "repair": "Restored all original Bernard speech samples; only sample-verified near-silence trimmed; all scene/caption/SFX timings rebuilt; exact33 native ending frames preserved"
+}

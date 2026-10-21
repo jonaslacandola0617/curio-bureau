@@ -1,0 +1,7 @@
+from pathlib import Path
+import json,subprocess,re
+from PIL import Image,ImageDraw
+P=Path(__file__).resolve().parent;R=P/'review/encoded';movie=P/'Curio-Immune-Defense-Full-Review-v4.mp4';speech=json.loads((R/'ENCODED_CLOSING_SPEECH_CHECK.json').read_text());tl=json.loads((P/'timeline.json').read_text());board=Image.new('RGB',(1080,1328),(13,28,43));rows=[];norm=lambda s:' '.join(re.sub('[^a-z0-9 ]','',s.lower()).split())
+for k,x in enumerate(speech['checks']):
+ t=sum(x['span'])/2;qt=int((t+1e-8)*12)/12;c=next(c for c in tl['captions']if c['start']<=qt<c['end']);assert norm(c['text'])in norm(x['expected']);f=R/f'speech-line-{x["unit"]}.png';subprocess.run(['ffmpeg','-v','error','-y','-ss',str(t),'-i',str(movie),'-frames:v','1',str(f)],check=True);px=k%3*360;py=k//3*664;board.paste(Image.open(f).convert('RGB').resize((360,640)),(px,py));ImageDraw.Draw(board).text((px+8,py+642),f'{t:.2f}s / unit{x["unit"]}',fill='white');rows.append({'time':t,'unit':x['unit'],'recognised_speech':x['observed'],'active_caption':c['text'],'caption_belongs_to_current_utterance':True})
+board.save(R/'six-closing-speech-caption-samples.jpg',quality=94,subsampling=0);(R/'ENCODED_SPEECH_CAPTION_CHECK.json').write_text(json.dumps({'checks':rows,'scope':'Actual encoded stills and measured phrase timeline; all six closing speech contexts have a relevant active caption. Independent exact word-boundary audition remains pending.'},indent=2)+'\n');print('SIX_ENCODED_CLOSING_SPEECH_AND_CAPTION_CONTEXTS_CHECKED',flush=True)

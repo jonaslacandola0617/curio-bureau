@@ -1,0 +1,14 @@
+{
+  "scope": "Every actual decoded held-closing frame of retimedV4; original entrance and exact endcard fade excluded from zero-motion expectation",
+  "start": 34.9,
+  "end": 50.93333333333333,
+  "frames": 481,
+  "max_hand_displacement_native_pixels": 0,
+  "max_adjacent_jump_native_pixels": 0,
+  "verdict": "NO_REPEATED_CLOSING_ENTRANCE",
+  "retimed_narration_beats": [
+    42.43000000000001,
+    46.60500000000001
+  ],
+  "audio": "Verified separately from new speech; defective V3 AAC not reused"
+}
