@@ -1,0 +1,18 @@
+{
+  "times": [
+    37.9,
+    38.25,
+    38.3333333333,
+    38.5,
+    39.1,
+    41.1666666667,
+    41.25,
+    41.5,
+    42.1,
+    44.3
+  ],
+  "caption_and_finishing_disabled_for_geometry_test": true,
+  "closing_artwork_held_identically_across_both_narration_boundaries": "PASS",
+  "finishing_source": "unchanged and tested independently by prove_runtime.py",
+  "audio_listening": "NOT CLAIMED"
+}

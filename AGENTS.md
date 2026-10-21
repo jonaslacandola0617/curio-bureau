@@ -1,5 +1,17 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
 
+## Current immune-film V3 closing correction —21October2026
+
+The owner reported V2's closing broken and confirmed the repeated scene entrances near38.3s/41.2s. V3 fixes this specific defect: adjacent narration beats sharing one composition inherit its animation clock. The hand enters once, then holds. Actual V2 tracking measured168native pixels of jump; V3 checks every390delivered frames from31.6–44.6s with zero hand displacement and zero adjacent jumps. Encoded closing/whole-film picture samples inspected. This resolves the measured defect; owner acceptance of the corrected complete film remains PENDING.
+
+Frozen V3 source: 9ff45d1e649919f4db92646102bf173ab249465d, film/immune-defense-sepsis, production/episodes/immune-defense-sepsis/motion-v3/. Read DELIVERY_CHECKPOINT.md, DELIVERY.json, REPAIR_PROOF.json, the qualified57-item look-back and production/CURRENT_PRODUCTION.json. V1/V2 are preserved historical review versions; V2's earlier technical pass missed this late motion defect and is not whole-film creative acceptance. Exactly40native frames change:1150–1169and1238–1257. All other native frames, the33original ending frames and original AAC payload are preserved. Approved artwork, vivid accents, captions/timeline, paper/foreground grain and natural Bernard are unchanged.
+
+Full45.7s V3 is archived: https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v3-20261021/Curio-Immune-Defense-Full-Review-v3.mp4
+64,114,352bytes; SHA2569c3d256d3f345961f271090d8b4b6775d6d949f1b089e997b831064eda123dda. Verified public download, full1371-frame decode/format, native gates, RGB recovery comparisons and AAC payload. NATIVE_EXECUTION_EVIDENCE.zip is archived; its CRC and all11referenced proof hashes verified. Native1080×1920/30fps, authored12fps scene/camera/material and exact30fps ending remain in force.
+
+Read production/engine/CONTINUOUS_COMPOSITION_CLOCK_20261021.md for the regression safeguard. Inspect both sides of repeated-composition narration boundaries, especially late-film beats; coarse samples are insufficient. A narration beat is not automatically a new visual event, and a held composition does not prove the1.5–2s meaningful-change cadence. Unresolved cadence/creative, independent listening/final-word, exact captions, clinical wording and source publication checks stay explicit. No global57-item release certification, social publication or audience-growth claim. The selected topic remains immune defense; commissioned alien-life/spaceship follow-ups and historical dust/caption candidates retain their distinct status. Earlier stage notes below are historical.
+
+
 ## Current complete immune-film review — 21 October 2026
 
 The complete **Could your body's defense system hurt you?** film is rendered and archived as **Full Review V2**, 45.7 seconds, native1080×1920/30fps with authored12fps scene/camera/material cadence and the exact30fps shared ending. The owner approved all six art compositions and authorized vibrant yellow #FFE337 / red #FF4030 accents plus rendering. Those approvals remain established; resulting full moving-film approval remains PENDING.

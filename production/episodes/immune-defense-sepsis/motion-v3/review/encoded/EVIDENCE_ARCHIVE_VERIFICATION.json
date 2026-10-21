@@ -1,0 +1,33 @@
+{
+  "archive_files": [
+    {
+      "file": "NATIVE_EXECUTION_EVIDENCE.zip",
+      "bytes": 1345712,
+      "sha256": "c3e7b6c430bb9607f3ca8ab69dc5bfa3e134fab5462faf60fe27a7366e08d4a5",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v3-20261021/NATIVE_EXECUTION_EVIDENCE.zip"
+    },
+    {
+      "file": "FINISHING_COVERAGE.json",
+      "bytes": 29966,
+      "sha256": "93b1d0a9fa724d6acc59cb7f23034fa2d9eb5a349620e73d4765a4078e388006",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v3-20261021/FINISHING_COVERAGE.json"
+    }
+  ],
+  "zip_crc": "PASS",
+  "proof_files_hash_checked": [
+    "review/FINISHING_RUNTIME.json",
+    "review/SOUND_EXECUTION.json",
+    "review/proof-chromatic.jpg",
+    "review/proof-exposure.jpg",
+    "review/proof-focus_hunt.jpg",
+    "review/proof-focus_shading.jpg",
+    "review/proof-material_texture.jpg",
+    "review/proof-mechanical_jitter.jpg",
+    "review/proof-motion_blur.jpg",
+    "review/proof-moving_grain.jpg",
+    "review/proof-selective_focus.jpg"
+  ],
+  "source_hashes": "MATCH actual V3 local frozen source",
+  "status": "ARCHIVED_NATIVE_EXECUTION_PROOF_VERIFIED",
+  "limits": "Technical proof only; owner creative, exact captions and independent listening remain separate"
+}

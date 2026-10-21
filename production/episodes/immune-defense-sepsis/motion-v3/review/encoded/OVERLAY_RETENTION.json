@@ -1,0 +1,31 @@
+{
+  "method": "Same-time native effect-on minus off, correlated with decoded MP4 minus same off baseline; no perceptual pass threshold or artistic score inferred",
+  "cases": [
+    {
+      "effect": "moving_grain",
+      "time": 3.8,
+      "ROI": [
+        60,
+        600,
+        950,
+        920
+      ],
+      "subject": "Microscopy source, foreground grain",
+      "native_mean_abs_luma_difference": 3.9363394691011235,
+      "encoded_residual_correlation": 0.6910643939196439
+    },
+    {
+      "effect": "material_texture",
+      "time": 12.6,
+      "ROI": [
+        80,
+        1080,
+        980,
+        1640
+      ],
+      "subject": "Light vessel/junction material, independent paper",
+      "native_mean_abs_luma_difference": 2.2713026484126986,
+      "encoded_residual_correlation": 0.5683137445448933
+    }
+  ]
+}

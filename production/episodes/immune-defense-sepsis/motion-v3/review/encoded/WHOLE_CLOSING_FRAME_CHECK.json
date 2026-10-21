@@ -1,0 +1,12 @@
+{
+  "scope": "Every delivered frame of the entire held closing composition after its original entrance settles, before the exact ending begins",
+  "start": 31.6,
+  "end_exclusive": 44.6,
+  "frames_checked": 390,
+  "fps": 30,
+  "max_hand_displacement_native_pixels": 0,
+  "max_adjacent_jump_native_pixels": 0,
+  "verdict": "NO_REPEATED_HAND_ENTRANCE_DURING_ENTIRE_CLOSING_HOLD",
+  "excluded": "The original motivated entrance31\u201331.6s and exact endcard crossfade44.6\u201345.7s are inspected in picture boards, not treated as erroneous motion",
+  "sound": "Unchanged AAC; no independent audition claim"
+}
