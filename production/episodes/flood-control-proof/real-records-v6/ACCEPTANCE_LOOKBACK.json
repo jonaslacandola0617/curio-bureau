@@ -10,9 +10,9 @@
       "requirement": "Build around a bizarre scientific \u201cwhat if\u201d with understandable stakes.",
       "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "NOT APPLICABLE",
+      "evidence": "Owner selected a real flood-protection evidence question, superseding the bizarre-what-if topic example.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "1.2",
@@ -21,9 +21,9 @@
       "requirement": "Open with a compelling mystery or contradiction rather than a textbook definition.",
       "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "0\u20136.24: begins with the unanswered Philippine question, shown and spoken; intrigue is an internal judgment, not a retention result.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "1.3",
@@ -32,9 +32,9 @@
       "requirement": "Make the opening image and narration immediately reinforce each other.",
       "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "0\u20136.24: actual Imus source leads to a separately selected street photograph; no unrelated US opening.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "1.4",
@@ -43,9 +43,9 @@
       "requirement": "Deliver useful information early, then deepen the question.",
       "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "6.24\u201311.88: matched recorded event/date delivered before the comparison; question not resolved in opening.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "1.5",
@@ -54,9 +54,9 @@
       "requirement": "Develop an escalating chain of consequences instead of listing disconnected facts.",
       "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Whole narrative: event \u2192 comparison \u2192 preliminary estimate \u2192 distinct Imus evidence gap \u2192 requested checks.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "1.6",
@@ -65,9 +65,9 @@
       "requirement": "Use visual metaphors, comparisons and changes of scale to explain difficult concepts.",
       "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "11.88\u201325.52: registered original map pixels are selected/reframed, preserving geography and category meanings.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "1.7",
@@ -77,8 +77,8 @@
       "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Practical proof method is the intended payoff; whether it satisfactorily answers the opening remains an owner creative review question. It does not establish a national yes/no verdict.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "1.8",
@@ -87,9 +87,9 @@
       "requirement": "Clearly distinguish the impossible premise, established science and uncertain extrapolation.",
       "verification": "Review actual encoded opening and complete narrative alongside sourced claims; cite timecodes and what the viewer learns.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Observed footage, operator-model estimate and unknown comparable measurements remain distinct; no impossible premise used.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "2.1",
@@ -99,8 +99,8 @@
       "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "35 declared events and 8 explicit source-reading holds; sampled frames confirm operations, not complete normal-speed acceptance of every interval. See MOTION_REVIEW_TARGETS.json.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "2.2",
@@ -109,9 +109,9 @@
       "requirement": "Include substantial object animation\u2014not merely photographs entering and then sitting still.",
       "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "11.88\u201325.52 and47.25\u201355.13: source-category emphasis, registered crop inspection and source-plane replacement develop the comparison; no invented animated water.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "2.3",
@@ -120,9 +120,9 @@
       "requirement": "Use movement within compositions: separation, assembly, replacement, transformation, tracking and progressive reveals.",
       "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "2.65\u20134.4 independent print advance;14.48\u201320.6 category/crop operation;39.22\u201342.5 excerpt advances;47.25\u201355.13 successive evidence-plane selection.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "2.4",
@@ -131,9 +131,9 @@
       "requirement": "Use purposeful camera pans, close-ups, pullbacks and changes of viewpoint.",
       "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Encoded source approaches0\u20131.8 and14.48\u201316.5 inspect project/source-map details; separate source planes reveal context.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "2.5",
@@ -142,9 +142,9 @@
       "requirement": "Build obvious parallax through independently moving foreground, subject and background layers.",
       "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Encoded2.72\u20134.4 strip shows the street print moves independently of the receding project plane; source evidence planes, not claimed surveyed3D terrain.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "2.6",
@@ -153,9 +153,9 @@
       "requirement": "Connect scenes through recognizable objects, directions or ideas.",
       "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Actual Imus source returns at34.02 and57.18; official map maintains geographic anchor across the model qualification.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "2.7",
@@ -165,8 +165,8 @@
       "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Intentional ease/arrive/hold exists and dense strips were inspected; uninterrupted normal-speed creative review remains pending.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "2.8",
@@ -175,9 +175,9 @@
       "requirement": "Preserve enough reading time for essential text and scientific relationships.",
       "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Map/category, amount/scope and eight-word source excerpt get sharp reading holds; longer holds explicitly recorded.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "2.9",
@@ -186,9 +186,9 @@
       "requirement": "Fully remove departing elements; prevent accidental overlaps and clipped labels.",
       "verification": "Inspect moving encoded compositions and joins at normal speed and phone size; record actual operation intervals, independent layer/camera changes, readable holds and exits.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "28 sampled encoded checkpoints plus12 opener movement states show no clipped headline/caption or source excerpt; deliberate source-print edge crops are compositional. Not an exhaustive frame-by-frame claim.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "3.1",
@@ -197,9 +197,9 @@
       "requirement": "Evaluate scene and camera animation at 12 distinct states per second.",
       "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Frozen render.py quantizes scene/camera/material time with floor(t*12)/12; confirmed current written requirement, not inferred from encoded rate.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "3.2",
@@ -208,9 +208,9 @@
       "requirement": "Export at 1080 \u00d7 1920, 30fps, scheduling those states by time.",
       "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Probe:1080x1920,30fps,1822frames,60.733333s.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "3.3",
@@ -220,8 +220,8 @@
       "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Audio is continuous48k stereo and cue timing follows actual voice; subjective synchronization/listening remains pending.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "3.4",
@@ -231,8 +231,8 @@
       "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Stepped cadence execution verified; full normal-speed motion-appeal judgment remains pending.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "3.5",
@@ -241,9 +241,9 @@
       "requirement": "Preserve the exact established ending as the branding exception.",
       "verification": "Check source state scheduling and frame sequence; review stepped playback, continuous decoded audio and exact ending separately.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Unchanged shared brand.js at real30fps; native finishing-toggle identity and final encoded comparison recorded.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "4.1",
@@ -252,9 +252,9 @@
       "requirement": "Lead with photographic imagery rather than generic vector icons.",
       "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Actual USACE videos, official map and JICA/DPWH source photos; no generated scene imagery.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "4.2",
@@ -263,9 +263,9 @@
       "requirement": "Use high-resolution cutouts with carefully prepared edges and sufficient resolution for close-ups.",
       "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "NOT APPLICABLE",
+      "evidence": "No anatomical/object cutout rig required in this documentary-record film. Source photos are small authentic PDF images (510x288/437x272), preserved rather than AI-invented; they are not claimed high-resolution photographic masters.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "4.3",
@@ -274,9 +274,9 @@
       "requirement": "Use paper borders, textured labels and collage treatments where they strengthen the composition.",
       "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Printed-source borders and distinct navy/ivory fibers visible in encoded4.4,24.2,40.52,53.4.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "4.4",
@@ -285,9 +285,9 @@
       "requirement": "Arrange images to demonstrate relationships and consequences, beyond stacking them on paper.",
       "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Map category selection and source comparison retain data roles; interview versus measurement evidence separated in34.02\u201344.25.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "4.5",
@@ -296,9 +296,9 @@
       "requirement": "Create depth through scale, cropping, overlap and independently animated layers.",
       "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Independent source planes, unequal scale, overlap and source-camera reframing visible in opener, source-map and proof-request passages.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "4.6",
@@ -307,9 +307,9 @@
       "requirement": "Use printed diagrams and annotations to support explanations when photographs cannot show the mechanism.",
       "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Published source map and original excerpt carry the invisible counterfactual/data qualification; no new unsupported diagram.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "4.7",
@@ -318,9 +318,9 @@
       "requirement": "Keep illustrative constructions distinguishable from documentary evidence.",
       "verification": "Inspect native encoded crops and phone frames, cutout edges, maximum-zoom source coverage and documentary/illustrative labels.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Source-color emphasis is declared; US/Tennessee and Imus records labeled distinctly. Designed action sounds not claimed field audio.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "5.1",
@@ -329,9 +329,9 @@
       "requirement": "Keep bold Playfair Display headlines and readable Manrope captions.",
       "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Pinned Playfair900/Manrope; actual encoded headline/caption glyphs inspected.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "5.2",
@@ -340,9 +340,9 @@
       "requirement": "Animate selected keywords independently from the captions.",
       "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "25.52\u201326.3 amount type moves independently; question/callout words reveal independently of captions.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "5.3",
@@ -351,9 +351,9 @@
       "requirement": "Make keywords interact with objects through placement, masking, movement or transformation.",
       "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Amount lands on operating-footage evidence plane; blue/red labels remain associated with the selected same-map crops.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "5.4",
@@ -362,9 +362,9 @@
       "requirement": "Use bright, deliberate highlights for important distinctions.",
       "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Gold question/evidence tags and source blue/red category colors retain deliberate roles.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "5.5",
@@ -373,9 +373,9 @@
       "requirement": "Keep captions readable without competing with the main visual.",
       "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Centered caption corey975\u20131037; widest measured right edge928.5px. Caption-on encoded samples readable; conservative placement check, not a claim of a fresh live-platform UI audit.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "5.6",
@@ -384,9 +384,9 @@
       "requirement": "Add no blurred text duplicates, shadow-like backdrops, halos or glows behind text or graphics.",
       "verification": "Inspect caption-on encoded moving samples for independent keyword/object interaction, font pins, hierarchy and clean type/graphic edges.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Source-only optics; crisp type after finishing. No text blur duplicates/glow/feathered quiet lane.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "6.1",
@@ -395,9 +395,9 @@
       "requirement": "Include visible paper/material texture and controlled photocopy or film grain.",
       "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Encoded navy/ivory fibers and print/photo materials visibly survive compression at phone size; source-local grain independently exercised in native proof.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "6.2",
@@ -406,9 +406,9 @@
       "requirement": "Use the Cold Metal balance as the benchmark; avoid obscuring photographs with excessive overlays.",
       "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Verified Cold Metal reference SHAfc403b9e\u2026; inspected1.5/12/23s encoded stills for texture balance. Current texture is coarser/more obvious; photographs remain identifiable. This is sampled internal comparison, not an owner match verdict; obsolete caption haze not adopted.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "6.3",
@@ -417,9 +417,9 @@
       "requirement": "Apply restrained chromatic aberration where appropriate.",
       "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Native chromatic A/B difference and restrained one-pixel photographic channels; printed map excluded.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "6.4",
@@ -428,9 +428,9 @@
       "requirement": "Use source-image focus changes, compound blur and transition blur to direct attention.",
       "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Encoded0.08\u20130.95 and3.5\u20134.4 strip shows source hunts settle sharp; native selective focus uses the same field as surround shading; transient source integration proven.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "6.5",
@@ -439,9 +439,9 @@
       "requirement": "Apply mechanical jitter, brightness variation, edge boil and ink bleed selectively according to the material.",
       "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Per-effect native evidence covers source jitter/exposure and local editorial ink bleed/edge boil, never map boundaries or captions.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "6.6",
@@ -450,9 +450,9 @@
       "requirement": "Keep text crisp and the explanatory details legible through the finishing stack.",
       "verification": "Compare finishing on/off proof and actual native/phone encodes; judge Cold Metal material balance, sharp reading holds and unoccluded detail.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Zero native opaque-caption difference per effect; caption-on encoded samples remain crisp and source excerpt intact.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "7.1",
@@ -462,8 +462,8 @@
       "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Question-first script and natural-speed speech retained; performance/listening judgment pending.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "7.2",
@@ -472,9 +472,9 @@
       "requirement": "Retain the approved Bernard voice.",
       "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Provider hook task7a1d4002\u2026 and body task45172239\u2026 use approved Bernard voiceQMJTqaMXmGnG8TCm8WQG at speed1.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "7.3",
@@ -484,8 +484,8 @@
       "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Cue sheet exists and timing follows visual events; actual perceptual audibility/sync not auditioned.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "7.4",
@@ -495,8 +495,8 @@
       "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Existing editorial/page cues used; final mix material fit and lens/air family review remains pending, not auto-passed.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "7.5",
@@ -506,8 +506,8 @@
       "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Original score includes low thematic accents; their perceived restraint is pending listening.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "7.6",
@@ -516,9 +516,9 @@
       "requirement": "Reuse our existing SFX library first.",
       "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Existing first-party catalog action cues reused; no new SFX generation or unlicensed downloaded Foley.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "7.7",
@@ -528,8 +528,8 @@
       "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Four-section original episode score retimed around new question; subjective musical arc remains pending.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "7.8",
@@ -539,8 +539,8 @@
       "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Encoded levels measured and automated gains applied; masking/cue clutter requires actual listening.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "7.9",
@@ -550,8 +550,8 @@
       "verification": "Review actual final compressed audio with the moving film, on phone/headphones where available; cite cue onsets, collisions, speech and final-word tail. Code/levels alone cannot pass listening.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Original retained speech samples unaccelerated/unfaded; final word/tail preserved structurally with0.904s pre-ending tail. Audibility is not certified by ASR/decode alone.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "8.1",
@@ -560,9 +560,9 @@
       "requirement": "Deliver the entire episode, not a short excerpt standing in for it.",
       "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Complete60.733333s episode archived, not an excerpt.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "8.2",
@@ -571,9 +571,9 @@
       "requirement": "Review the opening, middle, payoff, transitions and ending in the encoded video.",
       "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "28 whole-film encoded checkpoints and12 opener movement states inspected; source/phone material comparison and final ending included. This is sampled picture inspection, not a claim of full-speed audiovisual audition.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "8.3",
@@ -583,8 +583,8 @@
       "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Declared event/hold ledger checked against source and sampled encoded points; uninterrupted timing review remains pending.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "8.4",
@@ -593,9 +593,9 @@
       "requirement": "Verify that motion develops the explanation rather than providing decorative activity.",
       "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "Sampled image operations select/compare source evidence rather than relying solely on captions or grain. Owner creative acceptance remains pending.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "8.5",
@@ -605,8 +605,8 @@
       "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
       "default_verdict": "NOT REVIEWED",
       "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "evidence": "Strict decode passes; -14.24LUFS,-1.64dBTP,3.40LU LRA measured; intelligibility and final-word hearing still pending.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "8.6",
@@ -615,9 +615,9 @@
       "requirement": "Identify any unmet item explicitly instead of claiming blanket compliance.",
       "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "PASS",
+      "evidence": "All57 items revisited with specific evidence/limits; unresolved checks remain explicit. No blanket100-percent claim.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     },
     {
       "id": "8.7",
@@ -626,27 +626,36 @@
       "requirement": "After publication, compare available swipe-away, retention, watch-duration and engagement data at comparable ages.",
       "verification": "Inspect the entire actual encoded film and timestamped timeline; report unmet items. For audience measures use available platform analytics at the same elapsed age after publication.",
       "default_verdict": "NOT REVIEWED",
-      "verdict": "NOT REVIEWED",
-      "evidence": "Actual encoded review to be completed; no inherited pass",
-      "reviewer": "not yet reviewed"
+      "verdict": "NOT APPLICABLE",
+      "evidence": "Not published; no new retention/24h/7day result exists. Hook performance remains a hypothesis.",
+      "reviewer": "Codex internal sampled picture/source review; independent listening and owner acceptance separate"
     }
   ],
   "reference_study": [
     {
       "id": "R.1",
       "requirement": "Examine the reference channel\u2019s premise, escalation, visual metaphors, typography, transitions and sound relationships.",
-      "default_verdict": "NOT REVIEWED"
+      "default_verdict": "NOT REVIEWED",
+      "verdict": "NOT REVIEWED",
+      "evidence": "No new full reference-channel viewing or sound study completed; exact approved four-test review frames and verified Cold Metal encoded stills inspected separately."
     },
     {
       "id": "R.2",
       "requirement": "A detailed viewing analysis has not yet been completed; do not represent it as finished.",
-      "default_verdict": "NOT REVIEWED"
+      "default_verdict": "NOT REVIEWED",
+      "verdict": "NOT REVIEWED",
+      "evidence": "No new full reference-channel viewing or sound study completed; exact approved four-test review frames and verified Cold Metal encoded stills inspected separately."
     }
   ],
   "audience_promise": "No particular view count or retention result is promised.",
-  "movie_sha256": null,
+  "movie_sha256": "6e95da904de634bcd2dd30e7a91f40ecd9fa2042f525eb09180a8fd1cb516aab",
   "version": "real-records-v6",
   "owner_approval": "PENDING",
   "independent_listening": "PENDING",
-  "publication": "NOT PERFORMED"
+  "publication": "NOT PERFORMED",
+  "source_commit": "a6ca39c895e394445e3db518c3e8b9123a284dc5",
+  "review_method": "28 encoded whole-film checkpoints +12 encoded opener states, native effect proofs and source/voice/technical checks; no independent sound audition",
+  "caption_boundaries": "Actual-audio ASR, script reconciled; independent exact-boundary verification pending",
+  "source_photo_publication_clearance": "PENDING item-specific review",
+  "release_acceptance": "REVIEW EXPORT; full final acceptance NOT certified"
 }

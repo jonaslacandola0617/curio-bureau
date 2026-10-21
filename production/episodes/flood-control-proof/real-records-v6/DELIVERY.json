@@ -1,0 +1,13 @@
+{
+  "file": "Curio-Flood-Proof-Real-Records-v6.mp4",
+  "bytes": 94622764,
+  "sha256": "6e95da904de634bcd2dd30e7a91f40ecd9fa2042f525eb09180a8fd1cb516aab",
+  "role": "completed review movie",
+  "source_commit": "a6ca39c895e394445e3db518c3e8b9123a284dc5",
+  "release_tag": "flood-proof-real-records-v6-20261021",
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/flood-proof-real-records-v6-20261021/Curio-Flood-Proof-Real-Records-v6.mp4",
+  "status": "ARCHIVED_FOR_REVIEW",
+  "owner_full_approval": "PENDING",
+  "independent_listening": "PENDING",
+  "caption_boundaries": "actual-audio ASR estimates, script reconciled; independent verification pending"
+}
