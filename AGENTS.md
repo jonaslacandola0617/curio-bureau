@@ -1,6 +1,14 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
 
 
+## Current immune-film approval and render — 21 October 2026
+
+Owner explicitly approved the complete six-scene artwork (“PERFECT! THIS IS GOOD!”), required brighter saturated yellow/red and authorized rendering after that correction, then instructed continuation. New art approval is APPROVED; earlier art-pending snapshots below are historical. Apply the approved compositions and source/model distinctions; do not redesign the art. Episode accents are now yellow #FFE337 and red #FF4030, with brighter original illustrated RBC/clot colors. Actual microscopy colors and exact shared ending palette/module remain untouched. This is an episode accent correction, not a channel rebrand.
+
+Frozen moving source: 07de463f093e8b0bc25bc1ff5ca73bbb9a4c8736, film/immune-defense-sepsis, production/episodes/immune-defense-sepsis/motion-v1/. Natural Bernard master recorded with the established preset/id at speed1; quiet-only edits preserve words and actual-audio caption timing. Full review duration45.7s. Native capture executes shared finishing/standard/audit gates and archives lossless chunks at least every two, then the completed video immediately. Workflow39553102453. Read CURRENT_PRODUCTION for latest completion/QA status, not this in-progress dated note. New motion/full-film owner acceptance, independent listening, exact captions and clinical/source publication checks remain separate. No account publication authorized.
+
+
+
 ## Latest selected science commission — 21 October 2026
 
 Owner commissioned three accessible deep-science questions and ordered the first to start: **Could your body's defense system hurt you?** Active case is sepsis, with source-qualified vessel barrier/perfusion explanation. Follow-ups, not concurrent starts: **Would finding alien life actually be good news?** and **Why can't we just build a faster spaceship?** Keep proposing familiar human questions that lead into deeper mechanisms. This supersedes earlier no-selection/flood-active/paused-dust topic state for new production; completed flood and Black Dwarf remain preserved.
