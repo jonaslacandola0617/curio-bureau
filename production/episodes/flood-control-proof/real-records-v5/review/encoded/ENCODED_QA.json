@@ -1,0 +1,49 @@
+{
+  "file": "Curio-Flood-Proof-Real-Records-v5.mp4",
+  "sha256": "4069c3c436da4fb6429d2d0a00312d6e35caff52633d436f750fe752876afe10",
+  "bytes": 68141218,
+  "duration_seconds": 61.733333,
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1852,
+    "codec": "h264",
+    "pixel_format": "yuv420p"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "measured_integrated_lufs": "-14.52",
+    "measured_true_peak_dbtp": "-1.49",
+    "measured_lra": "3.60"
+  },
+  "full_decode": "PASS",
+  "ending_comparison_to_shared_module_png": {
+    "mean_absolute_rgb_error": 0.6863877636316873,
+    "rmse": 0.9105393735992341
+  },
+  "contact_sheet_timestamps": [
+    1.8,
+    9,
+    16.4,
+    20,
+    24,
+    29.5,
+    33.5,
+    38,
+    42.3,
+    46.5,
+    50,
+    54.2,
+    58.5,
+    60.3,
+    60.8,
+    61.7
+  ],
+  "independent_listening": "PENDING; not claimed",
+  "caption_boundaries": "script reconciled actual-audio ASR; independent listening pending",
+  "owner_approval": "PENDING",
+  "publication": "NOT PERFORMED"
+}
