@@ -1,5 +1,12 @@
 # Curio Bureau — Agent / ChatGPT Project Instructions
 
+## Active audio correction —21October2026
+
+Owner rejected V3 as still broken and explicitly identified broken audio. Earlier geometry-only verification and AAC-preservation statements below are historical, NOT audio acceptance. Actual signal audit found strong speech in12of14old supposed quiet cuts. ASR timestamps were unsafe edit points; preserving the old AAC preserved clipped words. V1–V3 sound must not be reused as an approved benchmark. Read production/engine/SAFE_NARRATION_EDITS_20261021.md and CURRENT_PRODUCTION.
+
+V4 frozen source 61ad52fef87cfda60b65f508ddd27cfceb78ca08 on film/immune-defense-sepsis restores the original natural Bernard master, trims only5sample-verified near-silent middle intervals with200ms guards, and proves every retained sample identical before gain. No speech rate/pitch change. Repaired voice50.43s; synchronized review52.033333s. All six closing lines match fresh unprompted premix recognition; actual encoded speech still must be checked after render. Approved art, vivid colors, foreground grain/separate paper, continuing closing clock and33exact native ending frames are retained. Full recapture is required because narration/caption/scene/cue timings changed. Workflow 39562219174. No V4 completion claim until CURRENT records verified export. Independent human listening, exact captions, clinical/source and owner full-film acceptance remain pending. No publication authorized.
+
+
 ## Current immune-film V3 closing correction —21October2026
 
 The owner reported V2's closing broken and confirmed the repeated scene entrances near38.3s/41.2s. V3 fixes this specific defect: adjacent narration beats sharing one composition inherit its animation clock. The hand enters once, then holds. Actual V2 tracking measured168native pixels of jump; V3 checks every390delivered frames from31.6–44.6s with zero hand displacement and zero adjacent jumps. Encoded closing/whole-film picture samples inspected. This resolves the measured defect; owner acceptance of the corrected complete film remains PENDING.
