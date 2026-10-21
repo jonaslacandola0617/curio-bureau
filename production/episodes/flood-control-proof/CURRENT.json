@@ -7,7 +7,7 @@
   "candidate": "finishing-v7",
   "source_commit": "cddd2f4d7acb42ea1562684e00fcc56eda5d199b",
   "source_branch": "film/flood-proof-20261020",
-  "status": "FINISHING_ONLY_ARCHIVED_AND_VERIFIED",
+  "status": "OWNER_APPROVED_VISUAL_ART_AND_FINISHING_ARCHIVED",
   "qa_commit": "61d9765dfa0ef97ad9c0969ff148cd3643edc69f",
   "movie_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/flood-proof-finishing-v7-20261021/Curio-Flood-Proof-Finishing-v7.mp4",
   "movie_bytes": 92738254,
@@ -22,11 +22,15 @@
     "strict_complete_decode": "PASS",
     "encoded_phone_review": "12 checkpoints inspected; foreground grain and separate paper retained"
   },
-  "new_finishing_approval": "PENDING",
-  "full_film_approval": "PENDING",
+  "new_finishing_approval": "APPROVED",
+  "full_film_approval": "Owner accepted delivered visual artwork/finishing; independent release checks remain separate",
   "independent_listening": "PENDING; no new audition claimed",
   "exact_caption_boundary_verification": "PENDING; original ASR/script reconciliation unchanged",
   "photo_publication_clearance": "PENDING",
-  "publication": "NOT AUTHORIZED / NOT PERFORMED",
-  "benchmarks": "Sun workflow and four-test general art standard unchanged; this episode's V6 artwork is locked."
+  "publication": "NOT AUTHORIZED / NOT PERFORMED; drafting only authorized",
+  "benchmarks": "Sun workflow and four-test general art standard unchanged; this episode's V6 artwork is locked.",
+  "owner_visual_acceptance_date": "2026-10-21",
+  "owner_method_adopted_for_future_curio_projects": true,
+  "approved_production_playbook": "production/approved-benchmarks/flood-proof-v7/FLOOD_PROOF_APPROVED_PRODUCTION_PLAYBOOK_20261021.md",
+  "post_drafts": "production/episodes/flood-control-proof/POSTS_20261021.md"
 }

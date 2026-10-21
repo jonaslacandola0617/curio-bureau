@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "scope": "Curio Bureau only",
+  "id": "flood-proof-approved-art-and-finish-v7",
+  "owner_adoption_date": "2026-10-21",
+  "timezone": "Asia/Manila",
+  "owner_visual_art_approval": "APPROVED",
+  "owner_finishing_approval": "APPROVED",
+  "basis": "Owner GOOD response to delivered V7 and express request to preserve method for future projects",
+  "production_standard": "sun-disappeared-v1",
+  "art_standard": "image-owned-editorial-v1",
+  "playbook": "FLOOD_PROOF_APPROVED_PRODUCTION_PLAYBOOK_20261021.md",
+  "source_index": "APPROVED_SOURCE_INDEX.json",
+  "regression_checklist": "NEXT_PROJECT_REGRESSION_CHECKLIST.md",
+  "movie_sha256": "1638eebe1ce9af34d93778b50920841e08216186121223cbd11520868bbdddb5",
+  "source_commit": "cddd2f4d7acb42ea1562684e00fcc56eda5d199b",
+  "qa_commit": "61d9765dfa0ef97ad9c0969ff148cd3643edc69f",
+  "cadence": {
+    "authored_scene_camera_material_fps": 12,
+    "delivery_fps": 30,
+    "ending_fps": 30,
+    "width": 1080,
+    "height": 1920
+  },
+  "compositing_order": [
+    "flat brand backing",
+    "source images/video and source optics with purposeful independent planes",
+    "authored artwork text/source annotations",
+    "separate static paper material",
+    "moving foreground soft-light grain",
+    "protected centered captions and wordmark",
+    "exact original ending bypasses added finishing"
+  ],
+  "reference_recipe": {
+    "grain": {
+      "bank_input_px": 512,
+      "bank_output_px": 1024,
+      "banks": 16,
+      "fps": 12,
+      "offset_x_per_tick": 137,
+      "offset_y_per_tick": 83,
+      "soft_light_mix": 0.34
+    },
+    "paper": {
+      "seed": 20261021,
+      "formation_weight": 3.2,
+      "tooth_weight": 2.1,
+      "fiber_weight": 0.48,
+      "multiply_strength": 0.0042
+    },
+    "recipe_scope": "Approved artifact implementation; tune new surfaces by actual encoded review, not universal numeric compliance"
+  },
+  "required_scene_fields": [
+    "proposition",
+    "viewer_before",
+    "viewer_after",
+    "visual_operation",
+    "invariant",
+    "initial_state",
+    "difficult_intermediate",
+    "resolved_state",
+    "component_plan",
+    "next_inheritance",
+    "source_truth_boundary",
+    "caption_clearance",
+    "reading_hold",
+    "finishing_windows_and_exclusions"
+  ],
+  "native_capture_checks": [
+    "validate_finishing",
+    "validate_standard",
+    "finishing_audit.check"
+  ],
+  "finishing_only_checks": [
+    "normalized scene renderer equality except permitted hook",
+    "unchanged source/config/timeline/audio inputs",
+    "no-paper/no-grain native image equality",
+    "foreground grain coverage inside photo/map and background",
+    "independent paper visibility",
+    "constant-source temporal grain",
+    "caption-core protection",
+    "original native ending hashes",
+    "audio packet payload and timing identity"
+  ],
+  "evidence_boundaries": {
+    "independent_listening": "PENDING",
+    "exact_caption_boundary_verification": "PENDING",
+    "photo_publication_clearance": "PENDING",
+    "all_57_items_newly_certified": false,
+    "retention_success": null,
+    "virality_guarantee": false,
+    "social_publication": "NOT AUTHORIZED / NOT PERFORMED",
+    "post_drafting": "AUTHORIZED AND COMPLETED"
+  },
+  "historical_policy": "Keep original V6/V7 receipts and pending statuses as dated evidence; latest owner approval overlays only applicable creative fields",
+  "future_rule": "Read source files and latest owner instructions every session; never rely on unsupported perfect-memory claims"
+}

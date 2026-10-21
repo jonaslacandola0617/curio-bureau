@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "scope": "Curio Bureau only",
+  "snapshot_commit": "61d9765dfa0ef97ad9c0969ff148cd3643edc69f",
+  "source_commit": "cddd2f4d7acb42ea1562684e00fcc56eda5d199b",
+  "files": {
+    "render.py": {
+      "bytes": 12835,
+      "sha256": "4921aecac15cce5e686e641830be0568b04c24e522f28f7a9c44fc0a227c3be6",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/render.py"
+    },
+    "finish.py": {
+      "bytes": 4777,
+      "sha256": "c7dea40a93f42abf28b4d17c5706e0e06e292387c49b5ac81890ed6a3e2950cd",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/finish.py"
+    },
+    "prepare.py": {
+      "bytes": 6492,
+      "sha256": "c2be959dc9cbe246e229933544a6091c9033d640dbf74bb16f1aa392db6c9337",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/prepare.py"
+    },
+    "prove_art_lock.py": {
+      "bytes": 3019,
+      "sha256": "c7ba74ac30ad1a54eb681c85bdf7ec3c3c3802cd36a2211efc0283ef2b171adb",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/prove_art_lock.py"
+    },
+    "prove_finishing.py": {
+      "bytes": 6930,
+      "sha256": "ab383285154f4322d389d2ce5b93013fb34e4cbdfe2e89a0e98cf24d968bcae0",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/prove_finishing.py"
+    },
+    "qa_finishing.py": {
+      "bytes": 3876,
+      "sha256": "a55f541839af3c5664db5d0b88ca51dcffe7bd936994f8cb43086452d99f2e08",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/qa_finishing.py"
+    },
+    "build_release.py": {
+      "bytes": 6111,
+      "sha256": "aae8663147640ee9a99423313768e4dd04e5a1e11672510cdce709051d060773",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/build_release.py"
+    },
+    "recover_locked_ending.py": {
+      "bytes": 2031,
+      "sha256": "b56be565c64e74530be8655298b248d244a96b0f17c5f8c9474a2f01db2edb3d",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/recover_locked_ending.py"
+    },
+    "recover_sources.py": {
+      "bytes": 501,
+      "sha256": "6009c23418af16062d77d9967eb7050d89924b1b56fb4177fb91662ca5de3a69",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/recover_sources.py"
+    },
+    "align_hook.py": {
+      "bytes": 761,
+      "sha256": "a788ed1182125d345a47ef5cc1b4274a708d3bf1fea0a8f8a9af1c60db48f1fe",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/align_hook.py"
+    },
+    "timeline.json": {
+      "bytes": 20142,
+      "sha256": "a5859d2388f027c8bde20047e717c32da2836c215786964ebc2bc391499921ee",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/timeline.json"
+    },
+    "episode.json": {
+      "bytes": 20314,
+      "sha256": "6171379ebdcdaa898514e65af2a65c9d864570765257e14e9c39750b2b72a299",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/episode.json"
+    },
+    "SHOT_CONTRACTS.json": {
+      "bytes": 21144,
+      "sha256": "d777ec59f23d6e3d7a4ad86247c663efc43a43c9637162596b6af03af524c861",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/SHOT_CONTRACTS.json"
+    },
+    "MOTION_REVIEW_TARGETS.json": {
+      "bytes": 7383,
+      "sha256": "1fd5cf953ad64a45d2008cd6ae56c8d11bdae6cb606b74063352a352ff510302",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/MOTION_REVIEW_TARGETS.json"
+    },
+    "FINISHING_CONTRACT.json": {
+      "bytes": 9552,
+      "sha256": "eeace089c045cc36cdea761259d7e23772830ce41a125f6fb22329e66fda6082",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/FINISHING_CONTRACT.json"
+    },
+    "FINISHING_COVERAGE.json": {
+      "bytes": 8947,
+      "sha256": "1a824f77654b51c3149efde5d37c4512a783eeaccc7a09fe4512027b172310ee",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/FINISHING_COVERAGE.json"
+    },
+    "NARRATION_SOURCE.json": {
+      "bytes": 558,
+      "sha256": "f13f903e9cd50b5f2a835dbd3e650c2b4a08a06a392ac19b75383d5bef77b94e",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/NARRATION_SOURCE.json"
+    },
+    "SFX_CUE_SHEET.json": {
+      "bytes": 2907,
+      "sha256": "8dbfae547a1c7abafd880896c87d58654f5209a21cc3a6509db8444a84df81b3",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/SFX_CUE_SHEET.json"
+    },
+    "SOURCE_FREEZE.json": {
+      "bytes": 7062,
+      "sha256": "0e6eb8f19638054a1948f5f1238fff49d6826ec97a8503d0e5f774c4ec91947d",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/SOURCE_FREEZE.json"
+    },
+    "BASELINE_INPUTS.json": {
+      "bytes": 5688,
+      "sha256": "2b8220ec80d9178de2a4d78fa3d5080e3f0316e502abb0829fc6245516d9383d",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/BASELINE_INPUTS.json"
+    },
+    "GOVERNING_SOURCE_HASHES.json": {
+      "bytes": 930,
+      "sha256": "bc83605a0a52c78cbd84271989fb0ee14e112977ea5712acf2d18e014ac0aee1",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/GOVERNING_SOURCE_HASHES.json"
+    },
+    "SOURCE_DOWNLOADS.json": {
+      "bytes": 726,
+      "sha256": "6dfc62818f46533be4692ad781fbce4ffe91b48f68d5bfe2129ca5cb2bdc09c8",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/SOURCE_DOWNLOADS.json"
+    },
+    "ARTWORK_PRESERVATION_RUNNER.json": {
+      "bytes": 3615,
+      "sha256": "20383acb2be8bd62312107b51cc48d40ffe5a21078b012eb0d2d1c30a5c7ddfe",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/ARTWORK_PRESERVATION_RUNNER.json"
+    },
+    "LOCKED_MEDIA_RECEIPT_RUNNER.json": {
+      "bytes": 4648,
+      "sha256": "a44ffc6b9b971f0644223b860168dd02adf99e59799aa036213dbe3b6379426e",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/LOCKED_MEDIA_RECEIPT_RUNNER.json"
+    },
+    "FINISHING_RUNTIME_RUNNER.json": {
+      "bytes": 3463,
+      "sha256": "d4e5df02847368c1c65e99d0f88ddc9641f9d27ae6ff82680fc642250a89372a",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/FINISHING_RUNTIME_RUNNER.json"
+    },
+    "DELIVERY_V7.json": {
+      "bytes": 997,
+      "sha256": "7c72019ae1b93b925bc0230e3a966fa08c8906686345a42b8f0599640c98972d",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/DELIVERY_V7.json"
+    },
+    "review/encoded-v7/FINISHING_ENCODED_QA.json": {
+      "bytes": 1775,
+      "sha256": "52258e08de8fc2949bf440d95605027b065b980b7cbd9eeddb03b9ec1e0a195b",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/review/encoded-v7/FINISHING_ENCODED_QA.json"
+    },
+    "review/encoded-v7/ENCODED_OVERLAY_RETENTION.json": {
+      "bytes": 1260,
+      "sha256": "c80430d9d43df8a665e06215270c14ad8cff13115b595b3761f5f3824ab85121",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/review/encoded-v7/ENCODED_OVERLAY_RETENTION.json"
+    },
+    "review/encoded-v7/finishing-whole-film-review.jpg": {
+      "bytes": 1321857,
+      "sha256": "3c16877e24d1af20b500be8c413e8a64eab882ec4e101ba9def456884d8f07c7",
+      "url": "https://github.com/jonaslacandola0617/curio-bureau/blob/61d9765dfa0ef97ad9c0969ff148cd3643edc69f/production/episodes/flood-control-proof/finishing-v7/review/encoded-v7/finishing-whole-film-review.jpg"
+    }
+  }
+}
