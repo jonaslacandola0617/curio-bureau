@@ -4,15 +4,48 @@
   "case": "Sepsis; illustrative vessel barrier/clotting/perfusion pathway, not complete mechanism",
   "source_branch": "film/immune-defense-sepsis",
   "source_commit": "61ad52fef87cfda60b65f508ddd27cfceb78ca08",
-  "status": "V3_AUDIO_REJECTED_V4_ORIGINAL_SPEECH_RESTORATION_FULL_RENDER_IN_PROGRESS",
+  "status": "V4_ORIGINAL_SPEECH_RESTORED_ARCHIVED_ACTUAL_ENCODED_CLOSING_VERIFIED_OWNER_REVIEW_PENDING",
   "review_board": "https://github.com/jonaslacandola0617/curio-bureau/blob/82495e7a99f7e50f75628cafc1b1646b52f583b1/production/episodes/immune-defense-sepsis/art-v1/review/whole-story-art-review.jpg",
   "owner_art_approval": "APPROVED; saturated yellow/red correction authorized",
-  "narration": "Original Bernard restored; only5sample-verified near-silence sections trimmed; all retained speech samples identical before gain; no speed/pitch change",
-  "voice_timing": "Complete acoustic utterance anchors plus qualified ASR internal estimates; full scene/caption/cue timeline rebuilt",
-  "motion": "Approved source art/finish and continuous closing clock retained; new narration timing requires synchronized full recapture",
+  "narration": "Original Bernard master restored; five sample-verified near-silence centres removed, all retained samples identical before gain; original speed/pitch",
+  "voice_timing": "Measured complete acoustic utterance anchors; all116canonical words script-reconciled with raw/context ASR evidence; internal word timing remains estimated",
+  "motion": "Approved art/finish and continuous closing clock preserved; all scene/caption/cue timing rebuilt for complete voice;481held closing frames show0hand displacement/jump",
   "native_static_finish": "Paper and foreground grain independently execute; captions protected",
-  "full_film": "V4 FULL RENDER IN PROGRESS. V1–V3 audio is defective, not an accepted benchmark.",
-  "full_film_qa": "PENDING actual V4 export/download/encoded speech checks",
+  "full_film": "COMPLETE restored-speech V4 synchronized full review; public download verified",
+  "full_film_qa": {
+    "public_download_hash": "MATCH",
+    "strict_complete_decode": "PASS",
+    "native": [
+      1080,
+      1920
+    ],
+    "delivery_fps": 30,
+    "frames": 1561,
+    "authored_scene_fps": 12,
+    "authored_cadence_evidence": "Unchanged render_movie.py quantizer and episode.json; not inferred from encodedfps",
+    "native_finishing_and_standard_gates": "PASS; actual archived runner proof",
+    "source_speech_preservation": "Every retained stereo sample identical before gain; all removed samples below-55dBFS with200ms measured quiet guards. Actual cuts about-80dBFS.",
+    "legacy_failure_control": "New cut gate rejects12of14old word-cutting edit windows; all5new full quiet regions including guards verified",
+    "actual_encoded_closing_speech": "All6complete closing lines match fresh unprompted offline recognition of public MP4, including complete Not just force",
+    "speech_caption_contexts": "All6actual encoded closing speech contexts have relevant active captions; exact human word-boundary review still pending",
+    "whole_closing_hold": "All481decoded held-closing frames34.9–50.933333s,0hand displacement and0adjacent jump",
+    "source_voice_duration_seconds": 50.43,
+    "voice_tail": "Entire original source tail retained;0.5s additional guard before exact endcard; no internal>=0.85s voice pauses",
+    "picture": "12whole-film,15closing and6speech/caption actual encoded samples inspected",
+    "paper_and_foreground_grain": "Unchanged finish.py; new native execution, encoded residuals and phone picture inspected",
+    "original_ending": "33original native frames decoded RGB identical, relocated after complete restored voice",
+    "audio": "NEW restored mix/AAC; defective V3AAC not reused",
+    "audio_levels_measured": {
+      "integrated_lufs": -14.01,
+      "true_peak_dbtp": -1.33,
+      "lra_lu": 3.4
+    },
+    "public_restored_float_voice": "50.43s; public decoded PCM hash matches actual runner retained-sample proof",
+    "native_execution_evidence": "Archived ZIP CRC and11referenced proof hashes verified",
+    "independent_human_listening": "NOT PERFORMED / PENDING",
+    "global_57_item_release_certification": false,
+    "qualified_lookback": "https://github.com/jonaslacandola0617/curio-bureau/blob/746b50bb2b865054d208b297159b9bc19e2b35f7/production/episodes/immune-defense-sepsis/motion-v4/review/encoded/QUALIFIED_RELEASE_LOOKBACK.json"
+  },
   "source_claims": "research/CLAIMS_AND_SOURCES.json in source branch; scope/conflict limits recorded",
   "medical_wording_human_review": "PENDING",
   "independent_listening": "PENDING / NOT PERFORMED",
@@ -28,12 +61,16 @@
     "original_microscopy_colors": "UNCHANGED",
     "shared_ending": "UNCHANGED"
   },
-  "qa_commit": null,
-  "workflow_conclusion": null,
-  "delivery": null,
-  "repair": "Old ASR inter-word edit windows removed strong speech; restore master samples and trim only verified low-level silence, then re-synchronize full film",
-  "delivery_checkpoint": "V4 DELIVERY_CHECKPOINT.md in source branch; completion/actual encoded QA pending",
-  "owner_full_film_approval": "V3 REJECTED; V4 PENDING",
+  "qa_commit": "746b50bb2b865054d208b297159b9bc19e2b35f7",
+  "workflow_conclusion": "success",
+  "delivery": {
+    "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v4-20261021/Curio-Immune-Defense-Full-Review-v4.mp4",
+    "bytes": 74223543,
+    "sha256": "4b010a099fb767f89bae2fc1de3639ddef1a80b15f3da43a818afe0fdb3da141"
+  },
+  "repair": "Replace defective prior AAC with restored original speech; only measured near-silence cut, full audiovisual synchronization rebuilt. Artwork source and33exact native ending frames retained.",
+  "delivery_checkpoint": "https://github.com/jonaslacandola0617/curio-bureau/blob/746b50bb2b865054d208b297159b9bc19e2b35f7/production/episodes/immune-defense-sepsis/motion-v4/DELIVERY_CHECKPOINT.md",
+  "owner_full_film_approval": "PENDING",
   "new_audience_results": null,
   "previous_delivery": {
     "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v2-20261021/Curio-Immune-Defense-Full-Review-v2.mp4",
@@ -59,7 +96,7 @@
     "global_57_item_release_certification": false,
     "qualified_lookback": "https://github.com/jonaslacandola0617/curio-bureau/blob/455f06521e41a7db08bd0af19187f1003e157030/production/episodes/immune-defense-sepsis/motion-v2/review/encoded/QUALIFIED_RELEASE_LOOKBACK.json"
   },
-  "owner_reported_defect": "V3 still broken; audio explicitly rejected. Root cause confirmed by old-cut signal audit and new restored-mix speech checks.",
+  "owner_reported_defect": "V3 audio was rejected. Actual old cuts clipped strong speech; V4 restores master samples and actual MP4 matches all6complete closing lines. Owner V4 acceptance pending.",
   "continuity_regression_guide": "production/engine/CONTINUOUS_COMPOSITION_CLOCK_20261021.md",
   "rejected_v3_delivery": {
     "url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v3-20261021/Curio-Immune-Defense-Full-Review-v3.mp4",
@@ -90,5 +127,6 @@
     "qualified_lookback": "https://github.com/jonaslacandola0617/curio-bureau/blob/2e633630b685f785af707ad6242003bcef9fe7b8/production/episodes/immune-defense-sepsis/motion-v3/review/encoded/QUALIFIED_RELEASE_LOOKBACK.json"
   },
   "voice_duration_seconds": 50.43,
-  "audio_regression_guide": "production/engine/SAFE_NARRATION_EDITS_20261021.md"
+  "audio_regression_guide": "production/engine/SAFE_NARRATION_EDITS_20261021.md",
+  "transcription_privacy": "Blocked ONNX-VAD telemetry route was not retried; subsequent cached local recognition disables ONNX VAD and denies process network syscalls."
 }
