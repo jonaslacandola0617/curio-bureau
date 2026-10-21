@@ -1,0 +1,16 @@
+{
+  "file": "Curio-Flood-Proof-Finishing-v7.mp4",
+  "bytes": 92738254,
+  "sha256": "1638eebe1ce9af34d93778b50920841e08216186121223cbd11520868bbdddb5",
+  "role": "completed review movie",
+  "source_commit": "cddd2f4d7acb42ea1562684e00fcc56eda5d199b",
+  "release_tag": "flood-proof-finishing-v7-20261021",
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/flood-proof-finishing-v7-20261021/Curio-Flood-Proof-Finishing-v7.mp4",
+  "status": "ARCHIVED_FOR_REVIEW",
+  "owner_artwork_approved": true,
+  "owner_new_finishing_approval": "PENDING",
+  "audio_packet_payload_hash": "SHA256=9d7ed2767ed38fb5138495f6a15d23bdb73e69f55641d7e7c7edfca9cfdc2cd3",
+  "artwork_preservation": "All scene code unchanged except one foreground finishing call;19 states equal with texture/grain disabled; original33 ending frames reused",
+  "independent_listening": "PENDING",
+  "caption_boundaries": "actual-audio ASR estimates, script reconciled; independent verification pending"
+}

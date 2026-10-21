@@ -1,0 +1,29 @@
+{
+  "regions": [
+    {
+      "time": 4.4,
+      "effect": "moving_grain",
+      "region": "photograph",
+      "native_effect_mean_abs_luma": 4.558347049707602,
+      "encoded_residual_correlation_with_native_effect": 0.7304046521716722,
+      "note": "Positive residual correlation supports retention after compression, not artistic approval or pixel identity."
+    },
+    {
+      "time": 16.5,
+      "effect": "moving_grain",
+      "region": "map_detail",
+      "native_effect_mean_abs_luma": 5.575904589681902,
+      "encoded_residual_correlation_with_native_effect": 0.6491538324784761,
+      "note": "Positive residual correlation supports retention after compression, not artistic approval or pixel identity."
+    },
+    {
+      "time": 40.52,
+      "effect": "material_texture",
+      "region": "light_paper",
+      "native_effect_mean_abs_luma": 3.264210448717949,
+      "encoded_residual_correlation_with_native_effect": 0.8579935358711822,
+      "note": "Positive residual correlation supports retention after compression, not artistic approval or pixel identity."
+    }
+  ],
+  "method": "Native effect-on minus effect-off compared with actual encoded image minus the same effect-off baseline, identical scene time; not a perceptual quality score."
+}

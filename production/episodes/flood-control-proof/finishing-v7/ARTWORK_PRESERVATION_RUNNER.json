@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "owner_artwork_approved": true,
+  "finishing_only": true,
+  "renderer_diff": "Exactly one foreground finishing call; all scene code otherwise byte-identical",
+  "unchanged_inputs": [
+    "prepare.py",
+    "align_hook.py",
+    "recover_sources.py",
+    "ending.cjs",
+    "timeline.json",
+    "episode.json",
+    "previous-timeline.json",
+    "SHOT_CONTRACTS.json",
+    "MOTION_REVIEW_TARGETS.json",
+    "GOVERNING_SOURCE_HASHES.json",
+    "NARRATION_SOURCE.json",
+    "SOURCE_DOWNLOADS.json",
+    "SFX_CUE_SHEET.json",
+    "audio/bernard-original.mp3",
+    "audio/ASR_ORIGINAL.json",
+    "audio/hook-original.mp3",
+    "audio/HOOK_ASR.json",
+    "audio/AUDIO_RECEIPT.json",
+    "audio/soundtrack.flac",
+    "assets/official-comparison.jpg",
+    "assets/imus-basin.jpeg",
+    "assets/imus-marker.jpeg",
+    "assets/jica-excerpt.png"
+  ],
+  "sampled_art_equality": [
+    {
+      "t": 0,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 0.3,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 2.1,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 4.4,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 7.04,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 10.5,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 12.68,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 16.5,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 20.6,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 24.2,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 26.32,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 32.8,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 34.82,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 40.52,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 45.06,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 50.6,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 53.4,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 57.5,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    },
+    {
+      "t": 59.23,
+      "mean_absolute_difference": 0,
+      "artwork_pixels_equal_with_finishing_disabled": true
+    }
+  ],
+  "all33_ending_frames_reused_and_hash_equal": true,
+  "approved_audio_packet_hash": "SHA256=9d7ed2767ed38fb5138495f6a15d23bdb73e69f55641d7e7c7edfca9cfdc2cd3",
+  "foreground_grain_native_mean_abs_by_region": {
+    "photograph": 4.545752436647174,
+    "background": 3.471801122931442
+  },
+  "owner_new_finishing_approval": "PENDING"
+}
