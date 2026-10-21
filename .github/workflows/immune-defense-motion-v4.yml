@@ -1,0 +1,30 @@
+name: Immune defense restored speech full render V4
+on:
+  push:
+    branches: ['film/immune-defense-sepsis']
+    paths:
+      - 'production/episodes/immune-defense-sepsis/motion-v4/READY.json'
+      - '.github/workflows/immune-defense-motion-v4.yml'
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      SOURCE_COMMIT: ${{ github.sha }}
+      CURIO_REPO_ROOT: ${{ github.workspace }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install native rendering dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install pillow numpy scipy
+      - name: Verify restored voice, render and archive full synchronized review
+        run: python production/episodes/immune-defense-sepsis/motion-v4/build_full.py

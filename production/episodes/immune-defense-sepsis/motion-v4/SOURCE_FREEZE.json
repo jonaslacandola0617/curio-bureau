@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "owner_scope": "Fix broken sound and synchronize full film; approved art retained",
+  "inputs": [
+    {
+      "path": "ASSETS.json",
+      "bytes": 1303,
+      "sha256": "5c257babcba16aa6df3cdf0674a51da755aadd6154a25b472be517f585432e95"
+    },
+    {
+      "path": "AUDIO_REPAIR_SCOPE.json",
+      "bytes": 1161,
+      "sha256": "1e387e9201780e03c2aacd8f87fa0358fb8c4798476d77e710e5b10858a6b12a"
+    },
+    {
+      "path": "COLOR_CORRECTION.json",
+      "bytes": 425,
+      "sha256": "5cb79fac4707e4d9043793beb109e2e356e5126cbb77a6c188826fc0d99350a9"
+    },
+    {
+      "path": "FINISHING_CONTRACT.json",
+      "bytes": 734,
+      "sha256": "a2a90b11f16604ee87a99014f76a3c57d3faffe67ff51309d593da527317ab26"
+    },
+    {
+      "path": "MOTION_REVIEW_TARGETS.json",
+      "bytes": 5430,
+      "sha256": "d16ce28f84c7dda436d7e2071ee882afa4d0e227b926d4daf7d9d6d6cb39cc78"
+    },
+    {
+      "path": "OWNER_APPROVAL.md",
+      "bytes": 750,
+      "sha256": "f6043d460b1a1c3c2b9368f37e10eb29ded580ad3f9c1cf913cd784fd713893e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1613,
+      "sha256": "7915cf91a9e9e150849a4569de0f196c12e04186b25df55ba4b059ccb6de4925"
+    },
+    {
+      "path": "SFX_CUE_SHEET.json",
+      "bytes": 2473,
+      "sha256": "2b99f2c8265833bdb2229d960e5328e74553de50d24f04a1dc8e711140ab7807"
+    },
+    {
+      "path": "V3_DELIVERY.json",
+      "bytes": 1028,
+      "sha256": "edf942851de37253330e3e1017b32fe76fb76ea1308bb0ad0eb8d867cc43f7c9"
+    },
+    {
+      "path": "V3_RECOVERY.json",
+      "bytes": 2216,
+      "sha256": "67e2adf0b31a4eae72c45f5a87e681eb38a5eaf343a1b3d58dc1a685038c44a8"
+    },
+    {
+      "path": "VOICE_SOURCE.json",
+      "bytes": 336,
+      "sha256": "fe00fb3f995e2b0b8eef08bb76eb377ccb76989ac6c6113d32454798b782bb6a"
+    },
+    {
+      "path": "audio/ASR_WORDS.json",
+      "bytes": 17125,
+      "sha256": "1ec53c3a3cdaff86ef1b6111f5d9ac9035817245ead34b61eb5aab8633ae8e54"
+    },
+    {
+      "path": "audio/OLD_CUT_SIGNAL_AUDIT.json",
+      "bytes": 3573,
+      "sha256": "0e9c0c19391f18fa25fac3f84ad76e0a056394ff15219d42180d41ab8b5953fe"
+    },
+    {
+      "path": "audio/ORIGINAL_REFERENCE_WORDS.json",
+      "bytes": 13730,
+      "sha256": "b817abb76f4d64748cdeb94c9aec5bc3b624c0e6f7906ba23e31226dfb82e45b"
+    },
+    {
+      "path": "audio/PREMIX_CLOSING_SPEECH_CHECK.json",
+      "bytes": 1819,
+      "sha256": "a8c6c90a1b01b971176dfbb211a4bf864216a41ec8e8cd0ad3289807f23c5a85"
+    },
+    {
+      "path": "audio/REPAIRED_ASR_WORDS.json",
+      "bytes": 14898,
+      "sha256": "779c5db49fcc1cee80500c275a99cec4186d5b793e106425bc4d7d3ac8501b2e"
+    },
+    {
+      "path": "audio/SAFE_QUIET_CUTS.json",
+      "bytes": 1752,
+      "sha256": "bf0eb08586951604c6c626b9f1b6b716964fbed76b0fe4149ee14bc7ebdacca2"
+    },
+    {
+      "path": "audio/UTTERANCE_ALIGNMENT.json",
+      "bytes": 45564,
+      "sha256": "749f9427f9aaabc24faff72421bdec406cb150b11209651d64a30d589e1a0c38"
+    },
+    {
+      "path": "audio/VOICE_SAMPLE_PRESERVATION.json",
+      "bytes": 1187,
+      "sha256": "6597262814ced673a9c0f475a9d702880db0dcc6f6372a89fc570898e3d06046"
+    },
+    {
+      "path": "audio/bernard-original.mp3",
+      "bytes": 844738,
+      "sha256": "26523cc76adbb16a46125137c07954657d0b7279b83b2b9fd5a1e183af78adc4"
+    },
+    {
+      "path": "audio/original-closing.json",
+      "bytes": 4763,
+      "sha256": "d203d7b985916ac18a093ec905dc71f046a4592aed8a7b85a05ecbe04be8cdb6"
+    },
+    {
+      "path": "audio/v3-encoded-closing.json",
+      "bytes": 4733,
+      "sha256": "4e7363888de6fbb66a0c2463499691452b353b447e64b50e2ebd2a8d5ee9d7bd"
+    },
+    {
+      "path": "audio/v3-encoded-whole.json",
+      "bytes": 14534,
+      "sha256": "e61303a51865e163d899aa2424444e3a113cee57c5f02b677de239955360333c"
+    },
+    {
+      "path": "build_full.py",
+      "bytes": 7106,
+      "sha256": "5178653eafd4f1b38db00825085c2200ea236983404b8754cf9a08e52ae33d0b"
+    },
+    {
+      "path": "download_assets.py",
+      "bytes": 1378,
+      "sha256": "1e0a1abe2911a82ef063eaca4fe997df970334da745c5fc52834f8dca4dad141"
+    },
+    {
+      "path": "episode.json",
+      "bytes": 560,
+      "sha256": "05ccd0133fd9feabaedc518af17bcae967af8fd61e91921241207387c8a97cc5"
+    },
+    {
+      "path": "finish.py",
+      "bytes": 4777,
+      "sha256": "c7dea40a93f42abf28b4d17c5706e0e06e292387c49b5ac81890ed6a3e2950cd"
+    },
+    {
+      "path": "prepare_timeline.py",
+      "bytes": 8688,
+      "sha256": "9fee727e16621efe872c5474a62f86854b60656f64b461e46f48fe9efb35ee9c"
+    },
+    {
+      "path": "prove_runtime.py",
+      "bytes": 4917,
+      "sha256": "c860e4cea418182ca7fe0747fa4698ac8fcb75de7cd30bfc4314e1939995d607"
+    },
+    {
+      "path": "qa_closing_frames.py",
+      "bytes": 2225,
+      "sha256": "3eb506c410acbbee4c934bc41adea59dac7c78a34177ce2b7c0f3875a81af2a2"
+    },
+    {
+      "path": "qa_encoded.py",
+      "bytes": 2798,
+      "sha256": "c0d08d41a53491fcee6817e07f53118923348479e07eed1ec81100596796db2b"
+    },
+    {
+      "path": "qa_encoded_speech_offline.py",
+      "bytes": 2664,
+      "sha256": "e11a84a59a984301822e9fc37783b5004c250b1bafb3fd65fc0f8e7d1ea47b76"
+    },
+    {
+      "path": "qa_native_closing.py",
+      "bytes": 767,
+      "sha256": "4dd9d40b752187a06099b4242ee01d27ca380b9d2134f20056586f19b0160c95"
+    },
+    {
+      "path": "qa_overlay_retention.py",
+      "bytes": 1524,
+      "sha256": "8182d581349a02c9443b32a45d1158d480a1757630954341c167fb9d9bbc8d12"
+    },
+    {
+      "path": "render_art.py",
+      "bytes": 14113,
+      "sha256": "a34db873889bdb520e8a6227a9d72eca7bdab783e3dfb916a0637bda3ad3adf2"
+    },
+    {
+      "path": "render_movie.py",
+      "bytes": 2542,
+      "sha256": "8653bd9f1a7fed1e1d263b671e4c025ce96d4abdf1e2e7f30087c588fe14899b"
+    },
+    {
+      "path": "timeline.json",
+      "bytes": 21635,
+      "sha256": "b44ae77209d5d033e5646f363512e7052284374886f5cd3c7de56b731cfd8122"
+    }
+  ]
+}

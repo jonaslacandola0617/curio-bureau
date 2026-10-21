@@ -1,0 +1,16 @@
+{
+  "owner_report": "V3 still broken; audio broken too. Prior visual-only repair did not resolve the complete problem.",
+  "diagnosis": "Old ASR-derived supposed quiet cuts removed strong speech. Copying the old AAC preserved damaged words.",
+  "remedy": "Restore original Bernard master speech; sample-verified quiet-only cuts, all retained samples identical before gain. Rebuild full scene/caption/SFX timeline.",
+  "preserve_art": [
+    "render_art.py",
+    "render_movie.py",
+    "finish.py",
+    "episode.json",
+    "FINISHING_CONTRACT.json"
+  ],
+  "ending": "Original33native ending frames reused after complete restored speech",
+  "source_speech": "Original natural-speed/pitch Bernard; no regeneration",
+  "word_timing": "Acoustic utterance anchors plus qualified ASR internal estimates; no ASR edit-point inference",
+  "telemetry_incident": "An attempted ONNX-VAD transcription was blocked by automatic review for unexpected Microsoft telemetry. Subsequent analysis disables ONNX VAD and denies network syscalls before importing inference libraries. No external transcription service was invoked; the telemetry payload was not verified or approved."
+}

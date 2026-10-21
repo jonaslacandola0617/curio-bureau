@@ -1,0 +1,57 @@
+{
+  "speed": 1,
+  "pitch_change": false,
+  "sample_rate": 48000,
+  "source_samples": 2530560,
+  "repaired_samples": 2420640,
+  "cuts": [
+    {
+      "start": 2.8800000000000003,
+      "end": 3.38,
+      "peak_dbfs": -79.8398666381836,
+      "actual_quiet": [
+        2.68,
+        3.58
+      ]
+    },
+    {
+      "start": 10.915,
+      "end": 11.375,
+      "peak_dbfs": -80.01400756835938,
+      "actual_quiet": [
+        10.715,
+        11.575
+      ]
+    },
+    {
+      "start": 29.134999999999998,
+      "end": 29.565,
+      "peak_dbfs": -80.64608764648438,
+      "actual_quiet": [
+        28.935,
+        29.765
+      ]
+    },
+    {
+      "start": 43.660000000000004,
+      "end": 44.089999999999996,
+      "peak_dbfs": -79.53836059570312,
+      "actual_quiet": [
+        43.46,
+        44.29
+      ]
+    },
+    {
+      "start": 48.265,
+      "end": 48.735,
+      "peak_dbfs": -80.7060546875,
+      "actual_quiet": [
+        48.065,
+        48.935
+      ]
+    }
+  ],
+  "all_kept_stereo_samples": "BIT_IDENTICAL to original decoded Bernard",
+  "all_removed_samples": "Below-55dBFS stereo peak;200ms original quiet retained on both sides",
+  "rms_or_asr_used_as_cut_boundary": false
+}

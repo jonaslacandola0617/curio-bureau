@@ -1,0 +1,224 @@
+{
+  "file": "immune-render/production/episodes/immune-defense-sepsis/motion-v3/audio/bernard-original.mp3",
+  "start": 34,
+  "model": "faster-whisper-base.en; actual freshly decoded media, no script prompt",
+  "text": "response to it. Sepsis is more complicated than an immune system simply being too strong. Some defenses can also become suppressed. It is a medical emergency. Early treatment matters. Protection depends on control, not just force.",
+  "words": [
+    {
+      "word": "response",
+      "start": 34.0,
+      "end": 34.34,
+      "probability": 0.5428726077079773
+    },
+    {
+      "word": "to",
+      "start": 34.34,
+      "end": 34.62,
+      "probability": 0.9923475980758667
+    },
+    {
+      "word": "it.",
+      "start": 34.62,
+      "end": 34.76,
+      "probability": 0.995672881603241
+    },
+    {
+      "word": "Sepsis",
+      "start": 35.38,
+      "end": 35.92,
+      "probability": 0.7343320101499557
+    },
+    {
+      "word": "is",
+      "start": 35.92,
+      "end": 36.24,
+      "probability": 0.9985209107398987
+    },
+    {
+      "word": "more",
+      "start": 36.24,
+      "end": 36.48,
+      "probability": 0.9977242350578308
+    },
+    {
+      "word": "complicated",
+      "start": 36.48,
+      "end": 37.02,
+      "probability": 0.9978275895118713
+    },
+    {
+      "word": "than",
+      "start": 37.02,
+      "end": 37.54,
+      "probability": 0.9869008660316467
+    },
+    {
+      "word": "an",
+      "start": 37.54,
+      "end": 37.76,
+      "probability": 0.9957664012908936
+    },
+    {
+      "word": "immune",
+      "start": 37.76,
+      "end": 38.0,
+      "probability": 0.9994787573814392
+    },
+    {
+      "word": "system",
+      "start": 38.0,
+      "end": 38.46,
+      "probability": 0.9978147745132446
+    },
+    {
+      "word": "simply",
+      "start": 38.46,
+      "end": 38.82,
+      "probability": 0.9957907795906067
+    },
+    {
+      "word": "being",
+      "start": 38.82,
+      "end": 39.28,
+      "probability": 0.9984734654426575
+    },
+    {
+      "word": "too",
+      "start": 39.28,
+      "end": 39.480000000000004,
+      "probability": 0.9965724945068359
+    },
+    {
+      "word": "strong.",
+      "start": 39.480000000000004,
+      "end": 39.980000000000004,
+      "probability": 0.998553454875946
+    },
+    {
+      "word": "Some",
+      "start": 40.64,
+      "end": 40.84,
+      "probability": 0.9961941242218018
+    },
+    {
+      "word": "defenses",
+      "start": 40.84,
+      "end": 41.3,
+      "probability": 0.9726954102516174
+    },
+    {
+      "word": "can",
+      "start": 41.3,
+      "end": 41.8,
+      "probability": 0.9936029314994812
+    },
+    {
+      "word": "also",
+      "start": 41.8,
+      "end": 42.26,
+      "probability": 0.9966943264007568
+    },
+    {
+      "word": "become",
+      "start": 42.26,
+      "end": 42.62,
+      "probability": 0.9944128394126892
+    },
+    {
+      "word": "suppressed.",
+      "start": 42.62,
+      "end": 43.08,
+      "probability": 0.9942142367362976
+    },
+    {
+      "word": "It",
+      "start": 44.3,
+      "end": 44.4,
+      "probability": 0.9887433052062988
+    },
+    {
+      "word": "is",
+      "start": 44.4,
+      "end": 44.66,
+      "probability": 0.9916021227836609
+    },
+    {
+      "word": "a",
+      "start": 44.66,
+      "end": 44.8,
+      "probability": 0.9931995272636414
+    },
+    {
+      "word": "medical",
+      "start": 44.8,
+      "end": 45.16,
+      "probability": 0.99689120054245
+    },
+    {
+      "word": "emergency.",
+      "start": 45.16,
+      "end": 45.84,
+      "probability": 0.9956828355789185
+    },
+    {
+      "word": "Early",
+      "start": 46.86,
+      "end": 46.86,
+      "probability": 0.9900712966918945
+    },
+    {
+      "word": "treatment",
+      "start": 46.86,
+      "end": 47.32,
+      "probability": 0.9929807186126709
+    },
+    {
+      "word": "matters.",
+      "start": 47.32,
+      "end": 47.8,
+      "probability": 0.9984310269355774
+    },
+    {
+      "word": "Protection",
+      "start": 48.9,
+      "end": 49.1,
+      "probability": 0.9451183676719666
+    },
+    {
+      "word": "depends",
+      "start": 49.1,
+      "end": 49.76,
+      "probability": 0.9983123540878296
+    },
+    {
+      "word": "on",
+      "start": 49.76,
+      "end": 50.16,
+      "probability": 0.9995288848876953
+    },
+    {
+      "word": "control,",
+      "start": 50.16,
+      "end": 50.5,
+      "probability": 0.9960812926292419
+    },
+    {
+      "word": "not",
+      "start": 51.14,
+      "end": 51.58,
+      "probability": 0.996867835521698
+    },
+    {
+      "word": "just",
+      "start": 51.58,
+      "end": 52.08,
+      "probability": 0.9954515099525452
+    },
+    {
+      "word": "force.",
+      "start": 52.08,
+      "end": 52.379999999999995,
+      "probability": 0.9932124614715576
+    }
+  ]
+}

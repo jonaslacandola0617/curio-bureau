@@ -1,0 +1,68 @@
+[
+  {
+    "t": 0,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+    "operation": "Protection question",
+    "kind": "Original designed sound, not authentic biological recording"
+  },
+  {
+    "t": 0.65,
+    "source": "audio/curio_sfx_v1/archive/CB_ARCHIVE_photo_slide_v1.flac",
+    "operation": "Microscopy lens advances",
+    "kind": "Original designed sound, not authentic biological recording"
+  },
+  {
+    "t": 3.0400000000000005,
+    "source": "audio/curio_sfx_v1/archive/CB_ARCHIVE_photo_slide_v1.flac",
+    "operation": "Real cell record selected",
+    "kind": "Original designed sound, not authentic biological recording"
+  },
+  {
+    "t": 10.575,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_causal_reveal_v1.flac",
+    "operation": "Vessel lining selected",
+    "kind": "Original designed sound, not authentic biological recording"
+  },
+  {
+    "t": 13.435,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+    "operation": "Leak mechanism begins",
+    "kind": "Original designed sound, not authentic biological recording"
+  },
+  {
+    "t": 19.79,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_turn_of_story_v1.flac",
+    "operation": "Clotting pathway",
+    "kind": "Original designed sound, not authentic biological recording"
+  },
+  {
+    "t": 23.43,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_causal_reveal_v1.flac",
+    "operation": "Perfusion consequence",
+    "kind": "Original designed sound, not authentic biological recording"
+  },
+  {
+    "t": 28.334999999999997,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+    "operation": "Infection and host response distinguished",
+    "kind": "Original designed sound, not authentic biological recording"
+  },
+  {
+    "t": 34.05,
+    "source": "audio/curio_sfx_v1/archive/CB_ARCHIVE_photo_slide_v1.flac",
+    "operation": "Immune complexity",
+    "kind": "Original designed sound, not authentic biological recording"
+  },
+  {
+    "t": 42.43000000000001,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_doubt_tick_v1.flac",
+    "operation": "Emergency context",
+    "kind": "Original designed sound, not authentic biological recording"
+  },
+  {
+    "t": 46.60500000000001,
+    "source": "audio/curio_sfx_v1/editorial/CB_EDITORIAL_quiet_resolution_v1.flac",
+    "operation": "Control takeaway",
+    "kind": "Original designed sound, not authentic biological recording"
+  }
+]

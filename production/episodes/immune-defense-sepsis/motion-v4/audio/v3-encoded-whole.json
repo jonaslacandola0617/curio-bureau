@@ -1,0 +1,704 @@
+{
+  "file": "immune-render/production/episodes/immune-defense-sepsis/motion-v3/Curio-Immune-Defense-Full-Review-v3.mp4",
+  "start": 0,
+  "model": "faster-whisper-base.en; actual freshly decoded media, no script prompt",
+  "text": "Could your body's defense system hurt you? Your immune system normally helps fight infections. But in sepsis, that response can damage your own organ. Look at the lining of a tiny blood vessel. Inflammatory signals can make this barrier leaky. Fluid moves into surrounding tissue. At the same time, clotting can obstruct small vessels. That can disrupt blood flow, so organs struggle to get the oxygen they need. The infection, Matt. But part of the damage comes from the body's response to it sepsis is more complicated than an immune system simply being too strong Some defenses can also become supreme. It is a medical emergent early treatment matter protection depends on control not just force",
+  "words": [
+    {
+      "word": "Could",
+      "start": 0.0,
+      "end": 0.24,
+      "probability": 0.9487491846084595
+    },
+    {
+      "word": "your",
+      "start": 0.24,
+      "end": 0.48,
+      "probability": 0.9907763600349426
+    },
+    {
+      "word": "body's",
+      "start": 0.48,
+      "end": 1.08,
+      "probability": 0.9898073077201843
+    },
+    {
+      "word": "defense",
+      "start": 1.08,
+      "end": 1.3,
+      "probability": 0.8579239845275879
+    },
+    {
+      "word": "system",
+      "start": 1.3,
+      "end": 1.9,
+      "probability": 0.992220938205719
+    },
+    {
+      "word": "hurt",
+      "start": 1.9,
+      "end": 2.2,
+      "probability": 0.9961035251617432
+    },
+    {
+      "word": "you?",
+      "start": 2.2,
+      "end": 2.52,
+      "probability": 0.9975069165229797
+    },
+    {
+      "word": "Your",
+      "start": 2.9,
+      "end": 3.14,
+      "probability": 0.9827246069908142
+    },
+    {
+      "word": "immune",
+      "start": 3.14,
+      "end": 3.38,
+      "probability": 0.9996015429496765
+    },
+    {
+      "word": "system",
+      "start": 3.38,
+      "end": 3.84,
+      "probability": 0.9995480179786682
+    },
+    {
+      "word": "normally",
+      "start": 3.84,
+      "end": 4.1,
+      "probability": 0.9896479249000549
+    },
+    {
+      "word": "helps",
+      "start": 4.1,
+      "end": 4.56,
+      "probability": 0.9960810542106628
+    },
+    {
+      "word": "fight",
+      "start": 4.56,
+      "end": 4.9,
+      "probability": 0.9968717694282532
+    },
+    {
+      "word": "infections.",
+      "start": 4.9,
+      "end": 5.12,
+      "probability": 0.993026852607727
+    },
+    {
+      "word": "But",
+      "start": 6.1,
+      "end": 6.2,
+      "probability": 0.9818595051765442
+    },
+    {
+      "word": "in",
+      "start": 6.2,
+      "end": 6.44,
+      "probability": 0.9260693788528442
+    },
+    {
+      "word": "sepsis,",
+      "start": 6.44,
+      "end": 7.02,
+      "probability": 0.9857965310414633
+    },
+    {
+      "word": "that",
+      "start": 7.34,
+      "end": 7.62,
+      "probability": 0.9915043711662292
+    },
+    {
+      "word": "response",
+      "start": 7.62,
+      "end": 8.06,
+      "probability": 0.9973896145820618
+    },
+    {
+      "word": "can",
+      "start": 8.06,
+      "end": 8.44,
+      "probability": 0.9981166124343872
+    },
+    {
+      "word": "damage",
+      "start": 8.44,
+      "end": 8.88,
+      "probability": 0.9984486103057861
+    },
+    {
+      "word": "your",
+      "start": 8.88,
+      "end": 9.16,
+      "probability": 0.9958158135414124
+    },
+    {
+      "word": "own",
+      "start": 9.16,
+      "end": 9.44,
+      "probability": 0.9972013235092163
+    },
+    {
+      "word": "organ.",
+      "start": 9.44,
+      "end": 9.76,
+      "probability": 0.9895654916763306
+    },
+    {
+      "word": "Look",
+      "start": 10.24,
+      "end": 10.34,
+      "probability": 0.9955761432647705
+    },
+    {
+      "word": "at",
+      "start": 10.34,
+      "end": 10.46,
+      "probability": 0.9981629252433777
+    },
+    {
+      "word": "the",
+      "start": 10.46,
+      "end": 10.56,
+      "probability": 0.9984732270240784
+    },
+    {
+      "word": "lining",
+      "start": 10.56,
+      "end": 10.9,
+      "probability": 0.9973697662353516
+    },
+    {
+      "word": "of",
+      "start": 10.9,
+      "end": 11.18,
+      "probability": 0.9976048469543457
+    },
+    {
+      "word": "a",
+      "start": 11.18,
+      "end": 11.26,
+      "probability": 0.9957418441772461
+    },
+    {
+      "word": "tiny",
+      "start": 11.26,
+      "end": 11.56,
+      "probability": 0.9982376098632812
+    },
+    {
+      "word": "blood",
+      "start": 11.56,
+      "end": 11.9,
+      "probability": 0.9984752535820007
+    },
+    {
+      "word": "vessel.",
+      "start": 11.9,
+      "end": 12.24,
+      "probability": 0.9982472658157349
+    },
+    {
+      "word": "Inflammatory",
+      "start": 12.58,
+      "end": 13.12,
+      "probability": 0.9560960531234741
+    },
+    {
+      "word": "signals",
+      "start": 13.12,
+      "end": 13.52,
+      "probability": 0.9987437129020691
+    },
+    {
+      "word": "can",
+      "start": 13.52,
+      "end": 13.9,
+      "probability": 0.99591463804245
+    },
+    {
+      "word": "make",
+      "start": 13.9,
+      "end": 14.12,
+      "probability": 0.9980229139328003
+    },
+    {
+      "word": "this",
+      "start": 14.12,
+      "end": 14.34,
+      "probability": 0.9939378499984741
+    },
+    {
+      "word": "barrier",
+      "start": 14.34,
+      "end": 14.64,
+      "probability": 0.9983671307563782
+    },
+    {
+      "word": "leaky.",
+      "start": 14.64,
+      "end": 15.54,
+      "probability": 0.9927919209003448
+    },
+    {
+      "word": "Fluid",
+      "start": 15.8,
+      "end": 16.18,
+      "probability": 0.8335134983062744
+    },
+    {
+      "word": "moves",
+      "start": 16.18,
+      "end": 16.48,
+      "probability": 0.9972313046455383
+    },
+    {
+      "word": "into",
+      "start": 16.48,
+      "end": 16.76,
+      "probability": 0.995134174823761
+    },
+    {
+      "word": "surrounding",
+      "start": 16.76,
+      "end": 17.22,
+      "probability": 0.9304007887840271
+    },
+    {
+      "word": "tissue.",
+      "start": 17.22,
+      "end": 17.64,
+      "probability": 0.9916266202926636
+    },
+    {
+      "word": "At",
+      "start": 17.96,
+      "end": 18.02,
+      "probability": 0.9972127079963684
+    },
+    {
+      "word": "the",
+      "start": 18.02,
+      "end": 18.14,
+      "probability": 0.9980699419975281
+    },
+    {
+      "word": "same",
+      "start": 18.14,
+      "end": 18.36,
+      "probability": 0.9993896484375
+    },
+    {
+      "word": "time,",
+      "start": 18.36,
+      "end": 18.82,
+      "probability": 0.9996508359909058
+    },
+    {
+      "word": "clotting",
+      "start": 19.16,
+      "end": 19.56,
+      "probability": 0.9434981644153595
+    },
+    {
+      "word": "can",
+      "start": 19.56,
+      "end": 19.72,
+      "probability": 0.9978607296943665
+    },
+    {
+      "word": "obstruct",
+      "start": 19.72,
+      "end": 20.0,
+      "probability": 0.9971515536308289
+    },
+    {
+      "word": "small",
+      "start": 20.0,
+      "end": 20.46,
+      "probability": 0.6958860158920288
+    },
+    {
+      "word": "vessels.",
+      "start": 20.46,
+      "end": 20.8,
+      "probability": 0.5353335738182068
+    },
+    {
+      "word": "That",
+      "start": 21.12,
+      "end": 21.24,
+      "probability": 0.9934112429618835
+    },
+    {
+      "word": "can",
+      "start": 21.24,
+      "end": 21.44,
+      "probability": 0.9969244599342346
+    },
+    {
+      "word": "disrupt",
+      "start": 21.44,
+      "end": 21.8,
+      "probability": 0.9995399713516235
+    },
+    {
+      "word": "blood",
+      "start": 21.8,
+      "end": 22.16,
+      "probability": 0.9948862195014954
+    },
+    {
+      "word": "flow,",
+      "start": 22.16,
+      "end": 22.44,
+      "probability": 0.9962648749351501
+    },
+    {
+      "word": "so",
+      "start": 22.78,
+      "end": 23.02,
+      "probability": 0.998083233833313
+    },
+    {
+      "word": "organs",
+      "start": 23.02,
+      "end": 23.4,
+      "probability": 0.9287810921669006
+    },
+    {
+      "word": "struggle",
+      "start": 23.4,
+      "end": 23.88,
+      "probability": 0.997101366519928
+    },
+    {
+      "word": "to",
+      "start": 23.88,
+      "end": 24.16,
+      "probability": 0.9989914298057556
+    },
+    {
+      "word": "get",
+      "start": 24.16,
+      "end": 24.3,
+      "probability": 0.9987223744392395
+    },
+    {
+      "word": "the",
+      "start": 24.3,
+      "end": 24.44,
+      "probability": 0.9969610571861267
+    },
+    {
+      "word": "oxygen",
+      "start": 24.44,
+      "end": 24.88,
+      "probability": 0.9987940788269043
+    },
+    {
+      "word": "they",
+      "start": 24.88,
+      "end": 25.06,
+      "probability": 0.9933713674545288
+    },
+    {
+      "word": "need.",
+      "start": 25.06,
+      "end": 25.26,
+      "probability": 0.9960094690322876
+    },
+    {
+      "word": "The",
+      "start": 25.92,
+      "end": 26.06,
+      "probability": 0.9803943634033203
+    },
+    {
+      "word": "infection,",
+      "start": 26.06,
+      "end": 26.5,
+      "probability": 0.9889412522315979
+    },
+    {
+      "word": "Matt.",
+      "start": 26.76,
+      "end": 27.08,
+      "probability": 0.7629340887069702
+    },
+    {
+      "word": "But",
+      "start": 27.08,
+      "end": 27.58,
+      "probability": 0.3990907669067383
+    },
+    {
+      "word": "part",
+      "start": 27.58,
+      "end": 27.94,
+      "probability": 0.9426603317260742
+    },
+    {
+      "word": "of",
+      "start": 27.94,
+      "end": 28.1,
+      "probability": 0.9995135068893433
+    },
+    {
+      "word": "the",
+      "start": 28.1,
+      "end": 28.2,
+      "probability": 0.9983282685279846
+    },
+    {
+      "word": "damage",
+      "start": 28.2,
+      "end": 28.56,
+      "probability": 0.9981493949890137
+    },
+    {
+      "word": "comes",
+      "start": 28.56,
+      "end": 28.94,
+      "probability": 0.9969513416290283
+    },
+    {
+      "word": "from",
+      "start": 28.94,
+      "end": 29.2,
+      "probability": 0.9992000460624695
+    },
+    {
+      "word": "the",
+      "start": 29.2,
+      "end": 29.32,
+      "probability": 0.9990457892417908
+    },
+    {
+      "word": "body's",
+      "start": 29.32,
+      "end": 29.74,
+      "probability": 0.9915642440319061
+    },
+    {
+      "word": "response",
+      "start": 29.74,
+      "end": 30.08,
+      "probability": 0.9976080656051636
+    },
+    {
+      "word": "to",
+      "start": 30.08,
+      "end": 30.42,
+      "probability": 0.9986152648925781
+    },
+    {
+      "word": "it",
+      "start": 30.42,
+      "end": 30.56,
+      "probability": 0.9992782473564148
+    },
+    {
+      "word": "sepsis",
+      "start": 30.56,
+      "end": 31.44,
+      "probability": 0.790666530529658
+    },
+    {
+      "word": "is",
+      "start": 31.44,
+      "end": 31.72,
+      "probability": 0.9907793998718262
+    },
+    {
+      "word": "more",
+      "start": 31.72,
+      "end": 31.94,
+      "probability": 0.9974536299705505
+    },
+    {
+      "word": "complicated",
+      "start": 31.94,
+      "end": 32.48,
+      "probability": 0.8100816011428833
+    },
+    {
+      "word": "than",
+      "start": 32.48,
+      "end": 33.0,
+      "probability": 0.927672266960144
+    },
+    {
+      "word": "an",
+      "start": 33.0,
+      "end": 33.22,
+      "probability": 0.9939504861831665
+    },
+    {
+      "word": "immune",
+      "start": 33.22,
+      "end": 33.46,
+      "probability": 0.999286949634552
+    },
+    {
+      "word": "system",
+      "start": 33.46,
+      "end": 33.86,
+      "probability": 0.9831044673919678
+    },
+    {
+      "word": "simply",
+      "start": 33.86,
+      "end": 34.28,
+      "probability": 0.8760564923286438
+    },
+    {
+      "word": "being",
+      "start": 34.28,
+      "end": 34.74,
+      "probability": 0.9910962581634521
+    },
+    {
+      "word": "too",
+      "start": 34.74,
+      "end": 34.98,
+      "probability": 0.989521861076355
+    },
+    {
+      "word": "strong",
+      "start": 34.98,
+      "end": 35.42,
+      "probability": 0.9949725866317749
+    },
+    {
+      "word": "Some",
+      "start": 35.42,
+      "end": 35.84,
+      "probability": 0.34763363003730774
+    },
+    {
+      "word": "defenses",
+      "start": 35.84,
+      "end": 36.34,
+      "probability": 0.986033022403717
+    },
+    {
+      "word": "can",
+      "start": 36.34,
+      "end": 36.82,
+      "probability": 0.9949178695678711
+    },
+    {
+      "word": "also",
+      "start": 36.82,
+      "end": 37.2,
+      "probability": 0.9982206225395203
+    },
+    {
+      "word": "become",
+      "start": 37.2,
+      "end": 37.66,
+      "probability": 0.9876227378845215
+    },
+    {
+      "word": "supreme.",
+      "start": 37.66,
+      "end": 37.98,
+      "probability": 0.08533687889575958
+    },
+    {
+      "word": "It",
+      "start": 38.28,
+      "end": 38.42,
+      "probability": 0.9834322333335876
+    },
+    {
+      "word": "is",
+      "start": 38.42,
+      "end": 38.64,
+      "probability": 0.9975761771202087
+    },
+    {
+      "word": "a",
+      "start": 38.64,
+      "end": 38.78,
+      "probability": 0.9984851479530334
+    },
+    {
+      "word": "medical",
+      "start": 38.78,
+      "end": 39.14,
+      "probability": 0.9979161620140076
+    },
+    {
+      "word": "emergent",
+      "start": 39.14,
+      "end": 39.82,
+      "probability": 0.8007793128490448
+    },
+    {
+      "word": "early",
+      "start": 39.82,
+      "end": 40.0,
+      "probability": 0.8849015235900879
+    },
+    {
+      "word": "treatment",
+      "start": 40.0,
+      "end": 40.46,
+      "probability": 0.9530946016311646
+    },
+    {
+      "word": "matter",
+      "start": 40.46,
+      "end": 40.88,
+      "probability": 0.9800758361816406
+    },
+    {
+      "word": "protection",
+      "start": 40.88,
+      "end": 41.3,
+      "probability": 0.5716131925582886
+    },
+    {
+      "word": "depends",
+      "start": 41.3,
+      "end": 41.76,
+      "probability": 0.9917142987251282
+    },
+    {
+      "word": "on",
+      "start": 41.76,
+      "end": 42.18,
+      "probability": 0.9989978671073914
+    },
+    {
+      "word": "control",
+      "start": 42.18,
+      "end": 42.52,
+      "probability": 0.9520138502120972
+    },
+    {
+      "word": "not",
+      "start": 42.52,
+      "end": 43.18,
+      "probability": 0.8038509488105774
+    },
+    {
+      "word": "just",
+      "start": 43.18,
+      "end": 43.66,
+      "probability": 0.9629998803138733
+    },
+    {
+      "word": "force",
+      "start": 43.66,
+      "end": 44.08,
+      "probability": 0.9545854926109314
+    }
+  ]
+}

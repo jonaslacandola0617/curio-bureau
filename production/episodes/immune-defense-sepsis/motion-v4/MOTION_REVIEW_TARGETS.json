@@ -1,0 +1,142 @@
+{
+  "duration": 52.03333333333333,
+  "events": [
+    {
+      "t": 0,
+      "operation": "Independent hand/lens establishes question",
+      "understanding": "Next source-supported proposition; see scene contract"
+    },
+    {
+      "t": 0.7,
+      "operation": "Independent source plane settles; selected feature remains clear",
+      "understanding": "Read source/model relationship after arrival"
+    },
+    {
+      "t": 3.0400000000000005,
+      "operation": "Select real immune-cell record",
+      "understanding": "Next source-supported proposition; see scene contract"
+    },
+    {
+      "t": 3.74,
+      "operation": "Independent source plane settles; selected feature remains clear",
+      "understanding": "Read source/model relationship after arrival"
+    },
+    {
+      "t": 10.575,
+      "operation": "Inspect lining boundary",
+      "understanding": "Next source-supported proposition; see scene contract"
+    },
+    {
+      "t": 11.274999999999999,
+      "operation": "Independent source plane settles; selected feature remains clear",
+      "understanding": "Read source/model relationship after arrival"
+    },
+    {
+      "t": 12.575,
+      "operation": "Lining gap and fluid tracers develop",
+      "understanding": "Visible physical model state change"
+    },
+    {
+      "t": 19.79,
+      "operation": "Introduce local obstruction",
+      "understanding": "Next source-supported proposition; see scene contract"
+    },
+    {
+      "t": 20.49,
+      "operation": "Independent source plane settles; selected feature remains clear",
+      "understanding": "Read source/model relationship after arrival"
+    },
+    {
+      "t": 21.79,
+      "operation": "Clot components accumulate",
+      "understanding": "Visible physical model state change"
+    },
+    {
+      "t": 23.43,
+      "operation": "Follow oxygen delivery consequence",
+      "understanding": "Next source-supported proposition; see scene contract"
+    },
+    {
+      "t": 24.13,
+      "operation": "Independent source plane settles; selected feature remains clear",
+      "understanding": "Read source/model relationship after arrival"
+    },
+    {
+      "t": 25.43,
+      "operation": "Reduced downstream delivery remains distinct",
+      "understanding": "Visible physical model state change"
+    },
+    {
+      "t": 28.334999999999997,
+      "operation": "Revisit actual source and response distinction",
+      "understanding": "Next source-supported proposition; see scene contract"
+    },
+    {
+      "t": 29.034999999999997,
+      "operation": "Independent source plane settles; selected feature remains clear",
+      "understanding": "Read source/model relationship after arrival"
+    },
+    {
+      "t": 34.05,
+      "operation": "Separate inflammation/suppressed defenses",
+      "understanding": "Next source-supported proposition; see scene contract"
+    },
+    {
+      "t": 34.75,
+      "operation": "Independent source plane settles; selected feature remains clear",
+      "understanding": "Read source/model relationship after arrival"
+    },
+    {
+      "t": 42.43000000000001,
+      "operation": "Narration/caption context changes; closing artwork holds without a new entrance",
+      "understanding": "Not counted as new object animation"
+    },
+    {
+      "t": 46.60500000000001,
+      "operation": "Narration/caption context changes; closing artwork holds without a new entrance",
+      "understanding": "Not counted as new object animation"
+    }
+  ],
+  "exceptions": [
+    {
+      "start": 0.7,
+      "end": 3.0400000000000005,
+      "reason": "Source/model reading and spoken qualification hold; blood-cell/tracer motion continues where relevant. No caption or grain counted as a new explanatory event."
+    },
+    {
+      "start": 3.74,
+      "end": 10.575,
+      "reason": "Source/model reading and spoken qualification hold; blood-cell/tracer motion continues where relevant. No caption or grain counted as a new explanatory event."
+    },
+    {
+      "start": 12.575,
+      "end": 19.79,
+      "reason": "Source/model reading and spoken qualification hold; blood-cell/tracer motion continues where relevant. No caption or grain counted as a new explanatory event."
+    },
+    {
+      "start": 25.43,
+      "end": 28.334999999999997,
+      "reason": "Source/model reading and spoken qualification hold; blood-cell/tracer motion continues where relevant. No caption or grain counted as a new explanatory event."
+    },
+    {
+      "start": 29.034999999999997,
+      "end": 34.05,
+      "reason": "Source/model reading and spoken qualification hold; blood-cell/tracer motion continues where relevant. No caption or grain counted as a new explanatory event."
+    },
+    {
+      "start": 34.75,
+      "end": 42.43000000000001,
+      "reason": "Source/model reading and spoken qualification hold; blood-cell/tracer motion continues where relevant. No caption or grain counted as a new explanatory event."
+    },
+    {
+      "start": 42.43000000000001,
+      "end": 46.60500000000001,
+      "reason": "Source/model reading and spoken qualification hold; blood-cell/tracer motion continues where relevant. No caption or grain counted as a new explanatory event."
+    },
+    {
+      "start": 46.60500000000001,
+      "end": 50.93333333333333,
+      "reason": "Source/model reading and spoken qualification hold; blood-cell/tracer motion continues where relevant. No caption or grain counted as a new explanatory event."
+    }
+  ]
+}

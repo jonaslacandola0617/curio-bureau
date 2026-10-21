@@ -1,0 +1,22 @@
+{
+  "file": "Curio-Immune-Defense-Full-Review-v3.mp4",
+  "bytes": 64114352,
+  "sha256": "9c3d256d3f345961f271090d8b4b6775d6d949f1b089e997b831064eda123dda",
+  "status": "ARCHIVED_FULL_MOTION_REVIEW",
+  "duration_seconds": 45.7,
+  "native": [
+    1080,
+    1920
+  ],
+  "delivery_fps": 30,
+  "scene_fps": 12,
+  "owner_art_approval": "APPROVED with saturated yellow/red correction",
+  "owner_motion_full_film_approval": "PENDING",
+  "independent_listening": "PENDING",
+  "exact_caption_boundaries": "Actual audio ASR; independent verification pending",
+  "clinical_wording_human_review": "PENDING",
+  "publication": "NOT AUTHORIZED / NOT PERFORMED",
+  "download_url": "https://github.com/jonaslacandola0617/curio-bureau/releases/download/immune-defense-motion-v3-20261021/Curio-Immune-Defense-Full-Review-v3.mp4",
+  "source_commit": "9ff45d1e649919f4db92646102bf173ab249465d",
+  "repair": "Closing animation clock continues across38.3s and41.2s narration beats; all native frames outside1150\u20131259 and original AAC preserved"
+}

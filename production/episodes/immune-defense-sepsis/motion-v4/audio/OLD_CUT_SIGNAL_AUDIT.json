@@ -1,0 +1,156 @@
+[
+  {
+    "cut": [
+      2.64,
+      3.2199999999999998
+    ],
+    "before": "you?",
+    "after": "Your",
+    "max_removed_20ms_rms_dbfs": -28.223106384277344,
+    "removed_20ms_blocks_above_minus40_dbfs": 1,
+    "removed_peak_dbfs": -22.014972686767578
+  },
+  {
+    "cut": [
+      10.52,
+      11.32
+    ],
+    "before": "organs.",
+    "after": "Look",
+    "max_removed_20ms_rms_dbfs": -29.631370544433594,
+    "removed_20ms_blocks_above_minus40_dbfs": 8,
+    "removed_peak_dbfs": -19.75360107421875
+  },
+  {
+    "cut": [
+      13.78,
+      14.28
+    ],
+    "before": "vessel.",
+    "after": "Inflammatory",
+    "max_removed_20ms_rms_dbfs": -37.47422409057617,
+    "removed_20ms_blocks_above_minus40_dbfs": 2,
+    "removed_peak_dbfs": -26.353591918945312
+  },
+  {
+    "cut": [
+      17.580000000000002,
+      17.94
+    ],
+    "before": "leaky.",
+    "after": "Fluid",
+    "max_removed_20ms_rms_dbfs": -83.9107666015625,
+    "removed_20ms_blocks_above_minus40_dbfs": 0,
+    "removed_peak_dbfs": -76.0189208984375
+  },
+  {
+    "cut": [
+      20.02,
+      20.64
+    ],
+    "before": "tissue.",
+    "after": "At",
+    "max_removed_20ms_rms_dbfs": -25.251113891601562,
+    "removed_20ms_blocks_above_minus40_dbfs": 5,
+    "removed_peak_dbfs": -12.777437210083008
+  },
+  {
+    "cut": [
+      23.8,
+      24.34
+    ],
+    "before": "vessels.",
+    "after": "That",
+    "max_removed_20ms_rms_dbfs": -24.07497787475586,
+    "removed_20ms_blocks_above_minus40_dbfs": 9,
+    "removed_peak_dbfs": -11.37655258178711
+  },
+  {
+    "cut": [
+      28.84,
+      29.279999999999998
+    ],
+    "before": "need.",
+    "after": "The",
+    "max_removed_20ms_rms_dbfs": -33.89134216308594,
+    "removed_20ms_blocks_above_minus40_dbfs": 2,
+    "removed_peak_dbfs": -19.13283348083496
+  },
+  {
+    "cut": [
+      31.0,
+      31.34
+    ],
+    "before": "matters,",
+    "after": "but",
+    "max_removed_20ms_rms_dbfs": -19.371379852294922,
+    "removed_20ms_blocks_above_minus40_dbfs": 15,
+    "removed_peak_dbfs": -7.366708755493164
+  },
+  {
+    "cut": [
+      34.879999999999995,
+      35.24
+    ],
+    "before": "it.",
+    "after": "Sepsis",
+    "max_removed_20ms_rms_dbfs": -76.29273223876953,
+    "removed_20ms_blocks_above_minus40_dbfs": 0,
+    "removed_peak_dbfs": -67.7528305053711
+  },
+  {
+    "cut": [
+      40.08,
+      40.52
+    ],
+    "before": "strong.",
+    "after": "Some",
+    "max_removed_20ms_rms_dbfs": -32.61487579345703,
+    "removed_20ms_blocks_above_minus40_dbfs": 4,
+    "removed_peak_dbfs": -24.60667610168457
+  },
+  {
+    "cut": [
+      43.12,
+      44.160000000000004
+    ],
+    "before": "suppressed.",
+    "after": "It",
+    "max_removed_20ms_rms_dbfs": -14.35055160522461,
+    "removed_20ms_blocks_above_minus40_dbfs": 13,
+    "removed_peak_dbfs": -3.9148130416870117
+  },
+  {
+    "cut": [
+      45.919999999999995,
+      46.7
+    ],
+    "before": "emergency.",
+    "after": "Early",
+    "max_removed_20ms_rms_dbfs": -16.11493682861328,
+    "removed_20ms_blocks_above_minus40_dbfs": 16,
+    "removed_peak_dbfs": -6.5256452560424805
+  },
+  {
+    "cut": [
+      47.839999999999996,
+      49.02
+    ],
+    "before": "matters.",
+    "after": "Protection",
+    "max_removed_20ms_rms_dbfs": -12.500999450683594,
+    "removed_20ms_blocks_above_minus40_dbfs": 14,
+    "removed_peak_dbfs": -4.632152080535889
+  },
+  {
+    "cut": [
+      50.599999999999994,
+      50.96
+    ],
+    "before": "control,",
+    "after": "not",
+    "max_removed_20ms_rms_dbfs": -17.010635375976562,
+    "removed_20ms_blocks_above_minus40_dbfs": 10,
+    "removed_peak_dbfs": -5.6270318031311035
+  }
+]
